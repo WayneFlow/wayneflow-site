@@ -453,7 +453,7 @@ footer.dark{background:#0B1524;padding-block:56px 40px;color:var(--mist)}
 .fgrid p{font-size:15px;max-width:34ch;margin-top:12px}
 .fbase{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px}
 
-.hero h1{max-width:13ch}
+.hero h1{max-width:15ch}
 #wins .wins-wrap::before{background:linear-gradient(90deg,#fff,transparent)}
 #wins .wins-wrap::after{background:linear-gradient(-90deg,#fff,transparent)}
 /* desktop story: keep text column tidy */
@@ -823,8 +823,8 @@ const story = { p:0, target:0, bars:1, burst:0, hidden:false };
   // the four gates
   const gates=new THREE.Group(); const gateMats=[];
   for(let k=0;k<4;k++){ const m=new THREE.MeshBasicMaterial({color:0xC6F432,transparent:true,opacity:0});
-    const t=new THREE.Mesh(new THREE.TorusGeometry(1.9,.035,10,90),m); t.position.x=-6+k*4; t.rotation.y=Math.PI/2; gates.add(t); gateMats.push(m);
-    const m2=new THREE.MeshBasicMaterial({color:0xC6F432,transparent:true,opacity:0}); const h=new THREE.Mesh(new THREE.TorusGeometry(2.3,.01,6,90),m2); h.position.copy(t.position); h.rotation.y=Math.PI/2; gates.add(h); gateMats.push(m2); }
+    const t=new THREE.Mesh(new THREE.TorusGeometry(mobile()?1.9:1.45,.035,10,90),m); t.position.x=mobile()?(-6+k*4):(0.2+k*2.3); t.rotation.y=Math.PI/2; gates.add(t); gateMats.push(m);
+    const m2=new THREE.MeshBasicMaterial({color:0xC6F432,transparent:true,opacity:0}); const h=new THREE.Mesh(new THREE.TorusGeometry(mobile()?2.3:1.8,.01,6,90),m2); h.position.copy(t.position); h.rotation.y=Math.PI/2; gates.add(h); gateMats.push(m2); }
   world.add(gates);
 
   // calendar frame
@@ -848,20 +848,20 @@ const story = { p:0, target:0, bars:1, burst:0, hidden:false };
 
   // each formation returns position, rotation(x,y,z), scale, color for instance i at time t
   function F(k,i,t,o){
-    const r=rnd[i], cx=mobile()?0:4.2, cy=mobile()?2.6:0;
+    const r=rnd[i], cx=mobile()?0:5.2, cy=mobile()?2.6:0;
     switch(k){
       case 0: { // a globe of envelopes, kept clear of the headline
-        const gx=mobile()?0:5.1, gy=mobile()?-4.7:0, GR=mobile()?1.9:3.15;
+        const gx=mobile()?0:5.3, gy=mobile()?-4.7:-.2, GR=mobile()?1.9:2.6;
         const yy=1-2*(i+.5)/N, rr=Math.sqrt(1-yy*yy), ph=i*2.39996+t*.22;
         let nx=Math.cos(ph)*rr, nz=Math.sin(ph)*rr, ny=yy;
         const pop=isR(i)?1+.32*Math.max(0,Math.sin(t*1.3+r[0]*6.28)):1;
         o.x=gx+nx*GR*pop; o.y=gy+ny*GR*pop; o.z=nz*GR*pop;
         o.rx=-Math.asin(ny); o.ry=Math.atan2(nx,nz); o.rz=0; o.s=mobile()?.42:.5; o.c=isR(i)?C.lime:(r[4]>.55?C.ice:C.blue); return; }
       case 1: { // chaos: spray and pray
-        o.x=(r[0]-.5)*24; o.y=((r[1]-.5)*16 - t*(.4+r[2]*.6)) % 8; if(o.y<-8) o.y+=16; o.z=(r[2]-.7)*14;
+        o.x=mobile()?(r[0]-.5)*24:(-1+r[0]*12); o.y=((r[1]-.5)*16 - t*(.4+r[2]*.6)) % 8; if(o.y<-8) o.y+=16; o.z=(r[2]-.7)*14;
         o.rx=r[3]*6+t*r[4]; o.ry=r[4]*6+t*.5; o.rz=r[5]*6; o.s=.6+r[5]*.5; o.c=C.grey; return; }
       case 2: { // the machine: a clean stream through four gates
-        const u=(r[0]+t*.035)%1, x=-10+u*20, ang=r[1]*Math.PI*2+u*14, rad=.25+r[2]*.95;
+        const u=(r[0]+t*.035)%1, x=mobile()?(-10+u*20):(-2.5+u*12.5), ang=r[1]*Math.PI*2+u*14, rad=mobile()?(.25+r[2]*.95):(.2+r[2]*.75);
         o.x=x+(mobile()?0:1.5); o.y=Math.sin(x*.35)*.5+Math.cos(ang)*rad+(mobile()?2.4:0); o.z=Math.sin(ang)*rad;
         o.rx=0; o.ry=-.35; o.rz=Math.cos(x*.35)*.18; o.s=.55; o.c=r[3]>.4?C.blue:C.ice; return; }
       case 3: { // replies: the few come back toward you
@@ -871,11 +871,11 @@ const story = { p:0, target:0, bars:1, burst:0, hidden:false };
         F(2,i,t,o); o.z-=4; o.s=.45; o.c=C.dim; return; }
       case 4: { // calendar
         if(isR(i)){ const col=i%5, row=Math.floor(i/5);
-          o.x=cx-2+col*1.0; o.y=cy+2.38-row*.68+(mobile()?0:0); o.z=1.2; o.rx=0; o.ry=0; o.rz=0; o.s=.95; o.c=C.lime; return; }
+          o.x=cx-2+col*1.0; o.y=cy+2.38-row*.68; o.z=mobile()?1.2:.2; o.rx=0; o.ry=0; o.rz=0; o.s=.95; o.c=C.lime; return; }
         F(2,i,t,o); o.z-=14; o.s=.35; o.c=C.dim; return; }
       case 5: { // revenue bars
         if(isR(i)){ const [b,l]=barOf[i];
-          o.x=cx-3+b*1.2; o.y=(mobile()?.6:-2.6)+l*.36*story.bars; o.z=.6; o.rx=-Math.PI/2+.0; o.ry=0; o.rz=0; o.s=.95; o.c=C.lime;
+          o.x=cx-2.6+b*1.05; o.y=(mobile()?.6:-2.6)+l*.36*story.bars; o.z=.6; o.rx=-Math.PI/2+.0; o.ry=0; o.rz=0; o.s=.95; o.c=C.lime;
           o.rx=-.25; return; }
         o.x=(r[0]-.5)*30; o.y=-12; o.z=-20; o.rx=0; o.ry=0; o.rz=0; o.s=0; o.c=C.gone; return; }
     }
@@ -897,7 +897,7 @@ const story = { p:0, target:0, bars:1, burst:0, hidden:false };
     for(let i=0;i<N;i++){
       const d=rnd[i][5]*.35, ti=ease(Math.min(1,Math.max(0,(f-d)/(1-.35))));
       F(k,i,time,A); F(k+1,i,time,B);
-      const bx=story.burst*(A.x-(mobile()?0:5.1))*1.6, by=story.burst*(A.y-(mobile()?-4.7:0))*1.6;
+      const bx=story.burst*(A.x-(mobile()?0:5.3))*1.6, by=story.burst*(A.y-(mobile()?-4.7:-.2))*1.6;
       v.set(A.x+(B.x-A.x)*ti+bx*(1-ti), A.y+(B.y-A.y)*ti+by*(1-ti), A.z+(B.z-A.z)*ti);
       e.set(A.rx+(B.rx-A.rx)*ti, A.ry+(B.ry-A.ry)*ti, A.rz+(B.rz-A.rz)*ti); q.setFromEuler(e);
       const s=A.s+(B.s-A.s)*ti; sc.set(s,s,s);
@@ -909,9 +909,9 @@ const story = { p:0, target:0, bars:1, burst:0, hidden:false };
     gateMats.forEach((m,j)=>{ m.opacity=gw*(j%2?.25:.9); });
     gates.position.set(mobile()?0:1.5, mobile()?2.4:0, 0); gates.children.forEach((g2,j)=>{ g2.rotation.x=time*(j%2?-.6:.4); });
     const ow=Math.max(0,1-p*1.4); orbMats.forEach(m=>m.opacity=ow*.7); glow.material.opacity=ow;
-    orb.position.set(mobile()?0:5.1, mobile()?-4.7:0, -.5); orb.scale.setScalar(mobile()?.62:1); orb.rotation.y=time*.15; orb.children[0].rotation.z=time*.3; orb.children[1].rotation.z=-time*.2;
-    calMat.opacity=win(p,4,.8)*.55; cal.position.set(mobile()?0:4.2, (mobile()?2.6:0)+.04, 1.15);
-    floorMat.opacity=win(p,5,1)*.35; floor.position.set(mobile()?0:4.2, mobile()?.3:-2.9, 0);
+    orb.position.set(mobile()?0:5.3, mobile()?-4.7:-.2, -.5); orb.scale.setScalar(mobile()?.62:.83); orb.rotation.y=time*.15; orb.children[0].rotation.z=time*.3; orb.children[1].rotation.z=-time*.2;
+    calMat.opacity=win(p,4,.8)*.55; cal.position.set(mobile()?0:5.2, (mobile()?2.6:0)+.04, mobile()?1.15:.15);
+    floorMat.opacity=win(p,5,1)*.35; floor.position.set(mobile()?0:5.1, mobile()?.3:-2.9, 0);
     world.rotation.y=mx*.25 + (p>4.5?(p-4.5)*.5*-.5:0); world.rotation.x=my*.15 + (p>4.5?(p-4.5)*.25:0);
     R.render(scene,cam);
   })(last);
