@@ -1,0 +1,62 @@
+# Switches the site to wayneflow.com on its own once the DNS records are live.
+# Runs every 30 minutes. While DNS is not ready it does nothing, so the
+# github.io link keeps working. When DNS points at GitHub Pages it adds the
+# CNAME file (custom domain), then turns on HTTPS once GitHub's certificate is ready.
+name: Connect wayneflow.com
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+env:
+  DOMAIN: wayneflow.com
+
+jobs:
+  connect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check DNS
+        id: dns
+        run: |
+          A=$(dig +short "$DOMAIN" A @1.1.1.1 | sort | tr '\n' ' ')
+          W=$(dig +short "www.$DOMAIN" CNAME @1.1.1.1 | tr '\n' ' ')
+          echo "A records: $A"
+          echo "www CNAME: $W"
+          ok=false
+          for ip in 185.199.108.153 185.199.109.153 185.199.110.153 185.199.111.153; do
+            case " $A " in *" $ip "*) ok=true ;; esac
+          done
+          echo "ready=$ok" >> "$GITHUB_OUTPUT"
+
+      - name: Add custom domain (CNAME file)
+        if: steps.dns.outputs.ready == 'true'
+        run: |
+          if [ "$(cat CNAME 2>/dev/null)" != "$DOMAIN" ]; then
+            echo "$DOMAIN" > CNAME
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add CNAME
+            git commit -m "Connect $DOMAIN (DNS is live)"
+            git push
+          else
+            echo "CNAME already set"
+          fi
+
+      - name: Set domain and turn on HTTPS
+        if: steps.dns.outputs.ready == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api -X PUT "repos/${{ github.repository }}/pages" -f cname="$DOMAIN" || true
+          state=$(gh api "repos/${{ github.repository }}/pages" --jq '.https_certificate.state // "none"' || echo none)
+          echo "Certificate state: $state"
+          if [ "$state" = "approved" ]; then
+            gh api -X PUT "repos/${{ github.repository }}/pages" -F https_enforced=true || true
+          fi
