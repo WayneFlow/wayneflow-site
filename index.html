@@ -453,7 +453,7 @@ footer.dark{background:#0B1524;padding-block:56px 40px;color:var(--mist)}
 .fgrid p{font-size:15px;max-width:34ch;margin-top:12px}
 .fbase{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px}
 
-.hero h1{max-width:15ch}
+.hero h1{max-width:15ch;font-size:clamp(40px,5.8vw,82px)}
 #wins .wins-wrap::before{background:linear-gradient(90deg,#fff,transparent)}
 #wins .wins-wrap::after{background:linear-gradient(-90deg,#fff,transparent)}
 /* desktop story: keep text column tidy */
@@ -871,7 +871,7 @@ const story = { p:0, target:0, bars:1, burst:0, hidden:false };
         F(2,i,t,o); o.z-=4; o.s=.45; o.c=C.dim; return; }
       case 4: { // calendar
         if(isR(i)){ const col=i%5, row=Math.floor(i/5);
-          o.x=cx-2+col*1.0; o.y=cy+2.38-row*.68; o.z=mobile()?1.2:.2; o.rx=0; o.ry=0; o.rz=0; o.s=.95; o.c=C.lime; return; }
+          const ks=mobile()?1:.82; o.x=cx+(-2+col*1.0)*ks; o.y=cy+(2.38-row*.68)*ks; o.z=mobile()?1.2:.2; o.rx=0; o.ry=0; o.rz=0; o.s=.95*ks; o.c=C.lime; return; }
         F(2,i,t,o); o.z-=14; o.s=.35; o.c=C.dim; return; }
       case 5: { // revenue bars
         if(isR(i)){ const [b,l]=barOf[i];
@@ -910,7 +910,7 @@ const story = { p:0, target:0, bars:1, burst:0, hidden:false };
     gates.position.set(mobile()?0:1.5, mobile()?2.4:0, 0); gates.children.forEach((g2,j)=>{ g2.rotation.x=time*(j%2?-.6:.4); });
     const ow=Math.max(0,1-p*1.4); orbMats.forEach(m=>m.opacity=ow*.7); glow.material.opacity=ow;
     orb.position.set(mobile()?0:5.3, mobile()?-4.7:-.2, -.5); orb.scale.setScalar(mobile()?.62:.83); orb.rotation.y=time*.15; orb.children[0].rotation.z=time*.3; orb.children[1].rotation.z=-time*.2;
-    calMat.opacity=win(p,4,.8)*.55; cal.position.set(mobile()?0:5.2, (mobile()?2.6:0)+.04, mobile()?1.15:.15);
+    calMat.opacity=win(p,4,.8)*.55; cal.position.set(mobile()?0:5.2, (mobile()?2.6:0)+.04, mobile()?1.15:.15); cal.scale.setScalar(mobile()?1:.82);
     floorMat.opacity=win(p,5,1)*.35; floor.position.set(mobile()?0:5.1, mobile()?.3:-2.9, 0);
     world.rotation.y=mx*.25 + (p>4.5?(p-4.5)*.5*-.5:0); world.rotation.x=my*.15 + (p>4.5?(p-4.5)*.25:0);
     R.render(scene,cam);
