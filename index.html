@@ -13,22 +13,41 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Schibsted+Grotesk:wght@400;500;600;700&display=swap">
 <style>
 /* Layout: one fixed 3D stage of envelopes behind the page. Six story panels scroll over it and the envelopes act out each one: swarm, chaos, the machine, replies, calendar, revenue. Then offer, proof, booking. */
-:root{
-  --ink:#050605;
-  --ink-2:#0E110D;
-  --ink-3:#161A14;
-  --line:#252A21;
-  --blue:#4C8DFF;
-  --ice:#EEF2E6;
-  --mist:#939B8B;
-  --lime:#C6F432;
+:root,.light{
+  --ink:#F6F7F3;      /* paper */
+  --ink-2:#FFFFFF;    /* cards */
+  --ink-3:#EFF1EA;    /* insets */
+  --line:#E0E4DA;     /* hairlines */
+  --blue:#2F6FF0;
+  --ice:#111712;      /* text */
+  --mist:#596156;     /* secondary text */
+  --lime:#4F7A00;     /* accent text on light */
+  --fill:#C6F432;     /* accent fills */
+  --on-fill:#0B0D0A;
+  --soft:#2C3329;
+  --shadow:0 1px 2px rgba(17,23,18,.04),0 12px 32px -12px rgba(17,23,18,.12);
   --display:"Archivo", "Arial Narrow", system-ui, sans-serif;
   --body:"Schibsted Grotesk", "Helvetica Neue", system-ui, sans-serif;
+  color-scheme:light;
+}
+.dark{
+  --ink:#0F1B2D;      /* deep slate navy */
+  --ink-2:#16253C;
+  --ink-3:#1C2E49;
+  --line:#26395A;
+  --blue:#5B93FF;
+  --ice:#EEF3FA;
+  --mist:#A3B3CB;
+  --lime:#C6F432;
+  --fill:#C6F432;
+  --soft:#D3DCEA;
+  --shadow:0 20px 50px -20px rgba(0,0,0,.45);
   color-scheme:dark;
 }
+.light,.dark{color:var(--ice)}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;overflow-x:clip}
-body{background:var(--ink);color:var(--ice);font-family:var(--body);font-size:17px;line-height:1.6;overflow-x:hidden}
+body{background:#0F1B2D;color:var(--ice);font-family:var(--body);font-size:17px;line-height:1.6;overflow-x:hidden}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--ink)}
 a{color:inherit}
 .wrap{max-width:1180px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
@@ -39,7 +58,7 @@ h3{font-weight:700;letter-spacing:-.01em;line-height:1.15}
 p{margin:0}
 .lime{color:var(--lime)}
 .strike{position:relative;color:var(--mist)}
-.strike::after{content:"";position:absolute;left:-2%;right:-2%;top:52%;height:.09em;background:var(--lime);transform:rotate(-3deg)}
+.strike::after{content:"";position:absolute;left:-2%;right:-2%;top:52%;height:.09em;background:var(--fill);transform:rotate(-3deg)}
 .kicker{font-family:var(--display);font-stretch:125%;font-weight:600;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--lime)}
 .num{font-variant-numeric:tabular-nums}
 :focus-visible{outline:2px solid var(--lime);outline-offset:3px;border-radius:6px}
@@ -49,7 +68,7 @@ p{margin:0}
 .menu a:not(.btn){position:relative;text-decoration:none;font-size:15px;color:var(--mist);padding:8px 12px;border-radius:999px;transition:color .2s,background .2s}
 .menu a:not(.btn):hover{color:var(--ice);background:var(--ink-3)}
 .menu a.on{color:var(--ice)}
-.menu a.on::after{content:"";position:absolute;left:12px;right:12px;bottom:2px;height:2px;border-radius:2px;background:var(--lime)}
+.menu a.on::after{content:"";position:absolute;left:12px;right:12px;bottom:2px;height:2px;border-radius:2px;background:var(--fill)}
 .menu .mcta{display:none}
 .navr{display:flex;align-items:center;gap:10px}
 .burger{display:none;width:44px;height:44px;border-radius:12px;border:1px solid var(--line);background:var(--ink-2);cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:5px}
@@ -59,7 +78,7 @@ p{margin:0}
 .burger[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
 @media (max-width:900px){
   .burger{display:flex}
-  .menu{position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;gap:4px;padding:14px max(20px,env(safe-area-inset-right,0px)) 22px max(20px,env(safe-area-inset-left,0px));background:var(--ink);border-bottom:1px solid var(--line);box-shadow:0 30px 60px -20px #000;transform:translateY(-8px);opacity:0;pointer-events:none;transition:opacity .25s,transform .25s}
+  .menu{position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;gap:4px;padding:14px max(20px,env(safe-area-inset-right,0px)) 22px max(20px,env(safe-area-inset-left,0px));background:var(--ink);border-bottom:1px solid var(--line);box-shadow:0 30px 60px -20px rgba(20,30,10,.25);transform:translateY(-8px);opacity:0;pointer-events:none;transition:opacity .25s,transform .25s}
   .menu.open{opacity:1;transform:none;pointer-events:auto}
   .menu a:not(.btn){font-family:var(--display);font-weight:700;font-size:22px;color:var(--ice);padding:12px 4px;border-radius:0;border-bottom:1px solid var(--line)}
   .menu a:not(.btn):hover{background:none}
@@ -78,12 +97,12 @@ nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;backdrop-filter:
 nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:13px}
 .logo{display:flex;align-items:center;gap:9px;font-family:var(--display);font-weight:800;font-stretch:115%;font-size:20px;text-decoration:none;letter-spacing:-.02em}
 .logo svg{width:28px;height:28px}
-.prog{position:absolute;left:0;bottom:-1px;height:2px;width:var(--p,0%);background:var(--lime);box-shadow:0 0 12px var(--lime)}
+.prog{position:absolute;left:0;bottom:-1px;height:2px;width:var(--p,0%);background:var(--fill);box-shadow:none}
 .where{font-size:14px;color:var(--mist);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
 .where b{color:var(--ice);font-weight:500}
 @media (max-width:700px){.where{display:none}}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 24px;border-radius:999px;font-weight:600;font-size:16px;text-decoration:none;border:1px solid transparent;transition:transform .25s,box-shadow .25s,border-color .25s;cursor:pointer;font-family:var(--body)}
-.btn-hot{background:var(--lime);color:var(--ink)}
+.btn-hot{background:var(--fill);color:var(--on-fill)}
 .btn-hot:hover{transform:translateY(-2px);box-shadow:0 12px 40px -10px var(--lime)}
 .btn-ghost{border-color:var(--line);color:var(--ice);background:color-mix(in srgb,var(--ink) 60%,transparent)}
 .btn-ghost:hover{border-color:var(--mist)}
@@ -97,7 +116,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px
 .panel{max-width:540px;position:relative}
 .panel::before{content:"";position:absolute;inset:-60px -80px;z-index:-1;background:radial-gradient(ellipse at 40% 50%,color-mix(in srgb,var(--ink) 92%,transparent) 30%,transparent 72%);pointer-events:none}
 .scn h2{margin-top:14px}
-.scn .body{margin-top:22px;font-size:clamp(17px,1.6vw,19px);color:#c9cfc0;max-width:46ch}
+.scn .body{margin-top:22px;font-size:clamp(17px,1.6vw,19px);color:var(--soft);max-width:46ch}
 .scn .body b{color:var(--ice);font-weight:600}
 .scn .body+.body{margin-top:14px}
 .hero h1{font-size:clamp(42px,6.8vw,92px);margin-top:18px;max-width:11ch}
@@ -107,7 +126,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px
 .trust div span{font-size:13px;color:var(--mist)}
 .scroll-cue{display:flex;align-items:center;gap:10px;margin-top:44px;font-size:13px;color:var(--mist)}
 .scroll-cue i{width:22px;height:34px;border:1.5px solid var(--line);border-radius:12px;position:relative}
-.scroll-cue i::after{content:"";position:absolute;left:50%;top:7px;width:3px;height:7px;margin-left:-1.5px;border-radius:2px;background:var(--lime);animation:cue 1.6s infinite}
+.scroll-cue i::after{content:"";position:absolute;left:50%;top:7px;width:3px;height:7px;margin-left:-1.5px;border-radius:2px;background:var(--fill);animation:cue 1.6s infinite}
 @keyframes cue{60%{transform:translateY(10px);opacity:0}}
 .gates{display:grid;gap:10px;margin-top:26px}
 .gate{display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:start;padding:14px 16px;border-radius:14px;border:1px solid var(--line);background:color-mix(in srgb,var(--ink-2) 85%,transparent);backdrop-filter:blur(8px)}
@@ -123,7 +142,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px
 .calc .top{display:flex;justify-content:space-between;gap:10px}
 .calc .top b{font-variant-numeric:tabular-nums}
 input[type=range]{width:100%;accent-color:var(--lime);height:24px}
-.out{padding:18px;border-radius:14px;background:var(--lime);color:var(--ink)}
+.out{padding:18px;border-radius:14px;background:var(--fill);color:var(--on-fill)}
 .out span{font-size:14px;font-weight:600}
 .out b{display:block;font-family:var(--display);font-weight:900;font-stretch:110%;font-size:clamp(36px,4.4vw,50px);line-height:1.05;letter-spacing:-.02em}
 .out small{display:block;font-size:14px;margin-top:2px;opacity:.75}
@@ -178,20 +197,20 @@ input[type=range]{width:100%;accent-color:var(--lime);height:24px}
 .sub2 h3{font-size:clamp(26px,3vw,36px);font-stretch:110%;font-weight:800}
 .sub2 p{color:var(--mist);max-width:44ch}
 .stage3{position:relative;height:clamp(240px,46vw,500px);perspective:1400px;overflow:hidden}
-.shot{position:absolute;left:50%;top:50%;width:min(620px,80vw);margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:#fff;box-shadow:0 40px 80px -30px #000;transition:transform .9s cubic-bezier(.2,.8,.2,1),opacity .9s,filter .9s;cursor:pointer}
+.shot{position:absolute;left:50%;top:50%;width:min(620px,80vw);margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:#fff;box-shadow:0 40px 80px -30px rgba(20,30,10,.3);transition:transform .9s cubic-bezier(.2,.8,.2,1),opacity .9s,filter .9s;cursor:pointer}
 .shot img{display:block;width:100%;max-height:min(420px,44vw);object-fit:cover;object-position:top}
 .shot figcaption{position:absolute;left:10px;bottom:10px;font-size:12px;padding:6px 11px;border-radius:999px;background:var(--ink);color:var(--ice)}
 .ctrl{display:flex;justify-content:center;gap:12px;margin-top:20px;align-items:center}
 .ctrl button{width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:var(--ink-2);color:var(--ice);font-size:18px;cursor:pointer}
 .pips{display:flex;gap:6px}
 .pips i{width:8px;height:8px;border-radius:4px;background:var(--line);transition:all .3s}
-.pips i.on{width:24px;background:var(--lime)}
+.pips i.on{width:24px;background:var(--fill)}
 .win{margin-top:70px;display:grid;grid-template-columns:1fr 1.1fr;gap:40px;align-items:center;padding:34px;border-radius:24px;border:1px solid var(--line);background:var(--ink-2)}
 @media (max-width:860px){.win{grid-template-columns:1fr;gap:24px;padding:24px}}
 .win h3{font-size:clamp(26px,3vw,34px);font-stretch:110%;font-weight:800;margin-top:12px}
 .win p{color:var(--mist);margin-top:12px}
 .chat{display:grid;gap:10px}
-.bub{padding:14px 18px;border-radius:4px 18px 18px 18px;background:var(--ice);color:var(--ink);font-size:16px;max-width:420px}
+.bub{padding:14px 18px;border-radius:4px 18px 18px 18px;background:var(--ink-3);color:var(--ice);font-size:16px;max-width:420px}
 .bub small{display:block;text-align:right;font-size:11px;opacity:.55;margin-top:4px}
 .bub.me{justify-self:end;border-radius:18px 4px 18px 18px;background:var(--blue);color:#fff;max-width:260px;font-size:15px}
 
@@ -208,12 +227,12 @@ input[type=range]{width:100%;accent-color:var(--lime);height:24px}
 .faq summary::after{content:"+";color:var(--lime);font-size:24px;line-height:1;transition:transform .3s}
 .faq details[open] summary::after{transform:rotate(45deg)}
 .faq details p{color:var(--mist);margin-top:12px;max-width:62ch}
-.final{position:relative;overflow:hidden;margin-top:90px;border-radius:30px;padding:clamp(44px,7vw,96px) clamp(22px,5vw,70px);background:radial-gradient(circle at 30% 20%,#E4FF7A,var(--lime) 45%,#93C51A);color:var(--ink);text-align:center;transform-origin:50% 100%}
+.final{position:relative;overflow:hidden;margin-top:90px;border-radius:30px;padding:clamp(44px,7vw,96px) clamp(22px,5vw,70px);background:radial-gradient(circle at 30% 20%,#E4FF7A,#C6F432 45%,#9FD11F);color:var(--on-fill);text-align:center;transform-origin:50% 100%}
 .final h2{max-width:15ch;margin:0 auto;font-size:clamp(36px,5.6vw,72px)}
 .final p{max-width:46ch;margin:20px auto 0;font-size:18px;opacity:.78}
 .final .ctas{justify-content:center}
-.final .btn-hot{background:var(--ink);color:var(--lime)}
-.final .btn-ghost{border-color:color-mix(in srgb,var(--ink) 35%,transparent);color:var(--ink);background:transparent}
+.final .btn-hot{background:var(--on-fill);color:#C6F432}
+.final .btn-ghost{border-color:color-mix(in srgb,var(--on-fill) 35%,transparent);color:var(--on-fill);background:transparent}
 .final .env{width:120px;margin:0 auto 26px;animation:bob 3s ease-in-out infinite}
 @keyframes bob{50%{transform:translateY(-10px) rotate(-4deg)}}
 footer{padding-block:44px;color:var(--mist);font-size:14px;background:var(--ink)}
@@ -221,7 +240,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
 .counter{position:fixed;left:max(16px,env(safe-area-inset-left,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:45;display:flex;align-items:center;gap:10px;padding:9px 14px;border-radius:999px;background:color-mix(in srgb,var(--ink-2) 90%,transparent);backdrop-filter:blur(10px);border:1px solid var(--line);font-size:13px;color:var(--mist);max-width:calc(100% - 32px);transition:opacity .4s,transform .4s}
 .counter b{color:var(--lime);font-variant-numeric:tabular-nums;font-weight:700}
-.counter .d{width:8px;height:8px;border-radius:50%;background:var(--lime);box-shadow:0 0 10px var(--lime);animation:bl 1.4s infinite;flex:none}
+.counter .d{width:8px;height:8px;border-radius:50%;background:var(--fill);box-shadow:0 0 10px var(--lime);animation:bl 1.4s infinite;flex:none}
 .counter.hide{opacity:0;transform:translateY(20px);pointer-events:none}
 @keyframes bl{50%{opacity:.3}}
 @media (max-width:640px){.counter{font-size:12px;padding:7px 12px}}
@@ -244,18 +263,18 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .study:nth-child(even) .shotwrap{order:2}
 @media (max-width:900px){.study,.study:nth-child(even){grid-template-columns:1fr;gap:28px}.study:nth-child(even) .shotwrap{order:0}}
 .shotwrap{perspective:1600px;min-width:0}
-.frame{border-radius:16px;overflow:visible;background:var(--ink-3);border:1px solid var(--line);box-shadow:0 60px 120px -40px color-mix(in srgb,var(--lime) 30%,transparent),0 30px 60px -30px #000;transform-origin:50% 50%;will-change:transform;cursor:zoom-in}
+.frame{border-radius:16px;overflow:visible;background:#fff;border:1px solid var(--line);box-shadow:0 60px 120px -50px color-mix(in srgb,var(--fill) 70%,transparent),0 30px 60px -30px rgba(20,30,10,.25);transform-origin:50% 50%;will-change:transform;cursor:zoom-in}
 .fbar{display:flex;align-items:center;gap:12px;padding:10px 14px;border-bottom:1px solid var(--line);font-size:12px;color:var(--mist)}
 .fbar .dots{display:flex;gap:6px}.fbar .dots i{width:9px;height:9px;border-radius:50%;background:var(--line)}
 .fbar .live{margin-left:auto;color:var(--lime);display:flex;gap:6px;align-items:center}
-.fbar .live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--lime);box-shadow:0 0 8px var(--lime);animation:bl 1.4s infinite}
+.fbar .live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--fill);box-shadow:0 0 8px var(--lime);animation:bl 1.4s infinite}
 .imgbox{position:relative;border-radius:0 0 16px 16px;overflow:hidden;background:#fff}
 .imgbox img{display:block;width:100%;height:auto}
 .pin{position:absolute;transform:translate(-50%,-50%);z-index:2;pointer-events:none}
-.pin::before,.pin::after{content:"";position:absolute;left:50%;top:50%;width:64px;height:40px;margin:-20px 0 0 -32px;border:2.5px solid var(--lime);border-radius:12px;box-shadow:0 0 0 4px color-mix(in srgb,var(--lime) 25%,transparent)}
+.pin::before,.pin::after{content:"";position:absolute;left:50%;top:50%;width:64px;height:40px;margin:-20px 0 0 -32px;border:2.5px solid #7BAA00;border-radius:12px;box-shadow:0 0 0 4px rgba(198,244,50,.45)}
 .pin::after{animation:ping 2s ease-out infinite;box-shadow:none}
 @keyframes ping{to{transform:scale(1.5);opacity:0}}
-.pin b{position:absolute;top:50%;left:calc(50% + 40px);transform:translateY(-50%);white-space:nowrap;background:var(--ink);color:var(--lime);font-size:12px;font-weight:700;padding:5px 10px;border-radius:999px;border:1px solid var(--lime);box-shadow:0 6px 20px -6px #000}
+.pin b{position:absolute;top:50%;left:calc(50% + 40px);transform:translateY(-50%);white-space:nowrap;background:#10130E;color:#C6F432;font-size:12px;font-weight:700;padding:5px 10px;border-radius:999px;border:1px solid var(--lime);box-shadow:0 6px 20px -6px rgba(20,30,10,.3)}
 .pin.r b{left:auto;right:calc(50% + 40px)}
 @media (max-width:640px){.pin::before,.pin::after{width:40px;height:26px;margin:-13px 0 0 -20px;border-width:2px}.pin b{font-size:10px;padding:3px 7px;left:calc(50% + 25px)}.pin.r b{right:calc(50% + 25px)}}
 
@@ -271,7 +290,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .steps3{margin-top:22px;display:grid;gap:12px}
 .steps3 div{display:grid;grid-template-columns:96px 1fr;gap:14px;font-size:15px}
 .steps3 dt{color:var(--lime);font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.08em;padding-top:2px}
-.steps3 dd{margin:0;color:#c9cfc0}
+.steps3 dd{margin:0;color:var(--soft)}
 .foryou{margin-top:22px;padding:16px 18px;border-radius:14px;border-left:3px solid var(--lime);background:color-mix(in srgb,var(--lime) 8%,var(--ink-2));font-size:16px}
 .foryou b{color:var(--lime)}
 .more{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:90px}
@@ -309,22 +328,168 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   *,*::before,*::after{animation:none!important;transition:none!important}
   .reveal.pre{transform:none;opacity:1}
 }
+
+/* ===== v4: professional layout pass ===== */
+.wrap{max-width:1240px}
+h1,h2{font-stretch:104%;letter-spacing:-.022em}
+h2{font-size:clamp(32px,4.2vw,56px);line-height:1.04}
+.hero h1{font-stretch:106%}
+.kicker{font-stretch:115%;letter-spacing:.14em}
+.sec{padding-block:clamp(72px,9vw,128px)}
+.sec.solid{background:var(--ink)}
+.sec.alt{background:#FFFFFF}
+.dark .btn-ghost{background:color-mix(in srgb,var(--ink) 50%,transparent)}
+.light .btn-ghost{background:#fff;border-color:var(--line)}
+.light .btn-hot:hover{box-shadow:0 12px 30px -10px rgba(120,160,0,.55)}
+nav{background:color-mix(in srgb,#0F1B2D 88%,transparent)}
+.dark .panel::before{background:radial-gradient(ellipse at 40% 50%,color-mix(in srgb,var(--ink) 94%,transparent) 30%,transparent 72%)}
+.light .case,.light .nf,.light .youdo,.light .win,.light .mini,.light .item .ic,.light .bigstats div,.light .gate{box-shadow:var(--shadow)}
+.light .case,.light .win,.light .nf,.light .youdo,.light .mini,.light .bigstats div{background:#fff}
+.light .foryou{background:color-mix(in srgb,var(--fill) 22%,#fff);border-left-color:#86B300}
+.light .foryou b{color:var(--lime)}
+.light .frame{box-shadow:0 40px 80px -40px rgba(17,23,18,.35),0 0 0 1px var(--line)}
+.light .fbar{background:#FAFBF8}
+.light .fbar .live::before{box-shadow:none}
+
+/* split layouts */
+.split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,5vw,80px);align-items:start}
+.split.center{align-items:center}
+@media (max-width:960px){.split{grid-template-columns:1fr}}
+.sticky{position:sticky;top:110px}
+@media (max-width:960px){.sticky{position:static}}
+.lead{font-size:clamp(17px,1.5vw,19px);color:var(--mist);margin-top:18px;max-width:52ch}
+.lead b{color:var(--ice);font-weight:600}
+
+/* proof header */
+.proofhead{margin-bottom:clamp(56px,7vw,96px)}
+.hype{margin:0;grid-template-columns:1fr 1fr;border-radius:20px}
+.hype div{padding:26px 24px}
+.light .hype{background:var(--line);box-shadow:var(--shadow)}
+.light .hype div{background:#fff}
+.hype small{display:block;font-size:12px;color:var(--mist);margin-top:4px}
+.note0{display:flex;gap:12px;align-items:flex-start;margin-top:22px;padding:14px 16px;border-radius:14px;background:var(--ink-3);font-size:14px;color:var(--mist);max-width:54ch}
+.note0 svg{flex:none;margin-top:2px}
+
+/* offer */
+.youdo{flex-direction:column;align-items:flex-start;margin-top:32px}
+.youdo .btn{margin-top:4px}
+.stack{border-top:0;gap:14px}
+.item{grid-template-columns:56px 1fr;padding:22px;border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:var(--shadow)}
+.item .tag{display:none}
+.item .ic{width:48px;height:48px;border-radius:14px;background:color-mix(in srgb,var(--fill) 30%,#fff);border:0}
+.item .ic svg path,.item .ic svg circle,.item .ic svg rect{stroke:#3E6100}
+.item h3{font-size:clamp(18px,1.6vw,21px)}
+.item p{font-size:15.5px}
+.days{margin-top:clamp(56px,7vw,90px);padding:34px;border-radius:24px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}
+.days::before{left:34px;right:34px;top:53px}
+@media (max-width:860px){.days{padding:24px}.days::before{left:43px;top:24px;bottom:24px}}
+.daystitle{grid-column:1/-1;margin-bottom:26px;font-family:var(--display);font-weight:800;font-size:22px}
+.days .daystitle{display:none}
+
+/* reviews / wins marquee */
+.wins-wrap{position:relative;margin-top:44px;display:grid;gap:16px}
+.wins-wrap::before,.wins-wrap::after{content:"";position:absolute;top:0;bottom:0;width:min(120px,12vw);z-index:2;pointer-events:none}
+.wins-wrap::before{left:0;background:linear-gradient(90deg,var(--ink),transparent)}
+.wins-wrap::after{right:0;background:linear-gradient(-90deg,var(--ink),transparent)}
+.lane{overflow:hidden}
+.lane .run{display:flex;gap:16px;width:max-content;animation:lane 70s linear infinite}
+.lane.rev .run{animation-direction:reverse;animation-duration:80s}
+.lane:hover .run{animation-play-state:paused}
+@keyframes lane{to{transform:translateX(-50%)}}
+.wcard{width:min(360px,80vw);flex:none;padding:22px;border-radius:18px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);display:flex;flex-direction:column;gap:12px}
+.wcard .top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.wcard .src{font-size:12px;font-weight:600;color:var(--mist);text-transform:uppercase;letter-spacing:.08em}
+.wcard .chip{font-size:11px;font-weight:700;padding:4px 9px;border-radius:999px;background:color-mix(in srgb,var(--fill) 35%,#fff);color:#2F4A00}
+.wcard .big{font-family:var(--display);font-weight:900;font-size:36px;line-height:1;letter-spacing:-.02em}
+.wcard p{color:var(--soft);font-size:15px}
+.wcard .stars{color:#E3A008;letter-spacing:2px;font-size:15px}
+.wcard .who{display:flex;align-items:center;gap:10px;margin-top:auto;padding-top:6px;border-top:1px solid var(--line)}
+.wcard .who i{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--ink-3);font-style:normal;font-weight:700;font-size:14px}
+.wcard .who b{display:block;font-size:14px}
+.wcard .who span{font-size:13px;color:var(--mist)}
+.revnote{margin-top:22px;font-size:14px;color:var(--mist)}
+
+/* book / faq */
+.nfl{display:grid;gap:12px;margin-top:30px}
+.nfl .nf{padding:20px 22px;display:grid;grid-template-columns:36px 1fr;gap:4px 14px;align-items:start}
+.nfl .nf .x{grid-row:span 2;color:#D9483B}
+.nfl .nf h3{margin:4px 0 0;font-size:18px}
+.nfl .nf p{margin:0;font-size:15px}
+.faq{margin-top:0;border-top:1px solid var(--line)}
+.faq summary{font-size:18px}
+.faqhead{font-family:var(--display);font-weight:800;font-size:clamp(24px,2.4vw,30px);margin-bottom:12px}
+
+/* final CTA band */
+.finalband{padding-block:clamp(72px,9vw,120px);background:radial-gradient(circle at 85% 20%,rgba(91,147,255,.22),transparent 50%),radial-gradient(circle at 10% 90%,rgba(198,244,50,.12),transparent 45%),var(--ink)}
+.finalband h2{font-size:clamp(34px,4.6vw,62px);max-width:14ch}
+.finalband .ctas{margin-top:30px}
+.ticks{display:grid;gap:10px;margin-top:26px}
+.ticks div{display:flex;gap:10px;align-items:center;color:var(--soft);font-size:16px}
+.ticks svg{flex:none}
+.bookcard{border-radius:24px;background:#fff;color:#111712;padding:26px;box-shadow:0 40px 90px -30px rgba(0,0,0,.55);max-width:460px;justify-self:end;width:100%}
+@media (max-width:960px){.bookcard{justify-self:stretch;max-width:none}}
+.bookcard .bc-top{display:flex;align-items:center;gap:12px;padding-bottom:16px;border-bottom:1px solid #E0E4DA}
+.bookcard .bc-top i{width:44px;height:44px;border-radius:12px;background:#0F1B2D;display:grid;place-items:center}
+.bookcard .bc-top b{display:block;font-family:var(--display);font-size:18px}
+.bookcard .bc-top span{font-size:13px;color:#596156}
+.bc-meta{display:flex;gap:16px;flex-wrap:wrap;margin:16px 0;font-size:14px;color:#596156}
+.bc-days{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.bc-days button{font:600 13px var(--body);padding:10px 0;border-radius:10px;border:1px solid #E0E4DA;background:#fff;color:#111712;cursor:pointer;display:grid;gap:2px}
+.bc-days button small{font-weight:500;font-size:11px;color:#596156}
+.bc-days button.on{background:#0F1B2D;color:#fff;border-color:#0F1B2D}
+.bc-days button.on small{color:#A3B3CB}
+.bc-slots{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+.bc-slots a{display:block;text-align:center;padding:11px 0;border-radius:10px;border:1px solid #CFE79A;color:#3E6100;font-weight:600;font-size:14px;text-decoration:none;transition:background .2s}
+.bc-slots a:hover{background:#C6F432;color:#0B0D0A}
+.bc-foot{margin-top:14px;font-size:12px;color:#596156;text-align:center}
+
+/* footer */
+footer.dark{background:#0B1524;padding-block:56px 40px;color:var(--mist)}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+@media (max-width:760px){.fgrid{grid-template-columns:1fr 1fr}.fgrid>div:first-child{grid-column:1/-1}}
+.fgrid h4{margin:0 0 12px;font-family:var(--display);font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ice)}
+.fgrid a{display:block;text-decoration:none;color:var(--mist);padding:4px 0;font-size:15px}
+.fgrid a:hover{color:var(--ice)}
+.fgrid p{font-size:15px;max-width:34ch;margin-top:12px}
+.fbase{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px}
+
+.hero h1{max-width:13ch}
+#wins .wins-wrap::before{background:linear-gradient(90deg,#fff,transparent)}
+#wins .wins-wrap::after{background:linear-gradient(-90deg,#fff,transparent)}
+/* desktop story: keep text column tidy */
+@media (min-width:961px){
+  .scn .panel{max-width:520px}
+  .hero .panel{max-width:600px}
+}
+@media (max-width:860px){
+  .counter{display:none}
+  .dark .panel{background:color-mix(in srgb,var(--ink) 86%,transparent)}
+}
+@media (max-width:640px){
+  .hype div{padding:18px 16px}
+  .item{padding:18px;grid-template-columns:44px 1fr;gap:14px}
+  .item .ic{width:40px;height:40px}
+  .bookcard{padding:20px}
+  .bc-days{gap:6px}
+}
 </style>
+
 
 </head>
 <body>
 <canvas id="stage" aria-hidden="true"></canvas>
 
-<nav>
+<nav class="dark">
   <div class="wrap">
     <a class="logo" href="#top" aria-label="Wayneflow home">
       <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3 9l5 15 5-11 3 7 3-7 5 11 5-15" fill="none" stroke="var(--lime)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
       Wayneflow
     </a>
     <div class="menu" id="menu">
+      <a href="#proof">Case studies</a>
       <a href="#how">How it works</a>
       <a href="#offer">What you get</a>
-      <a href="#proof">Case studies</a>
+      <a href="#wins">Wins</a>
       <a href="#faq">FAQ</a>
       <a class="btn btn-hot btn-sm mcta" href="https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers" target="_blank" rel="noopener">Book a call</a>
     </div>
@@ -338,7 +503,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 </nav>
 
 <main>
-<div class="story" id="story">
+<div class="story dark" id="story">
 
   <section class="scn hero" id="top" data-label="Cold email that books calls">
     <div class="wrap"><div class="panel">
@@ -357,23 +522,22 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     </div></div>
   </section>
 
-<section class="sec solid" id="proof" data-label="Proof">
+<section class="sec solid light" id="proof" data-label="Proof">
     <div class="wrap">
-      <div class="head reveal">
-        <span class="kicker">Receipts</span>
-        <h2>Don't believe us. <span class="lime">Look at the dashboards.</span></h2>
-        <p>Real screenshots from our sending tools and calendar. We pulled the five best and broke each one down: what we set out to do, what we did, and what happened. Tap any screenshot to see it full size.</p>
+      <div class="split center proofhead">
+        <div class="reveal">
+          <span class="kicker">Live client results</span>
+          <h2>Don't take our word for it. <span class="lime">Look at the dashboards.</span></h2>
+          <p class="lead">These are unedited screenshots from our sending tools and calendar. We picked our five best campaigns and broke each one down: the goal, what we did, and what happened.</p>
+          <div class="note0"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 8v5M12 16v.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Why do the dashboards show 0 opens? We turn open tracking off on purpose. Tracking pixels push emails into spam, so we judge everything on replies and booked calls.</span></div>
+        </div>
+        <div class="hype reveal">
+          <div><b class="num" data-to="612951">612,951</b><span>cold emails sent</span></div>
+          <div><b class="num" data-to="18477">18,477</b><span>replies from real people</span></div>
+          <div class="hot"><b class="num" data-to="4107">4,107</b><span>interested buyers</span></div>
+          <div class="hot"><b class="num" data-to="25">25</b><span>sales calls in one week</span></div>
+        </div>
       </div>
-      <div class="hype reveal">
-        <div><b class="num" data-to="612951">612,951</b><span>cold emails sent</span></div>
-        <div><b class="num" data-to="18477">18,477</b><span>replies from real people</span></div>
-        <div class="hot"><b class="num" data-to="4107">4,107</b><span>interested buyers</span></div>
-        <div class="hot"><b class="num" data-to="25">25</b><span>sales calls in one week</span></div>
-      </div>
-    </div>
-    <div class="wrap">
-      <div class="head reveal" style="margin-bottom:28px"><span class="kicker">Live client results</span><h2>Five campaigns. Five results. <span class="lime">All real.</span></h2></div>
-      <p style="color:var(--mist);font-size:15px;margin:0 0 70px;max-width:70ch">Why do the dashboards show 0 opens? We switch open tracking off on purpose. Tracking pixels push emails into spam, so we judge everything on replies and booked calls.</p>
       <div class="studies">
         <article class="study reveal">
           <div class="shotwrap"><div class="frame" data-zoom="sprint" data-cap="96,408 emails. Four days. 25 sales calls." role="button" tabindex="0" aria-label="View screenshot full size">
@@ -503,13 +667,20 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
 </div>
 
-<section class="sec solid" id="offer" data-label="What you get">
+<section class="sec solid light" id="offer" data-label="What you get">
   <div class="wrap">
-    <div class="head reveal">
-      <span class="kicker">The offer</span>
-      <h2>We build and run the whole machine. You take the calls.</h2>
-      <p>No hiring an SDR. No learning software. No writing a single email. Here's everything we handle for you.</p>
-    </div>
+    <div class="split">
+      <div class="sticky">
+        <div class="reveal">
+          <span class="kicker">What you get</span>
+          <h2>We build and run the whole machine. <span class="lime">You take the calls.</span></h2>
+          <p class="lead">No hiring an SDR. No learning software. No writing a single email. Everything on the right is done for you, every week.</p>
+        </div>
+        <div class="youdo reveal">
+          <div><span class="kicker">Your job</span><h3>Show up. Close. That's it.</h3><p>One kickoff call and a quick look at the emails before launch. Then you take the meetings.</p></div>
+          <a class="btn btn-hot" href="https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers" target="_blank" rel="noopener">Book a strategy call</a>
+        </div>
+      </div>
     <div class="stack">
       <div class="item reveal"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" fill="none" stroke="var(--lime)" stroke-width="2"/><path d="M16 16l5 5" stroke="var(--lime)" stroke-width="2" stroke-linecap="round"/></svg></div><div><h3>A list of buyers, not names</h3><p>We map every company that fits your best clients and find the person who signs. Each email is verified before we send.</p></div><span class="tag">Done for you</span></div>
       <div class="item reveal"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z" fill="none" stroke="var(--lime)" stroke-width="2"/></svg></div><div><h3>Inboxes that land in the inbox</h3><p>Separate domains and warmed accounts, so your main domain stays clean no matter what.</p></div><span class="tag">Done for you</span></div>
@@ -518,50 +689,93 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <div class="item reveal"><div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3" fill="none" stroke="var(--lime)" stroke-width="2"/><path d="M3 10h18M8 3v4M16 3v4" stroke="var(--lime)" stroke-width="2" stroke-linecap="round"/></svg></div><div><h3>Calls booked on your calendar</h3><p>With a short brief before each one: who they are, what they asked, why they replied.</p></div><span class="tag">Done for you</span></div>
       <div class="item reveal"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2" fill="none" stroke="var(--lime)" stroke-width="2" stroke-linecap="round"/></svg></div><div><h3>A weekly scoreboard</h3><p>Sent, replies, interested, booked. Plain numbers every week so you always know where you stand.</p></div><span class="tag">Done for you</span></div>
     </div>
+    </div>
     <div class="days reveal">
       <div class="day"><i></i><span class="t">Day 1</span><h3>Kickoff call</h3><p>We learn your offer, your best clients and what a deal is worth.</p></div>
       <div class="day"><i></i><span class="t">Days 2 to 14</span><h3>Build and warm up</h3><p>List built and verified. New inboxes warming so they hit the inbox.</p></div>
       <div class="day"><i></i><span class="t">Days 15 to 21</span><h3>Write and approve</h3><p>You see the emails before anything goes out. Then we launch.</p></div>
       <div class="day"><i></i><span class="t">Day 22 onward</span><h3>Calls start landing</h3><p>Replies handled daily. Booked calls show up on your calendar.</p></div>
     </div>
-    <div class="youdo reveal">
-      <div><span class="kicker">Your job</span><h3>Show up. Close. That's it.</h3><p>One kickoff call and a quick look at the emails before launch. Then you take the meetings.</p></div>
-      <a class="btn btn-hot" href="https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers" target="_blank" rel="noopener">I want this</a>
-    </div>
   </div>
 </section>
 
-<section class="sec solid" id="book" data-label="Book your call">
+<section class="sec alt light" id="wins" data-label="Recent wins">
   <div class="wrap">
-    <div class="head reveal">
-      <span class="kicker">Read this first</span>
-      <h2>This isn't for everyone.</h2>
-      <p>We'd rather tell you now than waste your time on a call.</p>
+    <div class="split center">
+      <div class="reveal">
+        <span class="kicker">Recent wins</span>
+        <h2>The numbers keep <span class="lime">coming in.</span></h2>
+      </div>
+      <p class="lead reveal" style="margin-top:0">Every card below is a real result from our own dashboards, booking inbox and team chat. Client reviews are being collected and will be added here with names and companies.</p>
     </div>
-    <div class="notfor">
-      <div class="nf reveal"><div class="x">✕</div><h3>You can't take on more clients</h3><p>If your team is already at capacity, more calls just means more stress. Fix delivery first.</p></div>
-      <div class="nf reveal"><div class="x">✕</div><h3>Your deals are tiny</h3><p>If a client is worth less than $1,000, the math of outbound gets hard. We'll tell you honestly on the call.</p></div>
-      <div class="nf reveal"><div class="x">✕</div><h3>You need calls by Friday</h3><p>Inboxes need about two weeks to warm up. This is a machine you build once and run for years, not a quick hit.</p></div>
-    </div>
-    <div class="faq reveal" id="faq">
+  </div>
+  <div class="wins-wrap" id="winsWrap" aria-label="Recent results">
+    <div class="lane"><div class="run" id="lane1"></div></div>
+    <div class="lane rev"><div class="run" id="lane2"></div></div>
+  </div>
+</section>
+
+<section class="sec solid light" id="book" data-label="Is this for you">
+  <div class="wrap">
+    <div class="split">
+      <div class="reveal">
+        <span class="kicker">Read this first</span>
+        <h2>This isn't for everyone.</h2>
+        <p class="lead">We'd rather tell you now than waste your time on a call.</p>
+        <div class="nfl">
+          <div class="nf reveal"><div class="x">✕</div><h3>You can't take on more clients</h3><p>If your team is already at capacity, more calls just means more stress. Fix delivery first.</p></div><div class="nf reveal"><div class="x">✕</div><h3>Your deals are tiny</h3><p>If a client is worth less than $1,000, the math of outbound gets hard. We'll tell you honestly on the call.</p></div><div class="nf reveal"><div class="x">✕</div><h3>You need calls by Friday</h3><p>Inboxes need about two weeks to warm up. This is a machine you build once and run for years, not a quick hit.</p></div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="faqhead">Questions we get asked</div>
+    <div class="faq" id="faq">
       <details><summary>Will this hurt my company's email?</summary><p>No. We send from separate domains set up for you. Your main domain is never used for outreach.</p></details>
       <details><summary>How fast will I see calls?</summary><p>About three weeks to set up and warm the inboxes. Replies usually start in the first week after launch.</p></details>
       <details><summary>How much of my time does this take?</summary><p>One kickoff call, a quick review of the emails, then taking the calls we book.</p></details>
       <details><summary>Can you guarantee a number of calls?</summary><p>Not before we've seen your market. After the first call you'll get a realistic estimate based on campaigns like the ones above.</p></details>
+      <details><summary>What do you need from me to start?</summary><p>A 20 minute call about your offer and best clients, and a quick approval of the emails before we launch. We handle the rest.</p></details>
     </div>
-    <div class="final reveal" id="final"><span id="bookcta" style="position:absolute;top:-90px"></span>
-      <svg class="env" viewBox="0 0 120 80" aria-hidden="true"><rect x="3" y="3" width="114" height="74" rx="10" fill="#050605"/><path d="M8 10l52 36 52-36" fill="none" stroke="#C6F432" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <h2>Your buyers are checking their inbox right now.</h2>
-      <p>Book a 20 minute call. We'll look at your offer and tell you straight how many calls a month we think we can get you.</p>
-      <div class="ctas"><a class="btn btn-hot" href="https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers" target="_blank" rel="noopener">Book my 20 minute call</a><a class="btn btn-ghost" href="#proof">See the case studies again</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="finalband dark" id="final" data-label="Book your call"><span id="bookcta" style="position:absolute;margin-top:-90px"></span>
+  <div class="wrap">
+    <div class="split center">
+      <div class="reveal">
+        <span class="kicker">Your next step</span>
+        <h2 style="margin-top:14px">Your buyers are checking their inbox <span class="lime">right now.</span></h2>
+        <p class="lead">Book a 20 minute call. We'll look at your offer and tell you straight how many calls a month we think we can get you.</p>
+        <div class="ticks">
+          <div><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#C6F432"/><path d="M7 12l3 3 7-7" fill="none" stroke="#0B0D0A" stroke-width="2.4" stroke-linecap="round"/></svg>A clear plan for your market, free</div>
+          <div><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#C6F432"/><path d="M7 12l3 3 7-7" fill="none" stroke="#0B0D0A" stroke-width="2.4" stroke-linecap="round"/></svg>An honest yes or no on whether cold email fits</div>
+          <div><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#C6F432"/><path d="M7 12l3 3 7-7" fill="none" stroke="#0B0D0A" stroke-width="2.4" stroke-linecap="round"/></svg>No pitch deck, no pressure</div>
+        </div>
+        <div class="ctas"><a class="btn btn-hot" href="https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers" target="_blank" rel="noopener">Book my 20 minute call</a><a class="btn btn-ghost" href="#proof">See the results again</a></div>
+      </div>
+      <div class="bookcard reveal" aria-label="Booking preview">
+        <div class="bc-top"><i><svg width="22" height="22" viewBox="0 0 32 32" aria-hidden="true"><path d="M3 9l5 15 5-11 3 7 3-7 5 11 5-15" fill="none" stroke="#C6F432" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></i><div><b>Strategy call with Wayneflow</b><span>Pick a time that works for you</span></div></div>
+        <div class="bc-meta"><span>⏱ 20 minutes</span><span>📹 Video call</span><span>🌎 Your time zone</span></div>
+        <div class="bc-days" id="bcDays"></div>
+        <div class="bc-slots" id="bcSlots"></div>
+        <p class="bc-foot">Times open on our booking page</p>
+      </div>
     </div>
   </div>
 </section>
 </main>
 
-<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Screenshot"><button type="button" id="lbX" aria-label="Close">✕</button><div><img id="lbImg" alt=""><p id="lbCap"></p></div></div>
-<div class="counter hide" id="counter"><span class="d"></span><span>Emails we'd have sent while you read this: <b id="cnt">0</b></span></div>
-<footer><div class="wrap"><span>© 2026 Wayneflow</span><span>Cold email and LinkedIn outreach for B2B agencies</span></div></footer>
+<div class="lb dark" id="lb" role="dialog" aria-modal="true" aria-label="Screenshot"><button type="button" id="lbX" aria-label="Close">✕</button><div><img id="lbImg" alt=""><p id="lbCap"></p></div></div>
+<div class="counter hide dark" id="counter"><span class="d"></span><span>Emails we'd have sent while you read this: <b id="cnt">0</b></span></div>
+<footer class="dark"><div class="wrap">
+  <div class="fgrid">
+    <div><a class="logo" href="#top" style="padding:0;color:var(--ice)"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3 9l5 15 5-11 3 7 3-7 5 11 5-15" fill="none" stroke="#C6F432" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>Wayneflow</a><p>Done-for-you cold email and LinkedIn outreach that books sales calls for B2B agencies and service businesses.</p></div>
+    <div><h4>Explore</h4><a href="#proof">Case studies</a><a href="#how">How it works</a><a href="#offer">What you get</a><a href="#faq">FAQ</a></div>
+    <div><h4>Get started</h4><a href="https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers" target="_blank" rel="noopener">Book a strategy call</a><a href="#wins">Recent wins</a></div>
+  </div>
+  <div class="fbase"><span>© 2026 Wayneflow. All rights reserved.</span><span>Built for B2B teams in the US and Canada</span></div>
+</div></footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script>
@@ -581,7 +795,7 @@ const story = { p:0, target:0, bars:1, burst:0, hidden:false };
 
   // envelope texture
   const tc=document.createElement('canvas'); tc.width=256; tc.height=168; const g=tc.getContext('2d');
-  g.fillStyle='#ffffff'; g.beginPath(); g.roundRect ? g.roundRect(4,4,248,160,16) : g.rect(4,4,248,160); g.fill();
+  g.fillStyle='#ffffff'; g.strokeStyle='rgba(15,27,45,.18)'; g.lineWidth=5; g.beginPath(); g.roundRect ? g.roundRect(4,4,248,160,16) : g.rect(4,4,248,160); g.fill(); g.stroke();
   g.strokeStyle='rgba(0,0,0,.28)'; g.lineWidth=7; g.lineJoin='round';
   g.beginPath(); g.moveTo(12,14); g.lineTo(128,96); g.lineTo(244,14); g.stroke();
   g.lineWidth=4; g.strokeStyle='rgba(0,0,0,.14)'; g.beginPath(); g.moveTo(12,160); g.lineTo(100,84); g.moveTo(244,160); g.lineTo(156,84); g.stroke();
@@ -597,7 +811,7 @@ const story = { p:0, target:0, bars:1, burst:0, hidden:false };
   const SD=900, sp=new Float32Array(SD*3);
   for(let i=0;i<SD;i++){ sp[i*3]=(Math.random()-.5)*60; sp[i*3+1]=(Math.random()-.5)*40; sp[i*3+2]=-10-Math.random()*40; }
   const sg=new THREE.BufferGeometry(); sg.setAttribute('position',new THREE.BufferAttribute(sp,3));
-  scene.add(new THREE.Points(sg,new THREE.PointsMaterial({color:0x6f7c66,size:.06,transparent:true,opacity:.6})));
+  scene.add(new THREE.Points(sg,new THREE.PointsMaterial({color:0x5d7396,size:.06,transparent:true,opacity:.7})));
 
   // globe orbit rings and glow
   const orb=new THREE.Group(); const orbMats=[];
@@ -629,7 +843,7 @@ const story = { p:0, target:0, bars:1, burst:0, hidden:false };
 
   const rnd=Array.from({length:N},()=>[Math.random(),Math.random(),Math.random(),Math.random(),Math.random(),Math.random()]);
   const isR=i=>i<RN;
-  const C={ ice:new THREE.Color(0xEEF2E6), blue:new THREE.Color(0x4C8DFF), dim:new THREE.Color(0x1d2a4a), grey:new THREE.Color(0x3a3f37), lime:new THREE.Color(0xC6F432), gone:new THREE.Color(0x000000) };
+  const C={ ice:new THREE.Color(0xEEF2E6), blue:new THREE.Color(0x4C8DFF), dim:new THREE.Color(0x2a4166), grey:new THREE.Color(0x56657c), lime:new THREE.Color(0xC6F432), gone:new THREE.Color(0x0F1B2D) };
   const barH=[2,4,5,7,9,13]; const barOf=[]; { let i=0; barH.forEach((h,b)=>{ for(let l=0;l<h;l++) barOf[i++]=[b,l]; }); }
 
   // each formation returns position, rotation(x,y,z), scale, color for instance i at time t
@@ -732,6 +946,43 @@ const story = { p:0, target:0, bars:1, burst:0, hidden:false };
   addEventListener('scroll',upd,{passive:true}); upd();
 })();
 
+/* recent wins marquee: real results now, real client reviews later */
+(function(){
+  // Add real client reviews here, e.g. {quote:"...", name:"Full Name", role:"Founder, Company", src:"Upwork"}
+  const REVIEWS=[];
+  const WINS=[
+    {src:'Sending dashboard',chip:'Sep 7 to 11',big:'25 calls',p:'Booked in one week from a 96,408 email sprint. Bounce rate 0.45%, zero unsubscribes.'},
+    {src:'Booking inbox',chip:'Sep 23',big:'18 calls',p:'Discovery meetings booked in a single day, straight onto the calendar.'},
+    {src:'Glasa campaign',chip:'Largest list',big:'6.2%',p:'Reply rate across 110,084 contacts. 6,828 real conversations started.'},
+    {src:'Workspace',chip:'Jun to Oct',big:'2,146',p:'Interested leads from 2,429 replies. Only 6 unsubscribes in five months.'},
+    {src:'Team chat',chip:'New client',big:'$1k to $1.5k',p:'Monthly retainer signed after the requirements call and pricing.'},
+    {src:'Q1 campaign',chip:'Jan to Mar',big:'1,061',p:'Interested buyers in one quarter, roughly 80 every week.'},
+    {src:'LinkedIn outreach',chip:'All time',big:'154',p:'Replies from 1,628 InMails and 351 accepted connection requests.'},
+    {src:'Glasa campaign',chip:'Smaller list',big:'214',p:'Sales opportunities from 31,560 contacts.'},
+    {src:'Campaign dashboard',chip:'31K sent',big:'1,710',p:'Replies from 31,001 emails on a single campaign.'},
+    {src:'Glasa campaign',chip:'10K list',big:'103',p:'Opportunities from just 10,284 contacts.'}
+  ];
+  const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const rev=r=>`<article class="wcard"><div class="stars" aria-label="5 out of 5">★★★★★</div><p>${esc(r.quote)}</p><div class="who"><i>${esc(r.name.split(' ').map(w=>w[0]).join('').slice(0,2))}</i><div><b>${esc(r.name)}</b><span>${esc(r.role)}${r.src?' · '+esc(r.src):''}</span></div></div></article>`;
+  const win=w=>`<article class="wcard"><div class="top"><span class="src">${esc(w.src)}</span><span class="chip">${esc(w.chip)}</span></div><div class="big">${esc(w.big)}</div><p>${esc(w.p)}</p></article>`;
+  const cards=[...REVIEWS.map(rev),...WINS.map(win)];
+  const half=Math.ceil(cards.length/2), a=cards.slice(0,half), b=cards.slice(half);
+  const fill=(id,list)=>{ const el=document.getElementById(id); if(el) el.innerHTML=list.join('')+list.join(''); };
+  fill('lane1',a); fill('lane2',b.length?b:a);
+})();
+
+/* booking card preview: next five weekdays, slots open Calendly */
+(function(){
+  const CAL='https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers';
+  const dWrap=document.getElementById('bcDays'), sWrap=document.getElementById('bcSlots'); if(!dWrap) return;
+  const days=[]; const d=new Date(); while(days.length<5){ d.setDate(d.getDate()+1); if(d.getDay()%6) days.push(new Date(d)); }
+  const slots=[['10:00 AM','11:30 AM','1:00 PM','3:30 PM'],['9:30 AM','12:00 PM','2:00 PM','4:30 PM'],['10:30 AM','1:30 PM','3:00 PM','5:00 PM']];
+  function draw(k){ dWrap.innerHTML=days.map((x,i)=>`<button type="button" class="${i===k?'on':''}" data-i="${i}">${x.toLocaleDateString('en-US',{weekday:'short'})}<small>${x.toLocaleDateString('en-US',{month:'short',day:'numeric'})}</small></button>`).join('');
+    sWrap.innerHTML=slots[k%3].map(t=>`<a href="${CAL}" target="_blank" rel="noopener">${t}</a>`).join('');
+    dWrap.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>draw(+b.dataset.i))); }
+  draw(0);
+})();
+
 /* calculator, also scales the 3D bars */
 (function(){
   const $=id=>document.getElementById(id), fmt=n=>'$'+Math.round(n).toLocaleString('en-US');
@@ -777,11 +1028,11 @@ if(false && !reduce && matchMedia('(hover:hover)').matches) document.querySelect
 
 /* live counter at our sprint pace (96,408 in 4 days) */
 (function(){ const el=document.getElementById('cnt'), box=document.getElementById('counter'), t0=performance.now(), rate=96408/(4*86400);
-  addEventListener('scroll',()=>box.classList.toggle('hide',scrollY<innerHeight*.7),{passive:true});
+  addEventListener('scroll',()=>{ const fb=document.getElementById('final'); const late=fb && fb.getBoundingClientRect().top<innerHeight; box.classList.toggle('hide',scrollY<innerHeight*.7||late); },{passive:true});
   setInterval(()=>{ el.textContent=Math.floor((performance.now()-t0)/1000*rate).toLocaleString('en-US'); },500); })();
 
 /* final panel tilts up as it arrives */
-(function(){ const f=document.getElementById('final'); if(reduce||!f) return; f.parentElement.style.perspective='1400px';
+(function(){ const f=null; if(true) return; f.parentElement.style.perspective='1400px';
   const upd=()=>{ const r=f.getBoundingClientRect(), p=Math.min(1,Math.max(0,(innerHeight-r.top)/(innerHeight*.7))); f.style.transform=`rotateX(${(1-p)*28}deg) scale(${.9+p*.1})`; };
   addEventListener('scroll',upd,{passive:true}); upd(); })();
 
