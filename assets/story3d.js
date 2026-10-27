@@ -139,7 +139,7 @@
   const where=document.getElementById('where'), prog=document.getElementById('prog'), stage=document.getElementById('stage'), storyEl=document.getElementById('story');
   function upd(){
     let t=0; for(let i=1;i<scns.length;i++){ const r=scns[i].getBoundingClientRect(); t+=Math.min(1,Math.max(0,(innerHeight*.75-r.top)/(innerHeight*.55))); }
-    story.target=t;
+    story.target=t*5/Math.max(1,scns.length-1);
     const sr=storyEl.getBoundingClientRect(); const gone = sr.bottom < innerHeight*.15; stage.style.opacity = sr.bottom < innerHeight*.5 ? 0 : 1; story.hidden = gone;
     
     

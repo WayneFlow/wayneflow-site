@@ -64,7 +64,7 @@ const CAL = 'https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-
   const lb=document.getElementById('lb'); if(!lb) return;
   const li=lb.querySelector('img'), lc=lb.querySelector('p');
   const open=el=>{ const im=el.querySelector('img'); li.src=im.src; li.alt=im.alt; lc.textContent=im.alt; lb.classList.add('on'); lb.querySelector('button').focus(); };
-  document.querySelectorAll('.shot').forEach(el=>{ el.addEventListener('click',()=>open(el)); el.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); open(el);} }); });
+  document.querySelectorAll('.shot').forEach(el=>{ el.addEventListener('click',e=>{ e.preventDefault(); e.stopPropagation(); open(el); }); el.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); open(el);} }); });
   const close=()=>lb.classList.remove('on');
   lb.addEventListener('click',e=>{ if(e.target===lb||e.target.tagName==='BUTTON') close(); });
   addEventListener('keydown',e=>{ if(e.key==='Escape') close(); });
