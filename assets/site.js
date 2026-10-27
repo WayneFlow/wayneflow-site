@@ -19,7 +19,7 @@ const story = window.story;
   let i=0;
   const add=()=>{ const el=document.createElement('div'); el.className='notif';
     el.innerHTML='<i>✓</i><div><b>Discovery call booked</b><span>'+items[i++%items.length]+'</span></div><em>Booked</em>';
-    box.prepend(el); requestAnimationFrame(()=>requestAnimationFrame(()=>el.classList.add('in')));
+    box.prepend(el); setTimeout(()=>el.classList.add('in'),40);
     while(box.children.length>3) box.lastChild.remove(); };
   add(); add(); add();
   if(!reduce) setInterval(add,2800);
