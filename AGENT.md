@@ -42,7 +42,7 @@ short, no jargon. The owners read it on their phone.
    queries as `dashboard/build.py`: every visitor, live activity, pages). Check that the
    numbers look sane and new events arrive; if a dashboard source fails, re-run its query and
    report what broke.
-7. **Email leads (most important)**: list every new `lead_captured` since the last run
+7. **Email leads (most important)**: list every new `lead_captured` since the last run. `lead_magnet` tells you what they asked for: `cold-email-playbook` (downloaded the playbook from the popup or a page box) or `newsletter` (subscribed in the newsletter band at the end of every page; they also got the playbook link). Report newsletter subscribers as their own list with a running total
    (email, optional phone, website, source, city/region/country, time zone, network, pages
    read). For each one, draft a short personal follow-up email (under 90 words, from Asim,
    mention what they read and one matching case study, end with an easy question and the
