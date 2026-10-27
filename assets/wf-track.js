@@ -105,13 +105,39 @@
   if (sess.utm_campaign) supers.wf_campaign = sess.utm_campaign;
   var p0 = ph(); if (p0) { p0.register(supers); }
   if (newSession) {
+    var tz = ''; try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+    var nc = navigator.connection || {};
+    var now = new Date();
     var vp = { referrer: touch.referrer, referrer_host: touch.referrer_host, landing_page: page, visit_number: sess.n,
       device: W.innerWidth < 641 ? 'mobile' : W.innerWidth < 1025 ? 'tablet' : 'desktop',
-      $set: { last_source: sess.source, last_channel: sess.channel, visits: sess.n },
+      timezone: tz, language: navigator.language || '', languages: (navigator.languages || []).slice(0, 3).join(','),
+      local_hour: now.getHours(), local_weekday: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][now.getDay()],
+      screen: (screen.width || 0) + 'x' + (screen.height || 0), viewport: W.innerWidth + 'x' + W.innerHeight,
+      touch: ('ontouchstart' in W) || navigator.maxTouchPoints > 0, dark_mode: !!(W.matchMedia && W.matchMedia('(prefers-color-scheme: dark)').matches),
+      connection: nc.effectiveType || '', device_memory_gb: navigator.deviceMemory || null, cpu_cores: navigator.hardwareConcurrency || null,
+      $set: { last_source: sess.source, last_channel: sess.channel, visits: sess.n, timezone: tz, language: navigator.language || '' },
       $set_once: { first_source: first.source, first_channel: first.channel, first_landing_page: first.landing, first_seen: first.ts } };
     for (var u2 in touch) if (/^utm_|click_id/.test(u2)) vp[u2] = touch[u2];
     cap('wf_visit', vp);
   }
+
+  /* ---------- 1b. which company / network is this visitor on? (free IP lookup) ---------- */
+  var ISP = /comcast|verizon|at&t|att |charter|spectrum|cox |centurylink|lumen|frontier|t-mobile|tmobile|sprint|optimum|altice|rogers|bell canada|telus|shaw|videotron|cogeco|vodafone|orange|telefonica|telekom|telecom|telstra|airtel|jio|ptcl|jazz|zong|ufone|nayatel|stormfiber|wateen|mobilink|broadband|cable|wireless|cellular|mobile|internet service|communications|telecommunication|starlink|o2 |ee limited|virgin media|bt |sky |etisalat|du |stc |claro|tim |movistar/i;
+  var HOST = /amazon|aws|google llc|google cloud|microsoft|azure|digitalocean|ovh|hetzner|linode|akamai|cloudflare|oracle|alibaba|tencent|vultr|leaseweb|m247|datacamp|choopa|contabo|hostinger|godaddy|vpn|proxy|tor /i;
+  function orgKind(o) { return !o ? '' : HOST.test(o) ? 'hosting_or_vpn' : ISP.test(o) ? 'home_or_mobile_isp' : 'company_network'; }
+  function saveOrg(o, src) {
+    o = String(o || '').replace(/^AS\d+\s+/, '').slice(0, 120); if (!o) return;
+    var kind = orgKind(o); ls('wf_org', JSON.stringify({ org: o, kind: kind, at: Date.now() }));
+    var p = ph(); if (p) { p.register({ wf_org: o, wf_org_kind: kind }); p.capture('wf_company', { network: o, network_kind: kind, lookup: src, $set: { network: o, network_kind: kind }, $set_once: { first_network: o } }); }
+  }
+  (function lookup() {
+    var c = null; try { c = JSON.parse(ls('wf_org') || 'null'); } catch (e) {}
+    if (c && Date.now() - c.at < 7 * 864e5) { var p0 = ph(); if (p0) p0.register({ wf_org: c.org, wf_org_kind: c.kind }); return; }
+    if (!W.fetch) return;
+    fetch('https://ipinfo.io/json', { headers: { Accept: 'application/json' } }).then(function (r) { if (!r.ok) throw 0; return r.json(); })
+      .then(function (j) { if (j && j.org) saveOrg(j.org, 'ipinfo'); else throw 0; })
+      .catch(function () { fetch('https://ipapi.co/json/').then(function (r) { return r.json(); }).then(function (j) { if (j && j.org) saveOrg(j.org, 'ipapi'); }).catch(function () {}); });
+  })();
 
   /* ---------- 2. behaviour ---------- */
   function secs() { return Math.round((Date.now() - T0) / 1000); }
