@@ -11,7 +11,7 @@ A list of business directories and B2B agency sites where WayneFlow should have 
 3. **No street address and no phone number** in the copy below. If you have a real business address or phone you want to show, add it yourself, and use the exact same one on every site.
 4. **Never write fake reviews** or ask friends to pose as clients. Platforms like Clutch and Trustpilot remove fake reviews and can ban the profile. Only ask real clients.
 5. **Everything here is free unless marked "Paid".** Paid items are optional. Many sites will call or email you to sell a paid upgrade. You can say no.
-6. **Save every login and profile URL** in the tracking table at the end. When the website moves to wayneflow.com, you must update the website field on every profile.
+6. **Save every login and profile URL** in the tracking table at the end.
 7. **Make sure info@wayneflow.com works** (sends and receives) before you start. Many directories send a verification email to it.
 
 ### Link types
@@ -41,7 +41,7 @@ WayneFlow
 ```
 Business name: WayneFlow
 Brand: WayneFlow by Ali & Asim
-Website: https://wayne-flow.site
+Website: https://wayneflow.com
 Email: info@wayneflow.com
 Country of registration: Pakistan
 Markets served: United States, Canada
@@ -58,8 +58,8 @@ LinkedIn (Asim): https://www.linkedin.com/in/asim-wayneflow/
 Instagram: https://www.instagram.com/wayneflowagency
 Upwork: https://www.upwork.com/freelancers/~012a23cf646bb4fe7d
 Fiverr: https://www.fiverr.com/s/vbbpjRq
-Case studies: https://wayne-flow.site/results.html
-Free playbook: https://wayne-flow.site/free-cold-email-playbook.html
+Case studies: https://wayneflow.com/results.html
+Free playbook: https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 ### Founders and founding info
@@ -101,11 +101,11 @@ We help companies get qualified sales calls on their calendar through cold email
 
 Our 2026 campaign totals: 588,000 emails sent, 12,900+ replies, 3,400+ interested buyers, 100+ calls and demos booked, and 6 annual contracts signed for clients. When tuned, our campaigns get reply rates between 2.8% and 4%, and bounce rates have ranged from 0.45% to 3.08%. We switch open tracking off on purpose to protect deliverability, and we report replies, interested prospects and booked meetings instead.
 
-Examples from our case studies (industries only, no client names): a construction software company received 31 qualified demos and signed 6 annual contracts; a 5-day campaign sent 96,408 emails with a 0.45% bounce rate and booked 25 calls; a pilot campaign contacted 10,284 people and got a 4% reply rate. Our case studies, with dashboard screenshots, are at wayne-flow.site/results.html.
+Examples from our case studies (industries only, no client names): a construction software company received 31 qualified demos and signed 6 annual contracts; a 5-day campaign sent 96,408 emails with a 0.45% bounce rate and booked 25 calls; a pilot campaign contacted 10,284 people and got a 4% reply rate. Our case studies, with dashboard screenshots, are at wayneflow.com/results.html.
 
 We are a small, founder-led team. WayneFlow is registered in Pakistan and works remotely with clients in North America.
 
-We also publish a free 35-page cold email playbook that explains our full setup step by step, from domains and DNS records to warmup, list building, email copy, follow-ups, CAN-SPAM and CASL basics. Get it at wayne-flow.site/free-cold-email-playbook.html.
+We also publish a free 35-page cold email playbook that explains our full setup step by step, from domains and DNS records to warmup, list building, email copy, follow-ups, CAN-SPAM and CASL basics. Get it at wayneflow.com/free-cold-email-playbook.html.
 ```
 (About 300 words.)
 
@@ -166,7 +166,7 @@ Title: 31 qualified demos and 6 annual contracts for a construction software com
 Client: Confidential (construction software)
 Service: Cold email appointment setting
 Results: 162,073 emails sent, 4,449 replies (2.81%), 31 qualified demos, 6 annual contracts, $15K closed so far.
-Link: https://wayne-flow.site/results.html
+Link: https://wayneflow.com/results.html
 ```
 
 **Portfolio 2**
@@ -175,7 +175,7 @@ Title: 96,408 emails in 5 days with a 0.45% bounce rate
 Client: Confidential (B2B)
 Service: Cold email campaign
 Results: 96,408 emails in 5 days, 0.45% bounce rate, 1,095 replies, 115 interested prospects, 25 calls booked, about $62.5K pipeline (counted at the client's ~$2,500 average deal size).
-Link: https://wayne-flow.site/results.html
+Link: https://wayneflow.com/results.html
 ```
 
 **Portfolio 3**
@@ -184,7 +184,7 @@ Title: 2,146 interested prospects for a marketing agency
 Client: Confidential (marketing agency)
 Service: Cold email outreach
 Results: 82,671 emails sent, 2,429 replies, 2,146 interested, about $175K pipeline (counted at average deal size), 1.64% bounce rate.
-Link: https://wayne-flow.site/results.html
+Link: https://wayneflow.com/results.html
 ```
 
 Optional extras: one quarter (236,545 emails, 4,372 replies at 3.69%, 1,061 interested, ~$100K pipeline); pilot (10,284 contacted, 417 replies at 4%, 103 opportunities, ~$150K pipeline); LinkedIn for founders/investors (1,375 invites, 351 accepted, 1,628 InMails, 154 replies, ~$7.5K pipeline).
@@ -359,11 +359,9 @@ Check that these match the rest of the web:
 
 ---
 
-## Part 5: When the website moves to wayneflow.com
+## Part 5: Website domain
 
-1. The website team should set up **301 redirects** from every wayne-flow.site page to the same page on wayneflow.com. This keeps old links working.
-2. Then update the website field on every profile in the tracking table, starting with High priority sites.
-3. Update the email too if it changes (right now it is already info@wayneflow.com).
+The website is **https://wayneflow.com** (the only domain). Use it in every website field.
 
 ---
 

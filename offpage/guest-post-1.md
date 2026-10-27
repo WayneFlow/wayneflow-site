@@ -153,4 +153,4 @@ None of this is clever. Most of it is the stuff people skip because it's tedious
 
 ---
 
-*Syed Ali Hassan is co-founder of [WayneFlow](https://wayne-flow.site), a B2B appointment setting agency that runs cold email, LinkedIn and X outreach for companies in the U.S. and Canada. He has spent 8 years in digital marketing and outbound.*
+*Syed Ali Hassan is co-founder of [WayneFlow](https://wayneflow.com), a B2B appointment setting agency that runs cold email, LinkedIn and X outreach for companies in the U.S. and Canada. He has spent 8 years in digital marketing and outbound.*

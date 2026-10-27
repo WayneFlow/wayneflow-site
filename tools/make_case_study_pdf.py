@@ -20,7 +20,7 @@ def case(k):
 <div class="shot"><img src="{A}/img/{IMG[k]}-hd.webp"></div>
 <p class="lesson"><b>The lesson:</b> {html.escape(LESSON[k])}</p></section>'''
 keys = list(CASES)
-pages = ''.join(f'<div class="page">{case(keys[i])}{case(keys[i+1])}<div class="foot">WayneFlow · wayne-flow.site · Real campaign data. Results vary.</div></div>' for i in range(0, 6, 2))
+pages = ''.join(f'<div class="page">{case(keys[i])}{case(keys[i+1])}<div class="foot">WayneFlow · wayneflow.com · Real campaign data. Results vary.</div></div>' for i in range(0, 6, 2))
 doc = f'''<!doctype html><html><head><meta charset="utf-8"><style>
 @page {{ size: Letter; margin: 0 }}
 * {{ box-sizing: border-box }} body {{ margin: 0; font-family: Inter, sans-serif; color: #0B1A3A }}
@@ -78,6 +78,6 @@ doc = f'''<!doctype html><html><head><meta charset="utf-8"><style>
 <li><b>Keep emails under 100 words.</b> One problem, one short proof point, one easy question.</li>
 <li><b>Follow up with something new.</b> Three to five emails, each adding a fact or a result, never "just bumping this".</li></ol></div>
 <div class="cta"><b>Want numbers like these for your company?</b><p>Book a free 20-minute call. We will show you who we would target, the angle we would use and how many meetings to expect.</p><a href="{CAL}">Book a 20-minute call</a></div>
-<div class="foot">WayneFlow · wayne-flow.site · Every number comes from a live campaign dashboard. These are real past campaigns, not a promise; your results depend on your offer and market.</div></div>
+<div class="foot">WayneFlow · wayneflow.com · Every number comes from a live campaign dashboard. These are real past campaigns, not a promise; your results depend on your offer and market.</div></div>
 </body></html>'''
 open('pack.html', 'w').write(doc)

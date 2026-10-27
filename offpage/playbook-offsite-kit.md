@@ -5,7 +5,7 @@ Everything you need to promote the free playbook outside our website. Copy, past
 **The one link to use everywhere:**
 
 ```
-https://wayne-flow.site/free-cold-email-playbook.html
+https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 ---
@@ -14,7 +14,7 @@ https://wayne-flow.site/free-cold-email-playbook.html
 
 1. **Always link to the landing page above.** Never link to the PDF file itself. The landing page collects emails. The PDF link does not.
 2. **Post from your own personal accounts** (Ali or Asim). Do not create fake accounts. Do not ask friends to upvote. Reddit and Quora ban this fast.
-3. **Use only the real numbers in this file.** Do not round up. Do not add new numbers. If someone asks for proof, send them to https://wayne-flow.site/results.html
+3. **Use only the real numbers in this file.** Do not round up. Do not add new numbers. If someone asks for proof, send them to https://wayneflow.com/results.html
 4. **Give value first.** The post must be useful even if nobody clicks the link.
 5. **Always say who you are.** Example: "Disclosure: I run a cold email agency." People trust you more, and most communities require it.
 6. **One platform per day is enough.** Posting the same text on 10 sites in one hour looks like spam.
@@ -63,7 +63,7 @@ This preview has 3 of the playbook's chapters. The full version is 35 pages and 
 - A 30-day launch calendar, checklists, and 7 real case studies with dashboard screenshots
 
 Get the full 35-page playbook free at:
-https://wayne-flow.site/free-cold-email-playbook.html
+https://wayneflow.com/free-cold-email-playbook.html
 
 WayneFlow by Ali & Asim
 B2B appointment setting and cold email
@@ -106,7 +106,7 @@ Link types change often. Where it says **check**, open the page after posting, r
 
 **Upload steps (same for every site):**
 1. Sign up with the WayneFlow email or a founder's email.
-2. Fill the profile: name "WayneFlow by Ali & Asim", website https://wayne-flow.site, short bio (use the 160-character description from `directories-and-citations.md`).
+2. Fill the profile: name "WayneFlow by Ali & Asim", website https://wayneflow.com, short bio (use the 160-character description from `directories-and-citations.md`).
 3. Upload `wayneflow-cold-email-playbook-preview.pdf`.
 4. Paste the title, description and tags below.
 5. Set category to "Business", "Marketing" or "Sales" (whatever is closest).
@@ -221,7 +221,7 @@ In this preview you'll find:
 The full playbook is 35 pages. It also covers domains and inboxes, a 3-week warmup schedule, building lists by hand, a 5-part cold email under 80 words, follow-ups, reply handling, CAN-SPAM and CASL basics, spam recovery, and a 30-day launch calendar.
 
 Get the full 35-page playbook free here:
-https://wayne-flow.site/free-cold-email-playbook.html
+https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 ### Description B (about 200 words)
@@ -241,7 +241,7 @@ Everything in the playbook is manual, step-by-step work. It does not push any AI
 The full version (35 pages, free) adds the tool stack and costs, the warmup schedule, list building, email templates, follow-up timing, booking tips, A/B testing and 7 case studies with dashboard screenshots.
 
 Download the full playbook free:
-https://wayne-flow.site/free-cold-email-playbook.html
+https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 ### Description C (about 180 words)
@@ -261,7 +261,7 @@ When tuned, WayneFlow campaigns get reply rates between 2.8% and 4%, counted as 
 The full 35-page playbook is free. It includes a 3-week warmup schedule, a 10-minute daily health check, list building by hand, the 5-part cold email under 80 words, a 7-step spam recovery plan, CAN-SPAM and CASL basics and a 30-day launch calendar.
 
 Get it here:
-https://wayne-flow.site/free-cold-email-playbook.html
+https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 ### Description D (about 175 words)
@@ -279,7 +279,7 @@ This preview includes:
 The complete playbook is 35 pages and free. It covers tools and costs (about $185 to $335 for the first month), domains, inboxes, warmup, lists, copy, follow-ups, reply handling, compliance, spam recovery and a 30-day launch plan, plus 7 real case studies.
 
 Get the full playbook free:
-https://wayne-flow.site/free-cold-email-playbook.html
+https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 ---
@@ -298,7 +298,7 @@ https://wayne-flow.site/free-cold-email-playbook.html
 
 ### Reddit
 
-**Warning before you start:** Reddit is strict. Accounts that only post their own links get banned, and the domain (wayne-flow.site) can get blocked across all of Reddit. That would hurt us for years. So:
+**Warning before you start:** Reddit is strict. Accounts that only post their own links get banned, and the domain (wayneflow.com) can get blocked across all of Reddit. That would hurt us for years. So:
 - Use a personal account with some history. If the account is new, spend 1 to 2 weeks just commenting helpfully before making any post.
 - Keep about 9 helpful comments for every 1 post that mentions WayneFlow.
 - Never ask anyone to upvote.
@@ -353,7 +353,7 @@ Happy to answer questions about any step.
 
 **Last line (add ONLY if the sub allows resource links; otherwise put it in a comment only if someone asks):**
 ```
-We wrote all of this up, with the exact DNS records and the warmup schedule, in a free 35-page playbook: https://wayne-flow.site/free-cold-email-playbook.html
+We wrote all of this up, with the exact DNS records and the warmup schedule, in a free 35-page playbook: https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 #### Reddit Post 2 (for r/sales, r/salesdevelopment)
@@ -389,7 +389,7 @@ Curious what other people see between "interested" and "booked." What's your sho
 
 **Comment (only if someone asks for a resource, and only if the sub allows links):**
 ```
-We put the planning worksheet for this in our free playbook if it helps: https://wayne-flow.site/free-cold-email-playbook.html
+We put the planning worksheet for this in our free playbook if it helps: https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 #### Reddit Post 3 (for r/agency, r/Entrepreneur, r/smallbusiness promotion threads)
@@ -425,7 +425,7 @@ If you're thinking about a blitz: get the setup right first. Volume on a bad set
 
 **Promotion-thread version (only in official promotion threads):**
 ```
-Free resource: The WayneFlow Cold Email Playbook. 35 pages on domains, DNS records, warmup, list building, copy and 7 real case studies with dashboard screenshots. No AI tool pitch, all manual steps. https://wayne-flow.site/free-cold-email-playbook.html
+Free resource: The WayneFlow Cold Email Playbook. 35 pages on domains, DNS records, warmup, list building, copy and 7 real case studies with dashboard screenshots. No AI tool pitch, all manual steps. https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 ---
@@ -466,7 +466,7 @@ Then check it: send a test email to a Gmail account, open it, click "Show origin
 
 After that, warm the inbox up for about 3 weeks before sending real campaigns. DNS records don't fix a cold inbox.
 
-Disclosure: I co-run WayneFlow, a cold email agency. We put the exact records, plus the warmup schedule, in a free playbook: https://wayne-flow.site/free-cold-email-playbook.html
+Disclosure: I co-run WayneFlow, a cold email agency. We put the exact records, plus the warmup schedule, in a free playbook: https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 #### Quora 2: "How long should I warm up a new domain for cold email?"
@@ -493,7 +493,7 @@ Things that matter more than the exact number of days:
 
 If a domain lands in spam, stop sending, don't just push harder.
 
-Disclosure: I co-founded WayneFlow, a B2B appointment setting agency. Our full 3-week warmup schedule is in our free playbook: https://wayne-flow.site/free-cold-email-playbook.html
+Disclosure: I co-founded WayneFlow, a B2B appointment setting agency. Our full 3-week warmup schedule is in our free playbook: https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 #### Quora 3: "What is a good cold email reply rate?"
@@ -517,7 +517,7 @@ Better numbers to watch:
 
 If you're under 1%, check these first: Are you landing in spam? Is your list verified? Is your email short and about their problem, not your company?
 
-Disclosure: I run an appointment setting agency (WayneFlow). Case studies with screenshots: https://wayne-flow.site/results.html
+Disclosure: I run an appointment setting agency (WayneFlow). Case studies with screenshots: https://wayneflow.com/results.html
 ```
 
 (No playbook link on this one, so we don't link from every answer. That looks more natural.)
@@ -543,9 +543,9 @@ Disclosure first: I co-run one (WayneFlow), so I'm biased. Here's the checklist 
 
 8. Check reviews on platforms like Clutch, Upwork or Fiverr, and read the bad ones too.
 
-If it's useful, our case studies (no client names, but real numbers and screenshots) are here: https://wayne-flow.site/results.html
+If it's useful, our case studies (no client names, but real numbers and screenshots) are here: https://wayneflow.com/results.html
 
-And if you want to understand the process before hiring anyone, this guide explains it: https://wayne-flow.site/blog/b2b-appointment-setting-guide.html
+And if you want to understand the process before hiring anyone, this guide explains it: https://wayneflow.com/blog/b2b-appointment-setting-guide.html
 ```
 
 #### Quora 5: "Is cold email legal in the US?"
@@ -571,8 +571,8 @@ Two practical notes:
 I'm not a lawyer, and this isn't legal advice. Check with one for your situation.
 
 Disclosure: I co-run WayneFlow, a cold email agency. We wrote plain-English guides on this:
-US: https://wayne-flow.site/blog/is-cold-email-legal.html
-Canada: https://wayne-flow.site/blog/is-cold-email-legal-in-canada.html
+US: https://wayneflow.com/blog/is-cold-email-legal.html
+Canada: https://wayneflow.com/blog/is-cold-email-legal-in-canada.html
 ```
 
 ---
@@ -610,7 +610,7 @@ What's NOT in it: no AI tool pitch. It's all manual work, because that's what we
 
 Why give it away? Honestly, two reasons. Some founders will do it themselves, and that's fine. Some will read it, realize it's a lot of work, and hire someone. Either way, people get a real answer.
 
-Free here: https://wayne-flow.site/free-cold-email-playbook.html
+Free here: https://wayneflow.com/free-cold-email-playbook.html
 
 Happy to answer anything about cold email setup in the comments.
 ```
@@ -635,7 +635,7 @@ Sharing a free resource we made: The WayneFlow Cold Email Playbook (35 pages).
 
 It's based on 588,000 cold emails we sent in 2026 (12,900+ replies, 100+ calls booked). Covers domains, exact DNS records, a 3-week warmup schedule, list building by hand, short email templates, follow-ups, CAN-SPAM/CASL basics and 7 case studies with screenshots. No AI tool pitch.
 
-https://wayne-flow.site/free-cold-email-playbook.html
+https://wayneflow.com/free-cold-email-playbook.html
 
 Feedback welcome, especially on what's missing.
 ```
@@ -677,7 +677,7 @@ Link in the first comment.
 
 **First comment:**
 ```
-Here it is: https://wayne-flow.site/free-cold-email-playbook.html
+Here it is: https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 #### LinkedIn 2 [Asim]: one chapter, one lesson
@@ -705,7 +705,7 @@ Link in the first comment.
 
 **First comment:**
 ```
-Free 35-page playbook: https://wayne-flow.site/free-cold-email-playbook.html
+Free 35-page playbook: https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 #### LinkedIn 3 [Ali]: a question post
@@ -737,7 +737,7 @@ What did your first month cost?
 
 **First comment:**
 ```
-https://wayne-flow.site/free-cold-email-playbook.html
+https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 ---
@@ -807,7 +807,7 @@ Result when tuned: 2.8% to 4% reply rate (replies ÷ people contacted).
 10/
 We wrote all of it up, with exact records and the warmup schedule, in a free 35-page playbook:
 
-https://wayne-flow.site/free-cold-email-playbook.html
+https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 (If you don't want emojis, delete the 🧵. It's optional.)
@@ -863,7 +863,7 @@ We always say how we count it.
 9/
 This case study and 6 more (with dashboard screenshots) are in our free playbook:
 
-https://wayne-flow.site/free-cold-email-playbook.html
+https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 ---
@@ -887,7 +887,7 @@ We wrote down our whole process in a 35-page playbook:
 ✅ CAN-SPAM and CASL basics
 ✅ 7 real case studies with dashboard screenshots
 
-Get it free here: https://wayne-flow.site/free-cold-email-playbook.html
+Get it free here: https://wayneflow.com/free-cold-email-playbook.html
 
 If you have questions about cold email setup, ask below. Happy to help.
 ```
@@ -898,7 +898,7 @@ If you have questions about cold email setup, ask below. Happy to help.
 
 ### The plan in simple steps
 
-1. **Publish on our website first.** The website team should publish the article below on the blog first (for example `/blog/cold-email-dns-records.html`). Wait until Google has indexed it (search `site:wayne-flow.site dns records` after a few days).
+1. **Publish on our website first.** The website team should publish the article below on the blog first (for example `/blog/cold-email-dns-records.html`). Wait until Google has indexed it (search `site:wayneflow.com dns records` after a few days).
 2. **Wait about 1 to 2 weeks**, then copy it to the other sites.
 3. **Always point back to the original** (canonical link) so Google knows our website is the original.
 
@@ -911,7 +911,7 @@ If you have questions about cold email setup, ask below. Happy to help.
 | Substack | Check (settings change often) | Add "Originally published on the WayneFlow blog: [URL]" at the top. If Substack offers a canonical URL field in post settings, use it. |
 | Dev.to / Hashnode (optional) | Yes, both have a canonical URL field | Only if you want more reach; less relevant audience. |
 
-**If the website version is not live yet:** publish on Medium/LinkedIn anyway, but add the line "Get the full guide: https://wayne-flow.site/free-cold-email-playbook.html" and set the canonical link later when the website version is live.
+**If the website version is not live yet:** publish on Medium/LinkedIn anyway, but add the line "Get the full guide: https://wayneflow.com/free-cold-email-playbook.html" and set the canonical link later when the website version is live.
 
 **Line to put at the top of copies:**
 ```
@@ -1024,7 +1024,7 @@ Want the full setup?
 
 We wrote everything down in The WayneFlow Cold Email Playbook: the exact records, the 3-week warmup schedule, the 10-minute daily health check, list building, the 5-part cold email under 80 words, and 7 real case studies with dashboard screenshots. It's 35 pages and free.
 
-Get the playbook here: https://wayne-flow.site/free-cold-email-playbook.html
+Get the playbook here: https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 **Medium tags (max 5):**
@@ -1057,14 +1057,14 @@ I'm Ali, co-founder of WayneFlow, a B2B appointment setting agency. We just publ
 It covers the exact DNS records, a 3-week warmup schedule, a 10-minute daily health check, list building by hand, and 7 case studies with dashboard screenshots.
 
 If you think it's useful for your readers, here's the page:
-https://wayne-flow.site/free-cold-email-playbook.html
+https://wayneflow.com/free-cold-email-playbook.html
 
 No problem at all if it's not a fit.
 
 Thanks,
 Syed Ali Hassan
 Co-founder, WayneFlow
-https://wayne-flow.site
+https://wayneflow.com
 ```
 
 ### Pitch 2: newsletter feature
@@ -1090,7 +1090,7 @@ Things your readers might like:
 - 7 case studies with screenshots, including 96,408 emails in 5 days with a 0.45% bounce rate
 
 Link if you'd like to include it in a future issue:
-https://wayne-flow.site/free-cold-email-playbook.html
+https://wayneflow.com/free-cold-email-playbook.html
 
 I'm also happy to write a short tip for your readers, in your format, if that's more useful.
 
@@ -1114,7 +1114,7 @@ Hi [Name],
 I was reading "[post title]" and noticed the link to [old resource name] in the [section name] section doesn't work anymore (it goes to [404 / an empty page]).
 
 If you're looking for a replacement, we recently published a free, up-to-date cold email playbook that covers the same topic (domains, DNS records, warmup and deliverability for 2026):
-https://wayne-flow.site/free-cold-email-playbook.html
+https://wayneflow.com/free-cold-email-playbook.html
 
 Either way, wanted to let you know about the broken link.
 
@@ -1166,18 +1166,18 @@ If you update the list, I'd like to be considered. Some numbers you can verify o
 - Construction software client: 162,073 emails, 31 qualified demos, 6 annual contracts
 - 5-day campaign: 96,408 emails, 0.45% bounce rate, 25 calls booked
 
-Case studies: https://wayne-flow.site/results.html
+Case studies: https://wayneflow.com/results.html
 
 To be upfront: we're a small founder-led team, based in Pakistan, serving mostly US and Canadian clients. We count pipeline at clients' average deal size (about $2,500) and say so on every case study.
 
-We also publish a free 35-page cold email playbook, if it's useful for your readers: https://wayne-flow.site/free-cold-email-playbook.html
+We also publish a free 35-page cold email playbook, if it's useful for your readers: https://wayneflow.com/free-cold-email-playbook.html
 
 Happy to answer any questions.
 
 Thanks,
 Syed Ali Hassan
 Co-founder, WayneFlow
-https://wayne-flow.site
+https://wayneflow.com
 ```
 
 **Important:** if a list owner asks for money to be included, that's a paid placement. It's optional and not part of this free plan. If you ever pay, the listing should be marked as sponsored. Don't pay for fake reviews or "award badges."

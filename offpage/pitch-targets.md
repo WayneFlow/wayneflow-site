@@ -2,7 +2,7 @@
 
 Researched 2026-10-27. Every page below was opened and checked that day. An email is listed only where it is printed on the site. Where there is no email, the table gives the contact page, submission form or author name instead.
 
-- Pitch: add WayneFlow (https://wayne-flow.site) to the list, and/or link the free 35-page Cold Email Playbook (https://wayne-flow.site/free-cold-email-playbook.html).
+- Pitch: add WayneFlow (https://wayneflow.com) to the list, and/or link the free 35-page Cold Email Playbook (https://wayneflow.com/free-cold-email-playbook.html).
 - "Self-ranked" means the publisher is an agency or vendor that puts itself at #1. These are less likely to add a competitor, but some will add a resource link.
 - "Contact not verified" means the site has a contact link but its exact URL was not loaded.
 

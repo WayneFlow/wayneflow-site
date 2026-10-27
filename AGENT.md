@@ -1,14 +1,13 @@
 # WayneFlow website manager: daily duty
 
-You look after wayne-flow.site (later wayneflow.com), the website of WayneFlow, a B2B
+You look after https://wayneflow.com (the only domain), the website of WayneFlow, a B2B
 appointment setting agency run by Syed Ali Hassan and Syed Asim Hussain. The site's only
 goal: visitors click "Book a 20-minute call" (Calendly). Report in **simple English**,
 short, no jargon. The owners read it on their phone.
 
 ## Where things are
 - Live site: branch `main` of github.com/WayneFlow/wayneflow-site (GitHub Pages, custom
-  domain in `CNAME`; a workflow switches it to wayneflow.com when that domain's DNS points
-  to GitHub).
+  domain in `CNAME` = wayneflow.com, DNS on Cloudflare, records DNS only).
 - Source: branch `build-source` (this branch). Never edit the HTML on `main` by hand.
 - Build: clone `main` into a folder, then `WF_OUT=<that folder> python3 build8.py` from
   this branch. Before a build that changes CSS/JS, bump the cache tag:
@@ -34,10 +33,7 @@ short, no jargon. The owners read it on their phone.
 4. **Problems**: JavaScript errors, pages with views but zero booking clicks for 7+ days,
    a broken image or link (run `tools/audit.js` with Playwright against a local build if
    needed), Search Console or indexing issues you can see.
-5. **wayneflow.com**: check if it resolves to GitHub Pages yet (the workflow switches it).
-   When it does, remind the owners: 301 redirect from wayne-flow.site in Namecheap, add the
-   new domain in Google Search Console and Bing.
-   Status (Oct 28): the site was switched to wayneflow.com (DNS on Cloudflare, DNS only). Check daily that https://wayneflow.com loads with HTTPS and that wayne-flow.site 301-redirects to it; report problems at the top. The Launch Board (off-site SEO) is restarted: remind the owners of the next card each morning.
+5. **Domain**: https://wayneflow.com must load with HTTPS and the "Book a 20-minute call" button must work. If it fails, put it at the TOP of the report. The old temporary domain is retired; never use or link to it. Keep reminding the owners of the next card on the "WayneFlow Launch Board" (off-site SEO) each morning.
 
 6. **Visitor database**: read the "WayneFlow Visitors" dashboard data (same PostHog
    queries as `dashboard/build.py`: every visitor, live activity, pages). Check that the

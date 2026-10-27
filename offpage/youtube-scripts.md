@@ -4,9 +4,9 @@ Four long-form videos plus three Shorts cuts each. Presenter: Ali or Asim, on ca
 
 Links used in descriptions:
 
-- Website: https://wayne-flow.site (update to https://wayneflow.com after the move)
+- Website: https://wayneflow.com (update to https://wayneflow.com after the move)
 - Book a call: https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers
-- Results page: https://wayne-flow.site/results.html
+- Results page: https://wayneflow.com/results.html
 
 ---
 
@@ -56,7 +56,7 @@ Sources mentioned:
 - Microsoft Outlook.com high-volume sender requirements: https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730
 - Apple Mail Privacy Protection: https://support.apple.com/guide/iphone/use-mail-privacy-protection-iphf084865c7/ios
 
-More case studies: https://wayne-flow.site/results.html
+More case studies: https://wayneflow.com/results.html
 If you'd rather have us set it up, book a call: https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers
 
 ### Shorts cuts
@@ -110,7 +110,7 @@ Inside: the first line that works, why shorter wins, the one question to end on,
 
 U.S. senders: make sure every email meets CAN-SPAM. FTC guide: https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business
 
-See our results: https://wayne-flow.site/results.html
+See our results: https://wayneflow.com/results.html
 Book a call if you want us to write and run it for you: https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers
 
 ### Shorts cuts
@@ -163,8 +163,8 @@ Disclosure: we run WayneFlow, a B2B appointment setting agency. We cover when an
 
 Salary source: Glassdoor, Sales Development Representative salaries (check current figures): https://www.glassdoor.com/Salaries/sales-development-representative-salary-SRCH_KO0,32.htm
 
-Case studies with live dashboards: https://wayne-flow.site/results.html
-Our process: https://wayne-flow.site/process.html
+Case studies with live dashboards: https://wayneflow.com/results.html
+Our process: https://wayneflow.com/process.html
 Book a strategy call: https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers
 
 ### Shorts cuts
@@ -221,7 +221,7 @@ Sources:
 - CRTC, Frequently Asked Questions about CASL: https://crtc.gc.ca/eng/com500/faq500.htm
 - FTC, CAN-SPAM Act compliance guide (U.S.): https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business
 
-We run cold email and LinkedIn outreach for B2B companies in the U.S. and Canada: https://wayne-flow.site
+We run cold email and LinkedIn outreach for B2B companies in the U.S. and Canada: https://wayneflow.com
 Book a call: https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers
 
 ### Shorts cuts

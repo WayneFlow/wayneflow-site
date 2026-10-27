@@ -73,9 +73,9 @@ Registered in Pakistan. Serves B2B companies mostly in the USA and Canada.
 Services: cold email outreach, LinkedIn outreach, appointment setting, outbound lead generation, email deliverability setup.
 2026 results: 588,000 emails sent, 12,900+ replies, 3,400+ interested buyers, 100+ calls and demos booked, 6 annual contracts, $510K+ pipeline (counted at clients' ~$2,500 average deal size).
 Reply rates of 2.8% to 4% when tuned. Open tracking switched off on purpose.
-Website: https://wayne-flow.site (moving to wayneflow.com later)
-Case studies: https://wayne-flow.site/results.html
-Free resource: The WayneFlow Cold Email Playbook (35 pages): https://wayne-flow.site/free-cold-email-playbook.html
+Website: https://wayneflow.com (moving to wayneflow.com later)
+Case studies: https://wayneflow.com/results.html
+Free resource: The WayneFlow Cold Email Playbook (35 pages): https://wayneflow.com/free-cold-email-playbook.html
 ```
 
 ---

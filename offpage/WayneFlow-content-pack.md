@@ -153,7 +153,7 @@ None of this is clever. Most of it is the stuff people skip because it's tedious
 
 ---
 
-*Syed Ali Hassan is co-founder of [WayneFlow](https://wayne-flow.site), a B2B appointment setting agency that runs cold email, LinkedIn and X outreach for companies in the U.S. and Canada. He has spent 8 years in digital marketing and outbound.*
+*Syed Ali Hassan is co-founder of [WayneFlow](https://wayneflow.com), a B2B appointment setting agency that runs cold email, LinkedIn and X outreach for companies in the U.S. and Canada. He has spent 8 years in digital marketing and outbound.*
 # We turned open tracking off. Here's what happened to deliverability
 
 *By Syed Asim Hussain*
@@ -287,7 +287,7 @@ The zero in our opens column used to make clients nervous. Now it's usually the 
 
 ---
 
-*Syed Asim Hussain is co-founder of [WayneFlow](https://wayne-flow.site), a B2B appointment setting agency that runs cold email, LinkedIn and X outreach for companies in the U.S. and Canada. He has spent 8 years in digital marketing and outbound.*
+*Syed Asim Hussain is co-founder of [WayneFlow](https://wayneflow.com), a B2B appointment setting agency that runs cold email, LinkedIn and X outreach for companies in the U.S. and Canada. He has spent 8 years in digital marketing and outbound.*
 # Community answers (Reddit / Quora)
 
 Ready to adapt. Change the opening line to fit the thread, keep the numbers as they are. Post from a personal account (Ali or Asim). Only add a link if the thread asks for one.
@@ -466,9 +466,9 @@ Four long-form videos plus three Shorts cuts each. Presenter: Ali or Asim, on ca
 
 Links used in descriptions:
 
-- Website: https://wayne-flow.site (update to https://wayneflow.com after the move)
+- Website: https://wayneflow.com (update to https://wayneflow.com after the move)
 - Book a call: https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers
-- Results page: https://wayne-flow.site/results.html
+- Results page: https://wayneflow.com/results.html
 
 ---
 
@@ -518,7 +518,7 @@ Sources mentioned:
 - Microsoft Outlook.com high-volume sender requirements: https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730
 - Apple Mail Privacy Protection: https://support.apple.com/guide/iphone/use-mail-privacy-protection-iphf084865c7/ios
 
-More case studies: https://wayne-flow.site/results.html
+More case studies: https://wayneflow.com/results.html
 If you'd rather have us set it up, book a call: https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers
 
 ### Shorts cuts
@@ -572,7 +572,7 @@ Inside: the first line that works, why shorter wins, the one question to end on,
 
 U.S. senders: make sure every email meets CAN-SPAM. FTC guide: https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business
 
-See our results: https://wayne-flow.site/results.html
+See our results: https://wayneflow.com/results.html
 Book a call if you want us to write and run it for you: https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers
 
 ### Shorts cuts
@@ -625,8 +625,8 @@ Disclosure: we run WayneFlow, a B2B appointment setting agency. We cover when an
 
 Salary source: Glassdoor, Sales Development Representative salaries (check current figures): https://www.glassdoor.com/Salaries/sales-development-representative-salary-SRCH_KO0,32.htm
 
-Case studies with live dashboards: https://wayne-flow.site/results.html
-Our process: https://wayne-flow.site/process.html
+Case studies with live dashboards: https://wayneflow.com/results.html
+Our process: https://wayneflow.com/process.html
 Book a strategy call: https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers
 
 ### Shorts cuts
@@ -683,7 +683,7 @@ Sources:
 - CRTC, Frequently Asked Questions about CASL: https://crtc.gc.ca/eng/com500/faq500.htm
 - FTC, CAN-SPAM Act compliance guide (U.S.): https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business
 
-We run cold email and LinkedIn outreach for B2B companies in the U.S. and Canada: https://wayne-flow.site
+We run cold email and LinkedIn outreach for B2B companies in the U.S. and Canada: https://wayneflow.com
 Book a call: https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers
 
 ### Shorts cuts
@@ -935,7 +935,7 @@ If you update the list, I'd like to be considered. Some numbers you can check:
 - One client: 96,408 emails in 5 days, 25 calls booked, 0.45% bounce rate
 - A construction software client: 31 demos held, 6 annual contracts signed
 
-Our case studies include screenshots of the live campaign dashboards: https://wayne-flow.site/results.html
+Our case studies include screenshots of the live campaign dashboards: https://wayneflow.com/results.html
 
 Pricing is public too, if that helps your readers compare: $999 setup and $1,500 a month.
 
@@ -944,7 +944,7 @@ Happy to answer any questions or jump on a short call with you.
 Thanks,
 Syed Ali Hassan
 Co-founder, WayneFlow
-https://wayne-flow.site
+https://wayneflow.com
 
 ### Follow-up
 
@@ -1023,7 +1023,7 @@ Would that be a fit? Happy to work around your recording schedule.
 Thanks,
 Syed Asim Hussain
 Co-founder, WayneFlow
-https://wayne-flow.site
+https://wayneflow.com
 
 ### Follow-up
 

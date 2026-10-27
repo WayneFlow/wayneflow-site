@@ -22,7 +22,7 @@ If you update the list, I'd like to be considered. Some numbers you can check:
 - One client: 96,408 emails in 5 days, 25 calls booked, 0.45% bounce rate
 - A construction software client: 31 demos held, 6 annual contracts signed
 
-Our case studies include screenshots of the live campaign dashboards: https://wayne-flow.site/results.html
+Our case studies include screenshots of the live campaign dashboards: https://wayneflow.com/results.html
 
 Pricing is public too, if that helps your readers compare: $999 setup and $1,500 a month.
 
@@ -31,7 +31,7 @@ Happy to answer any questions or jump on a short call with you.
 Thanks,
 Syed Ali Hassan
 Co-founder, WayneFlow
-https://wayne-flow.site
+https://wayneflow.com
 
 ### Follow-up
 
@@ -110,7 +110,7 @@ Would that be a fit? Happy to work around your recording schedule.
 Thanks,
 Syed Asim Hussain
 Co-founder, WayneFlow
-https://wayne-flow.site
+https://wayneflow.com
 
 ### Follow-up
 

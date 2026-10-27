@@ -131,4 +131,4 @@ The zero in our opens column used to make clients nervous. Now it's usually the 
 
 ---
 
-*Syed Asim Hussain is co-founder of [WayneFlow](https://wayne-flow.site), a B2B appointment setting agency that runs cold email, LinkedIn and X outreach for companies in the U.S. and Canada. He has spent 8 years in digital marketing and outbound.*
+*Syed Asim Hussain is co-founder of [WayneFlow](https://wayneflow.com), a B2B appointment setting agency that runs cold email, LinkedIn and X outreach for companies in the U.S. and Canada. He has spent 8 years in digital marketing and outbound.*

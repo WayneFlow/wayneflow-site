@@ -10,7 +10,7 @@ About **30 to 45 minutes a day**. The most important work comes first. Tick the 
 
 **Simple rules:**
 - Post from your own accounts. No fake accounts, no fake reviews.
-- Always link to `https://wayne-flow.site/free-cold-email-playbook.html` for the playbook (never the PDF file).
+- Always link to `https://wayneflow.com/free-cold-email-playbook.html` for the playbook (never the PDF file).
 - Use only the real numbers from the files.
 - If you miss a day, just continue the next day. Don't do 3 days at once on Reddit or Quora; spread posts out.
 - Every time you create a profile or post, add a row to the tracking sheet.
