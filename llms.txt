@@ -4,7 +4,7 @@
 
 ## Key facts
 - Results across campaigns: 588,000+ emails sent, 12,900+ replies, 3,400+ interested buyers, 100+ calls and demos booked, 6 annual contracts signed, $510K+ pipeline generated.
-- Reply rates of 2.8% to 4% versus a typical 1%; bounce rates under 3%; open tracking switched off to protect deliverability.
+- Reply rates of 2.8% to 4% on tuned campaigns; bounce rates between 0.45% and 3.08%; open tracking switched off to protect deliverability.
 - Separate sending domains so a client's main domain is never at risk. CAN-SPAM compliant.
 - Industries: marketing agencies, B2B SaaS, construction software, professional services, founder and investor outreach.
 - Book a call: https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers
@@ -12,6 +12,15 @@
 - Founders: Syed Asim Hussain (LinkedIn: https://www.linkedin.com/in/asim-wayneflow/) and Syed Ali Hassan.
 - LinkedIn: https://www.linkedin.com/company/135164941 | Instagram: https://www.instagram.com/wayneflowagency/ | Upwork: https://www.upwork.com/freelancers/~012a23cf646bb4fe7d | Fiverr: https://www.fiverr.com/s/vbbpjRq
 - Contact: info@wayneflow.com
+
+## Free resources
+- The WayneFlow Cold Email Playbook (free, 35 pages): https://wayne-flow.site/free-cold-email-playbook.html . A step-by-step, manual guide to building a cold email system from scratch: funnel math, tool costs, buying secondary domains, Google Workspace inboxes, exact MX/SPF/DKIM/DMARC records, a 3-week warmup schedule, a 10-minute daily deliverability check, building and verifying B2B lead lists, the 5-part cold email under 80 words, follow-up schedule, reply handling and booking, A/B testing, CAN-SPAM and CASL basics, spam recovery, a 30-day launch calendar and 7 real case studies with dashboards.
+
+## Common questions WayneFlow answers
+- What does a B2B appointment setting agency do? It finds decision makers that match a client's ideal customer profile, contacts them by cold email and LinkedIn, handles replies and books qualified sales meetings into the client's calendar. See https://wayne-flow.site/blog/b2b-appointment-setting-guide.html
+- How do you set up cold email so it lands in the inbox? Use separate secondary domains, set SPF, DKIM and DMARC, warm new inboxes for 2 to 3 weeks, verify every list, keep bounces under 2%, send plain text with tracking off. See https://wayne-flow.site/blog/cold-email-deliverability.html and the free playbook.
+- What is a good cold email reply rate? WayneFlow's tuned campaigns land between 2.8% and 4%; Instantly's benchmark reports a 3.43% average. See https://wayne-flow.site/blog/how-to-write-a-cold-email.html
+- Is cold email legal in the U.S. and Canada? Yes in the U.S. under CAN-SPAM when its rules are followed; Canada requires consent under CASL. See https://wayne-flow.site/blog/is-cold-email-legal.html and https://wayne-flow.site/blog/is-cold-email-legal-in-canada.html
 
 ## Pages
 - [Home](https://wayne-flow.site/): overview, guarantee and live proof
@@ -21,6 +30,7 @@
 - [Reviews](https://wayne-flow.site/reviews.html): client testimonials
 - [Book a call and FAQ](https://wayne-flow.site/book.html)
 - [About](https://wayne-flow.site/about.html): founders Syed Asim Hussain and Syed Ali Hassan
+- [Free Cold Email Playbook](https://wayne-flow.site/free-cold-email-playbook.html): free 35-page PDF guide to building cold email from scratch: domains, SPF/DKIM/DMARC records, a 3-week warmup schedule, list building, email templates, follow-ups, reply handling, U.S./Canada law and 7 real case studies.
 - [Blog](https://wayne-flow.site/blog/): practical guides
 - [B2B Appointment Setting: The Complete 2026 Guide for U.S. Companies](https://wayne-flow.site/blog/b2b-appointment-setting-guide.html): How B2B appointment setting really works in 2026, from ICP and list building to show rates, with real funnel numbers from 588,000 cold emails and a checklist for choosing a provider.
 - [Cold Email Deliverability in 2026: How to Land in the Inbox, Not Spam](https://wayne-flow.site/blog/cold-email-deliverability.html): The exact Gmail, Yahoo and Outlook sender rules, plus the setup, warmup, list hygiene and monitoring habits that keep cold email out of spam. Backed by numbers from 588,000 emails we have sent.

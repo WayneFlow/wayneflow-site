@@ -25,7 +25,7 @@
     return '<div class="wl-box" id="wl-box-' + id + '">' + COVER + '<div class="wl-copy"><span class="wl-badge">FREE · $300 VALUE</span>' +
       '<h3>Steal our cold email system. Free.</h3>' +
       '<p>35 pages, step by step: the exact setup we run for clients, from a blank domain to booked sales calls, with 7 real client dashboards.</p>' + CHIPS +
-      formHTML(id) + '</div></div>';
+      formHTML(id) + '<p class="wl-more"><a href="/free-cold-email-playbook.html">See what is inside &rarr;</a></p></div></div>';
   };
 
   function done(form, email) {
@@ -90,9 +90,17 @@
   }
   place();
 
+  /* playbook landing page: forms go into #wl-slot / #wl-slot2 */
+  var IS_PB = /free-cold-email-playbook\.html$/.test(page);
+  ['wl-slot', 'wl-slot2'].forEach(function (sid, i) {
+    var el = D.getElementById(sid); if (!el) return;
+    if (ls('wf_lead') === '1') { el.innerHTML = '<p class="wl-msg" style="display:block">You already have the playbook. <a href="' + PDF + '" download>Download it again</a>.</p>'; return; }
+    el.innerHTML = formHTML('page' + (i ? '2' : ''));
+  });
+
   /* newsletter: end of every page, always there for people who skipped the popup */
   function news() {
-    if (ls('wf_sub') === '1') return;
+    if (ls('wf_sub') === '1' || /free-cold-email-playbook\.html$/.test(page)) return;
     var f = D.querySelector('footer'); if (!f) return;
     var s = D.createElement('section'); s.className = 'wl-news'; s.id = 'newsletter';
     s.innerHTML = '<div class="wrap"><div class="wl-nbox"><div class="wl-ncopy"><span class="wl-nk">The WayneFlow Newsletter</span>' +
@@ -105,6 +113,7 @@
 
   /* popup: at most 2 times per person (2nd only on a later visit), never after an email or a booking click */
   function canPop() {
+    if (IS_PB) return false; // the landing page already shows the form
     if (ls('wf_lead') === '1' || ls('wf_sub') === '1') return false;
     if (parseInt(ls('wf_pop_n') || '0', 10) >= 2) return false;           // ignored twice: stop
     try { if (sessionStorage.getItem('wf_popped')) return false; } catch (e) {} // once per visit
