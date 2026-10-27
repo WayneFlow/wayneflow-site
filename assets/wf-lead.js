@@ -15,9 +15,11 @@
     return '<form class="wl-form" novalidate data-wl="' + id + '">' +
       '<label class="wl-sr" for="wl-email-' + id + '">Work email</label>' +
       '<input class="wl-input" id="wl-email-' + id + '" name="email" type="email" autocomplete="email" placeholder="Your work email" required>' +
+      '<label class="wl-sr" for="wl-tel-' + id + '">Phone (optional)</label>' +
+      '<input class="wl-input" id="wl-tel-' + id + '" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="Phone (optional)">' +
       (compact ? '' : '<label class="wl-sr" for="wl-site-' + id + '">Company website</label><input class="wl-input" id="wl-site-' + id + '" name="website" type="text" autocomplete="url" placeholder="Company website (optional)">') +
       '<button class="btn btn-primary wl-btn" type="submit">Send me the free playbook</button>' +
-      '<p class="wl-fine">Instant download. No spam. We may follow up by email; unsubscribe anytime. <a href="/privacy.html">Privacy</a></p>' +
+      '<p class="wl-fine">Instant download. No spam. We may follow up by email; unsubscribe anytime. If you add a phone number, you agree we may call or text you about your request (msg &amp; data rates may apply, reply STOP to opt out). <a href="/privacy.html">Privacy</a></p>' +
       '<p class="wl-msg" role="status" aria-live="polite"></p></form>';
   }
   var BOX = function (id) {
@@ -41,13 +43,32 @@
     e.preventDefault();
     var email = (form.email.value || '').trim().toLowerCase();
     var site = form.website ? (form.website.value || '').trim().slice(0, 200) : '';
+    var phone = form.phone ? (form.phone.value || '').replace(/[^\d+()\-.\s]/g, '').trim().slice(0, 30) : '';
+    if (phone && phone.replace(/\D/g, '').length < 7) { form.querySelector('.wl-msg').textContent = 'Please check the phone number, or leave it empty.'; form.phone.focus(); return; }
     var msg = form.querySelector('.wl-msg');
     if (!/^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(email)) { msg.textContent = 'Please enter a valid email.'; form.email.focus(); return; }
     var x = ph();
-    var props = { email: email, lead_magnet: 'case-study-pack', lead_page: page, lead_form: form.getAttribute('data-wl') };
-    if (site) props.company_website = site;
+    // everything we know about this visit goes with the lead, in one click
+    var tz = ''; try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (err) {}
+    var sess = {}, first = {}, org = {}; try { sess = JSON.parse(sessionStorage.getItem('wf_sess') || '{}'); first = JSON.parse(ls('wf_first') || '{}'); org = JSON.parse(ls('wf_org') || '{}'); } catch (err) {}
+    var hs = D.documentElement.scrollHeight - W.innerHeight;
+    var ctx = {
+      lead_page: page, lead_form: form.getAttribute('data-wl'), lead_magnet: 'case-study-pack',
+      timezone: tz, local_time: new Date().toString().slice(0, 24), language: navigator.language || '',
+      device: W.innerWidth < 641 ? 'mobile' : W.innerWidth < 1025 ? 'tablet' : 'desktop', screen: screen.width + 'x' + screen.height,
+      browser_info: navigator.userAgent.slice(0, 200),
+      source_this_visit: sess.source || '', channel_this_visit: sess.channel || '', landing_page: sess.landing || '',
+      pages_this_visit: sess.pages || 1, visit_number: sess.n || 1, seconds_this_visit: sess.start ? Math.round((Date.now() - sess.start) / 1000) : null,
+      first_source: first.source || '', first_seen: first.ts || '', network: org.org || '', network_kind: org.kind || '',
+      scroll_depth: hs > 0 ? Math.round(W.scrollY / hs * 100) : 100
+    };
+    var person = { email: email, lead_magnet: 'case-study-pack', timezone: tz, language: ctx.language, lead_page: page, lead_at: new Date().toISOString() };
+    if (site) { person.company_website = site; ctx.company_website = site; }
+    if (phone) { person.phone = phone; ctx.phone = phone; ctx.sms_call_consent = true; }
+    if (org.org) person.network = org.org;
+    var props = Object.assign({ email: email }, ctx);
     if (x) {
-      try { x.identify(email, { email: email, company_website: site || undefined, lead_magnet: 'case-study-pack' }, { first_lead_page: page }); } catch (err) {}
+      try { x.identify(email, person, { first_lead_page: page, first_source: first.source || '' }); } catch (err) {}
       x.capture('lead_captured', props);
     }
     done(form, email);
