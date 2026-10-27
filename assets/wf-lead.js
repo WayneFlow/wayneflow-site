@@ -24,7 +24,7 @@
   var BOX = function (id) {
     return '<div class="wl-box" id="wl-box-' + id + '">' + COVER + '<div class="wl-copy"><span class="wl-badge">FREE · $300 VALUE</span>' +
       '<h3>The cold email playbook behind $510K+ in pipeline.</h3>' +
-      '<p>20 pages. The exact setup we use to turn a blank domain into booked sales calls.</p>' + CHIPS +
+      '<p>23 pages. The exact setup we use to turn a blank domain into booked sales calls.</p>' + CHIPS +
       formHTML(id) + '</div></div>';
   };
 
@@ -94,7 +94,7 @@
     if (shown || !canPop()) return; shown = true; ls('wf_pop_at', String(Date.now()));
     var d = D.createElement('div'); d.id = 'wl-pop'; d.className = 'wl-pop'; d.setAttribute('role', 'dialog'); d.setAttribute('aria-modal', 'true'); d.setAttribute('aria-labelledby', 'wl-pop-h');
     d.innerHTML = '<div class="wl-card"><button class="wl-x" type="button" aria-label="Close">×</button>' +
-      '<div class="wl-hero"><span class="wl-badge">FREE · $300 VALUE</span>' + COVER + '<span class="wl-meta">20 pages · instant PDF</span></div>' +
+      '<div class="wl-hero"><span class="wl-badge">FREE · $300 VALUE</span>' + COVER + '<span class="wl-meta">23 pages · instant PDF</span></div>' +
       '<div class="wl-body"><h3 id="wl-pop-h">Before you go: the playbook behind $510K+ in pipeline.</h3>' +
       '<p>Every step we use to book sales calls, from 588,000 real emails.</p>' + CHIPS + formHTML('popup') + '</div></div>';
     D.body.appendChild(d);
