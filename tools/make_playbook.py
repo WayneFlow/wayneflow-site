@@ -10,54 +10,54 @@ def cal(src): return f'{CAL}?utm_source=playbook&amp;utm_medium=pdf&amp;utm_camp
 SITE = 'https://wayne-flow.site'
 
 CSS = r'''
-@page { size: Letter; margin: .45in .5in .55in }
+@page { size: Letter; margin: .62in .7in .7in }
 * { box-sizing: border-box }
 html { -webkit-print-color-adjust: exact; print-color-adjust: exact }
-body { margin: 0; font-family: Inter, sans-serif; color: #0B1A3A; font-size: 9.4pt; line-height: 1.42 }
+body { margin: 0; font-family: Inter, sans-serif; color: #0B1A3A; font-size: 10pt; line-height: 1.56 }
 h1, h2, h3, h4 { font-family: 'Inter Display', Inter, sans-serif; letter-spacing: -.02em; line-height: 1.15; break-after: avoid }
-h2 { font-size: 14pt; margin: 14px 0 5px }
-h3 { font-size: 11.5pt; margin: 12px 0 4px }
-p { margin: 0 0 7px; color: #26334D }
+h2 { font-size: 15.5pt; margin: 22px 0 8px }
+h3 { font-size: 12.5pt; margin: 20px 0 8px }
+p { margin: 0 0 10px; color: #26334D }
 ul, ol { margin: 0 0 12px; padding-left: 20px; color: #26334D }
-li { margin: 2px 0 }
+li { margin: 5px 0 }
 b, strong { color: #0B1A3A }
 a { color: #1556D6 }
 code, .mono { font-family: 'DejaVu Sans Mono', Menlo, monospace; font-size: 9.6pt }
 code { background: #EEF3FC; padding: 1px 5px; border-radius: 4px; color: #0B1A3A }
-.chap { break-inside: avoid; margin: 18px 0 8px; padding-top: 10px; border-top: 2px solid #E3E9F5 } .chap.pb { break-before: page; border-top: 0; padding-top: 0; margin-top: 0 }
+.chap { break-inside: avoid; margin: 30px 0 -1.9in; padding: 0 0 1.9in; } .chap::after { content: ''; display: block; border-bottom: 2px solid #E3E9F5; margin-top: 16px } .chap.pb { break-before: page }
 .chap .num { font-size: 10pt; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; color: #1F6BFF }
-.chap h1 { font-size: 21pt; margin: 4px 0 6px; font-weight: 800 }
-.chap .lead { font-size: 11pt; color: #3E4C66; line-height: 1.5; border-left: 4px solid #1F6BFF; padding-left: 14px; margin: 0 0 6px }
+.chap h1 { font-size: 28pt; margin: 8px 0 12px; font-weight: 800 }
+.chap .lead { font-size: 12.5pt; color: #3E4C66; line-height: 1.5; border-left: 4px solid #1F6BFF; padding-left: 14px; margin: 0 0 6px }
 .part { break-before: page; height: 9.3in; display: flex; flex-direction: column; justify-content: center; background: linear-gradient(160deg,#0B1A3A,#12306E 70%,#1F6BFF 140%); color: #fff; border-radius: 22px; padding: 0 .6in }
 .part .pk { font-size: 11pt; letter-spacing: .2em; text-transform: uppercase; color: #8FB6FF; font-weight: 800 }
 .part h1 { font-size: 40pt; margin: 10px 0 14px; color: #fff; font-weight: 800 }
 .part p { color: #CFE0FF; font-size: 13.5pt; max-width: 32em }
 .part ol { color: #fff; font-size: 12.5pt; margin-top: 18px }
-.box { border-radius: 10px; padding: 9px 13px; margin: 9px 0; break-inside: avoid }
+.box { border-radius: 12px; padding: 12px 16px; margin: 14px 0; break-inside: avoid }
 .box .bt { display: block; font-size: 8.8pt; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 4px }
 .box p:last-child, .box ul:last-child { margin-bottom: 0 }
 .proof { background: #EEF4FF; border-left: 5px solid #1F6BFF } .proof .bt { color: #1556D6 }
 .tip { background: #FFF7E3; border-left: 5px solid #F2A900 } .tip .bt { color: #9A6A00 }
 .warn { background: #FFEDEE; border-left: 5px solid #E0384B } .warn .bt { color: #B4192B }
 .real { background: #E9F7EF; border-left: 5px solid #0E8A4B } .real .bt { color: #0B6E3C }
-table { width: 100%; border-collapse: collapse; margin: 6px 0 10px; font-size: 8.8pt; break-inside: avoid }
-th { background: #0B1A3A; color: #fff; text-align: left; padding: 5px 7px; font-weight: 700 }
-td { padding: 4px 7px; border-bottom: 1px solid #E3E9F5; vertical-align: top; color: #26334D }
+table { width: 100%; border-collapse: collapse; margin: 12px 0 18px; font-size: 9.6pt; break-inside: avoid }
+th { background: #0B1A3A; color: #fff; text-align: left; padding: 8px 10px; font-weight: 700 }
+td { padding: 8px 10px; border-bottom: 1px solid #E3E9F5; vertical-align: top; color: #26334D }
 tr:nth-child(even) td { background: #F7F9FD }
-.dns { border: 1px solid #D8E2F3; border-radius: 10px; overflow: hidden; margin: 8px 0; break-inside: avoid }
+.dns { border: 1px solid #D8E2F3; border-radius: 12px; overflow: hidden; margin: 16px 0; break-inside: avoid }
 .dns .dh { background: #0B1A3A; color: #fff; padding: 8px 14px; font-weight: 800; font-size: 10.5pt; display: flex; justify-content: space-between }
 .dns .dh span { color: #8FB6FF; font-weight: 600 }
 .dns table { margin: 0 } .dns td:first-child { width: 22%; font-weight: 700; color: #0B1A3A }
-.dns .what { padding: 6px 12px; font-size: 8.8pt; background: #F7F9FD; color: #3E4C66 }
+.dns .what { padding: 10px 14px; font-size: 9.6pt; background: #F7F9FD; color: #3E4C66 }
 .steps { counter-reset: s; list-style: none; padding: 0 }
-.steps > li { counter-increment: s; position: relative; padding: 1px 0 2px 32px; margin: 4px 0 }
-.steps > li::before { content: counter(s); position: absolute; left: 0; top: 0; width: 21px; height: 21px; border-radius: 6px; background: #1F6BFF; color: #fff; font-weight: 800; display: grid; place-items: center; font-size: 10.5pt }
-.check { list-style: none; padding: 0 } .check li { padding-left: 22px; position: relative; margin: 3px 0 }
+.steps > li { counter-increment: s; position: relative; padding: 2px 0 4px 38px; margin: 9px 0 }
+.steps > li::before { content: counter(s); position: absolute; left: 0; top: 0; width: 25px; height: 25px; border-radius: 7px; background: #1F6BFF; color: #fff; font-weight: 800; display: grid; place-items: center; font-size: 10.5pt }
+.check { list-style: none; padding: 0 } .check li { padding-left: 26px; position: relative; margin: 7px 0 }
 .check li::before { content: ''; position: absolute; left: 0; top: 3px; width: 14px; height: 14px; border: 2px solid #1F6BFF; border-radius: 4px }
-.email { border: 1px solid #D8E2F3; border-radius: 10px; margin: 8px 0; break-inside: avoid; background: #fff; box-shadow: 0 2px 0 #EEF3FC }
+.email { border: 1px solid #D8E2F3; border-radius: 12px; margin: 16px 0; break-inside: avoid; background: #fff; box-shadow: 0 2px 0 #EEF3FC }
 .email .eh { border-bottom: 1px solid #E3E9F5; padding: 8px 14px; font-size: 9.8pt; color: #5B6B85 }
 .email .eh b { color: #0B1A3A }
-.email .eb { padding: 8px 12px; font-size: 9.4pt; white-space: pre-line; color: #0B1A3A; line-height: 1.55 }
+.email .eb { padding: 14px 16px; font-size: 10.2pt; white-space: pre-line; color: #0B1A3A; line-height: 1.55 }
 .email .en { padding: 8px 14px; background: #F7F9FD; font-size: 9.4pt; color: #3E4C66; border-top: 1px solid #E3E9F5 }
 .stats { display: grid; grid-template-columns: repeat(4,1fr); gap: 8px; margin: 10px 0; break-inside: avoid }
 .stats div { background: #fff; border: 1px solid #D8E2F3; border-radius: 10px; padding: 8px 10px }
@@ -66,14 +66,14 @@ tr:nth-child(even) td { background: #F7F9FD }
 .shot { border: 1px solid #D8E2F3; border-radius: 12px; overflow: hidden; margin: 12px 0 4px; break-inside: avoid }
 .shot img { width: 100%; height: 2.3in; object-fit: cover; object-position: top; display: block }
 .cap { font-size: 9pt; color: #5B6B85; margin: 0 0 14px }
-.cta { break-inside: avoid; margin: 14px 0; border-radius: 16px; padding: 15px 18px; color: #fff; background: linear-gradient(120deg,#0B1A3A 0%,#1F4FBF 60%,#1F6BFF 100%); display: flex; gap: 18px; align-items: center }
+.cta { break-inside: avoid; margin: 20px 0; border-radius: 18px; padding: 18px 22px; color: #fff; background: linear-gradient(120deg,#0B1A3A 0%,#1F4FBF 60%,#1F6BFF 100%); display: flex; gap: 18px; align-items: center }
 .cta .ct { flex: 1 } .cta .ck { font-size: 8.8pt; letter-spacing: .16em; text-transform: uppercase; font-weight: 800; color: #8FD8FF }
 .cta h3 { color: #fff; font-size: 16pt; margin: 4px 0 6px } .cta p { color: #D7E4FF; margin: 0; font-size: 10.5pt }
 .cta a.btn { flex: none; background: #fff; color: #1556D6; font-weight: 800; text-decoration: none; padding: 12px 18px; border-radius: 11px; font-size: 11pt; white-space: nowrap }
 .faces { display: flex } .faces img { width: 46px; height: 46px; border-radius: 50%; border: 2px solid #fff; object-fit: cover } .faces img + img { margin-left: -16px }
-.toc { columns: 2; column-gap: 28px; font-size: 10.6pt; margin-top: 8px }
-.toc div { break-inside: avoid; margin: 0 0 6px; display: flex; gap: 8px } .toc i { font-style: normal; color: #1F6BFF; font-weight: 800; width: 20px; flex: none }
-.toc .tp { font-size: 8.8pt; letter-spacing: .14em; text-transform: uppercase; color: #8A97AE; font-weight: 800; margin-top: 8px }
+.toc { columns: 2; column-gap: 34px; font-size: 11pt; margin-top: 18px }
+.toc div { break-inside: avoid; margin: 0 0 11px; display: flex; gap: 8px } .toc i { font-style: normal; color: #1F6BFF; font-weight: 800; width: 20px; flex: none }
+.toc .tp { font-size: 8.8pt; letter-spacing: .14em; text-transform: uppercase; color: #8A97AE; font-weight: 800; margin-top: 18px }
 .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 10px 0 } .grid2 > div { border: 1px solid #D8E2F3; border-radius: 12px; padding: 12px 14px; break-inside: avoid }
 .grid2 h4 { margin: 0 0 4px; font-size: 11.5pt } .grid2 p { font-size: 10pt; margin: 0 }
 .funnel { margin: 12px 0; break-inside: avoid }
@@ -82,16 +82,16 @@ tr:nth-child(even) td { background: #F7F9FD }
 .pill { display: inline-block; background: #E9F7EF; color: #0B6E3C; border-radius: 99px; padding: 1px 9px; font-size: 9pt; font-weight: 700 }
 .pill.r { background: #FFEDEE; color: #B4192B } .pill.y { background: #FFF7E3; color: #9A6A00 }
 .small { font-size: 9.4pt; color: #5B6B85 }
-.final h1 { font-size: 28pt }
-.choice { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 10px 0 } .choice li { margin: 2px 0 }
-.choice > div { border-radius: 16px; padding: 14px 16px; font-size: 10.2pt; break-inside: avoid }
+.final h1 { font-size: 26pt } .final ~ .choice li { margin: 2px 0 } .final ~ .stats { margin: 8px 0 }
+.choice { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 10px 0 } .choice li { margin: 5px 0 }
+.choice > div { border-radius: 16px; padding: 12px 15px; font-size: 9.5pt; line-height: 1.45; break-inside: avoid }
 .choice .diy { border: 2px solid #D8E2F3 } .choice .dfy { background: #0B1A3A; color: #fff } .choice .dfy p, .choice .dfy li { color: #D7E4FF } .choice .dfy h3, .choice .dfy b { color: #fff }
 .choice h3 { margin: 0 0 8px }
 .gal { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 14px; margin-top: 8px }
 .gal > div, .gcal { break-inside: avoid } .gi { border: 1px solid #D8E2F3; border-radius: 10px; overflow: hidden; height: 1.62in; margin-bottom: 3px } .gi img { width: 100%; height: 100%; object-fit: cover; object-position: top }
 .gal b, .gcal b { display: block; font-size: 10pt } .gal span, .gcal span { font-size: 8.6pt; color: #5B6B85 }
 .gcal { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-items: center; margin-top: 12px } .gcal .gi { height: 1.4in }
-.case { break-inside: avoid; margin: 16px 0; border: 1.5px solid #CFE0FF; border-radius: 14px; padding: 12px 14px 12px; background: linear-gradient(180deg,#F5F9FF,#fff 60%) }
+.case { break-inside: avoid; margin: 20px 0; border: 1.5px solid #CFE0FF; border-radius: 14px; padding: 12px 14px 12px; background: linear-gradient(180deg,#F5F9FF,#fff 60%) }
 .case .ch { display: flex; justify-content: space-between; align-items: center }
 .case .cn { background: #0B1A3A; color: #fff; font-weight: 800; font-size: 8pt; letter-spacing: .12em; text-transform: uppercase; padding: 3px 9px; border-radius: 99px }
 .case .ci { font-size: 8.4pt; color: #5B6B85; font-weight: 700 }
@@ -100,17 +100,21 @@ tr:nth-child(even) td { background: #F7F9FD }
 .case .cbody { display: grid; grid-template-columns: 1.15fr 1fr; gap: 12px; align-items: start }
 .case .cshot { border: 1px solid #D8E2F3; border-radius: 9px; overflow: hidden; height: 1.95in; background: #fff }
 .case .cshot img { width: 100%; height: 100%; object-fit: contain; object-position: center; display: block }
-.case .cpd p { font-size: 9pt; margin: 0 0 5px; line-height: 1.4 }
+.case .cpd p { font-size: 9.6pt; margin: 0 0 8px; line-height: 1.5 }
 .case .stats { margin: 9px 0 6px }
 .case .clink { display: inline-block; font-weight: 800; font-size: 9.2pt; color: #fff; background: #1F6BFF; text-decoration: none; padding: 6px 12px; border-radius: 8px }
-.nxt { break-inside: avoid; margin: 12px 0 4px; padding: 8px 12px; border: 1px dashed #9CB8EE; border-radius: 10px; font-size: 9.4pt; color: #0B1A3A; font-weight: 600 }
+.nxt { break-inside: avoid; margin: 26px 0 8px; padding: 8px 12px; border: 1px dashed #9CB8EE; border-radius: 10px; font-size: 9.4pt; color: #0B1A3A; font-weight: 600 }
 .nxt span { display: inline-block; background: #1F6BFF; color: #fff; font-size: 7.6pt; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; border-radius: 6px; padding: 2px 7px; margin-right: 6px }
-.bignum { break-inside: avoid; display: flex; gap: 14px; align-items: center; margin: 10px 0; padding: 10px 14px; background: #0B1A3A; border-radius: 12px; color: #fff }
+.bignum { break-inside: avoid; display: flex; gap: 18px; align-items: center; margin: 18px 0; padding: 16px 20px; background: #0B1A3A; border-radius: 12px; color: #fff }
 .bignum b { font-size: 24pt; font-weight: 800; color: #5FD3FF; white-space: nowrap; font-family: 'Inter Display', Inter, sans-serif }
 .bignum span { font-size: 9.6pt; color: #D7E4FF; line-height: 1.4 }
+.dfyn { break-inside: avoid; display: flex; align-items: center; gap: 14px; margin: 20px 0; padding: 12px 16px; border-radius: 14px; background: #EEF4FF; border: 1px solid #CFE0FF }
+.dfyn .faces img { width: 36px; height: 36px } .dfyn .faces img + img { margin-left: -12px }
+.dfyn p { flex: 1; margin: 0; font-size: 9.6pt; color: #0B1A3A; line-height: 1.45 }
+.dfyn a { flex: none; font-weight: 800; font-size: 9.4pt; color: #fff; background: #1F6BFF; padding: 8px 12px; border-radius: 9px; text-decoration: none; white-space: nowrap }
 '''
 
-PB = set()
+PB = {'c1', 'c9', 'c16'}
 def chap(n, title, lead, anchor):
     pb = ' pb' if anchor in PB else ''
     return f'<section class="chap{pb}" id="{anchor}"><div class="num">Chapter {n}</div><h1>{title}</h1><p class="lead">{lead}</p></section>'
@@ -163,6 +167,8 @@ def case(key, n, industry, why, problem, did, result):
 <div class="cbody"><div class="cshot"><a href="{link}"><img src="{A}/img/{img}-hd.webp"></a></div>
 <div class="cpd"><p><b>The problem.</b> {problem}</p><p><b>What we did.</b> {did}</p><p><b>The result.</b> {result}</p></div></div>
 <div class="stats">{tiles}</div><a class="clink" href="{link}">See the live dashboard for this campaign &rarr;</a></div>"""
+def dfy(text, src):
+    return f'<div class="dfyn"><div class="faces"><img src="{A}/team/asim-sq.webp"><img src="{A}/team/ali-sq.webp"></div><p>{text}</p><a href="{cal(src)}">Book a 20-min call &rarr;</a></div>'
 def nxt(text):
     return f'<p class="nxt"><span>Coming up</span> {text}</p>'
 def bn(v, t):
@@ -174,11 +180,11 @@ add = S.append
 
 # Welcome + contents
 add(f'''<section id="start"><div class="num" style="font-size:10pt;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#1F6BFF">Before you start</div>
-<h1 style="font-size:22pt;margin:4px 0 8px">Read this first</h1>
+<h1 style="font-size:28pt;margin:8px 0 14px">Read this first</h1>
 <p>Most cold email advice is written by people who sell software. This playbook is written by people who run campaigns. We are Ali and Asim, two cousins from Pakistan who have spent the last 8 years building outbound systems for B2B companies, mostly in the USA and Canada.</p>
 <p>In 2026 alone our campaigns sent <b>588,000 cold emails</b> for clients. They produced <b>12,900+ replies</b>, <b>3,400+ buyers who said "yes, let's talk"</b>, and <b>$510K+ in qualified pipeline</b>. Every number in this guide comes from those live dashboards. Where we use a public rule (Google, Microsoft, the FTC), we tell you where it comes from.</p>
 {box('tip', 'How to use this playbook', '<ul><li><b>Doing it yourself?</b> Go chapter by chapter. Each one ends with a step you can finish the same day. Plan on about 30 days from zero to your first booked call.</li><li><b>Short on time?</b> Read Chapter 1 (the math) and the checklists at the end. You will know exactly what a good system needs, and how to judge anyone you hire.</li><li><b>Want it done for you?</b> Skip to the last page. We build and run the whole system and book the calls into your calendar.</li></ul>')}
-<h2>What is inside <span class="small" style="font-weight:500">(click any chapter to jump to it)</span></h2>
+<h1 style="font-size:26pt;margin:0 0 6px;break-before:page">What is inside</h1><p>17 chapters in 6 parts, with 7 real case studies along the way. Click any chapter to jump to it.</p>
 <div class="toc">
 <div class="tp">Part 1 · The plan</div>
 <div><i>1</i><a href="#c1">The math before the machine</a></div>
@@ -299,6 +305,7 @@ add(f'''<p>Your main domain carries your website, your invoices, your team\'s em
 <p><b>Today\'s step:</b> list 10 name ideas with prefixes (try, get, use, meet) and suffixes (hq, team, co), check each on MXToolbox\'s blacklist tool, buy what your worksheet says plus one spare, turn on auto-renew and privacy, and log each domain with its renewal date.</p>
 ''')
 
+add(dfy('<b>Rather skip the setup?</b> Picking domains, buying inboxes and getting the records right is what our team has done every day for 8 years. Book a 20-minute call and we will set it all up for you.', 'dfy-domains'))
 add(nxt('Chapter 4: setting up the inboxes, and the 10-minute profile step most people skip.'))
 add(chap(4, 'Google Workspace and your inboxes', 'One Workspace account can hold all your sending domains. You add each domain, create 2 to 3 real people on it, and make every inbox look like a person a buyer would trust.', 'c4'))
 add(f'''<h2>Set up the account</h2>
@@ -399,6 +406,7 @@ add(f'''{table(['Check', 'Where', 'Healthy', 'Act now if'], [
 # ---------------- PART 3
 
 add(case('quarter', 4, 'High-volume program', 'Why this case is here: daily checks are what keep volume like this out of spam.', 'The client wanted a reliable stream of interested buyers every week for a whole quarter, not one big spike.', 'Consistent daily sending across many inboxes, list hygiene before every batch, constant testing and the daily health check above.', '236,545 emails, 4,372 replies (3.69%) and <b>1,061 interested buyers</b> in one quarter, about <b>$100,000 in pipeline</b>. Its 3.08% bounce rate, our highest, came from older data, so we now re-verify lists older than 60 days.'))
+add(dfy('<b>Want the whole machine built and watched for you?</b> Our experts with 8 years in outbound set up, warm up and check every inbox every morning, so you never have to.', 'dfy-health'))
 add(nxt('Part 3, the list: why the right list beats the perfect email, and how to find buyers who need you right now.'))
 add(chap(9, 'Pick buyers who are ready now', 'Start with the customers who already pay you, not a wish list. Then add a "trigger": a public sign that a company needs you right now.', 'c9'))
 add(f'''<h2>Write your ideal customer profile (ICP)</h2>
@@ -444,6 +452,7 @@ add(f'''<h2>Where to find people</h2>
 # ---------------- PART 4
 
 add(case('agency', 5, 'Marketing agency', 'Why this case is here: a clear buyer and a clean list, worked every single day.', 'A marketing agency needed a steady flow of conversations with business owners every week, not now and then.', 'A tight business-owner list that got sharper every week, verified before every batch and sent steadily every weekday.', 'About <b>100 interested replies every week</b>: 2,429 replies and <b>2,146 interested buyers</b> from 76,081 people, about <b>$175,000 in pipeline</b>, with a 1.64% bounce rate.'))
+add(dfy('<b>No time to build lists by hand?</b> We find, check and verify every buyer for you, the same way we did for the campaigns in this playbook. Book a 20-minute call with our CEO.', 'dfy-list'))
 add(nxt('Part 4, the message: the 5-part email formula, with examples you can copy.'))
 add(chap(11, 'Write emails people answer', 'Five parts, under 80 words, plain text, no images, at most one link. That is the whole formula. The hard part is saying something specific.', 'c11'))
 add(f'''{table(['Part', 'Job', 'Rule'], [
@@ -517,6 +526,7 @@ add(f'''<h2>Sort every reply into a bucket</h2>
 ''')
 
 add('<div class="case"><div class="ch"><span class="cn">Case study 6 of 7</span><span class="ci">The end result · real client · 2026</span></div><p class="cwhy">Why this is here: this is what the whole system is for.</p><h3 class="chd">50+ discovery calls in one client&#39;s calendar.</h3><div class="cbody"><div class="cshot"><a href="' + RES + '?utm_source=playbook&amp;utm_medium=pdf&amp;utm_campaign=calendly"><img src="' + A + '/img/calendly-hd.webp"></a></div><div class="cpd"><p><b>The goal.</b> Not opens, not replies: qualified buyers on the calendar.</p><p><b>What we did.</b> Interested replies answered fast, two time options offered, confirmations and reminders sent, no-shows rescheduled within 24 hours.</p><p><b>The result.</b> Every line in this screenshot is a real Calendly booking: <b>50+ calls</b> in one client&#39;s calendar.</p></div></div><a class="clink" href="' + RES + '?utm_source=playbook&amp;utm_medium=pdf&amp;utm_campaign=calendly">See the real bookings &rarr;</a></div>')
+add(dfy('<b>Would you rather just get the meetings?</b> We answer every reply and book qualified buyers straight into your calendar. 8 years of doing exactly this. Book a 20-minute call.', 'dfy-replies'))
 add(nxt('Chapter 15: how to read your numbers, and which test to run first (hint: it is not the subject line).'))
 add(chap(15, 'Testing and reading your numbers', 'Change one thing at a time, give each test enough people, and judge it by positive replies, never by opens.', 'c15'))
 add(f'''<h2>What to test, in order</h2>
@@ -542,6 +552,7 @@ add(f'''<h2>What to test, in order</h2>
 # ---------------- PART 6
 
 add(case('linkedin', 7, 'Founders and investors', 'Why this case is here: when the numbers say your buyers do not live in the inbox, change the channel, not the effort.', 'Founders and angel investors are one of the hardest audiences to reach, and many rarely answer cold email.', 'LinkedIn outreach alongside email: connection invites and InMails written with the same rules as Chapter 11 (short, about them, one easy question).', '1,375 invites, 351 accepted, 1,628 InMails and <b>154 replies</b> from people who almost never answer cold email, about $7,500 in pipeline.'))
+add(dfy('<b>Want experts to test and tune it for you?</b> We run the tests, read the numbers and fix what is not working, every week. Book a 20-minute call and see what we would change.', 'dfy-testing'))
 add(nxt('Part 6: the law in plain English (one mistake can cost up to $53,088 per email), and what to do when emails hit spam.'))
 add(chap(16, 'The law: USA and Canada', 'Cold B2B email is legal in the U.S. when you follow the CAN-SPAM Act. Canada is stricter. Here are the rules in plain English.', 'c16'))
 add(f'''{box('warn', 'Not legal advice', '<p>This is general information based on the FTC\'s published guidance and the law as of October 2026. Talk to a qualified attorney about your situation.</p>')}
@@ -577,8 +588,7 @@ add(f'''<p><b>Warning signs:</b> replies drop while volume stays the same, your 
 {cta('Already stuck in spam?', 'Get a free review of your setup.', 'On a 20-minute call with our CEO we look at your domains, records and numbers and tell you honestly what we would change. If you want us to fix it, we can. If not, you keep the advice.', 'Book my free review', 'cta3-spam')}''')
 
 # ---------------- Checklists
-add(nxt('Last: the 30-day calendar and the checklists we follow for every new client. Print them.'))
-add(f'''<section class="chap" id="lists"><div class="num">Your tools</div><h1>The 30-day calendar and checklists</h1><p class="lead">Print these pages. Tick the boxes. This is the exact order we follow for every new client.</p></section>
+add(f'''<section class="chap pb" id="lists"><div class="num">Your tools</div><h1>The 30-day calendar and checklists</h1><p class="lead">Print these pages. Tick the boxes. This is the exact order we follow for every new client.</p></section>
 {table(['Days', 'What gets done', 'Chapter'], [
  ['1', 'Worksheet filled in; registrar and sending platform accounts opened', '1, 2'],
  ['2', 'Domains bought (plus one spare), auto-renew on, system sheet started', '3'],
@@ -617,7 +627,7 @@ add(f'''<section class="chap final pb" id="final"><div class="num">The choice</d
 <div class="ct"><div class="ck">Free · 20 minutes · No pressure</div><h3>Book a 20-minute session with our CEO</h3><p>We look at your offer and your market, then show you who we would target, the angle we would use and how many meetings to expect. Even if you decide to do it yourself, you leave with a clear plan. One good client from this system can be worth thousands of dollars.</p></div>
 <a class="btn" href="{cal('cta4-final')}">Book my call &rarr;</a></div>
 <p style="text-align:center;margin-top:10px" class="small">Or open this link: <a href="{cal('cta4-final-link')}">calendly.com/learnwithasimshah</a> &nbsp;·&nbsp; See every live dashboard at <a href="{SITE}/results.html?utm_source=playbook">wayne-flow.site/results</a></p>
-<p class="small" style="font-size:7.8pt;margin-top:12px;border-top:1px solid #E3E9F5;padding-top:10px">© 2026 WayneFlow by Ali &amp; Asim. All campaign numbers come from real client dashboards in 2026; pipeline is counted at our clients' average deal size of about $2,500. Past results do not guarantee future results; your results depend on your offer, market and execution. Tool names and prices belong to their owners and were checked in October 2026. This playbook is general information, not legal advice.</p>''')
+<p class="small" style="font-size:7.2pt;line-height:1.35;margin-top:8px;border-top:1px solid #E3E9F5;padding-top:10px">© 2026 WayneFlow by Ali &amp; Asim. All campaign numbers come from real client dashboards in 2026; pipeline is counted at our clients' average deal size of about $2,500. Past results do not guarantee future results; your results depend on your offer, market and execution. Tool names and prices belong to their owners and were checked in October 2026. This playbook is general information, not legal advice.</p>''')
 
 BODY = f'<!doctype html><html><head><meta charset="utf-8"><title>The WayneFlow Cold Email Playbook</title><style>{CSS}</style></head><body>{"".join(S)}</body></html>'
 
