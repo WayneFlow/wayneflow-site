@@ -42,7 +42,17 @@ short, no jargon. The owners read it on their phone.
    queries as `dashboard/build.py`: every visitor, live activity, pages). Check that the
    numbers look sane and new events arrive; if a dashboard source fails, re-run its query and
    report what broke.
-7. **Retargeting duty** (the owners' main goal is more sales):
+7. **Email leads (most important)**: list every new `lead_captured` since the last run
+   (email, optional phone, website, source, city/region/country, time zone, network, pages
+   read). For each one, draft a short personal follow-up email (under 90 words, from Asim,
+   mention what they read and one matching case study, end with an easy question and the
+   Calendly link). Drafts only, in the report. Never send, never add them to Instantly or any
+   campaign without the owners' OK. A lead with a phone gave call/text consent; still only
+   suggest, never contact. Leads are personal data: show them only in the report.
+8. **Free company detection**: list visitors whose `wf_org_kind` is `company_network`
+   (their company network name, pages, source). For an interesting company, suggest the
+   decision maker to look for and a one-line outreach angle. Never guess an email address.
+9. **Retargeting duty** (the owners' main goal is more sales):
    - Build today's audience segments from the data: "hot, did not book" (booking click or
      2+ visits, no booking), "read results/case studies", "USA/Canada, 3+ pages",
      "came from AI assistants", "came from Instagram/TikTok/Facebook".
@@ -71,6 +81,8 @@ anyone, never add pixels or tools without the owners' OK, never invent results o
 **WayneFlow daily check: <date>**
 - Status: site up ✅ / problem ❌
 - Last 24h: X visitors (vs Y), Z booking clicks. Top source: … Top page: …
+- New email leads: n (each: email · source · city · what they read) + follow-up drafts
+- Companies detected: …
 - Hot leads: … (or "none today")
 - Retarget today: segment → message (1–2 lines)
 - News: anything new or important

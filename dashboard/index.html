@@ -81,10 +81,35 @@
   <section class="wv-kpis" id="kpis" aria-label="Last 30 days">
     <div class="wv-kpi"><span>Visitors · <span class="wv-days">30</span> days</span><b data-source="kpis" data-field="visitors" data-row="0" class="dash-skeleton">—</b></div>
     <div class="wv-kpi good"><span>Clicked Book a call</span><b data-source="kpis" data-field="clickers" data-row="0" class="dash-skeleton">—</b></div>
+    <div class="wv-kpi good"><span>Emails captured</span><b data-source="kpis" data-field="emails" data-row="0" class="dash-skeleton">—</b></div>
     <div class="wv-kpi"><span>Click rate</span><b data-source="kpis" data-field="click_rate" data-row="0" class="dash-skeleton">—</b></div>
     <div class="wv-kpi"><span>Came back again</span><b data-source="kpis" data-field="returning" data-row="0" class="dash-skeleton">—</b></div>
     <div class="wv-kpi"><span>On mobile</span><b data-source="kpis" data-field="mobile_share" data-row="0" class="dash-skeleton">—</b></div>
     <div class="wv-kpi"><span>Countries</span><b data-source="kpis" data-field="countries" data-row="0" class="dash-skeleton">—</b></div>
+  </section>
+
+  <section class="wv-card" id="email-leads">
+    <h2>New email leads</h2>
+    <p class="wv-note">People who downloaded the free playbook. Follow up fast: reply within the hour while they still remember you. Keep this page private, it shows contact details.</p>
+    <div class="wv-tablebox" style="max-height:24rem">
+      <table class="wv-table" id="e-table" data-source="leads" data-row-key="id">
+        <thead><tr>
+          <th data-field="at" scope="col">When</th>
+          <th data-field="email" scope="col">Email</th>
+          <th data-field="phone" scope="col">Phone</th>
+          <th data-field="company_website" scope="col">Website</th>
+          <th data-field="source" scope="col">Came from</th>
+          <th data-field="country" scope="col">Country</th>
+          <th data-field="region" scope="col">Region</th>
+          <th data-field="city" scope="col">City</th>
+          <th data-field="timezone" scope="col">Time zone</th>
+          <th data-field="network" scope="col">Network</th>
+          <th data-field="lead_page" scope="col">Page</th>
+          <th data-field="pages_this_visit" scope="col">Pages</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
   </section>
 
   <section class="wv-grid">
@@ -166,6 +191,9 @@
           <th data-field="pages_viewed" scope="col">Pages</th>
           <th data-field="visits" scope="col">Visits</th>
           <th data-field="email" scope="col">Email</th>
+          <th data-field="phone" scope="col">Phone</th>
+          <th data-field="network" scope="col">Network / company</th>
+          <th data-field="timezone" scope="col">Time zone</th>
         </tr></thead>
         <tbody></tbody>
       </table>
@@ -207,7 +235,7 @@
     const lines = text.split('\n').filter((l) => l.trim() !== '');
     if (!lines.length) return [];
     const cols = lines[0].split('|');
-    const nums = new Set(['pages_viewed', 'visits', 'cta_clicks', 'max_scroll', 'engaged_seconds', 'link_clicks', 'views', 'page_visitors', 'clickers']);
+    const nums = new Set(['pages_this_visit', 'visit_number', 'pages_viewed', 'visits', 'cta_clicks', 'max_scroll', 'engaged_seconds', 'link_clicks', 'views', 'page_visitors', 'clickers']);
     const rows = lines.slice(1).map((line) => {
       let cells = line.split('|');
       if (cells.length > cols.length) cells = cells.slice(0, cols.length - 1).concat(cells.slice(cols.length - 1).join('|'));
@@ -224,6 +252,7 @@
     return { columns: cols, rows };
   }
   dash.loader('visitors', { description: 'PostHog’s text table as rows, counts made numbers', fn: wvRows });
+  dash.loader('leads', { description: 'PostHog’s text table as rows', fn: wvRows });
   dash.loader('pages', { description: 'PostHog’s text table as rows, counts made numbers', fn: wvRows });
   dash.loader('activity', { description: 'PostHog’s text table as rows', fn: wvRows });
 
@@ -244,11 +273,13 @@
 
   dash.calc('leads', {
     title: 'Lead score',
-    description: 'Points: booking click 50, came back 20, 3+ pages 15, 6+ pages 10 more, USA or Canada 15, 60+ seconds 10, scrolled 75% 10, opened a link 5. Hot is 60+, warm 30+.',
+    description: 'Points: booking click 50, left email 40, company network 10, came back 20, 3+ pages 15, 6+ pages 10 more, USA or Canada 15, 60+ seconds 10, scrolled 75% 10, opened a link 5. Hot is 60+, warm 30+.',
     inputs: ['visitors'],
     fn: (visitors) => visitors.map((v) => {
       let score = 0; const why = [];
       if (Number(v.cta_clicks) > 0) { score += 50; why.push('clicked Book a call'); }
+      if (v.email) { score += 40; why.push('left email ' + v.email + (v.phone ? ' and phone' : '')); }
+      if (v.network_kind === 'company_network') { score += 10; why.push('on company network ' + v.network); }
       if (Number(v.visits) > 1) { score += 20; why.push('came back ' + v.visits + ' times'); }
       if (Number(v.pages_viewed) >= 3) { score += 15; why.push(v.pages_viewed + ' pages'); }
       if (Number(v.pages_viewed) >= 6) score += 10;
@@ -269,7 +300,7 @@
 
   dash.calc('kpis', {
     title: 'Visitor totals',
-    description: 'Visitors, booking clickers, click rate, returning share, mobile share and countries, from every visitor.',
+    description: 'Visitors, booking clickers, click rate, returning share, mobile share, countries and visitors with an email, from every visitor.',
     inputs: ['visitors'],
     fn: (visitors) => {
       const n = visitors.length;
@@ -277,7 +308,8 @@
       const returning = visitors.filter((v) => Number(v.visits) > 1).length;
       const mobile = visitors.filter((v) => String(v.device || '').toLowerCase() === 'mobile').length;
       const countries = new Set(visitors.map((v) => v.country).filter(Boolean)).size;
-      return [{ visitors: n, clickers, click_rate: n ? clickers / n : 0, returning, mobile_share: n ? mobile / n : 0, countries }];
+      const emails = visitors.filter((v) => v.email).length;
+      return [{ visitors: n, clickers, click_rate: n ? clickers / n : 0, returning, mobile_share: n ? mobile / n : 0, countries, emails }];
     },
   });
 
@@ -310,7 +342,7 @@
 
   const fmtInt = d3.format(',');
   const fmtPct = d3.format('.0%');
-  const NAMES = { $pageview: 'Viewed a page', book_call_click: 'Clicked Book a call', wf_visit: 'Arrived on the site', wf_scroll: 'Scrolled', wf_engaged: 'Stayed on page', wf_outbound_click: 'Opened a link', wf_faq_open: 'Opened an FAQ', wf_screenshot_zoom: 'Zoomed a screenshot', email_click: 'Clicked email', wf_contact_click: 'Clicked WhatsApp', wf_calculator_use: 'Used the calculator' };
+  const NAMES = { lead_captured: 'Left email (playbook)', wf_company: 'Company detected', $pageview: 'Viewed a page', book_call_click: 'Clicked Book a call', wf_visit: 'Arrived on the site', wf_scroll: 'Scrolled', wf_engaged: 'Stayed on page', wf_outbound_click: 'Opened a link', wf_faq_open: 'Opened an FAQ', wf_screenshot_zoom: 'Zoomed a screenshot', email_click: 'Clicked email', wf_contact_click: 'Clicked WhatsApp', wf_calculator_use: 'Used the calculator' };
   const SRC = { chatgpt: 'ChatGPT', claude: 'Claude', perplexity: 'Perplexity', gemini: 'Gemini', copilot: 'Copilot', meta_ai: 'Meta AI', grok: 'Grok', deepseek: 'DeepSeek', google: 'Google', bing: 'Bing', duckduckgo: 'DuckDuckGo', yahoo: 'Yahoo', facebook: 'Facebook', instagram: 'Instagram', tiktok: 'TikTok', youtube: 'YouTube', linkedin: 'LinkedIn', x_twitter: 'X (Twitter)', whatsapp: 'WhatsApp', reddit: 'Reddit', fiverr: 'Fiverr', upwork: 'Upwork', google_ads: 'Google Ads', facebook_ads: 'Facebook Ads', tiktok_ads: 'TikTok Ads', bing_ads: 'Bing Ads', linkedin_ads: 'LinkedIn Ads', email: 'Email', direct: 'Direct' };
   const CH = { ai: 'AI assistant', organic_search: 'Search (SEO)', paid_search: 'Search ads', social: 'Social', paid_social: 'Social ads', marketplace: 'Marketplace', email: 'Email', referral: 'Other website', campaign: 'Campaign link', direct: 'Direct' };
   const srcName = (s) => SRC[s] || s || 'Direct';
@@ -424,7 +456,7 @@
       if (filter) rows = rows.filter(filter);
       const f = sort.field, s = sort.dir === 'ascending' ? 1 : -1;
       rows.sort((a, b) => { const x = a[f], y = b[f]; if (x == null) return 1; if (y == null) return -1; return (typeof x === 'number' ? x - y : String(x).localeCompare(String(y))) * s; });
-      if (!rows.length) { const td = document.createElement('td'); td.colSpan = table.querySelectorAll('th').length; td.className = 'wv-empty'; td.textContent = d.data.length ? 'No visitors match.' : 'No visitors yet. The first one will show up here.'; const tr = document.createElement('tr'); tr.appendChild(td); tbody.replaceChildren(tr); return; }
+      if (!rows.length) { const td = document.createElement('td'); td.colSpan = table.querySelectorAll('th').length; td.className = 'wv-empty'; td.textContent = d.data.length ? 'Nothing matches.' : (id === 'leads' ? 'No email leads yet. They appear here the moment someone downloads the playbook.' : 'Nothing yet. The first one will show up here.'); const tr = document.createElement('tr'); tr.appendChild(td); tbody.replaceChildren(tr); return; }
       tbody.replaceChildren(...rows.map((r) => { const tr = document.createElement('tr'); tr.dataset.key = keyOf(r); render(r).forEach((c) => tr.appendChild(c)); return tr; }));
     }
     return draw;
@@ -437,12 +469,12 @@
     td(ago(r.last_seen)), td(vid(r.visitor)),
     Number(r.cta_clicks) > 0 ? pill('Yes · ' + r.cta_clicks, 'hot') : td(''),
     td(srcName(r.source)), td(chName(r.channel)), td(r.device), td(r.country), td(r.region), td(r.city), td(r.postal_code),
-    td(r.landing_page), td(fmtInt(r.pages_viewed), 'num'), td(fmtInt(r.visits), 'num'), td(r.email),
+    td(r.landing_page), td(fmtInt(r.pages_viewed), 'num'), td(fmtInt(r.visits), 'num'), td(r.email), td(r.phone), td(r.network), td(r.timezone),
   ], (r) => r.visitor, { field: 'last_seen', dir: 'descending' });
   const vFilter = () => {
     const q = search.value.trim().toLowerCase(), onlyHot = hot.getAttribute('aria-pressed') === 'true';
     if (!q && !onlyHot) return null;
-    return (r) => (!onlyHot || Number(r.cta_clicks) > 0) && (!q || [r.country, r.region, r.city, r.postal_code, srcName(r.source), chName(r.channel), r.device, r.email, r.landing_page].join(' ').toLowerCase().includes(q));
+    return (r) => (!onlyHot || Number(r.cta_clicks) > 0) && (!q || [r.country, r.region, r.city, r.postal_code, srcName(r.source), chName(r.channel), r.device, r.email, r.phone, r.network, r.landing_page].join(' ').toLowerCase().includes(q));
   };
   search.addEventListener('input', () => drawVisitors(vFilter()));
   hot.addEventListener('click', () => { hot.setAttribute('aria-pressed', hot.getAttribute('aria-pressed') === 'true' ? 'false' : 'true'); drawVisitors(vFilter()); });
@@ -493,5 +525,9 @@
     return [td(r.page === '/' ? 'Home' : r.page), td(fmtInt(r.views), 'num'), td(fmtInt(r.page_visitors), 'num'), td(fmtInt(r.clickers), 'num'), td(rate == null ? '' : fmtPct(rate), 'num')];
   }, (r) => r.page, { field: 'views', dir: 'descending' });
 
-  dash.onData(() => { drawVisitors(vFilter()); drawActivity(); drawLeads(); drawPages(); });
+  const drawEmails = makeTable('e-table', 'leads', (r) => [
+    td(ago(r.at)), td(r.email), td(r.phone), td(r.company_website), td(r.source ? srcName(r.source) : ''), td(r.country), td(r.region), td(r.city), td(r.timezone), td(r.network), td(r.lead_page), td(r.pages_this_visit == null ? '' : fmtInt(r.pages_this_visit), 'num'),
+  ], (r) => r.id, { field: 'at', dir: 'descending' });
+
+  dash.onData(() => { drawVisitors(vFilter()); drawActivity(); drawLeads(); drawPages(); drawEmails(); });
 </script>

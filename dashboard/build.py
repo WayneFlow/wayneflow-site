@@ -18,12 +18,40 @@ V_SQL = """SELECT
   maxIf(toFloat(properties.depth), event = 'wf_scroll') AS max_scroll,
   maxIf(toFloat(properties.active_seconds), event = 'wf_engaged') AS engaged_seconds,
   countIf(event = 'wf_outbound_click') AS link_clicks,
-  max(person.properties.email) AS email
+  max(person.properties.email) AS email,
+  max(person.properties.phone) AS phone,
+  max(person.properties.company_website) AS company_website,
+  argMaxIf(properties.wf_org, timestamp, properties.wf_org IS NOT NULL) AS network,
+  argMaxIf(properties.wf_org_kind, timestamp, properties.wf_org_kind IS NOT NULL) AS network_kind,
+  coalesce(argMaxIf(properties.timezone, timestamp, properties.timezone IS NOT NULL), argMax(properties.$timezone, timestamp)) AS timezone
 FROM events
 WHERE timestamp >= now() - INTERVAL {{days}} DAY
-  AND event IN ('$pageview', '$pageleave', 'wf_visit', 'book_call_click', 'wf_scroll', 'wf_engaged', 'wf_outbound_click', '$autocapture')
+  AND event IN ('$pageview', '$pageleave', 'wf_visit', 'book_call_click', 'wf_scroll', 'wf_engaged', 'wf_outbound_click', 'wf_company', 'lead_captured', '$autocapture')
 GROUP BY person_id
 ORDER BY last_seen DESC
+LIMIT 500"""
+L_SQL = """SELECT
+  toString(uuid) AS id,
+  timestamp AS at,
+  properties.email AS email,
+  properties.phone AS phone,
+  properties.company_website AS company_website,
+  properties.lead_page AS lead_page,
+  coalesce(properties.source_this_visit, properties.wf_source, '') AS source,
+  coalesce(properties.channel_this_visit, properties.wf_channel, '') AS channel,
+  properties.$geoip_country_name AS country,
+  properties.$geoip_subdivision_1_name AS region,
+  properties.$geoip_city_name AS city,
+  properties.$geoip_postal_code AS postal_code,
+  coalesce(properties.timezone, properties.$timezone) AS timezone,
+  properties.device AS device,
+  properties.network AS network,
+  properties.pages_this_visit AS pages_this_visit,
+  properties.visit_number AS visit_number
+FROM events
+WHERE timestamp >= now() - INTERVAL {{days}} DAY
+  AND event = 'lead_captured'
+ORDER BY timestamp DESC
 LIMIT 500"""
 P_SQL = """SELECT
   if(endsWith(properties.$pathname, 'index.html'), substring(properties.$pathname, 1, length(properties.$pathname) - 10), properties.$pathname) AS page,
@@ -43,14 +71,14 @@ A_SQL = """SELECT
   toString(person_id) AS visitor,
   event,
   properties.$pathname AS page,
-  coalesce(properties.label, properties.question, properties.section, toString(properties.depth), toString(properties.active_seconds), '') AS detail,
+  coalesce(properties.label, properties.email, properties.network, properties.question, properties.section, toString(properties.depth), toString(properties.active_seconds), '') AS detail,
   coalesce(properties.wf_source, '') AS source,
   properties.$device_type AS device,
   properties.$geoip_country_name AS country,
   properties.$geoip_city_name AS city
 FROM events
 WHERE timestamp >= now() - INTERVAL 7 DAY
-  AND event IN ('$pageview', 'book_call_click', 'wf_visit', 'wf_outbound_click', 'wf_scroll', 'wf_engaged', 'wf_faq_open', 'wf_screenshot_zoom', 'email_click', 'wf_contact_click', 'wf_calculator_use')
+  AND event IN ('$pageview', 'book_call_click', 'wf_visit', 'wf_outbound_click', 'wf_scroll', 'wf_engaged', 'wf_faq_open', 'wf_screenshot_zoom', 'email_click', 'wf_contact_click', 'wf_calculator_use', 'lead_captured')
 ORDER BY timestamp DESC
 LIMIT 200"""
 def src(sql, why, rules=None):
@@ -61,6 +89,7 @@ docs = {
  "dash/meta": {"title": "WayneFlow Visitors"},
  "datasets/visitors": {"title": "Every visitor", "description": "One row per person who visited the website in the chosen period (7, 30 or 90 days): device, location, how they arrived, pages viewed and booking clicks. Reads PostHog events.", "source": src(V_SQL, "Per-visitor table for the visitor dashboard; governed catalog consulted: no match.", {"days": {"type": "number", "minimum": 1, "maximum": 365}})},
  "datasets/pages": {"title": "Pages and booking clicks", "description": "Views, visitors and Book a call clicks for each page of the website in the chosen period. Reads PostHog events.", "source": src(P_SQL, "Page performance for the visitor dashboard; governed catalog consulted: no match.", {"days": {"type": "number", "minimum": 1, "maximum": 365}})},
+ "datasets/leads": {"title": "Email leads", "description": "People who left their email (and optional phone) for the free case-study playbook, with where they came from and where they are. Reads PostHog events.", "source": src(L_SQL, "Email leads for the visitor dashboard; governed catalog consulted: no match.", {"days": {"type": "number", "minimum": 1, "maximum": 365}})},
  "dash/params": {"days": 30},
  "datasets/activity": {"title": "Live activity, last 7 days", "description": "The latest 200 actions on the website: page views, arrivals, scrolls, booking clicks and link clicks. Reads PostHog events.", "source": src(A_SQL, "Recent activity feed for the visitor dashboard; governed catalog consulted: no match.")},
 }
