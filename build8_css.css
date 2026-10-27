@@ -721,3 +721,33 @@ footer{border-top:1px solid var(--line);background:rgba(255,255,255,.7);padding-
   .st-step::before{content:"";position:absolute;left:8px;top:20px;bottom:0;width:2px;background:#DCE5F5}.st-step:last-child::before{display:none}
   .st-dot{top:2px}
   .st-end{margin-top:26px;padding-top:22px}.st-end .ctas{width:100%}}
+/* v26: lead capture (case study pack) */
+.wl-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.wl-box{display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:center;background:linear-gradient(135deg,#F2F7FF,#EAF6FF);border:1px solid #D6E3FF;border-radius:var(--r);padding:clamp(22px,3vw,36px);margin:36px 0}
+.wl-box h3{margin:10px 0 8px;font-size:clamp(20px,2.2vw,26px);line-height:1.2;letter-spacing:-.02em}
+.wl-box p{margin:0;color:var(--muted);font-size:15px;line-height:1.55}
+.wl-form{display:grid;gap:10px}
+.wl-input{font:inherit;font-size:16px;padding:13px 14px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--text);width:100%}
+.wl-input:focus{outline:2px solid var(--blue);outline-offset:1px;border-color:transparent}
+.wl-btn{justify-content:center;width:100%}
+.wl-fine{margin:0!important;font-size:12px!important;color:var(--muted)}
+.wl-fine a,.wl-msg a{color:var(--blue-d)}
+.wl-msg{margin:0!important;font-size:14px!important;font-weight:600;color:#0B7A42}
+.wl-msg:empty{display:none}
+.wl-sec{padding-top:0}
+.post-body .wl-box{grid-template-columns:1fr;gap:16px}
+.wl-pop{position:fixed;inset:0;z-index:200;display:grid;place-items:center;padding:16px;background:rgba(11,26,58,.45);opacity:0;transition:opacity .25s}
+.wl-pop.in{opacity:1}
+.wl-card{position:relative;width:min(440px,100%);background:#fff;border-radius:20px;padding:28px 24px 22px;box-shadow:0 30px 80px -20px rgba(11,26,58,.45);transform:translateY(12px);transition:transform .25s}
+.wl-pop.in .wl-card{transform:none}
+.wl-card h3{margin:10px 0 8px;font-size:22px;line-height:1.2;letter-spacing:-.02em}
+.wl-card p{margin:0 0 14px;color:var(--muted);font-size:15px;line-height:1.5}
+.wl-x{position:absolute;top:10px;right:12px;width:36px;height:36px;border:0;background:transparent;font-size:26px;line-height:1;color:var(--muted);cursor:pointer;border-radius:10px}
+.wl-x:hover{background:#F2F5FA}
+@media (max-width:760px){.wl-box{grid-template-columns:1fr;gap:16px}}
+@media (prefers-reduced-motion:reduce){.wl-pop,.wl-card{transition:none}}
+.wl-pts{margin:14px 0 0;padding:0;list-style:none;display:grid;gap:7px}
+.wl-pts li{position:relative;padding-left:26px;font-size:14.5px;font-weight:600;color:var(--text)}
+.wl-pts li::before{content:"";position:absolute;left:0;top:2px;width:18px;height:18px;border-radius:50%;background:#E6F7EC url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7 12l3 3 7-7' fill='none' stroke='%2317A35B' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E") center/12px no-repeat}
+.wl-badge{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.08em;color:#0B7A42;background:#E6F7EC;border:1px solid #BDEBCD;border-radius:999px;padding:5px 11px}
+.wl-fomo{font-size:14px!important;font-weight:600;color:#B4231F!important;background:#FFF3F2;border-radius:10px;padding:9px 12px}
