@@ -7,7 +7,7 @@ HERE = Path(__file__).parent
 A = 'file:///home/claude/site8/assets'
 CAL = 'https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers'
 def cal(src): return f'{CAL}?utm_source=playbook&amp;utm_medium=pdf&amp;utm_campaign={src}'
-SITE = 'https://wayne-flow.site'
+SITE = 'https://wayneflow.com'
 
 CSS = r'''
 @page { size: Letter; margin: .62in .7in .7in }
@@ -626,7 +626,7 @@ add(f'''<section class="chap final pb" id="final"><div class="num">The choice</d
 <div class="cta" style="margin-top:20px"><div class="faces"><img src="{A}/team/asim-sq.webp"><img src="{A}/team/ali-sq.webp"></div>
 <div class="ct"><div class="ck">Free · 20 minutes · No pressure</div><h3>Book a 20-minute session with our CEO</h3><p>We look at your offer and your market, then show you who we would target, the angle we would use and how many meetings to expect. Even if you decide to do it yourself, you leave with a clear plan. One good client from this system can be worth thousands of dollars.</p></div>
 <a class="btn" href="{cal('cta4-final')}">Book my call &rarr;</a></div>
-<p style="text-align:center;margin-top:10px" class="small">Or open this link: <a href="{cal('cta4-final-link')}">calendly.com/learnwithasimshah</a> &nbsp;·&nbsp; See every live dashboard at <a href="{SITE}/results.html?utm_source=playbook">wayne-flow.site/results</a></p>
+<p style="text-align:center;margin-top:10px" class="small">Or open this link: <a href="{cal('cta4-final-link')}">calendly.com/learnwithasimshah</a> &nbsp;·&nbsp; See every live dashboard at <a href="{SITE}/results.html?utm_source=playbook">wayneflow.com/results</a></p>
 <p class="small" style="font-size:7.2pt;line-height:1.35;margin-top:8px;border-top:1px solid #E3E9F5;padding-top:10px">© 2026 WayneFlow by Ali &amp; Asim. All campaign numbers come from real client dashboards in 2026; pipeline is counted at our clients' average deal size of about $2,500. Past results do not guarantee future results; your results depend on your offer, market and execution. Tool names and prices belong to their owners and were checked in October 2026. This playbook is general information, not legal advice.</p>''')
 
 BODY = f'<!doctype html><html><head><meta charset="utf-8"><title>The WayneFlow Cold Email Playbook</title><style>{CSS}</style></head><body>{"".join(S)}</body></html>'
@@ -662,7 +662,7 @@ h1 em {{ font-style: normal; color: #5FD3FF }}
 </div></body></html>'''
 
 FOOT = '''<div style="width:100%;font-family:Inter,sans-serif;font-size:7.5pt;color:#8A97AE;padding:0 .68in;display:flex;justify-content:space-between">
-<span>The WayneFlow Cold Email Playbook · wayne-flow.site</span><span><span class="pageNumber"></span></span></div>'''
+<span>The WayneFlow Cold Email Playbook · wayneflow.com</span><span><span class="pageNumber"></span></span></div>'''
 
 async def main():
     from playwright.async_api import async_playwright
