@@ -587,3 +587,24 @@ footer{border-top:1px solid var(--line);background:rgba(255,255,255,.7);padding-
 .sp-grid b{display:block;font-size:26px;letter-spacing:-.02em;color:var(--blue)}
 .sp-grid span{font-size:12.5px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
 .sp-g{font-size:18px;font-weight:800;margin:4px 0 0}
+/* v18: about + pricing */
+.team-photo img{width:100%;max-width:480px;height:auto;display:block;margin-inline:auto;filter:drop-shadow(0 30px 50px rgba(16,40,90,.25))}
+.founders .founder{display:grid;grid-template-columns:200px 1fr;gap:22px;align-items:start}
+.founder img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:16px}
+.founder h3{font-size:22px}.founder .role{display:block;font-size:13px;font-weight:700;color:var(--blue);margin-top:4px;text-transform:uppercase;letter-spacing:.06em}
+.founder p{margin-top:12px;font-size:15.5px;color:var(--muted)}
+.flinks{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.flinks a{font-size:14px;font-weight:700;color:var(--blue);text-decoration:none;padding:8px 12px;border-radius:999px;background:#E9F0FF}
+.price-grid{display:grid;grid-template-columns:1fr 1.3fr;gap:22px;margin-top:36px;max-width:1000px}
+.price-card{position:relative}
+.price-card.featured{border:2px solid var(--blue);box-shadow:var(--shadow-lg)}
+.price-card h2{font-size:24px;margin-top:10px}
+.price{font-size:clamp(40px,4.4vw,56px);font-weight:800;letter-spacing:-.03em;margin-top:8px;color:var(--text)}
+.price small{font-size:18px;font-weight:700;color:var(--muted)}
+.price-card .checks{margin-top:18px}
+.ptable{width:100%;border-collapse:collapse;font-size:15px}
+.ptable th{text-align:left;font-size:13px;color:var(--muted);padding:10px 8px;border-bottom:1px solid var(--line)}
+.ptable td{padding:12px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.author-photos{display:flex}.author-photos img{width:44px;height:44px;border-radius:50%;border:2px solid #fff;object-fit:cover}.author-photos img+img{margin-left:-12px}
+@media (max-width:960px){.price-grid{grid-template-columns:1fr}}
+@media (max-width:640px){.founders .founder{grid-template-columns:1fr}.founder img{max-width:260px}}
