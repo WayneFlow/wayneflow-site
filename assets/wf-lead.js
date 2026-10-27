@@ -20,11 +20,11 @@
       '<p class="wl-msg" role="status" aria-live="polite"></p></form>';
   }
   var COVER = '<div class="wl-cover"><img src="/assets/img/playbook-cover.webp" alt="The WayneFlow Cold Email Playbook cover" width="210" height="272" loading="lazy"></div>';
-  var CHIPS = '<ul class="wl-chips"><li>Exact DNS setup</li><li>3-week warmup</li><li>Emails that get replies</li></ul>';
+  var CHIPS = '<ul class="wl-chips"><li>Exact DNS setup</li><li>3-week warmup</li><li>7 real case studies</li></ul>';
   var BOX = function (id) {
     return '<div class="wl-box" id="wl-box-' + id + '">' + COVER + '<div class="wl-copy"><span class="wl-badge">FREE · $300 VALUE</span>' +
       '<h3>The cold email playbook behind $510K+ in pipeline.</h3>' +
-      '<p>23 pages. The exact setup we use to turn a blank domain into booked sales calls.</p>' + CHIPS +
+      '<p>23 pages. The exact setup we use to turn a blank domain into booked sales calls, proven with 7 real client case studies.</p>' + CHIPS +
       formHTML(id) + '</div></div>';
   };
 
@@ -75,6 +75,7 @@
 
   /* inline box: results page, blog posts, service pages */
   function place() {
+    if (ls('wf_lead') === '1') return; // already has the playbook: no box, no popup
     var anchor = null;
     if (/\/results\.html$/.test(page)) { var bands = D.querySelectorAll('.band'); anchor = bands.length ? (bands[bands.length - 1].closest('section, .wrap') || bands[bands.length - 1]) : null; }
     else if (/\/blog\/.+\.html$|lead-generation-services\.html$|canada\.html$/.test(page)) { var pb = D.querySelector('.post-body .soft-cta') || D.querySelector('.post-body'); if (pb) { var w = D.createElement('div'); w.innerHTML = BOX('inline'); pb.parentNode.insertBefore(w.firstChild, pb.nextSibling); return; } }
@@ -94,9 +95,9 @@
     if (shown || !canPop()) return; shown = true; ls('wf_pop_at', String(Date.now()));
     var d = D.createElement('div'); d.id = 'wl-pop'; d.className = 'wl-pop'; d.setAttribute('role', 'dialog'); d.setAttribute('aria-modal', 'true'); d.setAttribute('aria-labelledby', 'wl-pop-h');
     d.innerHTML = '<div class="wl-card"><button class="wl-x" type="button" aria-label="Close">×</button>' +
-      '<div class="wl-hero"><span class="wl-badge">FREE · $300 VALUE</span>' + COVER + '<span class="wl-meta">23 pages · instant PDF</span></div>' +
+      '<div class="wl-hero"><span class="wl-badge">FREE · $300 VALUE</span>' + COVER + '<span class="wl-meta">23 pages · 7 case studies</span></div>' +
       '<div class="wl-body"><h3 id="wl-pop-h">Before you go: the playbook behind $510K+ in pipeline.</h3>' +
-      '<p>Every step we use to book sales calls, from 588,000 real emails.</p>' + CHIPS + formHTML('popup') + '</div></div>';
+      '<p>Every step we use to book sales calls, with the real dashboards from 588,000 emails.</p>' + CHIPS + formHTML('popup') + '</div></div>';
     D.body.appendChild(d);
     requestAnimationFrame(function () { d.classList.add('in'); });
     var input = d.querySelector('input'); setTimeout(function () { try { input.focus({ preventScroll: true }); } catch (e) {} }, 250);
@@ -111,9 +112,9 @@
   var t0 = Date.now();
   // desktop: mouse leaves through the top of the window
   D.addEventListener('mouseout', function (e) { if (!e.relatedTarget && e.clientY <= 0 && Date.now() - t0 > 8000 && W.innerWidth > 960) pop('exit'); });
-  // phones and tablets: read most of the page and stayed a while
+  // phones and tablets: 10+ seconds on the page and 40% scrolled
   W.addEventListener('scroll', function () {
-    if (W.innerWidth > 960 || Date.now() - t0 < 25000) return;
-    var h = D.documentElement.scrollHeight - W.innerHeight; if (h > 0 && W.scrollY / h > 0.6) pop('scroll');
+    if (W.innerWidth > 960 || Date.now() - t0 < 10000) return;
+    var h = D.documentElement.scrollHeight - W.innerHeight; if (h > 0 && W.scrollY / h > 0.4) pop('scroll');
   }, { passive: true });
 })();
