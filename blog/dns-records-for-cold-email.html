@@ -1,0 +1,49 @@
+<script type="application/json" id="meta">{"title": "The 4 DNS Records for Cold Email: MX, SPF, DKIM, DMARC | WayneFlow", "description": "The four DNS records that decide if cold email lands in the inbox: MX, SPF, DKIM and DMARC, with the exact Google Workspace values and how to check them.", "h1": "The 4 DNS Records That Decide If Your Cold Email Lands in the Inbox", "excerpt": "MX, SPF, DKIM and DMARC, explained in plain English, with the exact values we use on every sending domain and a 2-minute way to check them.", "keyword": "spf dkim dmarc for cold email", "readMinutes": 5, "faq": [{"q": "Which DNS records do I need for cold email?", "a": "Four: an MX record so you can receive replies, an SPF record listing who may send for your domain, a DKIM record that signs every email, and a DMARC record that tells inbox providers what to do when checks fail. Set all four on every sending domain."}, {"q": "Can I have two SPF records?", "a": "No. A domain can have only one SPF record. If you use more than one sending service, add each one's include to the same record."}, {"q": "What DMARC policy should I start with?", "a": "Start with p=none, which only monitors. After a few weeks of SPF and DKIM passing, you can move to p=quarantine."}, {"q": "How do I check that SPF, DKIM and DMARC work?", "a": "Send an email from the new inbox to a personal Gmail account, open it, click the three dots and choose Show original. SPF, DKIM and DMARC should all show PASS."}]}</script>
+<p>You can write the best cold email of your life and still end up in spam. Most of the time, the problem isn&#x27;t the words. It&#x27;s four small records in your domain&#x27;s DNS settings that you set up once and forget about.</p>
+<p>At WayneFlow, we run cold email for B2B companies, mostly in the USA and Canada. In 2026 our campaigns sent 588,000 emails and got 12,900+ replies. Every one of those emails went out from a domain with these four records in place. Here&#x27;s what each one does and how to set it up.</p>
+<h2 id="a-quick-rule-before-we-start">A quick rule before we start</h2>
+<p>Don&#x27;t set up cold email on your main business domain. Buy one to three secondary domains that look like your main one (for example, if your company is acme.com, you might use getacme.com or tryacme.com) and redirect them to your website. If a sending domain gets a bad reputation, your main domain, the one your clients and invoices use, stays safe.</p>
+<p>Now, the four records. The examples below are for Google Workspace. Other email providers work the same way, but the values are different, so always copy the values from your provider&#x27;s admin page.</p>
+<h2 id="1-mx-the-record-that-lets-you-receive-re">1. MX: the record that lets you receive replies</h2>
+<p>An MX (mail exchange) record tells the internet where to deliver emails sent to your domain. Without it, nobody can reply to you, and an inbox that can&#x27;t receive mail looks suspicious to spam filters.</p>
+<p>For newer Google Workspace accounts, Google gives you a single MX record:</p>
+<pre><code>Type: MX
+Host: @
+Value: smtp.google.com
+Priority: 1</code></pre>
+<p>Older accounts may show a list of five records instead. Either is fine. Use whatever your Google Admin console shows.</p>
+<h2 id="2-spf-the-list-of-who-is-allowed-to-send">2. SPF: the list of who is allowed to send for you</h2>
+<p>SPF (Sender Policy Framework) is a TXT record that lists the servers allowed to send email from your domain. When Gmail or Outlook receives your email, it checks whether the server that sent it is on your list.</p>
+<pre><code>Type: TXT
+Host: @
+Value: v=spf1 include:_spf.google.com ~all</code></pre>
+<p>Two common mistakes:</p>
+<ul><li>Having two SPF records. You can only have one. If you use another sending service, add its &quot;include&quot; to the same record.</li><li>Forgetting to update SPF when you add a new tool that sends email for you.</li></ul>
+<h2 id="3-dkim-the-signature-on-every-email">3. DKIM: the signature on every email</h2>
+<p>DKIM (DomainKeys Identified Mail) adds a hidden digital signature to every email you send. The receiving server checks the signature against a public key in your DNS. If it matches, the server knows the email really came from you and wasn&#x27;t changed on the way.</p>
+<p>In Google Workspace:</p>
+<ol><li>Go to the Admin console, then Apps, Google Workspace, Gmail, Authenticate email.</li><li>Choose your domain and generate a new record. Use a 2048-bit key if your DNS host supports it.</li><li>Copy the TXT record Google gives you. The host is usually google._domainkey.</li><li>Add it in your DNS, wait for it to take effect (it can take a few hours), then go back and click &quot;Start authentication.&quot;</li></ol>
+<p>DKIM is the step people forget most. Don&#x27;t skip it.</p>
+<h2 id="4-dmarc-the-instructions-for-when-someth">4. DMARC: the instructions for when something fails</h2>
+<p>DMARC (Domain-based Message Authentication, Reporting and Conformance) tells receiving servers what to do if an email fails SPF and DKIM checks. It can also send you reports.</p>
+<pre><code>Type: TXT
+Host: _dmarc
+Value: v=DMARC1; p=none; rua=mailto:reports@yourdomain.com</code></pre>
+<p>The &quot;p&quot; part is your policy:</p>
+<ul><li>p=none means &quot;just monitor, don&#x27;t block anything.&quot; Start here.</li><li>p=quarantine means &quot;send failing emails to spam.&quot;</li><li>p=reject means &quot;block failing emails completely.&quot;</li></ul>
+<p>Start with p=none. After a few weeks of everything passing, you can move to p=quarantine.</p>
+<h2 id="why-this-matters-more-now">Why this matters more now</h2>
+<p>Since 2024, Google and Yahoo have required bulk senders to authenticate their email, and Microsoft announced similar rules for Outlook in 2025. Even if you don&#x27;t send at that volume, inbox providers use the same signals to decide where your email goes. Missing records are one of the easiest ways to look like a spammer.</p>
+<h2 id="how-to-check-your-setup">How to check your setup</h2>
+<p>Send an email from your new inbox to a personal Gmail account. Open it, click the three dots, and choose &quot;Show original.&quot; You want to see:</p>
+<pre><code>SPF: PASS
+DKIM: PASS
+DMARC: PASS</code></pre>
+<p>If any of them says FAIL or is missing, go back and fix it before you send anything else.</p>
+<h2 id="what-dns-records-don-t-fix">What DNS records don&#x27;t fix</h2>
+<p>These four records get you in the door. They don&#x27;t make a brand-new inbox trusted. After the records are in place, you still need to:</p>
+<ul><li>Warm up each inbox for about three weeks before real sending</li><li>Fill in the inbox profile with a real name, photo and signature</li><li>Verify your list so bounces stay low (ours run between 0.45% and 3.08%)</li><li>Turn off open tracking, which adds a tracking pixel that can hurt deliverability</li><li>Check inbox health every day</li></ul>
+<p>Get this right, and the rest of cold email gets much easier. When everything is tuned, our campaigns get reply rates between 2.8% and 4%, counted as replies divided by people contacted.</p>
+<h2 id="next-step">Want the full setup?</h2>
+<p>We wrote everything down in The WayneFlow Cold Email Playbook: the exact records, the 3-week warmup schedule, the 10-minute daily health check, list building, the 5-part cold email under 80 words, and 7 real case studies with dashboard screenshots. It&#x27;s 35 pages and free.</p>
+<p>Get the playbook here: <a href="/free-cold-email-playbook.html">the free playbook page</a></p>

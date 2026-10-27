@@ -195,7 +195,7 @@ def page(key, title, desc, body, three=False, full=True, path='', schema=None, n
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=1793121623">
+<link rel="stylesheet" href="assets/style.css?v=1793123637">
 {ldj}
 {ANALYTICS if full else ''}'''
     scripts = '<script src="assets/site.js?v=1793118066"></script>'

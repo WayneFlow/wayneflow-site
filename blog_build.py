@@ -4,7 +4,7 @@ import json, re, os, glob, html as H
 from datetime import date
 
 ORDER = ['b2b-appointment-setting-guide', 'cold-email-deliverability', 'how-to-write-a-cold-email',
-         'outsourced-appointment-setting-vs-in-house-sdr', 'is-cold-email-legal', 'is-cold-email-legal-in-canada']
+         'outsourced-appointment-setting-vs-in-house-sdr', 'is-cold-email-legal', 'is-cold-email-legal-in-canada', 'dns-records-for-cold-email']
 SERVICES = [('svc-lead-generation-services', 'lead-generation-services.html', 'Lead generation services'), ('svc-canada', 'canada.html', 'Canada')]
 PUBLISHED = '2026-10-27'
 AUTHOR = 'Syed Asim Hussain & Syed Ali Hassan'
