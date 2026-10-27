@@ -349,3 +349,6 @@ footer{border-top:1px solid var(--line);background:rgba(255,255,255,.7);padding-
   .hero .stat b{font-size:20px}
   .hero .stat span{font-size:10px;letter-spacing:.04em}
 }
+.story .scn .card.wide{max-width:640px}
+.story .scn .viz{margin-top:20px}
+.story .scn .viz .shot{box-shadow:0 18px 40px -24px rgba(11,26,58,.4)}
