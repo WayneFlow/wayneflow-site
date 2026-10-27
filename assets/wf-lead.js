@@ -15,7 +15,7 @@
     return '<form class="wl-form" novalidate data-wl="' + id + '">' +
       '<label class="wl-sr" for="wl-email-' + id + '">Work email</label>' +
       '<div class="wl-row"><input class="wl-input" id="wl-email-' + id + '" name="email" type="email" autocomplete="email" inputmode="email" placeholder="Your work email" required>' +
-      '<button class="btn btn-primary wl-btn" type="submit">' + (id === 'news' ? 'Subscribe' : 'Get the playbook') + '</button></div>' +
+      '<button class="btn btn-primary wl-btn" type="submit">' + (id === 'news' ? 'Subscribe' : 'Send me the playbook') + '</button></div>' +
       '<p class="wl-fine">' + (id === 'news' ? 'Free · No spam · Unsubscribe anytime' : 'Instant download · No spam · Unsubscribe anytime') + ' · <a href="/privacy.html">Privacy</a></p>' +
       '<p class="wl-msg" role="status" aria-live="polite"></p></form>';
   }
@@ -23,8 +23,8 @@
   var CHIPS = '<ul class="wl-chips"><li>Exact DNS setup</li><li>3-week warmup</li><li>7 real case studies</li></ul>';
   var BOX = function (id) {
     return '<div class="wl-box" id="wl-box-' + id + '">' + COVER + '<div class="wl-copy"><span class="wl-badge">FREE · $300 VALUE</span>' +
-      '<h3>The cold email playbook behind $510K+ in pipeline.</h3>' +
-      '<p>23 pages. The exact setup we use to turn a blank domain into booked sales calls, proven with 7 real client case studies.</p>' + CHIPS +
+      '<h3>Steal our cold email system. Free.</h3>' +
+      '<p>35 pages, step by step: the exact setup we run for clients, from a blank domain to booked sales calls, with 7 real client dashboards.</p>' + CHIPS +
       formHTML(id) + '</div></div>';
   };
 
@@ -116,9 +116,9 @@
     if (shown || !canPop()) return; shown = true; ls('wf_pop_n', String(parseInt(ls('wf_pop_n') || '0', 10) + 1)); try { sessionStorage.setItem('wf_popped', '1'); } catch (e) {}
     var d = D.createElement('div'); d.id = 'wl-pop'; d.className = 'wl-pop'; d.setAttribute('role', 'dialog'); d.setAttribute('aria-modal', 'true'); d.setAttribute('aria-labelledby', 'wl-pop-h');
     d.innerHTML = '<div class="wl-card"><button class="wl-x" type="button" aria-label="Close">×</button>' +
-      '<div class="wl-hero"><span class="wl-badge">FREE · $300 VALUE</span>' + COVER + '<span class="wl-meta">23 pages · 7 case studies</span></div>' +
-      '<div class="wl-body"><h3 id="wl-pop-h">Before you go: the playbook behind $510K+ in pipeline.</h3>' +
-      '<p>Every step we use to book sales calls, with the real dashboards from 588,000 emails.</p>' + CHIPS + formHTML('popup') + '</div></div>';
+      '<div class="wl-hero"><span class="wl-badge">FREE · $300 VALUE</span>' + COVER + '<span class="wl-meta">35 pages · 7 case studies</span></div>' +
+      '<div class="wl-body"><h3 id="wl-pop-h">Steal our cold email system. Free.</h3>' +
+      '<p>The exact step-by-step setup behind $510K+ in client pipeline, proven with 7 real case studies.</p>' + CHIPS + formHTML('popup') + '</div></div>';
     D.body.appendChild(d);
     requestAnimationFrame(function () { d.classList.add('in'); });
     var input = d.querySelector('input'); setTimeout(function () { try { input.focus({ preventScroll: true }); } catch (e) {} }, 250);
