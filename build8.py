@@ -71,8 +71,8 @@ ANALYTICS = """<script>
 var wfMe=(function(){try{var q=location.search;if(/[?&]wf_me=1/.test(q))localStorage.setItem('wf_me','1');if(/[?&]wf_me=0/.test(q))localStorage.removeItem('wf_me');return localStorage.getItem('wf_me')==='1';}catch(e){return false;}})();
 if(!wfMe&&!/^(localhost|127\\.)/.test(location.hostname)&&!/claude|anthropic/.test(location.hostname)){posthog.init('phc_ByqbttHSC95GAYA4D9vx9GZFN2UomLjE5qtdAzNK3XUU',{api_host:'https://us.i.posthog.com',person_profiles:'always',respect_dnt:true,capture_pageleave:true,session_recording:{maskAllInputs:true}});}
 </script>
-<script src="/assets/wf-lead.js?v=1793116653" defer></script>
-<script src="/assets/wf-track.js?v=1793116653" defer></script>"""
+<script src="/assets/wf-lead.js?v=1793116966" defer></script>
+<script src="/assets/wf-track.js?v=1793116966" defer></script>"""
 
 INDEXNOW_KEY = 'b7f3c9e2a14d4f6e8c0a5d2e9f1b3a7c'
 CHECK = '<svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#E6F7EC"/><path d="M7 12l3 3 7-7" fill="none" stroke="#17A35B" stroke-width="2.4" stroke-linecap="round"/></svg>'
@@ -194,12 +194,12 @@ def page(key, title, desc, body, three=False, full=True, path='', schema=None, n
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=1793116653">
+<link rel="stylesheet" href="assets/style.css?v=1793116966">
 {ldj}
 {ANALYTICS if full else ''}'''
-    scripts = '<script src="assets/site.js?v=1793116653"></script>'
+    scripts = '<script src="assets/site.js?v=1793116966"></script>'
     if three:
-        scripts = '<script src="assets/site.js?v=1793116653"></script>\n<script>/* 3D background: laptops and desktops only */if(window.innerWidth>640){var t=document.createElement("script");t.src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js";t.onload=function(){var s=document.createElement("script");s.src="assets/story3d.js?v=1793116653";document.body.appendChild(s);};document.body.appendChild(t);}</script>'
+        scripts = '<script src="assets/site.js?v=1793116966"></script>\n<script>/* 3D background: laptops and desktops only */if(window.innerWidth>640){var t=document.createElement("script");t.src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js";t.onload=function(){var s=document.createElement("script");s.src="assets/story3d.js?v=1793116966";document.body.appendChild(s);};document.body.appendChild(t);}</script>'
     inner = f'''{'<canvas id="stage" aria-hidden="true"></canvas>' if three else ''}
 <div class="gridbg" aria-hidden="true"></div>
 {nav()}
