@@ -25,7 +25,7 @@
   var BOX = function (id) {
     return '<div class="wl-box" id="wl-box-' + id + '"><div class="wl-copy"><span class="kicker">Free playbook · $300 value</span>' +
       '<h3>The cold email playbook behind $510K+ in client pipeline.</h3>' +
-      '<p>A 47-page, step-by-step guide to the exact setup behind 588,000 emails: domains, inboxes, DNS records, warmup, lists, emails and replies, with real numbers from our client dashboards. Free, instant download.</p>' +
+      '<p>A 20-page, step-by-step guide to the exact setup behind 588,000 emails: domains, inboxes, DNS records, warmup, lists, emails and replies, with real numbers from our client dashboards. Free, instant download.</p>' +
       '<ul class="wl-pts"><li>The exact DNS records and the 3-week warmup schedule</li><li>Real emails and follow-ups that got replies</li><li>The 10-minute daily check that keeps you out of spam</li></ul></div>' +
       formHTML(id) + '</div>';
   };
@@ -97,7 +97,7 @@
     var d = D.createElement('div'); d.id = 'wl-pop'; d.className = 'wl-pop'; d.setAttribute('role', 'dialog'); d.setAttribute('aria-modal', 'true'); d.setAttribute('aria-labelledby', 'wl-pop-h');
     d.innerHTML = '<div class="wl-card"><button class="wl-x" type="button" aria-label="Close">×</button>' +
       '<span class="wl-badge">FREE · $300 VALUE</span><h3 id="wl-pop-h">Wait. Take the cold email playbook behind $510K+ in pipeline.</h3>' +
-      '<p>47 pages. Every step we use to turn a blank domain into booked sales calls, from 588,000 real emails. Yours free, instant download.</p>' +
+      '<p>20 pages. Every step we use to turn a blank domain into booked sales calls, from 588,000 real emails. Yours free, instant download.</p>' +
       '<p class="wl-fomo">Your competitors are already in your buyers\u2019 inboxes. Get the playbook before they book the meeting.</p>' + formHTML('popup', true) + '</div>';
     D.body.appendChild(d);
     requestAnimationFrame(function () { d.classList.add('in'); });
