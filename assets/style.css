@@ -368,3 +368,6 @@ footer{border-top:1px solid var(--line);background:rgba(255,255,255,.7);padding-
 .fc-money .lbl small{display:block;font-weight:500;font-size:12px;color:#4E7A63}
 .fc-money b{font-size:clamp(22px,2.2vw,28px);font-weight:800;color:#0E9F5B;letter-spacing:-.02em;white-space:nowrap}
 .funnel-card[style*="border:0"] .fc-money{margin-top:14px}
+.fc-money{background:linear-gradient(135deg,#0E9F5B,#1FC173) !important;border:0 !important;padding:14px 18px !important;box-shadow:0 14px 28px -14px rgba(14,159,91,.75)}
+.fc-money .lbl{color:#fff !important;font-size:14px !important}
+.fc-money b{color:#fff !important;font-size:clamp(26px,2.6vw,34px) !important}
