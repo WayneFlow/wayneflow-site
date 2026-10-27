@@ -780,3 +780,4 @@ footer{border-top:1px solid var(--line);background:rgba(255,255,255,.7);padding-
 @media (max-width:420px){.wl-row{flex-direction:column}.wl-row .wl-btn{width:100%}.wl-hero{height:150px}.wl-hero .wl-cover{width:118px;right:26px;top:22px}.wl-card h3{font-size:19px}}
 @media (prefers-reduced-motion:reduce){.wl-hero .wl-cover{animation:none}}
 .wl-hero .wl-meta{max-width:55%}
+.wl-hero .wl-cover{right:64px;top:30px}@media (max-width:420px){.wl-hero .wl-cover{right:58px;top:28px}}

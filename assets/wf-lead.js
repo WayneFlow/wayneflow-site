@@ -110,6 +110,8 @@
   // remember a booking click so we never interrupt a buyer
   D.addEventListener('click', function (e) { var a = e.target.closest && e.target.closest('a[href*="calendly.com"]'); if (a) { try { sessionStorage.setItem('wf_booked', '1'); } catch (er) {} } }, true);
   var t0 = Date.now();
+  // test switch: add ?wf_pop=1 to any page URL to see the popup right away (ignores all rules)
+  if (/[?&]wf_pop=1/.test(L.search)) { setTimeout(function () { shown = false; try { localStorage.removeItem('wf_pop_at'); localStorage.removeItem('wf_lead'); } catch (e) {} pop('test'); }, 600); }
   // desktop: mouse leaves through the top of the window
   D.addEventListener('mouseout', function (e) { if (!e.relatedTarget && e.clientY <= 0 && Date.now() - t0 > 8000 && W.innerWidth > 960) pop('exit'); });
   // phones and tablets: 10+ seconds on the page and 40% scrolled
