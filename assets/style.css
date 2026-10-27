@@ -630,3 +630,14 @@ footer{border-top:1px solid var(--line);background:rgba(255,255,255,.7);padding-
   .story .viz .shot:has(img[src*="calendly"]) .bar{display:none}
   .story .viz .shot:has(img[src*="calendly"]) img{border-radius:10px}
 }
+/* v20: founders on home */
+.founders-home{align-items:center}
+.founders-home .team-photo img{max-width:440px}
+.fh-list{display:grid;gap:12px;margin-top:22px}
+.fh{display:flex;align-items:center;gap:14px;padding:14px 16px;background:#fff;border:1px solid var(--line);border-radius:16px;text-decoration:none;color:inherit;transition:transform .2s,box-shadow .2s}
+.fh:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.fh img{width:64px;height:64px;border-radius:50%;object-fit:cover;flex:none}
+.fh b{display:block;font-size:16.5px;color:var(--text)}
+.fh span{display:block;font-size:14.5px;color:var(--muted);line-height:1.5;margin-top:2px}
+@media (max-width:960px){.founders-home .team-photo img{max-width:320px}}
+@media (max-width:640px){.founders-home .team-photo img{max-width:260px}.fh{padding:12px}.fh img{width:56px;height:56px}}
