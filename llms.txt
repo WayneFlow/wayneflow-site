@@ -17,3 +17,9 @@
 - [Service areas](https://wayne-flow.site/areas.html): coverage across all 50 states and time zones
 - [Reviews](https://wayne-flow.site/reviews.html): client testimonials
 - [Book a call and FAQ](https://wayne-flow.site/book.html)
+- [Blog](https://wayne-flow.site/blog/): practical guides
+- [B2B Appointment Setting: The Complete 2026 Guide for U.S. Companies](https://wayne-flow.site/blog/b2b-appointment-setting-guide.html): How B2B appointment setting really works in 2026, from ICP and list building to show rates, with real funnel numbers from 588,000 cold emails and a checklist for choosing a provider.
+- [Cold Email Deliverability in 2026: How to Land in the Inbox, Not Spam](https://wayne-flow.site/blog/cold-email-deliverability.html): The exact Gmail, Yahoo and Outlook sender rules, plus the setup, warmup, list hygiene and monitoring habits that keep cold email out of spam. Backed by numbers from 588,000 emails we have sent.
+- [How to Write a Cold Email That Gets Replies: A 2026 Playbook (With Real Numbers)](https://wayne-flow.site/blog/how-to-write-a-cold-email.html): A practitioner's playbook on how to write a cold email that gets replies, built on 588,000 emails we have sent. Covers targeting, anatomy, CTAs, follow-ups, testing and realistic reply rates.
+- [Outsourced Appointment Setting vs In-House SDR: The Real 2026 Cost Breakdown](https://wayne-flow.site/blog/outsourced-appointment-setting-vs-in-house-sdr.html): A sourced, line-by-line look at what one U.S. SDR really costs in year one, how to calculate cost per meeting, and when an agency, an in-house hire or a hybrid makes sense.
+- [Is Cold Email Legal in the U.S.? CAN-SPAM Explained for B2B Teams (2026)](https://wayne-flow.site/blog/is-cold-email-legal.html): Cold email is legal in the U.S. when it follows the CAN-SPAM Act. Here is what the law requires of B2B teams in 2026, from opt-outs and postal addresses to penalties, state laws, and a compliance checklist.

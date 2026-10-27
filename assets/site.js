@@ -100,3 +100,6 @@ const CAL = 'https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-
   dim.addEventListener('click',()=>bur.click());
   const sc=()=>nav.classList.toggle('scrolled',scrollY>8); addEventListener('scroll',sc,{passive:true}); sc();
 })();
+
+/* blog: table of contents open on desktop, collapsed on phones */
+(function(){ const d=document.querySelector('.post-toc details'); if(d && innerWidth>960) d.open=true; })();
