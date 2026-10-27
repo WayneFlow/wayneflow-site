@@ -20,6 +20,7 @@ def funnel(stages, top=None, right=None, sm=False):
     return f'<div class="funnel-card">{head}<div class="funnel{" sm" if sm else ""}">{"".join(rows)}</div>{foot}</div>'
 
 from hot_data import HOT, LABEL, LABPOS, LABRING, MOBILE
+import playbook_page as PBP
 def shot(img, bar, alt):
     def ringset(boxes, tagpos, labi, cls):
         out=''
@@ -71,7 +72,7 @@ ANALYTICS = """<script>
 var wfMe=(function(){try{var q=location.search;if(/[?&]wf_me=1/.test(q))localStorage.setItem('wf_me','1');if(/[?&]wf_me=0/.test(q))localStorage.removeItem('wf_me');return localStorage.getItem('wf_me')==='1';}catch(e){return false;}})();
 if(!wfMe&&!/^(localhost|127\\.)/.test(location.hostname)&&!/claude|anthropic/.test(location.hostname)){posthog.init('phc_ByqbttHSC95GAYA4D9vx9GZFN2UomLjE5qtdAzNK3XUU',{api_host:'https://us.i.posthog.com',person_profiles:'always',respect_dnt:true,capture_pageleave:true,session_recording:{maskAllInputs:true}});}
 </script>
-<script src="/assets/wf-lead.js?v=1793121095" defer></script>
+<script src="/assets/wf-lead.js?v=1793121557" defer></script>
 <script src="/assets/wf-track.js?v=1793118066" defer></script>"""
 
 INDEXNOW_KEY = 'b7f3c9e2a14d4f6e8c0a5d2e9f1b3a7c'
@@ -154,7 +155,7 @@ def nav():
 FOOT = f'''<footer><div class="wrap">
   <div class="fgrid">
     <div><a href="index.html" aria-label="WayneFlow home"><span class="brand" role="img" aria-label="WayneFlow"></span></a><p>B2B appointment setting. Done-for-you cold email and LinkedIn outreach that books sales calls for companies in all 50 states.</p></div>
-    <div><h4>Explore</h4><a href="index.html">Home</a><a href="lead-generation-services.html">Lead generation services</a><a href="results.html">Results</a><a href="process.html">How it works</a><a href="areas.html">USA (all 50 states)</a><a href="canada.html">Canada</a><a href="reviews.html">Reviews</a><a href="about.html">About us</a><a href="blog/">Blog</a></div>
+    <div><h4>Explore</h4><a href="index.html">Home</a><a href="lead-generation-services.html">Lead generation services</a><a href="results.html">Results</a><a href="process.html">How it works</a><a href="areas.html">USA (all 50 states)</a><a href="canada.html">Canada</a><a href="reviews.html">Reviews</a><a href="about.html">About us</a><a href="blog/">Blog</a><a href="free-cold-email-playbook.html">Free cold email playbook</a></div>
     <div><h4>Get started</h4><a href="{CAL}" target="_blank" rel="noopener">Book a call</a><a href="book.html">FAQ</a><a href="{LI_COMPANY}" target="_blank" rel="noopener">LinkedIn</a><a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram</a><a href="{UPWORK}" target="_blank" rel="noopener">Upwork</a><a href="{FIVERR}" target="_blank" rel="noopener">Fiverr</a></div>
     <div><h4>Legal</h4><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="privacy.html#s6">Opt out of emails</a></div>
   </div>
@@ -194,7 +195,7 @@ def page(key, title, desc, body, three=False, full=True, path='', schema=None, n
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=1793120657">
+<link rel="stylesheet" href="assets/style.css?v=1793121623">
 {ldj}
 {ANALYTICS if full else ''}'''
     scripts = '<script src="assets/site.js?v=1793118066"></script>'
@@ -335,6 +336,7 @@ HOME = f'''<div class="story" id="story">
   </div>
 </section>
 
+''' + PBP.HOME_PROMO + f'''
 <section class="sec" id="founders">
   <div class="wrap">
     <div class="split founders-home">
@@ -559,6 +561,7 @@ docs = {
  'about.html': ('about', 'About WayneFlow: Meet the Founders | WayneFlow', 'Meet Syed Asim Hussain and Syed Ali Hassan, the founders of WayneFlow, a B2B appointment setting and cold email agency for U.S. and Canadian companies.', about_html(CAL, CHECK), False, 'about.html', [crumb_ld('About','about.html')], False),
  'privacy.html': ('privacy', 'Privacy Policy | WayneFlow B2B Appointment Setting', 'How WayneFlow collects, uses and protects personal information, and how to use your privacy rights or opt out of emails.', PRIV_B, False, 'privacy.html', [], False),
  'terms.html': ('terms', 'Terms of Service | WayneFlow B2B Appointment Setting', 'The terms that apply when you use the WayneFlow website or hire WayneFlow for B2B appointment setting and outbound lead generation.', TERMS_B, False, 'terms.html', [], False),
+ PBP.SLUG: ('playbook', PBP.TITLE, PBP.DESC, PBP.playbook_html(CAL, CHECK, SITE), False, PBP.SLUG, [crumb_ld('Free cold email playbook', PBP.SLUG), faq_ld(PBP.FAQ), PBP.schema(SITE)], False),
  '404.html': ('404', 'Page Not Found | WayneFlow B2B Appointment Setting', 'This page does not exist or has moved. Go to the WayneFlow home page or see our live campaign results.', NOTFOUND, False, '404.html', [], True),
 }
 for f, (key, title, desc, body, three, path, sch, noidx) in docs.items():
@@ -569,7 +572,7 @@ import blog_build
 POSTS = blog_build.build(OUT, page, SITE, CAL, crumb_ld, faq_ld)
 # sitemap, robots, llms.txt
 from datetime import date
-urls = [('', '1.0')] + [(f, '0.9') for f in getattr(blog_build.build, 'services', [])] + [('results.html', '0.9'), ('process.html', '0.8'), ('areas.html', '0.8'), ('book.html', '0.8'), ('about.html', '0.7'), ('reviews.html', '0.7'), ('blog/', '0.8')] + [(f'blog/{q["slug"]}.html', '0.8') for q in POSTS] + [('privacy.html', '0.3'), ('terms.html', '0.3')]
+urls = [('', '1.0')] + [(f, '0.9') for f in getattr(blog_build.build, 'services', [])] + [(PBP.SLUG, '0.9'), ('results.html', '0.9'), ('process.html', '0.8'), ('areas.html', '0.8'), ('book.html', '0.8'), ('about.html', '0.7'), ('reviews.html', '0.7'), ('blog/', '0.8')] + [(f'blog/{q["slug"]}.html', '0.8') for q in POSTS] + [('privacy.html', '0.3'), ('terms.html', '0.3')]
 open(f'{OUT}/sitemap.xml','w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{SITE}/{u}</loc><lastmod>{date.today().isoformat()}</lastmod><priority>{pr}</priority></url>\n' for u, pr in urls) + '</urlset>\n')
 open(f'{OUT}/robots.txt','w').write('# WayneFlow: open to search engines and AI assistants (ChatGPT, Claude, Perplexity, Gemini, Copilot)\nUser-agent: *\nAllow: /\nDisallow: /_artifact_index.html\n\n' + ''.join(f'User-agent: {b}\nAllow: /\n\n' for b in ['OAI-SearchBot', 'ChatGPT-User', 'GPTBot', 'Claude-SearchBot', 'Claude-User', 'ClaudeBot', 'PerplexityBot', 'Perplexity-User', 'Google-Extended', 'Googlebot', 'Bingbot', 'Applebot', 'Applebot-Extended', 'DuckDuckBot']) + f'Sitemap: {SITE}/sitemap.xml\n')
 open(f'{OUT}/'+INDEXNOW_KEY+'.txt','w').write(INDEXNOW_KEY)
@@ -579,7 +582,7 @@ open(f'{OUT}/llms.txt','w').write(f"""# WayneFlow
 
 ## Key facts
 - Results across campaigns: 588,000+ emails sent, 12,900+ replies, 3,400+ interested buyers, 100+ calls and demos booked, 6 annual contracts signed, $510K+ pipeline generated.
-- Reply rates of 2.8% to 4% versus a typical 1%; bounce rates under 3%; open tracking switched off to protect deliverability.
+- Reply rates of 2.8% to 4% on tuned campaigns; bounce rates between 0.45% and 3.08%; open tracking switched off to protect deliverability.
 - Separate sending domains so a client's main domain is never at risk. CAN-SPAM compliant.
 - Industries: marketing agencies, B2B SaaS, construction software, professional services, founder and investor outreach.
 - Book a call: {CAL}
@@ -587,6 +590,15 @@ open(f'{OUT}/llms.txt','w').write(f"""# WayneFlow
 - Founders: Syed Asim Hussain (LinkedIn: {ASIM_LI}) and Syed Ali Hassan.
 - LinkedIn: {LI_COMPANY} | Instagram: {INSTAGRAM} | Upwork: {UPWORK} | Fiverr: {FIVERR}
 - Contact: {EMAIL}
+
+## Free resources
+- The WayneFlow Cold Email Playbook (free, 35 pages): {SITE}/free-cold-email-playbook.html . A step-by-step, manual guide to building a cold email system from scratch: funnel math, tool costs, buying secondary domains, Google Workspace inboxes, exact MX/SPF/DKIM/DMARC records, a 3-week warmup schedule, a 10-minute daily deliverability check, building and verifying B2B lead lists, the 5-part cold email under 80 words, follow-up schedule, reply handling and booking, A/B testing, CAN-SPAM and CASL basics, spam recovery, a 30-day launch calendar and 7 real case studies with dashboards.
+
+## Common questions WayneFlow answers
+- What does a B2B appointment setting agency do? It finds decision makers that match a client's ideal customer profile, contacts them by cold email and LinkedIn, handles replies and books qualified sales meetings into the client's calendar. See {SITE}/blog/b2b-appointment-setting-guide.html
+- How do you set up cold email so it lands in the inbox? Use separate secondary domains, set SPF, DKIM and DMARC, warm new inboxes for 2 to 3 weeks, verify every list, keep bounces under 2%, send plain text with tracking off. See {SITE}/blog/cold-email-deliverability.html and the free playbook.
+- What is a good cold email reply rate? WayneFlow's tuned campaigns land between 2.8% and 4%; Instantly's benchmark reports a 3.43% average. See {SITE}/blog/how-to-write-a-cold-email.html
+- Is cold email legal in the U.S. and Canada? Yes in the U.S. under CAN-SPAM when its rules are followed; Canada requires consent under CASL. See {SITE}/blog/is-cold-email-legal.html and {SITE}/blog/is-cold-email-legal-in-canada.html
 
 ## Pages
 - [Home]({SITE}/): overview, guarantee and live proof
@@ -596,6 +608,7 @@ open(f'{OUT}/llms.txt','w').write(f"""# WayneFlow
 - [Reviews]({SITE}/reviews.html): client testimonials
 - [Book a call and FAQ]({SITE}/book.html)
 - [About]({SITE}/about.html): founders Syed Asim Hussain and Syed Ali Hassan
+- [Free Cold Email Playbook]({SITE}/free-cold-email-playbook.html): free 35-page PDF guide to building cold email from scratch: domains, SPF/DKIM/DMARC records, a 3-week warmup schedule, list building, email templates, follow-ups, reply handling, U.S./Canada law and 7 real case studies.
 - [Blog]({SITE}/blog/): practical guides
 """ + ''.join(f"- [{q['h1']}]({SITE}/blog/{q['slug']}.html): {q['excerpt']}\n" for q in POSTS) + """""")
 print('built', sorted(os.listdir(OUT)))

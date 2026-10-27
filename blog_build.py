@@ -125,7 +125,8 @@ def build_services(OUT, page, SITE, CAL, faq_ld):
 <section class="sec post" style="padding-top:0">
   <div class="wrap"><div class="post-grid">
     <aside class="post-toc"><details><summary>On this page</summary>{toc}</details>
-      <div class="toc-cta"><b>Want this done for you?</b><p>25 qualified appointments a month, guaranteed.</p><a class="btn btn-primary btn-sm" href="{CAL}" target="_blank" rel="noopener">Book a 20-minute call</a></div></aside>
+      <div class="toc-cta"><b>Want this done for you?</b><p>25 qualified appointments a month, guaranteed.</p><a class="btn btn-primary btn-sm" href="{CAL}" target="_blank" rel="noopener">Book a 20-minute call</a></div>
+        <a class="toc-pb" href="/free-cold-email-playbook.html"><img src="/assets/img/playbook-cover.webp" alt="Free cold email playbook" width="60" height="78" loading="lazy"><span><b>Free cold email playbook</b>35 pages · 7 real case studies</span></a></aside>
     <article class="post-body">{body_html}</article>
   </div></div>
 </section>'''
@@ -153,7 +154,8 @@ def build(OUT, page, SITE, CAL, crumb_ld, faq_ld):
       <div class="byline"><span class="author-photos"><img src="/assets/team/asim-sq.webp" alt="Syed Asim Hussain" width="44" height="44"><img src="/assets/team/ali-sq.webp" alt="Syed Ali Hassan" width="44" height="44"></span><div><b>By <a href="/about.html" style="color:inherit">{AUTHOR}</a></b><span>Updated <time datetime="{PUBLISHED}">October 27, 2026</time> · Based on 588,000+ emails we have sent</span></div></div></header>
     <div class="post-grid">
       <aside class="post-toc"><details><summary>On this page</summary>{toc}</details>
-        <div class="toc-cta"><b>Want this done for you?</b><p>25 qualified appointments a month, guaranteed.</p><a class="btn btn-primary btn-sm" href="{CAL}" target="_blank" rel="noopener">Book a 20-minute call</a></div></aside>
+        <div class="toc-cta"><b>Want this done for you?</b><p>25 qualified appointments a month, guaranteed.</p><a class="btn btn-primary btn-sm" href="{CAL}" target="_blank" rel="noopener">Book a 20-minute call</a></div>
+        <a class="toc-pb" href="/free-cold-email-playbook.html"><img src="/assets/img/playbook-cover.webp" alt="Free cold email playbook" width="60" height="78" loading="lazy"><span><b>Free cold email playbook</b>35 pages · 7 real case studies</span></a></aside>
       <article class="post-body">{fix_anchors(enrich(p["body"], p["slug"]), p["slug"])}
         <div class="author-box"><span class="author-photos"><img src="/assets/team/asim-sq.webp" alt="Syed Asim Hussain" width="44" height="44"><img src="/assets/team/ali-sq.webp" alt="Syed Ali Hassan" width="44" height="44"></span><div><b>About the authors</b><p><a href="/about.html">Syed Asim Hussain and Syed Ali Hassan</a> run WayneFlow, a done-for-you B2B appointment setting agency for U.S. companies. Every number in this guide comes from campaigns we ran ourselves or from the sources linked. <a href="/results.html">See our live dashboards</a>.</p></div></div>
       </article>
@@ -179,7 +181,8 @@ def build(OUT, page, SITE, CAL, crumb_ld, faq_ld):
     ib = f'''<section class="sec">
   <div class="wrap">
     <div class="head"><span class="kicker">The WayneFlow blog</span><h1>Cold email and appointment setting, <span class="hl">explained with real numbers.</span></h1>
-    <p class="lead">Practical guides for U.S. B2B founders and sales leaders. No theory from people who have never sent a campaign. Everything here comes from 588,000+ emails we have sent and the sources we link.</p></div>
+    <p class="lead">Practical guides for U.S. B2B founders and sales leaders. No theory from people who have never sent a campaign. Everything here comes from 588,000+ emails we have sent and the sources we link.</p>
+    <p><a class="toc-pb" style="display:inline-flex" href="/free-cold-email-playbook.html"><img src="/assets/img/playbook-cover.webp" alt="Free cold email playbook" width="60" height="78" loading="lazy"><span><b>New: the free cold email playbook</b>35 pages, step by step, with 7 real case studies</span></a></p></div>
     <h2 class="sr-only">All guides</h2><div class="grid3 posts">{cards}</div>
   </div>
 </section>'''
