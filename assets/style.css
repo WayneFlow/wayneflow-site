@@ -352,3 +352,14 @@ footer{border-top:1px solid var(--line);background:rgba(255,255,255,.7);padding-
 .story .scn .card.wide{max-width:640px}
 .story .scn .viz{margin-top:20px}
 .story .scn .viz .shot{box-shadow:0 18px 40px -24px rgba(11,26,58,.4)}
+.fbar.fmoney{background:linear-gradient(90deg,#0E9F5B,#22C47A) !important;color:#fff !important;clip-path:none;border-radius:12px;box-shadow:0 10px 22px -12px rgba(14,159,91,.8)}
+.money-row .flabel{color:#0B7A45}
+.money-row .flabel small{color:var(--muted)}
+.moneynote{margin-top:18px;max-width:90ch}
+.stat.lime b{color:#0E9F5B}
+@media (max-width:560px){.hero .stats.s4{grid-template-columns:1fr 1fr}}
+.fbar.fmoney{width:auto;min-width:var(--w);padding:0 14px;white-space:nowrap;justify-self:center}
+.hero .stats.s4 .stat{padding:14px}
+.hero .stats.s4 .stat b{font-size:clamp(20px,1.8vw,27px)}
+.hero .stats.s4 .stat span{font-size:11px}
+@media (max-width:420px){.fbar.fmoney{font-size:17px;padding:0 10px}}
