@@ -71,7 +71,7 @@ ANALYTICS = """<script>
 var wfMe=(function(){try{var q=location.search;if(/[?&]wf_me=1/.test(q))localStorage.setItem('wf_me','1');if(/[?&]wf_me=0/.test(q))localStorage.removeItem('wf_me');return localStorage.getItem('wf_me')==='1';}catch(e){return false;}})();
 if(!wfMe&&!/^(localhost|127\\.)/.test(location.hostname)&&!/claude|anthropic/.test(location.hostname)){posthog.init('phc_ByqbttHSC95GAYA4D9vx9GZFN2UomLjE5qtdAzNK3XUU',{api_host:'https://us.i.posthog.com',person_profiles:'always',respect_dnt:true,capture_pageleave:true,session_recording:{maskAllInputs:true}});}
 </script>
-<script src="/assets/wf-lead.js?v=1793119869" defer></script>
+<script src="/assets/wf-lead.js?v=1793120242" defer></script>
 <script src="/assets/wf-track.js?v=1793118066" defer></script>"""
 
 INDEXNOW_KEY = 'b7f3c9e2a14d4f6e8c0a5d2e9f1b3a7c'
@@ -194,7 +194,7 @@ def page(key, title, desc, body, three=False, full=True, path='', schema=None, n
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=1793119432">
+<link rel="stylesheet" href="assets/style.css?v=1793120242">
 {ldj}
 {ANALYTICS if full else ''}'''
     scripts = '<script src="assets/site.js?v=1793118066"></script>'
