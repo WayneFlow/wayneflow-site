@@ -1,10 +1,10 @@
-/* WayneFlow lead capture: free case-study pack in exchange for an email.
+/* WayneFlow lead capture: free cold email playbook in exchange for an email.
    The email is saved to the visitor's record in PostHog (identify), so every page they
    read before and after is linked to it. No third-party form service. */
 (function () {
   'use strict';
   var W = window, D = document, L = location;
-  var PDF = '/assets/wayneflow-case-studies.pdf';
+  var PDF = '/assets/wayneflow-cold-email-playbook.pdf';
   var page = L.pathname.replace(/index\.html$/, '') || '/';
   function ls(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
   function ph() { return W.posthog && W.posthog.capture ? W.posthog : null; }
@@ -24,9 +24,9 @@
   }
   var BOX = function (id) {
     return '<div class="wl-box" id="wl-box-' + id + '"><div class="wl-copy"><span class="kicker">Free playbook · $300 value</span>' +
-      '<h3>Get the playbook behind $510K+ in client pipeline.</h3>' +
-      '<p>6 real campaigns, 588,000 emails and the dashboards behind them, plus the 5 rules that turn cold email into booked sales appointments. Free, instant download.</p>' +
-      '<ul class="wl-pts"><li>The exact funnels that booked 25 calls in 5 days</li><li>How 6 annual contracts came from a cold inbox</li><li>5 rules to stay out of spam, starting today</li></ul></div>' +
+      '<h3>The cold email playbook behind $510K+ in client pipeline.</h3>' +
+      '<p>A 47-page, step-by-step guide to the exact setup behind 588,000 emails: domains, inboxes, DNS records, warmup, lists, emails and replies, with real numbers from our client dashboards. Free, instant download.</p>' +
+      '<ul class="wl-pts"><li>The exact DNS records and the 3-week warmup schedule</li><li>Real emails and follow-ups that got replies</li><li>The 10-minute daily check that keeps you out of spam</li></ul></div>' +
       formHTML(id) + '</div>';
   };
 
@@ -35,7 +35,7 @@
     var msg = form.querySelector('.wl-msg');
     form.querySelectorAll('input,button').forEach(function (el) { el.disabled = true; });
     msg.innerHTML = 'Thanks! Your download is starting. <a href="' + PDF + '" download>Download again</a>';
-    var a = D.createElement('a'); a.href = PDF; a.download = 'WayneFlow-case-studies.pdf'; D.body.appendChild(a); a.click(); a.remove();
+    var a = D.createElement('a'); a.href = PDF; a.download = 'WayneFlow-Cold-Email-Playbook.pdf'; D.body.appendChild(a); a.click(); a.remove();
   }
 
   D.addEventListener('submit', function (e) {
@@ -53,7 +53,7 @@
     var sess = {}, first = {}, org = {}; try { sess = JSON.parse(sessionStorage.getItem('wf_sess') || '{}'); first = JSON.parse(ls('wf_first') || '{}'); org = JSON.parse(ls('wf_org') || '{}'); } catch (err) {}
     var hs = D.documentElement.scrollHeight - W.innerHeight;
     var ctx = {
-      lead_page: page, lead_form: form.getAttribute('data-wl'), lead_magnet: 'case-study-pack',
+      lead_page: page, lead_form: form.getAttribute('data-wl'), lead_magnet: 'cold-email-playbook',
       timezone: tz, local_time: new Date().toString().slice(0, 24), language: navigator.language || '',
       device: W.innerWidth < 641 ? 'mobile' : W.innerWidth < 1025 ? 'tablet' : 'desktop', screen: screen.width + 'x' + screen.height,
       browser_info: navigator.userAgent.slice(0, 200),
@@ -62,7 +62,7 @@
       first_source: first.source || '', first_seen: first.ts || '', network: org.org || '', network_kind: org.kind || '',
       scroll_depth: hs > 0 ? Math.round(W.scrollY / hs * 100) : 100
     };
-    var person = { email: email, lead_magnet: 'case-study-pack', timezone: tz, language: ctx.language, lead_page: page, lead_at: new Date().toISOString() };
+    var person = { email: email, lead_magnet: 'cold-email-playbook', timezone: tz, language: ctx.language, lead_page: page, lead_at: new Date().toISOString() };
     if (site) { person.company_website = site; ctx.company_website = site; }
     if (phone) { person.phone = phone; ctx.phone = phone; ctx.sms_call_consent = true; }
     if (org.org) person.network = org.org;
@@ -96,8 +96,8 @@
     if (shown || !canPop()) return; shown = true; ls('wf_pop_at', String(Date.now()));
     var d = D.createElement('div'); d.id = 'wl-pop'; d.className = 'wl-pop'; d.setAttribute('role', 'dialog'); d.setAttribute('aria-modal', 'true'); d.setAttribute('aria-labelledby', 'wl-pop-h');
     d.innerHTML = '<div class="wl-card"><button class="wl-x" type="button" aria-label="Close">×</button>' +
-      '<span class="wl-badge">FREE · $300 VALUE</span><h3 id="wl-pop-h">Wait. Take the playbook behind $510K+ in pipeline.</h3>' +
-      '<p>The 6 campaigns, 588,000 emails and 5 rules that turned cold email into booked sales appointments for our clients. Yours free, instant download.</p>' +
+      '<span class="wl-badge">FREE · $300 VALUE</span><h3 id="wl-pop-h">Wait. Take the cold email playbook behind $510K+ in pipeline.</h3>' +
+      '<p>47 pages. Every step we use to turn a blank domain into booked sales calls, from 588,000 real emails. Yours free, instant download.</p>' +
       '<p class="wl-fomo">Your competitors are already in your buyers\u2019 inboxes. Get the playbook before they book the meeting.</p>' + formHTML('popup', true) + '</div>';
     D.body.appendChild(d);
     requestAnimationFrame(function () { d.classList.add('in'); });
