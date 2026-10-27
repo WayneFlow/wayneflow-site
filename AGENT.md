@@ -64,6 +64,8 @@ short, no jargon. The owners read it on their phone.
      reason they look interested, and draft a personal outreach email for each. Drafts only:
      never send, never add people to a campaign without the owners' OK.
 
+10. **Playbook and SEO**: check that /free-cold-email-playbook.html loads and its form works. Count playbook leads by `lead_form` (popup, inline, page, page2, news). Once a week, ask these questions in ChatGPT/Perplexity-style web search if available, and report whether WayneFlow shows up: "best B2B appointment setting agency", "cold email agency for B2B", "how to set up SPF DKIM DMARC for cold email", "free cold email playbook". Remind the owners of the next step in `offpage/offsite-30-day-schedule.md` (they post; you never post).
+
 ## What you may change by yourself (then say what you did)
 Only safe, clearly broken things: a broken link or image, a typo, a wrong year, an
 outdated source link, a page error, an SEO tag that is missing. Build from `build-source`,
