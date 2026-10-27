@@ -608,3 +608,25 @@ footer{border-top:1px solid var(--line);background:rgba(255,255,255,.7);padding-
 .author-photos{display:flex}.author-photos img{width:44px;height:44px;border-radius:50%;border:2px solid #fff;object-fit:cover}.author-photos img+img{margin-left:-12px}
 @media (max-width:960px){.price-grid{grid-template-columns:1fr}}
 @media (max-width:640px){.founders .founder{grid-template-columns:1fr}.founder img{max-width:260px}}
+/* v19: mobile — no ticker, no 3D background; reviews page spacing (desktop + mobile) */
+@media (max-width:640px){
+  .tick{display:none}
+  .hero-h{margin-top:4px}
+  #stage{display:none!important}
+}
+.rgrid{columns:auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;max-width:1100px;margin-inline:auto}
+.rgrid .rcard{width:auto;margin:0;padding:34px 34px 28px;gap:22px;border-radius:22px;position:relative}
+.rgrid .rcard::before{content:"\201C";position:absolute;top:18px;right:26px;font:700 72px/1 Georgia,serif;color:var(--blue);opacity:.14}
+.rgrid .rcard p{font-size:17px;line-height:1.75;color:#26324D;padding-right:28px}
+.rgrid .rcard .who{margin-top:auto;padding-top:20px;border-top:1px solid var(--line)}
+@media (max-width:760px){
+  .rgrid{grid-template-columns:1fr;gap:18px}
+  .rgrid .rcard{padding:26px 22px 22px;gap:18px}
+  .rgrid .rcard p{font-size:16px;padding-right:18px}
+  .rgrid .rcard::before{font-size:56px;right:18px;top:14px}
+}
+@media (max-width:640px){
+  .story .viz .shot:has(img[src*="calendly"]){border:0;box-shadow:none;background:transparent;margin-inline:-14px;border-radius:0}
+  .story .viz .shot:has(img[src*="calendly"]) .bar{display:none}
+  .story .viz .shot:has(img[src*="calendly"]) img{border-radius:10px}
+}
