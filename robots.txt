@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /_artifact_index.html
+
+Sitemap: https://wayne-flow.site/sitemap.xml
