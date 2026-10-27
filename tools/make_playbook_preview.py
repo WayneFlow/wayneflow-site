@@ -18,7 +18,7 @@ async def main():
         await pg.goto('file:///home/claude/pdf_lm/pv_end.html'); await pg.wait_for_timeout(400)
         await pg.pdf(path='pv_end.pdf',format='Letter',print_background=True,prefer_css_page_size=True); await b.close()
     r=PdfReader('wayneflow-cold-email-playbook.pdf'); w=PdfWriter()
-    for n in [1,2,3,4,5,6,12,17]: w.add_page(r.pages[n-1])
+    for n in [1,2,3,4,5,11,12,13,17]: w.add_page(r.pages[n-1])
     w.append('pv_end.pdf')
     w.add_metadata({'/Title':'The WayneFlow Cold Email Playbook (Free Preview)','/Author':'WayneFlow by Ali & Asim'})
     w.write('wayneflow-cold-email-playbook-preview.pdf'); print(len(w.pages))
