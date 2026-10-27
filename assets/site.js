@@ -81,3 +81,12 @@ const CAL = 'https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-
   document.querySelectorAll('[data-to]').forEach(el=>{ if(el.getBoundingClientRect().top>innerHeight) io.observe(el); });
   document.querySelectorAll('.reveal').forEach(el=>{ if(el.getBoundingClientRect().top>innerHeight){ el.classList.add('pre'); io.observe(el);} });
 })();
+
+/* hero: count the headline number up on page open */
+(function(){
+  const el=document.querySelector('.hero-h [data-count]'); if(!el||reduce) return;
+  const end=+el.dataset.count, t0=performance.now()+150; el.textContent='0';
+  const tk=now=>{ const p=Math.max(0,Math.min(1,(now-t0)/1100)); el.textContent=Math.round(end*(1-Math.pow(1-p,3))); if(p<1) requestAnimationFrame(tk); };
+  requestAnimationFrame(tk);
+  setTimeout(()=>{ el.textContent=end; },2000);
+})();
