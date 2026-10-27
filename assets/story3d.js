@@ -1,6 +1,5 @@
 /* ================= 3D envelope story ================= */
 (function(){
-  if(matchMedia("(max-width:960px)").matches) return;
   const cv=document.getElementById('stage');
   if(!window.THREE) return;
   let R; try{ R=new THREE.WebGLRenderer({canvas:cv,antialias:true,alpha:true}); }catch(e){ return; }
@@ -11,7 +10,7 @@
 
   // envelope texture
   const tc=document.createElement('canvas'); tc.width=256; tc.height=168; const g=tc.getContext('2d');
-  g.fillStyle='#ffffff'; g.strokeStyle='rgba(13,38,89,.22)'; g.lineWidth=5; g.beginPath(); g.roundRect ? g.roundRect(4,4,248,160,16) : g.rect(4,4,248,160); g.fill(); g.stroke();
+  g.fillStyle='#ffffff'; g.strokeStyle='rgba(11,26,58,.25)'; g.lineWidth=5; g.beginPath(); g.roundRect ? g.roundRect(4,4,248,160,16) : g.rect(4,4,248,160); g.fill(); g.stroke();
   g.strokeStyle='rgba(0,0,0,.28)'; g.lineWidth=7; g.lineJoin='round';
   g.beginPath(); g.moveTo(12,14); g.lineTo(128,96); g.lineTo(244,14); g.stroke();
   g.lineWidth=4; g.strokeStyle='rgba(0,0,0,.14)'; g.beginPath(); g.moveTo(12,160); g.lineTo(100,84); g.moveTo(244,160); g.lineTo(156,84); g.stroke();
@@ -27,24 +26,24 @@
   const SD=900, sp=new Float32Array(SD*3);
   for(let i=0;i<SD;i++){ sp[i*3]=(Math.random()-.5)*60; sp[i*3+1]=(Math.random()-.5)*40; sp[i*3+2]=-10-Math.random()*40; }
   const sg=new THREE.BufferGeometry(); sg.setAttribute('position',new THREE.BufferAttribute(sp,3));
-  scene.add(new THREE.Points(sg,new THREE.PointsMaterial({color:0x8FB0E8,size:.06,transparent:true,opacity:.6})));
+  scene.add(new THREE.Points(sg,new THREE.PointsMaterial({color:0x9FB4D8,size:.06,transparent:true,opacity:.7})));
 
   // globe orbit rings and glow
   const orb=new THREE.Group(); const orbMats=[];
-  [[3.9,.016,.9,.35],[4.5,.008,-.5,.8]].forEach(([rad,th,tx,tz])=>{ const m=new THREE.MeshBasicMaterial({color:0x7FE3FF,transparent:true,opacity:0}); const t=new THREE.Mesh(new THREE.TorusGeometry(rad,th,8,140),m); t.rotation.set(Math.PI/2+tx,0,tz); orb.add(t); orbMats.push(m); });
+  [[3.9,.016,.9,.35],[4.5,.008,-.5,.8]].forEach(([rad,th,tx,tz])=>{ const m=new THREE.MeshBasicMaterial({color:0x1F6BFF,transparent:true,opacity:0}); const t=new THREE.Mesh(new THREE.TorusGeometry(rad,th,8,140),m); t.rotation.set(Math.PI/2+tx,0,tz); orb.add(t); orbMats.push(m); });
   const gc=document.createElement('canvas'); gc.width=gc.height=128; const gx2=gc.getContext('2d'), grd=gx2.createRadialGradient(64,64,0,64,64,64);
-  grd.addColorStop(0,'rgba(76,141,255,.55)'); grd.addColorStop(.5,'rgba(76,141,255,.12)'); grd.addColorStop(1,'rgba(76,141,255,0)'); gx2.fillStyle=grd; gx2.fillRect(0,0,128,128);
-  const glow=new THREE.Sprite(new THREE.SpriteMaterial({map:new THREE.CanvasTexture(gc),transparent:true,depthWrite:false,blending:THREE.AdditiveBlending})); glow.scale.set(13,13,1); orb.add(glow);
+  grd.addColorStop(0,'rgba(31,107,255,.22)'); grd.addColorStop(.5,'rgba(25,180,234,.08)'); grd.addColorStop(1,'rgba(25,180,234,0)'); gx2.fillStyle=grd; gx2.fillRect(0,0,128,128);
+  const glow=new THREE.Sprite(new THREE.SpriteMaterial({map:new THREE.CanvasTexture(gc),transparent:true,depthWrite:false})); glow.scale.set(13,13,1); orb.add(glow);
   scene.add(orb);
   // the four gates
   const gates=new THREE.Group(); const gateMats=[];
-  for(let k=0;k<4;k++){ const m=new THREE.MeshBasicMaterial({color:0x7FE3FF,transparent:true,opacity:0});
+  for(let k=0;k<4;k++){ const m=new THREE.MeshBasicMaterial({color:0x1F6BFF,transparent:true,opacity:0});
     const t=new THREE.Mesh(new THREE.TorusGeometry(mobile()?1.9:1.45,.035,10,90),m); t.position.x=mobile()?(-6+k*4):(0.2+k*2.3); t.rotation.y=Math.PI/2; gates.add(t); gateMats.push(m);
-    const m2=new THREE.MeshBasicMaterial({color:0x7FE3FF,transparent:true,opacity:0}); const h=new THREE.Mesh(new THREE.TorusGeometry(mobile()?2.3:1.8,.01,6,90),m2); h.position.copy(t.position); h.rotation.y=Math.PI/2; gates.add(h); gateMats.push(m2); }
+    const m2=new THREE.MeshBasicMaterial({color:0x1F6BFF,transparent:true,opacity:0}); const h=new THREE.Mesh(new THREE.TorusGeometry(mobile()?2.3:1.8,.01,6,90),m2); h.position.copy(t.position); h.rotation.y=Math.PI/2; gates.add(h); gateMats.push(m2); }
   world.add(gates);
 
   // calendar frame
-  const calMat=new THREE.LineBasicMaterial({color:0x9CCBFF,transparent:true,opacity:0});
+  const calMat=new THREE.LineBasicMaterial({color:0x1F6BFF,transparent:true,opacity:0});
   const cpts=[]; const cw=5, ch=8, sx=1.0, sy=.68;
   for(let c=0;c<=cw;c++){ cpts.push(-cw*sx/2+c*sx,-ch*sy/2,0, -cw*sx/2+c*sx,ch*sy/2,0); }
   for(let r=0;r<=ch;r++){ cpts.push(-cw*sx/2,-ch*sy/2+r*sy,0, cw*sx/2,-ch*sy/2+r*sy,0); }
@@ -52,14 +51,14 @@
   const cal=new THREE.LineSegments(cg,calMat); world.add(cal);
 
   // floor for bars
-  const floorMat=new THREE.LineBasicMaterial({color:0x9CCBFF,transparent:true,opacity:0});
+  const floorMat=new THREE.LineBasicMaterial({color:0x1F6BFF,transparent:true,opacity:0});
   const fpts=[]; for(let k=-8;k<=8;k++){ fpts.push(k*.6,0,-3, k*.6,0,3); } for(let k=-5;k<=5;k++){ fpts.push(-4.8,0,k*.6, 4.8,0,k*.6); }
   const fg=new THREE.BufferGeometry(); fg.setAttribute('position',new THREE.Float32BufferAttribute(fpts,3));
   const floor=new THREE.LineSegments(fg,floorMat); world.add(floor);
 
   const rnd=Array.from({length:N},()=>[Math.random(),Math.random(),Math.random(),Math.random(),Math.random(),Math.random()]);
   const isR=i=>i<RN;
-  const C={ ice:new THREE.Color(0xF4F8FF), blue:new THREE.Color(0x8DBBFF), dim:new THREE.Color(0x3E62A6), grey:new THREE.Color(0x7F97C4), lime:new THREE.Color(0x5CE1FF), gone:new THREE.Color(0x0E2C68) };
+  const C={ ice:new THREE.Color(0x2A4C8F), blue:new THREE.Color(0x3D86FF), dim:new THREE.Color(0xC4D3EE), grey:new THREE.Color(0xA9B6CF), lime:new THREE.Color(0x8CCB16), gone:new THREE.Color(0xF4F7FC) };
   const HW=()=>Math.tan(21*Math.PI/180)*cam.position.z*cam.aspect, RX=()=>Math.max(3.2,Math.min(HW()*0.5,6)), KS=()=>Math.max(1,Math.min(HW()/8.6,1.25));
   const barH=[2,4,5,7,9,13]; const barOf=[]; { let i=0; barH.forEach((h,b)=>{ for(let l=0;l<h;l++) barOf[i++]=[b,l]; }); }
 
