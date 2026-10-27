@@ -11,23 +11,21 @@
   function cap(ev, p) { var x = ph(); if (x) x.capture(ev, p || {}); }
   if (/\/book\.html$|\/privacy\.html$|\/terms\.html$|\/404\.html$/.test(page)) return;
 
-  function formHTML(id, compact) {
+  function formHTML(id) {
     return '<form class="wl-form" novalidate data-wl="' + id + '">' +
       '<label class="wl-sr" for="wl-email-' + id + '">Work email</label>' +
-      '<input class="wl-input" id="wl-email-' + id + '" name="email" type="email" autocomplete="email" placeholder="Your work email" required>' +
-      '<label class="wl-sr" for="wl-tel-' + id + '">Phone (optional)</label>' +
-      '<input class="wl-input" id="wl-tel-' + id + '" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="Phone (optional)">' +
-      (compact ? '' : '<label class="wl-sr" for="wl-site-' + id + '">Company website</label><input class="wl-input" id="wl-site-' + id + '" name="website" type="text" autocomplete="url" placeholder="Company website (optional)">') +
-      '<button class="btn btn-primary wl-btn" type="submit">Send me the free playbook</button>' +
-      '<p class="wl-fine">Instant download. No spam. We may follow up by email; unsubscribe anytime. If you add a phone number, you agree we may call or text you about your request (msg &amp; data rates may apply, reply STOP to opt out). <a href="/privacy.html">Privacy</a></p>' +
+      '<div class="wl-row"><input class="wl-input" id="wl-email-' + id + '" name="email" type="email" autocomplete="email" inputmode="email" placeholder="Your work email" required>' +
+      '<button class="btn btn-primary wl-btn" type="submit">Get the playbook</button></div>' +
+      '<p class="wl-fine">Instant download · No spam · Unsubscribe anytime · <a href="/privacy.html">Privacy</a></p>' +
       '<p class="wl-msg" role="status" aria-live="polite"></p></form>';
   }
+  var COVER = '<div class="wl-cover"><img src="/assets/img/playbook-cover.webp" alt="The WayneFlow Cold Email Playbook cover" width="210" height="272" loading="lazy"></div>';
+  var CHIPS = '<ul class="wl-chips"><li>Exact DNS setup</li><li>3-week warmup</li><li>Emails that get replies</li></ul>';
   var BOX = function (id) {
-    return '<div class="wl-box" id="wl-box-' + id + '"><div class="wl-copy"><span class="kicker">Free playbook · $300 value</span>' +
-      '<h3>The cold email playbook behind $510K+ in client pipeline.</h3>' +
-      '<p>A 20-page, step-by-step guide to the exact setup behind 588,000 emails: domains, inboxes, DNS records, warmup, lists, emails and replies, with real numbers from our client dashboards. Free, instant download.</p>' +
-      '<ul class="wl-pts"><li>The exact DNS records and the 3-week warmup schedule</li><li>Real emails and follow-ups that got replies</li><li>The 10-minute daily check that keeps you out of spam</li></ul></div>' +
-      formHTML(id) + '</div>';
+    return '<div class="wl-box" id="wl-box-' + id + '">' + COVER + '<div class="wl-copy"><span class="wl-badge">FREE · $300 VALUE</span>' +
+      '<h3>The cold email playbook behind $510K+ in pipeline.</h3>' +
+      '<p>20 pages. The exact setup we use to turn a blank domain into booked sales calls.</p>' + CHIPS +
+      formHTML(id) + '</div></div>';
   };
 
   function done(form, email) {
@@ -42,9 +40,8 @@
     var form = e.target.closest && e.target.closest('.wl-form'); if (!form) return;
     e.preventDefault();
     var email = (form.email.value || '').trim().toLowerCase();
-    var site = form.website ? (form.website.value || '').trim().slice(0, 200) : '';
-    var phone = form.phone ? (form.phone.value || '').replace(/[^\d+()\-.\s]/g, '').trim().slice(0, 30) : '';
-    if (phone && phone.replace(/\D/g, '').length < 7) { form.querySelector('.wl-msg').textContent = 'Please check the phone number, or leave it empty.'; form.phone.focus(); return; }
+    var site = '';
+    var phone = '';
     var msg = form.querySelector('.wl-msg');
     if (!/^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(email)) { msg.textContent = 'Please enter a valid email.'; form.email.focus(); return; }
     var x = ph();
@@ -60,7 +57,8 @@
       source_this_visit: sess.source || '', channel_this_visit: sess.channel || '', landing_page: sess.landing || '',
       pages_this_visit: sess.pages || 1, visit_number: sess.n || 1, seconds_this_visit: sess.start ? Math.round((Date.now() - sess.start) / 1000) : null,
       first_source: first.source || '', first_seen: first.ts || '', network: org.org || '', network_kind: org.kind || '',
-      scroll_depth: hs > 0 ? Math.round(W.scrollY / hs * 100) : 100
+      scroll_depth: hs > 0 ? Math.round(W.scrollY / hs * 100) : 100,
+      referrer: (D.referrer || '').slice(0, 200), page_title: (D.title || '').slice(0, 120), utm_campaign: sess.utm_campaign || '', utm_source: sess.utm_source || '', email_domain: email.split('@')[1] || '', work_email: !/@(gmail|yahoo|hotmail|outlook|icloud|aol|proton|live|msn)\./i.test(email)
     };
     var person = { email: email, lead_magnet: 'cold-email-playbook', timezone: tz, language: ctx.language, lead_page: page, lead_at: new Date().toISOString() };
     if (site) { person.company_website = site; ctx.company_website = site; }
@@ -96,9 +94,9 @@
     if (shown || !canPop()) return; shown = true; ls('wf_pop_at', String(Date.now()));
     var d = D.createElement('div'); d.id = 'wl-pop'; d.className = 'wl-pop'; d.setAttribute('role', 'dialog'); d.setAttribute('aria-modal', 'true'); d.setAttribute('aria-labelledby', 'wl-pop-h');
     d.innerHTML = '<div class="wl-card"><button class="wl-x" type="button" aria-label="Close">×</button>' +
-      '<span class="wl-badge">FREE · $300 VALUE</span><h3 id="wl-pop-h">Wait. Take the cold email playbook behind $510K+ in pipeline.</h3>' +
-      '<p>20 pages. Every step we use to turn a blank domain into booked sales calls, from 588,000 real emails. Yours free, instant download.</p>' +
-      '<p class="wl-fomo">Your competitors are already in your buyers\u2019 inboxes. Get the playbook before they book the meeting.</p>' + formHTML('popup', true) + '</div>';
+      '<div class="wl-hero"><span class="wl-badge">FREE · $300 VALUE</span>' + COVER + '<span class="wl-meta">20 pages · instant PDF</span></div>' +
+      '<div class="wl-body"><h3 id="wl-pop-h">Before you go: the playbook behind $510K+ in pipeline.</h3>' +
+      '<p>Every step we use to book sales calls, from 588,000 real emails.</p>' + CHIPS + formHTML('popup') + '</div></div>';
     D.body.appendChild(d);
     requestAnimationFrame(function () { d.classList.add('in'); });
     var input = d.querySelector('input'); setTimeout(function () { try { input.focus({ preventScroll: true }); } catch (e) {} }, 250);
