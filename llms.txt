@@ -8,7 +8,7 @@
 - Separate sending domains so a client's main domain is never at risk. CAN-SPAM compliant.
 - Industries: marketing agencies, B2B SaaS, construction software, professional services, founder and investor outreach.
 - Book a call: https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers
-- Pricing: $999 one-time setup, $1,500/month retainer.
+- Pricing: custom quote after a 20-minute call, based on market and meeting volume.
 - Founders: Syed Asim Hussain (LinkedIn: https://www.linkedin.com/in/asim-wayneflow/) and Syed Ali Hassan.
 - LinkedIn: https://www.linkedin.com/company/135164941 | Instagram: https://www.instagram.com/wayneflowagency/
 - Contact: info@wayneflow.com
@@ -20,7 +20,6 @@
 - [Service areas](https://wayne-flow.site/areas.html): coverage across all 50 states and time zones
 - [Reviews](https://wayne-flow.site/reviews.html): client testimonials
 - [Book a call and FAQ](https://wayne-flow.site/book.html)
-- [Pricing](https://wayne-flow.site/pricing.html): $999 one-time setup + $1,500/month full outbound system (cold email, LinkedIn, X), 25 qualified appointments a month guaranteed once live
 - [About](https://wayne-flow.site/about.html): founders Syed Asim Hussain and Syed Ali Hassan
 - [Blog](https://wayne-flow.site/blog/): practical guides
 - [B2B Appointment Setting: The Complete 2026 Guide for U.S. Companies](https://wayne-flow.site/blog/b2b-appointment-setting-guide.html): How B2B appointment setting really works in 2026, from ICP and list building to show rates, with real funnel numbers from 588,000 cold emails and a checklist for choosing a provider.
