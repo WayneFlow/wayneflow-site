@@ -1,0 +1,214 @@
+<script type="application/json" id="meta">{"title":"Cold Email Deliverability in 2026: Inbox, Not Spam | WayneFlow","description":"A practical 2026 guide to cold email deliverability: Gmail, Yahoo and Outlook sender rules, SPF/DKIM/DMARC, warmup, bounce rates and fixing spam placement.","h1":"Cold Email Deliverability in 2026: How to Land in the Inbox, Not Spam","excerpt":"The exact Gmail, Yahoo and Outlook sender rules, plus the setup, warmup, list hygiene and monitoring habits that keep cold email out of spam. Backed by numbers from 588,000 emails we have sent.","keyword":"cold email deliverability","readMinutes":16,"faq":[{"q":"What is a good bounce rate for cold email?","a":"Aim to stay under 2%, and treat anything near 3% as a signal to stop and re-verify the list. Across our campaigns, bounce rates have ranged from 0.45% on a freshly verified list to 3.08% on a large quarter-long program. Microsoft explicitly tells large senders to remove invalid addresses regularly, so bounces are something mailbox providers watch closely."},{"q":"Do Google and Yahoo's bulk sender rules apply to cold email?","a":"The strictest rules apply once a domain sends close to 5,000 messages a day to personal Gmail accounts, and Google counts all mail from the same primary domain toward that number. Smaller senders still must authenticate with SPF or DKIM and keep spam complaints under 0.3%. Treat the full bulk-sender list as your baseline either way."},{"q":"How many cold emails can I send per inbox per day?","a":"Google Workspace technically allows up to 2,000 messages per user per day, but that is a hard ceiling, not a target. For cold outreach, a conservative rule of thumb is a few dozen new emails per inbox per day after warmup. To reach more people, add inboxes and domains instead of pushing any single inbox harder."},{"q":"How long should I warm up a new cold email domain?","a":"Plan on at least two to three weeks before sending real campaigns, then ramp volume gradually over the following weeks. Google's own guidance is to start with low volume and slowly increase it, avoiding sudden spikes. Keep warmup running in the background after launch, because it helps keep sending patterns steady."},{"q":"Should I turn off open tracking for cold email?","a":"Yes, in most cases. Open tracking inserts a hidden image that filters can read as a marketing signal, and the numbers are unreliable anyway because Apple's Mail Privacy Protection prevents senders from seeing whether you opened a message. We switch open tracking off on purpose, so our dashboards show 0 opens. We measure replies instead."},{"q":"Is plain text or HTML better for cold email deliverability?","a":"Plain text, or minimal HTML that looks like plain text, works best for cold outreach. A one-to-one sales email should look like something a person typed: no images, no banners, no heavy formatting and at most one link. Designed HTML templates look like marketing, and they give filters more to evaluate."},{"q":"What should I do if my cold emails are going to spam?","a":"Pause new campaigns on the affected inboxes, check SPF, DKIM and DMARC results in a real message header, and look at bounce and complaint rates. Remove tracking and links, re-verify the list, cut volume, and keep warmup running. Then test placement with a small batch before ramping back up over one to two weeks."}]}</script>
+<div class="takeaways"><b>Key takeaways</b><ul>
+<li>Gmail, Yahoo and Outlook now enforce written sender rules. Authenticate with SPF, DKIM and DMARC, and keep user-reported spam below 0.3% (Google wants under 0.1%).</li>
+<li>Google counts every message from the same primary domain toward its 5,000-a-day bulk threshold, and the bulk label is permanent once you hit it.</li>
+<li>Send cold email from secondary domains, never from the domain your company runs on.</li>
+<li>Warm up every inbox, keep daily volume per inbox low, and add inboxes to scale instead of pushing one harder.</li>
+<li>Verify every list before sending. Our bounce rates run from 0.45% to 3.08%, and the low end comes from fresh verification.</li>
+<li>Turn off open tracking, limit links, write in plain text, and measure success by replies.</li>
+</ul></div>
+
+<p>Cold email deliverability decides whether your outreach gets read or quietly disappears. You can have a sharp offer, a tight list and great copy, and still book nothing because every message lands in spam.</p>
+<p>The rules changed a lot in the last two years. Google and Yahoo started enforcing bulk sender requirements in February 2024, and Microsoft followed for Outlook in May 2025. This guide covers what those rules actually say, how to set up your sending domains, and the habits that keep a campaign in the inbox for months, not weeks.</p>
+<p>Everything here comes from running outreach at volume. Our team has sent 588,000 cold emails for B2B clients, and we will show you the real bounce rates and practices behind those campaigns.</p>
+
+<h2 id="what-it-means">What cold email deliverability actually means</h2>
+<p>People use "delivered" and "inboxed" as if they mean the same thing. They don't.</p>
+<p><strong>Delivery</strong> means the receiving server accepted your message instead of bouncing it. <strong>Inbox placement</strong> means it landed in the primary inbox instead of spam, junk or a promotions tab. Your sending tool can report 99% delivered while half your emails sit in spam folders.</p>
+<p>Mailbox providers decide placement from a few things:</p>
+<ul>
+<li><strong>Authentication:</strong> can they confirm you are who you say you are?</li>
+<li><strong>Reputation:</strong> how has mail from this domain and IP behaved in the past?</li>
+<li><strong>Recipient behavior:</strong> do people reply, or do they mark you as spam?</li>
+<li><strong>List quality:</strong> how many of your addresses bounce?</li>
+<li><strong>Content and format:</strong> does the message look like a person wrote it, or like a mass mailing?</li>
+</ul>
+<p>Content matters least of these. Most cold email spam problems are infrastructure and list problems that people try to fix by rewriting subject lines.</p>
+
+<h2 id="sender-rules-2026">The 2026 rulebook: Google, Yahoo and Microsoft sender requirements</h2>
+<p>Here is what the three biggest consumer mailbox providers require, taken from their own published guidelines.</p>
+<p><a href="https://support.google.com/mail/answer/81126" target="_blank" rel="noopener">Google's email sender guidelines</a> require all senders to Gmail accounts to set up SPF or DKIM, use TLS, have valid forward and reverse DNS, and keep spam rates reported in Postmaster Tools below 0.3%. Senders of more than 5,000 messages a day must use SPF, DKIM and DMARC, and their marketing and subscribed messages must support one-click unsubscribe.</p>
+<p><a href="https://senders.yahooinc.com/best-practices" target="_blank" rel="noopener">Yahoo's sender best practices</a> line up closely. All senders need SPF or DKIM and a spam rate below 0.3%. Bulk senders need both SPF and DKIM, a DMARC policy of at least p=none that passes, a working one-click unsubscribe header, and they must honor unsubscribes within 2 days.</p>
+<p>Microsoft's <a href="https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730" target="_blank" rel="noopener">requirements for high-volume Outlook senders</a> apply to domains sending more than 5,000 emails a day to outlook.com, hotmail.com and live.com addresses. SPF and DKIM must pass, and DMARC must be at least p=none and align with SPF or DKIM. Since May 5, 2025, Microsoft says non-compliant messages are rejected with the error "550; 5.7.515 Access denied, sending domain does not meet the required authentication level."</p>
+
+<table>
+<thead><tr><th>Requirement</th><th>Gmail</th><th>Yahoo</th><th>Outlook.com</th></tr></thead>
+<tbody>
+<tr><td>Who the strict rules cover</td><td>Close to 5,000+ messages a day to personal Gmail accounts</td><td>Bulk senders (no exact number on its best-practices page)</td><td>Domains sending 5,000+ emails a day to consumer Outlook addresses</td></tr>
+<tr><td>SPF and DKIM</td><td>Both required for bulk; SPF or DKIM for everyone</td><td>Both required for bulk; SPF or DKIM for everyone</td><td>Both must pass</td></tr>
+<tr><td>DMARC</td><td>Required for bulk, minimum p=none, aligned</td><td>Required for bulk, minimum p=none, must pass</td><td>Required, minimum p=none, aligned with SPF or DKIM</td></tr>
+<tr><td>Spam complaint limit</td><td>Below 0.3%, ideally below 0.1%</td><td>Below 0.3%</td><td>No published number; asks for list hygiene and consent</td></tr>
+<tr><td>Unsubscribe</td><td>One-click for marketing mail; fulfill within 48 hours recommended</td><td>One-click header; honor within 2 days</td><td>Clearly visible, functional unsubscribe link recommended</td></tr>
+<tr><td>What happens if you fail</td><td>Enforcement ramped up in November 2025</td><td>Not detailed on its best-practices page</td><td>Rejection with 550 5.7.515 since May 5, 2025</td></tr>
+</tbody>
+</table>
+
+<h3>How the 5,000-a-day count really works</h3>
+<p>Most cold emailers assume they are safe because each inbox sends a few dozen emails a day. Read Google's fine print before you assume that.</p>
+<p>According to <a href="https://support.google.com/mail/answer/14229414?hl=en-GB" target="_blank" rel="noopener">Google's sender guidelines FAQ</a>, messages sent from the same primary domain count toward the 5,000-message limit. Ten inboxes on one domain add up. Google also says that senders who meet the criteria even once are permanently considered bulk senders.</p>
+<p>The same FAQ notes that Gmail's sender guidelines don't apply to messages sent to Google Workspace accounts, only to personal Gmail. B2B prospects often sit on Workspace. That is not a loophole, though. Workspace still runs spam filtering, and your domain reputation follows you everywhere.</p>
+
+<h3>Do these rules apply to cold email?</h3>
+<p>Treat them as your floor. Authentication and the 0.3% complaint ceiling apply to every sender, at any volume. If you scale, you cross the bulk line faster than you think.</p>
+<p>U.S. law adds its own layer. The <a href="https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business" target="_blank" rel="noopener">FTC's CAN-SPAM compliance guide</a> states that the law makes no exception for business-to-business email. Commercial messages need a valid physical postal address and a way to opt out, and opt-outs must be honored within 10 business days. We recommend a simple plain-text opt-out line in every cold email and removing anyone who asks within 2 days, which meets Yahoo's stricter window too.</p>
+
+<h2 id="spf-dkim-dmarc">SPF, DKIM and DMARC in plain English</h2>
+<p>These three DNS records are the price of entry. Without them, nothing else in this guide matters.</p>
+<ul>
+<li><strong>SPF</strong> (Sender Policy Framework) lists the servers allowed to send mail for your domain. If you send through Google Workspace, your SPF record must include Google's servers.</li>
+<li><strong>DKIM</strong> (DomainKeys Identified Mail) adds a cryptographic signature to every message, so the receiver can confirm it wasn't altered and really came from your domain.</li>
+<li><strong>DMARC</strong> tells receivers what to do when SPF or DKIM fails, and requires that the domain in your From: address matches, or "aligns" with, the domain that passed SPF or DKIM.</li>
+</ul>
+<p>Alignment trips people up. If your From: address is on one domain but your sending tool signs DKIM with its own domain, DMARC can fail even though DKIM "passed." Yahoo notes that relaxed alignment is acceptable, which means a subdomain of your From: domain counts.</p>
+<p>Start DMARC at p=none with a reporting address, read the reports for a couple of weeks, then tighten the policy once you're confident all legitimate mail passes. To check your setup on a live message, open it in Gmail, choose "Show original," and look for SPF, DKIM and DMARC all marked PASS.</p>
+
+<h2 id="sending-domains">Protect your main domain with secondary sending domains</h2>
+<p>Never send cold email from the domain your business runs on. If that domain's reputation drops, your invoices, proposals and customer support emails start landing in spam too.</p>
+<p>Instead, buy a few secondary sending domains that look like your brand. If your company is acmeanalytics.com, you might use getacmeanalytics.com or acmeanalyticshq.com. Point each one's website to your main site so curious prospects land somewhere real.</p>
+<p>Yahoo's guidelines make the same point from the other direction: each IP and DKIM domain has its own reputation, and it advises keeping bulk and marketing mail separate from the mail you use for users and transactions.</p>
+<p>For each sending domain:</p>
+<ul>
+<li>Create 2 to 3 real inboxes with real names, photos and signatures.</li>
+<li>Set up SPF, DKIM and DMARC on every domain, not just the main one.</li>
+<li>Make sure replies reach a monitored inbox. Microsoft's guidance asks that the From or Reply-To address can actually receive replies.</li>
+<li>Keep the main domain's reputation out of the blast radius.</li>
+</ul>
+<p>This is a fixed rule in how we run campaigns. Every client gets separate secondary domains, so their primary domain is never at risk. You can see how this fits into setup in <a href="process.html">our four-step outreach process</a>.</p>
+
+<h2 id="email-warmup">Email warmup and daily volume per inbox</h2>
+<p>A brand-new domain has no reputation. If it suddenly sends hundreds of emails to strangers, providers treat that like a compromised account.</p>
+<p>Google's guidelines are direct about this: start with a low sending volume and slowly increase it, and avoid sudden spikes if you have no history of sending large volumes. Email warmup is how you build that history.</p>
+
+<h3>How warmup works</h3>
+<p>Warmup tools send small volumes of mail between your inbox and a network of other real inboxes. Those messages get opened, replied to and pulled out of spam, which signals to providers that your mail is wanted.</p>
+<p>A practical timeline:</p>
+<ul>
+<li><strong>Weeks 1 to 2:</strong> warmup only, no campaigns. Volume ramps up gradually.</li>
+<li><strong>Week 3:</strong> start real campaigns at a small daily volume per inbox.</li>
+<li><strong>Weeks 4 to 6:</strong> raise volume in small steps while watching bounces and replies.</li>
+<li><strong>Ongoing:</strong> keep warmup running in the background at a lower level.</li>
+</ul>
+
+<h3>How many cold emails per inbox per day?</h3>
+<p><a href="https://knowledge.workspace.google.com/admin/gmail/gmail-sending-limits-in-google-workspace" target="_blank" rel="noopener">Google Workspace's sending limits</a> allow up to 2,000 messages per user per day, and 500 on trial accounts. That is a technical ceiling for regular use, not a safe number for cold outreach.</p>
+<p>Our rule of thumb is a few dozen new cold emails per inbox per day, with follow-ups counted in the total. When you need more volume, add inboxes and domains. Spreading volume thin is what makes high-volume programs work.</p>
+<p>We used that approach during a five-day push for one client. We sent 96,408 emails in 5 days across many warmed inboxes, reached 79,587 people, and kept the bounce rate at 0.45%. The campaign produced 1,095 replies, 115 interested prospects and 25 booked calls. Volume per inbox stayed low the whole time; the total came from width, not intensity.</p>
+
+<h2 id="list-verification">List verification and bounce rates</h2>
+<p>Bounces are one of the fastest ways to wreck a sending domain. Sending to addresses that don't exist tells providers you're mailing a scraped or stale list, which is exactly what spammers do.</p>
+<p>Microsoft's high-volume sender guidance tells large senders to remove invalid addresses regularly to reduce complaints, bounces and wasted messages. Treat that as a minimum.</p>
+
+<h3>What to verify before you send</h3>
+<ul>
+<li><strong>Invalid addresses:</strong> remove anything a verification tool marks invalid.</li>
+<li><strong>Catch-all domains:</strong> these accept everything at first, then sometimes bounce later. Send to them in smaller batches, or skip them on new domains.</li>
+<li><strong>Role addresses:</strong> info@, sales@ and support@ rarely reply and complain more often. Target named people.</li>
+<li><strong>Stale data:</strong> people change jobs constantly. A list that was clean six months ago isn't clean now. Re-verify right before launch.</li>
+</ul>
+
+<div class="proof"><b>From our dashboards</b><p>Every list we send to is verified first, and the bounce rates show what that discipline looks like in practice. Our five-day blitz bounced at 0.45%. An agency client campaign (82,671 emails, June to October 2026) bounced at 1.64%. A construction software campaign of 162,073 emails bounced at 2.87%, and a full quarter of 236,545 emails bounced at 3.08%. The pattern is simple: the bigger and older the source data, the more bounces creep up, which is why we re-verify before each new send instead of trusting last month's results.</p></div>
+
+<p>A reasonable target is to stay under 2%. If a campaign drifts toward 3%, pause it, re-verify the remaining contacts, and look at where that segment came from. You can see full campaign numbers on <a href="results.html">our case study dashboards</a>.</p>
+
+<h2 id="open-tracking">Why open tracking pixels and links hurt deliverability</h2>
+<p>Open tracking works by inserting a tiny invisible image into each email. When the image loads, your tool logs an "open." Click tracking rewrites your links so they pass through the tool's tracking domain first.</p>
+<p>Both make a one-to-one sales email look like a marketing blast. A personal email from a real person doesn't contain a hidden tracking image or links redirected through a third-party domain. When many senders share the same tracking domain, its reputation becomes part of yours.</p>
+<p>The data you get back isn't reliable either. Apple says its <a href="https://support.apple.com/guide/iphone/use-mail-privacy-protection-iphf084865c7/ios" target="_blank" rel="noopener">Mail Privacy Protection</a> prevents senders from seeing whether you opened their message. So you take the deliverability cost and still get muddy numbers.</p>
+
+<div class="proof"><b>From our dashboards</b><p>We switch open tracking off on purpose. If you look at our client dashboards, every campaign shows 0 opens, and that isn't a bug. We measure what matters instead: replies and interested prospects. The agency client campaign above produced 2,429 replies from 82,671 emails, with 2,146 of them positive or interested, and a $175,000 pipeline (pipeline here means the value of qualified opportunities at the client's roughly $2,500 average deal). None of that needed a single tracked open.</p></div>
+
+<p>On links: keep the first email link-free if you can. If you need one later in the sequence, use one plain link to your own domain, never a URL shortener, and skip click tracking.</p>
+
+<h2 id="plain-text-vs-html">Plain text vs HTML for cold email</h2>
+<p>For cold outreach, plain text wins. The goal is an email that looks like one busy professional wrote it to another.</p>
+<table>
+<thead><tr><th>Element</th><th>Plain text (recommended)</th><th>Designed HTML</th></tr></thead>
+<tbody>
+<tr><td>How it looks</td><td>Like a personal email</td><td>Like a newsletter or promotion</td></tr>
+<tr><td>Images and logos</td><td>None</td><td>Usually several</td></tr>
+<tr><td>Tracking pixel</td><td>Not present when open tracking is off</td><td>Often built in</td></tr>
+<tr><td>Links</td><td>Zero or one, to your own domain</td><td>Many buttons and links</td></tr>
+<tr><td>Signature</td><td>Name, title, company, plain text</td><td>Image banners and social icons</td></tr>
+<tr><td>Best use</td><td>Cold outreach and follow-ups</td><td>Opt-in newsletters and product updates</td></tr>
+</tbody>
+</table>
+<p>If your sending tool wraps plain text in a light HTML version behind the scenes, that's fine. What matters is that it renders like plain text: no images, no colored buttons, no heavy formatting.</p>
+
+<h2 id="spam-triggers">Spam trigger words: myths vs facts</h2>
+<p>Spam trigger word lists are the most shared and least useful advice in cold email. Here's what actually holds up.</p>
+<ul>
+<li><strong>Myth: one "spammy" word sends you to spam.</strong> Fact: modern filters weigh reputation, authentication and how recipients react far more than single words. A trusted domain can say "free" without a problem. A burned domain can't save itself with clean copy.</li>
+<li><strong>Myth: changing subject lines fixes spam placement.</strong> Fact: if every email goes to spam, the cause is almost always authentication, reputation, volume or list quality.</li>
+<li><strong>Myth: more personalization tokens always help.</strong> Fact: personalization helps replies, but broken merge fields ("Hi {first_name}") and identical text sent thousands of times can both hurt.</li>
+<li><strong>Fact: copy that feels deceptive does hurt.</strong> Fake "Re:" or "Fwd:" subjects, misleading claims and hidden opt-outs drive spam complaints. Microsoft lists accurate subject lines and non-deceptive headers among its hygiene recommendations.</li>
+<li><strong>Fact: spam complaints are what really matter.</strong> Google and Yahoo both set 0.3% as the line not to cross. The best way to stay under it is sending relevant emails to the right people.</li>
+</ul>
+<p>Write short, specific emails to a well-targeted list, and the "content" side of email deliverability mostly takes care of itself.</p>
+
+<h2 id="monitoring">Monitoring inbox placement and sender reputation</h2>
+<p>You can't fix what you don't watch. Check these numbers weekly, and daily during the first month on a new domain.</p>
+
+<h3>Google Postmaster Tools</h3>
+<p>Google Postmaster Tools is free and shows how Gmail sees your sending domain, including your user-reported spam rate. Google's guidelines tell senders to monitor delivery with Postmaster Tools as they gradually increase volume.</p>
+<p>Two caveats matter for cold email. First, Google says its <a href="https://support.google.com/mail/answer/14668346?hl=en" target="_blank" rel="noopener">Postmaster Tools dashboards</a> might not include all data on days when your volume is low, which is normal for small cold email domains. Second, the tool is changing. Google's <a href="https://support.google.com/mail/answer/16594218" target="_blank" rel="noopener">note on the new Postmaster Tools</a> says the newer version adds a compliance dashboard for its sender guidelines and that the old Domain and IP Reputation dashboards will be retired.</p>
+
+<h3>What else to watch</h3>
+<ul>
+<li><strong>Bounce rate per campaign and per inbox.</strong> A sudden jump points to a bad segment or a domain problem.</li>
+<li><strong>Reply rate per inbox.</strong> If one inbox's replies drop to near zero while others hold steady, that inbox is probably landing in spam.</li>
+<li><strong>Warmup health.</strong> Many warmup tools report what share of warmup mail lands in spam. A decline is an early warning.</li>
+<li><strong>Placement tests.</strong> Send to a set of seed inboxes across Gmail, Outlook and Yahoo before a big launch.</li>
+<li><strong>Microsoft sender support.</strong> Outlook issues are handled through <a href="https://substrate.office.com/ip-domain-management-snds/postmaster" target="_blank" rel="noopener">Microsoft's postmaster and sender support site</a>.</li>
+</ul>
+<p>Reply rate is your best single health check. Across our campaigns, reply rates have run from 2.8% to 4%, for example 2.81% on 162,073 emails for a construction software client and 3.69% across a full quarter of 236,545 emails. When reply rates on a healthy offer fall off a cliff, suspect placement before you suspect the copy.</p>
+
+<h2 id="landed-in-spam">What to do if your cold emails land in spam</h2>
+<p>Don't panic, and don't keep blasting. Work through this in order.</p>
+<ol>
+<li><strong>Pause new campaigns</strong> on the affected inboxes. Keep warmup running.</li>
+<li><strong>Check authentication on a real message.</strong> Use "Show original" in Gmail. SPF, DKIM and DMARC should all pass and align with your From: domain.</li>
+<li><strong>Look for bounces in the bounce messages.</strong> A 550 5.7.515 from Outlook means an authentication failure, not a content issue.</li>
+<li><strong>Check your spam rate</strong> in Postmaster Tools if you have data. Anything near 0.3% needs action now.</li>
+<li><strong>Strip out tracking.</strong> Turn off open and click tracking and remove extra links and images.</li>
+<li><strong>Re-verify the remaining list</strong> and drop catch-all and role addresses for now.</li>
+<li><strong>Cut daily volume</strong> per inbox by half or more.</li>
+<li><strong>Test placement</strong> with a small batch to seed inboxes across providers.</li>
+<li><strong>Ramp back up slowly</strong> over one to two weeks once placement improves.</li>
+<li><strong>Retire the domain if it doesn't recover.</strong> This is exactly why you use secondary domains. Replace it, warm up the new one, and move on.</li>
+</ol>
+
+<h2 id="checklist">Pre-launch cold email deliverability checklist</h2>
+<p>Run through this before any new campaign goes out.</p>
+<ol>
+<li>Cold email goes out from secondary sending domains, not your main domain.</li>
+<li>SPF, DKIM and DMARC are set up and passing on every sending domain.</li>
+<li>Each inbox has a real name, photo, signature and monitored replies.</li>
+<li>Every inbox has completed at least two weeks of warmup.</li>
+<li>Daily volume per inbox is low, and total volume comes from more inboxes.</li>
+<li>The list was verified within the last few days, with invalid, risky and role addresses removed.</li>
+<li>Open tracking and click tracking are off.</li>
+<li>Emails are plain text, short, with zero or one link and no images.</li>
+<li>Every email includes a simple opt-out line and your company's postal address.</li>
+<li>Opt-outs are removed within 2 days.</li>
+<li>Sends are scheduled on weekdays during business hours in the prospect's time zone.</li>
+<li>Monitoring is in place for bounces, replies, warmup health and Postmaster Tools.</li>
+</ol>
+<p>That second-to-last item is one of ours. We schedule sends for weekdays in business hours in each prospect's local time, so emails arrive when people are at their desks, the same time a real colleague would be writing to them.</p>
+
+<h2 id="faq">Frequently asked questions</h2>
+<h3>What is a good bounce rate for cold email?</h3>
+<p>Aim to stay under 2%, and treat anything near 3% as a signal to stop and re-verify the list. Across our campaigns, bounce rates have ranged from 0.45% on a freshly verified list to 3.08% on a large quarter-long program. Microsoft explicitly tells large senders to remove invalid addresses regularly, so bounces are something mailbox providers watch closely.</p>
+<h3>Do Google and Yahoo's bulk sender rules apply to cold email?</h3>
+<p>The strictest rules apply once a domain sends close to 5,000 messages a day to personal Gmail accounts, and Google counts all mail from the same primary domain toward that number. Smaller senders still must authenticate with SPF or DKIM and keep spam complaints under 0.3%. Treat the full bulk-sender list as your baseline either way.</p>
+<h3>How many cold emails can I send per inbox per day?</h3>
+<p>Google Workspace technically allows up to 2,000 messages per user per day, but that is a hard ceiling, not a target. For cold outreach, a conservative rule of thumb is a few dozen new emails per inbox per day after warmup. To reach more people, add inboxes and domains instead of pushing any single inbox harder.</p>
+<h3>How long should I warm up a new cold email domain?</h3>
+<p>Plan on at least two to three weeks before sending real campaigns, then ramp volume gradually over the following weeks. Google's own guidance is to start with low volume and slowly increase it, avoiding sudden spikes. Keep warmup running in the background after launch, because it helps keep sending patterns steady.</p>
+<h3>Should I turn off open tracking for cold email?</h3>
+<p>Yes, in most cases. Open tracking inserts a hidden image that filters can read as a marketing signal, and the numbers are unreliable anyway because Apple's Mail Privacy Protection prevents senders from seeing whether you opened a message. We switch open tracking off on purpose, so our dashboards show 0 opens. We measure replies instead.</p>
+<h3>Is plain text or HTML better for cold email deliverability?</h3>
+<p>Plain text, or minimal HTML that looks like plain text, works best for cold outreach. A one-to-one sales email should look like something a person typed: no images, no banners, no heavy formatting and at most one link. Designed HTML templates look like marketing, and they give filters more to evaluate.</p>
+<h3>What should I do if my cold emails are going to spam?</h3>
+<p>Pause new campaigns on the affected inboxes, check SPF, DKIM and DMARC results in a real message header, and look at bounce and complaint rates. Remove tracking and links, re-verify the list, cut volume, and keep warmup running. Then test placement with a small batch before ramping back up over one to two weeks.</p>
+
+<div class="soft-cta"><h2 id="next-step">If you would rather have this done for you</h2><p>Everything above is what we do every day for U.S. B2B companies: secondary domains, authentication, warmup, verified lists, plain-text sequences with tracking switched off, and daily monitoring. If you'd rather spend your time on sales calls than on DNS records and bounce reports, we can set up and run the whole system and book qualified appointments into your calendar. You can read <a href="reviews.html">what clients say about working with us</a> or see the details on <a href="book.html">our booking page and FAQ</a>, or just grab a time below. On a short strategy call we'll look at your current setup and tell you honestly what we'd change.</p><p><a class="btn btn-primary" href="https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers" target="_blank" rel="noopener">Book a free 20-minute call</a></p></div>
