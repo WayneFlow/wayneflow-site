@@ -45,4 +45,4 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
-Sitemap: https://wayne-flow.site/sitemap.xml
+Sitemap: https://wayneflow.com/sitemap.xml
