@@ -1,8 +1,7 @@
 # Keeps the site on the right custom domain, on its own.
 # Runs every 30 minutes:
-#   1. If wayneflow.com points at GitHub Pages -> use wayneflow.com (main domain).
-#   2. Otherwise, if the backup domain points at GitHub Pages -> use the backup.
-#   3. Otherwise do nothing (the github.io link keeps working).
+#   If wayneflow.com points at GitHub Pages -> make sure the site uses wayneflow.com.
+#   Otherwise do nothing. wayneflow.com is the only domain; there is no backup domain.
 # Then turns on HTTPS once GitHub's certificate is ready.
 name: Connect custom domain
 
@@ -19,7 +18,6 @@ permissions:
 
 env:
   MAIN: wayneflow.com
-  BACKUP: wayne-flow.site
 
 jobs:
   connect:
@@ -39,9 +37,7 @@ jobs:
             return 1
           }
           target=""
-          if ready "$MAIN"; then target="$MAIN"
-          elif ready "$BACKUP"; then target="$BACKUP"
-          fi
+          if ready "$MAIN"; then target="$MAIN"; fi
           echo "Chosen domain: ${target:-none}"
           echo "target=$target" >> "$GITHUB_OUTPUT"
 
@@ -51,10 +47,10 @@ jobs:
           T: ${{ steps.dns.outputs.target }}
         run: |
           if [ "$(cat CNAME 2>/dev/null)" != "$T" ]; then
-            OLD=$(cat CNAME 2>/dev/null || echo "wayne-flow.site")
+            OLD=$(cat CNAME 2>/dev/null || echo "")
             echo "$T" > CNAME
             # point canonical links, sitemap, robots, share tags and schema at the new domain
-            grep -rl "https://$OLD" --include='*.html' --include='*.xml' --include='*.txt' . | xargs -r sed -i "s#https://$OLD#https://$T#g"
+            [ -n "$OLD" ] && grep -rl "https://$OLD" --include='*.html' --include='*.xml' --include='*.txt' . | xargs -r sed -i "s#https://$OLD#https://$T#g"
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add -A
