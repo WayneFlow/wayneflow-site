@@ -668,3 +668,17 @@ footer{border-top:1px solid var(--line);background:rgba(255,255,255,.7);padding-
 .cc-stats span b{color:var(--blue-d)}
 .post-body a:not(.btn),.svc-body a:not(.btn){color:var(--blue-d)}
 .post .btn-primary,.toc-cta .btn{color:#fff}
+/* v23: lighter mobile hero (phones only) */
+@media (max-width:640px){
+  .hero .hero-h{font-size:clamp(32px,9vw,38px);line-height:1.08}
+  .hero .hero-h+.lead{margin-top:16px;font-size:16.5px;line-height:1.55;color:#5B6B85}
+  .hide-m{display:none}
+  .hero .ctas{margin-top:22px;gap:10px}
+  .hero .ctas .btn{padding:13px 18px;font-size:16px}
+  .founder-strip{padding:10px 14px 10px 10px;gap:12px;margin-top:12px}
+  .founder-strip b{font-size:15px}.founder-strip small{font-size:13px;margin-top:1px}
+  .founder-strip .author-photos img{width:38px;height:38px}
+}
+@media (max-width:640px){.founder-strip small{font-size:12.5px;white-space:nowrap}}
+.show-m{display:none}@media (max-width:640px){.show-m{display:inline}}
+@media (max-width:375px){.founder-strip small{font-size:11.5px}.founder-strip{gap:10px}}
