@@ -90,3 +90,13 @@ const CAL = 'https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-
   requestAnimationFrame(tk);
   setTimeout(()=>{ el.textContent=end; },2000);
 })();
+
+/* phone: sticky menu shadow + tap-outside-to-close (styles only apply on phones) */
+(function(){
+  const nav=document.querySelector('nav'), menu=document.getElementById('menu'), bur=document.getElementById('burger'); if(!nav||!menu||!bur) return;
+  const dim=document.createElement('div'); dim.className='menu-dim'; document.body.appendChild(dim);
+  const sync=()=>{ const o=menu.classList.contains('open'); dim.classList.toggle('on',o); };
+  new MutationObserver(sync).observe(menu,{attributes:true,attributeFilter:['class']});
+  dim.addEventListener('click',()=>bur.click());
+  const sc=()=>nav.classList.toggle('scrolled',scrollY>8); addEventListener('scroll',sc,{passive:true}); sc();
+})();
