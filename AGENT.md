@@ -37,6 +37,7 @@ short, no jargon. The owners read it on their phone.
 5. **wayneflow.com**: check if it resolves to GitHub Pages yet (the workflow switches it).
    When it does, remind the owners: 301 redirect from wayne-flow.site in Namecheap, add the
    new domain in Google Search Console and Bing.
+   ALSO (owners asked for this, Oct 27): the off-site SEO work on the "WayneFlow Launch Board" artifact is ON HOLD until wayneflow.com is live. The moment it is live, put this at the TOP of the report: "wayneflow.com is live. Time to restart the Launch Board: 1) add wayneflow.com to Google Search Console and Bing (send Claude the verification codes), 2) ask Claude to switch every link on the board and in llms.txt, sitemap and canonical tags to wayneflow.com, 3) then do the directories and document sites." Keep wayne-flow.site renewed and 301-redirecting to wayneflow.com for at least 1-2 years.
 
 6. **Visitor database**: read the "WayneFlow Visitors" dashboard data (same PostHog
    queries as `dashboard/build.py`: every visitor, live activity, pages). Check that the
