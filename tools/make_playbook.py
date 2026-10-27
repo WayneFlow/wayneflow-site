@@ -91,6 +91,23 @@ tr:nth-child(even) td { background: #F7F9FD }
 .gal > div, .gcal { break-inside: avoid } .gi { border: 1px solid #D8E2F3; border-radius: 10px; overflow: hidden; height: 1.62in; margin-bottom: 3px } .gi img { width: 100%; height: 100%; object-fit: cover; object-position: top }
 .gal b, .gcal b { display: block; font-size: 10pt } .gal span, .gcal span { font-size: 8.6pt; color: #5B6B85 }
 .gcal { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-items: center; margin-top: 12px } .gcal .gi { height: 1.4in }
+.case { break-inside: avoid; margin: 16px 0; border: 1.5px solid #CFE0FF; border-radius: 14px; padding: 12px 14px 12px; background: linear-gradient(180deg,#F5F9FF,#fff 60%) }
+.case .ch { display: flex; justify-content: space-between; align-items: center }
+.case .cn { background: #0B1A3A; color: #fff; font-weight: 800; font-size: 8pt; letter-spacing: .12em; text-transform: uppercase; padding: 3px 9px; border-radius: 99px }
+.case .ci { font-size: 8.4pt; color: #5B6B85; font-weight: 700 }
+.case .cwhy { margin: 8px 0 2px; font-size: 9pt; color: #1556D6; font-weight: 700 }
+.case .chd { margin: 0 0 8px; font-size: 14pt }
+.case .cbody { display: grid; grid-template-columns: 1.15fr 1fr; gap: 12px; align-items: start }
+.case .cshot { border: 1px solid #D8E2F3; border-radius: 9px; overflow: hidden; height: 1.95in; background: #fff }
+.case .cshot img { width: 100%; height: 100%; object-fit: contain; object-position: center; display: block }
+.case .cpd p { font-size: 9pt; margin: 0 0 5px; line-height: 1.4 }
+.case .stats { margin: 9px 0 6px }
+.case .clink { display: inline-block; font-weight: 800; font-size: 9.2pt; color: #fff; background: #1F6BFF; text-decoration: none; padding: 6px 12px; border-radius: 8px }
+.nxt { break-inside: avoid; margin: 12px 0 4px; padding: 8px 12px; border: 1px dashed #9CB8EE; border-radius: 10px; font-size: 9.4pt; color: #0B1A3A; font-weight: 600 }
+.nxt span { display: inline-block; background: #1F6BFF; color: #fff; font-size: 7.6pt; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; border-radius: 6px; padding: 2px 7px; margin-right: 6px }
+.bignum { break-inside: avoid; display: flex; gap: 14px; align-items: center; margin: 10px 0; padding: 10px 14px; background: #0B1A3A; border-radius: 12px; color: #fff }
+.bignum b { font-size: 24pt; font-weight: 800; color: #5FD3FF; white-space: nowrap; font-family: 'Inter Display', Inter, sans-serif }
+.bignum span { font-size: 9.6pt; color: #D7E4FF; line-height: 1.4 }
 '''
 
 PB = set()
@@ -133,6 +150,24 @@ def table(head, rows):
     b = ''.join('<tr>' + ''.join(f'<td>{c}</td>' for c in r) + '</tr>' for r in rows)
     return f'<table><tr>{h}</tr>{b}</table>'
 
+
+RES = SITE + '/results.html'
+def case(key, n, industry, why, problem, did, result):
+    from blog_build import CASES
+    cid, label, head, desc, st = CASES[key]
+    tiles = ''.join(f'<div><b>{html.escape(v)}</b><span>{html.escape(l)}</span></div>' for v, l in st)
+    img = {'agency':'agency','construction':'construction','blitz':'blitz','quarter':'q1','pilot':'pilot','linkedin':'linkedin'}[key]
+    link = f'{RES}?utm_source=playbook&amp;utm_medium=pdf&amp;utm_campaign={cid}#{cid}'
+    return f"""<div class="case"><div class="ch"><span class="cn">Case study {n} of 7</span><span class="ci">{industry} · real client · 2026</span></div>
+<p class="cwhy">{why}</p><h3 class="chd">{html.escape(head)}</h3>
+<div class="cbody"><div class="cshot"><a href="{link}"><img src="{A}/img/{img}-hd.webp"></a></div>
+<div class="cpd"><p><b>The problem.</b> {problem}</p><p><b>What we did.</b> {did}</p><p><b>The result.</b> {result}</p></div></div>
+<div class="stats">{tiles}</div><a class="clink" href="{link}">See the live dashboard for this campaign &rarr;</a></div>"""
+def nxt(text):
+    return f'<p class="nxt"><span>Coming up</span> {text}</p>'
+def bn(v, t):
+    return f'<div class="bignum"><b>{v}</b><span>{t}</span></div>'
+
 # ------------------------------------------------------------------ content
 S = []
 add = S.append
@@ -169,7 +204,6 @@ add(f'''<section id="start"><div class="num" style="font-size:10pt;font-weight:8
 <div><i>16</i><a href="#c16">The law: USA and Canada</a></div>
 <div><i>17</i><a href="#c17">When emails hit spam</a></div>
 <div class="tp">Tools</div>
-<div><i>★</i><a href="#proof">6 campaigns, every dashboard</a></div>
 <div><i>✓</i><a href="#lists">The 30-day calendar and checklists</a></div>
 <div><i>→</i><a href="#final">Do it yourself, or let us do it</a></div>
 </div></section>''')
@@ -194,6 +228,7 @@ add(f'''<p>The "book 5 to 10 demos a day" guides you see online usually start wi
 <div style="width:62%">~14 interested buyers <span>about 1 in 10 replies</span></div>
 <div style="width:44%">~3 booked calls <span>about 1 in 5 interested</span></div>
 </div>
+{bn('3,200', 'People contacted for every booked call in our most average campaign. Our sharpest campaign did several times better. The difference is the list and the offer, not luck.')}
 <p>That is roughly <b>3,200 people contacted for every booked call</b>. Our better campaigns did several times better. The pilot campaign turned 10,284 contacts into 103 opportunities, because the offer and the list were extremely sharp. That gap is the whole game: the same infrastructure, very different results, depending on who you target and what you say.</p>
 {box('proof', 'From our dashboards', '<p>The industry benchmark backs this up. The sending platform Instantly reports an average reply rate of 3.43%, about 5.5% for the top quarter of senders and 10.7% for the top 10%. Across 588,000 emails, our tuned campaigns landed between 2.8% and 4%.</p>')}
 <h2>Your planning worksheet</h2>
@@ -215,6 +250,8 @@ add(f'''<p>The "book 5 to 10 demos a day" guides you see online usually start wi
 {tip('<p>Grow wide, not hard. Never push one inbox past about 30 cold emails a day. When you need more volume, add inboxes and domains. Our 5-day blitz sent 96,408 emails across many warmed inboxes; each single inbox stayed quiet. The total came from width, not intensity.</p>')}
 <p><b>Today\'s step:</b> fill in the worksheet and write down two numbers: new people per day and the number of inboxes you need.</p>''')
 
+add(case('pilot', 1, 'B2B services', 'Why this case is here: it proves the math above with a small, careful test.', 'The client wanted proof that cold email could work for their offer before spending on a big campaign.', 'One tight list of about 10,000 verified decision makers, one simple offer, and the same manual setup you will build in this playbook.', '417 replies (a 4% reply rate) and <b>103 opportunities</b>, about <b>$150,000 in pipeline</b>, from just 10,284 people contacted.'))
+add(nxt('Chapter 2: the six tools you need, what each really costs, and the one shortcut that quietly gets accounts shut down.'))
 add(chap(2, 'Your tool stack and what it really costs', 'You need six kinds of tools. None of them are fancy. Here is what each one does, what we use, and a realistic first-month budget.', 'c2'))
 add(f'''{table(['Job', 'What it does', 'Options', 'Typical cost'], [
  ['Domains', 'Separate web addresses you send from, so your main domain is never at risk', 'Namecheap, GoDaddy, Porkbun, Cloudflare', 'About $10 to $15 per domain per year'],
@@ -240,6 +277,7 @@ add(f'''{table(['Job', 'What it does', 'Options', 'Typical cost'], [
 
 # ---------------- PART 2
 
+add(nxt('Chapter 3: why you never send from your main domain, and how to pick domain names buyers trust.'))
 add(chap(3, 'Buy the right domains', 'Never send cold email from your main company domain. You buy look-alike domains that point back to your real business, and you let them take the risk.', 'c3'))
 add(f'''<p>Your main domain carries your website, your invoices, your team\'s email and your brand. If cold outreach damages its reputation, every email your company sends suffers. So every serious outbound team sends from <b>secondary domains</b>: close, honest variations of the brand name.</p>
 <h2>How to pick names</h2>
@@ -259,8 +297,9 @@ add(f'''<p>Your main domain carries your website, your invoices, your team\'s em
 </ul>
 {tip('<p>Buy one or two spare domains on day one and warm them with the rest. When a domain gets tired (and eventually one will), you swap in a warm spare instead of losing three weeks.</p>')}
 <p><b>Today\'s step:</b> list 10 name ideas with prefixes (try, get, use, meet) and suffixes (hq, team, co), check each on MXToolbox\'s blacklist tool, buy what your worksheet says plus one spare, turn on auto-renew and privacy, and log each domain with its renewal date.</p>
-{real('<p>For a construction software client, every campaign ran on secondary domains while the client\'s main domain kept sending quotes and invoices untouched. Over 162,073 emails went out, 4,449 people replied, and 31 qualified demos became <b>6 annual contracts</b>. The main domain never felt any of it.</p>')}''')
+''')
 
+add(nxt('Chapter 4: setting up the inboxes, and the 10-minute profile step most people skip.'))
 add(chap(4, 'Google Workspace and your inboxes', 'One Workspace account can hold all your sending domains. You add each domain, create 2 to 3 real people on it, and make every inbox look like a person a buyer would trust.', 'c4'))
 add(f'''<h2>Set up the account</h2>
 <ol class="steps">
@@ -282,6 +321,7 @@ add(f'''<h2>Set up the account</h2>
 {email('Ali Hassan &lt;ali@trybrightroof.com&gt;', 'signature example', 'Ali Hassan\nPartner, BrightRoof\nbrightroof.com\n123 Main St, Suite 4, Austin, TX 78701', 'A clean signature: real name, real company, real site, real address. Your main website is fine here; the redirect in Chapter 6 makes the secondary domain point there too.')}
 ''')
 
+add(nxt('Chapter 5: the four DNS records that decide whether you land in the inbox or get rejected. Exact values to copy.'))
 add(chap(5, 'DNS: MX, SPF, DKIM and DMARC', 'These four records tell Gmail and Outlook that your emails are really from you. Without them you are not just in spam, you can be rejected outright. Here is each record, what it does, and exactly what to type.', 'c5'))
 add(f'''<p>Since February 2024, Google requires every sender to Gmail to have SPF or DKIM set up, and senders of more than 5,000 emails a day to have all three: SPF, DKIM and DMARC. Yahoo has the same rules. Since May 5, 2025, Microsoft rejects high-volume mail to Outlook that fails them, with the error <code>550 5.7.515</code>. You do this once per domain. Do all four on every domain, whatever your volume.</p>
 <p>You add these at your registrar (Namecheap: <b>Domain List → Manage → Advanced DNS</b>; GoDaddy: <b>My Products → DNS</b>). Each record has a <b>Type</b>, a <b>Host</b> (or Name) and a <b>Value</b>.</p>
@@ -303,6 +343,8 @@ add(f'''<p>Since February 2024, Google requires every sender to Gmail to have SP
 {warn('<p>The two most common mistakes we fix for new clients: <b>two SPF records</b> on one domain (both fail), and <b>DKIM generated but never started</b> in the Admin console (Google shows "Not authenticating"). Both look fine at a glance and silently push mail to spam.</p>')}
 ''')
 
+add(case('construction', 2, 'Construction software', 'Why this case is here: Chapters 3 to 5 are exactly what protected this client.', "Contractors had never heard of this software company, and the company's main domain carried their quotes, invoices and customer email. Burning it was not an option.", 'Separate sending domains with SPF, DKIM and DMARC passing on every one, verified lists and steady daily volume. Their main domain never sent a single cold email.', '4,449 replies (2.81%), <b>31 qualified demos</b> and <b>6 signed annual contracts</b>, with $15,000 closed so far. About 1 in 5 demos became a contract.'))
+add(nxt('Chapter 6: three small jobs that finish the machine, including the tracking setting that quietly pushes emails toward spam.'))
 add(chap(6, 'Redirects, connecting inboxes, tracking', 'Three small jobs that finish the machine: make each secondary domain open your real website, connect every inbox to your sending platform, and switch off the tracking that hurts delivery.', 'c6'))
 add(f'''<h2>1 · Redirect each domain to your real site</h2>
 <p>Curious buyers type the domain they saw in your email address into a browser. If they land on a parked "this domain is for sale" page, you lose trust. Point every secondary domain to your main website with a permanent (301) redirect.</p>
@@ -319,6 +361,7 @@ add(f'''<h2>1 · Redirect each domain to your real site</h2>
 {box('proof', 'From our dashboards', '<p>Our dashboards show <b>zero opens</b> on purpose. We switched open tracking off on every campaign and judge copy by replies and booked calls only, the numbers that pay the bills. If you must use link tracking, set up a custom tracking domain (a CNAME record your platform gives you) so you are not sharing a tracking address with thousands of other senders.</p>')}
 {cta('Short on time?', 'Skip the setup. We build the whole machine for you.', 'Domains, inboxes, DNS, warmup and daily monitoring, done by a team with 8 years in outbound. Book a free 20-minute call with our CEO and see what we would build for you.', 'Book my 20-minute call', 'cta1-setup')}''')
 
+add(nxt('Chapter 7: the 3-week warmup schedule, and the client it paid off for with 25 booked calls in 5 days.'))
 add(chap(7, 'Warmup: the 3-week rule', 'A brand-new inbox that suddenly sends hundreds of emails looks like a spammer. Warmup builds a normal-looking history first. It is the step most people rush, and the reason most campaigns die.', 'c7'))
 add(f'''<p>Google\'s own guidance is direct: start with low volume, increase slowly, and avoid sudden spikes if you have no history of sending. Warmup is how you build that history. Your sending platform sends small numbers of emails between your inbox and a network of real inboxes. Those emails get opened, replied to, and pulled out of spam when they land there. That tells Gmail and Outlook that people want mail from you.</p>
 <h2>The schedule we use</h2>
@@ -335,9 +378,10 @@ add(f'''<p>Google\'s own guidance is direct: start with low volume, increase slo
 <li><b>Never turn warmup off</b> after launch. It keeps your sending pattern steady on quiet days.</li>
 </ul>
 {warn('<p>Starting campaigns on day 5 because "the records are green". Green records mean you are allowed to send. They do not mean you are trusted. We see this more than any other mistake.</p>')}
-{real('<p>For a 5-day push, a client needed results fast. Because the inboxes had already been warming for weeks, we could send <b>96,408 emails in 5 days</b> to 79,587 people with a bounce rate of just <b>0.45%</b>. The result: 1,095 replies, 115 interested buyers and <b>25 booked calls in one week</b>, worth about $62,500 in pipeline. Speed was only possible because of the boring preparation.</p>', 'Real client example: the 5-day blitz')}
 ''')
 
+add(case('blitz', 3, 'Fast-turnaround client', 'Why this case is here: this is what three weeks of patient warmup buys you.', 'The client needed sales meetings fast, inside a single week.', 'Because the inboxes were already warm and the list was verified, we spread a five-day push across many inboxes while each one stayed at a modest volume.', '96,408 emails in 5 days to 79,587 people, a bounce rate of just <b>0.45%</b>, 1,095 replies, 115 interested buyers and <b>25 booked calls in one week</b>, about $62,500 in pipeline.'))
+add(nxt('Chapter 8: the 10-minute morning check we run for every client, so problems show up before your results drop.'))
 add(chap(8, 'The 10-minute daily health check', 'A cold email system is like a car engine: it rarely breaks all at once, it warns you first. This is the routine we run every morning for every client. Ten minutes, before you touch anything else.', 'c8'))
 add(f'''{table(['Check', 'Where', 'Healthy', 'Act now if'], [
  ['Bounce rate per campaign', 'Sending platform', '<span class="pill">under 2%</span>', '<span class="pill r">near 3%</span> pause and re-verify the list'],
@@ -354,6 +398,8 @@ add(f'''{table(['Check', 'Where', 'Healthy', 'Act now if'], [
 
 # ---------------- PART 3
 
+add(case('quarter', 4, 'High-volume program', 'Why this case is here: daily checks are what keep volume like this out of spam.', 'The client wanted a reliable stream of interested buyers every week for a whole quarter, not one big spike.', 'Consistent daily sending across many inboxes, list hygiene before every batch, constant testing and the daily health check above.', '236,545 emails, 4,372 replies (3.69%) and <b>1,061 interested buyers</b> in one quarter, about <b>$100,000 in pipeline</b>. Its 3.08% bounce rate, our highest, came from older data, so we now re-verify lists older than 60 days.'))
+add(nxt('Part 3, the list: why the right list beats the perfect email, and how to find buyers who need you right now.'))
 add(chap(9, 'Pick buyers who are ready now', 'Start with the customers who already pay you, not a wish list. Then add a "trigger": a public sign that a company needs you right now.', 'c9'))
 add(f'''<h2>Write your ideal customer profile (ICP)</h2>
 <p>Pull up your five best customers, the ones who paid well, stayed long and were easy to work with. Fill in this table for them. The patterns are your ICP.</p>
@@ -368,9 +414,9 @@ add(f'''<h2>Write your ideal customer profile (ICP)</h2>
 <h2>Add a trigger</h2>
 <p>A trigger turns "a good fit" into "a good fit right now". It also gives you an honest reason to write.</p>
 <ul><li><b>Hiring:</b> a job post for the role you help with means budget and pain.</li><li><b>Growth:</b> a new location, funding, a big contract, a press release.</li><li><b>Change:</b> a new leader in the buyer seat in the last 90 days.</li><li><b>Tools:</b> their site or job posts show a tool you replace or plug into.</li></ul>
-{real('<p>For a marketing agency client, the sharpest segment was not "all agency owners". It was owners whose agencies were actively hiring account managers. They were winning work and needed more of it. That focus helped the campaign produce <b>2,146 interested buyers</b> from 76,081 people contacted in one quarter, about 100 interested replies every week, and roughly <b>$175,000 in pipeline</b>.</p>')}
 ''')
 
+add(nxt('Chapter 10: building and verifying the list by hand, so your bounce rate stays under 2%.'))
 add(chap(10, 'Build and verify the list by hand', 'Lists you buy in bulk are full of dead emails and wrong people. We build every list in small segments, check it by eye, and verify every single address before it goes near a campaign.', 'c10'))
 add(f'''<h2>Where to find people</h2>
 <ul><li><b>Lead databases</b> (Apollo and similar): filter by industry, size, location and job title. Export in batches of a few hundred, one segment at a time.</li>
@@ -397,6 +443,8 @@ add(f'''<h2>Where to find people</h2>
 
 # ---------------- PART 4
 
+add(case('agency', 5, 'Marketing agency', 'Why this case is here: a clear buyer and a clean list, worked every single day.', 'A marketing agency needed a steady flow of conversations with business owners every week, not now and then.', 'A tight business-owner list that got sharper every week, verified before every batch and sent steadily every weekday.', 'About <b>100 interested replies every week</b>: 2,429 replies and <b>2,146 interested buyers</b> from 76,081 people, about <b>$175,000 in pipeline</b>, with a 1.64% bounce rate.'))
+add(nxt('Part 4, the message: the 5-part email formula, with examples you can copy.'))
 add(chap(11, 'Write emails people answer', 'Five parts, under 80 words, plain text, no images, at most one link. That is the whole formula. The hard part is saying something specific.', 'c11'))
 add(f'''{table(['Part', 'Job', 'Rule'], [
  ['Subject', 'Get opened', '2 to 5 words, lowercase, looks like an internal email: "pm hiring at carter"'],
@@ -406,11 +454,12 @@ add(f'''{table(['Part', 'Job', 'Rule'], [
  ['Ask', 'Make replying easy', 'Ask for interest, not a meeting: "worth a look?", "open to it?"'],
 ])}
 <h2>Example 1: a home services software company to a roofing owner</h2>
-{email('Ali Hassan &lt;ali@trybrightroof.com&gt;', 'storm season leads', 'Hi Mark,\n\nSaw Carter Roofing is hiring two estimators ahead of storm season.\n\nMost roofing owners we talk to lose good jobs in that rush because quotes go out two or three days late.\n\nA Denver roofer using our quoting tool cut their quote time to same-day and won 11 more jobs last spring.\n\nWorth a quick look before the season starts?\n\nAli', '72 words. First line is about Mark, not us. One problem, one proof, one easy question. No link, no image, no attachment.')}
+{email('Ali Hassan &lt;ali@trybrightroof.com&gt;', 'storm season leads', 'Hi Mark,\n\nSaw Carter Roofing is hiring two estimators ahead of storm season.\n\nMost roofing owners we talk to lose good jobs in that rush because quotes go out two or three days late.\n\nA Denver roofer using our quoting tool cut their quote time to same-day and won 11 more jobs last spring.\n\nWorth a quick look before the season starts?\n\nAli', 'Sample email for a fictional company. 72 words. First line is about Mark, not us. One problem, one proof, one easy question. No link, no image, no attachment.')}
 <p><b>Personalize in three layers:</b> (1) one version per <b>segment</b>, such as owners vs. operations leaders; (2) a <b>company</b> line about their trigger, written by a person after a two-minute look; (3) a <b>person</b> line about something they said or did, saved for your most valuable accounts.</p>
 {warn('<p>Fake "Re:" or "Fwd:" subjects, spammy words in the subject ("free", "guaranteed", "act now"), images, attachments and three links in the first email. Each one makes a filter, or a buyer, less likely to trust you.</p>')}
 {proof('<p>Across 588,000 emails, our tuned campaigns earned reply rates between <b>2.8% and 4%</b> with plain-text emails under 100 words, one problem and one proof line. The pilot campaign reached a 4.05% reply rate and <b>103 opportunities</b> from just 10,284 people contacted, about $150,000 in pipeline.</p>')}''')
 
+add(nxt('Chapter 12: the follow-ups. Nearly half of all replies come after the first email.'))
 add(chap(12, 'Follow-ups that add something new', 'Almost half of all replies come after the first email. But "just bumping this" is not a follow-up. Every email in the sequence must add a new reason to reply.', 'c12'))
 add(f'''<p>Instantly\'s benchmark data shows about <b>58% of replies come from the first email and 42% from follow-ups</b>. Stop after one email and you leave nearly half your results on the table.</p>
 <h2>The schedule</h2>
@@ -429,6 +478,7 @@ add(f'''<p>Instantly\'s benchmark data shows about <b>58% of replies come from t
 
 # ---------------- PART 5
 
+add(nxt('Part 5: launch day, the slow ramp, and turning replies into booked meetings.'))
 add(chap(13, 'Launch day and the volume ramp', 'Start smaller than you want, watch everything, then grow a little each week. A slow first two weeks protects months of sending.', 'c13'))
 add(f'''<h2>Campaign settings that matter</h2>
 <ul class="check">
@@ -443,6 +493,7 @@ add(f'''<h2>Campaign settings that matter</h2>
 
 ''')
 
+add(nxt('Chapter 14: what to write back when someone says yes, and how to make sure they actually show up.'))
 add(chap(14, 'From reply to booked meeting', 'Replies are where meetings are won or lost. Speed and a helpful answer beat a clever email every single time.', 'c14'))
 add(f'''<h2>Sort every reply into a bucket</h2>
 {table(['Bucket', 'Example', 'What we do', 'How fast'], [
@@ -463,8 +514,10 @@ add(f'''<h2>Sort every reply into a bucket</h2>
 <li>When someone does not show, send a friendly, no-guilt reschedule message <b>within 24 hours</b>.</li>
 <li>Track <b>show rate</b> (meetings held ÷ booked) as its own number.</li>
 </ul>
-{real('<p>The difference between a reply and a contract is follow-through. For the construction client, 4,449 replies were sorted the same day, interested buyers got answers within the hour, and 31 qualified demos were held. Roughly <b>1 in 5 demos became a signed annual contract</b>.</p>')}''')
+''')
 
+add('<div class="case"><div class="ch"><span class="cn">Case study 6 of 7</span><span class="ci">The end result · real client · 2026</span></div><p class="cwhy">Why this is here: this is what the whole system is for.</p><h3 class="chd">50+ discovery calls in one client&#39;s calendar.</h3><div class="cbody"><div class="cshot"><a href="' + RES + '?utm_source=playbook&amp;utm_medium=pdf&amp;utm_campaign=calendly"><img src="' + A + '/img/calendly-hd.webp"></a></div><div class="cpd"><p><b>The goal.</b> Not opens, not replies: qualified buyers on the calendar.</p><p><b>What we did.</b> Interested replies answered fast, two time options offered, confirmations and reminders sent, no-shows rescheduled within 24 hours.</p><p><b>The result.</b> Every line in this screenshot is a real Calendly booking: <b>50+ calls</b> in one client&#39;s calendar.</p></div></div><a class="clink" href="' + RES + '?utm_source=playbook&amp;utm_medium=pdf&amp;utm_campaign=calendly">See the real bookings &rarr;</a></div>')
+add(nxt('Chapter 15: how to read your numbers, and which test to run first (hint: it is not the subject line).'))
 add(chap(15, 'Testing and reading your numbers', 'Change one thing at a time, give each test enough people, and judge it by positive replies, never by opens.', 'c15'))
 add(f'''<h2>What to test, in order</h2>
 <ol class="steps">
@@ -488,6 +541,8 @@ add(f'''<h2>What to test, in order</h2>
 
 # ---------------- PART 6
 
+add(case('linkedin', 7, 'Founders and investors', 'Why this case is here: when the numbers say your buyers do not live in the inbox, change the channel, not the effort.', 'Founders and angel investors are one of the hardest audiences to reach, and many rarely answer cold email.', 'LinkedIn outreach alongside email: connection invites and InMails written with the same rules as Chapter 11 (short, about them, one easy question).', '1,375 invites, 351 accepted, 1,628 InMails and <b>154 replies</b> from people who almost never answer cold email, about $7,500 in pipeline.'))
+add(nxt('Part 6: the law in plain English (one mistake can cost up to $53,088 per email), and what to do when emails hit spam.'))
 add(chap(16, 'The law: USA and Canada', 'Cold B2B email is legal in the U.S. when you follow the CAN-SPAM Act. Canada is stricter. Here are the rules in plain English.', 'c16'))
 add(f'''{box('warn', 'Not legal advice', '<p>This is general information based on the FTC\'s published guidance and the law as of October 2026. Talk to a qualified attorney about your situation.</p>')}
 <h2>USA: CAN-SPAM in seven rules</h2>
@@ -500,11 +555,12 @@ add(f'''{box('warn', 'Not legal advice', '<p>This is general information based o
 <li><b>A clear way to opt out</b>, which you honor within <b>10 business days</b> and which keeps working for at least 30 days after you send.</li>
 <li><b>You stay responsible</b> even if an agency sends for you. Both can be liable.</li>
 </ol>
-<p>Penalties can reach <b>$53,088 per violating email</b>. One unhonored opt-out in a big campaign is an expensive mistake.</p>
+{bn('$53,088', 'The maximum U.S. civil penalty for <b>each</b> email that breaks CAN-SPAM. One unhonored opt-out in a big campaign is an expensive mistake.')}
 <h2>Canada: CASL is stricter</h2>
 <p>Canada\'s anti-spam law needs consent before you send. For B2B there is a narrow form of implied consent: the person\'s email address is published publicly (for example on their company website), with no statement that they do not want messages, and your message is relevant to their job. You must also identify yourself, include contact details and an unsubscribe that works. If you cannot show that kind of consent, do not email them.</p>
 ''')
 
+add(nxt('Chapter 17: the 7-step plan we use when a domain starts landing in spam.'))
 add(chap(17, 'When emails hit spam', 'Every system has a bad week. What matters is spotting it early and fixing it calmly. Here is our recovery plan, step by step.', 'c17'))
 add(f'''<p><b>Warning signs:</b> replies drop while volume stays the same, your placement test lands in spam or Promotions, warmup health falls for 2+ days, or bounces jump above 3% / Postmaster spam rate climbs toward 0.3%.</p>
 <h2>The 7-step recovery</h2>
@@ -517,10 +573,11 @@ add(f'''<p><b>Warning signs:</b> replies drop while volume stays the same, your 
 <li><b>Restart small:</b> a few emails a day per inbox, test placement, then ramp up over 1 to 2 weeks.</li>
 <li><b>Retire the domain</b> if it does not recover. This is why you use secondary domains: swap in your warm spare and move on.</li>
 </ol>
-{real('<p>On a high-volume quarter, older data slipped into the list and bounces crept toward 3%. The daily check caught it. We paused the affected inboxes, re-verified the list and slowed the ramp. The campaign finished the quarter with <b>4,372 replies</b> and <b>1,061 interested buyers</b> from 118,387 people, about $100,000 in pipeline.</p>', 'Real client example: catching it early')}
+{box('real', 'What our dashboards taught us', '<p>Our highest bounce rate (3.08%) came from a quarter where older data was mixed into the list. That is why we now re-verify any list older than about 60 days before it goes near a campaign.</p>')}
 {cta('Already stuck in spam?', 'Get a free review of your setup.', 'On a 20-minute call with our CEO we look at your domains, records and numbers and tell you honestly what we would change. If you want us to fix it, we can. If not, you keep the advice.', 'Book my free review', 'cta3-spam')}''')
 
 # ---------------- Checklists
+add(nxt('Last: the 30-day calendar and the checklists we follow for every new client. Print them.'))
 add(f'''<section class="chap" id="lists"><div class="num">Your tools</div><h1>The 30-day calendar and checklists</h1><p class="lead">Print these pages. Tick the boxes. This is the exact order we follow for every new client.</p></section>
 {table(['Days', 'What gets done', 'Chapter'], [
  ['1', 'Worksheet filled in; registrar and sending platform accounts opened', '1, 2'],
@@ -544,13 +601,6 @@ add(f'''<section class="chap" id="lists"><div class="num">Your tools</div><h1>Th
 </div>''')
 
 
-GAL = [('agency','Marketing agency','82,671 emails · 2,429 replies · 2,146 interested · ~$175K pipeline'),
- ('construction','Construction software','162,073 emails · 4,449 replies · 31 demos · 6 annual contracts'),
- ('blitz','The 5-day blitz','96,408 emails in 5 days · 1,095 replies · 115 interested · 25 calls'),
- ('q1','One full quarter','236,545 emails · 4,372 replies (3.69%) · 1,061 interested'),
- ('pilot','Small pilot','10,284 contacted · 417 replies (4%) · 103 opportunities'),
- ('linkedin','LinkedIn outreach','1,375 invites · 351 accepted · 1,628 InMails · 154 replies')]
-add('<section class="chap pb" id="proof"><div class="num">The proof</div><h1>6 campaigns. Every dashboard.</h1><p class="lead">These are screenshots of the live campaign dashboards behind every number in this playbook. Opens show zero because we switch tracking off on purpose.</p></section><div class="gal">' + ''.join(f'<div><div class="gi"><img src="{A}/img/{k}-hd.webp"></div><b>{t}</b><span>{d}</span></div>' for k,t,d in GAL) + '</div>' + f'<div class="gcal"><div class="gi"><img src="{A}/img/calendly-hd.webp"></div><div><b>One client calendar, 50+ booked calls</b><span>What the end of the system looks like: qualified buyers booked straight into the calendar. Across all campaigns: 588,000 emails, 12,900+ replies, 3,400+ interested buyers, 100+ booked calls and $510K+ in pipeline.</span></div></div>')
 
 # ---------------- Final page
 add(f'''<section class="chap final pb" id="final"><div class="num">The choice</div><h1>Do it yourself, or let us do it</h1>
