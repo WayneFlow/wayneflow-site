@@ -695,3 +695,5 @@ footer{border-top:1px solid var(--line);background:rgba(255,255,255,.7);padding-
   .nh .stamp::before{content:"";width:18px;height:18px;background:no-repeat center/contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2l8 3v6c0 5-3.4 9.4-8 11-4.6-1.6-8-6-8-11V5l8-3z' fill='%230B7A42' opacity='.18'/%3E%3Cpath d='M8 12l3 3 5-6' fill='none' stroke='%230B7A42' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")}
 }
 @media (max-width:640px){.k-pill{border-radius:14px}}
+.rev-ext{margin-top:12px;font-size:15px;color:var(--muted)}.rev-ext a{color:var(--blue-d);font-weight:700}
+@media (max-width:640px){.band .ctas{display:grid!important;grid-template-columns:1fr 1fr;gap:10px}.band .ctas .btn{width:100%;padding:12px 10px}}
