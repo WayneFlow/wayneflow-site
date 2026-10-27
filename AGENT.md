@@ -38,6 +38,22 @@ short, no jargon. The owners read it on their phone.
    When it does, remind the owners: 301 redirect from wayne-flow.site in Namecheap, add the
    new domain in Google Search Console and Bing.
 
+6. **Visitor database**: read the "WayneFlow Visitors" dashboard data (same PostHog
+   queries as `dashboard/build.py`: every visitor, live activity, pages). Check that the
+   numbers look sane and new events arrive; if a dashboard source fails, re-run its query and
+   report what broke.
+7. **Retargeting duty** (the owners' main goal is more sales):
+   - Build today's audience segments from the data: "hot, did not book" (booking click or
+     2+ visits, no booking), "read results/case studies", "USA/Canada, 3+ pages",
+     "came from AI assistants", "came from Instagram/TikTok/Facebook".
+   - If ad pixels (Meta, TikTok, Google, LinkedIn Insight Tag) are installed, check they fire
+     on the site and say which segment to retarget and with which message.
+   - Suggest 1–2 retargeting ad texts per segment, based on real case studies on the site
+     (no invented numbers).
+   - If a company-identification tool is connected, list visiting companies with a short
+     reason they look interested, and draft a personal outreach email for each. Drafts only:
+     never send, never add people to a campaign without the owners' OK.
+
 ## What you may change by yourself (then say what you did)
 Only safe, clearly broken things: a broken link or image, a typo, a wrong year, an
 outdated source link, a page error, an SEO tag that is missing. Build from `build-source`,
@@ -56,6 +72,7 @@ anyone, never add pixels or tools without the owners' OK, never invent results o
 - Status: site up ✅ / problem ❌
 - Last 24h: X visitors (vs Y), Z booking clicks. Top source: … Top page: …
 - Hot leads: … (or "none today")
+- Retarget today: segment → message (1–2 lines)
 - News: anything new or important
 - I fixed: … (or "nothing needed")
 - Suggestions (need your OK): 1–3 items, each one line with the reason
