@@ -1,5 +1,6 @@
 /* ================= 3D envelope story ================= */
 (function(){
+  if(matchMedia("(max-width:960px)").matches) return;
   const cv=document.getElementById('stage');
   if(!window.THREE) return;
   let R; try{ R=new THREE.WebGLRenderer({canvas:cv,antialias:true,alpha:true}); }catch(e){ return; }

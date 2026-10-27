@@ -12,6 +12,18 @@ const story = window.story;
   const upd=()=>{ const h=document.documentElement.scrollHeight-innerHeight; if(prog) prog.style.setProperty('--p',(h>0?scrollY/h*100:0)+'%'); };
   addEventListener('scroll',upd,{passive:true}); upd();
 })();
+/* hero: live booking notifications (times from our Calendly inbox) */
+(function(){
+  const box=document.getElementById('notifs'); if(!box) return;
+  const items=['Thu, Oct 1 · 2:00 PM','Thu, Oct 1 · 1:30 PM','Mon, Sep 28 · 2:30 PM','Wed, Sep 30 · 2:00 PM','Fri, Sep 25 · 12:00 PM','Tue, Sep 29 · 12:30 PM','Mon, Sep 28 · 3:00 PM','Tue, Oct 6 · 2:30 PM','Wed, Sep 30 · 3:30 PM','Mon, Sep 28 · 1:00 PM'];
+  let i=0;
+  const add=()=>{ const el=document.createElement('div'); el.className='notif';
+    el.innerHTML='<i>✓</i><div><b>Discovery call booked</b><span>'+items[i++%items.length]+'</span></div><em>Booked</em>';
+    box.prepend(el); requestAnimationFrame(()=>requestAnimationFrame(()=>el.classList.add('in')));
+    while(box.children.length>3) box.lastChild.remove(); };
+  add(); add(); add();
+  if(!reduce) setInterval(add,2800);
+})();
 /* single-row review carousel: slow, readable, smooth on phones */
 (function(){
   document.querySelectorAll('.carousel').forEach(c=>{
