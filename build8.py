@@ -191,6 +191,7 @@ def page(key, title, desc, body, three=False, full=True, path='', schema=None, n
 <meta name="twitter:description" content="{desc}">
 <meta name="twitter:image" content="{SITE}/assets/og.jpg">
 <meta name="theme-color" content="#FFFFFF">
+<meta name="msvalidate.01" content="2B89DE5463E9FDCD0E5B8CC9E34C2C67">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
