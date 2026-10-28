@@ -15,6 +15,7 @@
     return '<form class="wl-form" novalidate data-wl="' + id + '">' +
       '<label class="wl-sr" for="wl-email-' + id + '">Work email</label>' +
       '<div class="wl-row"><input class="wl-input" id="wl-email-' + id + '" name="email" type="email" autocomplete="email" inputmode="email" placeholder="Your work email" required>' +
+      (id === 'news' ? '' : '<label class="wl-sr" for="wl-phone-' + id + '">Phone or WhatsApp (optional)</label><input class="wl-input wl-phone" id="wl-phone-' + id + '" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="Phone (optional)">') +
       '<button class="btn btn-primary wl-btn" type="submit">' + (id === 'news' ? 'Subscribe' : 'Send me the playbook') + '</button></div>' +
       '<p class="wl-fine">' + (id === 'news' ? 'Free · No spam · Unsubscribe anytime' : 'Instant download · No spam · Unsubscribe anytime') + ' · <a href="/privacy.html">Privacy</a></p>' +
       '<p class="wl-msg" role="status" aria-live="polite"></p></form>';
@@ -47,9 +48,10 @@
     e.preventDefault();
     var email = (form.email.value || '').trim().toLowerCase();
     var site = '';
-    var phone = '';
+    var phone = form.phone ? (form.phone.value || '').trim() : '';
     var msg = form.querySelector('.wl-msg');
     if (!/^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(email)) { msg.textContent = 'Please enter a valid email.'; form.email.focus(); return; }
+    if (phone && !/^\+?[0-9 ()\-.]{7,20}$/.test(phone)) { msg.textContent = 'Please check the phone number, or leave it empty.'; form.phone.focus(); return; }
     var x = ph();
     // everything we know about this visit goes with the lead, in one click
     var tz = ''; try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (err) {}
@@ -68,7 +70,7 @@
     };
     var person = { email: email, lead_magnet: ctx.lead_magnet, timezone: tz, language: ctx.language, lead_page: page, lead_at: new Date().toISOString() };
     if (site) { person.company_website = site; ctx.company_website = site; }
-    if (phone) { person.phone = phone; ctx.phone = phone; ctx.sms_call_consent = true; }
+    if (phone) { person.phone = phone; ctx.phone = phone; ctx.has_phone = true; }
     if (org.org) person.network = org.org;
     var props = Object.assign({ email: email }, ctx);
     if (x) {
