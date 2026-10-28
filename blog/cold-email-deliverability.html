@@ -62,6 +62,7 @@
 <p>Alignment trips people up. If your From: address is on one domain but your sending tool signs DKIM with its own domain, DMARC can fail even though DKIM "passed." Yahoo notes that relaxed alignment is acceptable, which means a subdomain of your From: domain counts.</p>
 <p>Start DMARC at p=none with a reporting address, read the reports for a couple of weeks, then tighten the policy once you're confident all legitimate mail passes. To check your setup on a live message, open it in Gmail, choose "Show original," and look for SPF, DKIM and DMARC all marked PASS.</p>
 
+<p>Want the exact values to copy for Google Workspace, plus a two-minute way to check them? See <a href="/blog/dns-records-for-cold-email.html">the 4 DNS records that decide if your cold email lands in the inbox</a>.</p>
 <h2 id="sending-domains">Protect your main domain with secondary sending domains</h2>
 <p>Never send cold email from the domain your business runs on. If that domain's reputation drops, your invoices, proposals and customer support emails start landing in spam too.</p>
 <p>Instead, buy a few secondary sending domains that look like your brand. If your company is acmeanalytics.com, you might use getacmeanalytics.com or acmeanalyticshq.com. Point each one's website to your main site so curious prospects land somewhere real.</p>

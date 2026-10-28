@@ -155,8 +155,9 @@ def nav():
 FOOT = f'''<footer><div class="wrap">
   <div class="fgrid">
     <div><a href="index.html" aria-label="WayneFlow home"><span class="brand" role="img" aria-label="WayneFlow"></span></a><p>B2B appointment setting. Done-for-you cold email and LinkedIn outreach that books sales calls for companies in all 50 states.</p></div>
-    <div><h4>Explore</h4><a href="index.html">Home</a><a href="lead-generation-services.html">Lead generation services</a><a href="results.html">Results</a><a href="process.html">How it works</a><a href="areas.html">USA (all 50 states)</a><a href="canada.html">Canada</a><a href="reviews.html">Reviews</a><a href="about.html">About us</a><a href="blog/">Blog</a><a href="free-cold-email-playbook.html">Free cold email playbook</a></div>
+    <div><h4>Explore</h4><a href="index.html">Home</a><a href="lead-generation-services.html">Lead generation services</a><a href="results.html">Results</a><a href="process.html">How it works</a><a href="areas.html">USA (all 50 states)</a><a href="canada.html">Canada</a><a href="reviews.html">Reviews</a><a href="about.html">About us</a><a href="blog/">Blog</a></div>
     <div><h4>Get started</h4><a href="{CAL}" target="_blank" rel="noopener">Book a call</a><a href="book.html">FAQ</a><a href="{LI_COMPANY}" target="_blank" rel="noopener">LinkedIn</a><a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram</a><a href="{UPWORK}" target="_blank" rel="noopener">Upwork</a><a href="{FIVERR}" target="_blank" rel="noopener">Fiverr</a></div>
+    <div><h4>Guides</h4><a href="free-cold-email-playbook.html">Free cold email playbook</a><a href="blog/b2b-appointment-setting-guide.html">B2B appointment setting guide</a><a href="blog/cold-email-deliverability.html">Cold email deliverability</a><a href="blog/dns-records-for-cold-email.html">SPF, DKIM and DMARC setup</a><a href="blog/how-to-write-a-cold-email.html">How to write a cold email</a><a href="blog/is-cold-email-legal.html">Is cold email legal?</a></div>
     <div><h4>Legal</h4><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="privacy.html#s6">Opt out of emails</a></div>
   </div>
   <div class="fbase"><span>© 2026 WayneFlow by Ali &amp; Asim. All rights reserved.</span><span>Every number on this site is a live screenshot from a real campaign. Results vary.</span></div>
@@ -195,7 +196,7 @@ def page(key, title, desc, body, three=False, full=True, path='', schema=None, n
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=1793123637">
+<link rel="stylesheet" href="assets/style.css?v=1793171481">
 {ldj}
 {ANALYTICS if full else ''}'''
     scripts = '<script src="assets/site.js?v=1793118066"></script>'

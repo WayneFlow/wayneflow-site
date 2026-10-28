@@ -145,7 +145,8 @@ def build(OUT, page, SITE, CAL, crumb_ld, faq_ld):
     os.makedirs(f'{OUT}/blog', exist_ok=True)
     for p in posts:
         toc = ''.join(f'<a href="/blog/{p["slug"]}.html#{i}">{H.escape(t)}</a>' for i, t in p['toc'] if i not in ('next-step',))
-        related = [q for q in posts if q['slug'] != p['slug']][:3]
+        i0 = [q['slug'] for q in posts].index(p['slug'])
+        related = [posts[(i0 + k) % len(posts)] for k in (1, 2, 3)]  # rotate so every guide gets links
         rel = ''.join(f'<a class="card post-card" href="/blog/{q["slug"]}.html"><span class="tag">{q["readMinutes"]} min read</span><h3>{H.escape(q["h1"])}</h3><p>{H.escape(q["excerpt"])}</p><span class="go">Read the guide →</span></a>' for q in related)
         body = f'''<section class="sec post">
   <div class="wrap">
