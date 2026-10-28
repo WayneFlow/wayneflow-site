@@ -871,3 +871,8 @@ footer{border-top:1px solid var(--line);background:rgba(255,255,255,.7);padding-
 .gbar .gb-c{font-weight:800;color:#9FD4FF;white-space:nowrap}
 .gbar:hover .gb-c{color:#fff;text-decoration:underline}
 @media (max-width:520px){.gbar{gap:6px 8px;font-size:13px;padding-block:8px}.gbar .gb-c{width:100%}}
+/* v31: optional phone in lead forms */
+.wl-row .wl-phone{flex:.85}
+.wl-row:has(.wl-phone){flex-wrap:wrap}
+.wl-row:has(.wl-phone) .wl-input{flex:1 1 180px}
+.wl-row:has(.wl-phone) .wl-btn{flex:1 1 100%;width:100%}
