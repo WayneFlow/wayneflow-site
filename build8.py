@@ -52,7 +52,7 @@ ICON = {
 }
 ORG_LD = {"@context":"https://schema.org","@type":"ProfessionalService","@id":SITE+"/#org","name":"WayneFlow","alternateName":"WayneFlow by Ali & Asim","url":SITE+"/","logo":SITE+"/assets/logo.png","image":SITE+"/assets/og.jpg",
   "description":"Done-for-you B2B appointment setting, cold email and LinkedIn outreach that books qualified sales appointments for companies across the United States.",
-  "slogan":"25 qualified sales appointments a month. Guaranteed.",
+  "slogan":"A system that books 2–5 sales calls every day. Guaranteed.",
   "areaServed":[{"@type":"Country","name":"United States"},{"@type":"Country","name":"Canada"}]+[{"@type":"State","name":x} for x in ALL_STATES],
   "knowsAbout":["B2B appointment setting","Cold email outreach","Lead generation","LinkedIn outreach","Email deliverability","Sales pipeline generation"],
   "hasOfferCatalog":{"@type":"OfferCatalog","name":"Outbound services","itemListElement":[
@@ -131,7 +131,7 @@ FAQ = '''<div class="faq">
   <details><summary>How fast will I see calls?</summary><p>About three weeks to build lists and warm the inboxes. Replies usually start in the first week after launch. Our 5 day blitz booked 25 calls inside one week.</p></details>
   <details><summary>Why do your dashboards show 0 opens?</summary><p>We switch open tracking off on purpose. Tracking pixels are a spam signal, so removing them puts more emails in the inbox. We measure what pays you: replies and booked calls.</p></details>
   <details><summary>How much of my time does this take?</summary><p>One kickoff call and a quick review of the emails before launch. After that you just take the calls we book.</p></details>
-  <details><summary>Do you guarantee appointments?</summary><p>Yes. Once your campaign is live, we guarantee a minimum of 25 qualified sales appointments a month. We walk you through exactly how the guarantee works for your market on the strategy call.</p></details>
+  <details><summary>Do you guarantee appointments?</summary><p>Yes. Once your campaign is live, we guarantee 2–5 qualified sales calls every day. We walk you through exactly how the guarantee works for your market on the strategy call.</p></details>
   <details><summary>How much does it cost?</summary><p>It depends on your market, who you sell to and how many meetings you need. On the 20-minute call we learn your offer and then give you a clear quote, with everything included. No hidden fees.</p></details>
   <details><summary>Which industries do you work with?</summary><p>Marketing agencies, construction software, B2B services, and founder and investor outreach. We build each campaign around your buyer.</p></details>
 </div>'''
@@ -165,8 +165,8 @@ FOOT = f'''<footer><div class="wrap">
 
 LB = '<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Screenshot"><button type="button" aria-label="Close">✕</button><div><img alt=""><p></p></div></div>'
 
-def band(h='Want to see what this would look like for you?', p='Book a 20-minute call. We will show you who we would target, the angle we would use and how many meetings to expect in your first 30 days.'):
-    return f'<div class="wrap"><div class="band reveal"><div><h2>{h}</h2><p>{p}</p></div><a class="btn" href="{CAL}" target="_blank" rel="noopener">Get my free mini plan</a></div></div>'
+def band(h='2–5 sales calls every day. Guaranteed.', p='We find your buyers, write the emails, answer every reply and book qualified sales calls into your calendar. Book a 20-minute call and we will show you exactly how it would work for your company.'):
+    return f'<div class="wrap"><div class="band reveal"><div><h2>{h}</h2><p>{p}</p></div><a class="btn" href="{CAL}" target="_blank" rel="noopener">Book a 20-minute call</a></div></div>'
 
 def page(key, title, desc, body, three=False, full=True, path='', schema=None, noindex=False, base=False):
     url = SITE + '/' + path
@@ -185,7 +185,7 @@ def page(key, title, desc, body, three=False, full=True, path='', schema=None, n
 <meta property="og:image" content="{SITE}/assets/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="WayneFlow: 25 qualified sales appointments a month, guaranteed">
+<meta property="og:image:alt" content="WayneFlow: a system that books 2–5 sales calls every day, guaranteed">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{title}">
 <meta name="twitter:description" content="{desc}">
@@ -196,7 +196,7 @@ def page(key, title, desc, body, three=False, full=True, path='', schema=None, n
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=1793171481">
+<link rel="stylesheet" href="assets/style.css?v=1793171828">
 {ldj}
 {ANALYTICS if full else ''}'''
     scripts = '<script src="assets/site.js?v=1793118066"></script>'
@@ -204,6 +204,7 @@ def page(key, title, desc, body, three=False, full=True, path='', schema=None, n
         scripts = '<script src="assets/site.js?v=1793118066"></script>\n<script>/* 3D background: laptops and desktops only */if(window.innerWidth>640){var t=document.createElement("script");t.src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js";t.onload=function(){var s=document.createElement("script");s.src="assets/story3d.js?v=1793118066";document.body.appendChild(s);};document.body.appendChild(t);}</script>'
     inner = f'''{'<canvas id="stage" aria-hidden="true"></canvas>' if three else ''}
 <div class="gridbg" aria-hidden="true"></div>
+<a class="gbar" href="{CAL}" target="_blank" rel="noopener"><span class="gb-k">Guaranteed</span><span class="gb-t"><b>2–5 sales calls every day</b><span class="hide-m"> once your campaign is live</span></span><span class="gb-c">Book a 20-minute call →</span></a>
 {nav()}
 <main>
 {body}
@@ -518,7 +519,7 @@ REVIEWS_P = f'''<section class="phero">
     {MONEY_NOTE}
   </div>
 </section>
-{band('Be our next case study.')}
+{band('Be our next case study: 2–5 sales calls every day, guaranteed.')}
 '''
 
 # ---------------------------------------------------------------- BOOK / FAQ
@@ -548,7 +549,7 @@ BOOK = f'''<section class="phero">
 </section>
 '''
 
-DESC = 'B2B appointment setting and lead generation services for U.S. and Canadian companies. Done-for-you cold email that books 25 qualified meetings a month, guaranteed.'
+DESC = 'B2B appointment setting and lead generation services for U.S. and Canadian companies. Done-for-you cold email that books 2–5 sales calls every day, guaranteed.'
 FAQ_PAIRS = [(m.group(1), re.sub('<[^>]+>','',m.group(2))) for m in re.finditer(r'<summary>(.*?)</summary><p>(.*?)</p>', FAQ)]
 TERMS_B = legal_wrap('Legal', 'Terms of Service', 'The rules for using this website and working with WayneFlow. Plain English where we can, legal language where we must.', TERMS_SECTIONS).replace('{CAL}', CAL)
 PRIV_B = legal_wrap('Legal', 'Privacy Policy', 'What we collect, why we collect it, and the choices you have. We never sell your personal information.', PRIVACY_SECTIONS)
@@ -579,7 +580,7 @@ open(f'{OUT}/robots.txt','w').write('# WayneFlow: open to search engines and AI 
 open(f'{OUT}/'+INDEXNOW_KEY+'.txt','w').write(INDEXNOW_KEY)
 open(f'{OUT}/llms.txt','w').write(f"""# WayneFlow
 
-> WayneFlow is a done-for-you B2B appointment setting agency serving companies in all 50 U.S. states. We run cold email and LinkedIn outreach and book qualified sales appointments into clients' calendars, with a guarantee of 25 qualified appointments a month once a campaign is live.
+> WayneFlow is a done-for-you B2B appointment setting agency serving companies in all 50 U.S. states. We run cold email and LinkedIn outreach and book qualified sales appointments into clients' calendars, with a guarantee of 2–5 qualified sales calls every day once a campaign is live.
 
 ## Key facts
 - Results across campaigns: 588,000+ emails sent, 12,900+ replies, 3,400+ interested buyers, 100+ calls and demos booked, 6 annual contracts signed, $510K+ pipeline generated.

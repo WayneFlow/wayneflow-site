@@ -1,7 +1,7 @@
 # WayneFlow blog writing brief (read fully)
 
 ## The company
-WayneFlow ("WayneFlow by Ali & Asim") is a done-for-you B2B appointment setting agency. It runs cold email and LinkedIn outreach for U.S. B2B companies (agencies, B2B SaaS, construction software, professional services, founder/investor outreach) and books qualified sales appointments into clients' calendars. Offer: "25 qualified sales appointments a month. Guaranteed." (guarantee details are covered on a strategy call; never invent terms or prices). Booking link: https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers
+WayneFlow ("WayneFlow by Ali & Asim") is a done-for-you B2B appointment setting agency. It runs cold email and LinkedIn outreach for U.S. B2B companies (agencies, B2B SaaS, construction software, professional services, founder/investor outreach) and books qualified sales appointments into clients' calendars. Offer: "A system that books 2–5 sales calls every day. Guaranteed." (once a campaign is live) (guarantee details are covered on a strategy call; never invent terms or prices). Booking link: https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers
 Site pages you may link to (relative links): results.html (case studies with live dashboards), process.html (4-step process), areas.html (all 50 states), book.html (book a call + FAQ), reviews.html.
 
 ## Real WayneFlow data (the ONLY first-party numbers you may use; never invent others)

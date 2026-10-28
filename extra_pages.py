@@ -227,7 +227,7 @@ def about_html(CAL, CHECK):
         <div>{CHECK}<span><b>Your domain stays safe.</b> We send from separate domains, never from your main one.</span></div>
         <div>{CHECK}<span><b>Replies over vanity metrics.</b> Open tracking is off on purpose. We measure replies and booked calls.</span></div>
         <div>{CHECK}<span><b>Compliant by default.</b> CAN-SPAM in the U.S., CASL-aware in Canada, an opt-out in every email.</span></div>
-        <div>{CHECK}<span><b>Skin in the game.</b> Once your campaign is live, we guarantee 25 qualified appointments a month.</span></div>
+        <div>{CHECK}<span><b>Skin in the game.</b> Once your campaign is live, we guarantee 2–5 sales calls every day.</span></div>
       </div></div>
     </div>
   </div>
@@ -242,7 +242,7 @@ def pricing_html(CAL, CHECK):
     return f'''<section class="sec">
   <div class="wrap">
     <div class="head" style="max-width:820px"><span class="kicker">Pricing</span><h1>Simple pricing for a <span class="hl">full outbound system.</span></h1>
-    <p class="lead">WayneFlow costs a one-time ${SETUP:,} setup fee and ${MONTHLY:,} a month. That covers the full done-for-you outbound system: cold email, LinkedIn and X outreach, reply handling and booking. Once your campaign is live, we guarantee 25 qualified sales appointments a month.</p></div>
+    <p class="lead">WayneFlow costs a one-time ${SETUP:,} setup fee and ${MONTHLY:,} a month. That covers the full done-for-you outbound system: cold email, LinkedIn and X outreach, reply handling and booking. Once your campaign is live, we guarantee 2–5 qualified sales calls every day.</p></div>
     <div class="price-grid">
       <div class="card price-card">
         <span class="tag">One-time</span><h2>Setup</h2><div class="price">${SETUP:,}</div><p class="fine">Paid once, before we start.</p>
@@ -265,7 +265,7 @@ def pricing_html(CAL, CHECK):
           <div>{CHECK}Qualified meetings booked into your calendar</div>
           <div>{CHECK}Ongoing testing of angles, offers and copy</div>
           <div>{CHECK}Reporting with live dashboards</div>
-          <div>{CHECK}<b>Guarantee: 25 qualified appointments a month once live</b></div>
+          <div>{CHECK}<b>Guarantee: 2–5 sales calls every day once live</b></div>
         </div>
         <a class="btn btn-primary" href="{CAL}" target="_blank" rel="noopener" style="margin-top:20px;width:100%;justify-content:center">Book a 20-minute call</a>
       </div>
@@ -302,7 +302,7 @@ def pricing_html(CAL, CHECK):
 PRICING_FAQ = [
  ('How much does WayneFlow cost?', f'A one-time setup fee of ${SETUP:,} and a monthly retainer of ${MONTHLY:,}. The retainer covers the full outbound system: cold email, LinkedIn and X outreach, reply handling and booking qualified meetings into your calendar.'),
  ('What does the setup fee cover?', 'Everything needed before the first email goes out: your ideal customer profile and offer, separate sending domains and inboxes, email authentication (SPF, DKIM, DMARC), inbox warmup, your first verified prospect lists and the email sequences you approve.'),
- ('Is there an appointment guarantee?', 'Yes. Once your campaign is live, we guarantee a minimum of 25 qualified sales appointments a month. The definition of a qualified appointment and how the guarantee works for your market are written into your agreement, and we walk you through them on the strategy call.'),
+ ('Is there an appointment guarantee?', 'Yes. Once your campaign is live, we guarantee 2–5 qualified sales calls every day. The definition of a qualified appointment and how the guarantee works for your market are written into your agreement, and we walk you through them on the strategy call.'),
  ('How soon do appointments start?', 'Setup and inbox warmup take about three weeks. Replies usually start in the first week after launch. In one campaign we booked 25 calls inside a single week of sending.'),
  ('Is LinkedIn or X outreach extra?', 'No. The monthly retainer is the full outbound system. Depending on where your buyers are, it can include cold email, LinkedIn and X outreach.'),
  ('Do you work with Canadian companies, and what currency do you bill in?', 'Yes. We work with companies across the United States and Canada. Prices are in U.S. dollars, and Canadian campaigns are run with CASL in mind.'),

@@ -49,7 +49,7 @@ CASES = {
 PLAN = {  # which two case studies each guide features, and its three CTA messages
  'b2b-appointment-setting-guide': (['blitz','agency'], [
    ('Want to see this funnel built for your market?', 'Book a free 20-minute call and get a mini plan: who we would target, the angle we would use, and how many calls you could expect in 30 days.', 'Get my free mini plan'),
-   ('Rather skip the setup and just take the calls?', 'We build and run the whole system and guarantee 25 qualified appointments a month once your campaign is live.', 'See if you qualify')]),
+   ('Rather skip the setup and just take the calls?', 'We build and run the whole system and guarantee 2–5 sales calls every day once your campaign is live.', 'See if you qualify')]),
  'cold-email-deliverability': (['quarter','blitz'], [
    ('Not sure if your emails are landing in spam?', 'On a free strategy call we will review your sending setup and tell you exactly what we would fix first. Keep the advice either way.', 'Get a free deliverability review'),
    ('Want inboxes, domains and warmup handled for you?', 'We set up separate sending domains, authentication and warmup, then run the campaigns. Your main domain is never at risk.', 'Talk to our team')]),
@@ -64,7 +64,7 @@ PLAN = {  # which two case studies each guide features, and its three CTA messag
    ('Rather not manage consent rules yourself?', 'We handle targeting, sending and opt-outs, and book qualified Canadian buyers into your calendar.', 'Talk to our team')]),
  'svc-lead-generation-services': (['agency','construction'], [
    ('Want to know how many meetings you could get?', 'Book a free 20-minute call. We will show you who we would target, the angle we would use, and how many calls to expect in 30 days.', 'Get my free mini plan'),
-   ('Ready for 25 qualified appointments a month?', 'Once your campaign is live, we guarantee 25 qualified sales appointments a month. We explain exactly how it works on the call.', 'Book a 20-minute call')]),
+   ('Ready for 2–5 sales calls every day?', 'Once your campaign is live, we guarantee 2–5 qualified sales calls every day. We explain exactly how it works on the call.', 'Book a 20-minute call')]),
  'svc-canada': (['quarter','blitz'], [
    ('Want a CASL-aware plan for your Canadian market?', 'On a free call we will map your buyers by province, the consent path we would use, and how many meetings to expect.', 'Get my Canada plan'),
    ('Rather have Canadian meetings booked for you?', 'We build and run the whole system and book qualified buyers into your calendar in your time zone.', 'Book a 20-minute call')]),
@@ -118,14 +118,14 @@ def build_services(OUT, page, SITE, CAL, faq_ld):
         <div class="ctas"><a class="btn btn-primary" href="{CAL}" target="_blank" rel="noopener">Book a 20-minute call</a><a class="btn btn-secondary" href="/results.html">See live results</a></div></div>
       <div class="card svc-proof"><b class="sp-k">Real numbers from our dashboards</b>
         <div class="sp-grid"><div><b>588,000</b><span>emails sent</span></div><div><b>12,900+</b><span>replies</span></div><div><b>3,400+</b><span>interested buyers</span></div><div><b>100+</b><span>calls booked</span></div></div>
-        <p class="sp-g">25 qualified sales appointments a month. <span class="hl">Guaranteed.</span></p></div>
+        <p class="sp-g">2–5 sales calls every day. <span class="hl">Guaranteed.</span></p></div>
     </div>
   </div>
 </section>
 <section class="sec post" style="padding-top:0">
   <div class="wrap"><div class="post-grid">
     <aside class="post-toc"><details><summary>On this page</summary>{toc}</details>
-      <div class="toc-cta"><b>Want this done for you?</b><p>25 qualified appointments a month, guaranteed.</p><a class="btn btn-primary btn-sm" href="{CAL}" target="_blank" rel="noopener">Book a 20-minute call</a></div>
+      <div class="toc-cta"><b>Want this done for you?</b><p>2–5 sales calls every day, guaranteed.</p><a class="btn btn-primary btn-sm" href="{CAL}" target="_blank" rel="noopener">Book a 20-minute call</a></div>
         <a class="toc-pb" href="/free-cold-email-playbook.html"><img src="/assets/img/playbook-cover.webp" alt="Free cold email playbook" width="60" height="78" loading="lazy"><span><b>Free cold email playbook</b>35 pages · 7 real case studies</span></a></aside>
     <article class="post-body">{body_html}</article>
   </div></div>
@@ -155,7 +155,7 @@ def build(OUT, page, SITE, CAL, crumb_ld, faq_ld):
       <div class="byline"><span class="author-photos"><img src="/assets/team/asim-sq.webp" alt="Syed Asim Hussain" width="44" height="44"><img src="/assets/team/ali-sq.webp" alt="Syed Ali Hassan" width="44" height="44"></span><div><b>By <a href="/about.html" style="color:inherit">{AUTHOR}</a></b><span>Updated <time datetime="{PUBLISHED}">October 27, 2026</time> · Based on 588,000+ emails we have sent</span></div></div></header>
     <div class="post-grid">
       <aside class="post-toc"><details><summary>On this page</summary>{toc}</details>
-        <div class="toc-cta"><b>Want this done for you?</b><p>25 qualified appointments a month, guaranteed.</p><a class="btn btn-primary btn-sm" href="{CAL}" target="_blank" rel="noopener">Book a 20-minute call</a></div>
+        <div class="toc-cta"><b>Want this done for you?</b><p>2–5 sales calls every day, guaranteed.</p><a class="btn btn-primary btn-sm" href="{CAL}" target="_blank" rel="noopener">Book a 20-minute call</a></div>
         <a class="toc-pb" href="/free-cold-email-playbook.html"><img src="/assets/img/playbook-cover.webp" alt="Free cold email playbook" width="60" height="78" loading="lazy"><span><b>Free cold email playbook</b>35 pages · 7 real case studies</span></a></aside>
       <article class="post-body">{fix_anchors(enrich(p["body"], p["slug"]), p["slug"])}
         <div class="author-box"><span class="author-photos"><img src="/assets/team/asim-sq.webp" alt="Syed Asim Hussain" width="44" height="44"><img src="/assets/team/ali-sq.webp" alt="Syed Ali Hassan" width="44" height="44"></span><div><b>About the authors</b><p><a href="/about.html">Syed Asim Hussain and Syed Ali Hassan</a> run WayneFlow, a done-for-you B2B appointment setting agency for U.S. companies. Every number in this guide comes from campaigns we ran ourselves or from the sources linked. <a href="/results.html">See our live dashboards</a>.</p></div></div>
