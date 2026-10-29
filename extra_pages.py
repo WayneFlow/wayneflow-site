@@ -178,8 +178,31 @@ ALL_STATES = sorted(s for _, _, st, _ in REGIONS for s in st)
 NOTFOUND = '''<section class="sec" style="min-height:60vh;display:grid;place-items:center;text-align:center">
   <div class="wrap"><span class="kicker">Error 404</span><h1 style="margin-top:14px">This page took a <span class="hl">wrong turn.</span></h1>
   <p class="lead" style="margin-inline:auto">The page you are looking for does not exist or has moved.</p>
-  <div class="ctas" style="justify-content:center"><a class="btn btn-primary" href="/">Go to the home page</a><a class="btn btn-secondary" href="/results.html">See our results</a></div></div>
-</section>'''
+  <div class="ctas" style="justify-content:center"><a class="btn btn-primary" href="/">Go to the home page</a><a class="btn btn-secondary" href="/results.html">See our results</a></div>
+  <p style="margin-top:18px"><a href="/free-cold-email-playbook.html">Looking for the free cold email playbook? It is here &rarr;</a></p></div>
+</section>
+<script>
+/* Send people who followed a cut-off or old link to the page they most likely wanted. */
+(function(){
+  var P=["about.html", "areas.html", "blog/b2b-appointment-setting-guide.html", "blog/cold-email-deliverability.html", "blog/dns-records-for-cold-email.html", "blog/how-to-write-a-cold-email.html", "blog/", "blog/is-cold-email-legal-in-canada.html", "blog/is-cold-email-legal.html", "blog/outsourced-appointment-setting-vs-in-house-sdr.html", "book.html", "canada.html", "free-cold-email-playbook.html", "lead-generation-services.html", "pricing.html", "privacy.html", "process.html", "results.html", "reviews.html", "terms.html"];
+  var raw=decodeURIComponent(location.pathname).toLowerCase().replace(/\/+$/,'').replace(/\.html?$/,'');
+  var path=raw.replace(/^\//,''); if(!path) return;
+  var hit=null;
+  // 1) a cut-off address: the start of a real page name
+  if(path.length>=4){for(var i=0;i<P.length;i++){var s=P[i].replace(/\.html$/,'').replace(/\/index$/,'/');if(s.indexOf(path)===0||path.indexOf(s.replace(/\/$/,''))===0&&s.length>3){hit=P[i];break;}}}
+  // 2) common words
+  if(!hit){var k=path;
+    if(/free|playbook|guide|ebook|pdf/.test(k))hit='free-cold-email-playbook.html';
+    else if(/case|result|stud|proof/.test(k))hit='results.html';
+    else if(/^blog\//.test(k))hit='blog/';
+    else if(/pric|cost|plan/.test(k))hit='pricing.html';
+    else if(/book|call|meet|calendly|contact/.test(k))hit='book.html';
+    else if(/about|team|founder/.test(k))hit='about.html';
+    else if(/review|testimon/.test(k))hit='reviews.html';
+    else if(/process|how/.test(k))hit='process.html';}
+  if(hit){location.replace('/'+hit+location.search+location.hash);}
+})();
+</script>'''
 
 # ------------------------------------------------------------------ ABOUT + PRICING
 LI_COMPANY = 'https://www.linkedin.com/company/135164941'
