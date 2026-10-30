@@ -1,101 +1,276 @@
 {
   "slug": "well",
   "keyword": "WELL",
-  "title": "The Opener Swap Sheet: Replace \"I Hope This Email Finds You Well\"",
-  "description": "Swap the cold email openers that get deleted for openers about the prospect. Before-and-after examples plus a prompt to write yours.",
-  "lead": "This is the Opener Swap Sheet from the reel. The first line decides if your email gets read or deleted from the preview. Here's what to delete and what to write instead.",
+  "title": "The Opener Swap Sheet: What to Write Instead of \"I Hope This Email Finds You Well\"",
+  "description": "Delete the cold email openers that get ignored. 5 opener formulas with examples, where to find something specific in 2 minutes, a quality test and ready prompts.",
+  "lead": "This is the full Opener Swap Sheet from the reel. Your first line shows in the inbox preview, before anyone opens the email, so it decides whether you get read or deleted. Here's what to delete, 5 formulas to use instead, where to find the details, and a test to check every line before you send.",
   "insider": "Every first line we write for clients is about the prospect, never about us. It's a big part of why one agency client of ours got **2,146 interested replies** in four and a half months. A good opener is the start. A good list and real follow-ups are what turn it into booked calls, and that's what we run for clients.",
   "case": "case-01",
   "blocks": [
     {
       "type": "h2",
-      "text": "Why the polite opener fails"
+      "text": "Why the first line matters so much"
     },
     {
       "type": "p",
-      "text": "\"I hope this email finds you well\" is not rude and it's not long. It's predictable. People read it in the inbox preview and know a pitch is coming, so they're gone before line two."
+      "text": "Most inboxes show the subject and the first line before the email is even opened. That preview is the whole first impression. If it reads like every other pitch, people archive it without opening."
+    },
+    {
+      "type": "p",
+      "text": "It also matters because the first email does most of the work. [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) found that **58% of all replies come from the first email** in a sequence. And in [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email), emails with two personal details in the body got **5.6% replies vs 3.6% with none**."
     },
     {
       "type": "h2",
-      "text": "The 3 openers to delete"
-    },
-    {
-      "type": "list",
-      "items": [
-        "\"I hope this finds you well\"",
-        "\"I noticed you're the CEO\"",
-        "\"We leverage AI to drive synergies\""
-      ]
-    },
-    {
-      "type": "h2",
-      "text": "The swap sheet"
+      "text": "The openers to delete"
     },
     {
       "type": "table",
       "head": [
         "Delete this",
-        "Write this instead"
+        "Why it fails"
       ],
       "rows": [
         [
           "I hope this email finds you well.",
-          "Saw you're hiring 3 sales reps in Austin."
-        ],
-        [
-          "I noticed you're the CEO of Acme.",
-          "Congrats on opening the Denver office last month."
-        ],
-        [
-          "We leverage AI to drive synergies.",
-          "We helped a [similar company] book [result] in [time]."
-        ],
-        [
-          "I wanted to reach out because...",
-          "Quick question about your [specific thing from their site]."
+          "Everyone writes it. In the preview it says \"mass email\" before you've said anything."
         ],
         [
           "My name is Ali and I work at...",
-          "(Delete it. Your name is already in the signature.)"
+          "It's about you. Your name is already in the From line and the signature."
+        ],
+        [
+          "I noticed you're the CEO of Acme.",
+          "They know their own job. It proves you looked at one field in a database."
+        ],
+        [
+          "I wanted to reach out because...",
+          "It announces that this is cold outreach. Skip to the reason."
+        ],
+        [
+          "I was really impressed by your growth!",
+          "The 2026 version of \"hope this finds you well\". It reads like an AI wrote it."
+        ],
+        [
+          "We leverage AI to drive synergies.",
+          "Buzzwords say nothing, and they're about you."
         ]
       ]
     },
     {
       "type": "h2",
-      "text": "Two openers that work"
+      "text": "5 opener formulas that work"
+    },
+    {
+      "type": "p",
+      "text": "Every good opener does one thing: it shows you know something real about **them**, and it leads naturally to why you're writing."
+    },
+    {
+      "type": "h3",
+      "text": "1. The trigger"
+    },
+    {
+      "type": "p",
+      "text": "Something just changed at their company: hiring, a new office, new funding, a new product, a new leader. Changes create new problems, which makes them a natural reason to write."
+    },
+    {
+      "type": "quote",
+      "text": "Saw you're hiring 3 sales reps in Austin. Usually that means the pipeline has to grow fast too."
+    },
+    {
+      "type": "h3",
+      "text": "2. Their own words"
+    },
+    {
+      "type": "p",
+      "text": "Point to something they posted, said on a podcast or wrote on their blog. Mention one specific idea, not just \"loved your post\"."
+    },
+    {
+      "type": "quote",
+      "text": "Your LinkedIn post about losing deals to slow follow-up stuck with me. That's exactly where we work."
+    },
+    {
+      "type": "h3",
+      "text": "3. The peer result"
+    },
+    {
+      "type": "p",
+      "text": "Show a real result for a company like theirs. Only use results you can prove."
+    },
+    {
+      "type": "quote",
+      "text": "We helped another construction software company book 31 qualified demos from cold email."
+    },
+    {
+      "type": "h3",
+      "text": "4. The specific observation"
+    },
+    {
+      "type": "p",
+      "text": "Something you noticed on their website, reviews or ads that points to a real problem you can fix. Say it kindly."
+    },
+    {
+      "type": "quote",
+      "text": "Your site's only next step is a contact form, and three of your Google reviews mention slow callbacks."
+    },
+    {
+      "type": "h3",
+      "text": "5. The honest question"
+    },
+    {
+      "type": "p",
+      "text": "A short question about how they do something today. It works best when your list is tightly targeted, so the question is clearly relevant."
+    },
+    {
+      "type": "quote",
+      "text": "How are you finding new clients now that most of your referrals have dried up after the busy season?"
+    },
+    {
+      "type": "h2",
+      "text": "The full swap sheet"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Delete this",
+        "Write this instead",
+        "Formula"
+      ],
+      "rows": [
+        [
+          "I hope this email finds you well.",
+          "Saw you're hiring 3 sales reps in Austin.",
+          "Trigger"
+        ],
+        [
+          "I noticed you're the CEO of Acme.",
+          "Congrats on opening the Denver office last month.",
+          "Trigger"
+        ],
+        [
+          "I came across your profile.",
+          "Your post on pricing calls last week was spot on about discounts.",
+          "Their words"
+        ],
+        [
+          "We leverage AI to drive synergies.",
+          "We helped a [similar company] book [result] in [time].",
+          "Peer result"
+        ],
+        [
+          "I wanted to reach out because...",
+          "Quick question about the booking form on your site.",
+          "Observation"
+        ],
+        [
+          "My name is Ali and I work at...",
+          "(Delete it. Start with them.)",
+          "—"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Where to find something specific in 2 minutes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Job posts** on their careers page or LinkedIn: who they're hiring tells you what they're trying to grow.",
+        "**Their LinkedIn posts** and the founder's posts from the last 30 days.",
+        "**News or press page** on their site: launches, awards, new locations.",
+        "**Google reviews** (great for local businesses): what customers praise or complain about.",
+        "**Their website**: new services, pricing page, how people contact them.",
+        "**Podcasts or interviews**: search the founder's name plus \"podcast\"."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "At scale",
+      "text": "You don't need a new detail for every person. Group people who share the same trigger (for example, every company hiring sales reps this month) and write one strong opener for the whole group. Hunter's data shows small groups of 21 to 50 people get the best reply rates anyway."
+    },
+    {
+      "type": "h2",
+      "text": "The 4-question test for every opener"
     },
     {
       "type": "steps",
       "items": [
-        "**Open with them.** Something true and recent about their business: hiring, a new office, a new product, a post they wrote.",
-        "**Open with a result** for someone like them: \"We helped a home services company in Chicago book more sales calls from cold email.\" Only use results you can prove."
+        "**Could I send this exact line to someone else?** If yes, it's not specific enough. Rewrite it.",
+        "**Is it true and recent?** A 2-year-old \"congrats on the launch\" hurts more than it helps.",
+        "**Is it about them, not me?** The first word should usually be about their business, not \"I\" or \"we\".",
+        "**Does it lead to my reason for writing?** The second line should connect the detail to the problem you solve."
       ]
+    },
+    {
+      "type": "h2",
+      "text": "Before and after: a full email"
+    },
+    {
+      "type": "prompt",
+      "label": "Before (gets ignored)",
+      "text": "Subject: Partnership opportunity\n\nHi Sarah,\n\nI hope this email finds you well. My name is Ali and I work at a lead generation agency. We leverage AI to help businesses like yours drive growth and synergies. Would you be open to a 30-minute call next week to discuss how we can help?"
+    },
+    {
+      "type": "prompt",
+      "label": "After (gets read)",
+      "text": "Subject: the 3 Austin reps\n\nHi Sarah,\n\nSaw you're hiring 3 sales reps in Austin. New reps usually ramp faster when their calendar is already full.\n\nWe set up cold email that books calls for sales teams. One software client got 31 qualified demos from it.\n\nWorth a look for the new hires?\n\nAli"
+    },
+    {
+      "type": "p",
+      "text": "The \"after\" email is under 60 words, starts with her business, gives one real result and ends with a small yes-or-no question."
+    },
+    {
+      "type": "h2",
+      "text": "Write yours with Claude"
     },
     {
       "type": "prompt",
       "label": "Opener prompt",
-      "text": "Here is a prospect's website and LinkedIn info:\n[paste it]\n\nWrite 5 different first lines for a cold email to them.\nRules: each line is about their business, not about me. Under 15 words. No \"I hope\", no \"I noticed you're the CEO\", no buzzwords. Mention something specific and recent (hiring, new office, product launch, a post they wrote)."
+      "text": "Here is info about a prospect (website text, LinkedIn post, job posts or news):\n[paste it]\n\nWhat I sell, in one sentence: [your offer]\n\nWrite 5 first lines for a cold email to them, one for each formula: trigger, their own words, peer result, specific observation, honest question.\nRules:\n- About their business, not about me\n- Under 20 words each\n- No \"I hope\", \"I came across\", \"I wanted to reach out\", \"impressed by\", or buzzwords\n- Only use facts from the info I pasted. Don't invent anything.\nThen pick the best one and write the second line that connects it to my offer."
+    },
+    {
+      "type": "prompt",
+      "label": "Opener checker prompt",
+      "text": "Score each of these cold email first lines from 1 to 10.\nFor each one, answer: could it be sent to anyone else? Is it about them or me? Is it specific and recent? Does it sound like AI?\nRewrite any line that scores under 7.\n\n[paste your first lines]"
     },
     {
       "type": "tip",
-      "text": "Something about their business beats being polite. Every time."
+      "text": "Something true about their business beats being polite. Every time."
     }
   ],
   "resources": [
     {
+      "name": "Instantly 2026 benchmark report",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "58% of replies come from the first email"
+    },
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Personalization and list size data"
+    },
+    {
       "name": "Claude",
       "url": "https://claude.ai",
-      "note": "Paste the prompt and the prospect's info"
+      "note": "Paste the prompts with your prospect's info"
     }
   ],
   "faq": [
     {
       "q": "Isn't it rude to skip the greeting?",
-      "a": "Keep \"Hi Sarah,\" and then go straight to something about them. That's friendly and gets read."
+      "a": "Keep \"Hi Sarah,\" and go straight to something about them. That's friendly, and it gets read."
     },
     {
-      "q": "Where do I find something specific about them?",
-      "a": "Their website news page, job posts, LinkedIn posts and recent press. Two minutes of research per prospect is enough."
+      "q": "Can AI write my openers?",
+      "a": "Yes, if you give it real facts to work with and tell it not to invent anything. AI openers fail when they're built from a name and job title only, because they turn into empty compliments."
+    },
+    {
+      "q": "How long should the first line be?",
+      "a": "One short sentence, ideally under 20 words, so it fits in the inbox preview."
+    },
+    {
+      "q": "What if I can't find anything about a prospect?",
+      "a": "Use a peer result or an honest question for their industry, or leave them out of this campaign. A tighter list usually beats a bigger one."
     }
   ],
   "date": "2026-10-30",

@@ -1,49 +1,116 @@
 {
   "slug": "funnel",
   "keyword": "FUNNEL",
-  "title": "The Funnel Math Sheet: How Many Emails for One Signed Client",
-  "description": "Work out how many cold emails you need for one signed client, using our real campaign numbers: 162,073 emails, 31 demos, 6 annual contracts.",
-  "lead": "This is the funnel math sheet from the reel. It shows how many emails it took us to sign one client in a real campaign, and how to work out the same number for your business.",
+  "title": "The Funnel Math Sheet: How Many Cold Emails You Need for One Signed Client",
+  "description": "Real cold email funnels from our campaigns, benchmarks to start with, a step-by-step calculator, spreadsheet formulas and the levers that lower your cost per client.",
+  "lead": "This is the full funnel math sheet from the reel. It shows our real numbers from emails sent to signed contracts, gives you safe starting benchmarks, and walks you through working out how many emails your business needs every month, with formulas you can paste into a spreadsheet.",
   "insider": "This sheet comes from our campaign for a construction software company. The reply rate was below the 2026 average, and we still booked **31 qualified demos and 6 annual contracts**, because we aimed at real decision makers. Getting those numbers right for your business is the first thing we plan with every client.",
   "case": "case-02",
   "blocks": [
     {
       "type": "h2",
-      "text": "Our real funnel"
+      "text": "The 4 numbers that run your funnel"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Reply rate:** replies ÷ emails sent.",
+        "**Interested rate:** interested replies ÷ all replies. Many replies are \"no thanks\" or out-of-office.",
+        "**Call rate:** booked calls ÷ interested replies.",
+        "**Close rate:** signed clients ÷ calls."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Multiply them together and you know how many emails one client costs. Change any one of them and the whole number moves."
+    },
+    {
+      "type": "h2",
+      "text": "Our real funnels"
+    },
+    {
+      "type": "p",
+      "text": "Here are three of our real campaigns. They're very different businesses, which is exactly why you need your own numbers."
     },
     {
       "type": "table",
       "head": [
-        "Step",
-        "Number",
-        "Rate"
+        "Campaign",
+        "Emails",
+        "Replies",
+        "Result",
+        "Emails per result"
       ],
       "rows": [
         [
-          "Emails sent",
+          "Construction software (case 2)",
           "162,073",
-          ""
+          "4,449 (2.81%)",
+          "31 demos, 6 annual contracts",
+          "~5,200 per demo, ~27,000 per contract"
         ],
         [
-          "Replies",
-          "4,449",
-          "2.81% of emails"
+          "5-day blitz (case 3)",
+          "96,408",
+          "1,095 (1.14%)",
+          "115 interested, 25 calls",
+          "~3,900 per call"
         ],
         [
-          "Qualified sales demos",
-          "31",
-          "1 per ~5,200 emails"
-        ],
-        [
-          "Annual contracts signed",
-          "6",
-          "about 1 in 5 demos"
+          "Small pilot (case 5)",
+          "10,284 contacted",
+          "417 (4%)",
+          "103 opportunities",
+          "~100 per opportunity"
         ]
       ]
     },
     {
       "type": "p",
-      "text": "That's roughly **27,000 emails per signed client** for this company. Your number will be different. The point is to know yours before you start."
+      "text": "Look at the construction software campaign: its reply rate was **below the average**, and it still produced 6 annual contracts, because the emails went to real decision makers. A high reply rate from the wrong people is worth nothing."
+    },
+    {
+      "type": "h2",
+      "text": "Starting benchmarks (before you have data)"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Number",
+        "Careful starting guess",
+        "Where it comes from"
+      ],
+      "rows": [
+        [
+          "Reply rate",
+          "3%",
+          "[Instantly 2026](https://instantly.ai/cold-email-benchmark-report-2026): 3.43% average. [Hunter 2026](https://hunter.io/the-state-of-cold-email): 3% for sales emails."
+        ],
+        [
+          "Good reply rate",
+          "5.5%+",
+          "Instantly: top quarter of senders"
+        ],
+        [
+          "Interested rate",
+          "10–25% of replies",
+          "Our campaigns above: 10.5% (case 3), 24.7% (case 5)"
+        ],
+        [
+          "Call rate",
+          "20–30% of interested",
+          "Our 5-day blitz: 25 calls from 115 interested (22%)"
+        ],
+        [
+          "Close rate",
+          "1 in 5 calls",
+          "Our construction software campaign: 6 of 31"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Use these for your first plan, then **replace every guess with your own numbers after 2 to 4 weeks** of sending."
     },
     {
       "type": "h2",
@@ -52,16 +119,147 @@
     {
       "type": "steps",
       "items": [
-        "Pick your monthly goal: how many new clients you want.",
-        "Estimate your demo-to-client rate. If you don't know it, start with 1 in 5.",
-        "Estimate emails per demo. Start with a careful guess, then replace it with your real number after the first 2 weeks.",
-        "Multiply: clients × demos per client × emails per demo = emails you need per month."
+        "**Pick your goal:** how many new clients you want per month.",
+        "**Calls needed** = clients ÷ close rate. (2 clients ÷ 0.2 = 10 calls)",
+        "**Interested replies needed** = calls ÷ call rate. (10 ÷ 0.25 = 40)",
+        "**Replies needed** = interested ÷ interested rate. (40 ÷ 0.15 = about 267)",
+        "**Emails needed** = replies ÷ reply rate. (267 ÷ 0.03 = about 8,900 a month)",
+        "**Per working day** = monthly emails ÷ 22. (about 405 a day, so 14 inboxes, see our MATH guide)"
       ]
+    },
+    {
+      "type": "tip",
+      "label": "Check the money",
+      "text": "Multiply clients by your average deal value. If 2 clients bring $6,000 and the setup costs a few hundred dollars a month, the math works. If your deal is $200, cold email needs a much better conversion rate to pay off."
+    },
+    {
+      "type": "h2",
+      "text": "Spreadsheet version"
+    },
+    {
+      "type": "p",
+      "text": "Put your numbers in cells B1 to B5 of a Google Sheet, then paste these formulas below them."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Cell",
+        "What goes there",
+        "Formula or value"
+      ],
+      "rows": [
+        [
+          "B1",
+          "Clients wanted per month",
+          "2"
+        ],
+        [
+          "B2",
+          "Close rate",
+          "20%"
+        ],
+        [
+          "B3",
+          "Call rate",
+          "25%"
+        ],
+        [
+          "B4",
+          "Interested rate",
+          "15%"
+        ],
+        [
+          "B5",
+          "Reply rate",
+          "3%"
+        ],
+        [
+          "B6",
+          "Calls needed",
+          "=B1/B2"
+        ],
+        [
+          "B7",
+          "Interested replies needed",
+          "=B6/B3"
+        ],
+        [
+          "B8",
+          "Replies needed",
+          "=B7/B4"
+        ],
+        [
+          "B9",
+          "Emails per month",
+          "=ROUNDUP(B8/B5,0)"
+        ],
+        [
+          "B10",
+          "Emails per working day",
+          "=ROUNDUP(B9/22,0)"
+        ],
+        [
+          "B11",
+          "Inboxes needed (30 a day each)",
+          "=ROUNDUP(B10/30,0)"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Which lever to pull first"
+    },
+    {
+      "type": "p",
+      "text": "Every number multiplies the others, so improving any one of them by 2x halves the emails you need. But some are much easier to move than others."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Lever",
+        "How to improve it",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "Who you email",
+          "Tighter lists, real decision makers, 1–2 people per company",
+          "Raises reply and interested rate together. Biggest win."
+        ],
+        [
+          "First line and offer",
+          "About them, one real result, small question",
+          "Raises reply rate"
+        ],
+        [
+          "Speed of reply",
+          "Answer interested leads the same day, ideally within an hour",
+          "Raises call rate, costs nothing"
+        ],
+        [
+          "The ask",
+          "Offer something easy, like a short call or a free audit",
+          "Raises call rate"
+        ],
+        [
+          "The sales call",
+          "Prepare for each call, follow up after",
+          "Raises close rate"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Example: raise the reply rate in the plan above from 3% to 4.5% and you need about **5,900 emails a month instead of 8,900**. That's 5 fewer inboxes to buy and warm up."
+    },
+    {
+      "type": "h2",
+      "text": "Do it with Claude"
     },
     {
       "type": "prompt",
       "label": "Funnel prompt",
-      "text": "My goal: [number] new clients per month.\nMy average deal size: $[amount].\nMy demo-to-client rate: [1 in X].\nEmails needed per demo (guess for now): [number].\n\nCalculate: demos needed per month, emails needed per month and per day (22 working days), and the revenue if I hit the goal. Then tell me which number I should test first to lower the cost per client. Show it as a table."
+      "text": "My goal: [number] new clients per month.\nAverage deal value: $[amount].\nMy numbers (use these guesses if I don't know): reply rate [3%], interested rate [15% of replies], call rate [25% of interested], close rate [20% of calls].\n\nCalculate, step by step:\n1) calls, interested replies, replies and emails needed per month,\n2) emails per working day (22 days) and inboxes needed at 30 emails per inbox per day,\n3) revenue if I hit the goal,\n4) what happens to emails needed if I improve each rate by 50%, one at a time.\nTell me which rate to test first. Show everything in tables."
     },
     {
       "type": "tip",
@@ -71,19 +269,37 @@
   ],
   "resources": [
     {
-      "name": "Instantly benchmarks",
-      "url": "https://instantly.ai",
-      "note": "Source of the 3.43% average reply rate mentioned in the reel"
+      "name": "Instantly 2026 benchmark report",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Average and top-performer reply rates"
+    },
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Reply rates by use case, including sales"
+    },
+    {
+      "name": "Google Sheets",
+      "url": "https://sheets.google.com",
+      "note": "Paste the formulas above"
     }
   ],
   "faq": [
     {
-      "q": "Why so many emails per client?",
-      "a": "This campaign sold annual software contracts to construction companies, a careful buyer. Faster sales cycles usually need fewer emails."
+      "q": "Why did the construction software campaign need so many emails per client?",
+      "a": "It sold annual software contracts to construction companies, a careful buyer with a long sales cycle. Simpler offers with faster decisions usually need fewer emails per client."
+    },
+    {
+      "q": "How long before my own numbers are reliable?",
+      "a": "Give it at least 2 to 4 weeks and a few thousand emails before you trust the rates. Small numbers jump around a lot."
     },
     {
       "q": "What improves the math fastest?",
-      "a": "Better targeting. Emailing the right decision makers raises demos per email more than any copy trick."
+      "a": "Better targeting. Emailing the right decision makers raises replies, interested replies and calls at the same time, more than any copy trick."
+    },
+    {
+      "q": "Should I count out-of-office replies?",
+      "a": "Count them as replies if your tool does, but never as interested. That's why the interested rate matters more than the reply rate."
     }
   ],
   "date": "2026-10-30",

@@ -1,34 +1,59 @@
 {
   "slug": "dead",
   "keyword": "DEAD",
-  "title": "Cold Email Isn't Dead: The 5 Fixes Guide",
-  "description": "The 5 fixes behind our 82,671-email campaign with 2,146 interested leads: tracking off, smaller lists, clean lists, short emails and real follow-ups.",
-  "lead": "This is the full 5 fixes guide from the reel. The reel showed 2 fixes. Here are all 5, the same ones behind our 82,671 emails, 2,429 replies and 2,146 interested leads.",
+  "title": "Cold Email Isn't Dead: The 5 Fixes Guide (With the Data Behind Each One)",
+  "description": "The 5 fixes behind our 82,671-email campaign: tracking off, small lists, verified lists, short emails and smart follow-ups. Plus a problem finder table and weekly checklist.",
+  "lead": "This is the full 5 fixes guide from the reel. The reel showed 2 fixes. Here are all 5, why each one works, exactly how to do it, and a table to find what's wrong with your own campaign. These are the same fixes behind our 82,671 emails, 2,429 replies and 2,146 interested leads.",
   "insider": "These numbers are from our own agency client campaign (June 1 to October 19, 2026), with open tracking off the whole time. Only **6 of 76,081** people asked to be removed. You can copy the 5 fixes yourself. If you'd rather have them running next month without learning it all, that's exactly what we do.",
   "case": "case-01",
   "blocks": [
+    {
+      "type": "h2",
+      "text": "First, what \"normal\" looks like"
+    },
+    {
+      "type": "p",
+      "text": "Before fixing anything, know the target. [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) puts the average reply rate at **3.43%**. The top quarter of senders get **5.5% or more**, and the top 10% get **10.7% or more**. [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email) found a **4.5%** average, but only **3%** for sales emails. If you're under 1%, something below is broken."
+    },
     {
       "type": "h2",
       "text": "Fix 1: Turn open tracking off"
     },
     {
       "type": "p",
-      "text": "Open tracking adds a hidden pixel to every email, and inbox providers notice. Hunter.io's 2026 data (31 million emails) showed **7.4% replies with tracking off vs 4.4% with it on**. Judge your campaign by replies, not opens."
-    },
-    {
-      "type": "h2",
-      "text": "Fix 2: Send to smaller lists"
+      "text": "**Why:** open tracking adds a tiny hidden image to every email. Spam filters notice it, and it turns a plain-text email into an HTML one. In Hunter's data, campaigns with tracking **off got 7.4% replies vs 4.4% with it on**."
     },
     {
       "type": "p",
-      "text": "In the same Hunter.io data, lists of **21 to 50 people got 6.2% replies vs 2.4% for lists of 500+**. Small lists force you to target better and write for one type of buyer."
+      "text": "Open rates aren't even reliable anymore. Apple Mail and some security tools open emails automatically, so your \"open rate\" includes robots."
     },
     {
       "type": "steps",
       "items": [
-        "Split your big list by industry, job title and company size.",
-        "Write one version of the email for each small group.",
-        "Mention what that group has in common in the first line."
+        "In your sending tool, turn off **open tracking** for every campaign.",
+        "Turn off **link tracking** too, or set up a custom tracking domain if you really need clicks.",
+        "Track what pays you instead: replies, interested replies and booked calls."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Fix 2: Send to smaller, tighter lists"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** a small list forces you to write for one kind of buyer. In Hunter's data, campaigns sent to **21 to 50 people got 6.2% replies vs 2.4% for 500+ people**. The average campaign went to 449 people, so most senders are on the wrong side of this."
+    },
+    {
+      "type": "p",
+      "text": "Hunter also found that emailing **1 or 2 people per company got 5.1% replies vs 3.5% for 3 or more**. Emailing the whole team at once looks like spam to them and to filters."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Split your big list by industry, job title, company size and location.",
+        "Inside each group, look for a shared trigger: hiring, new funding, a new location.",
+        "Write one version of the email for each small group, with a first line about what they have in common.",
+        "Contact 1 or 2 people per company, not 5."
       ]
     },
     {
@@ -37,28 +62,162 @@
     },
     {
       "type": "p",
-      "text": "Bounces tell inbox providers you bought a bad list. Keep bounces **under 2%**. Run every list through an email verifier and remove risky and catch-all addresses you can't confirm. Our campaigns run between 0.45% and 3.08% bounce, and we pause any inbox that goes over."
+      "text": "**Why:** bounces tell inbox providers you're emailing people you don't know. Hunter's average bounce rate was 3.6%. Keep yours **under 2%**. Above that, your other emails start landing in spam."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Run every list through an email verifier before it goes into a campaign, even a list you just bought.",
+        "Remove invalid addresses. Remove \"risky\" ones, or send them later from a separate small campaign.",
+        "Be careful with \"catch-all\" addresses (domains that accept everything). Send to them only in small batches and watch bounces.",
+        "Verify again if a list is more than a month or two old. People change jobs all the time."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Our own campaigns run between 0.45% and 3.08% bounce, and we pause any inbox that goes over the line until the list is cleaned."
     },
     {
       "type": "h2",
       "text": "Fix 4: Keep it short and plain"
     },
     {
+      "type": "p",
+      "text": "**Why:** busy people read email on their phone and decide in seconds. Instantly's 2026 report found the best campaigns keep emails **under 80 words**."
+    },
+    {
       "type": "list",
       "items": [
-        "Under 80 words, so it fits on one phone screen",
-        "Plain text: no images, no fancy design",
-        "One link at most, or none in the first email",
-        "One small question at the end, like \"Worth a look?\""
+        "Under 80 words, so it fits on one phone screen without scrolling",
+        "Plain text: no images, no logos, no fancy design",
+        "No link in the first email, or one at most",
+        "One idea per email",
+        "End with one small question, like \"Worth a look?\", not \"Can we book 30 minutes?\""
+      ]
+    },
+    {
+      "type": "prompt",
+      "label": "Simple 4-line structure",
+      "text": "Line 1: something true about them (see our WELL guide)\nLine 2: the problem that usually comes with it\nLine 3: one proof that you fix it (a real result)\nLine 4: a small yes-or-no question"
+    },
+    {
+      "type": "h2",
+      "text": "Fix 5: Send smart follow-ups (and know when to stop)"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** Instantly found that **58% of replies come from the first email** and **42% come from follow-ups**. Stop after one email and you lose almost half your replies. The same report found the best sequences are **4 to 7 emails, spaced 3 to 7 days apart**."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Email",
+        "Day",
+        "What to say"
+      ],
+      "rows": [
+        [
+          "1",
+          "Day 1",
+          "The main email: about them, one result, small question."
+        ],
+        [
+          "2",
+          "Day 4",
+          "A new angle: a different problem you solve, or a short case study."
+        ],
+        [
+          "3",
+          "Day 8",
+          "Make it easy: offer something useful, like a short teardown or a free resource."
+        ],
+        [
+          "4",
+          "Day 15",
+          "The polite close: \"Should I stop reaching out about this?\" These often get replies."
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        "Never send \"just bumping this up\". Every follow-up needs a new reason to reply.",
+        "Reply in the same thread, so they can see the earlier email.",
+        "Stop immediately when someone replies, even with a \"no\".",
+        "Don't go past 7 emails. Each extra email adds more spam-report risk."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Comment THREE on our reels for our email 3 template."
+    },
+    {
+      "type": "h2",
+      "text": "Bonus: send from a real domain"
+    },
+    {
+      "type": "p",
+      "text": "Hunter found emails from custom domains got **5.2% replies vs 2.5% from free addresses** like Gmail. Use separate domains that look like your brand, never your main domain. Our MATH guide shows how many you need."
+    },
+    {
+      "type": "h2",
+      "text": "Find what's wrong with your campaign"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Most likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Bounce rate over 2%",
+          "Old or unverified list",
+          "Fix 3: verify, remove risky addresses"
+        ],
+        [
+          "Almost no replies, even \"no\"s",
+          "Landing in spam",
+          "Check warm-up, DNS records, turn tracking off, slow down"
+        ],
+        [
+          "Replies dropped suddenly",
+          "An inbox or domain got flagged",
+          "Pause that inbox, keep warm-up on, check Google Postmaster Tools"
+        ],
+        [
+          "Lots of \"not interested\" replies",
+          "Wrong people or weak offer",
+          "Fix 2: tighter list, better reason to talk"
+        ],
+        [
+          "Replies, but nobody books a call",
+          "The ask is too big",
+          "Ask a smaller question, reply to interested leads within an hour"
+        ],
+        [
+          "Spam complaints",
+          "Irrelevant list, too many follow-ups",
+          "Tighter list, stop at 4 to 5 emails, easy way to opt out"
+        ]
       ]
     },
     {
       "type": "h2",
-      "text": "Fix 5: Send the follow-ups"
+      "text": "Your weekly checklist"
     },
     {
-      "type": "p",
-      "text": "Most replies come after the first email. Send 3 to 4 emails a few days apart, and give each follow-up a new angle, not \"just bumping this up\". Comment THREE on our reels for the email 3 template."
+      "type": "steps",
+      "items": [
+        "Open tracking and link tracking are off.",
+        "Every list sent this week was verified first.",
+        "Bounce rate is under 2% on every inbox.",
+        "Each campaign goes to a small group with one shared reason to care.",
+        "Every email is under 80 words and plain text.",
+        "Every follow-up has a new angle.",
+        "Interested replies get an answer the same day."
+      ]
     },
     {
       "type": "tip",
@@ -68,9 +227,19 @@
   ],
   "resources": [
     {
-      "name": "Hunter.io",
-      "url": "https://hunter.io",
-      "note": "Source of the 2026 reply rate data, plus email finding and verification"
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Tracking, list size and domain data from 31 million emails"
+    },
+    {
+      "name": "Instantly 2026 benchmark report",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Reply benchmarks, follow-up and email length data"
+    },
+    {
+      "name": "Google Postmaster Tools",
+      "url": "https://postmaster.google.com",
+      "note": "Check how Gmail sees your domain"
     },
     {
       "name": "Free cold email playbook",
@@ -81,11 +250,19 @@
   "faq": [
     {
       "q": "If tracking is off, how do I know it's working?",
-      "a": "Count replies and booked calls. Those are the numbers that pay you anyway."
+      "a": "Count replies, interested replies and booked calls. Those are the numbers that pay you anyway."
+    },
+    {
+      "q": "What's a good reply rate?",
+      "a": "Around 3 to 4.5% is average, 5.5% or more is top-quarter and 10% or more is excellent, based on Instantly's and Hunter's 2026 reports. Track interested replies too, since a reply can also be a no."
+    },
+    {
+      "q": "How many follow-ups is too many?",
+      "a": "Instantly's data points to 4 to 7 emails in total. We usually stop at 4 or 5, because spam-report risk grows with each extra email."
     },
     {
       "q": "Is cold email legal?",
-      "a": "In the U.S. it is, if you follow CAN-SPAM rules. Our [legal guide](/blog/is-cold-email-legal.html) explains it in plain English."
+      "a": "In the U.S., yes, if you follow CAN-SPAM rules. Our [legal guide](/blog/is-cold-email-legal.html) explains it in plain English. Other countries have their own rules."
     }
   ],
   "date": "2026-10-30",

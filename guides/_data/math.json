@@ -1,81 +1,269 @@
 {
   "slug": "math",
   "keyword": "MATH",
-  "title": "The Sending Calculator: 1,000 Cold Emails a Day Without Spam",
-  "description": "The exact math for sending 1,000 cold emails a day: how many inboxes, how many domains, how long to warm up and how to ramp safely.",
-  "lead": "This is the sending calculator from the reel. Pick your daily goal, and the table tells you how many inboxes and domains you need, plus the warm-up and ramp plan that keeps you out of spam.",
+  "title": "The Sending Calculator: How to Send 1,000 Cold Emails a Day Without Landing in Spam",
+  "description": "The full math for cold email volume: how many inboxes and domains you need, the warm-up and ramp plan, the Gmail and Yahoo rules, and the weekly health check.",
+  "lead": "This is the full sending calculator from the reel. Pick how many cold emails you want to send a day, and this guide tells you how many inboxes and domains to buy, how long to warm them up, how to ramp without getting flagged, and what to check every week so it keeps working.",
   "insider": "This is the same math we used before our 5-day blitz: **96,408 emails in five days with a 0.45% bounce rate**, because every inbox was already warmed up and the list was verified on day one. The math is simple. Buying the domains, setting up the inboxes and watching their health every day is the work we do for clients.",
   "case": "case-03",
   "blocks": [
     {
       "type": "h2",
-      "text": "The rule behind the math"
+      "text": "The short answer"
     },
     {
       "type": "p",
-      "text": "Sending more email is not about a better tool or a magic setting. It's about spreading the volume across enough inboxes so no single inbox looks like a spammer. A common rule is **about 30 cold emails a day per inbox**, and **about 3 inboxes per domain**."
-    },
-    {
-      "type": "h2",
-      "text": "The calculator"
-    },
-    {
-      "type": "p",
-      "text": "Inboxes = daily emails ÷ 30. Domains = inboxes ÷ 3. Round both up."
+      "text": "Send **about 30 cold emails a day from each inbox**, and put **no more than 3 inboxes on each domain**. Then add inboxes until you reach your daily goal. That's the whole idea. The rest of this guide is the detail that makes it work."
     },
     {
       "type": "table",
       "head": [
         "Emails a day",
-        "Inboxes",
-        "Domains"
+        "Inboxes (÷30)",
+        "Domains (÷3)",
+        "Weeks to full volume"
       ],
       "rows": [
         [
           "100",
           "4",
-          "2"
+          "2",
+          "5"
         ],
         [
           "300",
           "10",
-          "4"
+          "4",
+          "5"
         ],
         [
           "500",
           "17",
-          "6"
+          "6",
+          "5"
         ],
         [
           "1,000",
           "34",
-          "12"
+          "12",
+          "5"
         ],
         [
           "2,000",
           "67",
-          "23"
+          "23",
+          "5"
         ]
       ]
     },
     {
-      "type": "tip",
-      "label": "Rule",
-      "text": "Never send cold email from your main business domain. Buy separate domains that look like it (for example getacme.com for acme.com), so your main domain stays safe."
+      "type": "p",
+      "text": "The time to full volume is the same at every size: 2 weeks of warm-up, then a 3-week ramp. Buying more inboxes doesn't make it faster. It only makes the final number bigger."
     },
     {
       "type": "h2",
-      "text": "The warm-up and ramp plan"
+      "text": "Why 30 a day per inbox"
+    },
+    {
+      "type": "p",
+      "text": "Google Workspace lets a paid inbox send up to **2,000 emails a day** (only 500 on a trial account), per [Google's own limits page](https://support.google.com/a/answer/166852). That's a system limit, not a safe cold email limit. Inbox providers judge each inbox by how it behaves, and a brand-new inbox sending hundreds of emails to strangers looks exactly like a spammer."
+    },
+    {
+      "type": "p",
+      "text": "The data agrees with keeping it low. In [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email) (31 million emails sent in 2025), inboxes sending **20 to 49 emails a day got a 5.7% reply rate**, above the 4.5% average. 30 a day sits safely in that range and is easy to do the math with."
+    },
+    {
+      "type": "tip",
+      "label": "Simple rule",
+      "text": "Need more volume? Add more inboxes. Never push one inbox harder."
+    },
+    {
+      "type": "h2",
+      "text": "Why 3 inboxes per domain"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**It spreads the risk.** If one domain gets a bad reputation, you lose 3 inboxes, not your whole setup.",
+        "**It keeps each domain's volume low.** 3 inboxes × 30 = about 90 emails a day per domain, which looks like a normal small team.",
+        "**It makes problems easy to find.** When results drop, you can see which domain is the problem and pause only that one."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 1: Buy the right domains"
     },
     {
       "type": "steps",
       "items": [
-        "Set up every inbox with SPF, DKIM and DMARC records. Our [DNS guide](/blog/dns-records-for-cold-email.html) shows the exact values.",
-        "Warm up every inbox for **14 days** before it sends a single cold email.",
-        "Week 1: send **10 a day** per inbox.",
-        "Week 2: send **20 a day** per inbox.",
-        "Week 3: send **30 a day** per inbox, your full volume.",
-        "Every Monday, check two numbers: **bounces under 2%** and **inbox health 95 or higher**. If either goes red, slow that inbox down before you scale."
+        "**Never send cold email from your main domain.** If it gets flagged, your normal emails to clients and invoices start going to spam too.",
+        "Buy domains that look like your brand: for acme.com, try getacme.com, acmehq.com, tryacme.com or acme-team.com.",
+        "Stick to **.com** where you can. Unusual endings look less trustworthy to people and filters.",
+        "Point every sending domain to your real website, so anyone who checks it lands somewhere real.",
+        "Buy **1 or 2 spare domains** and warm them up too. When one gets tired, you swap it in without waiting 5 weeks."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 2: Set up the DNS records"
+    },
+    {
+      "type": "p",
+      "text": "Every sending domain needs three records before it sends anything: **SPF** (which servers can send for you), **DKIM** (a signature that proves the email wasn't changed) and **DMARC** (what to do with emails that fail the first two). Our [DNS records guide](/blog/dns-records-for-cold-email.html) shows the exact values to paste."
+    },
+    {
+      "type": "p",
+      "text": "These aren't optional anymore. [Google's sender rules](https://support.google.com/mail/answer/81126) require them, and anyone who sends about **5,000 or more emails a day to Gmail addresses** counts as a bulk sender with stricter rules. That status is counted per main domain and doesn't go away if your volume drops later. Yahoo and Microsoft (Outlook.com) have similar rules."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Rule",
+        "What it means for you"
+      ],
+      "rows": [
+        [
+          "SPF + DKIM + DMARC set up",
+          "Add all three on every sending domain before warm-up starts."
+        ],
+        [
+          "Spam rate under 0.3%",
+          "Fewer than 3 spam reports per 1,000 emails. Aim for under 0.1%, which is the target Google recommends."
+        ],
+        [
+          "Easy way to opt out",
+          "Make it simple to say no. A plain line like \"Not the right person? Just reply and I won't email again.\" works for cold email."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 3: Warm up, then ramp"
+    },
+    {
+      "type": "p",
+      "text": "Warm-up means the inbox sends and receives normal-looking emails with other inboxes for a while, so providers learn it's a real sender. Most sending tools (Instantly, Smartlead and others) do this for you automatically."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Week",
+        "Each inbox sends",
+        "Example: 34 inboxes",
+        "Warm-up"
+      ],
+      "rows": [
+        [
+          "1",
+          "0 cold emails",
+          "0 a day",
+          "On"
+        ],
+        [
+          "2",
+          "0 cold emails",
+          "0 a day",
+          "On"
+        ],
+        [
+          "3",
+          "10 a day",
+          "340 a day",
+          "Keep it on"
+        ],
+        [
+          "4",
+          "20 a day",
+          "680 a day",
+          "Keep it on"
+        ],
+        [
+          "5+",
+          "30 a day",
+          "1,020 a day",
+          "Keep it on, always"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "This plan puts you at full volume in week 5. That matches [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026), which says new domains need **4 to 6 weeks** before full volume. Instantly also found that steady sending gets 15 to 20% more replies than on-and-off sending, so send a similar amount every working day instead of big bursts."
+    },
+    {
+      "type": "tip",
+      "label": "Don't turn warm-up off",
+      "text": "Leave warm-up running even after you reach full volume. It keeps a steady stream of good activity on every inbox."
+    },
+    {
+      "type": "h2",
+      "text": "Step 4: The weekly health check"
+    },
+    {
+      "type": "p",
+      "text": "Do this every Monday. It takes 10 minutes and catches problems before they cost you a domain."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Check",
+        "Healthy",
+        "What to do if it's not"
+      ],
+      "rows": [
+        [
+          "Bounce rate",
+          "Under 2%",
+          "Stop sending to that list and verify it again before you continue."
+        ],
+        [
+          "Spam rate (Google Postmaster Tools)",
+          "Under 0.1%",
+          "Slow that domain to half volume and check your list and email."
+        ],
+        [
+          "Warm-up / inbox health score in your tool",
+          "95 or higher",
+          "Pause cold sending on that inbox for a week, keep warm-up on."
+        ],
+        [
+          "Reply rate by inbox",
+          "Similar across inboxes",
+          "If one inbox is far lower, it's probably landing in spam. Rest it."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Set up [Google Postmaster Tools](https://postmaster.google.com) for each sending domain. It's free, and it's the only place Google shows you how it sees your domain. You may need some volume before data shows up."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: 1,000 emails a day"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "1,000 ÷ 30 = 33.3, so round up to **34 inboxes**.",
+        "34 ÷ 3 = 11.3, so round up to **12 domains** (that gives you room for 36 inboxes).",
+        "Add **2 spare domains** with 3 inboxes each, warmed up and ready.",
+        "Set up SPF, DKIM and DMARC on all 14 domains on day 1.",
+        "Weeks 1–2: warm-up only. Week 3: 340 a day. Week 4: 680 a day. Week 5: 1,020 a day.",
+        "From week 5, run the Monday health check and swap a spare domain in if one goes red."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The 6 mistakes that burn domains"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sending from the main business domain.",
+        "Skipping warm-up because \"the domain is new, so it's clean\". New is exactly the problem.",
+        "Jumping from 0 to full volume in week one.",
+        "Sending to a list you never verified, so bounces shoot past 2%.",
+        "Sending big bursts on some days and nothing on others.",
+        "Ignoring the numbers until replies suddenly stop."
       ]
     },
     {
@@ -85,33 +273,52 @@
     {
       "type": "prompt",
       "label": "Sending plan prompt",
-      "text": "I want to send [number] cold emails per day.\nRules: max 30 emails per inbox per day, 3 inboxes per domain, 14 days of warm-up, then ramp 10 / 20 / 30 emails per inbox per day over 3 weeks.\nGive me: 1) how many inboxes and domains I need, 2) a week-by-week sending plan with total emails per day, 3) the date I reach full volume if I start on [date].\nShow the math in a simple table."
-    },
-    {
-      "type": "p",
-      "text": "Start slow, or none of this works. Most spam problems come from rushing week one."
+      "text": "I want to send [number] cold emails per day, starting on [date].\nRules: max 30 cold emails per inbox per day, max 3 inboxes per domain, plus 2 spare domains. 2 weeks of warm-up with no cold emails, then 10 / 20 / 30 emails per inbox per day in weeks 3, 4 and 5.\n\nGive me:\n1) how many inboxes and domains I need (round up),\n2) a week-by-week table with total cold emails per day,\n3) the date I reach full volume,\n4) a Monday checklist for bounce rate (under 2%), spam rate (under 0.1%) and inbox health.\nShow the math step by step."
     }
   ],
   "resources": [
     {
-      "name": "Instantly",
-      "url": "https://instantly.ai",
-      "note": "Inbox warm-up and sending"
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Source of the per-inbox volume and reply data"
     },
     {
-      "name": "Google Workspace",
-      "url": "https://workspace.google.com",
-      "note": "Inboxes for your sending domains"
+      "name": "Instantly 2026 benchmark report",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Warm-up time and consistent sending data"
+    },
+    {
+      "name": "Google email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "The official Gmail rules"
+    },
+    {
+      "name": "Google Workspace sending limits",
+      "url": "https://support.google.com/a/answer/166852",
+      "note": "Official daily limits per inbox"
+    },
+    {
+      "name": "Google Postmaster Tools",
+      "url": "https://postmaster.google.com",
+      "note": "Free spam rate and reputation dashboard"
     }
   ],
   "faq": [
     {
       "q": "Can I send more than 30 a day per inbox?",
-      "a": "Some people do, but it raises the risk. Keeping each inbox low and adding more inboxes is the safer way to grow volume."
+      "a": "Some senders push older, healthy inboxes higher. It raises the risk, and in Hunter's data the 20 to 49 range did best. Adding inboxes is the safer way to grow."
+    },
+    {
+      "q": "Can I use free Gmail accounts instead?",
+      "a": "Don't. Free accounts have lower limits, and Hunter found emails from free addresses got 2.5% replies vs 5.2% from custom domains."
     },
     {
       "q": "How much does this setup cost?",
-      "a": "It depends on your provider. You pay per domain each year and per inbox each month, plus a sending tool. Compare current prices on each provider's site."
+      "a": "You pay per domain each year, per inbox each month and for a sending tool. Prices change often, so compare current prices on each provider's site before you buy."
+    },
+    {
+      "q": "Does the 5,000-a-day bulk sender rule apply to me?",
+      "a": "It counts emails to Gmail addresses from your main domain in one day. Even below it, the same rules (authentication, low spam rate, easy opt-out) are what keep you out of spam, so follow them anyway."
     }
   ],
   "date": "2026-10-30",
