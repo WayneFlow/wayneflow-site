@@ -91,7 +91,7 @@ PRIVACY_SECTIONS = [
    'We do not sell personal information and we do not "share" it for targeted advertising as those terms are defined under California law.')),
  ('Cookies and analytics', P(
    'We use PostHog analytics and our own first-party code to understand how people find and use this website. This includes how you arrived (for example a search engine, an AI assistant, a social network, a marketplace profile, an ad or a direct visit, including any campaign tags in the link), the pages you view, how far you scroll, how long you stay, which buttons and links you click, and general device, browser and approximate location data (derived from your IP address).',
-   'To understand which businesses visit, your IP address is checked once against a public IP database (IPinfo, or ipapi as a backup) to see the name of the network or company it belongs to. We store that network name, not your IP address, and use it to follow up with businesses that show interest. If you download our free playbook or subscribe to our newsletter, the email you enter is saved with your visit history, time zone, device and approximate location so we can send the file and follow up; you can opt out anytime. We call or text a phone number only if you gave it to us with consent, and you can reply STOP to opt out.',
+   'To understand which businesses visit, your IP address is checked once against a public IP database (IPinfo, or ipapi as a backup) to see the name of the network or company it belongs to. We store that network name, not your IP address, and use it to follow up with businesses that show interest. If you download our free playbook or subscribe to our newsletter, the email you enter is saved with your visit history, time zone, device and approximate location so we can send the file and a few short, personal follow-up emails from founder@wayneflow.com about what you looked at. We may read your company website to make those emails relevant. Every email has a one-click unsubscribe link, and replying “stop” also works. We call or text a phone number only if you gave it to us with consent, and you can reply STOP to opt out.',
    'We also record anonymized session replays and heatmaps to improve the site. Text you type into fields is masked and is not recorded. When you click a booking link we pass the traffic source to Calendly, so we know which channel a booked call came from.',
    'This data is stored with PostHog in the United States and kept only as long as we need it to run and improve our marketing. We honor the "Do Not Track" setting in your browser: when it is on, our analytics do not run. You can also block or delete cookies and local storage in your browser settings; the site will still work.')),
  ('Email outreach and opting out', P(
@@ -345,3 +345,15 @@ def story_html(CAL, cases_href='results.html', heading=True):
       <div class="st-end"><p class="st-quote">&ldquo;We know what an empty calendar feels like. That is why we built a system that fills yours.&rdquo;<span>Ali &amp; Asim</span></p>
         <div class="ctas"><a class="btn btn-primary" href="{CAL}" target="_blank" rel="noopener">Book a call with Ali &amp; Asim</a><a class="btn btn-secondary" href="{cases_href}">See the case studies</a></div></div>
     </div>'''
+
+
+UNSUB = '''<section class="sec" style="min-height:55vh;display:grid;place-items:center;text-align:center">
+  <div class="wrap"><span class="kicker">Email preferences</span><h1 style="margin-top:14px">You are <span class="hl">unsubscribed.</span></h1>
+  <p class="lead" style="margin-inline:auto" id="us-msg">You will not get any more emails from WayneFlow. Sorry to see you go.</p>
+  <div class="ctas" style="justify-content:center"><a class="btn btn-secondary" href="/">Back to the home page</a></div></div>
+</section>
+<script>
+(function(){var u=(new URLSearchParams(location.search)).get('u')||'';var n=0;
+ (function go(){if(window.posthog&&window.posthog.capture){window.posthog.capture('email_unsubscribed',{u:u.slice(0,80)});return}if(++n<40)setTimeout(go,250)})();
+ if(!u){document.getElementById('us-msg').textContent='To unsubscribe, reply \u201cstop\u201d to any email from founder@wayneflow.com.'}})();
+</script>'''

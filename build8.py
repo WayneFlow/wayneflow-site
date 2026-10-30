@@ -565,6 +565,7 @@ docs = {
  'privacy.html': ('privacy', 'Privacy Policy | WayneFlow B2B Appointment Setting', 'How WayneFlow collects, uses and protects personal information, and how to use your privacy rights or opt out of emails.', PRIV_B, False, 'privacy.html', [], False),
  'terms.html': ('terms', 'Terms of Service | WayneFlow B2B Appointment Setting', 'The terms that apply when you use the WayneFlow website or hire WayneFlow for B2B appointment setting and outbound lead generation.', TERMS_B, False, 'terms.html', [], False),
  PBP.SLUG: ('playbook', PBP.TITLE, PBP.DESC, PBP.playbook_html(CAL, CHECK, SITE), False, PBP.SLUG, [crumb_ld('Free cold email playbook', PBP.SLUG), faq_ld(PBP.FAQ), PBP.schema(SITE)], False),
+ 'unsubscribe.html': ('unsub', 'Unsubscribe | WayneFlow', 'Stop emails from WayneFlow.', UNSUB, False, 'unsubscribe.html', [], True),
  '404.html': ('404', 'Page Not Found | WayneFlow B2B Appointment Setting', 'This page does not exist or has moved. Go to the WayneFlow home page or see our live campaign results.', NOTFOUND, False, '404.html', [], True),
 }
 for f, (key, title, desc, body, three, path, sch, noidx) in docs.items():
