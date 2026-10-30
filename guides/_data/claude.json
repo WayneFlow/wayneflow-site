@@ -1,0 +1,81 @@
+{
+  "slug": "claude",
+  "keyword": "CLAUDE",
+  "draft": true,
+  "date": "2026-10-30",
+  "title": "The Claude Prompt That Writes a Cold Email Under 80 Words",
+  "description": "Copy our exact Claude prompt that turns a prospect's website into a short, personal cold email in under a minute.",
+  "lead": "This is the exact prompt from the reel. Paste it into Claude, add one prospect's website, and get a cold email under 80 words that sounds like a human wrote it.",
+  "insider": "We use a version of this prompt on every campaign we run. It's one reason our agency client kept getting about **100 interested replies a week** for four and a half months. The prompt is the easy part. The hard part is the list, the inboxes and the follow-ups, and that's what we do for clients.",
+  "case": "case-01",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "What you need"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A free or paid Claude account",
+        "The website of one prospect you want to email",
+        "One sentence about what you sell"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step by step"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Open Claude and start a new chat.",
+        "Copy the prompt below and replace the two parts in [brackets].",
+        "Paste the prospect's homepage text (or the link) under the prompt.",
+        "Read the email out loud. If any line sounds like a robot, ask Claude to make it more casual."
+      ]
+    },
+    {
+      "type": "prompt",
+      "label": "The prompt",
+      "text": "You are writing a cold email to a busy business owner.\n\nWhat I sell: [one sentence about your offer]\nProspect website: [paste their homepage text or link]\n\nWrite one cold email with these rules:\n1. Under 80 words.\n2. First line mentions something specific from their website.\n3. One sentence on the problem they probably have.\n4. One sentence on the result we get (use numbers).\n5. End with a low-pressure question, not a meeting request.\nNo buzzwords, no exclamation marks, write like a human texting a colleague."
+    },
+    {
+      "type": "tip",
+      "text": "Ask for 3 versions and pick the one you would actually reply to yourself."
+    },
+    {
+      "type": "h2",
+      "text": "Why short emails win"
+    },
+    {
+      "type": "p",
+      "text": "Busy people read cold emails on their phone. Under 80 words fits on one screen with no scrolling, so the whole message gets read. Long emails get skimmed and archived."
+    },
+    {
+      "type": "p",
+      "text": "Ending with a question like **\"Worth a look?\"** instead of **\"Can we book 30 minutes?\"** makes it easy to say yes. Most replies start as a small yes."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Where you paste the prompt"
+    },
+    {
+      "name": "Free cold email playbook",
+      "url": "https://wayneflow.com/free-cold-email-playbook.html",
+      "note": "35 pages, the full system we use"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does this work with ChatGPT too?",
+      "a": "Yes. The prompt works in any AI chat tool. We use Claude because its writing sounds more natural."
+    },
+    {
+      "q": "Can I send these emails from my main domain?",
+      "a": "Don't. Use a separate sending domain so your main domain stays safe. Our [DNS guide](/blog/dns-records-for-cold-email.html) shows how."
+    }
+  ]
+}
