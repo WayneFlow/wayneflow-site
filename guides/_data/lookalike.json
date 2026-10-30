@@ -1,0 +1,74 @@
+{
+  "slug": "lookalike",
+  "keyword": "LOOKALIKE",
+  "title": "The Lookalike List Playbook: 500 Companies Like Your Best Customer",
+  "description": "Start from your 5 best customers and build a list of companies that look exactly like them. Steps, tools and the outreach sequence.",
+  "lead": "This is the Lookalike List Playbook from the reel. Start from your 5 best customers and build a list of companies that look just like them.",
+  "insider": "Targeting is where we spend most of our setup time. A well-built list is how one client got **4,372 replies and 1,061 interested leads in one quarter**. Tools make lookalike lists fast. Cleaning them, finding the right people and verifying every email is the part most teams skip, and the part we handle for clients.",
+  "case": "case-04",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The result that inspired it"
+    },
+    {
+      "type": "p",
+      "text": "One rep (an AE at Ocean, shared on HeyReach's site) started from her top 5 customers and got **173 requests and 41 meetings**."
+    },
+    {
+      "type": "h2",
+      "text": "The 6 steps"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Pick 5 customers you'd love to clone: happy, paying and easy to work with.",
+        "Feed them into a lookalike tool, like Ocean.io, to find similar companies.",
+        "Cut anything that doesn't fit: wrong size, wrong country, wrong business model.",
+        "Find 2 to 3 decision makers per company.",
+        "Use the customer they look like as your proof: \"We help companies like [customer].\"",
+        "Her sequence: connect on LinkedIn with no note, then a voice note, then a short video."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Describe your best customer with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Prompt",
+      "text": "Here are my 5 best customers (name, website, what they buy from me):\n[paste]\n\nFind what they have in common: industry, company size, location, tech they use, how they sell, recent changes (hiring, funding, new locations). Then write the filters I should use in a lookalike or lead database tool, and 3 job titles I should target at each company."
+    },
+    {
+      "type": "tip",
+      "label": "Warning",
+      "text": "It only works if your 5 really are your best. Five average customers give you 500 average leads."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Ocean.io",
+      "url": "https://www.ocean.io",
+      "note": "Lookalike company search"
+    },
+    {
+      "name": "HeyReach",
+      "url": "https://www.heyreach.io",
+      "note": "LinkedIn outreach, where the case was shared"
+    }
+  ],
+  "faq": [
+    {
+      "q": "I don't have 5 customers yet. What now?",
+      "a": "Use the 1 to 3 you have, or describe the customer you want in detail and build filters from that."
+    },
+    {
+      "q": "Email or LinkedIn?",
+      "a": "Both work. The rep in this example used LinkedIn. We often run both together."
+    }
+  ],
+  "date": "2026-10-30",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

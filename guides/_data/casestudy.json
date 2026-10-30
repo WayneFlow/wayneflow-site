@@ -1,0 +1,67 @@
+{
+  "slug": "casestudy",
+  "keyword": "CASESTUDY",
+  "title": "The Case Study to Campaign Kit: Turn One Happy Client Into 10 Campaigns",
+  "description": "Turn one real client result into 10 cold email campaigns aimed at lookalike companies. The 4 steps plus 10 angle prompts.",
+  "lead": "This is the case study to campaign kit from the reel, with the 10 angle prompts. One real client result can become ten different campaigns.",
+  "insider": "We do this with our own results. The agency client campaign below became the proof in many of our own emails: **2,146 interested replies in four and a half months**. Turning one result into ten campaigns that actually send is real work, and it's what we set up for clients.",
+  "case": "case-01",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The result that inspired it"
+    },
+    {
+      "type": "p",
+      "text": "One agency built **$4-5M of pipeline** for a single client by emailing companies that looked like that client (Smartlead case study: The Kiln)."
+    },
+    {
+      "type": "h2",
+      "text": "The 4 steps"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Write the result as one line: who, what result, how fast. Use the number they count (calls, revenue, hires).",
+        "Find companies that look like that client: same industry, size and stage.",
+        "One angle = one campaign. Ten angles = ten campaigns.",
+        "Put the closest match in line one, run all ten small, and scale the winners."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The 10 angle prompts"
+    },
+    {
+      "type": "prompt",
+      "label": "Paste into Claude",
+      "text": "Here is one real client result:\n[who they are, what result, how fast, with the number]\n\nWrite 10 different cold email angles that use this result. Use these 10 angles, one each:\n1. Speed (how fast it happened)\n2. Money (revenue or savings)\n3. Before and after\n4. Same industry\n5. Same city or region\n6. Same company size\n7. The problem they had before\n8. What they tried before that didn't work\n9. Fear of missing out (their competitor is doing it)\n10. The smallest first step\n\nFor each angle: a subject line, a first line under 15 words, and a one-sentence proof. Plain English, no hype."
+    },
+    {
+      "type": "tip",
+      "label": "Warning",
+      "text": "Only works if the result is real and specific. Never round up or invent a number."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Smartlead",
+      "url": "https://www.smartlead.ai",
+      "note": "Source of The Kiln case study"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use a client's name?",
+      "a": "Only with their permission. Otherwise describe them: \"a construction software company in Texas\"."
+    },
+    {
+      "q": "How small is \"run all ten small\"?",
+      "a": "A few hundred people per angle is enough to see which ones get replies before you scale."
+    }
+  ],
+  "date": "2026-10-30",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

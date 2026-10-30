@@ -1,0 +1,60 @@
+{
+  "slug": "slash",
+  "keyword": "SLASH",
+  "title": "The Slash Subject Line Kit: [Your Company] / [Their Company]",
+  "description": "The slash subject line a famous founder swears by, why it works, and 4 steps to write the email that goes with it.",
+  "lead": "This is the Slash Subject Line Kit from the reel. One punctuation mark makes your cold email look like a shared project instead of an ad.",
+  "insider": "We test subject lines on every campaign before we scale. In one small pilot, that testing helped get a **4% reply rate and 103 sales opportunities from 10,284 people**. A good subject line gets the open. A good list and offer get the reply, and that's the system we build for clients.",
+  "case": "case-05",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The subject line"
+    },
+    {
+      "type": "prompt",
+      "label": "Subject line formula",
+      "text": "[Your company] / [Their company]\n\nExamples:\nWayneFlow / Acme\nBrightPath / Summit Dental"
+    },
+    {
+      "type": "p",
+      "text": "Jesse Itzler shared this on X and says it works a lot. David Ogilvy said five times as many people read the headline as the body, and your subject line is the headline. A slash looks like an internal project between two companies, not a sales email."
+    },
+    {
+      "type": "h2",
+      "text": "The 4 steps"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Your name first, theirs second.",
+        "No emojis, no \"free\", no capital letters shouting.",
+        "Line one is about them: their new office, their new hire, their new product.",
+        "End with one small ask: \"Worth a look?\""
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Write the email with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Prompt",
+      "text": "My company: [name], what we do: [one sentence].\nProspect company: [name], website: [link].\n\nWrite a cold email with the subject \"[my company] / [their company]\". First line: something specific and recent about them. Then one sentence on the result we could get them. End with \"Worth a look?\". Under 70 words, plain text, no emojis."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does this work for every industry?",
+      "a": "It works best in B2B, where a partnership between two companies makes sense. Test it against your current subject line on two small lists."
+    },
+    {
+      "q": "Lowercase or capitals?",
+      "a": "Write company names the normal way. Just avoid ALL CAPS and spammy words."
+    }
+  ],
+  "date": "2026-10-30",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

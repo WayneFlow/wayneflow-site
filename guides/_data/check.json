@@ -1,0 +1,87 @@
+{
+  "slug": "check",
+  "keyword": "CHECK",
+  "title": "The 90-Second Morning Check That Keeps You Out of Spam",
+  "description": "Three numbers to check every morning to protect your cold email inboxes, plus the Claude prompt that checks every inbox for you.",
+  "lead": "This is the 90-second morning check from the reel, plus the Claude prompt that does it for you. Three numbers, every morning, before your emails go out.",
+  "insider": "We run this check every day on every client inbox. It's why our 5-day blitz sent **96,408 emails with a 0.45% bounce rate**. The check takes 90 seconds. Knowing what to do when a number goes red, and doing it the same day, is what keeps a campaign alive, and that's our job for clients.",
+  "case": "case-03",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The 3 numbers"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Check",
+        "Green",
+        "If it's red"
+      ],
+      "rows": [
+        [
+          "Bounce rate",
+          "Under 2%",
+          "Pause the campaign and clean the list"
+        ],
+        [
+          "Inbox health score",
+          "95 or higher",
+          "Lower that inbox's daily limit, keep warm-up on"
+        ],
+        [
+          "Spam test",
+          "Lands in the inbox",
+          "Stop that inbox and check its DNS records"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Instantly's own guide says to keep bounces under 2%, and its minimum health score is 90%. Aim higher, at 95, so you have a safety margin."
+    },
+    {
+      "type": "h2",
+      "text": "Let Claude do the check"
+    },
+    {
+      "type": "prompt",
+      "label": "Claude Code prompt",
+      "text": "Check my cold email setup in Instantly. For every inbox, give me: bounce rate for the last 7 days, warm-up health score, and daily sending limit.\nFlag in red: any inbox with bounces over 2%, health under 95, or no warm-up.\nFor each red inbox, tell me the one action to take today (pause it, lower its limit, or check DNS). Keep the healthy inboxes sending.\nShow the result as a table, worst inboxes first."
+    },
+    {
+      "type": "tip",
+      "text": "Pause only the bad inbox. Keep the rest sending, so one problem doesn't stop the whole campaign."
+    },
+    {
+      "type": "p",
+      "text": "It only works if you act the same day a number goes red."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Instantly",
+      "url": "https://instantly.ai",
+      "note": "Warm-up health and campaign analytics"
+    },
+    {
+      "name": "Claude Code",
+      "url": "https://claude.ai",
+      "note": "Runs the check for you"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I run a spam test?",
+      "a": "Send an email from the inbox to a few test accounts (Gmail and Outlook) or use a seed-list tool, and see if it lands in the inbox or spam."
+    },
+    {
+      "q": "What if every inbox goes red at once?",
+      "a": "Stop sending and check your list and DNS records first. That usually means a list or setup problem, not one bad inbox."
+    }
+  ],
+  "date": "2026-10-30",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

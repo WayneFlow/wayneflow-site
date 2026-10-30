@@ -1,0 +1,121 @@
+{
+  "slug": "math",
+  "keyword": "MATH",
+  "title": "The Sending Calculator: 1,000 Cold Emails a Day Without Spam",
+  "description": "The exact math for sending 1,000 cold emails a day: how many inboxes, how many domains, how long to warm up and how to ramp safely.",
+  "lead": "This is the sending calculator from the reel. Pick your daily goal, and the table tells you how many inboxes and domains you need, plus the warm-up and ramp plan that keeps you out of spam.",
+  "insider": "This is the same math we used before our 5-day blitz: **96,408 emails in five days with a 0.45% bounce rate**, because every inbox was already warmed up and the list was verified on day one. The math is simple. Buying the domains, setting up the inboxes and watching their health every day is the work we do for clients.",
+  "case": "case-03",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The rule behind the math"
+    },
+    {
+      "type": "p",
+      "text": "Sending more email is not about a better tool or a magic setting. It's about spreading the volume across enough inboxes so no single inbox looks like a spammer. A common rule is **about 30 cold emails a day per inbox**, and **about 3 inboxes per domain**."
+    },
+    {
+      "type": "h2",
+      "text": "The calculator"
+    },
+    {
+      "type": "p",
+      "text": "Inboxes = daily emails ÷ 30. Domains = inboxes ÷ 3. Round both up."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Emails a day",
+        "Inboxes",
+        "Domains"
+      ],
+      "rows": [
+        [
+          "100",
+          "4",
+          "2"
+        ],
+        [
+          "300",
+          "10",
+          "4"
+        ],
+        [
+          "500",
+          "17",
+          "6"
+        ],
+        [
+          "1,000",
+          "34",
+          "12"
+        ],
+        [
+          "2,000",
+          "67",
+          "23"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Rule",
+      "text": "Never send cold email from your main business domain. Buy separate domains that look like it (for example getacme.com for acme.com), so your main domain stays safe."
+    },
+    {
+      "type": "h2",
+      "text": "The warm-up and ramp plan"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Set up every inbox with SPF, DKIM and DMARC records. Our [DNS guide](/blog/dns-records-for-cold-email.html) shows the exact values.",
+        "Warm up every inbox for **14 days** before it sends a single cold email.",
+        "Week 1: send **10 a day** per inbox.",
+        "Week 2: send **20 a day** per inbox.",
+        "Week 3: send **30 a day** per inbox, your full volume.",
+        "Every Monday, check two numbers: **bounces under 2%** and **inbox health 95 or higher**. If either goes red, slow that inbox down before you scale."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Do the math with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Sending plan prompt",
+      "text": "I want to send [number] cold emails per day.\nRules: max 30 emails per inbox per day, 3 inboxes per domain, 14 days of warm-up, then ramp 10 / 20 / 30 emails per inbox per day over 3 weeks.\nGive me: 1) how many inboxes and domains I need, 2) a week-by-week sending plan with total emails per day, 3) the date I reach full volume if I start on [date].\nShow the math in a simple table."
+    },
+    {
+      "type": "p",
+      "text": "Start slow, or none of this works. Most spam problems come from rushing week one."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Instantly",
+      "url": "https://instantly.ai",
+      "note": "Inbox warm-up and sending"
+    },
+    {
+      "name": "Google Workspace",
+      "url": "https://workspace.google.com",
+      "note": "Inboxes for your sending domains"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I send more than 30 a day per inbox?",
+      "a": "Some people do, but it raises the risk. Keeping each inbox low and adding more inboxes is the safer way to grow volume."
+    },
+    {
+      "q": "How much does this setup cost?",
+      "a": "It depends on your provider. You pay per domain each year and per inbox each month, plus a sending tool. Compare current prices on each provider's site."
+    }
+  ],
+  "date": "2026-10-30",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

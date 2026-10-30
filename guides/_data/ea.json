@@ -1,0 +1,67 @@
+{
+  "slug": "ea",
+  "keyword": "EA",
+  "title": "The 2-Line Gatekeeper Email: Get Pointed to the Right Person",
+  "description": "Stop pitching CEOs who don't read their own inbox. Ask the assistant one easy question and get a warm introduction instead.",
+  "lead": "This is the exact 2-line email from the reel. Instead of fighting the executive assistant, you ask them one easy question, and they point you to the right person.",
+  "insider": "We aim every campaign at the real decision makers, not just the biggest title. For one construction software client that meant **31 qualified demos and 6 annual contracts**. Finding the right person at each company is slow research work, and it's a big part of what we do for clients.",
+  "case": "case-02",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why emailing the CEO fails"
+    },
+    {
+      "type": "p",
+      "text": "Many CEOs don't read their own inbox. An assistant sorts it first into three piles: for the boss, for someone else, or delete. A sales pitch goes straight to delete."
+    },
+    {
+      "type": "h2",
+      "text": "The 2-line email"
+    },
+    {
+      "type": "prompt",
+      "label": "Email to the assistant or CEO",
+      "text": "Subject: quick question\n\nHi {first_name}, who owns [your topic, e.g. sales hiring / outbound] at {company} these days?\nHappy to reach out to them directly."
+    },
+    {
+      "type": "h2",
+      "text": "The follow-up email to the person they name"
+    },
+    {
+      "type": "prompt",
+      "label": "Email to the right person",
+      "text": "Subject: {assistant_first_name} pointed me to you\n\nHi {first_name}, {assistant_first_name} said you're the right person for [topic].\n[One line on the result you get for companies like theirs.]\nWorth a quick chat?"
+    },
+    {
+      "type": "h2",
+      "text": "The rules"
+    },
+    {
+      "type": "list",
+      "items": [
+        "✅ Ask for a name. It's easy to answer.",
+        "❌ Never ask for the boss's calendar.",
+        "⚡ Email the person they point to the same day, while the name is fresh."
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Now your email opens with \"Sarah said you're the right person\", and it isn't cold anymore."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What if nobody replies?",
+      "a": "Send one short follow-up after 3 days. If there's still no answer, move to the next company."
+    },
+    {
+      "q": "Is it okay to mention the assistant's name?",
+      "a": "Yes, as long as it's true: only use the name of the person who actually pointed you there."
+    }
+  ],
+  "date": "2026-10-30",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

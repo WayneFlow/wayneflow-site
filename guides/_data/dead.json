@@ -1,0 +1,95 @@
+{
+  "slug": "dead",
+  "keyword": "DEAD",
+  "title": "Cold Email Isn't Dead: The 5 Fixes Guide",
+  "description": "The 5 fixes behind our 82,671-email campaign with 2,146 interested leads: tracking off, smaller lists, clean lists, short emails and real follow-ups.",
+  "lead": "This is the full 5 fixes guide from the reel. The reel showed 2 fixes. Here are all 5, the same ones behind our 82,671 emails, 2,429 replies and 2,146 interested leads.",
+  "insider": "These numbers are from our own agency client campaign (June 1 to October 19, 2026), with open tracking off the whole time. Only **6 of 76,081** people asked to be removed. You can copy the 5 fixes yourself. If you'd rather have them running next month without learning it all, that's exactly what we do.",
+  "case": "case-01",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Fix 1: Turn open tracking off"
+    },
+    {
+      "type": "p",
+      "text": "Open tracking adds a hidden pixel to every email, and inbox providers notice. Hunter.io's 2026 data (31 million emails) showed **7.4% replies with tracking off vs 4.4% with it on**. Judge your campaign by replies, not opens."
+    },
+    {
+      "type": "h2",
+      "text": "Fix 2: Send to smaller lists"
+    },
+    {
+      "type": "p",
+      "text": "In the same Hunter.io data, lists of **21 to 50 people got 6.2% replies vs 2.4% for lists of 500+**. Small lists force you to target better and write for one type of buyer."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Split your big list by industry, job title and company size.",
+        "Write one version of the email for each small group.",
+        "Mention what that group has in common in the first line."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Fix 3: Verify every email before you send"
+    },
+    {
+      "type": "p",
+      "text": "Bounces tell inbox providers you bought a bad list. Keep bounces **under 2%**. Run every list through an email verifier and remove risky and catch-all addresses you can't confirm. Our campaigns run between 0.45% and 3.08% bounce, and we pause any inbox that goes over."
+    },
+    {
+      "type": "h2",
+      "text": "Fix 4: Keep it short and plain"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Under 80 words, so it fits on one phone screen",
+        "Plain text: no images, no fancy design",
+        "One link at most, or none in the first email",
+        "One small question at the end, like \"Worth a look?\""
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Fix 5: Send the follow-ups"
+    },
+    {
+      "type": "p",
+      "text": "Most replies come after the first email. Send 3 to 4 emails a few days apart, and give each follow-up a new angle, not \"just bumping this up\". Comment THREE on our reels for the email 3 template."
+    },
+    {
+      "type": "tip",
+      "label": "Bottom line",
+      "text": "Cold email isn't dead. Bad cold email is."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter.io",
+      "url": "https://hunter.io",
+      "note": "Source of the 2026 reply rate data, plus email finding and verification"
+    },
+    {
+      "name": "Free cold email playbook",
+      "url": "https://wayneflow.com/free-cold-email-playbook.html",
+      "note": "35 pages, the full system"
+    }
+  ],
+  "faq": [
+    {
+      "q": "If tracking is off, how do I know it's working?",
+      "a": "Count replies and booked calls. Those are the numbers that pay you anyway."
+    },
+    {
+      "q": "Is cold email legal?",
+      "a": "In the U.S. it is, if you follow CAN-SPAM rules. Our [legal guide](/blog/is-cold-email-legal.html) explains it in plain English."
+    }
+  ],
+  "date": "2026-10-30",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

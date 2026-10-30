@@ -1,0 +1,105 @@
+{
+  "slug": "well",
+  "keyword": "WELL",
+  "title": "The Opener Swap Sheet: Replace \"I Hope This Email Finds You Well\"",
+  "description": "Swap the cold email openers that get deleted for openers about the prospect. Before-and-after examples plus a prompt to write yours.",
+  "lead": "This is the Opener Swap Sheet from the reel. The first line decides if your email gets read or deleted from the preview. Here's what to delete and what to write instead.",
+  "insider": "Every first line we write for clients is about the prospect, never about us. It's a big part of why one agency client of ours got **2,146 interested replies** in four and a half months. A good opener is the start. A good list and real follow-ups are what turn it into booked calls, and that's what we run for clients.",
+  "case": "case-01",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why the polite opener fails"
+    },
+    {
+      "type": "p",
+      "text": "\"I hope this email finds you well\" is not rude and it's not long. It's predictable. People read it in the inbox preview and know a pitch is coming, so they're gone before line two."
+    },
+    {
+      "type": "h2",
+      "text": "The 3 openers to delete"
+    },
+    {
+      "type": "list",
+      "items": [
+        "\"I hope this finds you well\"",
+        "\"I noticed you're the CEO\"",
+        "\"We leverage AI to drive synergies\""
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The swap sheet"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Delete this",
+        "Write this instead"
+      ],
+      "rows": [
+        [
+          "I hope this email finds you well.",
+          "Saw you're hiring 3 sales reps in Austin."
+        ],
+        [
+          "I noticed you're the CEO of Acme.",
+          "Congrats on opening the Denver office last month."
+        ],
+        [
+          "We leverage AI to drive synergies.",
+          "We helped a [similar company] book [result] in [time]."
+        ],
+        [
+          "I wanted to reach out because...",
+          "Quick question about your [specific thing from their site]."
+        ],
+        [
+          "My name is Ali and I work at...",
+          "(Delete it. Your name is already in the signature.)"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Two openers that work"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Open with them.** Something true and recent about their business: hiring, a new office, a new product, a post they wrote.",
+        "**Open with a result** for someone like them: \"We helped a home services company in Chicago book more sales calls from cold email.\" Only use results you can prove."
+      ]
+    },
+    {
+      "type": "prompt",
+      "label": "Opener prompt",
+      "text": "Here is a prospect's website and LinkedIn info:\n[paste it]\n\nWrite 5 different first lines for a cold email to them.\nRules: each line is about their business, not about me. Under 15 words. No \"I hope\", no \"I noticed you're the CEO\", no buzzwords. Mention something specific and recent (hiring, new office, product launch, a post they wrote)."
+    },
+    {
+      "type": "tip",
+      "text": "Something about their business beats being polite. Every time."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the prompt and the prospect's info"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Isn't it rude to skip the greeting?",
+      "a": "Keep \"Hi Sarah,\" and then go straight to something about them. That's friendly and gets read."
+    },
+    {
+      "q": "Where do I find something specific about them?",
+      "a": "Their website news page, job posts, LinkedIn posts and recent press. Two minutes of research per prospect is enough."
+    }
+  ],
+  "date": "2026-10-30",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

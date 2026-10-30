@@ -1,0 +1,89 @@
+{
+  "slug": "agent",
+  "keyword": "AGENT",
+  "title": "The AI Sales Agent Checklist: What AI Can and Can't Do in Cold Email",
+  "description": "Instantly and Smartlead launched AI sales agents. Here's a checklist of what to let AI do, what a human must own, and what to test first.",
+  "lead": "This is the AI agent checklist from the reel. AI can now send your cold email from one link, but some parts still need a human. Use this checklist before you hand it over.",
+  "insider": "We use AI every day for research and writing, and people for the offer, the replies and the sales call. That mix is how one client went from cold inboxes to **31 demos and 6 signed annual contracts**. If you want the AI speed with humans owning the parts that close deals, that's what we run.",
+  "case": "case-02",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "What the new AI agents say they do"
+    },
+    {
+      "type": "p",
+      "text": "Instantly launched an AI sales agent you set up with your website link, and Smartlead launched SmartAgents. They say the agents find buyers, find their emails, write the emails and follow-ups, and book meetings, with human review or full autopilot. We haven't seen public results data yet, only launch posts."
+    },
+    {
+      "type": "h2",
+      "text": "Let AI do this"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Find companies that match your filters",
+        "Find and verify email addresses",
+        "Write first drafts of emails and follow-ups",
+        "Send on schedule and stop when someone replies"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "A human must own this"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**The offer.** A weak offer sent faster is still weak.",
+        "**The replies.** Interested people need a fast, real answer.",
+        "**The sales call.** Someone still has to close.",
+        "**The numbers.** Someone checks bounces and inbox health every day."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Before you turn on autopilot"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Start with human review on, so you read every email before it goes out.",
+        "Test on a small list first (a few hundred people).",
+        "Check bounces stay under 2% and replies make sense.",
+        "Only then give it more volume."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "The answer",
+      "text": "It's not AI or an agency. It's both: AI does the sending, a human owns the offer, the replies and the call."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Instantly",
+      "url": "https://instantly.ai",
+      "note": "AI sales agent"
+    },
+    {
+      "name": "Smartlead",
+      "url": "https://www.smartlead.ai",
+      "note": "SmartAgents"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Will AI agents replace cold email agencies?",
+      "a": "They'll replace the manual sending. The offer, the targeting and the sales conversation still need people who know your market."
+    },
+    {
+      "q": "Is full autopilot safe?",
+      "a": "Not on day one. Run it with review first and watch your bounce rate and replies."
+    }
+  ],
+  "date": "2026-10-30",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

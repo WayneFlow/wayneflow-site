@@ -1,0 +1,93 @@
+{
+  "slug": "funnel",
+  "keyword": "FUNNEL",
+  "title": "The Funnel Math Sheet: How Many Emails for One Signed Client",
+  "description": "Work out how many cold emails you need for one signed client, using our real campaign numbers: 162,073 emails, 31 demos, 6 annual contracts.",
+  "lead": "This is the funnel math sheet from the reel. It shows how many emails it took us to sign one client in a real campaign, and how to work out the same number for your business.",
+  "insider": "This sheet comes from our campaign for a construction software company. The reply rate was below the 2026 average, and we still booked **31 qualified demos and 6 annual contracts**, because we aimed at real decision makers. Getting those numbers right for your business is the first thing we plan with every client.",
+  "case": "case-02",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Our real funnel"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Step",
+        "Number",
+        "Rate"
+      ],
+      "rows": [
+        [
+          "Emails sent",
+          "162,073",
+          ""
+        ],
+        [
+          "Replies",
+          "4,449",
+          "2.81% of emails"
+        ],
+        [
+          "Qualified sales demos",
+          "31",
+          "1 per ~5,200 emails"
+        ],
+        [
+          "Annual contracts signed",
+          "6",
+          "about 1 in 5 demos"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's roughly **27,000 emails per signed client** for this company. Your number will be different. The point is to know yours before you start."
+    },
+    {
+      "type": "h2",
+      "text": "Work out your own number"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Pick your monthly goal: how many new clients you want.",
+        "Estimate your demo-to-client rate. If you don't know it, start with 1 in 5.",
+        "Estimate emails per demo. Start with a careful guess, then replace it with your real number after the first 2 weeks.",
+        "Multiply: clients × demos per client × emails per demo = emails you need per month."
+      ]
+    },
+    {
+      "type": "prompt",
+      "label": "Funnel prompt",
+      "text": "My goal: [number] new clients per month.\nMy average deal size: $[amount].\nMy demo-to-client rate: [1 in X].\nEmails needed per demo (guess for now): [number].\n\nCalculate: demos needed per month, emails needed per month and per day (22 working days), and the revenue if I hit the goal. Then tell me which number I should test first to lower the cost per client. Show it as a table."
+    },
+    {
+      "type": "tip",
+      "label": "The real scoreboard",
+      "text": "Reply rate is not the scoreboard. Booked calls and signed contracts are. 100 replies from the wrong people = $0."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Instantly benchmarks",
+      "url": "https://instantly.ai",
+      "note": "Source of the 3.43% average reply rate mentioned in the reel"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Why so many emails per client?",
+      "a": "This campaign sold annual software contracts to construction companies, a careful buyer. Faster sales cycles usually need fewer emails."
+    },
+    {
+      "q": "What improves the math fastest?",
+      "a": "Better targeting. Emailing the right decision makers raises demos per email more than any copy trick."
+    }
+  ],
+  "date": "2026-10-30",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

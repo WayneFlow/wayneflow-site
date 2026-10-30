@@ -1,0 +1,74 @@
+{
+  "slug": "three",
+  "keyword": "THREE",
+  "title": "The Email 3 Template: The Follow-Up That Books the Meetings",
+  "description": "Belkins tracked 7.5 million cold emails: step 3 booked more meetings than steps 1 and 2 combined. Here's the email 3 template.",
+  "lead": "This is the email 3 template from the reel. Most people stop after email 2, right before the email that books the most meetings.",
+  "insider": "Every campaign we run has a planned follow-up sequence, with a new angle in each step. It's how one of our clients got **1,061 interested leads in a single quarter** at a 3.69% reply rate. Writing the sequence is half the job. Sending it on time to a clean list, every day, is the other half, and we handle both.",
+  "case": "case-04",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why email 3 matters"
+    },
+    {
+      "type": "p",
+      "text": "Belkins tracked 7.5 million cold emails in 2025. Email 1 had the best reply rate, but **step 3 alone booked more meetings than steps 1 and 2 combined**. People need a few touches before they say yes."
+    },
+    {
+      "type": "h2",
+      "text": "What email 3 needs"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**A new angle.** Not \"just bumping this to the top of your inbox\".",
+        "**One proof.** A short result for a company like theirs.",
+        "**One tiny ask.** Easy to say yes to."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The template"
+    },
+    {
+      "type": "prompt",
+      "label": "Email 3 template",
+      "text": "Subject: (keep the same thread)\n\nHi {first_name},\n\nDifferent idea: [new angle: a problem or goal you didn't mention in emails 1 and 2].\n\nWe did this for [similar company type]: [one real result with a number].\n\nWorth a 10-minute look?\n\n[Your name]"
+    },
+    {
+      "type": "h2",
+      "text": "Write yours with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Prompt",
+      "text": "Here are my cold email 1 and 2:\n[paste them]\n\nWrite email 3 for the same prospect. Rules: under 70 words, a completely new angle, one real proof point I'll fill in, and a tiny yes/no question at the end. Never say \"bumping this up\" or \"just following up\". Give me 3 versions."
+    },
+    {
+      "type": "tip",
+      "text": "Space the emails 3 to 4 days apart. Stop the sequence the moment someone replies."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Belkins",
+      "url": "https://belkins.io",
+      "note": "Source of the 7.5 million email study (2025)"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many emails should a sequence have?",
+      "a": "We usually run 3 to 4. After that, move people to a different channel like LinkedIn or try again in a few months."
+    },
+    {
+      "q": "Should email 3 be a new subject line?",
+      "a": "Keep it in the same thread so they see the history. The new angle goes in the body."
+    }
+  ],
+  "date": "2026-10-30",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}
