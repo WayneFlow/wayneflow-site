@@ -10,4 +10,5 @@ Block types: h2, h3, p, list, steps, prompt, tip, quote, image, table. Text supp
 ## InstantDM status (used by the hourly checker)
 - `"instantdm": "pending"`: guide page is live, the InstantDM automation still has to be made.
 - `"instantdm": "live"`: automation made and turned on (add `"instantdm_flow": "<flow name>"`).
+- `"instantdm": "skip"`: old reel, owner said not to make an automation.
 - `"reel_status"`: optional note, e.g. "made 2026-10-30, not uploaded yet".

@@ -90,6 +90,7 @@
   ],
   "date": "2026-10-30",
   "draft": false,
-  "instantdm": "pending",
-  "reel_status": "live on Instagram"
+  "instantdm": "live",
+  "reel_status": "live on Instagram",
+  "instantdm_flow": "DEAD - 5 fixes guide"
 }
