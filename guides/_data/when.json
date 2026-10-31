@@ -1,0 +1,244 @@
+{
+  "slug": "when",
+  "keyword": "WHEN",
+  "case": "case-02",
+  "title": "The 4 Qualifying Questions: Find Out If a Lead Will Buy This Quarter",
+  "description": "Ask 4 short questions in the reply thread to see who is ready now and who is later, plus the come-back message for leads who said not yet.",
+  "lead": "This is the full set of 4 qualifying questions from the reel, plus the come-back message. When someone replies \"sounds interesting\", don't rush to book a call. Ask these questions one at a time, find out who's ready this quarter, and keep the rest warm for later.",
+  "insider": "This is how we decide which replies become calls for clients. In our construction software campaign it's how **31 qualified demos turned into 6 annual contracts**: the calls were with people who had a real problem, the right people in the room and a reason to act soon. Asking the questions is easy. Doing it fast, for every reply, every day, is what we run for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why \"sounds interesting\" isn't a yes"
+    },
+    {
+      "type": "p",
+      "text": "\"Sounds interesting\" usually means \"I'm curious, but I'm not sure\". If you book a call with everyone who says it, your calendar fills with people who won't buy for a year, and your real buyers wait."
+    },
+    {
+      "type": "p",
+      "text": "The fix isn't to ask **if** they want to buy. Everyone says maybe. Ask **when**."
+    },
+    {
+      "type": "h2",
+      "text": "The 4 questions"
+    },
+    {
+      "type": "p",
+      "text": "Ask them in the reply thread, **one at a time**, in this order. Each one is short and easy to answer."
+    },
+    {
+      "type": "h3",
+      "text": "1. How are you handling it now?"
+    },
+    {
+      "type": "quote",
+      "text": "Quick question so I don't waste your time: how are you handling new leads at the moment?"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** it shows whether there's a real problem. \"We have a team and it works fine\" is very different from \"honestly, it's just me and it's messy\"."
+    },
+    {
+      "type": "h3",
+      "text": "2. What would a good result look like?"
+    },
+    {
+      "type": "quote",
+      "text": "If this worked, what would a good result look like for you? More calls, a new market, something else?"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** it tells you what they really want, in their own words. You'll use those exact words on the call."
+    },
+    {
+      "type": "h3",
+      "text": "3. Who else is part of the decision?"
+    },
+    {
+      "type": "quote",
+      "text": "Is this your call, or would anyone else want to be part of the conversation?"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** if a partner or boss decides, you want them on the call, not hearing about it secondhand."
+    },
+    {
+      "type": "h3",
+      "text": "4. This quarter or later?"
+    },
+    {
+      "type": "quote",
+      "text": "Is this something you'd want sorted this quarter, or later in the year?"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** this is the question from the reel. It gives a clear answer without being pushy. Nobody feels pressure saying \"later\"."
+    },
+    {
+      "type": "h2",
+      "text": "What to do with each answer"
+    },
+    {
+      "type": "table",
+      "head": [
+        "They say",
+        "What it means",
+        "What you do"
+      ],
+      "rows": [
+        [
+          "\"This quarter\"",
+          "Ready now",
+          "Book the call today. Send your calendar link with 2 time options."
+        ],
+        [
+          "\"Next quarter\"",
+          "Real, but not yet",
+          "Agree a date, put it in your CRM, message them then."
+        ],
+        [
+          "\"Later in the year\" / \"not sure\"",
+          "Interested, no urgency",
+          "Add to your come-back list with a date 2 to 3 months out."
+        ],
+        [
+          "\"Just curious\"",
+          "Not a buyer now",
+          "Thank them, offer something useful, check back in 6 months."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why one question at a time"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Four questions in one message feels like a form. People skip it.",
+        "One question gets a quick answer and keeps the conversation going.",
+        "Each answer helps you write a better next question."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "This also sets up a better call. [Gong's analysis of 519,000 discovery calls](https://www.gong.io/blog/deal-closing-discovery-call/) found the most successful calls had **11 to 14 targeted questions** spread through the conversation. These 4 short questions in the thread mean you start the call already knowing the basics, so you can go deeper."
+    },
+    {
+      "type": "h2",
+      "text": "Reply fast"
+    },
+    {
+      "type": "p",
+      "text": "A [Harvard Business Review study](https://hbr.org/2011/03/the-short-life-of-online-sales-leads) of 1.25 million leads found companies that responded **within an hour were nearly 7 times more likely to qualify the lead** than those that waited longer. Answer interested replies the same day, ideally within the hour."
+    },
+    {
+      "type": "h2",
+      "text": "The come-back message"
+    },
+    {
+      "type": "p",
+      "text": "Most deals are lost by forgetting, not by a no. When someone says \"later\", write the date and their words in your CRM, then send this on that date:"
+    },
+    {
+      "type": "prompt",
+      "label": "Come-back message",
+      "text": "Hi [first name],\n\nBack in [month] you mentioned looking at [their goal, in their words] around now. Is it still on the list for this quarter?\n\nHappy to pick it up whenever suits you.\n\n[your name]"
+    },
+    {
+      "type": "p",
+      "text": "It works because it uses their own words and their own timing. It's a reminder, not a pitch."
+    },
+    {
+      "type": "h2",
+      "text": "Simple CRM setup"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Column",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Name and company",
+          "Sarah, Acme Plumbing"
+        ],
+        [
+          "Their words",
+          "\"Want more calls before the busy season\""
+        ],
+        [
+          "Decision makers",
+          "Sarah + her business partner"
+        ],
+        [
+          "Timing",
+          "Next quarter"
+        ],
+        [
+          "Come-back date",
+          "Jan 15"
+        ],
+        [
+          "Status",
+          "Waiting / Booked / Not a fit"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Write the questions with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Reply-thread prompt",
+      "text": "A prospect replied to my cold email. Here is the thread:\n[paste the thread]\n\nWhat I sell: [one sentence].\n\nWrite my next reply. Rules:\n- Ask only ONE of these questions, the one that fits best right now: how are you handling it now / what would a good result look like / who else is part of the decision / this quarter or later in the year\n- Under 40 words, friendly, no pitch, no calendar link unless they said this quarter\n- Use their own words where you can"
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "Don't ask if. Ask when."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Gong: discovery call research",
+      "url": "https://www.gong.io/blog/deal-closing-discovery-call/",
+      "note": "519,000 calls, 11 to 14 questions"
+    },
+    {
+      "name": "Harvard Business Review: The Short Life of Online Sales Leads",
+      "url": "https://hbr.org/2011/03/the-short-life-of-online-sales-leads",
+      "note": "Why replying within an hour matters"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the reply-thread prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Won't asking questions slow down booking calls?",
+      "a": "A little, but it saves you hours of calls with people who won't buy. Ready buyers answer quickly and happily."
+    },
+    {
+      "q": "What if they won't answer the questions?",
+      "a": "Offer a short call instead. Some people prefer to talk. If they ignore both, they weren't ready."
+    },
+    {
+      "q": "Should I ask all 4 every time?",
+      "a": "No. If they say \"we need this now, can we talk Tuesday?\", book it. The questions are for unclear replies like \"sounds interesting\"."
+    },
+    {
+      "q": "How do I remember to send the come-back message?",
+      "a": "Put the date in your CRM or calendar the moment they say \"later\". A simple spreadsheet works too."
+    }
+  ],
+  "date": "2026-10-31",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

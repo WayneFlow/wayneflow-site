@@ -1,0 +1,229 @@
+{
+  "slug": "likes",
+  "keyword": "LIKES",
+  "case": "case-06",
+  "title": "The Post-Engager Playbook: Turn LinkedIn Likes Into Sales Conversations",
+  "description": "How to turn the people who like and comment on LinkedIn posts into real sales conversations: export, filter, score with Claude and send 3 first messages.",
+  "lead": "This is the full post-engager playbook from the reel. Every like or comment on a LinkedIn post is a person who just showed interest in a topic. This guide shows how to collect them, filter out the wrong people, score the rest with Claude, and start conversations with 3 first messages that don't feel like a pitch.",
+  "insider": "This is part of how we run LinkedIn for clients. In one campaign we sent **1,375 connection invites, 351 were accepted and 154 people replied**. Warm engagers are the easiest people in that funnel, because they already know the topic. Doing it every week, for every post, without getting the account restricted is what we handle for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why likes are a sales signal"
+    },
+    {
+      "type": "p",
+      "text": "A like isn't a buying signal on its own. But it tells you three things: this person is active on LinkedIn, they care about this topic, and they saw your name (or a competitor's) today. That's a much warmer start than a random cold list."
+    },
+    {
+      "type": "p",
+      "text": "Timing matters too. A classic [Harvard Business Review study](https://hbr.org/2011/03/the-short-life-of-online-sales-leads) of 1.25 million leads found companies that responded **within an hour were nearly 7 times more likely to qualify the lead** than those that waited longer. That study was about inbound leads, but the idea is the same: interest fades fast, so message within 24 hours."
+    },
+    {
+      "type": "h2",
+      "text": "Which posts to use"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Your own posts:** the warmest people, because they already know you.",
+        "**Competitors' posts:** people who care about exactly what you sell.",
+        "**Posts by people your buyers follow:** industry leaders, newsletters, podcast hosts in your niche.",
+        "**Topic posts:** any popular post about the problem you solve."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Best signal",
+      "text": "Someone who engaged with 2 or 3 posts on the same topic is much warmer than a one-time like. Collect from several posts and flag repeat names."
+    },
+    {
+      "type": "h2",
+      "text": "Step 1: Collect the engagers"
+    },
+    {
+      "type": "p",
+      "text": "LinkedIn has no button to export the people who liked a post. You have two options."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Method",
+        "How",
+        "Good for"
+      ],
+      "rows": [
+        [
+          "Manual (free)",
+          "Click the reactions count on the post and copy names, titles and profile links into a sheet",
+          "Your own posts, up to about 100 people"
+        ],
+        [
+          "Export tool",
+          "Tools like PhantomBuster or Apify take a post link and give you a spreadsheet of likers and commenters",
+          "Many posts, competitor posts, every week"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Know the risk",
+      "text": "LinkedIn's user agreement doesn't allow most scraping and automation tools, so using them always carries some risk to your account. The manual method stays fully within the rules. If you use a tool, go slow."
+    },
+    {
+      "type": "h2",
+      "text": "Step 2: Filter to real buyers"
+    },
+    {
+      "type": "p",
+      "text": "Most engagers aren't buyers. Remove them before you write a single message."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Remove students, job seekers and recruiters.",
+        "Remove competitors, vendors and agencies selling the same thing as you.",
+        "Remove your current clients and team members.",
+        "Keep only the job titles and company sizes you actually sell to."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 3: Let Claude score the list"
+    },
+    {
+      "type": "p",
+      "text": "Paste the list (name, headline, company) into Claude with a description of your ideal buyer, and let it score everyone. This is faster than reading 300 headlines yourself, and you can check its reasons."
+    },
+    {
+      "type": "prompt",
+      "label": "Scoring prompt",
+      "text": "My ideal buyer: [job titles], at [type of company], with [size, e.g. 10–200 employees], in [location]. They usually struggle with [problem I solve].\n\nHere is a list of people who liked or commented on a LinkedIn post about [topic]:\n[paste name, headline, company for each person]\n\nScore each person from 1 to 10 for how well they match my ideal buyer. Give a one-line reason for each.\nRules: students, recruiters, job seekers and people selling the same thing as me get 1. Don't guess facts that aren't in the list.\nReturn a table sorted from highest to lowest score."
+    },
+    {
+      "type": "p",
+      "text": "Message the 8s, 9s and 10s first. Keep the 6s and 7s for later."
+    },
+    {
+      "type": "h2",
+      "text": "Step 4: Send the first message"
+    },
+    {
+      "type": "p",
+      "text": "If you're not connected yet, send a connection request first. The message should talk about the post, not your offer, and end with one easy question."
+    },
+    {
+      "type": "h3",
+      "text": "Message 1: The topic question"
+    },
+    {
+      "type": "quote",
+      "text": "Hi Sarah, saw you liked the post about slow sales follow-up. Is that something your team is dealing with right now, or just interesting reading?"
+    },
+    {
+      "type": "h3",
+      "text": "Message 2: The comment follow-up (for commenters)"
+    },
+    {
+      "type": "quote",
+      "text": "Hi James, your comment about hiring SDRs being slow stuck with me. How are you handling new leads in the meantime?"
+    },
+    {
+      "type": "h3",
+      "text": "Message 3: The useful offer"
+    },
+    {
+      "type": "quote",
+      "text": "Hi Priya, noticed you engaged with a few posts about cold email this week. I put together a short checklist we use with clients. Want me to send it over?"
+    },
+    {
+      "type": "h2",
+      "text": "Rules for the first message"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mention the post or comment, so they know why you're writing.",
+        "No pitch, no link and no calendar link in the first message.",
+        "One question they can answer in a few words.",
+        "Under 300 characters, so it reads well on a phone.",
+        "Send within 24 hours of the like, while the topic is fresh."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Stay inside LinkedIn's limits"
+    },
+    {
+      "type": "p",
+      "text": "LinkedIn doesn't publish exact numbers, but most guides agree most accounts can send roughly **100 connection requests a week**, on a rolling 7-day window. New or low-activity accounts often get less."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Spread invites through the week, about 15 to 20 a day.",
+        "Withdraw invites that sit unaccepted for 2 to 3 weeks, so your pending pile stays small.",
+        "Write messages yourself, or check every message before it goes out.",
+        "If you hit a limit or warning, stop for a few days and go back to manual."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Your weekly routine"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Monday: pick 3 to 5 posts from the last 7 days (yours, competitors', topic posts).",
+        "Collect the engagers into one sheet and mark repeat names.",
+        "Filter, then score with the Claude prompt.",
+        "Tuesday to Thursday: send 15 to 20 invites or messages a day to the top scores.",
+        "Reply to every response the same day. Interested? Ask one more question, then offer a short call."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "The idea",
+      "text": "Every post becomes a fresh list of people who already know the topic. You're not cold calling, you're continuing a conversation."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Harvard Business Review: The Short Life of Online Sales Leads",
+      "url": "https://hbr.org/2011/03/the-short-life-of-online-sales-leads",
+      "note": "The study on response speed"
+    },
+    {
+      "name": "PhantomBuster",
+      "url": "https://phantombuster.com",
+      "note": "Post likers and commenters export (use carefully)"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the scoring prompt with your list"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it creepy to message someone because they liked a post?",
+      "a": "Not if you're honest about it. Mention the post, ask a real question and don't pitch. Most people are happy to talk about a topic they just engaged with."
+    },
+    {
+      "q": "Can I message competitors' post engagers?",
+      "a": "Yes, it's one of the best sources. Keep it about the topic, never about the competitor."
+    },
+    {
+      "q": "What reply rate should I expect?",
+      "a": "It depends on your list and message. In one of our LinkedIn campaigns, about 1 in 4 accepted invites and 154 people replied out of 1,375 invites. Track your own numbers for 2 weeks."
+    },
+    {
+      "q": "Do I need LinkedIn Premium or Sales Navigator?",
+      "a": "No. The manual method works on a free account. Sales Navigator helps with filtering and saved lists if you do this a lot."
+    }
+  ],
+  "date": "2026-10-31",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

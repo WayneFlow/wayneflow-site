@@ -1,0 +1,286 @@
+{
+  "slug": "reality",
+  "keyword": "REALITY",
+  "case": "case-03",
+  "title": "The Inbox Math Calculator: What It Really Takes to Send 10,000 Cold Emails a Day",
+  "description": "The real math behind big cold email volume: inboxes, domains, warm-up, how many new leads you need each month and the daily checks that keep it out of spam.",
+  "lead": "This is the full inbox math calculator from the reel. Everyone wants to send 10,000 emails a day. This guide shows what that really takes: the inboxes, the domains, the warm-up, the size of the lead list, and the work to keep it all healthy, so you can pick a volume you can actually run.",
+  "insider": "We've run this at real scale: our 5-day blitz sent **96,408 emails in five days, about 19,000 a day, with a 0.45% bounce rate**. It only worked because every inbox was already warmed up and every list was verified first. The math fits on one page. Running hundreds of inboxes every day without one going red is the part we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Expectation vs reality"
+    },
+    {
+      "type": "p",
+      "text": "**Expectation:** buy a sending tool, load 10,000 contacts, press send, watch the replies come in. **Reality:** one inbox sending 10,000 emails gets flagged the same day, and every email lands in spam."
+    },
+    {
+      "type": "p",
+      "text": "Inbox providers judge every inbox by how it behaves. A real person doesn't send thousands of emails a day to strangers, so an inbox that does gets treated like a spammer. Google allows a paid Workspace inbox up to **2,000 emails a day** ([Google's limits page](https://support.google.com/a/answer/166852)), but that's a system limit, not a safe cold email limit."
+    },
+    {
+      "type": "h2",
+      "text": "The calculator"
+    },
+    {
+      "type": "p",
+      "text": "Two rules run everything: **about 30 cold emails a day per inbox**, and **3 inboxes per domain**. In [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email), inboxes sending 20 to 49 emails a day got a **5.7% reply rate**, above the 4.5% average, so 30 sits in the safe zone."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Emails a day",
+        "Inboxes (÷30)",
+        "Domains (÷3)",
+        "Spare domains (+10%)"
+      ],
+      "rows": [
+        [
+          "500",
+          "17",
+          "6",
+          "1"
+        ],
+        [
+          "1,000",
+          "34",
+          "12",
+          "2"
+        ],
+        [
+          "2,500",
+          "84",
+          "28",
+          "3"
+        ],
+        [
+          "5,000",
+          "167",
+          "56",
+          "6"
+        ],
+        [
+          "10,000",
+          "334",
+          "112",
+          "12"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So the reel's 10,000 a day means **334 inboxes on 112 domains**, plus spares. Every one of them needs its own DNS setup, warm-up and daily health check."
+    },
+    {
+      "type": "h2",
+      "text": "The number nobody talks about: leads"
+    },
+    {
+      "type": "p",
+      "text": "Volume isn't only about inboxes. You also need enough **new people** to email. Most of your daily emails are follow-ups to people already in a sequence, so the list you need depends on how many emails each person gets."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Emails per month = emails a day × 22 working days. (10,000 × 22 = **220,000**)",
+        "New contacts per month = emails per month ÷ emails per person. With a 4-email sequence: 220,000 ÷ 4 = **55,000 new contacts a month**.",
+        "Add about 20% extra, because verification removes bad addresses. That's roughly **66,000 raw contacts a month**.",
+        "Ask yourself: are there 66,000 new people every month who are real buyers for you? If not, a smaller volume aimed better will make more money."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Reality check",
+      "text": "Most businesses don't have 55,000 good new prospects a month. In Hunter's data, small groups of 21 to 50 people got **6.2% replies vs 2.4% for 500+**. Send what your market can take, not what your tool can send."
+    },
+    {
+      "type": "h2",
+      "text": "Step by step: building the setup"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Buy separate domains** that look like your brand (for acme.com: getacme.com, tryacme.com, acmehq.com). Never send cold email from your main domain.",
+        "**Point each domain to your real website**, so anyone who checks it lands somewhere real.",
+        "**Add SPF, DKIM and DMARC** on every domain. Our [DNS records guide](/blog/dns-records-for-cold-email.html) has the exact values.",
+        "**Create 3 inboxes per domain** with real names and profile photos.",
+        "**Turn on warm-up for 14 days** before any cold email. Aim for a warm-up health score of 99 or higher, and never switch warm-up off, even later.",
+        "**Ramp slowly:** 10 a day per inbox in week 3, 20 in week 4, 30 from week 5."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What the ramp looks like at 10,000 a day"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Week",
+        "Per inbox",
+        "Total (334 inboxes)"
+      ],
+      "rows": [
+        [
+          "1–2",
+          "0 (warm-up only)",
+          "0"
+        ],
+        [
+          "3",
+          "10 a day",
+          "3,340 a day"
+        ],
+        [
+          "4",
+          "20 a day",
+          "6,680 a day"
+        ],
+        [
+          "5+",
+          "30 a day",
+          "10,020 a day"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's 5 weeks to full volume. [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) says new domains need **4 to 6 weeks** before full volume, so this is the fast end of safe. It also found that steady daily sending gets 15 to 20% more replies than big bursts."
+    },
+    {
+      "type": "h2",
+      "text": "The rules that apply at this size"
+    },
+    {
+      "type": "p",
+      "text": "[Google's sender guidelines](https://support.google.com/mail/answer/81126) treat anyone sending about **5,000 or more emails a day to Gmail addresses** as a bulk sender. That's counted per main domain, and the status doesn't go away later. Bulk senders must have SPF, DKIM and DMARC set up, keep spam reports **under 0.3%** (aim for under 0.1%), and make it easy to opt out. Yahoo and Microsoft have similar rules. Follow them at any volume."
+    },
+    {
+      "type": "h2",
+      "text": "The daily and weekly checks"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Check",
+        "How often",
+        "Healthy",
+        "If it's not"
+      ],
+      "rows": [
+        [
+          "Bounce rate",
+          "Daily",
+          "Under 2%",
+          "Stop that list and verify it again"
+        ],
+        [
+          "Warm-up health score",
+          "Daily",
+          "99 or higher",
+          "Pause cold sending on that inbox, keep warm-up on"
+        ],
+        [
+          "Spam rate ([Postmaster Tools](https://postmaster.google.com))",
+          "Weekly",
+          "Under 0.1%",
+          "Halve that domain's volume, check list and copy"
+        ],
+        [
+          "Reply rate per inbox",
+          "Weekly",
+          "Similar across inboxes",
+          "Rest the low inbox, it's likely in spam"
+        ],
+        [
+          "Spare domains",
+          "Weekly",
+          "Warmed and ready",
+          "Buy and warm new ones before you need them"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Mistakes that cost the most at scale"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Buying 300 inboxes before you've proven one campaign works at 500 a day.",
+        "Running out of good leads and filling the gap with a worse list.",
+        "No spare domains, so one burned domain stops a whole campaign for 5 weeks.",
+        "Checking health once a month instead of every day.",
+        "Sending to unverified lists because \"it's only a few bounces\". At 10,000 a day, 3% is 300 bounces a day."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Run your own numbers with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Inbox math prompt",
+      "text": "I want to send [number] cold emails per day, starting [date].\nRules: 30 emails per inbox per day, 3 inboxes per domain, 10% spare domains, 14 days of warm-up, then 10 / 20 / 30 per inbox per day in weeks 3, 4 and 5. My sequence has [number] emails per person.\n\nCalculate:\n1) inboxes, domains and spare domains,\n2) a week-by-week table of total emails per day,\n3) emails per month (22 working days) and new contacts needed per month, plus 20% extra for verification,\n4) a daily and weekly health checklist.\nThen tell me honestly if my volume makes sense for a market of [describe your buyers]."
+    },
+    {
+      "type": "tip",
+      "label": "The order that works",
+      "text": "Inbox first. Then the calls. Then the money."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Per-inbox volume and list size data"
+    },
+    {
+      "name": "Instantly 2026 benchmark report",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Warm-up time and steady sending data"
+    },
+    {
+      "name": "Google email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "Official bulk sender rules"
+    },
+    {
+      "name": "Google Workspace sending limits",
+      "url": "https://support.google.com/a/answer/166852",
+      "note": "Official daily limits per inbox"
+    },
+    {
+      "name": "Google Postmaster Tools",
+      "url": "https://postmaster.google.com",
+      "note": "Free spam rate dashboard"
+    },
+    {
+      "name": "Our MATH guide",
+      "url": "https://wayneflow.com/guides/math.html",
+      "note": "The same math for 100 to 2,000 emails a day"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I really need 334 inboxes for 10,000 a day?",
+      "a": "At 30 a day per inbox, yes. Pushing each inbox harder needs fewer inboxes but raises the risk that whole domains land in spam."
+    },
+    {
+      "q": "Should I start at 10,000 a day?",
+      "a": "No. Prove your list and email at a few hundred a day first. Scale only what already gets replies."
+    },
+    {
+      "q": "Can I use Google and Microsoft inboxes together?",
+      "a": "Yes, many senders mix them so one provider's problem doesn't stop everything. Follow the same per-inbox limits on both."
+    },
+    {
+      "q": "What does this cost?",
+      "a": "You pay per domain each year, per inbox each month and for a sending tool. Multiply by the numbers above and compare current prices on each provider's site."
+    }
+  ],
+  "date": "2026-10-31",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}
