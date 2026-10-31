@@ -22,3 +22,10 @@ A guide must be genuinely useful on its own, even if the reader never hires us. 
 - Selling stays light: the insider box, the case study and the CTA (added automatically). No pitch inside the teaching blocks.
 - Plain, simple English (short sentences; many readers are not native speakers).
 - Check the math in every example before publishing.
+
+## Reposted reels and repeated keywords (owner rule)
+We repost a reel that went viral 3–4 times. **Never make a new guide page or a new InstantDM flow for a keyword that already has a guide.**
+- Before writing a guide, check `guides/_data/<slug>.json`. If it exists, the keyword already has its page: do nothing for the page.
+- InstantDM flows use "Comment on any post" with the keyword, so the existing flow already works on the reposted reel. Don't duplicate the flow.
+- Only exception: if the existing guide has `"instantdm": "skip"` (old reel with no flow) and the reel is posted again, set it to `"pending"` so its flow gets made once.
+- If a reposted reel uses a slightly different keyword for the same topic, ask Ali before making anything new.
