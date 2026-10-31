@@ -1,0 +1,250 @@
+{
+  "slug": "speed",
+  "keyword": "SPEED",
+  "date": "2026-10-31",
+  "draft": false,
+  "title": "The 5-Minute Response Playbook: Win More Leads Without More Ads",
+  "description": "Reply to every new lead in 5 minutes: the instant routing and alert setup, a first-reply template with a booking link, and a routing checklist.",
+  "lead": "This is the exact 5-minute response playbook from the reel. You get the instant routing and 5-minute alert setup, a first-reply template with a booking link, and a checklist so no lead waits hours again.",
+  "insider": "We treat cold email replies the same way on client campaigns: an interested reply is a hot lead, so it gets a fast answer and a booking link. In the 5-day blitz below that meant **25 calls booked in the same week the emails went out**. The alert is the easy part. Having someone on every reply, every day, is the work we do for clients.",
+  "case": "case-03",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The short answer"
+    },
+    {
+      "type": "p",
+      "text": "When someone fills in your form, they're still at their desk, still thinking about the problem, often still on your site. Reply **while they're still looking**. Set up three things: **route every form instantly** to one owner, **alert them within 5 minutes**, and **reply with a booking link**. That's the whole playbook."
+    },
+    {
+      "type": "h2",
+      "text": "The proof"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Finding",
+        "Source"
+      ],
+      "rows": [
+        [
+          "Of 114 B2B companies tested, only **1** sent a personalized email within 5 minutes",
+          "[Workato lead response study](https://www.workato.com/the-connector/lead-response-time-study/)"
+        ],
+        [
+          "Average email response time: **11 hours 54 minutes**",
+          "[Workato](https://www.workato.com/the-connector/lead-response-time-study/)"
+        ],
+        [
+          "Only **31%** of companies responded by phone at all",
+          "[Workato](https://www.workato.com/the-connector/lead-response-time-study/)"
+        ],
+        [
+          "Firms that contacted leads **within an hour** were nearly **7x as likely to qualify the lead**",
+          "[HBR, The Short Life of Online Sales Leads (2011)](https://hbr.org/2011/03/the-short-life-of-online-sales-leads)"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Read that first line again. If you reply in 5 minutes, you're likely faster than nearly every competitor the same buyer contacted. You don't need more ads to win more deals. You need to stop letting the leads you already pay for go cold."
+    },
+    {
+      "type": "h2",
+      "text": "Part 1: Instant routing"
+    },
+    {
+      "type": "p",
+      "text": "Routing means every new form goes straight to the right person, the second it arrives, with everything they need to reply. No shared inbox that nobody checks."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Pick one owner per lead.** One name, not \"the team\". If you have several people, decide the rule now: by region, by deal size, or simple rotation.",
+        "**Connect your form to your CRM.** Most form tools and CRMs (for example HubSpot) can create a contact automatically. If yours can't, use [Zapier](https://zapier.com) or [Make](https://www.make.com): trigger = new form submission, action = create a contact.",
+        "**Send the lead to the owner's phone, not just their inbox.** Add a second action that posts to a [Slack](https://slack.com) channel or sends a text/push alert with name, company, email, phone and what they asked for.",
+        "**Assign it automatically.** The lead should land with the owner's name on it, so nobody has to ask \"who's taking this?\"",
+        "**Test it.** Fill in your own form with a test name and time how long the alert takes. It should be seconds."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Part 2: The 5-minute alert"
+    },
+    {
+      "type": "p",
+      "text": "The first alert tells the owner a lead is in. The 5-minute alert makes sure it never gets forgotten."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Alert 1 (instant):** \"New lead: [name], [company]. Reply in 5 min.\" Sent to the owner's phone.",
+        "**Wait 5 minutes.** In Zapier use a Delay step, in Make a Sleep step, or use your CRM's workflow delay.",
+        "**Check:** has the lead been marked \"contacted\" (or has an email been logged)?",
+        "**If not, Alert 2 (escalation):** send it again to the owner and to a backup person: \"Still waiting: [name]. Who's got it?\"",
+        "**After hours:** send an instant automatic email that says when a human will reply, with the booking link, so they can book while they're still interested."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "This won't work unless",
+      "text": "ONE person owns that alert during working hours. An alert sent to five people is an alert everyone thinks someone else handled."
+    },
+    {
+      "type": "h2",
+      "text": "Part 3: The first reply"
+    },
+    {
+      "type": "p",
+      "text": "The first reply should be short, personal and make booking take one click. Write it once, save it as a template, and edit one line for each lead."
+    },
+    {
+      "type": "prompt",
+      "label": "First-reply email template",
+      "text": "Subject: Re: your request, [first name]\n\nHi [first name],\n\nThanks for reaching out about [what they asked for, in their words]. Got it.\n\nQuick question so I can help properly: [one simple question, e.g. \"Is this for your team of about X, or the whole company?\"]\n\nIf it's easier to talk it through, grab any 15-minute slot here: [booking link]\n\nOr just reply here, I'm on email today.\n\n[Your name]\n[Phone number]"
+    },
+    {
+      "type": "prompt",
+      "label": "Text / voicemail version (if they left a phone number)",
+      "text": "Hi [first name], it's [your name] from [company]. You just asked about [topic] on our site. Happy to help. I sent you an email with a link to book 15 minutes, or call me back on [number] any time today."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Use their words** from the form in the first line, so it's clearly not a robot.",
+        "**One question only.** It's easy to answer from a phone.",
+        "**Booking link always.** Use a tool like [Calendly](https://calendly.com) or your CRM's meeting link, with 15-minute slots for the next few days.",
+        "**Call too, if they gave a number.** Only 31% of companies in the Workato test called at all, so a quick call stands out."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Part 4: The routing checklist"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Check",
+        "Done when"
+      ],
+      "rows": [
+        [
+          "Every form on the site is connected",
+          "All forms (contact, demo, pricing, chat) create a lead automatically"
+        ],
+        [
+          "One owner per lead",
+          "Every lead arrives with a name on it"
+        ],
+        [
+          "Instant alert to a phone",
+          "Alert arrives in seconds, tested with a real form fill"
+        ],
+        [
+          "5-minute escalation",
+          "Backup person gets an alert if no one replied"
+        ],
+        [
+          "Template ready",
+          "First reply saved with booking link, takes under a minute to send"
+        ],
+        [
+          "After-hours reply",
+          "Automatic email with booking link outside working hours"
+        ],
+        [
+          "Lead marked \"contacted\"",
+          "Owner logs the reply, so escalation stops"
+        ],
+        [
+          "Weekly check",
+          "You look at last week's response times every Monday"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Track your real response time"
+    },
+    {
+      "type": "p",
+      "text": "Every Monday, list last week's leads with two times: when the form came in and when the first personal reply went out. Work out the average. Your goal: **most leads under 5 minutes in working hours, and every lead within an hour**, the window HBR linked to nearly 7x better qualification."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Treating the automatic \"thanks, we got your message\" email as the reply. It's not. A person still needs to answer.",
+        "Sending leads to a shared inbox like info@ that nobody owns.",
+        "Alerts only on email, which people check a few times a day.",
+        "Asking 5 questions in the first reply, so the lead has to write an essay.",
+        "No booking link, so a simple \"yes\" turns into three emails about times."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Write your template with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "First-reply prompt",
+      "text": "Write a first reply to a new inbound lead. It will be sent within 5 minutes of their form fill.\n\nWhat we sell: [one sentence]\nThe lead's form message: [paste it]\nMy booking link: [link]\n\nRules:\n1. Under 80 words.\n2. First line repeats what they asked for in their own words.\n3. Ask ONE easy question I need answered to help them.\n4. Offer the booking link for a 15-minute call.\n5. Friendly, plain English, no hype, no exclamation marks.\nGive me 2 versions: one email and one short text message."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Workato lead response time study",
+      "url": "https://www.workato.com/the-connector/lead-response-time-study/",
+      "note": "114 B2B companies tested, source of the 1 in 114 and 11h54m numbers"
+    },
+    {
+      "name": "HBR: The Short Life of Online Sales Leads",
+      "url": "https://hbr.org/2011/03/the-short-life-of-online-sales-leads",
+      "note": "Source of the nearly 7x within-an-hour finding"
+    },
+    {
+      "name": "Zapier",
+      "url": "https://zapier.com",
+      "note": "Connect forms to alerts and delays without code"
+    },
+    {
+      "name": "Make",
+      "url": "https://www.make.com",
+      "note": "Another no-code option for routing and alerts"
+    },
+    {
+      "name": "Calendly",
+      "url": "https://calendly.com",
+      "note": "Booking link for the first reply"
+    },
+    {
+      "name": "Slack",
+      "url": "https://slack.com",
+      "note": "Phone alerts for new leads"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What if a lead comes in at 11 pm?",
+      "a": "Send an instant automatic email with your booking link and say when a person will reply. Then make that lead the first reply of the next morning."
+    },
+    {
+      "q": "I'm a one-person business. Can I still do this?",
+      "a": "Yes. Route every lead to your phone, keep the template saved, and reply when you can during the day. Even replying within an hour beats most companies in the Workato test."
+    },
+    {
+      "q": "Should I call or email first?",
+      "a": "Do both if they left a number: a quick call, then the email with the booking link. If there's no number, email."
+    },
+    {
+      "q": "Does this apply to cold email replies too?",
+      "a": "Yes. When a cold prospect replies \"interested\", they're a hot lead. Answer within minutes with a booking link, the same way."
+    }
+  ],
+  "instantdm": "pending",
+  "reel_status": "made 2026-10-31"
+}

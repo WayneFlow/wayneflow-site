@@ -1,0 +1,238 @@
+{
+  "slug": "price",
+  "keyword": "PRICE",
+  "date": "2026-10-31",
+  "draft": false,
+  "title": "The Price-Range Question: 5 Versions + 3 Questions to Ask First",
+  "description": "Ask the price-range question in writing before the sales call. 5 versions for different offers, plus the 3 questions to ask first in the reply thread.",
+  "lead": "This is the price-range question from the reel, written 5 ways for different offers, plus the 3 other questions to ask in the reply thread before you book. Use them and every call on your calendar is with someone who can actually pay.",
+  "insider": "Our clients want buyers on their calendar, not just meetings, so we qualify interested replies before a call is booked. In the construction software campaign below, that meant **31 sales-qualified demos and 6 signed annual contracts**. The questions are the easy part. Answering every reply fast, in the right order, is the work we do for clients.",
+  "case": "case-02",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The line from the reel"
+    },
+    {
+      "type": "prompt",
+      "label": "The price-range question",
+      "text": "Work like this usually runs [your range]. Is that in the range you'd look at?"
+    },
+    {
+      "type": "p",
+      "text": "You know the call. Sixty minutes of discovery, a good demo, then: \"Oh, that's too expensive for us.\" An hour gone, with someone who was never going to buy. Everyone says don't talk price early. But asking once, **in writing, before the call**, is different. It takes the prospect ten seconds to answer, and it saves you the hour."
+    },
+    {
+      "type": "h2",
+      "text": "The 3 rules"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Give a range, not one price.** A range like \"$2,000 to $4,000 a month\" feels like information, not a quote. One exact number invites haggling before you even know what they need.",
+        "**Ask in the reply thread, once they say interested.** Not in the first cold email (too early) and not on the call (too late). The moment they reply \"sounds interesting\", that's when.",
+        "**Yes? Book it. No? You saved an hour.** If the range works, send your booking link right away. If it doesn't, thank them, offer something smaller if you have it, and move on."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "This won't work unless",
+      "text": "Your range is honest. If you quote $2,000 to $4,000 and then pitch $9,000 on the call, you've wasted their hour and lost their trust. Use the range most of your real deals actually land in."
+    },
+    {
+      "type": "h2",
+      "text": "The 5 versions"
+    },
+    {
+      "type": "p",
+      "text": "Same idea, worded for different kinds of offers. Swap in your real numbers."
+    },
+    {
+      "type": "h3",
+      "text": "1. Monthly retainer (agencies, marketing, outsourced services)"
+    },
+    {
+      "type": "prompt",
+      "label": "Version 1: retainer",
+      "text": "Happy to set up a call. Quick heads-up so I don't waste your time: most of our clients invest between [$X] and [$Y] a month, depending on [scope, e.g. how many channels]. Is that in the range you'd look at?"
+    },
+    {
+      "type": "h3",
+      "text": "2. Software / SaaS (per seat or per plan)"
+    },
+    {
+      "type": "prompt",
+      "label": "Version 2: software",
+      "text": "Glad it's interesting. For a team your size, plans usually come out between [$X] and [$Y] a year, depending on [users / features]. Is that roughly in budget before we book a demo?"
+    },
+    {
+      "type": "h3",
+      "text": "3. One-off project (websites, builds, installs, construction)"
+    },
+    {
+      "type": "prompt",
+      "label": "Version 3: project",
+      "text": "Sounds like a good fit. Projects like the one you described usually land between [$X] and [$Y], mostly depending on [size / materials / timeline]. Does that fit what you had in mind?"
+    },
+    {
+      "type": "h3",
+      "text": "4. Consulting, coaching or training"
+    },
+    {
+      "type": "prompt",
+      "label": "Version 4: consulting",
+      "text": "Happy to talk. So you know upfront: engagements like this usually run [$X] to [$Y] for [time period, e.g. a 3-month program]. Is that within the range you'd consider?"
+    },
+    {
+      "type": "h3",
+      "text": "5. High-ticket or custom (enterprise, done-for-you, big contracts)"
+    },
+    {
+      "type": "prompt",
+      "label": "Version 5: high-ticket",
+      "text": "Thanks for getting back to me. Every setup is custom, but to give you a sense: most clients at your stage start somewhere between [$X] and [$Y]. If that's in the right range, I'll send a few times for a call. If not, no problem at all, just let me know."
+    },
+    {
+      "type": "h2",
+      "text": "The 3 questions to ask first"
+    },
+    {
+      "type": "p",
+      "text": "The reel says ask price **last**, after who decides and when. Price on its own can feel blunt. After two or three easy questions, it feels like a normal part of making sure the call is worth their time. Ask these in the reply thread, one or two per message."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Ask in this order",
+        "Why you ask it",
+        "Good answer looks like"
+      ],
+      "rows": [
+        [
+          "1. \"How are you handling [the problem] right now?\"",
+          "Shows if the problem is real and what you're up against",
+          "A real current process, or a pain they describe"
+        ],
+        [
+          "2. \"Is anyone else involved in a decision like this?\"",
+          "So the right people are on the call, not just one of them",
+          "A name or a role, or \"just me\""
+        ],
+        [
+          "3. \"Is this something you're looking to sort out this quarter, or later on?\"",
+          "Tells you if it's now or someday",
+          "A time frame in the next few months"
+        ],
+        [
+          "4. The price-range question (one of the 5 versions above)",
+          "Saves an hour with someone who can't pay",
+          "\"Yes, that's in range\" or a number close to it"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "A full reply thread, start to finish"
+    },
+    {
+      "type": "prompt",
+      "label": "Example thread (copy and adapt)",
+      "text": "PROSPECT: Sounds interesting, tell me more.\n\nYOU: Happy to. Quick question first so I point you at the right thing: how are you handling [problem] right now?\n\nPROSPECT: We do it in-house, but it's taking way too much of my time.\n\nYOU: Makes sense, that's the most common reason people reach out. Is anyone else involved in a decision like this, and are you looking to sort it out this quarter or later on?\n\nPROSPECT: Me and my business partner. Ideally before January.\n\nYOU: Perfect. Last thing so I don't waste your time: work like this usually runs [$X to $Y a month]. Is that in the range you'd look at?\n\nPROSPECT: Yes, that's fine.\n\nYOU: Great. Here's my calendar, pick any 20-minute slot that works for you and your partner: [booking link]"
+    },
+    {
+      "type": "h2",
+      "text": "How to read the answer"
+    },
+    {
+      "type": "table",
+      "head": [
+        "They say",
+        "What it means",
+        "Your next move"
+      ],
+      "rows": [
+        [
+          "\"Yes, that's in range\"",
+          "Qualified",
+          "Send the booking link right away"
+        ],
+        [
+          "\"Depends what's included\"",
+          "Interested, needs detail",
+          "Give one line on what's in the low and high end, then book"
+        ],
+        [
+          "\"A bit high, but tell me more\"",
+          "Maybe, price is a concern",
+          "Book it, but plan to talk about a smaller first step on the call"
+        ],
+        [
+          "\"Way out of our budget\"",
+          "Not a fit now",
+          "Thank them, offer a smaller option if you have one, follow up in a few months"
+        ],
+        [
+          "No reply",
+          "The price may have scared them, or they're busy",
+          "One friendly nudge in 3 to 4 days, then let it go"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Putting the price in the very first cold email, before they care.",
+        "Asking price first, before any easy question.",
+        "Giving one exact number instead of a range.",
+        "A range so wide it means nothing (\"$500 to $50,000\").",
+        "Taking the call anyway when they said \"way out of budget\", hoping to change their mind."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Write your version with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Price question prompt",
+      "text": "I sell: [one sentence about your offer]\nMost of my real deals land between: [$X] and [$Y] [per month / per project / per year]\nWhat makes the price go up or down: [scope, team size, timeline...]\n\nA prospect just replied to my cold email: \"[paste their reply]\"\n\nWrite my next reply. It should:\n1. Be under 60 words.\n2. Ask how they handle [the problem] now, OR who else decides and when, if they've already answered that.\n3. If they've answered both, ask the price-range question using my real range, and offer my booking link if it fits: [link].\nFriendly, plain English, no pressure."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Calendly",
+      "url": "https://calendly.com",
+      "note": "Booking link to send once they say yes"
+    },
+    {
+      "name": "WayneFlow 5-minute response playbook",
+      "url": "https://wayneflow.com/guides/speed.html",
+      "note": "Answer replies fast so the thread doesn't go cold"
+    },
+    {
+      "name": "Free cold email playbook",
+      "url": "https://wayneflow.com/free-cold-email-playbook.html",
+      "note": "The full system we use"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Won't asking about price scare people off?",
+      "a": "Some, yes. Those are people who would have said \"too expensive\" at the end of an hour-long call. Losing them in the thread saves you that hour."
+    },
+    {
+      "q": "What if my price really depends on the project?",
+      "a": "Give the range most of your deals land in and say what moves it, like \"depending on size\". That's still honest and useful."
+    },
+    {
+      "q": "Should I ask on LinkedIn too?",
+      "a": "Yes, the same order works in LinkedIn messages: current situation, who decides and when, then the range."
+    }
+  ],
+  "instantdm": "pending",
+  "reel_status": "made 2026-10-31"
+}

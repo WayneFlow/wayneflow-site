@@ -1,0 +1,337 @@
+{
+  "slug": "fuel",
+  "keyword": "FUEL",
+  "date": "2026-10-31",
+  "draft": false,
+  "title": "The Lead Fuel Calculator: Never Run Out of Leads Mid-Month",
+  "description": "Type your inboxes and sequence length, get sends and new leads per month, plus the exact date to order your next list. Free calculator.",
+  "lead": "This is the exact lead fuel calculator from the reel. Put in how many inboxes you send from and how many emails are in your sequence, and it tells you how many sends and new leads you burn each month, and the date to order your next list.",
+  "insider": "Steady sending only works if the tank never runs dry. In the full quarter below we sent **236,545 emails from January to March** and got **1,061 interested leads**, at a 3.69% reply rate. The calculator is the easy part. Building, verifying and loading a fresh list on time, every month, is the work we do for clients.",
+  "case": "case-04",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The short answer"
+    },
+    {
+      "type": "p",
+      "text": "Leads are fuel. Inboxes burn them. One inbox sending **30 emails a day for 22 working days burns 660 sends a month**. With a 3-email sequence, that's about **220 new people per inbox**. Multiply by your inboxes, and order next month's list when you have **25% left**."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Step",
+        "Math",
+        "Example (10 inboxes, 3 emails each)"
+      ],
+      "rows": [
+        [
+          "1. Sends per inbox",
+          "Emails per day × working days",
+          "30 × 22 = **660 sends**"
+        ],
+        [
+          "2. New people per inbox",
+          "Sends ÷ emails per person",
+          "660 ÷ 3 = **220 people**"
+        ],
+        [
+          "3. New leads per month",
+          "People per inbox × inboxes",
+          "220 × 10 = **2,200 leads**"
+        ],
+        [
+          "4. Refill point",
+          "25% of the monthly list",
+          "2,200 × 25% = **550 left**, about 5.5 working days"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Note",
+      "text": "30 emails per inbox per day is a common safe rule, and 22 working days is a normal month. The rest are example numbers. Use your own."
+    },
+    {
+      "type": "h2",
+      "text": "Why lists run dry mid-month"
+    },
+    {
+      "type": "p",
+      "text": "Most people buy \"a list\" without doing the math. A list of 1,000 sounds big. But 10 inboxes with a 3-email sequence start about **100 new people every working day**. A 1,000 list is gone in 10 working days, two weeks. Then sending stops, inboxes sit idle, and the next list takes days to build and verify."
+    },
+    {
+      "type": "p",
+      "text": "The fix isn't a bigger list or a new tool. It's knowing your **burn rate** (how many new people you use each day) and ordering the next list before the tank is empty."
+    },
+    {
+      "type": "h2",
+      "text": "The fill-in sheet"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Your input",
+        "Write it here",
+        "Example"
+      ],
+      "rows": [
+        [
+          "A. Sending inboxes",
+          "______",
+          "10"
+        ],
+        [
+          "B. Emails per inbox per day",
+          "______",
+          "30 (common rule)"
+        ],
+        [
+          "C. Emails per person in your sequence",
+          "______",
+          "3"
+        ],
+        [
+          "D. Working days in the month",
+          "______",
+          "22"
+        ],
+        [
+          "E. Leads in this month's list",
+          "______",
+          "2,200"
+        ],
+        [
+          "F. Date you start sending this list",
+          "______",
+          "Mon, Nov 2, 2026"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Your answer",
+        "Math",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Sends per month (all inboxes)",
+          "A × B × D",
+          "6,600"
+        ],
+        [
+          "New people per working day (burn rate)",
+          "A × B ÷ C",
+          "100"
+        ],
+        [
+          "New leads needed per month",
+          "A × B × D ÷ C",
+          "2,200"
+        ],
+        [
+          "Refill point (25% left)",
+          "E × 25%",
+          "550"
+        ],
+        [
+          "Working days until refill",
+          "(E − refill point) ÷ burn rate",
+          "16.5"
+        ],
+        [
+          "Order next list on",
+          "Start date + those working days",
+          "Tue, Nov 24, 2026"
+        ]
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Google Sheets version"
+    },
+    {
+      "type": "p",
+      "text": "Open a blank Google Sheet, click cell A1 and paste: labels land in column A, numbers and formulas in column B. Format B13 as a date. WORKDAY skips weekends, and if you list your holidays in column D it skips those too."
+    },
+    {
+      "type": "prompt",
+      "label": "Copy, then paste into cell A1",
+      "text": "Sending inboxes\t10\nEmails per inbox per day\t30\nEmails per person in sequence\t3\nWorking days this month\t22\nLeads in this month's list\t2200\nStart date of this list\t2026-11-02\n\t\nSends per month\t=B1*B2*B4\nNew people per working day\t=B1*B2/B3\nNew leads needed per month\t=B8/B3\nRefill point (25% left)\t=B5*0.25\nWorking days until refill\t=(B5-B11)/B9\nOrder next list on\t=WORKDAY(B6,ROUNDDOWN(B12,0),D1:D20)\nWorking days until list is empty\t=B5/B9"
+    },
+    {
+      "type": "tip",
+      "label": "Holidays matter",
+      "text": "In the example, US Thanksgiving falls on Thursday, Nov 26, 2026. Add it to column D and every date after it moves by a day."
+    },
+    {
+      "type": "h2",
+      "text": "Quick table: new leads per month"
+    },
+    {
+      "type": "p",
+      "text": "All rows use 30 emails per inbox per day and 22 working days (660 sends per inbox). With a 3-email sequence, your refill point (25% left) is 55 leads per inbox: 550 for 10 inboxes, 1,100 for 20."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Inboxes",
+        "3-email sequence",
+        "4-email sequence",
+        "5-email sequence"
+      ],
+      "rows": [
+        [
+          "1",
+          "220",
+          "165",
+          "132"
+        ],
+        [
+          "3",
+          "660",
+          "495",
+          "396"
+        ],
+        [
+          "5",
+          "1,100",
+          "825",
+          "660"
+        ],
+        [
+          "10",
+          "2,200",
+          "1,650",
+          "1,320"
+        ],
+        [
+          "20",
+          "4,400",
+          "3,300",
+          "2,640"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Longer sequences burn fewer new people, because each person gets more emails. Shorter sequences need more fresh leads every month."
+    },
+    {
+      "type": "h2",
+      "text": "Why refill at 25%"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**It gives you about a week.** 25% of a month's list is about 5.5 working days of sending. That's enough time to build the next list, verify it and load it into your sending tool.",
+        "**It covers surprises.** Verification removes bad emails, so a list often shrinks after you clean it. Ordering early means a smaller-than-expected list doesn't stop you.",
+        "**It keeps sending steady.** Inboxes that send every day look normal. Inboxes that stop for a week and then restart don't."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Don't skip verification"
+    },
+    {
+      "type": "p",
+      "text": "The reel says it: this only works if you **verify the list first**. A raw list leaks. Bad emails bounce, bounces hurt your inboxes, and a burned inbox burns nothing at all. Run every new list through an email verifier before it goes into your sending tool, and keep your bounce rate under 2%."
+    },
+    {
+      "type": "tip",
+      "label": "Order a little extra",
+      "text": "Check how many emails your last list lost when you verified it. If it lost 20%, order 20% more than the calculator says."
+    },
+    {
+      "type": "h2",
+      "text": "The first-week trap"
+    },
+    {
+      "type": "p",
+      "text": "The burn rate above is for a campaign that's already running, where follow-ups are going out every day. In the first week of a brand-new campaign, there are no follow-ups yet, so your inboxes send mostly first emails. That means you use **new people up to 3 times faster** at the start (with a 3-email sequence). Keep extra leads ready for a new campaign's first week or two."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "List runs out in week 2",
+          "List smaller than one month's burn",
+          "Order the full monthly number from the calculator"
+        ],
+        [
+          "Sending pauses between lists",
+          "Ordered the next list too late",
+          "Order at 25% left, put the date in your calendar"
+        ],
+        [
+          "Bounce rate over 2%",
+          "List not verified",
+          "Pause, verify, then restart"
+        ],
+        [
+          "New campaign burns leads fast",
+          "No follow-ups running yet",
+          "Plan an extra buffer for the first 1 to 2 weeks"
+        ],
+        [
+          "Same people getting emailed twice",
+          "Old and new lists overlap",
+          "Remove anyone already contacted before you upload"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Let Claude plan your refills"
+    },
+    {
+      "type": "prompt",
+      "label": "Lead fuel prompt",
+      "text": "Act as my cold email lead planner.\n\nMy setup:\n- Sending inboxes: [number]\n- Emails per inbox per day: 30\n- Emails per person in my sequence: [number]\n- Working days per month: 22\n- Leads in my current list: [number]\n- I start sending this list on: [date]\n- Holidays to skip: [dates]\n\nGive me:\n1) sends per month, 2) new people used per working day, 3) new leads I need each month,\n4) how many working days my current list lasts,\n5) the date I'll have 25% left, which is when I should order the next list,\n6) a 3-month refill calendar.\nShow the math step by step and skip weekends and my holidays."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Google Sheets WORKDAY function",
+      "url": "https://support.google.com/docs/answer/3093059",
+      "note": "Official help for the date formula"
+    },
+    {
+      "name": "Hunter: The State of Cold Email 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Data behind keeping each inbox at 20 to 49 emails a day"
+    },
+    {
+      "name": "WayneFlow $10K reverse calculator",
+      "url": "https://wayneflow.com/guides/clients.html",
+      "note": "Work out how many inboxes you need in the first place"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Should I just buy one huge list for the year?",
+      "a": "No. Contact data goes out of date as people change jobs. Buy monthly, verify right before you send, and you waste less."
+    },
+    {
+      "q": "Does this count follow-ups?",
+      "a": "Yes. That's why you divide sends by the emails in your sequence. Every person you contact uses up that many sends."
+    },
+    {
+      "q": "What if I send more than 30 a day per inbox?",
+      "a": "The calculator still works, just change that number. But adding inboxes is safer than pushing one inbox harder."
+    }
+  ],
+  "instantdm": "pending",
+  "reel_status": "made 2026-10-31"
+}

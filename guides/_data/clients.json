@@ -1,0 +1,369 @@
+{
+  "slug": "clients",
+  "keyword": "CLIENTS",
+  "date": "2026-10-31",
+  "draft": false,
+  "title": "The $10K-a-Month Reverse Calculator: Clients, Calls, Emails, Inboxes",
+  "description": "Type your price and close rate, get the clients, calls, emails and inboxes you need per day to hit $10K a month. Fill-in sheet plus worked example.",
+  "lead": "This is the exact reverse calculator from the reel. Type in your monthly goal, your price and your close rate, and it tells you how many clients, calls, emails and inboxes you need, down to a daily number you can actually do.",
+  "insider": "The $2,500 in the example isn't a random number. It's our clients' average deal, from the construction software campaign below: **31 sales-qualified demos and 6 signed annual contracts, $15,000 closed**. The math takes five minutes. Building the list, warming the inboxes and answering every reply so the calls actually happen is the work we do for clients.",
+  "case": "case-02",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The short answer"
+    },
+    {
+      "type": "p",
+      "text": "Start from the money and work backwards, one step at a time: **goal ÷ price = clients**, **clients × close rate = calls**, **calls × emails per call = emails**, **emails ÷ working days ÷ 30 = inboxes**. Four divisions and you know exactly how much outreach your goal needs."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Step",
+        "Math",
+        "Worked example (all example numbers)"
+      ],
+      "rows": [
+        [
+          "1. Clients",
+          "Monthly goal ÷ price per client",
+          "$10,000 ÷ $2,500 = **4 clients**"
+        ],
+        [
+          "2. Calls",
+          "Clients × calls per close",
+          "Close 1 in 4 calls: 4 × 4 = **16 calls**"
+        ],
+        [
+          "3. Emails",
+          "Calls × emails per call booked",
+          "1 call per 190 emails: 16 × 190 = **3,040 emails** (about 3,000)"
+        ],
+        [
+          "4. Emails a day",
+          "Emails ÷ working days",
+          "3,040 ÷ 22 = 138.2, round up to **139 a day** (about 140)"
+        ],
+        [
+          "5. Inboxes",
+          "Emails a day ÷ 30 per inbox",
+          "139 ÷ 30 = 4.6, round up to **5 inboxes**"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Important",
+      "text": "Every number in the example is just an example: the $2,500 price, the 1 in 4 close rate and the 1 call per 190 emails. The 30 emails per inbox per day is a common rule. Swap in your own numbers, or the answer means nothing."
+    },
+    {
+      "type": "h2",
+      "text": "Why work backwards"
+    },
+    {
+      "type": "p",
+      "text": "Most people pick a sending number first (\"let's send 100 a day\") and hope the money follows. Then they don't know if 100 is too much, too little or way off. Working backwards flips it. You start with the one number you actually care about, money, and every other number falls out of it."
+    },
+    {
+      "type": "p",
+      "text": "It also turns a big scary goal into a small daily habit. \"$10K a month\" is hard to act on. \"Send 139 emails today from 5 inboxes\" is a to-do item."
+    },
+    {
+      "type": "h2",
+      "text": "The fill-in sheet"
+    },
+    {
+      "type": "p",
+      "text": "Fill in the 6 blanks with your own numbers. Then do the math in the second table to get your 6 answers. Do it on paper, or copy the Google Sheets version below."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Your input",
+        "Write it here",
+        "Example"
+      ],
+      "rows": [
+        [
+          "A. Monthly goal (new revenue)",
+          "$ ______",
+          "$10,000"
+        ],
+        [
+          "B. Price of one client (what one deal is worth)",
+          "$ ______",
+          "$2,500"
+        ],
+        [
+          "C. Close rate: you close 1 in every ___ calls",
+          "1 in ___",
+          "1 in 4"
+        ],
+        [
+          "D. Emails sent per call booked",
+          "______",
+          "190"
+        ],
+        [
+          "E. Working days in the month",
+          "______",
+          "22"
+        ],
+        [
+          "F. Emails per inbox per day",
+          "______",
+          "30 (common rule)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Your answer",
+        "Math",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Clients you need",
+          "A ÷ B, round up",
+          "4"
+        ],
+        [
+          "Calls you need",
+          "Clients × C",
+          "16"
+        ],
+        [
+          "Emails a month",
+          "Calls × D",
+          "3,040"
+        ],
+        [
+          "Emails a day",
+          "Emails a month ÷ E, round up",
+          "139"
+        ],
+        [
+          "Inboxes",
+          "Emails a day ÷ F, round up",
+          "5"
+        ],
+        [
+          "Domains (max 3 inboxes each)",
+          "Inboxes ÷ 3, round up",
+          "2"
+        ]
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Google Sheets version"
+    },
+    {
+      "type": "p",
+      "text": "Open a blank Google Sheet, click cell A1 and paste. The labels land in column A and the numbers and formulas in column B. Change the numbers in B1 to B6 and everything below updates by itself."
+    },
+    {
+      "type": "prompt",
+      "label": "Copy, then paste into cell A1",
+      "text": "Monthly goal ($)\t10000\nPrice per client ($)\t2500\nClose 1 in X calls\t4\nEmails per call booked\t190\nWorking days\t22\nEmails per inbox per day\t30\n\t\nClients needed\t=ROUNDUP(B1/B2,0)\nCalls needed\t=B8*B3\nEmails per month\t=B9*B4\nEmails per day\t=ROUNDUP(B10/B5,0)\nInboxes needed\t=ROUNDUP(B11/B6,0)\nDomains needed\t=ROUNDUP(B12/3,0)"
+    },
+    {
+      "type": "tip",
+      "label": "Why round up",
+      "text": "You can't sign 3.3 clients or buy 4.6 inboxes. If your goal is $10,000 and your price is $3,000, you need 4 clients, not 3. Always round up, so you land on or above your goal."
+    },
+    {
+      "type": "h2",
+      "text": "Where to get your real numbers"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Price (B):** what one new client pays you in the month you sign them. If you sell a monthly retainer, use one month's fee, and remember the goal here is new revenue each month.",
+        "**Close rate (C):** look at your last 10 to 20 sales calls. If you closed 3 of 12, that's 1 in 4. No history yet? Use 1 in 5 to stay safe, then update it after your first calls.",
+        "**Emails per call (D):** total cold emails sent (all follow-ups count) ÷ calls booked, from your last campaign. If you've never sent cold email, use the example to plan, then replace it with your real number after 2 to 3 weeks of sending.",
+        "**Working days (E):** usually 20 to 22. Take out holidays.",
+        "**Emails per inbox (F):** 30 a day is a common safe rule. In [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email) (31 million emails), inboxes sending 20 to 49 a day got a 5.7% reply rate, above the 4.5% average."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Emails per call changes everything"
+    },
+    {
+      "type": "p",
+      "text": "The number that moves your plan the most is emails per call booked. It depends on your list, your offer and your market, and it can be very different from the 190 in the example. Here's the same $10K goal (4 clients, 16 calls) with three different emails-per-call numbers:"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Emails per call",
+        "Emails a month",
+        "Emails a day (22 days)",
+        "Inboxes (30/day)"
+      ],
+      "rows": [
+        [
+          "190",
+          "3,040",
+          "139",
+          "5"
+        ],
+        [
+          "500",
+          "8,000",
+          "364",
+          "13"
+        ],
+        [
+          "1,000",
+          "16,000",
+          "728",
+          "25"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's why the reel says this only works with your real numbers. If you plan with a number that's too good, you buy too few inboxes and miss the goal. If you improve your offer or your list, this number drops, and you need fewer inboxes for the same money."
+    },
+    {
+      "type": "h2",
+      "text": "More worked examples"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Example (190 emails per call)",
+        "Clients",
+        "Calls",
+        "Emails a day",
+        "Inboxes"
+      ],
+      "rows": [
+        [
+          "$10K goal, $1,000 price, close 1 in 4",
+          "10",
+          "40",
+          "346",
+          "12"
+        ],
+        [
+          "$10K goal, $5,000 price, close 1 in 3",
+          "2",
+          "6",
+          "52",
+          "2"
+        ],
+        [
+          "$20K goal, $2,500 price, close 1 in 4",
+          "8",
+          "32",
+          "277",
+          "10"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Notice the first two rows. Same $10K goal, but a higher price and better close rate cut the work from 12 inboxes to 2. Sometimes the fastest way to hit your number is not more emails. It's a better offer or a better sales call."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "What it usually means",
+        "What to do"
+      ],
+      "rows": [
+        [
+          "You need 30+ inboxes for a small goal",
+          "Your emails per call is very high, or your price is low",
+          "Work on the offer and the list before you buy more inboxes"
+        ],
+        [
+          "Lots of calls, few clients",
+          "Close rate is the problem, not outreach",
+          "Qualify replies better before booking, and improve the sales call"
+        ],
+        [
+          "You hit the email number but not the call number",
+          "Replies aren't turning into calls",
+          "Reply faster and always include a booking link"
+        ],
+        [
+          "Your plan works on paper, nothing happens in week 1",
+          "New inboxes need warm-up before they can send at full volume",
+          "Plan 4 to 5 weeks of setup, see our [sending calculator](/guides/math.html)"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Using someone else's close rate or emails-per-call number instead of your own.",
+        "Forgetting that calls come a few weeks after the emails go out. Start this month for next month's revenue.",
+        "Counting only first emails, not follow-ups, when you work out emails per call.",
+        "Pushing one inbox to 150 a day instead of adding inboxes.",
+        "Never updating the sheet. Re-run it every month with last month's real numbers."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Let Claude run it for you"
+    },
+    {
+      "type": "prompt",
+      "label": "Reverse calculator prompt",
+      "text": "Work backwards from my revenue goal to a daily cold email plan.\n\nMy numbers:\n- Monthly new revenue goal: $[goal]\n- Price of one client: $[price]\n- I close 1 in every [X] sales calls\n- I book 1 call for every [Y] cold emails sent (all follow-ups count)\n- Working days this month: [days]\n- Max cold emails per inbox per day: 30\n- Max inboxes per domain: 3\n\nGive me, rounding up at every step:\n1) clients needed, 2) calls needed, 3) emails per month, 4) emails per day, 5) inboxes, 6) domains.\nShow the math step by step. Then show the same plan if my emails-per-call number is twice as high, so I can see the risk."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: The State of Cold Email 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Per-inbox volume and reply data (31M emails)"
+    },
+    {
+      "name": "Google Sheets",
+      "url": "https://sheets.google.com",
+      "note": "Free place to build the fill-in sheet"
+    },
+    {
+      "name": "WayneFlow sending calculator",
+      "url": "https://wayneflow.com/guides/math.html",
+      "note": "How to set up and warm up the inboxes this plan needs"
+    }
+  ],
+  "faq": [
+    {
+      "q": "I've never sent cold email. What emails-per-call number do I use?",
+      "a": "Plan with the example, but treat it as a guess. After 2 to 3 weeks of sending, divide emails sent by calls booked and put your real number in the sheet."
+    },
+    {
+      "q": "I sell a monthly retainer. Does this still work?",
+      "a": "Yes. Use one month's fee as the price. The calculator tells you how many new clients you need each month; your total monthly revenue grows as clients stay."
+    },
+    {
+      "q": "Why 30 emails per inbox?",
+      "a": "It's a common safe rule that keeps inboxes out of spam. Hunter's data showed the best reply rates in the 20 to 49 a day range. Need more volume? Add inboxes, don't push one harder."
+    },
+    {
+      "q": "Why is my answer so different from the reel?",
+      "a": "Because the reel uses example numbers. Your price, close rate and emails per call are different, so your plan will be too. That's the point of the calculator."
+    }
+  ],
+  "instantdm": "pending",
+  "reel_status": "made 2026-10-31"
+}

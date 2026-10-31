@@ -1,0 +1,382 @@
+{
+  "slug": "grief",
+  "keyword": "GRIEF",
+  "date": "2026-10-31",
+  "draft": false,
+  "title": "The Offer Test Sheet: Fix Zero Replies by Testing 3 Offers",
+  "description": "Zero replies? Test the offer, not the copy. Write 3 offers for one list, send each to enough people, read contacts per lead. 6 offer examples.",
+  "lead": "This is the offer test sheet from the reel. It shows you how to write 3 different offers for the same list, how many people to send each one to, and how to read the result with one number: contacts per lead. Plus 6 example offers to try.",
+  "insider": "Our small pilot below is this exact math: **10,284 people contacted and 103 sales opportunities**, about 1 opportunity for every 100 people. We test small like this before scaling, so the budget goes behind an offer that already works. The test sheet is the easy part. Building the lists, sending each test cleanly and reading the replies is the work we do for clients.",
+  "case": "case-05",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Skip to stage five"
+    },
+    {
+      "type": "p",
+      "text": "Denial, anger, bargaining, depression... and finally acceptance: **check your offer**. When a campaign gets zero replies, most people rewrite the subject line or the first sentence. Usually the real problem is the **offer**: what you're asking people to say yes to."
+    },
+    {
+      "type": "p",
+      "text": "Here's how big the difference can be. One agency, [RevGrowth](https://revgrowth.beehiiv.com/p/how-to-write-cold-email-scripts-based-on-your-offer-type), shares typical lead rates by offer type: a great offer books about **1 lead per 25 people** (their range for incredible offers is 1 per 25 to 200), while a hard offer (their examples: SEO, cybersecurity, recruiting) books about **1 lead per 10,000** (their range is 1 per 1,000 to 10,000). Those are one agency's numbers, not a promise, but they show why the offer is the first thing to test."
+    },
+    {
+      "type": "h2",
+      "text": "Offer vs copy: what's the difference?"
+    },
+    {
+      "type": "table",
+      "head": [
+        "",
+        "The offer",
+        "The copy"
+      ],
+      "rows": [
+        [
+          "What it is",
+          "What they get if they say yes",
+          "The words you use to describe it"
+        ],
+        [
+          "Example",
+          "\"A free 3-minute video teardown of your website\"",
+          "\"Saw your site, noticed 2 things. Mind if I send a quick video?\""
+        ],
+        [
+          "Fix it when",
+          "Nobody replies, or replies are all \"no thanks\"",
+          "People reply but seem confused about what you mean"
+        ],
+        [
+          "Test it by",
+          "Changing what you give or ask for",
+          "Changing the wording of the same offer"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Fix the offer first. Then the copy has something worth selling."
+    },
+    {
+      "type": "h2",
+      "text": "Step 1: Write 3 different offers"
+    },
+    {
+      "type": "p",
+      "text": "Three offers that are really different, not three wordings of the same thing. Use this formula for each one:"
+    },
+    {
+      "type": "prompt",
+      "label": "Offer formula",
+      "text": "For [who exactly]\nwe'll [what you give or do]\nso they get [one result they care about]\nin [time frame]\nwith [what makes it low risk: free / guarantee / small first step].\nThe ask: [one small yes, e.g. \"want me to send it?\"]"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Make them differ on what they get.** For example: one free thing, one small paid step, one guarantee.",
+        "**Keep the ask small.** \"Want me to send it?\" is easier to say yes to than \"Can we book 30 minutes?\"",
+        "**Only promise what you can deliver.** A guarantee you can't keep is worse than no offer."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The 6 offer examples"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Offer type",
+        "Example line",
+        "Works well when"
+      ],
+      "rows": [
+        [
+          "1. Free teardown",
+          "\"I recorded a 3-minute video on 2 things I'd fix on your [website / ads / funnel]. Want me to send it?\"",
+          "You can spot problems from the outside"
+        ],
+        [
+          "2. Free sample of the work",
+          "\"We'll write your first [5 cold emails / 3 ads] for free. Keep them either way.\"",
+          "Your work is easy to show"
+        ],
+        [
+          "3. Pilot with a guarantee",
+          "\"Try it for 30 days on one [location / product]. If you don't get [result], you don't pay.\"",
+          "You're confident in the result and can afford a few refunds"
+        ],
+        [
+          "4. Benchmark report",
+          "\"We compared [number] [industry] companies on [metric]. Want to see where you rank?\"",
+          "You have (or can build) real data"
+        ],
+        [
+          "5. Lookalike result",
+          "\"We helped a [similar company] get [real result]. Worth a 15-minute look?\"",
+          "You have a real, specific case study"
+        ],
+        [
+          "6. Small first step",
+          "\"A one-week [setup / fix] for a flat [$X], before any bigger commitment.\"",
+          "Your main offer is expensive or a big decision"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Real only",
+      "text": "Offer 5 only works with a real result. Never round up or invent a number."
+    },
+    {
+      "type": "h2",
+      "text": "Step 2: Set up a fair test"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**One list, split 3 ways at random.** Same kind of people in each group, so the only difference is the offer.",
+        "**Same copy structure.** Same length, same subject style, same follow-up count. Only the offer line changes.",
+        "**Same inboxes and days.** Send all three at the same time from the same mix of inboxes.",
+        "**Same definition of a lead.** Decide now what counts: a reply saying \"interested\", \"send it\" or \"let's talk\". \"No thanks\" and \"unsubscribe\" are replies, not leads."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 3: How many people per offer"
+    },
+    {
+      "type": "p",
+      "text": "Send each offer to **at least 300 people, and ideally 500**, with every person getting your full sequence. Here's why: if an offer gets 1 lead per 100 people, 300 people gives you about 3 leads, which is the smallest number you can start to trust. Fewer people, and one lucky reply can fool you."
+    },
+    {
+      "type": "table",
+      "head": [
+        "People per offer",
+        "Total (3 offers)",
+        "Leads at 1 per 100",
+        "Leads at 1 per 25"
+      ],
+      "rows": [
+        [
+          "100",
+          "300",
+          "1",
+          "4"
+        ],
+        [
+          "300",
+          "900",
+          "3",
+          "12"
+        ],
+        [
+          "500",
+          "1,500",
+          "5",
+          "20"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "How long it takes depends on your sending: **new people per day = inboxes × 30 ÷ emails in your sequence**. With 5 inboxes and a 3-email sequence, that's 50 new people a day, so 1,500 people takes 30 working days. Then wait about a week after the last follow-up before you judge."
+    },
+    {
+      "type": "h2",
+      "text": "Step 4: Read the result (contacts per lead)"
+    },
+    {
+      "type": "p",
+      "text": "One number tells you which offer wins: **contacts per lead = people contacted ÷ leads**. Lower is better. It's better than reply rate, because \"no thanks\" counts as a reply but isn't worth anything."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Offer (500 people each)",
+        "Leads",
+        "Contacts per lead",
+        "Decision"
+      ],
+      "rows": [
+        [
+          "A. Free teardown",
+          "4",
+          "125",
+          "Keep testing"
+        ],
+        [
+          "B. Pilot with guarantee",
+          "10",
+          "50",
+          "**Winner, scale it**"
+        ],
+        [
+          "C. Small first step",
+          "0",
+          "More than 500",
+          "Drop it"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "(Example numbers.) Offer B needs 50 people per lead. Offer A needs 125. B is 2.5 times better, so most of next month's list goes to B."
+    },
+    {
+      "type": "h3",
+      "text": "The fill-in sheet"
+    },
+    {
+      "type": "table",
+      "head": [
+        "",
+        "Offer A",
+        "Offer B",
+        "Offer C"
+      ],
+      "rows": [
+        [
+          "Offer in one line",
+          "______",
+          "______",
+          "______"
+        ],
+        [
+          "People contacted",
+          "______",
+          "______",
+          "______"
+        ],
+        [
+          "Total replies",
+          "______",
+          "______",
+          "______"
+        ],
+        [
+          "Leads (interested replies)",
+          "______",
+          "______",
+          "______"
+        ],
+        [
+          "Contacts per lead (people ÷ leads)",
+          "______",
+          "______",
+          "______"
+        ],
+        [
+          "Keep / test more / drop",
+          "______",
+          "______",
+          "______"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 5: Keep the winner, test again"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Clear winner** (best offer has 3+ leads and needs about half the contacts per lead of the next one): scale it.",
+        "**Close call:** send another 300 people to the top two before deciding.",
+        "**All three at zero after 500 people each:** the offer isn't the only problem. Check the list (right people?) and deliverability (landing in spam?) before writing new offers.",
+        "**Every month:** keep the winner running and test one new challenger offer against it."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Why it ruins the test",
+        "Do this instead"
+      ],
+      "rows": [
+        [
+          "Changing the offer and the copy at once",
+          "You can't tell which change worked",
+          "Change only the offer"
+        ],
+        [
+          "Different lists for each offer",
+          "The list difference hides the offer difference",
+          "Split one list at random"
+        ],
+        [
+          "Calling a winner after 1 lead",
+          "One reply can be luck",
+          "Wait for 3+ leads and full sends"
+        ],
+        [
+          "Judging by open rate",
+          "Opens are unreliable and say nothing about the offer",
+          "Count leads only"
+        ],
+        [
+          "Three versions of the same offer",
+          "You learn nothing new",
+          "Make them truly different"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Write your 3 offers with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Offer test prompt",
+      "text": "I sell: [one sentence]\nMy list: [who they are: job title, industry, company size]\nTheir biggest problem: [one sentence]\nReal results I can mention: [only true results with numbers, or \"none yet\"]\n\nWrite 3 really different cold email offers for this same list, one each:\nA) a free, useful thing I give first,\nB) a low-risk paid step or a guarantee I could actually keep,\nC) a small first step before the full offer.\n\nFor each: the offer in one line using \"For [who] we'll [what] so they get [result] in [time] with [low risk]\", plus a cold email under 80 words with a one-line ask.\nKeep the email structure the same across all 3 so only the offer changes. Don't invent results."
+    }
+  ],
+  "resources": [
+    {
+      "name": "RevGrowth: cold email scripts by offer type",
+      "url": "https://revgrowth.beehiiv.com/p/how-to-write-cold-email-scripts-based-on-your-offer-type",
+      "note": "Source of the 1 per 25 vs 1 per 10,000 lead rates by offer type"
+    },
+    {
+      "name": "Google Sheets",
+      "url": "https://sheets.google.com",
+      "note": "Track contacts per lead for each offer"
+    },
+    {
+      "name": "WayneFlow lead fuel calculator",
+      "url": "https://wayneflow.com/guides/fuel.html",
+      "note": "Work out how fast you can reach 300 to 500 people per offer"
+    },
+    {
+      "name": "Free cold email playbook",
+      "url": "https://wayneflow.com/free-cold-email-playbook.html",
+      "note": "The full system we use"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What counts as a lead?",
+      "a": "A reply that shows real interest: \"send it\", \"tell me more\", \"let's talk\". Decide this before you start and use the same rule for all three offers."
+    },
+    {
+      "q": "My list is only 300 people. Can I still test?",
+      "a": "Split it into 3 groups of 100. The result is less certain, so treat it as a hint and confirm the winner on your next list."
+    },
+    {
+      "q": "Is a free offer always best?",
+      "a": "No. Free can bring lots of replies from people who never buy. Look at contacts per lead, and later at which leads turn into calls and deals."
+    },
+    {
+      "q": "How often should I test new offers?",
+      "a": "Keep your winner running and test one new offer against it each month."
+    }
+  ],
+  "instantdm": "pending",
+  "reel_status": "made 2026-10-31"
+}

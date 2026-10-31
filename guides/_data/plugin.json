@@ -1,0 +1,241 @@
+{
+  "slug": "plugin",
+  "keyword": "PLUGIN",
+  "date": "2026-10-31",
+  "draft": false,
+  "title": "Anthropic's Free Sales Plugin: 2-Minute Setup + 3 Prompts",
+  "description": "Install Anthropic's free, open-source Sales plugin for Claude in 2 minutes, then use 3 prompts for prospect research, call prep and first-draft outreach.",
+  "lead": "This is the setup guide from the reel, plus my 3 prompts. Install Anthropic's free Sales plugin in about 2 minutes, tell it who your best customer is, then use it for prospect research, call prep and first-draft outreach.",
+  "insider": "We use the same idea on client campaigns: a couple of real, specific details per company instead of a hundred generic emails. Emails that fit the reader are how our agency client below kept getting about **100 interested replies a week** for four and a half months, at a 3.19% reply rate. The research is the easy part. The list, the inboxes and the follow-ups are what we run for clients.",
+  "case": "case-01",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "What it is"
+    },
+    {
+      "type": "p",
+      "text": "Anthropic, the company behind Claude, open-sourced a set of **11 free plugins** for Claude in a public GitHub repo called [knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) (Apache-2.0 license, more than 33,000 stars as of Oct 31, 2026). One of them is **Sales**. In Anthropic's words, it helps you \"research prospects, prep for calls, review your pipeline, draft outreach, and build competitive battlecards.\""
+    },
+    {
+      "type": "p",
+      "text": "It works on its own using web search and what you tell it. If you connect tools like your CRM, email or calendar, it can use those too, but you don't need them to start."
+    },
+    {
+      "type": "tip",
+      "label": "The catch",
+      "text": "The plugin is free. Claude itself isn't: you need a paid Claude plan to use plugins."
+    },
+    {
+      "type": "h2",
+      "text": "What you need"
+    },
+    {
+      "type": "list",
+      "items": [
+        "A paid Claude plan",
+        "Either Claude's Cowork (in the Claude desktop app) or Claude Code",
+        "2 minutes, and one sentence about your best customer"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Setup option A: Cowork (no code)"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Open the Claude desktop app and switch to Cowork.",
+        "Go to [claude.com/plugins](https://claude.com/plugins), which is where Anthropic says to install these plugins from.",
+        "Find **Sales** and install it.",
+        "Start a new Cowork task and type: \"Research [a company you know] as a sales prospect.\" If you get a company overview, recent news and likely priorities back, it's working."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Setup option B: Claude Code (one command each)"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Open your terminal with Claude Code installed.",
+        "Add Anthropic's plugin marketplace (copy box below, line 1).",
+        "Install the Sales plugin (line 2).",
+        "Start Claude Code. The plugin turns on by itself. Its skills run when your request matches, or you can call them by name, like /sales:call-prep."
+      ]
+    },
+    {
+      "type": "prompt",
+      "label": "Claude Code install commands",
+      "text": "claude plugin marketplace add anthropics/knowledge-work-plugins\nclaude plugin install sales@knowledge-work-plugins"
+    },
+    {
+      "type": "h2",
+      "text": "Before anything: tell it who your best customer is"
+    },
+    {
+      "type": "p",
+      "text": "This is the step most people skip, and the reel says it plainly: it won't work unless you tell it who your best customer is. The plugin scores prospects against your ideal customer. If it doesn't know who that is, every company looks like a fit. Paste this once at the start of each session (or save it in your project instructions)."
+    },
+    {
+      "type": "prompt",
+      "label": "Setup: your best customer",
+      "text": "Before we start, here is who we sell to. Use this for every research, call prep and outreach task.\n\nWhat we sell: [one sentence]\nOur best customer: [industry], [company size, e.g. 20-200 employees], [location]\nThe person who buys: [job title]\nThe problem we solve for them: [one sentence]\nOur best result so far: [a real result with a number, only if true]\nNot a fit: [who we don't want, e.g. companies under 10 people]\n\nIf you're missing something you need, ask me once instead of guessing."
+    },
+    {
+      "type": "h2",
+      "text": "Prompt 1: Prospect research (two real details)"
+    },
+    {
+      "type": "p",
+      "text": "Don't ask it to write a hundred emails. Ask it for **two real details** about one company. In [Hunter's study of 31 million cold emails](https://hunter.io/the-state-of-cold-email), emails with **2 custom details got a 5.6% reply rate, versus 3.6% with none**. Two true, specific details beat ten generic ones."
+    },
+    {
+      "type": "prompt",
+      "label": "Prospect research prompt",
+      "text": "/sales:account-research\n\nResearch [company name] ([website]) as a prospect. Contact: [name, job title] if known.\n\nGive me:\n1. A 3-line company overview.\n2. Fit against our best customer: good / maybe / no, and why.\n3. Exactly TWO real, specific details I could mention in a cold email (a recent hire, launch, expansion, job post, review, quote). For each, give the source link and the date.\n4. The one problem they most likely have that we solve.\n\nOnly use facts you can link to. If you can't find two real details, say so. Don't guess."
+    },
+    {
+      "type": "h2",
+      "text": "Prompt 2: One-page call prep"
+    },
+    {
+      "type": "p",
+      "text": "Before every call, have it write a one-page brief. Five minutes of reading beats twenty minutes of clicking around their website."
+    },
+    {
+      "type": "prompt",
+      "label": "Call prep prompt",
+      "text": "/sales:call-prep\n\nI have a call with [name, job title] at [company] on [date]. It's a [first discovery call / follow-up / demo].\nHow they found us: [cold email reply / form / referral]. What they said: [paste their reply].\n\nWrite a one-page brief:\n1. Who they are and what the company does (3 lines).\n2. Anything new at the company in the last 90 days, with links.\n3. Their likely top 2 problems, tied to what we sell.\n4. 5 discovery questions, simplest first.\n5. 2 objections they might raise and a one-line answer to each.\n6. The one next step I should ask for at the end.\nKeep it to one page."
+    },
+    {
+      "type": "h2",
+      "text": "Prompt 3: First-draft outreach"
+    },
+    {
+      "type": "prompt",
+      "label": "First-draft outreach prompt",
+      "text": "/sales:draft-outreach\n\nUsing the two details you found on [company], draft a first cold email to [name, job title].\n\nRules:\n1. Under 80 words.\n2. Line 1 uses detail #1. Work detail #2 in only if it fits naturally.\n3. One sentence on the problem, one on the result we get (only real numbers I gave you).\n4. End with a low-pressure question, not a meeting request.\n5. Plain English, no buzzwords, no exclamation marks.\nGive me 2 versions. Don't send anything, just draft."
+    },
+    {
+      "type": "tip",
+      "label": "You do the selling",
+      "text": "Treat everything it writes as a first draft. Check every detail is true, read the email out loud, and change anything that doesn't sound like you before it goes out."
+    },
+    {
+      "type": "h2",
+      "text": "A simple daily routine"
+    },
+    {
+      "type": "table",
+      "head": [
+        "When",
+        "What to ask",
+        "Time"
+      ],
+      "rows": [
+        [
+          "Morning",
+          "Prompt 1 on your top 5 to 10 target companies",
+          "10 min"
+        ],
+        [
+          "Before each call",
+          "Prompt 2 for a one-page brief",
+          "5 min"
+        ],
+        [
+          "After research",
+          "Prompt 3 for first drafts, then edit by hand",
+          "10 min"
+        ],
+        [
+          "After each call",
+          "\"Summarize this call and draft the follow-up\" (paste your notes)",
+          "5 min"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Why it hurts",
+        "Do this instead"
+      ],
+      "rows": [
+        [
+          "Asking for 100 emails at once",
+          "You get 100 generic emails",
+          "Research one company, get two real details"
+        ],
+        [
+          "Skipping the best-customer setup",
+          "Everyone looks like a fit",
+          "Paste the setup prompt first"
+        ],
+        [
+          "Sending drafts without checking",
+          "One wrong \"fact\" kills trust",
+          "Check every detail against its link"
+        ],
+        [
+          "Letting it invent results",
+          "Fake numbers are easy to spot",
+          "Only give it real results to use"
+        ],
+        [
+          "Sending from your main inbox",
+          "Volume can hurt your main domain",
+          "Use separate, warmed-up sending inboxes"
+        ]
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "note": "The official repo with all 11 plugins, including Sales"
+    },
+    {
+      "name": "Claude plugins",
+      "url": "https://claude.com/plugins",
+      "note": "Where Anthropic says to install plugins for Cowork"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Plans and the desktop app"
+    },
+    {
+      "name": "Hunter: The State of Cold Email",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "31M emails: 2 custom details 5.6% replies vs 3.6% with none"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it really free?",
+      "a": "The plugin is free and open source (Apache-2.0). You need a paid Claude plan to run it."
+    },
+    {
+      "q": "Do I need to connect my CRM?",
+      "a": "No. It works with web search and what you tell it. Connecting a CRM, email or calendar just gives it more to work with."
+    },
+    {
+      "q": "Can it send emails for me?",
+      "a": "With email connected it can create drafts or send when you ask. We'd keep it on drafts and check each one yourself before anything goes out."
+    },
+    {
+      "q": "Will this replace a salesperson?",
+      "a": "No. It does the research, prep and first drafts. You still do the selling."
+    }
+  ],
+  "instantdm": "pending",
+  "reel_status": "made 2026-10-31"
+}
