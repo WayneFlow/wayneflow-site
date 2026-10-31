@@ -1,0 +1,238 @@
+{
+  "slug": "scope",
+  "keyword": "SCOPE",
+  "case": "case-01",
+  "date": "2026-10-31",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "carousel live on Instagram",
+  "title": "The Scope Fence Template: Stop Scope Creep Without Losing the Client",
+  "description": "An in/out scope list, a price list for extras, a change-order form and the \"yes, and here's the price\" reply. Stop doing free work for clients.",
+  "lead": "This is the full Scope Fence template from the carousel. Scope creep isn't a client problem, it's a missing fence. This guide gives you the in/out list, a price for every extra, a simple change-order form and the exact reply to send when a client asks for more.",
+  "insider": "We use the same fence with our own clients: every campaign starts with a written list of what's included (inboxes, lists, copy, follow-ups) and what isn't. That's part of how one agency client of ours got **2,146 interested replies** without the project turning into endless extras. A clear scope keeps both sides happy, and it's how we run every client.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why scope creep costs so much"
+    },
+    {
+      "type": "p",
+      "text": "In [Ignition's 2025 Agency Pricing and Cash Flow Report](https://www.ignitionapp.com/2025-agency-pricing-cashflow-report) (a survey of 273 US agency leaders), **57% of agencies said they lose $1,000 to $5,000 a month** to unbilled work, and **30% said it costs them more than $5,000 a month**. **78% rarely or only sometimes charge** for out-of-scope work, and only about 1% bill for all of it."
+    },
+    {
+      "type": "p",
+      "text": "Most of that isn't bad clients. It's small, friendly requests (\"can you just...\") with no clear line and no price. The fix is a fence: a written line that both sides agreed to before work started."
+    },
+    {
+      "type": "h2",
+      "text": "Step 1: Write what's OUT, not just what's in"
+    },
+    {
+      "type": "p",
+      "text": "Most proposals only list what's included. Clients then assume everything else is included too. Add a second list: what's not included."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Included",
+        "Not included (priced as extras)"
+      ],
+      "rows": [
+        [
+          "2 rounds of revisions per deliverable",
+          "A 3rd or later round of revisions"
+        ],
+        [
+          "5 website pages",
+          "New pages after sign-off"
+        ],
+        [
+          "1 monthly strategy call (45 min)",
+          "Extra calls or meetings"
+        ],
+        [
+          "Ad setup and management",
+          "Ad spend (paid by the client)"
+        ],
+        [
+          "Copy for the pages agreed",
+          "Copy for new pages, emails or ads"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Be specific",
+      "text": "\"Unlimited revisions\" and \"ongoing support\" are where scope creep starts. Use numbers: 2 rounds, 5 pages, 1 call."
+    },
+    {
+      "type": "h2",
+      "text": "Step 2: Put a price on every extra"
+    },
+    {
+      "type": "p",
+      "text": "When extras already have a price, saying yes is easy and nobody feels awkward. Put a short price list in the contract."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Extra",
+        "Example price"
+      ],
+      "rows": [
+        [
+          "Extra revision round",
+          "$150"
+        ],
+        [
+          "New page",
+          "$400"
+        ],
+        [
+          "Extra call (45 min)",
+          "$100"
+        ],
+        [
+          "Rush delivery (under 48 hours)",
+          "+25%"
+        ],
+        [
+          "Anything else",
+          "Your hourly rate × estimated hours"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "These are examples. Use your own rates, and base each price on the real hours the work takes you."
+    },
+    {
+      "type": "h2",
+      "text": "Step 3: Reply \"yes, and here's the price\""
+    },
+    {
+      "type": "p",
+      "text": "Don't say no, and don't do it for free. Say yes, and add the price. You stay helpful, and the client decides."
+    },
+    {
+      "type": "prompt",
+      "label": "The reply script",
+      "text": "Happy to do that! 🙌\n\nThis one sits outside what we agreed for this month, so it's an extra:\n[what they asked for] = $[price], ready by [date].\n\nWant me to go ahead? Just reply \"yes\" and I'll add it to this month's invoice."
+    },
+    {
+      "type": "p",
+      "text": "If the request is big, send the change-order form below instead of a quick reply."
+    },
+    {
+      "type": "h2",
+      "text": "Step 4: Bill extras the same month"
+    },
+    {
+      "type": "p",
+      "text": "Extras billed 3 months later feel like a surprise. Add every approved extra to the next invoice, with the date it was approved."
+    },
+    {
+      "type": "h2",
+      "text": "The change-order form"
+    },
+    {
+      "type": "prompt",
+      "label": "Change-order form (copy it)",
+      "text": "CHANGE ORDER #[number]\n\nClient: [name]\nProject: [project]\nDate requested: [date]\n\nWhat's being added:\n[describe the extra work in 1-3 lines]\n\nWhy it's outside the original scope:\n[e.g. new page not in the original 5]\n\nPrice: $[amount]\nNew delivery date: [date]\nEffect on other deadlines: [none / moves X by Y days]\n\nApproved by: ______________  Date: ________"
+    },
+    {
+      "type": "h2",
+      "text": "Worked example"
+    },
+    {
+      "type": "p",
+      "text": "Say you do 3 extra requests a month, each about 4 hours, at $100 an hour:"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "3 extras × 4 hours × $100 = **$1,200 a month**",
+        "$1,200 × 12 months = **$14,400 a year**",
+        "That's money you were already earning with your time, just not billing."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "The fence is added after the project starts",
+          "Get the in/out list signed before kickoff"
+        ],
+        [
+          "Saying \"sure, no problem\" on a call",
+          "Say \"Happy to, I'll send you the price today\""
+        ],
+        [
+          "Vague limits like \"minor changes\"",
+          "Use numbers: rounds, pages, hours"
+        ],
+        [
+          "Billing extras months later",
+          "Add them to the same month's invoice"
+        ],
+        [
+          "Doing the extra before it's approved",
+          "Wait for a written \"yes\""
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Make your own fence with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Scope fence prompt",
+      "text": "I run a [type of business] and I sell [service] for $[price] a month.\nThe client usually gets: [list what you deliver].\nCommon extra requests I get: [list them].\nMy hourly rate: $[rate].\n\nWrite me:\n1) an \"Included\" and \"Not included\" list with specific numbers,\n2) a price list for the 5 most common extras, based on my hourly rate,\n3) a short, friendly \"yes, and here's the price\" reply I can paste into email or Slack.\nKeep it simple and polite."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "It only works if it's signed before kickoff."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Ignition: 2025 Agency Pricing and Cash Flow Report",
+      "url": "https://www.ignitionapp.com/2025-agency-pricing-cashflow-report",
+      "note": "Source of the scope creep numbers"
+    },
+    {
+      "name": "Demand Gen Report summary",
+      "url": "https://www.demandgenreport.com/?p=49504",
+      "note": "Summary of the same survey"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the scope fence prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Won't clients be upset if I charge for extras?",
+      "a": "Not if it was agreed in writing at the start. Clear prices feel professional. Surprise bills are what upset clients."
+    },
+    {
+      "q": "What if a small request takes 10 minutes?",
+      "a": "You can do small favors on purpose, but say so: \"This one's on us.\" Then the client knows it's a favor, not part of the deal."
+    },
+    {
+      "q": "I already started the project without a fence. What now?",
+      "a": "Send the in/out list now as \"to keep us both clear going forward\", and apply it from next month."
+    }
+  ]
+}
