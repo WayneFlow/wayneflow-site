@@ -1,0 +1,362 @@
+{
+  "slug": "paid",
+  "keyword": "PAID",
+  "date": "2026-10-31",
+  "draft": false,
+  "title": "The On-Time Invoice Kit: Milestone Invoice + 3 Reminder Emails",
+  "description": "Get paid on time without chasing: a milestone invoice template, 3 reminder emails (before, on and after the due date) and the 4 fixes behind them.",
+  "lead": "This is the exact On-Time Invoice kit from the carousel. You get a milestone invoice template with the due date on line 1, 3 copy-paste reminder emails (before, on and after the due date) and the simple rules that make clients pay on time.",
+  "insider": "An invoice kit only matters when you have clients to invoice. For the construction software company below, we booked **31 sales-qualified demos and their team signed 6 annual contracts, $15,000 closed** from emails sent to strangers. Writing a good invoice is the easy part. Building the list, warming the inboxes and following up until the calls happen is the work we do for clients.",
+  "case": "case-02",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Late pay is normal. Chasing it doesn't have to be."
+    },
+    {
+      "type": "p",
+      "text": "If a client has paid you late, you're not alone. In the [Remote Contractor Management Report 2025](https://remote.com/blog/contractor-management/reversing-late-payment-culture), **85% of freelancers said they get paid late at least some of the time**, and just over **21% get paid late (or not at all) more often than on time**."
+    },
+    {
+      "type": "p",
+      "text": "[Bonsai](https://www.hellobonsai.com/blog/late-freelance-payment) looked at about 3 years of invoices from more than 100,000 freelancers. **29% of invoices were paid late.** Their data also shows which invoices go late: big ones, crypto ones, and ones nobody follows up on. Each of those has a simple fix, and that's what this kit is built on."
+    },
+    {
+      "type": "table",
+      "head": [
+        "The 4 fixes",
+        "What to do",
+        "Why (source)"
+      ],
+      "rows": [
+        [
+          "01. Milestones",
+          "Split big invoices into smaller ones: start, midpoint, delivery",
+          "Invoices over $20,000 were **3x more likely** to be late than ones under $100 (Bonsai)"
+        ],
+        [
+          "02. Short terms, due date on top",
+          "Put the due date on line 1 of the invoice",
+          "Even one-week terms waited **15 days** on average (Xero research)"
+        ],
+        [
+          "03. Bank or card, not crypto",
+          "Offer bank transfer (ACH) and card",
+          "Crypto was paid late almost **3x more often** than ACH/bank (Bonsai)"
+        ],
+        [
+          "04. Remind before the due date",
+          "Send a friendly reminder 3 days before (common rule)",
+          "More than **three-quarters** of late invoices were paid within two weeks (Bonsai), so a little follow-up goes a long way"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Plus one rule",
+      "text": "Unpaid 14 days after the due date? Work pauses until the invoice is paid. This is a common rule, not a law. Put it in your contract and on your invoice so it's never a surprise."
+    },
+    {
+      "type": "h2",
+      "text": "Fix 01: Split big invoices into milestones"
+    },
+    {
+      "type": "p",
+      "text": "One big invoice at the end is the riskiest way to get paid. You do all the work first, then wait. And Bonsai's data says the bigger the invoice, the more likely it's late: invoices over $20,000 were 3x more likely to be paid late than invoices under $100."
+    },
+    {
+      "type": "p",
+      "text": "Milestones fix both problems. You get money before you start, the client pays smaller amounts that are easier to approve, and if a payment stalls, you find out early instead of at the very end."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Worked example",
+        "One invoice",
+        "Milestones"
+      ],
+      "rows": [
+        [
+          "Project price",
+          "$24,000",
+          "$24,000"
+        ],
+        [
+          "Invoices",
+          "1 × $24,000 at the end",
+          "3 × $8,000"
+        ],
+        [
+          "When you bill",
+          "After delivery",
+          "**Start, midpoint, delivery**"
+        ],
+        [
+          "Money in before work starts",
+          "$0",
+          "$8,000"
+        ],
+        [
+          "Most you can lose if a client stops paying",
+          "$24,000",
+          "About $8,000 (one milestone of work)"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Check the math: 3 × $8,000 = $24,000. Each invoice is also under the $20,000 line where Bonsai saw late payments jump. Equal thirds are just the simple version. Some people bill 50% upfront and 50% on delivery, or 40/30/30. The key is: **never do all the work before the first payment.**"
+    },
+    {
+      "type": "h2",
+      "text": "Fix 02: Short terms, due date on line 1"
+    },
+    {
+      "type": "p",
+      "text": "Short terms help, but they don't fix everything. In Xero's research on about 10 million invoices from 150,000+ small businesses ([summary here](https://creditorwatchcollect.com.au/blog/how-can-smbs-get-paid-faster-new-xero-research-reveals-all/)), businesses with one-week terms still waited **15 days** on average to get paid. So pick short terms and make the due date impossible to miss."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Line 1 of the invoice is the due date**, written as a real date: \"Due: Monday, November 9, 2026\". Not \"Net 7\" alone. Clients don't do date math.",
+        "Put the same date in the email **subject line**.",
+        "Use 7 days for most work. Whatever you pick, write it in the contract before work starts.",
+        "Send the invoice the same day the milestone is reached. A late invoice is a late payment."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Fix 03: Get paid by bank or card, not crypto"
+    },
+    {
+      "type": "p",
+      "text": "Bonsai found that crypto payments were late almost 3x more often than ACH/bank payments. Make paying you the easiest thing the client does all day: put a **Pay now** link (card) and your bank details right on the invoice."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Bank transfer (ACH or wire):** cheap and normal for bigger invoices. Put the full details on the invoice so nobody has to email you for them.",
+        "**Card:** fastest for the client. Tools like Stripe or PayPal add a pay button to your invoice. They charge a fee, so you can price it in.",
+        "**Crypto:** only if the client insists, and never as your only option."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Fix 04: Remind BEFORE the due date"
+    },
+    {
+      "type": "p",
+      "text": "Most people send their first reminder after the invoice is already late. By then, the client's payment run may have passed. A friendly note 3 days before the due date (a common rule) catches problems early: wrong email, missing PO number, the person who approves is on holiday."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**3 days before the due date:** friendly heads-up (Email 1).",
+        "**On the due date:** short \"due today\" note (Email 2).",
+        "**7 days after the due date:** firm but polite, mentions the pause rule (Email 3).",
+        "**14 days after the due date:** work pauses until it's paid, as written in your contract."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The milestone invoice template"
+    },
+    {
+      "type": "p",
+      "text": "Copy this into Google Docs, your invoicing tool or an email. Replace everything in [brackets]. Note the order: due date and amount first, details after."
+    },
+    {
+      "type": "prompt",
+      "label": "Milestone invoice template",
+      "text": "DUE: [Day, Month Date, Year]  |  AMOUNT DUE: $[amount]\n\nINVOICE #[number]  |  Milestone [1] of [3]: [Start / Midpoint / Delivery]\nIssued: [date]  |  Terms: [7] days\n\nFrom: [Your name / business], [email]\nTo: [Client company], [contact name], [PO number if they use one]\n\nProject: [project name]\nTotal project price: $[total]\n\nThis invoice:\n- Milestone [1]: [what is included, e.g. kickoff + first draft] ... $[amount]\n\nPaid so far: $[0]\nLeft after this invoice: $[remaining]\n\nHOW TO PAY (pick one):\n1) Card: [Pay now link]\n2) Bank transfer: [Bank name] | Account name: [name] | Account no: [number] | Routing/SWIFT: [code]\nPlease add invoice #[number] as the payment reference.\n\nNote: if this invoice is unpaid 14 days after the due date, work pauses until it is paid, as agreed in our contract.\n\nThank you!"
+    },
+    {
+      "type": "h3",
+      "text": "Worked example: the $24,000 project"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Milestone",
+        "Sent → due",
+        "Reminders",
+        "Pause if unpaid"
+      ],
+      "rows": [
+        [
+          "1. Start: $8,000",
+          "Nov 2 → **Nov 9**",
+          "Nov 6, Nov 9, Nov 16",
+          "Nov 23"
+        ],
+        [
+          "2. Midpoint: $8,000",
+          "Nov 23 → **Nov 30**",
+          "Nov 27, Nov 30, Dec 7",
+          "Dec 14"
+        ],
+        [
+          "3. Delivery: $8,000",
+          "Dec 14 → **Dec 21**",
+          "Dec 18, Dec 21, Dec 28",
+          "Jan 4"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Example dates only (2026), all Mondays except Email 1, which goes out the Friday before. Reminders are Email 1 (3 days before), Email 2 (due date) and Email 3 (7 days after). Set all the reminders the day you send the invoice, so you never have to remember."
+    },
+    {
+      "type": "h2",
+      "text": "The 3 reminder emails"
+    },
+    {
+      "type": "prompt",
+      "label": "Email 1: 3 days before the due date",
+      "text": "Subject: Invoice #[number] due [Monday, Nov 9]: quick heads-up\n\nHi [Name],\n\nQuick heads-up: invoice #[number] for $[amount] ([milestone name]) is due this [Monday, Nov 9].\n\nYou can pay by card here: [Pay now link]\nOr by bank transfer (details are on the invoice, attached again).\n\nIf anything is missing on your side, like a PO number or a different billing email, just reply and I'll fix it today.\n\nThanks!\n[Your name]"
+    },
+    {
+      "type": "prompt",
+      "label": "Email 2: on the due date",
+      "text": "Subject: Invoice #[number] is due today ($[amount])\n\nHi [Name],\n\nJust a reminder that invoice #[number] for $[amount] is due today, [Monday, Nov 9].\n\nPay by card: [Pay now link]\nBank details are on the attached invoice.\n\nIf it's already on its way, thank you, and please ignore this.\n\n[Your name]"
+    },
+    {
+      "type": "prompt",
+      "label": "Email 3: 7 days after the due date",
+      "text": "Subject: Invoice #[number] is 7 days overdue\n\nHi [Name],\n\nInvoice #[number] for $[amount] was due on [Monday, Nov 9] and is now 7 days overdue.\n\nCould you let me know when it will be paid? Here's the link again: [Pay now link] (bank details attached).\n\nAs agreed in our contract, if it's still unpaid on [Monday, Nov 23] (14 days after the due date), I'll pause work on [project] until it's settled. I'd much rather keep going, so if there's a problem on your side, reply and we'll sort it out.\n\nThanks,\n[Your name]"
+    },
+    {
+      "type": "tip",
+      "label": "Keep it friendly",
+      "text": "Most late invoices are a process problem (wrong person, missing PO, lost email), not a client trying to cheat you. Bonsai found more than three-quarters of late invoices got paid within two weeks. Friendly and clear works better than angry."
+    },
+    {
+      "type": "h2",
+      "text": "Put the rules in your contract first"
+    },
+    {
+      "type": "p",
+      "text": "The invoice and reminders work best when the client already agreed to the rules. Add these lines to your contract or proposal before work starts:"
+    },
+    {
+      "type": "prompt",
+      "label": "Payment terms for your contract",
+      "text": "Payment terms:\n- The project price of $[total] is billed in [3] milestones: [start], [midpoint] and [delivery], $[amount] each.\n- Each invoice is due [7] days after it is sent.\n- Payment by bank transfer or card. [No crypto / Crypto only by written agreement.]\n- If an invoice is unpaid 14 days after its due date, work pauses until it is paid. Deadlines move by the length of the pause."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "What it usually means",
+        "What to do"
+      ],
+      "rows": [
+        [
+          "Client always pays, but always late",
+          "Your invoice misses their payment run, or terms are buried",
+          "Ask when they pay invoices, send before that date, due date on line 1"
+        ],
+        [
+          "No reply to any reminder",
+          "Wrong person gets the invoice",
+          "Ask who handles payments and CC them (accounts payable)"
+        ],
+        [
+          "\"We need a PO number\"",
+          "Big companies won't pay without one",
+          "Ask for the PO before you start, and put it on every invoice"
+        ],
+        [
+          "One huge final invoice stuck for weeks",
+          "Too much money in one approval",
+          "Switch to milestones for the next project"
+        ],
+        [
+          "Client wants to pay in crypto",
+          "Higher risk of late payment (Bonsai)",
+          "Offer card and bank first, crypto only if agreed in writing"
+        ],
+        [
+          "Still unpaid after 14 days",
+          "Process problem or a real money problem",
+          "Pause work as agreed, call them, then decide on next steps"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Doing all the work before the first invoice.",
+        "Writing \"Net 7\" instead of a real due date.",
+        "Sending the invoice days after the milestone.",
+        "Waiting until it's late to send the first reminder.",
+        "Threatening a pause that's not in the contract. Agree on it first, then it's just the rule."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Let Claude fill in the kit for you"
+    },
+    {
+      "type": "prompt",
+      "label": "On-Time Invoice prompt",
+      "text": "Help me set up on-time invoicing for a client project.\n\nProject: [what I'm doing]\nClient: [company], contact [name]\nTotal price: $[total]\nStart date: [date] | Expected delivery: [date]\nPayment terms: [7] days | Payment: bank transfer + card\n\nPlease:\n1) Split the price into milestones (start, midpoint, delivery). Show the math.\n2) Give me the dates: each invoice date, due date, a reminder 3 days before, a note on the due date, a reminder 7 days after, and the date work pauses (14 days after due).\n3) Write the 3 invoices with the due date and amount on line 1.\n4) Write the 3 reminder emails for milestone 1. Friendly, short, plain English, with the real dates filled in."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Remote: Contractor Management Report 2025",
+      "url": "https://remote.com/blog/contractor-management/reversing-late-payment-culture",
+      "note": "85% of freelancers paid late at least some of the time"
+    },
+    {
+      "name": "Bonsai: late freelance payment data",
+      "url": "https://www.hellobonsai.com/blog/late-freelance-payment",
+      "note": "100,000+ freelancers: 29% late, big invoices and crypto late more often"
+    },
+    {
+      "name": "Xero research on getting paid (summary)",
+      "url": "https://creditorwatchcollect.com.au/blog/how-can-smbs-get-paid-faster-new-xero-research-reveals-all/",
+      "note": "~10M invoices: one-week terms waited 15 days on average"
+    },
+    {
+      "name": "Stripe Invoicing",
+      "url": "https://stripe.com/invoicing",
+      "note": "Add a card Pay now link to your invoices"
+    },
+    {
+      "name": "Google Docs",
+      "url": "https://docs.google.com",
+      "note": "Free place to keep your invoice template"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Isn't it rude to remind someone before the invoice is due?",
+      "a": "No. A friendly heads-up 3 days early reads as organized, not pushy. It also catches problems (wrong email, missing PO) while there's still time to pay on time."
+    },
+    {
+      "q": "What if the client says no to milestones?",
+      "a": "Offer two milestones instead of three, like 50% upfront and 50% on delivery. If they won't pay anything before you start, that tells you something about how the final invoice will go."
+    },
+    {
+      "q": "Do I really have to pause work at day 14?",
+      "a": "It's your call. It's a common rule, not a law. But only use it if it's in your contract, and always tell the client the date in advance (Email 3 does that)."
+    },
+    {
+      "q": "Which payment terms should I use?",
+      "a": "7 days is a good start for most freelance work. Xero's research shows even one-week terms often stretch, so the reminders matter as much as the terms."
+    }
+  ],
+  "instantdm": "pending",
+  "reel_status": "carousel posted 2026-10-31"
+}
