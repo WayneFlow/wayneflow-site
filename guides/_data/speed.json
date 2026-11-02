@@ -245,6 +245,7 @@
       "a": "Yes. When a cold prospect replies \"interested\", they're a hot lead. Answer within minutes with a booking link, the same way."
     }
   ],
-  "instantdm": "pending",
-  "reel_status": "made 2026-10-31"
+  "instantdm": "live",
+  "reel_status": "made 2026-10-31",
+  "instantdm_flow": "SPEED - 5-minute response playbook"
 }

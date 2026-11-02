@@ -377,6 +377,7 @@
       "a": "Keep your winner running and test one new offer against it each month."
     }
   ],
-  "instantdm": "pending",
-  "reel_status": "made 2026-10-31"
+  "instantdm": "live",
+  "reel_status": "made 2026-10-31",
+  "instantdm_flow": "GRIEF - Offer test sheet"
 }

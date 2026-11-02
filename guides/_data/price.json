@@ -233,6 +233,7 @@
       "a": "Yes, the same order works in LinkedIn messages: current situation, who decides and when, then the range."
     }
   ],
-  "instantdm": "pending",
-  "reel_status": "made 2026-10-31"
+  "instantdm": "live",
+  "reel_status": "made 2026-10-31",
+  "instantdm_flow": "PRICE - Price-range question"
 }

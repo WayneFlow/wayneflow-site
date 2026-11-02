@@ -332,6 +332,7 @@
       "a": "The calculator still works, just change that number. But adding inboxes is safer than pushing one inbox harder."
     }
   ],
-  "instantdm": "pending",
-  "reel_status": "made 2026-10-31"
+  "instantdm": "live",
+  "reel_status": "made 2026-10-31",
+  "instantdm_flow": "FUEL - Lead fuel calculator"
 }

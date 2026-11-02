@@ -364,6 +364,7 @@
       "a": "Because the reel uses example numbers. Your price, close rate and emails per call are different, so your plan will be too. That's the point of the calculator."
     }
   ],
-  "instantdm": "pending",
-  "reel_status": "made 2026-10-31"
+  "instantdm": "live",
+  "reel_status": "made 2026-10-31",
+  "instantdm_flow": "CLIENTS - $10K reverse calculator"
 }

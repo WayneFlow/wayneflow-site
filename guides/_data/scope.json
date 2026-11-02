@@ -4,7 +4,7 @@
   "case": "case-01",
   "date": "2026-10-31",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "reel_status": "carousel live on Instagram",
   "title": "The Scope Fence Template: Stop Scope Creep Without Losing the Client",
   "description": "An in/out scope list, a price list for extras, a change-order form and the \"yes, and here's the price\" reply. Stop doing free work for clients.",
@@ -234,5 +234,6 @@
       "q": "I already started the project without a fence. What now?",
       "a": "Send the in/out list now as \"to keep us both clear going forward\", and apply it from next month."
     }
-  ]
+  ],
+  "instantdm_flow": "SCOPE - Scope fence template"
 }
