@@ -324,6 +324,7 @@
   ],
   "date": "2026-11-02",
   "draft": false,
-  "instantdm": "pending",
-  "reel_status": "live on Instagram"
+  "instantdm": "live",
+  "reel_status": "live on Instagram",
+  "instantdm_flow": "SEVEN - 7am send-time sheet"
 }

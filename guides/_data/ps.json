@@ -272,6 +272,7 @@
   ],
   "date": "2026-11-02",
   "draft": false,
-  "instantdm": "pending",
-  "reel_status": "live on Instagram"
+  "instantdm": "live",
+  "reel_status": "live on Instagram",
+  "instantdm_flow": "PS - 10 P.S. lines"
 }
