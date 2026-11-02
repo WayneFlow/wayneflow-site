@@ -1,0 +1,325 @@
+{
+  "slug": "nolink",
+  "keyword": "NOLINK",
+  "case": "case-04",
+  "title": "The Plain Email Checklist: Send Cold Emails With Zero Links",
+  "description": "A pre-send checklist for plain cold emails: no links, no images, tracking off, matched inboxes, and a text opt-out. Plus the reply to send when they ask.",
+  "lead": "This is the full plain email checklist from the reel. Spam filters look hard at email from strangers, and often it's the extras that get you flagged: links, images and tracking. This guide shows how to strip your first email down, what to do instead of a link, and how to check every email before it goes out.",
+  "insider": "Our first emails for clients go out like this: plain text, no links, tracking off. Over one full quarter, a campaign of ours sent **236,545 emails at a 3.69% reply rate**. Cleaning up one email is easy. Keeping thousands of emails and inboxes clean every day is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why the extras get you in trouble"
+    },
+    {
+      "type": "p",
+      "text": "A cold email comes from someone the reader has never emailed. Spam filters are extra careful with those. Links, images and tracking codes are things marketing emails and scams use a lot, so they add risk to a message that already has none of the trust of a known sender."
+    },
+    {
+      "type": "p",
+      "text": "A plain email looks like what it should be: one person writing to another."
+    },
+    {
+      "type": "h2",
+      "text": "What the data says"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Tracking costs replies.** In [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email) (31 million emails), sequences with tracking on got **4.4% replies vs 7.4% with it off**.",
+        "**Open tracking is a hidden image.** [Hunter explains](https://hunter.io/cold-email-guide/email-tracking) that an open-tracking pixel is \"an invisible image\" added to the email, and that some spam filters may block emails with tracking pixels or tracked links.",
+        "**Zero links is the safe default.** [lemlist's guidance](https://help.lemlist.com/en/articles/13941647-lemcoach-should-you-track-clicks-and-opens-in-cold-email-campaigns) says to limit links to 1 per email, \"ideally 0 in your initial cold outreach\", and that untracked links show better deliverability than tracked ones.",
+        "**Images aren't a magic fix either way.** Hunter found images and attachments did not measurably change reply rates. So there's little upside to adding them, and they push the email toward looking like marketing."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Be honest with yourself",
+      "text": "A plain email gets you a fair chance at the inbox. It won't save a bad message. The words still have to be short and about them."
+    },
+    {
+      "type": "h2",
+      "text": "The plain email checklist"
+    },
+    {
+      "type": "p",
+      "text": "Run every first email through this before it goes live."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Check",
+        "Pass if",
+        "Why"
+      ],
+      "rows": [
+        [
+          "Format",
+          "Plain text. No HTML design, no logo, no banner",
+          "Looks like a personal email, not a newsletter"
+        ],
+        [
+          "Links in email 1",
+          "Zero. Including the signature",
+          "Links are one of the first things filters check"
+        ],
+        [
+          "Images",
+          "None, including a logo in the signature",
+          "Adds risk, no proven reply lift"
+        ],
+        [
+          "Attachments",
+          "None",
+          "Strangers' attachments look like malware"
+        ],
+        [
+          "Open tracking",
+          "Off",
+          "It adds a hidden image to every email"
+        ],
+        [
+          "Click tracking",
+          "Off",
+          "It rewrites links into redirects"
+        ],
+        [
+          "Inbox match",
+          "Google sends to Google, Outlook to Outlook, where your tool supports it",
+          "Same-provider sending is designed to help inbox placement"
+        ],
+        [
+          "Sender",
+          "Your own separate domain, not free Gmail",
+          "Hunter: 5.2% replies from a custom domain vs 2.5% from freemail"
+        ],
+        [
+          "Opt-out",
+          "A plain line like \"Reply 'no thanks' and I won't email again\"",
+          "Legal opt-out without a link"
+        ],
+        [
+          "Length",
+          "Under about 100 words",
+          "Short and about them"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How to set it up, step by step"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Write in plain text.** In your sending tool, pick the plain text option, or paste from a plain text editor so no hidden formatting comes along.",
+        "**Remove every link from email 1.** That includes your website, your calendar link and social links in the signature.",
+        "**Clean the signature.** Name, title, company. That's it. If you type your website, many email apps will turn it into a link, so leave it out of email 1.",
+        "**Turn off open tracking and click tracking** in the campaign settings. Measure replies instead. Replies are the number that matters.",
+        "**Turn on provider matching** if your tool has it. [Instantly](https://help.instantly.ai/en/articles/7044069-email-service-providers-matching), for example, sends from an account with the same provider as the recipient, such as Google to Google.",
+        "**Add a text opt-out line** at the bottom.",
+        "**Send a test to yourself** on both a Gmail and an Outlook address. Check it arrives in the main inbox and looks like a normal email."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Let them ask for the link"
+    },
+    {
+      "type": "p",
+      "text": "Instead of a link, offer the thing in words. When they reply \"sure, send it\", that's a reply, which is what you want. Then you send the link in your answer, to someone who asked for it."
+    },
+    {
+      "type": "table",
+      "head": [
+        "With a link (avoid in email 1)",
+        "Without a link"
+      ],
+      "rows": [
+        [
+          "\"Here's our case study: [link]\"",
+          "\"Want me to send the case study?\""
+        ],
+        [
+          "\"Book a time here: [calendar link]\"",
+          "\"Open to a quick call Thursday at 10?\""
+        ],
+        [
+          "\"Check out our website: [link]\"",
+          "\"Happy to send a 1-page overview if it's useful.\""
+        ],
+        [
+          "\"Watch this 2-min video: [link]\"",
+          "\"I made a 2-minute video of your site with 3 fixes. Want it?\""
+        ]
+      ]
+    },
+    {
+      "type": "prompt",
+      "label": "Reply when they ask for the link",
+      "text": "Hi [first name],\n\nHere you go: [link]\n\nThe part most useful for you is [section], since [one reason tied to their company].\n\nWant me to walk you through it Thursday at 10?\n\n[your name]"
+    },
+    {
+      "type": "h2",
+      "text": "Where links can go later"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**In your replies**, once they ask for something. A link in a conversation they started is normal.",
+        "**In a later follow-up**, if you must, and only one. Keep it plain (no tracking) and on a domain that matches your sending domain.",
+        "**Never** a link shortener like bit.ly. Short links hide where they go, which is what scammers do."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Stay legal without an unsubscribe link"
+    },
+    {
+      "type": "p",
+      "text": "You still have to let people opt out. The [FTC's CAN-SPAM guide](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) allows a return email address as the opt-out method, so \"reply and I'll stop\" can work in the US. It also requires your valid physical postal address in the email and that you honor opt-outs within 10 business days. Other countries have their own rules, so check the law where your buyers are."
+    },
+    {
+      "type": "p",
+      "text": "[Google's sender guidelines](https://support.google.com/mail/answer/81126) ask senders of marketing and subscribed messages to support one-click unsubscribe, and bulk senders (over 5,000 messages a day to Gmail) to keep their spam rate under 0.3%. Keep your newsletters and marketing emails on the normal unsubscribe link."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: before and after"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Before (risky)",
+        "After (plain)"
+      ],
+      "rows": [
+        [
+          "HTML template with a logo",
+          "Plain text"
+        ],
+        [
+          "3 links: website, case study, calendar",
+          "0 links"
+        ],
+        [
+          "Open and click tracking on",
+          "Both off"
+        ],
+        [
+          "Sent from a free Gmail address",
+          "Sent from a separate company domain"
+        ],
+        [
+          "180 words",
+          "70 words"
+        ],
+        [
+          "\"Click here to unsubscribe\"",
+          "\"Reply 'no thanks' and I won't email again\""
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Clean up your email with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Plain email prompt",
+      "text": "Here is my cold email:\n[paste email, including signature]\n\nRewrite it as a plain first email:\n- Remove every link, image and attachment, including from the signature\n- If the email points to a link (case study, video, calendar), replace it with a one-line offer to send it, e.g. \"Want me to send it?\"\n- Under 80 words, short sentences, about their problem, one clear ask\n- Signature: name, title, company only\n- End with: \"Reply 'no thanks' and I won't email again.\"\nThen list every change you made."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Removing links from the body but not the signature",
+          "Check the signature too"
+        ],
+        [
+          "Turning off open tracking but leaving click tracking on",
+          "Turn both off"
+        ],
+        [
+          "Typing the website as text and thinking it isn't a link",
+          "Most email apps auto-link it. Leave it out of email 1"
+        ],
+        [
+          "Ignoring a \"no thanks\" reply because it isn't an unsubscribe click",
+          "Add them to your stop list the same day"
+        ],
+        [
+          "Expecting plain text to fix a weak message",
+          "Rewrite the words too: short and about them"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "No links, no images, no tracking. Let them ask."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Tracking on vs off, custom domain vs freemail, images"
+    },
+    {
+      "name": "Hunter: how email tracking works",
+      "url": "https://hunter.io/cold-email-guide/email-tracking",
+      "note": "Tracking pixels and tracked links"
+    },
+    {
+      "name": "lemlist: should you track clicks and opens?",
+      "url": "https://help.lemlist.com/en/articles/13941647-lemcoach-should-you-track-clicks-and-opens-in-cold-email-campaigns",
+      "note": "0 links in the first email"
+    },
+    {
+      "name": "Instantly: email service provider matching",
+      "url": "https://help.instantly.ai/en/articles/7044069-email-service-providers-matching",
+      "note": "Google to Google, Outlook to Outlook"
+    },
+    {
+      "name": "Google email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "Official rules for sending to Gmail"
+    },
+    {
+      "name": "FTC: CAN-SPAM Act compliance guide",
+      "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+      "note": "Opt-out and address rules in the US"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Then how do I measure if the email works?",
+      "a": "Count replies and positive replies. Opens are unreliable anyway, because some apps and security bots load images automatically."
+    },
+    {
+      "q": "Can I put a link in a follow-up email?",
+      "a": "You can, but keep it to one, untracked, on your own domain. Many people keep all links for the reply, after the person asks."
+    },
+    {
+      "q": "What if my tool doesn't do provider matching?",
+      "a": "Then focus on the rest of the checklist. Matching helps, but plain text, no tracking and a good list matter more."
+    },
+    {
+      "q": "Is a plain-text opt-out legal?",
+      "a": "In the US, CAN-SPAM allows a return email address as the opt-out method, plus your physical address in the email. Rules differ by country, so check where your buyers are."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

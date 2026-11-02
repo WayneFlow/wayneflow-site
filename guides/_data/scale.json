@@ -1,0 +1,363 @@
+{
+  "slug": "scale",
+  "keyword": "SCALE",
+  "case": "case-05",
+  "title": "The Scale-or-Fix Scorecard: Know Which Cold Email Campaign to Grow",
+  "description": "Read 3 numbers before you add volume: contacts per positive reply, reply rate and meetings per 1,000. Scale the winners, fix the rest.",
+  "lead": "This is the full scale-or-fix scorecard from the reel. Before you send more emails, read 3 numbers. They tell you if a campaign has earned more volume or needs a fix first, so you never burn 50,000 emails for 5 meetings.",
+  "insider": "This is how we start with clients: a small test before scaling up. In one pilot we contacted **10,284 people and got 103 sales opportunities**, about 1 in every 100. Only numbers like that earn more volume. Reading the numbers every day and deciding what to scale or fix is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why more volume often means the same meetings"
+    },
+    {
+      "type": "p",
+      "text": "When a campaign is slow, the first idea is usually \"send more\". But volume only multiplies what is already there. A campaign that books 1 meeting per 10,000 emails will book 5 meetings from 50,000. You just burn 5 times more leads, inboxes and time to get there."
+    },
+    {
+      "type": "p",
+      "text": "A campaign that books 5 meetings from 2,000 emails is a different story. That one has earned more volume."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Example",
+        "Emails",
+        "Meetings",
+        "Meetings per 1,000"
+      ],
+      "rows": [
+        [
+          "Campaign A",
+          "10,000",
+          "1",
+          "0.1"
+        ],
+        [
+          "Campaign B",
+          "2,000",
+          "5",
+          "2.5"
+        ],
+        [
+          "Campaign A × 5",
+          "50,000",
+          "5",
+          "0.1"
+        ],
+        [
+          "Campaign B × 5",
+          "10,000",
+          "about 25 (if it holds)",
+          "2.5"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "This is example math, not a promise. The point: B is **25 times better** per email than A (2.5 vs 0.1). Scaling A wastes your list. Scaling B grows your calendar."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "Fix first. Scale second. Never the other way around."
+    },
+    {
+      "type": "h2",
+      "text": "The 3 numbers to read"
+    },
+    {
+      "type": "p",
+      "text": "Count **people**, not emails. If your sequence has 3 emails, 1,000 people means about 3,000 emails. Use people for all 3 numbers so campaigns with different sequence lengths can be compared."
+    },
+    {
+      "type": "h3",
+      "text": "1. Contacts per positive reply"
+    },
+    {
+      "type": "p",
+      "text": "**Formula:** people contacted ÷ positive replies. A positive reply is someone who wants to hear more, not \"remove me\" or an out-of-office. **Why it matters:** it's the cleanest single number. It shows if the right people like the offer."
+    },
+    {
+      "type": "h3",
+      "text": "2. Reply rate"
+    },
+    {
+      "type": "p",
+      "text": "**Formula:** all replies ÷ people contacted × 100. **Why it matters:** a low reply rate usually points to the list, the inbox or the first line. A high reply rate with few positive replies points to the offer. For a benchmark, the [Instantly 2026 Cold Email Benchmark Report](https://instantly.ai/cold-email-benchmark-report-2026) puts the average reply rate at **3.43%**, the top 25% at **5.5%+** and the top 10% at **10.7%+**."
+    },
+    {
+      "type": "h3",
+      "text": "3. Meetings per 1,000 contacts"
+    },
+    {
+      "type": "p",
+      "text": "**Formula:** meetings booked ÷ people contacted × 1,000. **Why it matters:** this is the number you actually get paid on. If positive replies are good but meetings are low, the problem is how you handle replies, not the email."
+    },
+    {
+      "type": "h2",
+      "text": "The scorecard"
+    },
+    {
+      "type": "p",
+      "text": "Use these as starting targets. They are rules of thumb, not industry law. Your market and deal size can move them."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Number",
+        "Great: scale it",
+        "Solid: scale slowly",
+        "Fix before scaling"
+      ],
+      "rows": [
+        [
+          "Contacts per positive reply",
+          "300 or fewer",
+          "301 to 500",
+          "More than 500"
+        ],
+        [
+          "Reply rate",
+          "5.5% or higher",
+          "3.4% to 5.5%",
+          "Under 3.4%"
+        ],
+        [
+          "Meetings per 1,000 contacts",
+          "2 or more",
+          "1 to 2",
+          "Under 1"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The reply rate bands follow the Instantly benchmark above (average 3.43%, top quarter 5.5%). The other two are our example targets from the reel: 1 positive reply per 300 people is great, 1 per 500 is solid."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example"
+    },
+    {
+      "type": "p",
+      "text": "Two campaigns, each sent only first emails, so emails = people here. Numbers are made up for the example."
+    },
+    {
+      "type": "table",
+      "head": [
+        "",
+        "Campaign A",
+        "Campaign B"
+      ],
+      "rows": [
+        [
+          "People contacted",
+          "10,000",
+          "2,000"
+        ],
+        [
+          "All replies",
+          "150",
+          "80"
+        ],
+        [
+          "Positive replies",
+          "10",
+          "8"
+        ],
+        [
+          "Meetings",
+          "1",
+          "5"
+        ],
+        [
+          "Contacts per positive reply",
+          "10,000 ÷ 10 = **1,000**",
+          "2,000 ÷ 8 = **250**"
+        ],
+        [
+          "Reply rate",
+          "150 ÷ 10,000 = **1.5%**",
+          "80 ÷ 2,000 = **4%**"
+        ],
+        [
+          "Meetings per 1,000",
+          "1 ÷ 10,000 × 1,000 = **0.1**",
+          "5 ÷ 2,000 × 1,000 = **2.5**"
+        ],
+        [
+          "Verdict",
+          "Fix (all 3 in the red)",
+          "Scale (2 great, 1 solid)"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Campaign B gets more volume. Campaign A gets paused and fixed, even though it \"sent more\"."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder: what to change when a number is bad"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Most likely problem",
+        "Change this first"
+      ],
+      "rows": [
+        [
+          "Low reply rate, bounces over 2%",
+          "Bad list or inbox health",
+          "Verify the list again, check inbox warm-up and spam rate"
+        ],
+        [
+          "Low reply rate, clean list",
+          "The first line or the targeting",
+          "Rewrite the first line around their problem, or tighten the job titles"
+        ],
+        [
+          "Good reply rate, few positive replies",
+          "The offer",
+          "Make the offer easier to say yes to (a free audit, a case study, a small first step)"
+        ],
+        [
+          "Lots of \"not the right person\" replies",
+          "Targeting",
+          "Change the titles or company size you send to"
+        ],
+        [
+          "Good positive replies, few meetings",
+          "Reply handling",
+          "Answer within the hour, offer one clear time instead of a link"
+        ],
+        [
+          "Good numbers, then a sudden drop",
+          "Inbox health or list fatigue",
+          "Check spam rate, add a fresh segment"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How to fix without fooling yourself"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Pick one thing to change:** the message, the targeting or the offer. Only one.",
+        "**Keep everything else the same:** same list source, same inboxes, same send times.",
+        "**Send to a fresh group of people** of similar size. Don't re-send to people who already got the old version.",
+        "**Wait for enough data.** A good rule of thumb: at least 500 to 1,000 people per version and about 7 days for late replies.",
+        "**Score it again** with the same 3 numbers. Better? Keep it. Not better? Undo it and try the next change."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "**Why one at a time:** if you change the subject line, the offer and the list in the same week and results jump, you don't know which one did it. Next time, you can't repeat it."
+    },
+    {
+      "type": "h2",
+      "text": "How to scale a winner safely"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Grow in steps.** For example, double the daily volume, then wait a week and check the scorecard again.",
+        "**Add new people from the same type of list.** A winner on US dental clinics is not proof it works on UK law firms.",
+        "**Add inboxes, don't push old ones harder.** More emails per inbox can hurt deliverability. Our [REALITY guide](/guides/reality.html) has the inbox math.",
+        "**Re-check every week.** If a number slides into the red, stop adding volume and go back to fixing."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Score your campaigns with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Scale-or-fix prompt",
+      "text": "Here are my cold email campaign numbers:\n[for each campaign: name, people contacted, all replies, positive replies, meetings booked, bounce rate]\n\nFor each campaign:\n1) Calculate contacts per positive reply, reply rate and meetings per 1,000 people.\n2) Score each number with these targets:\n   - Contacts per positive reply: 300 or fewer = great, 301-500 = solid, over 500 = fix\n   - Reply rate: 5.5%+ = great, 3.4-5.5% = solid, under 3.4% = fix\n   - Meetings per 1,000: 2+ = great, 1-2 = solid, under 1 = fix\n3) Say SCALE, SCALE SLOWLY or FIX.\n4) For FIX campaigns, name the most likely problem (list, inbox, message, targeting, offer or reply handling) and suggest ONE change to test first.\nShow your math."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Scaling because the tool can send more",
+          "Scale only what scores solid or great"
+        ],
+        [
+          "Judging after 100 people",
+          "Wait for 500 to 1,000 people and about a week"
+        ],
+        [
+          "Counting emails instead of people",
+          "Use people contacted for all 3 numbers"
+        ],
+        [
+          "Counting out-of-office and \"remove me\" as replies that matter",
+          "Track positive replies separately"
+        ],
+        [
+          "Changing 3 things at once",
+          "One change per test"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Remember",
+      "text": "Volume multiplies. Make sure it's multiplying something good."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Instantly: 2026 Cold Email Benchmark Report",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Average and top-tier reply rates"
+    },
+    {
+      "name": "Our REALITY guide",
+      "url": "https://wayneflow.com/guides/reality.html",
+      "note": "Inbox and domain math for bigger volume"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the scale-or-fix prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What counts as a positive reply?",
+      "a": "Anyone who wants to hear more: \"tell me more\", \"send it over\", \"what does it cost?\". Not out-of-office, not \"remove me\", not \"wrong person\" unless they point you to the right one."
+    },
+    {
+      "q": "How long should I wait before scoring a campaign?",
+      "a": "A good rule of thumb is at least 500 to 1,000 people and about 7 days after the last email, so late replies are counted."
+    },
+    {
+      "q": "My reply rate is great but meetings are low. Should I scale?",
+      "a": "Not yet. Fix how you handle replies first: answer fast and offer one clear time. Then scale."
+    },
+    {
+      "q": "Are these targets the same for every industry?",
+      "a": "No. They are starting points. If your deals are very large, fewer meetings can still be a great result. Compare your campaigns against each other, too."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

@@ -1,0 +1,309 @@
+{
+  "slug": "ask",
+  "keyword": "ASK",
+  "case": "case-05",
+  "title": "The 10 Small Asks Swipe File: Cold Email CTAs That Get More Replies",
+  "description": "An 85M-email report found meeting asks cut replies 44% and offers lifted them 28%. Copy 10 small asks, plus the 4-step offer play.",
+  "lead": "This is the full 10 small asks swipe file from the reel. Asking a stranger for a 30-minute meeting is a big ask. This guide gives you 10 small asks to copy, the data behind them, and the 4-step play that turns a one-word \"yes\" into a booked call.",
+  "insider": "Small asks are how we end client emails: one easy question, then the call comes after the yes. In our small pilot, **10,284 people contacted turned into 417 replies and 103 sales opportunities**, about 1 in every 100 people. Writing one good ask is easy. Testing asks across thousands of emails, every day, is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why \"Can we hop on a call?\" fails"
+    },
+    {
+      "type": "p",
+      "text": "A meeting request asks a stranger for half an hour of their day, before they even know if you can help. Most people say nothing. Silence is easier than no."
+    },
+    {
+      "type": "p",
+      "text": "The data agrees. In [The Ultimate Cold Email Data Report](https://tactics.30mpc.com/hubfs/The%20Ultimate%20Cold%20Email%20Data%20Report-1.pdf) by Gong, 30 Minutes to President's Club and Jason Bay (85M+ cold emails), **asking for a meeting cut reply rates by 44%**, and **making an offer lifted reply rates by 28%**. The report's advice: ask for interest, or make an offer like a free trial, a data report or an audit."
+    },
+    {
+      "type": "p",
+      "text": "**Why small asks work:** \"Worth a look?\" can be answered with one word. The reader doesn't have to check their calendar or commit to anything. They only have to say yes to learning more."
+    },
+    {
+      "type": "h2",
+      "text": "The 10 small asks"
+    },
+    {
+      "type": "table",
+      "head": [
+        "#",
+        "The ask",
+        "Use it when"
+      ],
+      "rows": [
+        [
+          "1",
+          "\"Worth a look?\"",
+          "The default. Use it after any short, clear email."
+        ],
+        [
+          "2",
+          "\"Can I send the playbook we used for a firm like yours?\"",
+          "You have a real process you can share."
+        ],
+        [
+          "3",
+          "\"Want me to send the exact campaign we ran for a [industry] company?\"",
+          "You have a real result in their industry."
+        ],
+        [
+          "4",
+          "\"Open to a 2-minute video showing how this would work for [company]?\"",
+          "Your offer is easier to show than to explain."
+        ],
+        [
+          "5",
+          "\"Should I send over the numbers?\"",
+          "You have real data or a case study with results."
+        ],
+        [
+          "6",
+          "\"Want a free [audit / teardown] of your [site / emails / ads]? No call needed.\"",
+          "You can give real value in under an hour of work."
+        ],
+        [
+          "7",
+          "\"Is this on your list this quarter, or later?\"",
+          "You want to know timing without pushing."
+        ],
+        [
+          "8",
+          "\"Are you the right person for this, or is it someone else on your team?\"",
+          "You're not sure who owns the problem."
+        ],
+        [
+          "9",
+          "\"Want me to send a short checklist for [problem]?\"",
+          "You're early and have no case studies yet."
+        ],
+        [
+          "10",
+          "\"If this isn't a priority, just reply 'no' and I'll leave it there.\"",
+          "Last email in a sequence. Makes saying no easy."
+        ]
+      ]
+    },
+    {
+      "type": "prompt",
+      "label": "Swipe file: all 10 asks",
+      "text": "1. Worth a look?\n2. Can I send the playbook we used for a firm like yours?\n3. Want me to send the exact campaign we ran for a [industry] company?\n4. Open to a 2-minute video showing how this would work for [company]?\n5. Should I send over the numbers?\n6. Want a free [audit / teardown] of your [site / emails / ads]? No call needed.\n7. Is this on your list this quarter, or later?\n8. Are you the right person for this, or is it someone else on your team?\n9. Want me to send a short checklist for [problem]?\n10. If this isn't a priority, just reply 'no' and I'll leave it there."
+    },
+    {
+      "type": "tip",
+      "label": "Pick one",
+      "text": "Use only one ask per email. Two asks means the reader has to choose, and choosing is work."
+    },
+    {
+      "type": "h2",
+      "text": "The 4-step offer play"
+    },
+    {
+      "type": "h3",
+      "text": "Step 1: Offer something first"
+    },
+    {
+      "type": "quote",
+      "text": "Can I send the playbook we used for a firm like yours?"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** you give before you take. The reader gets something useful even if they never buy. That's what makes the offer easy to say yes to."
+    },
+    {
+      "type": "h3",
+      "text": "Step 2: Wait for the yes"
+    },
+    {
+      "type": "p",
+      "text": "Don't attach the playbook to the first email. Don't add a link. Let them reply \"sure\" or \"yes, send it\". **A reply is the goal of the first email.** It also means they asked for what you send next, so it isn't cold anymore."
+    },
+    {
+      "type": "h3",
+      "text": "Step 3: Send it, then offer one time to walk through it"
+    },
+    {
+      "type": "p",
+      "text": "Send what you promised, right away. Then offer one specific time, not a calendar link with 40 slots. One time is a simple yes or no."
+    },
+    {
+      "type": "prompt",
+      "label": "After-the-yes message",
+      "text": "Hi [first name],\n\nHere it is: [link or attachment].\n\nThe part most [role]s find useful is [section or page], where [one-line summary].\n\nHappy to walk you through how it would work for [company]. Does [day] at [time] work for 15 minutes?\n\n[your name]"
+    },
+    {
+      "type": "h3",
+      "text": "Step 4: Make it worth a look"
+    },
+    {
+      "type": "p",
+      "text": "The ask only works if the thing you offer is actually worth having. A \"free consultation\" is a sales call with a nicer name, and everyone knows it. The exact campaign you ran for a firm like theirs is real value."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Weak offer",
+        "Strong offer"
+      ],
+      "rows": [
+        [
+          "Free consultation",
+          "The exact campaign we ran for a firm like yours"
+        ],
+        [
+          "A demo",
+          "A 2-minute video of it working on your website"
+        ],
+        [
+          "Our company brochure",
+          "The playbook, with the real numbers"
+        ],
+        [
+          "\"Learn more about us\"",
+          "A free audit of your [emails / ads / site], no call needed"
+        ],
+        [
+          "A discovery call",
+          "3 ideas for [their goal], written for [company]"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: what the report's numbers mean for 1,000 emails"
+    },
+    {
+      "type": "p",
+      "text": "In the same report, the average rep's reply rate was **2%**. Here's what the CTA numbers do to that, as example math:"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Ask type",
+        "Effect in the report",
+        "Replies per 1,000 emails"
+      ],
+      "rows": [
+        [
+          "Baseline (average rep)",
+          "2% reply rate",
+          "about 20"
+        ],
+        [
+          "Ask for a meeting",
+          "44% fewer replies",
+          "about 11 (20 × 0.56)"
+        ],
+        [
+          "Make an offer",
+          "28% more replies",
+          "about 26 (20 × 1.28)"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Same 1,000 people. Changing only the last line takes you from about 11 replies to about 26, **more than double**. These are averages, so your numbers will be different, but the direction is clear."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Why it hurts",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "\"Can we hop on a 30-minute call?\"",
+          "Big ask from a stranger",
+          "Ask for one word: \"Worth a look?\""
+        ],
+        [
+          "Calendar link in email 1",
+          "Feels like homework",
+          "Offer one time, after they say yes"
+        ],
+        [
+          "Offer you can't deliver",
+          "They say yes, you have nothing to send",
+          "Have the playbook or case study ready first"
+        ],
+        [
+          "Two or three asks",
+          "Reader has to choose",
+          "One ask per email"
+        ],
+        [
+          "Sending the thing without asking",
+          "Unwanted attachments and links",
+          "Wait for the yes, then send it"
+        ],
+        [
+          "Fake value (\"free consultation\")",
+          "Reads as a sales call",
+          "Offer something useful even if they never buy"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Write your small ask with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Small ask prompt",
+      "text": "Here is my cold email:\n[paste email]\n\nWhat I can really offer for free (only things I have ready): [playbook / case study / audit / checklist / video]\nMy real results I can share: [facts, or \"none yet\"]\n\n1. Find the ask at the end of my email and tell me if it's a meeting ask.\n2. Write 5 new endings. Each one must be a small ask the reader can answer in one or two words, like \"Worth a look?\".\n3. At least 2 of them must offer one of my free things.\n4. Don't invent results, don't add links, don't mention a call or meeting length."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "Ask for a word, not half an hour. The call comes after the yes."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Gong x 30 Minutes to President's Club: The Ultimate Cold Email Data Report",
+      "url": "https://tactics.30mpc.com/hubfs/The%20Ultimate%20Cold%20Email%20Data%20Report-1.pdf",
+      "note": "85M+ cold emails: meeting ask -44%, offer +28%"
+    },
+    {
+      "name": "Our TRANSLATE guide",
+      "url": "https://wayneflow.com/guides/translate.html",
+      "note": "What to say when they answer \"not now\""
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the small ask prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "When should I ask for the meeting?",
+      "a": "After the yes. Once they've said \"sure, send it\", send what you promised and offer one specific time to walk them through it."
+    },
+    {
+      "q": "What if I don't have a playbook or case study yet?",
+      "a": "Offer something small you can make in an hour: a checklist, 3 ideas for their company, or a short audit. Never offer something you don't have."
+    },
+    {
+      "q": "Does \"Worth a look?\" work in every industry?",
+      "a": "It's a good start almost everywhere because it's so easy to answer. Test it against one offer-style ask and keep the one that gets more replies."
+    },
+    {
+      "q": "Can I use more than one ask in a sequence?",
+      "a": "Yes. Use a different small ask in each follow-up. Just keep one ask per email."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

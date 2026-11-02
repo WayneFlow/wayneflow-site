@@ -1,0 +1,399 @@
+{
+  "slug": "util",
+  "keyword": "UTIL",
+  "case": "case-03",
+  "title": "The Capacity Calculator: Find the Money Gap to 75% Billable Utilization",
+  "description": "A Google Sheets capacity calculator: enter team size, hours and rate to see your utilization and the money gap to 75%. Plus how to close the gap.",
+  "lead": "This is the full Capacity Calculator from the carousel. Enter your team size, hours and rate, and see your billable utilization and the money gap to 75%. This guide gives you the sheet with every formula, a 2-week time tracking plan and how to price on the hours you really bill.",
+  "insider": "Unbilled hours often mean not enough work coming in, not a lazy team. In our 5-day blitz we booked **25 calls in one week** for a client from 96,408 emails. Closing the utilization gap starts with a full pipeline, and filling it every day is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The numbers behind the carousel"
+    },
+    {
+      "type": "p",
+      "text": "[SPI Research's 2026 Professional Services Maturity Benchmark](https://www.deltek.com/resources/articles/professional-services-billable-utilization-historic-low/), published with Deltek, found billable utilization hit **66.4%**, its lowest point in nearly two decades. In 2021 it was **73.2%**."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Top firms bill more.** High-performance firms billed **75.0%** of their time. Everyone else billed **64.9%**.",
+        "**Profit is thin.** Industry EBITDA was **9.9%** in 2025, well below SPI's expected **15%** benchmark.",
+        "**75% is the target.** [Deltek's summary](https://www.deltek.com/resources/articles/professional-services-benchmarks/) calls 75% the threshold SPI considers optimal. The survey covered over 500 firms."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "**Utilization** means: billable hours ÷ total available hours. If a person works 40 hours and bills 26, their utilization is 65%."
+    },
+    {
+      "type": "h2",
+      "text": "Why this is a money problem, not a time problem"
+    },
+    {
+      "type": "p",
+      "text": "Every hour you don't bill still costs you the same salary, rent and tools. Going from 66.4% to 75% means billing about 3.4 more hours per person per week at a 40-hour week. You don't need more hours. You need more of the same hours to be paid for."
+    },
+    {
+      "type": "h2",
+      "text": "The Capacity Calculator (Google Sheets)"
+    },
+    {
+      "type": "p",
+      "text": "Open a new Google Sheet. Put the labels in column A and the values or formulas in column B, starting in row 2. You type values only in B2 to B8. The rest calculate."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Row",
+        "A: Label",
+        "B: Value or formula",
+        "Example result"
+      ],
+      "rows": [
+        [
+          "2",
+          "Team size (billable people)",
+          "5",
+          "5"
+        ],
+        [
+          "3",
+          "Hours per person per week",
+          "40",
+          "40"
+        ],
+        [
+          "4",
+          "Working weeks per year",
+          "48",
+          "48"
+        ],
+        [
+          "5",
+          "Billable hours per person per week (from tracking)",
+          "26.56",
+          "26.56"
+        ],
+        [
+          "6",
+          "Hourly rate ($)",
+          "100",
+          "$100"
+        ],
+        [
+          "7",
+          "Target utilization",
+          "75%",
+          "75%"
+        ],
+        [
+          "8",
+          "Weekly cost per person, all-in ($)",
+          "1500",
+          "$1,500"
+        ],
+        [
+          "9",
+          "Total hours per year",
+          "=PRODUCT(B2,B3,B4)",
+          "9,600"
+        ],
+        [
+          "10",
+          "Billable hours per year now",
+          "=PRODUCT(B2,B4,B5)",
+          "6,374.4"
+        ],
+        [
+          "11",
+          "Utilization now",
+          "=B10/B9",
+          "66.4%"
+        ],
+        [
+          "12",
+          "Billable hours at target",
+          "=PRODUCT(B9,B7)",
+          "7,200"
+        ],
+        [
+          "13",
+          "Hour gap per year",
+          "=MAX(0,B12-B10)",
+          "825.6"
+        ],
+        [
+          "14",
+          "Money gap per year ($)",
+          "=PRODUCT(B13,B6)",
+          "$82,560"
+        ],
+        [
+          "15",
+          "Extra billable hours per person per week",
+          "=B13/B2/B4",
+          "3.44"
+        ],
+        [
+          "16",
+          "Break-even rate if you price on all hours",
+          "=B8/B3",
+          "$37.50"
+        ],
+        [
+          "17",
+          "Break-even rate on target billable hours",
+          "=B8/PRODUCT(B3,B7)",
+          "$50.00"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Formatting",
+      "text": "Format B7 and B11 as percent, B6, B8, B14, B16 and B17 as currency. Rows 9 to 17 should never be typed over."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example (the carousel math)"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Capacity: 5 people × 40 hours × 48 weeks = **9,600 hours** a year.",
+        "At 66.4%: 9,600 × 0.664 = 6,374.4, about **6,374 billable hours**.",
+        "At 75%: 9,600 × 0.75 = **7,200 billable hours**.",
+        "Gap: 7,200 − 6,374 = **826 hours** (825.6 before rounding).",
+        "Money: 826 × $100 = **$82,600** a year (the sheet shows $82,560 because it doesn't round the hours).",
+        "Per person: 825.6 ÷ 5 ÷ 48 = about **3.4 extra billable hours a week**."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 1: Count real billable hours"
+    },
+    {
+      "type": "p",
+      "text": "A 40-hour week is never 40 billable hours. Email, meetings, sales and admin take time. A common rule is to plan on **75%**, so 40 hours is really about 30 billable. Use 30, not 40, for planning and pricing."
+    },
+    {
+      "type": "h2",
+      "text": "Step 2: Track every hour for 2 weeks"
+    },
+    {
+      "type": "p",
+      "text": "You can't fix what you guess. For 2 weeks, everyone logs every hour into one of these buckets. A free time tracker or a shared sheet works."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Bucket",
+        "Billable?",
+        "Examples"
+      ],
+      "rows": [
+        [
+          "Client work",
+          "Yes",
+          "Delivery, client calls, reporting"
+        ],
+        [
+          "Sales",
+          "No",
+          "Proposals, discovery calls"
+        ],
+        [
+          "Internal meetings",
+          "No",
+          "Stand-ups, team calls"
+        ],
+        [
+          "Admin",
+          "No",
+          "Invoices, email, tools"
+        ],
+        [
+          "Rework / unbilled extras",
+          "No (but should it be?)",
+          "Free revisions, out-of-scope work"
+        ],
+        [
+          "Learning / idle",
+          "No",
+          "Training, waiting for client input"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Add up the client work hours, divide by 2 to get a weekly number, then divide by the number of people. That's your value for cell B5."
+    },
+    {
+      "type": "h2",
+      "text": "Step 3: Cut the non-billable"
+    },
+    {
+      "type": "p",
+      "text": "Look at the biggest non-billable bucket first. Example: 5 one-hour internal meetings a week is **5 hours a week** per person. Turning 3 of them into a written update gives back 3 hours, almost the whole 3.4-hour gap in the example."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Problem you find",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Too many internal meetings",
+          "Replace status meetings with a written update"
+        ],
+        [
+          "Unbilled extras and free revisions",
+          "A clear scope with priced extras (see our [SCOPE guide](/guides/scope.html))"
+        ],
+        [
+          "People waiting for client input",
+          "Set deadlines for client feedback in the contract"
+        ],
+        [
+          "Not enough client work to fill hours",
+          "A pipeline problem: more sales conversations, not more effort"
+        ],
+        [
+          "Senior people doing admin",
+          "Hand admin to a cheaper role or a tool"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 4: Price on the hours you bill"
+    },
+    {
+      "type": "p",
+      "text": "If you set your rate by dividing cost by 40 hours, you are under-pricing. Divide by the billable hours instead."
+    },
+    {
+      "type": "table",
+      "head": [
+        "",
+        "Price on 40 hours",
+        "Price on 30 billable hours"
+      ],
+      "rows": [
+        [
+          "Weekly cost per person",
+          "$1,500",
+          "$1,500"
+        ],
+        [
+          "Break-even hourly rate",
+          "$1,500 ÷ 40 = **$37.50**",
+          "$1,500 ÷ 30 = **$50.00**"
+        ],
+        [
+          "Rate for a 50% margin (break-even ÷ 0.5)",
+          "$75",
+          "$100"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Pricing on 40 hours sets break-even 25% too low ($37.50 vs $50). Every hour you can't bill eats your profit."
+    },
+    {
+      "type": "h2",
+      "text": "Build or check your sheet with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Capacity calculator prompt",
+      "text": "Help me check my team's billable utilization.\nTeam size: [number]\nHours per person per week: [number]\nWorking weeks per year: [number]\nBillable hours per person per week (from 2 weeks of tracking): [number]\nHourly rate: $[number]\nWeekly cost per person, all-in: $[number]\nTarget utilization: 75%\n\nCalculate and show the math:\n1) total hours per year, billable hours now, utilization now\n2) billable hours at 75%, the hour gap and the money gap per year\n3) extra billable hours per person per week to reach 75%\n4) break-even hourly rate on 40 hours vs on billable hours at 75%\nThen suggest 3 ways to close the gap based on this time tracking summary: [paste your bucket totals]."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Guessing billable hours",
+          "Track every hour for 2 weeks first"
+        ],
+        [
+          "Pricing on a 40-hour week",
+          "Price on 30 billable hours"
+        ],
+        [
+          "Counting free revisions as \"client work\"",
+          "Put them in the unbilled extras bucket"
+        ],
+        [
+          "Pushing people to work 50 hours",
+          "Raise the billable share of 40 hours instead"
+        ],
+        [
+          "Ignoring the owner's hours",
+          "Count your own time too"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "You don't need more hours. You need more of them billed."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Deltek: billable utilization hits a historic low",
+      "url": "https://www.deltek.com/resources/articles/professional-services-billable-utilization-historic-low/",
+      "note": "SPI Research 2026 benchmark: 66.4%, 73.2% in 2021, 75.0% vs 64.9%, EBITDA 9.9%"
+    },
+    {
+      "name": "Deltek: professional services benchmarks",
+      "url": "https://www.deltek.com/resources/articles/professional-services-benchmarks/",
+      "note": "75% target and survey size"
+    },
+    {
+      "name": "Google Sheets",
+      "url": "https://sheets.google.com",
+      "note": "Build the Capacity Calculator"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the capacity calculator prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is 75% right for every business?",
+      "a": "It's the level SPI Research considers optimal for professional services firms. Very senior people and owners often bill less because they sell and manage. Set a target per role if you need to."
+    },
+    {
+      "q": "Should I count sales calls as billable?",
+      "a": "No. They're important, but no client pays for them. Track them in their own bucket so you can see how much time sales really takes."
+    },
+    {
+      "q": "What if we're already at 75%?",
+      "a": "Then focus on price: make sure your rate is set on billable hours, not 40. Going much higher than 75% often leads to burnout."
+    },
+    {
+      "q": "Why does the sheet show $82,560 and the carousel $82,600?",
+      "a": "The carousel rounds the hour gap to 826 hours before multiplying by $100. The sheet uses the exact 825.6 hours."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

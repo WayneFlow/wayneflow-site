@@ -1,0 +1,298 @@
+{
+  "slug": "banana",
+  "keyword": "BANANA",
+  "case": "case-01",
+  "title": "The Banana Opt-Out Line Pack: 12 Reply-to-Stop Lines for Cold Email",
+  "description": "12 reply-to-stop lines to replace the unsubscribe link in cold email, the legal basics (US, Gmail, Yahoo, UK, EU) and the stop-list setup.",
+  "lead": "This is the full banana opt-out line pack from the reel. Some cold emailers swap the unsubscribe link for one plain line: \"reply banana and I'll stop.\" This guide gives you 12 lines to copy, the rules you still have to follow, and the simple setup that makes sure every \"stop\" is honored fast.",
+  "insider": "We treat every opt-out reply as a hard stop for clients, the same day. In one agency client campaign, **only 6 of 76,081 people asked to be removed**, because the emails were short, relevant and easy to say no to. Writing the line is easy. Reading every reply, every day, and keeping the stop list clean across every inbox is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why some cold emailers swap the link for a line"
+    },
+    {
+      "type": "p",
+      "text": "One cold email agency shared this idea: they took the unsubscribe link out of their cold emails and put one plain line at the bottom instead: **\"If you don't want more emails, reply banana and I'll stop.\"**"
+    },
+    {
+      "type": "p",
+      "text": "Their reasoning: a click on an unsubscribe link is a silent goodbye. A \"banana\" comes back as a reply. You see it, you stop, and the person feels heard. They also believe replies count as good engagement with spam filters. That last part is their view, not a published Google rule, so don't treat it as a guarantee."
+    },
+    {
+      "type": "p",
+      "text": "The funny word does one more job: it makes saying no feel easy and friendly. People who are annoyed can leave without hitting the spam button."
+    },
+    {
+      "type": "h2",
+      "text": "What the rules actually say (read this first)"
+    },
+    {
+      "type": "p",
+      "text": "The banana line is **an opt-out method, not a way around the rules**. You still have to make it clear, and you still have to honor it fast. Here is what the official sources say."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Rule",
+        "What it says",
+        "What it means for you"
+      ],
+      "rows": [
+        [
+          "US: CAN-SPAM Act ([FTC guide](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business))",
+          "A clear and easy-to-see explanation of how to opt out. A reply email or other internet-based way to do it. Honor it **within 10 business days**. The opt-out must keep working for at least 30 days after you send. No exception for business-to-business email.",
+          "A reply-to-stop line can count as the opt-out method, if it's clear. 10 business days is the legal maximum, not the goal."
+        ],
+        [
+          "Gmail bulk senders ([Google sender guidelines](https://support.google.com/mail/answer/81126))",
+          "If you send more than 5,000 messages a day to Gmail accounts, **marketing and subscribed messages must support one-click unsubscribe** and show a visible unsubscribe link. Google [recommends honoring unsubscribes within 48 hours](https://support.google.com/a/answer/14229414).",
+          "If you send at that volume, keep the one-click header. Google says the recipient, not you, decides what counts as marketing."
+        ],
+        [
+          "Yahoo bulk senders ([Yahoo best practices](https://senders.yahooinc.com/best-practices/))",
+          "One-click unsubscribe header for marketing and subscribed messages, a visible unsubscribe link, and **honor unsubscribes within 2 days**.",
+          "Same idea as Gmail. 2 days is a good target for everyone."
+        ],
+        [
+          "UK ([ICO guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/electronic-and-telephone-marketing/electronic-mail-marketing/))",
+          "You can email companies without consent, but keep a \"do not email\" list of businesses that object. Sole traders and some partnerships are treated as individuals and generally need to have consented first.",
+          "A banana line doesn't fix missing consent. Check who you're emailing."
+        ],
+        [
+          "EU",
+          "Rules differ by country, and some countries are stricter than the UK, even for business email.",
+          "Check the rules in the countries you email before you send."
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Not legal advice",
+      "text": "This is a summary of public guidance, not legal advice. Check the rules where you and your readers are, and ask a lawyer if you're not sure."
+    },
+    {
+      "type": "p",
+      "text": "One more US rule people forget: the [FTC guide](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) also says commercial emails must include **your valid physical postal address**. Keep it in your signature, even if you remove the link."
+    },
+    {
+      "type": "h2",
+      "text": "When to use the line, and when to keep the link"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Email type",
+        "What to use"
+      ],
+      "rows": [
+        [
+          "1-to-1 cold email, plain text, low volume per inbox",
+          "The banana line works as a clear reply-to-stop opt-out."
+        ],
+        [
+          "Newsletter or marketing list",
+          "Keep the normal unsubscribe link and the one-click header."
+        ],
+        [
+          "Sending 5,000+ a day to Gmail",
+          "Keep the one-click header to meet Google's rule. You can add the line too."
+        ],
+        [
+          "Readers who needed consent first (UK sole traders, stricter EU countries)",
+          "Get the consent question right first. An opt-out line doesn't replace consent."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The 12 lines (copy and paste)"
+    },
+    {
+      "type": "p",
+      "text": "Pick one and use it at the very bottom, under your name. Keep it in normal-size text. A line hidden in tiny grey font is not \"clear\"."
+    },
+    {
+      "type": "prompt",
+      "label": "12 opt-out lines",
+      "text": "PLAYFUL\n1. If you don't want more emails, reply \"banana\" and I'll stop.\n2. Not for you? Reply \"pineapple\" and you won't hear from me again.\n3. Wrong person or wrong time? Reply \"taco\" and I'll stop here.\n\nPLAIN\n4. Not interested? Reply \"stop\" and I won't email again.\n5. If this isn't useful, just reply \"no thanks\" and I'll take you off my list.\n6. Reply \"remove\" and I'll stop emailing you today.\n\nPOLITE\n7. If you'd rather not get emails like this, let me know and I'll stop right away.\n8. No reply needed if it's a no. But if you want me to stop, reply \"stop\" and that's it.\n9. Happy to leave you alone. Reply \"pass\" and you won't hear from me again.\n\nWITH A REFERRAL ASK\n10. Not you? Reply with the right person's name, or \"banana\" if I should stop.\n11. If someone else handles this, I'd love a name. If not, reply \"banana\" and I'm gone.\n12. Wrong fit? Reply \"banana\" to stop, or \"later\" and I'll check back next quarter."
+    },
+    {
+      "type": "h2",
+      "text": "How to set it up"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Add the line** to every cold email in the sequence, not just email 1. Every email needs a way out.",
+        "**Check replies go somewhere you read.** Send a test, reply \"banana\", and make sure it lands in your inbox or your sending tool's reply view.",
+        "**Make an \"Opt-out\" label** in your sending tool or inbox. Tag every banana, stop, remove or \"not interested\" reply with it.",
+        "**Add them to your block list** (sometimes called a do-not-contact or suppression list), so no future campaign can email them. Removing them from one campaign is not enough.",
+        "**Stop all sequences for that person today.** Aim for the same day. Use 2 days as your hard limit, to match Yahoo and Google's guidance.",
+        "**Don't sell in any reply.** You don't need to answer. If you do, keep it to one line, like \"Done, you won't hear from me again.\"",
+        "**Keep the list forever.** Export it every month and import it into any new tool or new campaign."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Treat every \"no\" like a banana"
+    },
+    {
+      "type": "p",
+      "text": "Most people won't use your word. \"Please stop\", \"take me off\", \"not interested\", \"who gave you my email?\" and rude replies all mean the same thing. **Any clear request to stop is an opt-out**, whatever words they use."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: how much work is this?"
+    },
+    {
+      "type": "p",
+      "text": "Example numbers to show the size of the job (use your own):"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "You send **300 cold emails a day**, 5 days a week = **1,500 emails a week**.",
+        "Say 1% of them reply asking to stop: 1,500 x 1% = **15 opt-outs a week**, about 3 a day.",
+        "Tagging and blocking each one takes about a minute = **about 15 minutes a week**.",
+        "Miss them for two weeks and you've broken the US 10-business-day rule for every one of them. Fifteen minutes a week is cheap protection."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Why it hurts",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Only watching for the word \"banana\"",
+          "People write \"stop\" or \"remove me\" and keep getting emails",
+          "Tag any clear request to stop as an opt-out"
+        ],
+        [
+          "Removing them from one campaign only",
+          "Your next campaign emails them again",
+          "Add them to the block list for the whole account"
+        ],
+        [
+          "Taking a week or more",
+          "Annoyed people mark you as spam, and you risk the legal limit",
+          "Same day. 2 days at most"
+        ],
+        [
+          "Tiny grey text at the bottom",
+          "Not \"clear and conspicuous\", and nobody sees it",
+          "Normal text size, its own line"
+        ],
+        [
+          "Dropping the postal address with the link",
+          "US law still needs it in commercial email",
+          "Keep the address in the signature"
+        ],
+        [
+          "Using the line on your newsletter",
+          "Newsletters need a real unsubscribe link and one-click header",
+          "Line for cold email, link for lists"
+        ],
+        [
+          "Making them explain why before you stop",
+          "The FTC says you can't require more than a reply email or one web page",
+          "One reply is enough. No questions"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Sort your replies with Claude"
+    },
+    {
+      "type": "p",
+      "text": "If you get a lot of replies, paste them into Claude once a day and let it sort them. Check its work, and when in doubt, treat it as an opt-out."
+    },
+    {
+      "type": "prompt",
+      "label": "Reply sorter prompt",
+      "text": "Here are today's replies to my cold emails. Each one has the sender's email and the text:\n[paste replies]\n\nSort every reply into ONE of these groups:\n- OPT-OUT: any request to stop, be removed, \"banana\", \"not interested\", angry or rude replies\n- INTERESTED: wants to know more or talk\n- NOT NOW: interested later, give the date if they said one\n- WRONG PERSON: gave another name or said it's not their job\n- OUT OF OFFICE / AUTO-REPLY\n\nRules: if you're not sure between OPT-OUT and anything else, choose OPT-OUT.\nReturn a table: email, group, one-line reason. Then list all OPT-OUT emails on their own, one per line, so I can paste them into my block list."
+    },
+    {
+      "type": "h2",
+      "text": "Daily checklist"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Every cold email has a clear opt-out line in normal text.",
+        "Your postal address is in the signature.",
+        "All opt-out replies from today are tagged.",
+        "All of them are on the account-wide block list.",
+        "None of them are still in an active sequence.",
+        "Newsletters still use a real unsubscribe link."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "It's still an opt-out. Stop the same day."
+    }
+  ],
+  "resources": [
+    {
+      "name": "FTC: CAN-SPAM Act compliance guide",
+      "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+      "note": "Clear opt-out, 10 business days, postal address, no B2B exception"
+    },
+    {
+      "name": "Google: Email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "One-click unsubscribe for bulk marketing mail to Gmail"
+    },
+    {
+      "name": "Google: Sender guidelines FAQ",
+      "url": "https://support.google.com/a/answer/14229414",
+      "note": "Unsubscribe requests within 48 hours"
+    },
+    {
+      "name": "Yahoo: Sender best practices",
+      "url": "https://senders.yahooinc.com/best-practices/",
+      "note": "One-click unsubscribe, honor within 2 days"
+    },
+    {
+      "name": "ICO: Electronic mail marketing (UK)",
+      "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/electronic-and-telephone-marketing/electronic-mail-marketing/",
+      "note": "Companies vs sole traders, do-not-email lists"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the reply sorter prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it legal to remove the unsubscribe link from cold email?",
+      "a": "In the US, CAN-SPAM asks for a clear way to opt out, and a reply email can be that way. But you must honor it within 10 business days and include your postal address. Bulk senders to Gmail and Yahoo need one-click unsubscribe for marketing mail, and UK and EU rules are stricter. This is not legal advice, so check your local rules."
+    },
+    {
+      "q": "What if they reply \"stop\" instead of \"banana\"?",
+      "a": "Treat it exactly the same. Any clear request to stop is an opt-out, whatever words they use."
+    },
+    {
+      "q": "Do banana replies really help my deliverability?",
+      "a": "Nobody outside Google or Microsoft can prove that. What is clear: an easy, friendly way to say no gives annoyed people an option other than the spam button."
+    },
+    {
+      "q": "Can I use the banana line on my newsletter?",
+      "a": "No. Newsletters and marketing lists should keep a real unsubscribe link and the one-click header. Use the line for one-to-one cold email."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

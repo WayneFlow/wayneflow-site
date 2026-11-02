@@ -1,0 +1,240 @@
+{
+  "slug": "dials",
+  "keyword": "DIALS",
+  "case": "case-03",
+  "title": "The Cold Call Math Sheet: How Many Dials It Takes to Book 1 Meeting",
+  "description": "Belkins' 175,000+ dials from 2025 as a simple sheet: connects, conversations, meetings, and how many dials a day you need to hit your meeting goal.",
+  "lead": "This is the full cold call math sheet from the reel. Instead of guessing how many calls to make, you'll use real numbers from 175,000+ dials to work backward from your meeting goal: how many dials, how many days, and how many callers it really takes.",
+  "insider": "We plan email campaigns with the same funnel math. In our 5-day blitz, **96,408 emails led to 25 calls booked in one week**, and we knew roughly what to expect before we pressed send because we worked backward from the goal. The sheet takes ten minutes. Tracking every stage and fixing the leaks every day is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The short answer: about 370 dials per meeting"
+    },
+    {
+      "type": "p",
+      "text": "[Belkins analyzed 175,000+ cold call dials logged by SDRs in 2025](https://belkins.io/blog/cold-calling-benchmarks). Their finding: **it takes roughly 370 dials to book one meeting** from cold calls."
+    },
+    {
+      "type": "p",
+      "text": "That number sounds scary. But once you split it into steps, you can plan around it, and you can see exactly which step to fix to make it smaller."
+    },
+    {
+      "type": "h2",
+      "text": "The funnel, step by step"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Stage",
+        "Rate (Belkins 2025)",
+        "Out of 1,000 dials"
+      ],
+      "rows": [
+        [
+          "Dials",
+          "",
+          "1,000"
+        ],
+        [
+          "Connect (a live person picks up)",
+          "9.9% of dials",
+          "about 99"
+        ],
+        [
+          "Conversation (a real talk, not a hang-up)",
+          "58% of connects",
+          "about 57"
+        ],
+        [
+          "Meeting booked",
+          "4.6% of conversations",
+          "about 2.6"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Check the math: 1,000 × 9.9% × 58% × 4.6% = 2.6 meetings. So 1,000 ÷ 2.6 is about **380 dials per meeting** with these rounded rates. Belkins reports roughly 370 from their full data. Use either one. The point is the same: a few hundred dials per meeting."
+    },
+    {
+      "type": "h3",
+      "text": "1. Connect: 9.9% of dials reach a person"
+    },
+    {
+      "type": "p",
+      "text": "Nine out of ten dials hit voicemail, a gatekeeper, a wrong number or nothing. That's normal. **Don't judge your pitch by how many people pick up.** Connect rate is mostly about your list (good direct and mobile numbers) and when you call."
+    },
+    {
+      "type": "h3",
+      "text": "2. Talk: 58% of pickups become a real conversation"
+    },
+    {
+      "type": "p",
+      "text": "A pickup is not a conversation. Some people hang up in two seconds, some are the wrong person, some say \"bad time\". **Count pickups and conversations separately**, or you won't know if your opener is the problem."
+    },
+    {
+      "type": "h3",
+      "text": "3. Book: 4.6% of conversations book a meeting"
+    },
+    {
+      "type": "p",
+      "text": "This is where your message, your offer and your ask matter most. Roughly 1 in 22 real conversations becomes a meeting in the Belkins data."
+    },
+    {
+      "type": "h3",
+      "text": "4. Plan: dials a day, meetings a week"
+    },
+    {
+      "type": "p",
+      "text": "At 60 dials a day, 370 dials takes about 6 working days (370 ÷ 60 = 6.2). So **one caller at 60 dials a day books about 1 meeting every 6 days**. Plan your targets from this, not from hope."
+    },
+    {
+      "type": "h2",
+      "text": "Why you must call each person more than once"
+    },
+    {
+      "type": "p",
+      "text": "Belkins found a **9.9% connect rate per dial**, but **24.5% of unique prospects connected at least once when called multiple times**. Their data showed an average of three dial attempts per prospect."
+    },
+    {
+      "type": "p",
+      "text": "Example math: call 300 people once and you reach about 30 (300 × 9.9%). Call the same 300 people several times and you reach about 74 (300 × 24.5%). Same list, more than twice the people reached. One try and done throws most of your list away."
+    },
+    {
+      "type": "tip",
+      "label": "Simple rule",
+      "text": "Plan for at least 3 attempts per person, on different days and at different times, before you mark them \"no answer\"."
+    },
+    {
+      "type": "h2",
+      "text": "Build the math sheet"
+    },
+    {
+      "type": "p",
+      "text": "Open a Google Sheet or Excel. Put the labels in column A and the values or formulas in column B, exactly like this. Change only the inputs in rows 1 to 6. The rest updates by itself."
+    },
+    {
+      "type": "prompt",
+      "label": "Cold call math sheet (paste into column A and B)",
+      "text": "A1: Meetings goal per month          B1: 8\nA2: Connect rate (per dial)          B2: 9.9%\nA3: Conversation rate (of connects)  B3: 58%\nA4: Meeting rate (of conversations)  B4: 4.6%\nA5: Dials per caller per day         B5: 60\nA6: Working days per month           B6: 20\nA7: Dials per meeting                B7: =1/PRODUCT(B2:B4)\nA8: Dials needed per month           B8: =PRODUCT(B1,B7)\nA9: Caller-days needed               B9: =B8/B5\nA10: Callers needed                  B10: =B9/B6\nA11: Meetings per caller per month   B11: =PRODUCT(B5,B6)/B7"
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: 8 meetings a month"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Dials per meeting:** 1 ÷ (9.9% × 58% × 4.6%) = about 379.",
+        "**Dials needed:** 8 meetings × 379 = about 3,030 dials a month.",
+        "**Caller-days:** 3,030 ÷ 60 dials a day = about 50 caller-days.",
+        "**Callers needed:** 50 ÷ 20 working days = **2.5 callers** for the month.",
+        "**Reality check:** one caller at 60 a day makes 1,200 dials a month, which is about 3 meetings, not 8."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Now see what fixing one step does. If better offers lift your conversation-to-meeting rate from 4.6% to 6%, dials per meeting drop from about 379 to about 290. Same caller, same hours, **about 30% more meetings** (379 ÷ 290 = 1.31). That's why you measure each stage instead of just \"making more calls\"."
+    },
+    {
+      "type": "h2",
+      "text": "Find your leak"
+    },
+    {
+      "type": "p",
+      "text": "Track your own numbers for two weeks, then compare them with the Belkins numbers. The step that's furthest below is where to work first."
+    },
+    {
+      "type": "table",
+      "head": [
+        "If this is low",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Connect rate under 9.9%",
+          "Bad numbers (main office lines), wrong call times, only one try",
+          "Buy or verify direct and mobile numbers. Call at different times. 3+ attempts per person."
+        ],
+        [
+          "Conversations under 58% of connects",
+          "Weak first 10 seconds, wrong person",
+          "Say who you are and why you're calling in one line. Check job titles before you dial."
+        ],
+        [
+          "Meetings under 4.6% of conversations",
+          "Ask too big, no clear reason to meet",
+          "Give a reason tied to their problem. Offer one specific time."
+        ],
+        [
+          "Fine rates, still few meetings",
+          "Not enough dials",
+          "Use the sheet: add hours, add a caller, or lower the goal."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "When to call"
+    },
+    {
+      "type": "p",
+      "text": "In the same Belkins data, **Wednesday had the highest positive outcome rate at 0.95% of all dials**, Monday was second at 0.77%, and Friday was lowest at 0.51%. They also found **3 to 4 PM was the most consistent daily peak**. Test your own market, but start there."
+    },
+    {
+      "type": "h2",
+      "text": "Let Claude read your numbers"
+    },
+    {
+      "type": "prompt",
+      "label": "Cold call funnel check prompt",
+      "text": "Here are my cold calling numbers for the last [2 weeks]:\n- Dials: [number]\n- Connects (live person picked up): [number]\n- Real conversations: [number]\n- Meetings booked: [number]\n- Callers: [number], dials per caller per day: [number]\n- My meeting goal per month: [number]\n\nBenchmarks (Belkins, 175,000+ dials in 2025): connect 9.9% of dials, conversation 58% of connects, meeting 4.6% of conversations, about 370 dials per meeting.\n\n1. Calculate my rate at each stage and compare it with the benchmark.\n2. Tell me which stage is my biggest leak and 3 specific things to test to fix it.\n3. Tell me how many dials per month I need to hit my goal at my current rates.\nShow the math. Don't guess numbers I didn't give you."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "Count every stage. You can't fix a number you don't track."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Belkins: B2B cold calling statistics (175,000+ dials)",
+      "url": "https://belkins.io/blog/cold-calling-benchmarks",
+      "note": "Source of the 9.9%, 58%, 4.6%, 370 and 24.5% numbers"
+    },
+    {
+      "name": "Google Sheets",
+      "url": "https://sheets.google.com",
+      "note": "Build the math sheet for free"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the funnel check prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is 370 dials per meeting true for every industry?",
+      "a": "No. It's an average from Belkins' 2025 data. Your market may be better or worse. Use it to start, then replace it with your own numbers after two weeks."
+    },
+    {
+      "q": "How many times should I call the same person?",
+      "a": "Belkins' data showed about three attempts per prospect on average, and 24.5% of people were reached when called multiple times. Plan for at least 3 tries on different days."
+    },
+    {
+      "q": "What counts as a conversation?",
+      "a": "A real back-and-forth with the right person, beyond hello and a hang-up. Decide your rule once and count it the same way every day."
+    },
+    {
+      "q": "Is 60 dials a day the right number?",
+      "a": "It's just the example in the reel. Put your real daily number in the sheet. The math works for any number."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

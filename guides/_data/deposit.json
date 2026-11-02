@@ -1,0 +1,309 @@
+{
+  "slug": "deposit",
+  "keyword": "DEPOSIT",
+  "case": "case-01",
+  "title": "The Paid-First Setup: Deposit Clause, Auto-Charge Consent Line + Invoice Template",
+  "description": "Get paid before you start: a deposit clause, an auto-charge consent line, an invoice template with a pay link and retainer billing on the 1st. For agencies.",
+  "lead": "This is the full Paid-First setup from the carousel: the deposit clause, the auto-charge consent line and the invoice template with a pay link. It's for agency owners and freelancers who are tired of starting work and then chasing the money. Set it up once, put it in the proposal, and you stop being the bank for your clients.",
+  "insider": "Our job for clients is filling the pipeline: one agency client got **$175,000 in pipeline** from cold email in four and a half months. But pipeline only turns into cash when the payment terms are clear from day one, which is why we tell every agency owner to fix this first. Filling the calendar with buyers, every day, is what we do for clients.",
+  "blocks": [
+    {
+      "type": "tip",
+      "label": "Not legal advice",
+      "text": "These templates are a starting point, not legal advice. Rules on deposits, refunds and saved cards differ by country and state. Check with a lawyer before you use them in your contracts."
+    },
+    {
+      "type": "h2",
+      "text": "Why most agencies end up chasing money"
+    },
+    {
+      "type": "p",
+      "text": "[Ignition's 2025 Agency Pricing and Cash Flow Report](https://www.ignitionapp.com/news/2025-agency-pricing-cashflow-report) surveyed **273 managers and executives at US agencies**. Here's how they get paid:"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What agencies do",
+        "Share"
+      ],
+      "rows": [
+        [
+          "Require 100% payment upfront",
+          "16%"
+        ],
+        [
+          "Ask for partial payment in advance (a deposit)",
+          "49%"
+        ],
+        [
+          "Collect payment details in advance and charge automatically",
+          "20%"
+        ],
+        [
+          "Spend at least 3 to 10+ hours a month chasing late payments",
+          "84%"
+        ],
+        [
+          "Say at least 1 in 4 invoices is paid late",
+          "71%"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So most agencies do the work first and hope the money follows. The Paid-First setup flips that: money first, work second, with 4 simple parts."
+    },
+    {
+      "type": "h2",
+      "text": "Part 1: A deposit to start"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** a deposit proves the client is serious, covers your first costs and means you're never more than one payment behind. A common rule is **30% to 50%** before kickoff."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Example project: **$6,000**.",
+        "50% deposit = **$3,000 before kickoff**. Balance of $3,000 on delivery.",
+        "Or 30% deposit = **$1,800 before kickoff**. Balance of $4,200 on delivery.",
+        "Bigger or longer project? Split the balance into milestones, each paid before the next stage starts."
+      ]
+    },
+    {
+      "type": "prompt",
+      "label": "Deposit clause (template)",
+      "text": "PAYMENT AND DEPOSIT\n\nTo reserve the start date, the Client pays a deposit of [50]% of the total project fee ([$3,000] of [$6,000]) before work begins. Work starts within [2] business days of the deposit being received.\n\nThe remaining [50]% ([$3,000]) is due on [delivery / the date of the final milestone], before final files are handed over.\n\nThe deposit is [non-refundable once work has started / refundable minus work completed to date if the project is cancelled before (date)].\n\nIf any payment is more than [7] days late, work pauses until it is paid, and deadlines move by the same number of days."
+    },
+    {
+      "type": "h2",
+      "text": "Part 2: Card on file, auto-charge"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** if the card is already saved, the payment happens on the due date without anyone remembering, approving or chasing. Only 20% of agencies in Ignition's survey work this way."
+    },
+    {
+      "type": "p",
+      "text": "**How:** use a payment tool that can save a card or bank account and charge it later, like Stripe. You need the client's clear permission first. [Stripe's own guide](https://docs.stripe.com/payments/save-and-reuse) says your terms should include:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The client's agreement that you can start payments for specific charges.",
+        "When and how often you'll charge (for example, the 1st of every month).",
+        "How the amount is set.",
+        "How to cancel, if it's an ongoing service.",
+        "And you should keep a record of their written agreement."
+      ]
+    },
+    {
+      "type": "prompt",
+      "label": "Auto-charge consent line (template)",
+      "text": "AUTOMATIC PAYMENTS\n\nBy signing, the Client authorizes [Your Agency] to charge the card or bank account saved on file for:\n- the monthly retainer of [$4,000] on the 1st of each month, and\n- any approved extras, on the day they are approved in writing.\n\nThe amount charged is the retainer plus any approved extras for that month, as shown on the invoice sent [2] days before each charge.\n\nThe Client can cancel automatic payments or the retainer with [30] days' written notice to [email]. Payments already made for work completed are not refunded.\n\nClient name: ____________  Signature: ____________  Date: ________"
+    },
+    {
+      "type": "h2",
+      "text": "Part 3: A pay button in every invoice"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** every step between \"I got the invoice\" and \"I paid\" is a chance to put it off. A link they can pay with in one click removes the steps. A [Xero analysis of about 10 million invoices from over 150,000 small businesses](https://creditorwatchcollect.com.au/blog/how-can-smbs-get-paid-faster-new-xero-research-reveals-all/) (as reported in 2019) found invoices with a payment service attached were **paid in about 12 days instead of 22**."
+    },
+    {
+      "type": "prompt",
+      "label": "Invoice template with pay link",
+      "text": "INVOICE #[2026-011]\n\nFrom: [Your Agency], [address], [email]\nTo: [Client company], [contact name], [address]\n\nInvoice date: [Nov 1, 2026]\nDue date: [Nov 7, 2026]\n\nWhat this is for:\n[Monthly retainer, November 2026: cold email campaigns, 2 lists, weekly report]   [$4,000]\n[Approved extra: landing page copy (approved Oct 28)]                       [$500]\n\nTotal due: [$4,500]\n\nPAY NOW (card or bank): [your payment link]\n\nOr bank transfer: [bank name, account name, account number, routing / SWIFT]\nPlease use the invoice number as the reference.\n\nQuestions? Reply to this email or call [phone].\nThank you!"
+    },
+    {
+      "type": "h2",
+      "text": "Part 4: Bill retainers on the 1st, before the work"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** if you bill at the end of the month, you've already done a full month of work for free, and then you wait for payment on top. Billing on the 1st means you're paid for the month you're about to work."
+    },
+    {
+      "type": "table",
+      "head": [
+        "",
+        "Bill at month end",
+        "Bill on the 1st"
+      ],
+      "rows": [
+        [
+          "November work",
+          "Nov 1 to 30",
+          "Nov 1 to 30"
+        ],
+        [
+          "Invoice sent",
+          "Nov 30",
+          "Nov 1"
+        ],
+        [
+          "Paid (12 days with a pay link)",
+          "About Dec 12",
+          "About Nov 13"
+        ],
+        [
+          "Work done before you're paid",
+          "About 6 weeks",
+          "About 2 weeks, or none with auto-charge on the 1st"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Ask on day one"
+    },
+    {
+      "type": "p",
+      "text": "This only works if it's in the proposal and the contract, before the first invoice. Bringing it up on the 3rd invoice feels like a change of rules. On day one, it just feels like how a professional business works."
+    },
+    {
+      "type": "quote",
+      "text": "\"How we work: a 50% deposit reserves your start date, and the balance is due on delivery. For the monthly plan, we save a card on file and bill on the 1st, so the work never stops waiting for an invoice.\""
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: one client, one year"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "A **$4,000 a month** retainer, billed at month end and paid about 22 days later (no pay link), means you're always owed for **3 to 7 weeks of work**: roughly **$3,000 to $7,000** at any time.",
+        "Billed on the 1st with auto-charge, you're owed **$0** on most days.",
+        "Chasing one late invoice takes, say, 1 hour (example). 12 invoices with 1 in 4 late = **3 late invoices, 3 hours a year**, for one client. With 10 clients that's 30 hours a year.",
+        "Auto-charge turns those hours into zero, and the money arrives on the day you planned."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Why it hurts",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Starting before the deposit lands",
+          "You've lost your leverage",
+          "Kickoff date is set only when the deposit clears"
+        ],
+        [
+          "Asking for it on the 3rd invoice",
+          "Feels like a new rule, clients push back",
+          "Put it in the proposal and the contract"
+        ],
+        [
+          "Saving a card without written consent",
+          "Disputes, chargebacks, and you break your payment tool's rules",
+          "Use the consent line and keep a signed copy"
+        ],
+        [
+          "Invoices with only bank details",
+          "Extra steps mean later payment",
+          "Add a pay link to every invoice"
+        ],
+        [
+          "Billing retainers at month end",
+          "You fund a month of work for the client",
+          "Bill on the 1st, before the work"
+        ],
+        [
+          "No late-payment rule",
+          "Late becomes normal",
+          "Work pauses if payment is more than 7 days late"
+        ],
+        [
+          "Vague refund terms",
+          "Arguments if the project is cancelled",
+          "Say exactly what happens to the deposit"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Adapt it to your business with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Paid-First setup prompt",
+      "text": "I run a [type of agency / freelance service] in [country / state].\nMy offers: [project at $X], [monthly retainer at $Y].\nI use [payment tool, e.g. Stripe] to take payments.\n\nWrite my Paid-First setup:\n1) A deposit clause: [30-50]% before kickoff, balance on delivery, what happens if the project is cancelled, and a pause rule if payment is over 7 days late\n2) An auto-charge consent line for my retainer: what will be charged, when, how the amount is set, and how to cancel\n3) An invoice template with a pay link, due date and bank details\n4) Two sentences I can put in my proposal to explain this in a friendly way\n\nUse plain English, short sentences. Then list anything a lawyer in [country / state] should check before I use it."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "Ask on day one: put it in the proposal, not the 3rd invoice."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Ignition: 2025 Agency Pricing and Cash Flow Report (news)",
+      "url": "https://www.ignitionapp.com/news/2025-agency-pricing-cashflow-report",
+      "note": "273 US agency leaders: 16% upfront, 49% deposit, 20% auto-charge"
+    },
+    {
+      "name": "Ignition: full report page",
+      "url": "https://www.ignitionapp.com/2025-agency-pricing-cashflow-report",
+      "note": "Download the 2025 report"
+    },
+    {
+      "name": "Xero invoice research (summary)",
+      "url": "https://creditorwatchcollect.com.au/blog/how-can-smbs-get-paid-faster-new-xero-research-reveals-all/",
+      "note": "Invoices with a payment service paid in about 12 days, not 22"
+    },
+    {
+      "name": "Stripe: Save a payment method and charge it later",
+      "url": "https://docs.stripe.com/payments/save-and-reuse",
+      "note": "What your auto-charge terms should include"
+    },
+    {
+      "name": "Stripe Invoicing",
+      "url": "https://stripe.com/invoicing",
+      "note": "Invoices with a pay link"
+    },
+    {
+      "name": "Our PAID guide",
+      "url": "https://wayneflow.com/guides/paid.html",
+      "note": "Milestone invoice + 3 reminder emails"
+    },
+    {
+      "name": "Our SCOPE guide",
+      "url": "https://wayneflow.com/guides/scope.html",
+      "note": "Stop scope creep with a written fence"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the Paid-First setup prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Won't asking for a deposit scare clients off?",
+      "a": "Most agencies already ask for something upfront: 49% take a partial payment in advance and 16% want the full amount, per Ignition's survey. Asked on day one, in the proposal, it reads as normal and professional."
+    },
+    {
+      "q": "How big should the deposit be?",
+      "a": "A common rule is 30% to 50%. Bigger or riskier projects lean toward 50%. For long projects, split the rest into milestones paid before each stage."
+    },
+    {
+      "q": "Is it OK to save a client's card and charge it automatically?",
+      "a": "Yes, with their clear written permission for that specific use. Your payment tool's rules and local law decide the details, so use the consent line, keep a signed copy, and check with a lawyer."
+    },
+    {
+      "q": "What if a client refuses auto-charge?",
+      "a": "Keep the deposit and bill on the 1st with a pay link and a short due date. You still get most of the benefit."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

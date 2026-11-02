@@ -1,0 +1,291 @@
+{
+  "slug": "show",
+  "keyword": "SHOW",
+  "case": "case-03",
+  "title": "The No-Show Killer: 3 Reminder Messages + the Agenda Line for Booked Calls",
+  "description": "Stop losing booked sales calls: a confirmation within the hour, a morning-of reminder, a 10-minute nudge and a one-line agenda that makes the call feel real.",
+  "lead": "This is the full no-show killer from the reel: 3 reminder messages and the agenda line. Booking the call is only half the job. This guide shows what to send, when to send it and how to make it sound like a person, so more of your booked calls actually happen.",
+  "insider": "We confirm every call we book for clients, and send the reminders ourselves. In our 5-day blitz we booked **25 calls in a single week**, and every one of them got a human confirmation with a one-line agenda. Writing the messages takes ten minutes. Sending them on time, for every call, every day, is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "How many booked calls go missing?"
+    },
+    {
+      "type": "p",
+      "text": "[RevenueHero looked at 6,428 meetings across 15 industries](https://revenuehero.io/reports/no-show-benchmark-december-02-2024) booked in one week and found a **6.5% overall no-show rate**. That sounds small, until you look at the worst industries."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Industry (RevenueHero)",
+        "No-show rate",
+        "Per 100 booked calls"
+      ],
+      "rows": [
+        [
+          "Education & e-learning software",
+          "18.1%",
+          "About 18 empty chairs"
+        ],
+        [
+          "Real estate",
+          "15.1%",
+          "About 15"
+        ],
+        [
+          "All 15 industries",
+          "6.5%",
+          "About 6 or 7"
+        ],
+        [
+          "Marketing software",
+          "4.59%",
+          "About 4 or 5"
+        ],
+        [
+          "Developer tools",
+          "1.2%",
+          "About 1"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "RevenueHero's data shows the problem, not the cure: it didn't test reminders. The messages below are a common, simple practice. Track your own no-show rate before and after, and you'll know if they work for you."
+    },
+    {
+      "type": "h2",
+      "text": "Why people don't show up"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**They forgot.** They booked it on a busy Tuesday and it's now Friday.",
+        "**It doesn't feel real.** A calendar invite from a stranger with no agenda is easy to skip.",
+        "**Something came up,** and moving it felt like more work than just missing it.",
+        "**They're not sure it's worth 30 minutes** anymore."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Each message below fixes one of these. The confirmation makes it real. The agenda line shows it's worth it. The reminders fight forgetting. And an easy \"reply to move it\" line turns a no-show into a reschedule."
+    },
+    {
+      "type": "h2",
+      "text": "The timing"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Within an hour of booking:** the confirmation, with the agenda line.",
+        "**The morning of the call:** a short reminder.",
+        "**About 10 minutes before:** a one-line nudge with the link."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Message 1: The confirmation (within an hour)"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** this is the moment they are most interested. A real reply from a real person, fast, turns a calendar slot into a commitment."
+    },
+    {
+      "type": "prompt",
+      "label": "Message 1: Confirmation",
+      "text": "Subject: Thursday at 10\n\nHi [first name],\n\nThanks for booking. You're all set for [day] at [time] [their time zone].\n\nThe plan: [agenda line].\n\nIf the time stops working, just reply and I'll move it.\n\n[your name]"
+    },
+    {
+      "type": "h2",
+      "text": "The agenda line"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** one line makes the call feel planned and worth showing up for. It also tells them what they get, not what you'll pitch."
+    },
+    {
+      "type": "prompt",
+      "label": "5 agenda lines to copy",
+      "text": "1. I'll show you how [similar company] went from [their problem] to [result], then we'll see if it fits [their company].\n2. 20 minutes: I'll walk you through [the thing they asked about], then answer your questions.\n3. I'll bring 3 ideas for [their goal]. You pick which ones are worth trying.\n4. We'll look at your [current process] together and I'll point out the 2 biggest gaps I see.\n5. Quick plan: your goals (5 min), what we'd do (10 min), questions (5 min)."
+    },
+    {
+      "type": "h2",
+      "text": "Message 2: The morning-of reminder"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** most no-shows are forgetting. A message the same morning lands when they are planning their day."
+    },
+    {
+      "type": "prompt",
+      "label": "Message 2: Morning of",
+      "text": "Hi [first name], looking forward to our call today at [time]. I've got [one specific thing, e.g. the 3 ideas for your spring campaign] ready.\n\nHere's the link: [meeting link]\n\nIf something came up, just reply and we'll find a new time."
+    },
+    {
+      "type": "h2",
+      "text": "Message 3: The 10-minute nudge"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** it catches people who are between meetings. Keep it one line. Send it by text or chat if they gave you a number and agreed to texts, otherwise by email."
+    },
+    {
+      "type": "prompt",
+      "label": "Message 3: 10 minutes before",
+      "text": "Hi [first name], see you in 10 minutes: [meeting link]"
+    },
+    {
+      "type": "h2",
+      "text": "If they still don't show"
+    },
+    {
+      "type": "p",
+      "text": "Wait 5 to 10 minutes on the call, then send this. No guilt, no \"I waited for you\". Make rebooking easy."
+    },
+    {
+      "type": "prompt",
+      "label": "No-show follow-up",
+      "text": "Hi [first name], looks like today got busy. No problem at all.\n\nWant to grab another time? [Day] at [time] or [day] at [time] both work on my side."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "You book **40 calls a month** and your no-show rate is like education software: 40 x 18.1% = **about 7 empty calls**.",
+        "Bring it to the all-industry average of 6.5%: 40 x 6.5% = **about 3 empty calls**.",
+        "That's **4 more real conversations a month**, about 48 a year, from the same calls you already booked.",
+        "The cost: about 3 short messages per call, which most booking tools can send on their own."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Make it sound human, not like a robot blast"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Robot",
+        "Human"
+      ],
+      "rows": [
+        [
+          "\"This is an automated reminder of your upcoming appointment.\"",
+          "\"Looking forward to our call today at 2.\""
+        ],
+        [
+          "\"Your meeting has been confirmed.\"",
+          "\"Thanks for booking, you're all set for Thursday at 10.\""
+        ],
+        [
+          "Sent from noreply@",
+          "Sent from your own inbox, replies come to you"
+        ],
+        [
+          "Same text for everyone",
+          "One specific detail from the booking or the email thread"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Why it hurts",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Confirming the next day",
+          "Interest is highest right after booking",
+          "Confirm within an hour"
+        ],
+        [
+          "No agenda",
+          "The call feels optional",
+          "Add the one-line agenda to message 1"
+        ],
+        [
+          "Wrong time zone",
+          "They show up an hour early or late",
+          "Always write the time in their time zone"
+        ],
+        [
+          "Making moving the call hard",
+          "People skip instead of rescheduling",
+          "\"Just reply and I'll move it\" in every message"
+        ],
+        [
+          "Booking calls 3 weeks out",
+          "More time to forget and lose interest",
+          "Offer times in the next few days"
+        ],
+        [
+          "Guilt-trip follow-ups",
+          "They feel bad and avoid you",
+          "Friendly, easy rebook with 2 time options"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Write your 3 messages with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Reminder writer prompt",
+      "text": "I book sales calls with [type of buyer] for [what I sell].\nHere's how this person booked and what they said:\n[paste the email thread or booking form answers]\n\nWrite 3 short messages for this call on [day, time, their time zone]:\n1) A confirmation to send within an hour, with a one-line agenda about what THEY get from the call\n2) A morning-of reminder that mentions one specific thing from the thread\n3) A one-line nudge 10 minutes before, with [meeting link]\n\nRules: sound like a real person, not a system. Under 60 words each. Every message makes it easy to move the call by replying. No hype, no exclamation marks."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "If it sounds like a robot blast, it gets treated like one. One real detail per message."
+    }
+  ],
+  "resources": [
+    {
+      "name": "RevenueHero: No-show benchmark report",
+      "url": "https://revenuehero.io/reports/no-show-benchmark-december-02-2024",
+      "note": "6,428 meetings, 15 industries, 6.5% overall"
+    },
+    {
+      "name": "RevenueHero: Ways to reduce no-shows",
+      "url": "https://revenuehero.io/blog/ways-to-reduce-no-show-rates-in-sales-calls",
+      "note": "Their reminder playbook"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the reminder writer prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Should the reminders be automatic?",
+      "a": "The timing can be automatic. The words shouldn't sound automatic. Write templates with one personal detail, and send them from your own inbox."
+    },
+    {
+      "q": "Email or text?",
+      "a": "Email for the confirmation. For the 10-minute nudge, text or chat works well, but only if they gave you their number and agreed to get messages there."
+    },
+    {
+      "q": "What's a good no-show rate?",
+      "a": "RevenueHero's average across 15 industries was 6.5%. Track yours for a month. If you're well above that, start with the confirmation and the agenda line."
+    },
+    {
+      "q": "What if they no-show twice?",
+      "a": "Send one friendly rebook message. If they don't reply, move them to a check-back list for next quarter instead of chasing."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

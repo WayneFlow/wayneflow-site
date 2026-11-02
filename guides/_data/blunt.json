@@ -1,0 +1,282 @@
+{
+  "slug": "blunt",
+  "keyword": "BLUNT",
+  "case": "case-01",
+  "title": "The 4-Line Cold Email Template + 5-Question Offer Test (No Personal Hooks)",
+  "description": "A 4-line cold email that works without personal hooks, a 5-question test to check your offer is strong enough, and the list and sending setup behind it.",
+  "lead": "This is the full 4-line template and 5-question offer test from the reel. You don't need a clever personal first line if your list is tight and your offer is worth a reply on its own. This guide shows how to write the 4 lines, how to test your offer before you send, and the setup that keeps it in the inbox.",
+  "insider": "This is close to how we write for clients: a tight list, one clear offer and short copy, with personal lines only where they really help. For one agency client it brought in **2,146 interested replies** in four and a half months. Writing one good email is easy. Testing offers and keeping the list and inboxes clean every day is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why a blunt email can beat a personal one"
+    },
+    {
+      "type": "p",
+      "text": "Smartlead's [case study on Surgemail](https://www.smartlead.ai/blog/case-study-clayton-goldman) reports **over $70K in annual recurring revenue from a single cold email campaign in one month**. One of their campaigns had a **17.75% response rate**, and **83.83% of those replies were positive**. They did it without personal hooks."
+    },
+    {
+      "type": "quote",
+      "text": "\"We don't use personal hooks. If your message needs a personal touch to land, it's probably not strong enough.\" (Surgemail team, in the [Smartlead case study](https://www.smartlead.ai/blog/case-study-clayton-goldman))"
+    },
+    {
+      "type": "p",
+      "text": "That's one team's result, not a normal benchmark. But the idea behind it is useful for everyone: a personal line can't save a weak offer sent to the wrong people. A strong offer sent to the right people often doesn't need one."
+    },
+    {
+      "type": "h2",
+      "text": "The 4 parts that do the work"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Part",
+        "What it means",
+        "Why it matters"
+      ],
+      "rows": [
+        [
+          "1. A tight list",
+          "Only relevant, qualified leads",
+          "The right reader makes a plain email feel personal"
+        ],
+        [
+          "2. A strong offer",
+          "Worth replying to on its own",
+          "People reply to the offer, not to the compliment"
+        ],
+        [
+          "3. Short, direct copy",
+          "No fluff, no long intro",
+          "Busy people decide in seconds"
+        ],
+        [
+          "4. Clean sending",
+          "Spintax for variety + healthy inboxes",
+          "Your email has to land in the inbox to get read"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The 4-line template"
+    },
+    {
+      "type": "p",
+      "text": "Each line has one job. Keep the whole email under about 60 words."
+    },
+    {
+      "type": "prompt",
+      "label": "4-line cold email template",
+      "text": "Subject: [result] for [their type of company]\n\nHi {{first_name}},\n\n[Line 1: who you help] We help [type of company] [get specific result].\n[Line 2: the problem] Most [their role]s we talk to [problem in their words].\n[Line 3: the offer] [Your specific, low-risk offer, e.g. \"We'll do X for free first\" / \"You only pay if Y\"].\n[Line 4: the ask] Worth a look?\n\n[Your name]"
+    },
+    {
+      "type": "h3",
+      "text": "Line 1: who you help"
+    },
+    {
+      "type": "p",
+      "text": "Name the type of company and the result. If your list is tight, this line already feels like it was written for them. **Example:** \"We help roofing companies book more inspection calls from past customers.\""
+    },
+    {
+      "type": "h3",
+      "text": "Line 2: the problem"
+    },
+    {
+      "type": "p",
+      "text": "Say the problem the way they would say it, not how a marketer would. **Example:** \"Most owners we talk to have hundreds of old customers they never follow up with.\""
+    },
+    {
+      "type": "h3",
+      "text": "Line 3: the offer"
+    },
+    {
+      "type": "p",
+      "text": "This is the line that wins or loses the email. Make it specific and take the risk off them. **Example:** \"We'll write and send a win-back campaign to your old list, and you only pay for calls that get booked.\""
+    },
+    {
+      "type": "h3",
+      "text": "Line 4: the ask"
+    },
+    {
+      "type": "p",
+      "text": "Ask for one easy word, not 30 minutes. \"Worth a look?\" or \"Want me to send the details?\" is easier to say yes to than a calendar link."
+    },
+    {
+      "type": "h2",
+      "text": "The 5-question offer test"
+    },
+    {
+      "type": "p",
+      "text": "Answer these before you send. Give 1 point for each clear yes. If you score under 4, fix the offer, not the first line."
+    },
+    {
+      "type": "table",
+      "head": [
+        "#",
+        "Question",
+        "A \"yes\" looks like"
+      ],
+      "rows": [
+        [
+          "1",
+          "Would they reply even if they had never heard of you?",
+          "The offer alone is useful enough to answer"
+        ],
+        [
+          "2",
+          "Is the result specific?",
+          "\"More inspection calls from old customers\", not \"grow your business\""
+        ],
+        [
+          "3",
+          "Is it for one clear group?",
+          "Roofing companies, not \"businesses\""
+        ],
+        [
+          "4",
+          "Did you take the risk off them?",
+          "Free first step, pay on results, or a clear guarantee"
+        ],
+        [
+          "5",
+          "Can they say yes in one word?",
+          "\"Worth a look?\" not \"Can we book 30 minutes?\""
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example"
+    },
+    {
+      "type": "p",
+      "text": "Here is the template filled in for a bookkeeping firm that sells to restaurants:"
+    },
+    {
+      "type": "prompt",
+      "label": "Filled example",
+      "text": "Subject: Cleaner books for restaurant owners\n\nHi {{first_name}},\n\nWe do the monthly books for independent restaurants.\nMost owners we talk to only see their real food cost months later, at tax time.\nWe'll clean up last month's books for free, so you can see the numbers before you decide anything.\nWorth a look?\n\nSam"
+    },
+    {
+      "type": "p",
+      "text": "Offer test score: 1) yes, a free cleanup is useful on its own. 2) yes, \"see your real food cost\". 3) yes, independent restaurants. 4) yes, the first month is free. 5) yes, one word. **5 out of 5.**"
+    },
+    {
+      "type": "p",
+      "text": "What the reel's rates would mean, as example math: if a campaign matched the Surgemail rates on 1,000 contacts, that's about **178 replies** (1,000 × 17.75%) and about **149 positive** ones (178 × 83.83%). Most campaigns get far less. Treat it as a ceiling, not a target."
+    },
+    {
+      "type": "h2",
+      "text": "Spintax and clean sending"
+    },
+    {
+      "type": "p",
+      "text": "Spintax lets your tool pick different words for each email, so 1,000 emails aren't exact copies. Most cold email tools use curly brackets:"
+    },
+    {
+      "type": "prompt",
+      "label": "Spintax example",
+      "text": "{Hi|Hey|Hello} {{first_name}},\n\nWe {help|work with} independent restaurants {get their books done each month|keep their monthly books clean}."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Send from separate domains, never your main company domain.",
+        "Set up SPF, DKIM and DMARC on every sending domain. [Google's sender guidelines](https://support.google.com/mail/answer/81126) explain what's required.",
+        "Warm up new inboxes before sending real campaigns, and keep daily volume per inbox low.",
+        "Verify your list before sending, so bounces stay low."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "A loose list (\"all small businesses\")",
+          "Pick one industry, one size, one role"
+        ],
+        [
+          "An offer that's really a meeting request",
+          "Offer something useful first, then the call"
+        ],
+        [
+          "\"Free consultation\" as the offer",
+          "Offer a specific piece of work or a result"
+        ],
+        [
+          "A long intro about your company",
+          "Cut it. Line 1 is about who you help"
+        ],
+        [
+          "Copying the same email 1,000 times",
+          "Use spintax so emails vary"
+        ],
+        [
+          "Blaming the copy when replies are low",
+          "Run the 5-question test on the offer first"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Test your offer with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Offer test prompt",
+      "text": "I sell: [what you sell]\nTo: [type of company, size, role of the reader]\nMy current offer in cold email: [paste it]\n\n1) Score my offer 0-5 on these questions and explain each score in one line:\n- Would they reply even if they've never heard of me?\n- Is the result specific?\n- Is it for one clear group?\n- Did I take the risk off them?\n- Can they say yes in one word?\n2) Write 3 stronger offers that would score 5/5.\n3) For the best one, write a 4-line cold email: who I help, the problem, the offer, a one-word ask. Under 60 words. No personal hook. Simple English."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "If your email needs a personal hook to work, fix the offer first."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Smartlead: Surgemail case study",
+      "url": "https://www.smartlead.ai/blog/case-study-clayton-goldman",
+      "note": "$70K+ ARR from one campaign, 17.75% response rate, 83.83% positive"
+    },
+    {
+      "name": "Google email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "SPF, DKIM, DMARC and bulk sender rules"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the offer test prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is personalization bad then?",
+      "a": "No. It helps when it's real and relevant. The point is that it can't replace a strong offer and a tight list. Fix those first."
+    },
+    {
+      "q": "Should I expect a 17.75% response rate?",
+      "a": "No. That's one strong campaign from one team. Most campaigns get much less. Use it to see what a great offer and list can do, not as your target."
+    },
+    {
+      "q": "What if my offer can't be free?",
+      "a": "Take the risk off in another way: a small paid pilot, a clear guarantee, or a free piece of the work, like an audit or a sample."
+    },
+    {
+      "q": "How short is too short?",
+      "a": "If the reader can't tell who you help, what the offer is and what to reply, it's too short. 4 clear lines is usually enough."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

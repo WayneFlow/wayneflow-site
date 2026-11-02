@@ -1,0 +1,277 @@
+{
+  "slug": "ps",
+  "keyword": "PS",
+  "case": "case-02",
+  "title": "10 Copy-Paste P.S. Lines for Cold Email: Proof, Exact Numbers and Soft Closes",
+  "description": "10 one-line P.S. lines for the bottom of your cold email: proof from their world, exact numbers, a free offer when you have no proof yet, and soft closes.",
+  "lead": "This is the full set of 10 copy-paste P.S. lines from the reel. Everyone rewrites their first line. Almost nobody writes the bottom. This guide explains why the P.S. gets read, gives you 10 lines to copy and shows how to build a small proof bank so every P.S. is true.",
+  "insider": "Proof from the reader's own world is the line we lean on most for clients. For our construction software client, **31 qualified demos turned into 6 annual contracts**, and that's exactly the kind of result a P.S. to another construction company should mention. The line takes a minute to write. Matching the right proof to every list, every day, is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why the P.S. gets read"
+    },
+    {
+      "type": "p",
+      "text": "People skim cold emails. They read the first line, jump around, and their eyes drop to the bottom to see how it ends. A P.S. sits alone, after your name, so it stands out from the rest of the email."
+    },
+    {
+      "type": "p",
+      "text": "That makes it the best spot for the one thing that makes a stranger believe you: proof. And because almost nobody writes one, a good P.S. also makes your email look different from the 50 others in their inbox."
+    },
+    {
+      "type": "h2",
+      "text": "The 4 kinds of P.S. that work"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Type",
+        "Why it works",
+        "Use it when"
+      ],
+      "rows": [
+        [
+          "**Proof from their world**",
+          "A dentist trusts what you did for a dentist more than what you did for a software company",
+          "You have a result in their industry"
+        ],
+        [
+          "**Odd, exact numbers**",
+          "\"137 replies\" reads like a real result. \"Over 100 replies\" reads like marketing",
+          "You have real numbers you can share"
+        ],
+        [
+          "**Something free**",
+          "Gives them a reason to reply even if they're not ready to buy",
+          "You don't have proof yet"
+        ],
+        [
+          "**A soft close**",
+          "Gives a busy person an easy, no-pressure answer",
+          "Follow-ups and break-up emails"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Honesty first",
+      "text": "Only use real results. Ask before you name a client. If you don't have numbers yet, use the free-offer lines instead of making something up."
+    },
+    {
+      "type": "h2",
+      "text": "The 10 P.S. lines (copy and paste)"
+    },
+    {
+      "type": "p",
+      "text": "Replace everything in [brackets] with your own real details. Numbers in brackets are only examples of the shape: use yours."
+    },
+    {
+      "type": "prompt",
+      "label": "10 P.S. lines",
+      "text": "PROOF FROM THEIR WORLD\n1. P.S. We just did this for another [dental clinic] in [Texas]. Happy to share what worked.\n2. P.S. [Client name], a [construction software] team like yours, signed [6] annual contracts from this. Want the breakdown?\n3. P.S. Most of the [law firms] we work with had the same problem with [slow intake]. Here's what fixed it for them: [one-line fix].\n\nODD, EXACT NUMBERS\n4. P.S. Last campaign for a [roofing company]: [137] replies, [23] calls booked.\n5. P.S. [Client type] went from [4] to [11] booked calls a month in [90] days.\n\nSOMETHING FREE (NO PROOF YET)\n6. P.S. Want the [3-step checklist] we use for [accounting firms]? Reply \"yes\" and I'll send it. No call needed.\n7. P.S. I made a 2-minute video with 3 ideas for [company]'s [website]. Want me to send it?\n8. P.S. Happy to send the exact email template I'd use for [their market], free.\n\nSOFT CLOSE\n9. P.S. Not the right time? Reply \"later\" and I'll check back next quarter.\n10. P.S. If this isn't your area, who's the best person to ask at [company]?"
+    },
+    {
+      "type": "h2",
+      "text": "How to write your own"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Pick the reader's world.** Industry, role, size. The P.S. should name their world, not yours.",
+        "**Find your closest proof.** Same industry beats same size. Same size beats no proof.",
+        "**Use the exact number.** If the real number is 137, write 137. Don't round it to \"100+\".",
+        "**No proof? Offer something free** that's useful on its own: a checklist, a short video, a template.",
+        "**Keep it to one line.** If it needs two, the proof is too complicated. Pick a simpler one.",
+        "**Read it alone.** Cover the rest of the email. Does the P.S. still make sense and make you curious?"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example"
+    },
+    {
+      "type": "p",
+      "text": "Here's a short cold email with and without a P.S. Say your real result for a past dental client was 137 replies and 23 booked calls (made-up numbers for this example, use your own)."
+    },
+    {
+      "type": "quote",
+      "text": "Hi Dr. Patel, saw the new Austin location opened last month. Most new clinics fill the chair schedule slowly in the first 90 days. We help dental clinics book new-patient consults by email. Worth a look?"
+    },
+    {
+      "type": "quote",
+      "text": "**P.S.** Our last campaign for a Texas dental clinic: 137 replies, 23 consults booked."
+    },
+    {
+      "type": "p",
+      "text": "The email asks. The P.S. proves. The reader skims the top, drops to the bottom, sees a clinic like theirs and a real-looking number, and goes back up to read the ask again."
+    },
+    {
+      "type": "h2",
+      "text": "Use a different P.S. in each follow-up"
+    },
+    {
+      "type": "p",
+      "text": "Follow-ups matter. [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email) found that sending **3 emails instead of 1 got 6.8% replies vs 3.3%**. But each follow-up needs to add something new. A fresh P.S. is the easiest way:"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Email",
+        "P.S. type",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Email 1",
+          "Proof from their world",
+          "\"P.S. We just did this for another dental clinic in Texas.\""
+        ],
+        [
+          "Email 2",
+          "Something free",
+          "\"P.S. Want the 3-step checklist we use for new clinics?\""
+        ],
+        [
+          "Email 3",
+          "Soft close",
+          "\"P.S. Not the right time? Reply 'later' and I'll check back next quarter.\""
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Build a proof bank"
+    },
+    {
+      "type": "p",
+      "text": "Keep one sheet with every real result you can use. Then writing a P.S. for a new list takes a minute."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Column",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Industry",
+          "Dental clinics"
+        ],
+        [
+          "Client (and OK to name?)",
+          "Smile Dental, yes, approved by email"
+        ],
+        [
+          "Exact result",
+          "137 replies, 23 consults"
+        ],
+        [
+          "Time it took",
+          "6 weeks"
+        ],
+        [
+          "Where it's proven",
+          "Screenshot in the shared folder"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Why it hurts",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "A long P.S.",
+          "It becomes a second email nobody reads",
+          "One line only"
+        ],
+        [
+          "Proof from the wrong industry",
+          "A software result doesn't move a dentist",
+          "Match their world, or use a free offer"
+        ],
+        [
+          "Rounded numbers",
+          "\"Over 100\" sounds like marketing",
+          "Use the exact real number"
+        ],
+        [
+          "Repeating the main ask",
+          "Adds nothing new",
+          "Proof, a gift or a soft close instead"
+        ],
+        [
+          "Inventing results",
+          "One check and your trust is gone",
+          "Only real, provable numbers"
+        ],
+        [
+          "Naming a client without asking",
+          "Can hurt the relationship",
+          "Get a yes in writing first"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Write your P.S. lines with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "P.S. writer prompt",
+      "text": "I'm sending cold emails to [job title] at [type of company] in [location].\nWhat I sell: [one sentence].\n\nMy real results (only use these, never invent numbers):\n[paste your proof bank rows]\n\nWrite 6 P.S. lines for this list:\n- 2 using proof from their world (closest industry match first)\n- 2 with exact numbers from my results\n- 1 free offer they can say yes to without a call\n- 1 soft close\n\nRules: one line each, under 20 words, start with \"P.S.\", plain words, no hype, no exclamation marks. If I have no result that fits this industry, say so and give me 2 extra free-offer lines instead."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "One line. If your P.S. needs a second line, it's a second email."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "3 emails got 6.8% replies vs 3.3% for 1"
+    },
+    {
+      "name": "Our THREE guide",
+      "url": "https://wayneflow.com/guides/three.html",
+      "note": "The follow-up email that books the meetings"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the P.S. writer prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does every cold email need a P.S.?",
+      "a": "No, but it's a free place to add proof. If you have nothing useful to say there, leave it out. An empty \"P.S. Let me know!\" adds nothing."
+    },
+    {
+      "q": "What if I don't have any results yet?",
+      "a": "Use the free-offer lines: a checklist, a short video or a template. They give the reader a reason to reply without needing proof."
+    },
+    {
+      "q": "Can I mention a client by name?",
+      "a": "Only with their permission. Otherwise describe them: \"a dental clinic in Texas\" works almost as well."
+    },
+    {
+      "q": "Should the P.S. go after my signature?",
+      "a": "Yes. Name first, then the P.S. on its own line at the very bottom. If you use an opt-out line, put it under the P.S."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

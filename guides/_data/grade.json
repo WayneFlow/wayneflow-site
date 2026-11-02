@@ -1,0 +1,275 @@
+{
+  "slug": "grade",
+  "keyword": "GRADE",
+  "case": "case-04",
+  "title": "The Reading-Level Checker Prompt: Write Cold Emails at a Grade 3-5 Level",
+  "description": "Boomerang found 3rd-grade-level emails got replies 53% of the time vs 39% at college level. Get the checker prompt and the rules to simplify.",
+  "lead": "This is the full reading-level checker prompt from the reel. Simple emails get more replies than smart-sounding ones. This guide shows the data, the 4 rules for writing simply, how to check your reading level for free, and a prompt that grades and rewrites your email for you.",
+  "insider": "We check every client email for plain words and one clear ask before it goes out. Over a full quarter, one client's campaign sent **236,545 emails at a 3.69% reply rate**, steady from January to March. Writing one simple email is easy. Keeping hundreds of variations simple and clear, every day, is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why simple emails win"
+    },
+    {
+      "type": "p",
+      "text": "Boomerang, an email tool, studied the replies to emails sent by its users, from a pool of over 40 million emails where people asked for a reminder if nobody replied. [As Fortune reported](https://fortune.com/2016/03/02/ignored-emails-communication-work), emails written at a **3rd grade reading level got a 53% response rate**. At a **college reading level, only 39%** got answers."
+    },
+    {
+      "type": "p",
+      "text": "In [Boomerang's own write-up](https://blog.boomerangapp.com/2016/02/7-tips-for-getting-more-responses-to-your-emails-with-data/), 3rd grade level was the best. It gave a **36% lift over college level** and a **17% higher response rate than high school level**. Same offer, said simpler."
+    },
+    {
+      "type": "p",
+      "text": "One honest note: this study looked at everyday emails, not only cold emails, and it's from 2016. But cold email data points the same way. The [Gong x 30 Minutes to President's Club report](https://tactics.30mpc.com/hubfs/The%20Ultimate%20Cold%20Email%20Data%20Report-1.pdf) on 85M+ cold emails found replies were highest for emails of **51 to 100 words** and **3 to 4 sentences**."
+    },
+    {
+      "type": "h3",
+      "text": "Why it works"
+    },
+    {
+      "type": "list",
+      "items": [
+        "People read cold emails on their phone, fast, between other things.",
+        "Short words and short sentences can be understood in one quick look.",
+        "Hard words make the reader work. When reading is work, people skip it.",
+        "Simple doesn't mean dumb. It means the reader gets your point in seconds."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What \"reading level\" means"
+    },
+    {
+      "type": "p",
+      "text": "Most checkers use the **Flesch-Kincaid Grade Level**. It only looks at two things: how long your sentences are, and how many syllables your words have. [Microsoft's formula](https://support.microsoft.com/en-us/word/about-flesch-kincaid-readability-and-level-statistics) is: 0.39 × (average words per sentence) + 11.8 × (average syllables per word) − 15.59."
+    },
+    {
+      "type": "p",
+      "text": "So the score goes down when you **use shorter sentences** and **shorter words**. That's it. A grade 3 score means a typical 3rd grader could follow it. A common rule for cold email is to aim for grade 3 to 5."
+    },
+    {
+      "type": "h2",
+      "text": "The 4 rules"
+    },
+    {
+      "type": "h3",
+      "text": "1. Short words"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Instead of",
+        "Write"
+      ],
+      "rows": [
+        [
+          "utilize, leverage",
+          "use"
+        ],
+        [
+          "facilitate, assist",
+          "help"
+        ],
+        [
+          "approximately",
+          "about"
+        ],
+        [
+          "demonstrate",
+          "show"
+        ],
+        [
+          "in order to",
+          "to"
+        ],
+        [
+          "at this point in time",
+          "now"
+        ],
+        [
+          "comprehensive solution",
+          "[say what it does]"
+        ],
+        [
+          "reach out",
+          "email, call, ask"
+        ]
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "2. Short sentences"
+    },
+    {
+      "type": "p",
+      "text": "If a sentence has a comma and an \"and\", it's probably two sentences. Split it. Most lines in a good cold email are under 12 words."
+    },
+    {
+      "type": "h3",
+      "text": "3. One idea per line"
+    },
+    {
+      "type": "p",
+      "text": "Give each idea its own line, with space around it. One line for why you're writing. One for the problem. One for what you do. One for the ask. On a phone, this looks easy to read before they even start."
+    },
+    {
+      "type": "h3",
+      "text": "4. One clear ask"
+    },
+    {
+      "type": "p",
+      "text": "This is the part the reel warns about: **it won't work unless you keep one clear ask**. A simple email with three questions at the end still confuses people. End with one easy question they can answer in a word."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: before and after"
+    },
+    {
+      "type": "p",
+      "text": "**Before** (55 words, 3 long sentences, about grade 17 by our Flesch-Kincaid count):"
+    },
+    {
+      "type": "quote",
+      "text": "I wanted to reach out because I noticed your organization is currently experiencing significant growth in the commercial construction sector. Our comprehensive platform facilitates streamlined project management workflows, enabling teams to substantially reduce administrative overhead and accelerate delivery timelines. Would you be available for a thirty-minute discovery call next week to explore potential synergies?"
+    },
+    {
+      "type": "p",
+      "text": "**After** (39 words, 6 short sentences, under grade 4 by the same count):"
+    },
+    {
+      "type": "quote",
+      "text": "Saw you just opened a second office in Austin. Congrats. More jobs means more paperwork. Most teams lose hours a week to it. We help builders cut that time down. Want me to send how one firm did it?"
+    },
+    {
+      "type": "p",
+      "text": "Same offer. The second one says what they noticed, names the problem, says what they do and asks one small question. Different checkers count syllables a little differently, so your tool may show slightly different scores."
+    },
+    {
+      "type": "h2",
+      "text": "How to check your email for free"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Paste your email into a free checker like [Hemingway Editor](https://hemingwayapp.com). It shows the grade and highlights hard sentences.",
+        "Or use Microsoft Word or Outlook: they can show [readability statistics](https://support.microsoft.com/en-us/outlook/get-your-email-s-readability-and-level-statistics) after a spelling check.",
+        "Fix the highlighted sentences first: split them, then swap long words for short ones.",
+        "Check again. Aim for grade 3 to 5.",
+        "Read it out loud. If you run out of breath, the sentence is too long."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The reading-level checker prompt"
+    },
+    {
+      "type": "prompt",
+      "label": "Reading-level checker prompt",
+      "text": "You are an editor for cold emails. Here is my email:\n[paste email]\n\n1. Estimate the Flesch-Kincaid grade level. Show the word count, sentence count and average words per sentence.\n2. List every sentence over 12 words and every word with 3+ syllables that has a simpler swap.\n3. Rewrite the email so it scores grade 3 to 5. Rules:\n   - Short words, short sentences, one idea per line\n   - Under 80 words\n   - Keep every fact, number and name exactly as I wrote it. Don't add new claims.\n   - Keep industry words my reader uses every day\n   - End with ONE clear question they can answer in a word\n4. Give the new word count and estimated grade.\n\nNote: your grade is an estimate. I'll confirm it in a free readability checker."
+    },
+    {
+      "type": "tip",
+      "label": "Double-check",
+      "text": "AI tools can't count syllables perfectly. Use the prompt to rewrite, then confirm the score in Hemingway or Word."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Why it hurts",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Sounding smart on purpose",
+          "Hard words slow the reader down",
+          "Use the word you'd say out loud"
+        ],
+        [
+          "Baby talk",
+          "Simple words, but no real point",
+          "Keep the facts and the numbers"
+        ],
+        [
+          "Cutting their industry words",
+          "They know them, plain swaps can sound vague",
+          "Keep the words your buyer uses daily"
+        ],
+        [
+          "Simple email, three asks",
+          "Reader doesn't know what to do",
+          "One question at the end"
+        ],
+        [
+          "Chasing the score",
+          "Grade 1 can still be a bad email",
+          "Use the score as a check, not the goal"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "Don't make the offer smaller. Make the words smaller."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Boomerang: 7 tips for getting more responses to your emails (with data)",
+      "url": "https://blog.boomerangapp.com/2016/02/7-tips-for-getting-more-responses-to-your-emails-with-data/",
+      "note": "Original reading-level study (2016)"
+    },
+    {
+      "name": "Fortune: how to write emails people respond to",
+      "url": "https://fortune.com/2016/03/02/ignored-emails-communication-work",
+      "note": "Reports the 53% vs 39% response rates"
+    },
+    {
+      "name": "Gong x 30 Minutes to President's Club: The Ultimate Cold Email Data Report",
+      "url": "https://tactics.30mpc.com/hubfs/The%20Ultimate%20Cold%20Email%20Data%20Report-1.pdf",
+      "note": "85M+ cold emails: word count and sentence data"
+    },
+    {
+      "name": "Microsoft: about Flesch-Kincaid readability",
+      "url": "https://support.microsoft.com/en-us/word/about-flesch-kincaid-readability-and-level-statistics",
+      "note": "The official grade level formula"
+    },
+    {
+      "name": "Hemingway Editor",
+      "url": "https://hemingwayapp.com",
+      "note": "Free online readability checker"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the reading-level checker prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Won't a 3rd grade email sound childish to a CEO?",
+      "a": "No. Simple words aren't childish, baby talk is. Executives read fast and love emails they understand in seconds. Keep the facts sharp and the words plain."
+    },
+    {
+      "q": "Which readability checker should I use?",
+      "a": "Any one is fine. Hemingway Editor is free in the browser, and Word and Outlook have a built-in readability check. Use the same one every time so your scores are comparable."
+    },
+    {
+      "q": "Is grade 3 to 5 a hard rule?",
+      "a": "No, it's a common rule. Boomerang's best result was at grade 3. If your email is clear and short at grade 6, that's fine."
+    },
+    {
+      "q": "Should I remove technical terms my buyer uses?",
+      "a": "No. If your reader uses a word every day, keep it. Just keep everything around it simple."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

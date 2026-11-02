@@ -1,0 +1,301 @@
+{
+  "slug": "tellme",
+  "keyword": "TELLME",
+  "case": "case-01",
+  "title": "The Tiny-Yes Ask Sheet: 12 Small Asks That Get Cold Email Replies",
+  "description": "Swap \"Can we hop on a 30-minute call?\" for an ask that needs one word. 12 small asks to copy, sorted by type, plus what to send after the yes.",
+  "lead": "This is the full tiny-yes ask sheet from the reel, with 12 small asks to copy. \"Can we hop on a 30-minute call?\" asks a stranger for half an hour. These asks need one word, like \"sure\". This guide shows why that works, which ask to use when, and what to send once they say yes.",
+  "insider": "We write the ask this way for clients: one small yes, not a 30-minute call. For one agency client that brought in **2,146 interested replies** in four and a half months, and 88% of all replies were positive. Writing one good ask is easy. Testing asks and answering every yes, every day, is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why the 30-minute call ask fails"
+    },
+    {
+      "type": "p",
+      "text": "A stranger doesn't know you yet. Asking for 30 minutes of their week is a big ask before they've seen anything useful. Most people say nothing, because saying no feels rude and saying yes feels like a lot."
+    },
+    {
+      "type": "p",
+      "text": "A small ask flips that. \"Worth a look?\" can be answered with one word. One word is easy, and a reply starts a conversation."
+    },
+    {
+      "type": "p",
+      "text": "The [Ultimate Cold Email Data Report](https://tactics.30mpc.com/hubfs/The%20Ultimate%20Cold%20Email%20Data%20Report-1.pdf) from 30 Minutes to President's Club and [Gong](https://www.gong.io/resources/guides/how-to-master-cold-email-get-the-data-backed-guide-based-on-85-million-emails), based on **85M+ cold emails**, puts it simply: make an offer instead of asking for a meeting. In its chart, offer-style asks scored about **28% more replies**, and meeting asks about **44% fewer**."
+    },
+    {
+      "type": "tip",
+      "label": "The idea",
+      "text": "Ask for a word, not a calendar slot. The calendar comes after the yes."
+    },
+    {
+      "type": "h2",
+      "text": "The 4 kinds of small asks"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Type",
+        "What it does",
+        "Use it when"
+      ],
+      "rows": [
+        [
+          "Give something free",
+          "Offers a useful thing they can get today",
+          "You have a playbook, audit, list or report you can send"
+        ],
+        [
+          "Show the proof",
+          "Offers to show real work for a company like theirs",
+          "You have a case study in their industry"
+        ],
+        [
+          "Take the risk off",
+          "Makes saying yes feel safe",
+          "Your buyer worries about wasting money"
+        ],
+        [
+          "Check interest",
+          "Asks if it's even a topic for them",
+          "You have nothing to send yet"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The 12 asks to copy"
+    },
+    {
+      "type": "h3",
+      "text": "Give something free"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "\"Can I send the playbook we used for a company like yours?\"",
+        "\"Want me to send over the 1-page audit of [their website / their outreach]?\"",
+        "\"I put together a list of [10 companies like their ideal client]. Want it?\"",
+        "\"Happy to send the template we use for this. Should I?\""
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Show the proof"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "\"Happy to show you the exact campaign we ran for [similar company]. Open to it?\"",
+        "\"Want to see the numbers from a [their industry] client? I can send a screenshot.\"",
+        "\"Worth a look at how [similar company] did it?\""
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Take the risk off"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "\"If it doesn't [specific result] in [time], you don't pay. Worth a look?\"",
+        "\"Can I run a small test for you first, before you decide anything?\"",
+        "\"No contract to start. Want me to send how the first month works?\""
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Check interest"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "\"Is [their problem] on your list this quarter?\"",
+        "\"Worth a look?\""
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Only promise what you can keep",
+      "text": "A guarantee is a strong ask, but only offer one you can actually honor. Write the exact terms down before you send it."
+    },
+    {
+      "type": "h2",
+      "text": "What makes a good \"something free\""
+    },
+    {
+      "type": "p",
+      "text": "The free thing has to be worth one word. \"A free consultation\" usually isn't, because it's still a call. A good free thing is specific, real and about them."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Weak",
+        "Strong"
+      ],
+      "rows": [
+        [
+          "A free consultation",
+          "The exact campaign we ran for a firm like yours"
+        ],
+        [
+          "Our company deck",
+          "A 1-page audit of your current outreach"
+        ],
+        [
+          "A demo",
+          "A 2-minute video showing your website with 3 fixes"
+        ],
+        [
+          "\"More info\"",
+          "The list of 10 companies we'd target first for you"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "After the yes: send it, then offer one time"
+    },
+    {
+      "type": "p",
+      "text": "This is where most people go wrong. They get \"sure\" and reply with a calendar link and a pitch. Keep your promise first."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Send what you offered**, the same day. No call needed to get it.",
+        "**Add one line on why it's relevant** to them.",
+        "**Offer one time** to walk them through it, not a calendar link: \"Want me to walk you through it Thursday at 10?\"",
+        "**If they don't answer**, follow up once in a few days with a new angle or a question about what they sent you."
+      ]
+    },
+    {
+      "type": "prompt",
+      "label": "After-the-yes reply",
+      "text": "Hi [first name],\n\nHere it is: [link or attachment].\n\nThe part most relevant to you is [section], because [one reason tied to their company].\n\nWant me to walk you through it Thursday at 10? Takes 15 minutes.\n\n[your name]"
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: one email, two asks"
+    },
+    {
+      "type": "p",
+      "text": "Same email body, two endings. Only the last line changes."
+    },
+    {
+      "type": "table",
+      "head": [
+        "",
+        "Big ask",
+        "Tiny-yes ask"
+      ],
+      "rows": [
+        [
+          "Last line",
+          "\"Can we hop on a 30-minute call next week?\"",
+          "\"Can I send the playbook we used for a clinic like yours?\""
+        ],
+        [
+          "What they must decide",
+          "Give up 30 minutes to a stranger",
+          "Type one word"
+        ],
+        [
+          "Next step after yes",
+          "A call they may not show up to",
+          "You send it, then offer one time"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Test it yourself: send each ending to a similar group of people (for example, 500 each), then compare positive replies, not just replies."
+    },
+    {
+      "type": "h2",
+      "text": "Write your asks with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Tiny-yes prompt",
+      "text": "I sell: [one sentence].\nMy buyer: [job title, industry, company size].\nThings I can send for free: [list: case studies, templates, audits, lists, videos].\nGuarantee I can honor (optional): [exact terms].\n\nWrite 12 small asks for the last line of a cold email:\n- 4 that give something free\n- 3 that show proof\n- 3 that take the risk off\n- 2 that check interest\nRules: each one can be answered with one word, under 15 words, no calendar links, no \"30-minute call\", plain simple English."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Two asks in one email",
+          "One ask. Delete the other"
+        ],
+        [
+          "Free thing is a call in disguise",
+          "Offer something they can read or watch without you"
+        ],
+        [
+          "Pitching after the yes",
+          "Send what you promised first"
+        ],
+        [
+          "A calendar link after the yes",
+          "Offer one specific time"
+        ],
+        [
+          "A guarantee with fine print",
+          "Simple terms you can say in one line"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "Ask for one word. Earn the call."
+    }
+  ],
+  "resources": [
+    {
+      "name": "30 Minutes to President's Club x Gong: The Ultimate Cold Email Data Report",
+      "url": "https://tactics.30mpc.com/hubfs/The%20Ultimate%20Cold%20Email%20Data%20Report-1.pdf",
+      "note": "85M+ cold emails: make an offer instead of asking for a meeting"
+    },
+    {
+      "name": "Gong: data-backed cold email guide (85 million emails)",
+      "url": "https://www.gong.io/resources/guides/how-to-master-cold-email-get-the-data-backed-guide-based-on-85-million-emails",
+      "note": "Gong's page for the same research"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the tiny-yes prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Isn't asking for a call the whole point?",
+      "a": "Yes, but not in the first email. Get a small yes first, deliver something useful, then offer one time for a call. People who've already said yes once are more likely to say yes again."
+    },
+    {
+      "q": "What if I don't have anything free to send?",
+      "a": "Use an interest ask like \"Is [their problem] on your list this quarter?\" Then build one simple asset, like a 1-page checklist or a case study, as soon as you can."
+    },
+    {
+      "q": "Which of the 12 asks works best?",
+      "a": "It depends on your buyer. Pick 2 and test them on similar groups of people. Keep the one with more positive replies."
+    },
+    {
+      "q": "Should I still follow up if they don't reply?",
+      "a": "Yes. Each follow-up should add something new, like a different free thing or a short proof point, not \"just bumping this\"."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

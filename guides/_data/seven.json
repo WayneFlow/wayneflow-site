@@ -1,0 +1,329 @@
+{
+  "slug": "seven",
+  "keyword": "SEVEN",
+  "case": "case-04",
+  "title": "The 7am Send-Time Sheet: Get More Cold Email Replies Without Rewriting Your Email",
+  "description": "Reply rates by hour from 850M+ emails, a time-zone schedule table so every lead gets your email at their own 7am, and the setup steps.",
+  "lead": "This is the full send-time schedule sheet from the reel. Same email, same list, better timing: send so each lead gets your email around 7am in their own time zone. This guide gives you the hour-by-hour data, a time-zone table you can copy into your tool, and the exact setup steps.",
+  "insider": "Timing is one of the quiet settings we tune for every client. In one full quarter we sent **236,545 emails at a 3.69% reply rate**, and steady, well-timed sending was part of that. Setting a 7am window once is easy. Keeping every inbox, list and time zone right, every day, is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "What the data says"
+    },
+    {
+      "type": "p",
+      "text": "[Smartlead looked at more than 850 million emails](https://www.smartlead.ai/benchmarks/best-time-of-day-to-send-cold-email) sent through its platform. It grouped each email by the hour it was sent, **in the recipient's local time**. Replies peaked at **7am, with a 1.34% reply rate**. That's about 1 reply for every 75 people you email."
+    },
+    {
+      "type": "p",
+      "text": "The afternoon was much weaker. From 1pm to 4pm, reply rates sat between **0.82% and 0.86%**, or about 1 reply per 116 to 122 people."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Send hour (their time)",
+        "Reply rate",
+        "People emailed per reply"
+      ],
+      "rows": [
+        [
+          "**7am**",
+          "**1.34%**",
+          "**about 75**"
+        ],
+        [
+          "1pm",
+          "0.86%",
+          "about 116"
+        ],
+        [
+          "2pm",
+          "0.84%",
+          "about 119"
+        ],
+        [
+          "3pm",
+          "0.83%",
+          "about 120"
+        ],
+        [
+          "4pm",
+          "0.82%",
+          "about 122"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The day of the week mattered much less. On the same page, Smartlead says reply rates across the week sat between **0.82% and 0.91%**. So stop worrying about Tuesday vs Thursday. Worry about the hour."
+    },
+    {
+      "type": "h2",
+      "text": "Why 7am works"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**You land on top.** At 7am most inboxes are quiet. Your email is one of the first things they see, not number 40 under a pile of afternoon messages.",
+        "**People read email before the day starts.** Many people check their phone before their first meeting. A short email is easy to answer then.",
+        "**The afternoon is busy.** By 2pm people are in meetings and clearing their inbox fast. A cold email is easy to skip."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Be honest about the data",
+      "text": "This is one platform's data, and it shows **when** replies happened, not **why**. Use 7am as your starting point, then test it on your own list."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: same list, more replies"
+    },
+    {
+      "type": "p",
+      "text": "Say you email **1,000 people** with the same email. Using the Smartlead averages:"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "At 7am their time: 1,000 × 1.34% = **about 13 replies**.",
+        "At 1pm to 4pm their time: 1,000 × 0.82% to 0.86% = **about 8 to 9 replies**.",
+        "Same email, same people: **about 4 to 5 extra replies** just from timing.",
+        "At 5,000 people a month: about **67 replies** at 7am vs **41 to 43** in the afternoon."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Your own numbers will be different. The point is the gap, not the exact count."
+    },
+    {
+      "type": "h2",
+      "text": "The big catch: use THEIR time zone"
+    },
+    {
+      "type": "p",
+      "text": "7am only works if it's 7am **for the reader**. If you're in New York and send at 7am your time, a lead in Los Angeles gets it at 4am, and a lead in London gets it at noon. By the time they look, it's buried."
+    },
+    {
+      "type": "p",
+      "text": "So don't schedule by your clock. Schedule a **7am to 9am window in each lead's local time**. Most of your emails then land between 7 and 9, close to the peak."
+    },
+    {
+      "type": "h2",
+      "text": "Time-zone schedule table"
+    },
+    {
+      "type": "p",
+      "text": "Use this to set one sending window per time zone. Times below are for winter (November to March), when the US, UK and Europe are on standard time."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Lead's time zone",
+        "Their window",
+        "Same window in New York time (ET)",
+        "Same window in UTC"
+      ],
+      "rows": [
+        [
+          "US Eastern (New York)",
+          "7:00 to 9:00am",
+          "7:00 to 9:00am",
+          "12:00 to 14:00"
+        ],
+        [
+          "US Central (Chicago)",
+          "7:00 to 9:00am",
+          "8:00 to 10:00am",
+          "13:00 to 15:00"
+        ],
+        [
+          "US Mountain (Denver)",
+          "7:00 to 9:00am",
+          "9:00 to 11:00am",
+          "14:00 to 16:00"
+        ],
+        [
+          "US Pacific (Los Angeles)",
+          "7:00 to 9:00am",
+          "10:00am to 12:00pm",
+          "15:00 to 17:00"
+        ],
+        [
+          "UK (London)",
+          "7:00 to 9:00am",
+          "2:00 to 4:00am",
+          "07:00 to 09:00"
+        ],
+        [
+          "Central Europe (Berlin, Paris)",
+          "7:00 to 9:00am",
+          "1:00 to 3:00am",
+          "06:00 to 08:00"
+        ],
+        [
+          "UAE (Dubai)",
+          "7:00 to 9:00am",
+          "10:00pm to 12:00am, day before",
+          "03:00 to 05:00"
+        ],
+        [
+          "India",
+          "7:00 to 9:00am",
+          "8:30 to 10:30pm, day before",
+          "01:30 to 03:30"
+        ],
+        [
+          "Singapore",
+          "7:00 to 9:00am",
+          "6:00 to 8:00pm, day before",
+          "23:00 to 01:00, day before"
+        ],
+        [
+          "Australia East (Sydney, summer time)",
+          "7:00 to 9:00am",
+          "3:00 to 5:00pm, day before",
+          "20:00 to 22:00, day before"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Daylight saving",
+      "text": "Clocks move during the year, and not on the same dates everywhere. In the US they move forward on the second Sunday of March. The UK and Europe change on the last Sunday of March and October. Sydney moves the opposite way. The easy fix: in your tool, pick a **city** time zone (like America/Chicago), not a fixed offset like UTC-6. Then the tool handles the change for you."
+    },
+    {
+      "type": "h2",
+      "text": "How to set it up, step by step"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Add a time-zone column to your list.** If your lead data has city, state or country, you can work out the time zone from that. Many lead databases already include it.",
+        "**Fill the gaps.** No location? Use the company's head office. Still nothing? Put those leads in a separate group and send them in your main market's 7 to 9am.",
+        "**Check your sending tool.** If it can send by each lead's own time zone, turn that on and set the window to 7:00 to 9:00am.",
+        "**If it can't, split the list.** Make one campaign (or one schedule) per time zone, using the table above. Same email, different window.",
+        "**Space the sends out.** Set a gap between emails from each inbox so they don't all go at 7:00 on the dot. A steady flow looks more natural.",
+        "**Test for 2 to 4 weeks.** Run half your list at 7 to 9am and half at your old time. Compare replies per 1,000 people, not opens."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: does a 2-hour window fit?"
+    },
+    {
+      "type": "p",
+      "text": "Say you send from **10 inboxes**, and each one sends **30 cold emails a day**. That's 300 emails a day."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "A 7 to 9am window is 120 minutes.",
+        "Each inbox needs to send 30 emails in 120 minutes: one email about **every 4 minutes**.",
+        "That's a normal, slow pace. If you need more volume, add inboxes. Don't widen the window to all day."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Get time zones with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Time-zone prompt",
+      "text": "Below is a list of leads with their city, state/region and country.\n[paste the columns: email, city, state, country]\n\nFor each row, add one column called \"timezone\" with the IANA time zone name (for example America/New_York, Europe/London, Asia/Singapore).\nRules:\n- If the city is missing, use the state or country. If a country has several time zones and you can't tell which, write UNKNOWN.\n- Don't guess. UNKNOWN is better than wrong.\n- Return a table with: email, timezone.\n\nAfter the table, give me a count of leads per time zone so I can make one sending schedule for each."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "What happens",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Sending at 7am **your** time",
+          "Leads in other time zones get it at 4am or noon",
+          "Schedule by the lead's time zone"
+        ],
+        [
+          "No time-zone column",
+          "The tool can't send at their 7am",
+          "Add it before you upload the list"
+        ],
+        [
+          "Using a fixed offset like UTC-5",
+          "Breaks when the clocks change",
+          "Pick a city time zone in your tool"
+        ],
+        [
+          "All 300 emails at 7:00 exactly",
+          "A burst of sends looks like a robot",
+          "Spread sends across the 7 to 9am window"
+        ],
+        [
+          "Judging by open rates",
+          "Opens are often wrong because of privacy features",
+          "Judge by replies per 1,000 people"
+        ],
+        [
+          "Changing the email and the time at once",
+          "You won't know what worked",
+          "Change one thing at a time"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "Send at their 7am, not yours. It only works if your list has each lead's time zone."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Smartlead: Best time of day to send cold email",
+      "url": "https://www.smartlead.ai/benchmarks/best-time-of-day-to-send-cold-email",
+      "note": "850M+ emails, reply rate by hour in the recipient's local time"
+    },
+    {
+      "name": "Smartlead: The State of Cold Email benchmarks",
+      "url": "https://www.smartlead.ai/benchmarks",
+      "note": "Other cold email benchmarks from the same data"
+    },
+    {
+      "name": "IANA time zone list (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_tz_database_time_zones",
+      "note": "City time zone names like America/Chicago"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the time-zone prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is 7am right for every industry?",
+      "a": "Not always. Smartlead's data is an average across many senders and doesn't break it down by industry. Start at 7am, then test it against your old time on your own list."
+    },
+    {
+      "q": "What about follow-up emails?",
+      "a": "Use the same 7 to 9am window for follow-ups. The timing logic is the same for every email in the sequence."
+    },
+    {
+      "q": "Should I send on weekends?",
+      "a": "The data says the day matters much less than the hour. Most B2B senders stick to weekdays. If you test weekends, measure replies, not opens."
+    },
+    {
+      "q": "My leads are all in one city. Do I still need this?",
+      "a": "No time-zone split needed. Just set your window to 7 to 9am in their city's time zone, which may not be yours."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

@@ -1,0 +1,296 @@
+{
+  "slug": "pricing",
+  "keyword": "PRICING",
+  "case": "case-05",
+  "title": "The First-Call Pricing Script: Talk Price on Call One Without Scaring Buyers",
+  "description": "A word-for-word first-call pricing script: when to bring up price, how to give a range, the budget question, and what to say after each answer.",
+  "lead": "This is the full first-call pricing script from the reel. Most sellers wait until the second or third call to talk about money. This guide shows why talking price on call one is linked to more wins, when in the call to do it, the exact words to use and how to answer whatever the buyer says next.",
+  "insider": "We bring price and budget up early in every reply thread and call we set up for clients, so the calls on their calendar are with people who can pay. In one small pilot, 10,284 people contacted turned into **103 real sales opportunities**. The script is simple. Using it on every lead, every day, is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why price belongs on the first call"
+    },
+    {
+      "type": "p",
+      "text": "[Gong Labs looked at 11,331 sales opportunities](https://www.gong.io/resources/labs/data-reveals-the-best-time-to-talk-price-and-budget/), each with at least three calls, and compared win rates by when price first came up:"
+    },
+    {
+      "type": "table",
+      "head": [
+        "When price was first discussed",
+        "Win rate"
+      ],
+      "rows": [
+        [
+          "First call",
+          "**42%**"
+        ],
+        [
+          "Second call",
+          "32%"
+        ],
+        [
+          "Third call",
+          "15%"
+        ],
+        [
+          "Never",
+          "5%"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Budget showed the same pattern. When **budget was discussed on the first call, the win rate was 49%**, versus **7% when budget never came up**. Gong also found it didn't matter who raised price first, the buyer or the seller."
+    },
+    {
+      "type": "p",
+      "text": "This is a link, not proof that price talk causes the win. But it shows something useful: buyers who are serious want to talk about money early. Avoiding it just hides which deals are real."
+    },
+    {
+      "type": "h2",
+      "text": "When in the call to bring it up"
+    },
+    {
+      "type": "p",
+      "text": "Don't open with price. Gong suggests getting to pricing about **three-quarters of the way through the first call**, after you understand the problem and have shown how you'd help. In a 30-minute call, that's around minute 22. In a 45-minute call, around minute 34."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**First half:** their problem, how they handle it now, what a good result looks like.",
+        "**Third quarter:** how you'd solve it, with one short example.",
+        "**Around the 3/4 mark:** give a price range, then ask about budget.",
+        "**Last few minutes:** agree the next step and who else should join."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The script"
+    },
+    {
+      "type": "p",
+      "text": "Read it a few times, then say it in your own words. The brackets are where your details go."
+    },
+    {
+      "type": "h3",
+      "text": "1. The bridge"
+    },
+    {
+      "type": "quote",
+      "text": "\"Before we run out of time, I want to be upfront about cost, so you can tell me if we're even in the right range.\""
+    },
+    {
+      "type": "p",
+      "text": "**Why:** it shows respect for their time. It also makes price a normal part of the call, not a scary moment at the end."
+    },
+    {
+      "type": "h3",
+      "text": "2. The range"
+    },
+    {
+      "type": "quote",
+      "text": "\"For a [company like yours / project like this], it usually lands between [$X] and [$Y] [a month / for the project]. Where you land depends mostly on [the 1-2 things that change the price].\""
+    },
+    {
+      "type": "p",
+      "text": "**Why:** a range feels like information, not a quote. Naming what moves the price lets them place themselves in it."
+    },
+    {
+      "type": "h3",
+      "text": "3. The budget question"
+    },
+    {
+      "type": "quote",
+      "text": "\"How does that compare with what you planned to spend on this?\""
+    },
+    {
+      "type": "p",
+      "text": "**Why:** it asks about budget without a cold \"What's your budget?\" Then stop talking. Wait for the answer, even if there's a silence."
+    },
+    {
+      "type": "h3",
+      "text": "4. Listen, then answer what they actually said"
+    },
+    {
+      "type": "p",
+      "text": "The reel's last step is the one most people skip: **actually listen to the answer**. Repeat back what you heard before you reply: \"So you'd planned closer to [$Z], and [what matters most to them] is the main thing. Did I get that right?\""
+    },
+    {
+      "type": "h2",
+      "text": "What to say after each answer"
+    },
+    {
+      "type": "table",
+      "head": [
+        "They say",
+        "What it means",
+        "What you say"
+      ],
+      "rows": [
+        [
+          "\"That's about what we expected\"",
+          "In range",
+          "\"Great. Then the next step is [step]. Who else should join?\""
+        ],
+        [
+          "\"That's more than we planned\"",
+          "Interested, budget gap",
+          "\"Thanks for being straight. What number did you have in mind? We can look at a smaller first step.\""
+        ],
+        [
+          "\"We don't have a budget yet\"",
+          "Early stage",
+          "\"Makes sense. Would it help if I sent a one-page summary with the range, so you can take it to whoever sets the budget?\""
+        ],
+        [
+          "\"We need to see a proposal first\"",
+          "Wants detail",
+          "\"Happy to. So it's useful, is the range I gave roughly where it needs to be?\""
+        ],
+        [
+          "\"Way too expensive\"",
+          "Not a fit right now",
+          "\"Understood. Would it help if I pointed you to a cheaper option, or checked back in 6 months?\""
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Cut scope, not price",
+      "text": "If the budget is lower, offer less work for less money, or a smaller first step. Dropping the price for the same work teaches them your first number wasn't real."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example"
+    },
+    {
+      "type": "p",
+      "text": "Example math only, using Gong's rates as if they applied to you. Say you run **20 first calls** a month:"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Price on call one: 20 × 42% = about **8.4 wins**.",
+        "Price only on call two: 20 × 32% = about **6.4 wins**.",
+        "Price never discussed: 20 × 5% = **1 win**."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Your real numbers will be different. But even a small shift toward the first-call pattern adds up over a year, and you stop spending second and third calls on people who were never going to pay."
+    },
+    {
+      "type": "h2",
+      "text": "Set your range before the call"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Look at your last 10 closed deals. Write down the price of each.",
+        "Drop the highest and the lowest. The rest is your honest range.",
+        "Write down the 1-2 things that moved price up or down (users, scope, timeline).",
+        "Practice saying the range out loud until it sounds calm."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Waiting for the buyer to ask about price",
+          "Bring it up yourself around the 3/4 mark"
+        ],
+        [
+          "Opening the call with price",
+          "Earn it first: problem, then solution, then price"
+        ],
+        [
+          "One exact number",
+          "Give a range and what moves it"
+        ],
+        [
+          "A range so wide it means nothing (\"$1K to $50K\")",
+          "Use the range most real deals land in"
+        ],
+        [
+          "Asking \"What's your budget?\" cold",
+          "Ask how your range compares with what they planned"
+        ],
+        [
+          "Talking straight after the budget question",
+          "Stop. Let them answer. Then repeat back what you heard"
+        ],
+        [
+          "Giving a discount on the spot",
+          "Offer less scope or a smaller first step instead"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Want to ask about price even earlier, in the email thread before the call? See our [price-range question guide](/guides/price.html)."
+    },
+    {
+      "type": "h2",
+      "text": "Write your script with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "First-call pricing script prompt",
+      "text": "I sell: [what you sell] to [type of buyer].\nMy last 10 deals were priced at: [list them].\nWhat makes the price go up or down: [e.g. users, scope, timeline].\nMy first calls are usually [30/45] minutes.\n\n1) Work out an honest price range from my deals (drop the highest and lowest).\n2) Write a first-call pricing script: a bridge line, the range with what moves it, and a soft budget question (not \"what's your budget?\").\n3) Write short replies for these answers: \"that's what we expected\", \"more than we planned\", \"no budget yet\", \"send a proposal first\", \"way too expensive\". For a lower budget, offer less scope or a smaller first step, never a straight discount.\n4) Tell me at what minute of my call to start the pricing part.\nUse simple, natural spoken English."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "Give a range on call one, ask what they planned, then actually listen."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Gong Labs: The best time to talk price and budget",
+      "url": "https://www.gong.io/resources/labs/data-reveals-the-best-time-to-talk-price-and-budget/",
+      "note": "11,331 opportunities; win rates by when price and budget first came up"
+    },
+    {
+      "name": "WayneFlow: the price-range question",
+      "url": "https://wayneflow.com/guides/price.html",
+      "note": "Ask about price in the email thread before the call"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the first-call pricing script prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Won't talking price early scare buyers off?",
+      "a": "It may scare off people who could never pay, which saves you time. In Gong's data, deals where price came up on the first call won far more often than deals where it came up later or never."
+    },
+    {
+      "q": "What if my price really depends on the project?",
+      "a": "Give the range most of your real projects land in, and name what moves it. \"Most projects like this land between $X and $Y\" is honest even when every project is different."
+    },
+    {
+      "q": "Should I wait for the buyer to ask?",
+      "a": "No. Gong found it didn't matter who raised price first. If they don't bring it up, you do, around three-quarters of the way through the call."
+    },
+    {
+      "q": "What if they won't tell me their budget?",
+      "a": "That's fine. Ask if your range is roughly where it needs to be. A yes, no or \"depends\" tells you most of what you need."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

@@ -1,0 +1,269 @@
+{
+  "slug": "hold",
+  "keyword": "HOLD",
+  "case": "case-05",
+  "title": "The Discount Calculator: Win the Deal Without Cutting Your Agency Fee",
+  "description": "See what a discount really costs your profit, plus 5 copy-paste \"trade, don't give\" replies for when a client asks for a lower price.",
+  "lead": "This is the full Discount Calculator from the carousel, plus the 5 \"trade, don't give\" replies. A 10% discount sounds small. On a typical agency margin it can wipe out a quarter of your profit. This guide shows the math, a spreadsheet you can copy, and exactly what to say instead of \"OK, 10% off\".",
+  "insider": "We use the smaller-first-step idea with our own clients: a pilot at a smaller scope, not a discount on the full job. One small pilot reached **10,284 people and produced 103 sales opportunities** before the client scaled up. Holding your price once is easy. Keeping the pipeline full so you can walk away, every day, is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why cutting your fee hurts more than it looks"
+    },
+    {
+      "type": "p",
+      "text": "In [Promethean Research's agency study](https://prometheanresearch.kit.com/posts/new-agency-research-tough-growth-easy-margins) of **151 agency leaders** (2024 data), fee cuts were linked to a **6% drop in revenue**. Agencies that raised their rates grew faster and had above-average margins. That's a link, not proof that one causes the other. But it matches what the math below shows."
+    },
+    {
+      "type": "p",
+      "text": "The reason is simple. A discount comes **only out of your profit**. Your costs stay the same. Your people still work the same hours."
+    },
+    {
+      "type": "h2",
+      "text": "The discount math"
+    },
+    {
+      "type": "p",
+      "text": "Example: a project with a **$10,000 fee** that costs you **$6,000** to deliver (people, tools, contractors). Your profit is **$4,000**."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Give 10% off: the fee is now $9,000. Your cost is still $6,000.",
+        "Your profit drops from $4,000 to **$3,000**. That's a 25% cut in profit from a \"10%\" discount.",
+        "To make $4,000 again, you need $4,000 ÷ $3,000 = 1.33 times the work. That's **33% more work** for the same money."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The Discount Calculator"
+    },
+    {
+      "type": "p",
+      "text": "Same project ($10,000 fee, $6,000 cost, 40% margin). Here's what each discount really costs:"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Discount",
+        "New fee",
+        "New profit",
+        "Profit you lose",
+        "Extra work to earn the same profit"
+      ],
+      "rows": [
+        [
+          "5%",
+          "$9,500",
+          "$3,500",
+          "12.5%",
+          "**14%**"
+        ],
+        [
+          "10%",
+          "$9,000",
+          "$3,000",
+          "25%",
+          "**33%**"
+        ],
+        [
+          "15%",
+          "$8,500",
+          "$2,500",
+          "37.5%",
+          "**60%**"
+        ],
+        [
+          "20%",
+          "$8,000",
+          "$2,000",
+          "50%",
+          "**100%**"
+        ],
+        [
+          "25%",
+          "$7,500",
+          "$1,500",
+          "62.5%",
+          "**167%**"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "The shortcut",
+      "text": "Extra work needed = discount ÷ (your margin − discount). At a 40% margin, 10% off means 10 ÷ 30 = 33% more work. If your margin is low, even small discounts get very expensive."
+    },
+    {
+      "type": "h2",
+      "text": "Build it in a spreadsheet"
+    },
+    {
+      "type": "p",
+      "text": "Put the fee in A2, your delivery cost in B2 and the discount in C2 (as a percent, like 10%). Then add these formulas:"
+    },
+    {
+      "type": "prompt",
+      "label": "Discount Calculator formulas",
+      "text": "A1: Fee                    A2: 10000\nB1: Delivery cost          B2: 6000\nC1: Discount               C2: 10%\n\nD1: Profit now             D2: =A2-B2\nE1: Margin now             E2: =D2/A2\nF1: New fee                F2: =PRODUCT(A2,1-C2)\nG1: New profit             G2: =F2-B2\nH1: Profit you lose        H2: =(D2-G2)/D2\nI1: Extra work needed      I2: =D2/G2-1\n\nFormat E, H and I as percentages.\nIf G2 is zero or negative, the discount wipes out all your profit."
+    },
+    {
+      "type": "p",
+      "text": "This assumes extra clients cost the same to deliver as this one. Count your own hours in delivery cost, or the numbers will look better than they are."
+    },
+    {
+      "type": "h2",
+      "text": "Option 1: cut scope, not price"
+    },
+    {
+      "type": "p",
+      "text": "If the client really has less budget, give them less work, not the same work for less money. A common rule: remove one deliverable instead of cutting 10%."
+    },
+    {
+      "type": "p",
+      "text": "Example: the client has $9,000, not $10,000. Remove a deliverable that costs you **$600** to deliver. Fee $9,000, cost $5,400, profit **$3,600**. Your margin stays at 40%. A plain 10% discount would have left you $3,000 at a 33% margin."
+    },
+    {
+      "type": "h2",
+      "text": "Option 2: trade, don't give"
+    },
+    {
+      "type": "p",
+      "text": "If you lower the price, get something back. A common rule: a lower price only in exchange for something that has real value to you. Here are the 5 replies."
+    },
+    {
+      "type": "prompt",
+      "label": "Reply 1: paid upfront",
+      "text": "I can do [lower price] if the full amount is paid upfront before we start. That saves us the admin and the risk, so we can pass it on. If you'd rather pay monthly, it stays at [normal price]. Which works better for you?"
+    },
+    {
+      "type": "prompt",
+      "label": "Reply 2: a longer term",
+      "text": "That price works on a 12-month agreement. Longer terms let us plan our team, so we can price it lower. On a month-to-month plan, it's [normal price]. Want me to send both options?"
+    },
+    {
+      "type": "prompt",
+      "label": "Reply 3: a case study",
+      "text": "Here's an idea: I can do [lower price] if you're open to a short case study once we hit results. Just your name, the numbers and a quote. If you'd rather keep it private, totally fine, it's [normal price]."
+    },
+    {
+      "type": "prompt",
+      "label": "Reply 4: less scope",
+      "text": "I want to make this work for your budget. At [their budget], I'd suggest we drop [one deliverable] and keep [the core work]. You still get [main result]. We can add [the deliverable] back later. Sound good?"
+    },
+    {
+      "type": "prompt",
+      "label": "Reply 5: a smaller first step",
+      "text": "How about we start smaller? A [pilot length] pilot with [smaller scope] for [pilot price]. If it works, we move to the full plan at [normal price]. You see results before the full commitment."
+    },
+    {
+      "type": "h2",
+      "text": "Option 3: a smaller first step"
+    },
+    {
+      "type": "p",
+      "text": "A pilot is not a discount. It's a **smaller job at a fair price**. The client lowers their risk, you keep your rate, and if it works, the full fee follows. Write the full price and the next step into the pilot proposal so nobody is surprised."
+    },
+    {
+      "type": "h2",
+      "text": "The part that makes it work: be ready to walk away"
+    },
+    {
+      "type": "p",
+      "text": "All of this only works if you can say \"no problem, maybe later\" and mean it. If this deal is the only one in your pipeline, you'll cave. Keep enough deals in progress that losing one isn't scary."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "What it costs",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Giving a discount on the first push",
+          "Teaches the client your price was never real",
+          "Ask what's behind it: budget, timing or doubt?"
+        ],
+        [
+          "Discount with nothing in return",
+          "Pure profit loss",
+          "Trade: upfront, term, case study, or less scope"
+        ],
+        [
+          "Same scope, lower price",
+          "Your margin drops, the work doesn't",
+          "Remove a deliverable instead"
+        ],
+        [
+          "Not counting your own hours as cost",
+          "The calculator lies to you",
+          "Add your hours at a real hourly rate"
+        ],
+        [
+          "Pilot with no next step",
+          "A cheap project that never grows",
+          "Write the full plan and price into the pilot proposal"
+        ],
+        [
+          "One deal in the pipeline",
+          "You can't walk away, so you cave",
+          "Keep enough deals going"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Draft your reply with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Price pushback prompt",
+      "text": "A prospect pushed back on my price. Here's what they said:\n[paste their message]\n\nMy offer: [what's included]\nMy price: $[price]. My delivery cost: $[cost].\nThings I can trade for a lower price: [e.g. paid upfront, 12-month term, case study, less scope, pilot]\nLowest price I'd accept and only with a trade: $[floor]\n\n1) Tell me what my profit and margin are now, and at the price they want.\n2) Write a short, friendly reply (under 80 words) that keeps my price OR offers one trade. Never a discount with nothing in return.\n3) Write a second version that offers less scope instead.\nPlain, simple English. Calm and confident, not pushy."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "Cut scope, not price. And never give without getting something back."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Promethean Research: agency study (151 agency leaders, 2024 data)",
+      "url": "https://prometheanresearch.kit.com/posts/new-agency-research-tough-growth-easy-margins",
+      "note": "Fee cuts linked to a 6% revenue decline; rate raisers grew faster"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the price pushback prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it ever OK to give a discount?",
+      "a": "Yes, when you get something real back: cash upfront, a longer term, a case study or less work. A discount for nothing is the one to avoid."
+    },
+    {
+      "q": "What if they say a competitor is cheaper?",
+      "a": "Ask what's included in the cheaper quote. Often it's less scope. Then offer Reply 4: match their budget by removing a deliverable, not by cutting your rate."
+    },
+    {
+      "q": "Won't I lose deals by holding my price?",
+      "a": "Some, yes. But each discount deal costs more work for less profit. The calculator shows how much. Losing a bad-margin deal can be a win."
+    },
+    {
+      "q": "How do I know my delivery cost?",
+      "a": "Add up the people hours (including yours) at a real hourly rate, plus tools and contractors for that client. Do it once per client and you'll see who's really profitable."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

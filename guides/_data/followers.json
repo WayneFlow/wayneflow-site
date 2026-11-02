@@ -1,0 +1,270 @@
+{
+  "slug": "followers",
+  "keyword": "FOLLOWERS",
+  "case": "case-03",
+  "title": "The Competitor-Audience Playbook: Find Customers on a Competitor's Facebook Page",
+  "description": "Turn a competitor's Facebook commenters into a lead list, by hand and within Meta's rules. Filters, comment types and first lines that don't feel creepy.",
+  "lead": "This is the full competitor-audience playbook from the reel. Your competitor already paid to build an audience of people who want what you sell. This guide shows how to find the right people in that audience by hand, filter to real buyers, and write to them about their problem, without breaking Facebook's rules.",
+  "insider": "We run one campaign per lead source for clients, so every email fits where the person came from. In our 5-day blitz that kind of tight list brought **1,095 replies in five days**. Building one source list is easy. Finding, checking and writing to new sources every week is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why a competitor's page is a lead list"
+    },
+    {
+      "type": "p",
+      "text": "Everyone who comments on your competitor's posts has already told you three things: they know the problem, they're open to a solution, and they're spending time on it. Your competitor paid for that attention with ads and content. You don't need to create the interest. You just need to talk to it."
+    },
+    {
+      "type": "p",
+      "text": "**Commenters are the gold.** A like is a tap. A comment like \"How much is this?\" or \"Does this work for a small team?\" is a buying question, asked in public."
+    },
+    {
+      "type": "h2",
+      "text": "First: the platform rules"
+    },
+    {
+      "type": "p",
+      "text": "Do this **by hand**. [Meta's Terms of Service](https://www.facebook.com/terms.php) say you may not access or collect data from its products using automated means without Meta's prior permission. That covers Facebook and Instagram. So no scraping tools, bots or browser extensions that pull follower or commenter lists."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Fine:** opening a public page, reading public comments, visiting public business pages and websites, and writing notes in your own sheet.",
+        "**Not fine:** tools that auto-collect names, profiles or comments from Facebook or Instagram.",
+        "**Also not fine:** sending mass messages on Facebook to people you found. You'll get flagged. Find their **business** contact details on their own website instead.",
+        "**And follow cold email law** where your leads live, like CAN-SPAM in the US and GDPR in Europe. Only email business contacts, and make it easy to opt out."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Followers vs commenters",
+      "text": "Many pages don't show their full follower list, and that's fine. Public commenters and reviewers are more useful anyway: they've shown real interest."
+    },
+    {
+      "type": "h2",
+      "text": "How to run it, step by step"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Pick 3 competitors.** Choose ones that sell to the same buyer as you. A direct competitor, a bigger brand in your space, and a tool your buyers use.",
+        "**Open their last 10 to 20 posts.** Focus on posts with real comments: pricing posts, how-to posts, offers and customer stories.",
+        "**Read every comment.** Note who asks a question, complains, or tags a colleague. Skip emoji-only comments and friends of the brand.",
+        "**Check if they fit.** Click through to see if they own or run a business that matches your buyer. Look for a linked business page or a company name.",
+        "**Find the business contact.** Go to their company website for a business email. Verify every email before you send.",
+        "**Write it down.** One row per person: name, company, competitor, post, what they said, comment type.",
+        "**One source = one campaign.** Commenters on Competitor A's pricing post are one campaign. Commenters on Competitor B's how-to post are another."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Filter to people who actually fit"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Keep",
+        "Skip"
+      ],
+      "rows": [
+        [
+          "Owns or runs a business that matches your buyer",
+          "Employees of the competitor"
+        ],
+        [
+          "Asked a buying question (price, fit, results)",
+          "Other agencies or vendors selling to the same page"
+        ],
+        [
+          "Complained about a problem you solve",
+          "Students, job seekers, giveaway hunters"
+        ],
+        [
+          "Tagged a business partner or colleague",
+          "People with no business you can find"
+        ],
+        [
+          "Company is the size you serve",
+          "Companies far too small or too big for you"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What each comment type tells you"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Comment type",
+        "Example",
+        "What it means",
+        "Your first line is about"
+      ],
+      "rows": [
+        [
+          "Price question",
+          "\"How much does this cost?\"",
+          "Interested, worried about budget",
+          "Cost and value"
+        ],
+        [
+          "Fit question",
+          "\"Does this work for a 5-person team?\"",
+          "Not sure it's for them",
+          "Teams like theirs"
+        ],
+        [
+          "Complaint",
+          "\"Support took 3 days to answer\"",
+          "Unhappy, may switch",
+          "The pain, never the competitor"
+        ],
+        [
+          "Results question",
+          "\"Has anyone actually seen results?\"",
+          "Wants proof",
+          "A real result from a company like theirs"
+        ],
+        [
+          "Happy customer",
+          "\"Love this, been using it a year\"",
+          "Not looking right now",
+          "Low priority. Maybe skip."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Never open with \"saw you follow them\""
+    },
+    {
+      "type": "p",
+      "text": "\"I saw you commented on [competitor]'s post\" feels like you've been watching them. It also reminds them of your competitor. Instead, talk about the problem their comment shows. They'll recognize their own question, not your research."
+    },
+    {
+      "type": "h3",
+      "text": "Instead of this"
+    },
+    {
+      "type": "quote",
+      "text": "Hi Mike, I saw you commented on BrandX's Facebook post about pricing, so I thought I'd reach out."
+    },
+    {
+      "type": "h3",
+      "text": "Write this"
+    },
+    {
+      "type": "quote",
+      "text": "Hi Mike, a lot of 5-person teams tell us the hard part isn't the tool, it's the price jump once you grow. Worth seeing how others handle it?"
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: how big is one list?"
+    },
+    {
+      "type": "p",
+      "text": "Here's example math to plan your time (your numbers will vary):"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "3 competitors × 10 posts × about 15 real comments = **about 450 commenters**.",
+        "If about 1 in 3 fits your buyer, that's **about 150 good leads**.",
+        "Split by source and comment type: for example **3 campaigns of about 50 leads** each.",
+        "Repeat monthly with new posts, and the list keeps growing."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Using a scraping tool",
+          "Do it by hand. Meta's terms don't allow automated collection without permission."
+        ],
+        [
+          "Messaging people on Facebook",
+          "Find their business email on their website"
+        ],
+        [
+          "\"Saw you follow them\" as the opener",
+          "Open with the problem their comment shows"
+        ],
+        [
+          "Trashing the competitor",
+          "Show how you do it better, never attack them"
+        ],
+        [
+          "One big mixed list",
+          "One source = one campaign"
+        ],
+        [
+          "Emailing everyone who commented",
+          "Filter to real business owners who fit"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Turn comments into campaigns with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Comment sorting prompt",
+      "text": "I sell: [your offer, one sentence]\nMy buyer: [role, industry, company size]\n\nHere are public comments I copied by hand from a competitor's Facebook posts (first name, company, comment):\n[paste rows]\n\nFor each row:\n1) Label the comment type: price question / fit question / complaint / results question / happy customer / not a buyer.\n2) Say if they fit my buyer: yes / no / check.\n3) For \"yes\" rows, write a first line for a cold email about their PROBLEM.\nRules: never mention the competitor, the post or that they commented. Never quote their comment. Under 25 words. Plain, simple English."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "They paid to build that audience. You just talk to its problem, never to the fact that you found them."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Meta Terms of Service",
+      "url": "https://www.facebook.com/terms.php",
+      "note": "No automated data collection without Meta's permission"
+    },
+    {
+      "name": "FTC: CAN-SPAM Act guide for business",
+      "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+      "note": "US rules for commercial email"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the comment sorting prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it legal to email people I found on a competitor's page?",
+      "a": "Reading public comments by hand is fine. Then email only business contacts you found on their own website, follow cold email laws like CAN-SPAM and GDPR, and let people opt out easily."
+    },
+    {
+      "q": "Can I use a tool to export commenters?",
+      "a": "Not on Facebook or Instagram without Meta's permission. Meta's terms ban automated collection. Doing it by hand is slower, but it's within the rules and your list is better."
+    },
+    {
+      "q": "Does this work on Instagram or LinkedIn too?",
+      "a": "The idea works anywhere comments are public. Instagram is also Meta, so the same rules apply. Check each platform's terms before using any tool."
+    },
+    {
+      "q": "What if a commenter is a happy customer of the competitor?",
+      "a": "Usually skip them or make them low priority. Price, fit and complaint comments are where the buyers are."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

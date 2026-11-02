@@ -1,0 +1,390 @@
+{
+  "slug": "margin",
+  "keyword": "MARGIN",
+  "case": "case-01",
+  "title": "The Margin Checker Sheet: Find Every Client Under 50% Margin (Google Sheets)",
+  "description": "A copy-paste Google Sheet with one row per client that works out your real margin and flags anyone under 50%, plus how to fix or reprice them.",
+  "lead": "This is the full Margin Checker sheet from the carousel. You don't need more clients to make more money if some of your current ones are quietly losing it. This guide gives you the sheet (paste it straight into Google Sheets), shows how to count delivery cost honestly, and how to fix or reprice every client under 50%.",
+  "insider": "Many of our clients are agencies, and the healthiest ones fill their pipeline with the kind of client they already deliver well for. For one agency client we built **$175,000 in pipeline** in four and a half months, all from one clear offer to one type of buyer. Knowing your margins tells you who to go after. Filling the calendar with those clients every day is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why margins matter more than more clients"
+    },
+    {
+      "type": "p",
+      "text": "[BenchPress 2025](https://productive.io/bold/blog/benchpress-2025-key-findings), reported by Productive.io, found that **in 2024, average gross profit margins for £1M+ agencies fell to 39%, the lowest on record**. Their target: **at least 50%**."
+    },
+    {
+      "type": "p",
+      "text": "A low margin isn't always a pricing problem. Often it's one or two clients who take far more time than their fee covers. More clients like that just make you busier. The first step is to see each client's margin on its own."
+    },
+    {
+      "type": "h2",
+      "text": "The one formula"
+    },
+    {
+      "type": "p",
+      "text": "**Margin = (fee − delivery cost) ÷ fee.**"
+    },
+    {
+      "type": "p",
+      "text": "Delivery cost is everything it takes to do the work for that client: **people hours × cost per hour + tools + contractors**. If a client pays $8,000 and costs $5,600 to serve, the margin is ($8,000 − $5,600) ÷ $8,000 = **30%**."
+    },
+    {
+      "type": "tip",
+      "label": "Count your own hours",
+      "text": "The carousel's rule: it won't work unless you count your own hours as delivery cost. Owners who skip their own time always think their margins are better than they are."
+    },
+    {
+      "type": "h2",
+      "text": "How to work out cost per hour"
+    },
+    {
+      "type": "p",
+      "text": "Cost per hour is what one hour of a person's time costs the business, not what you charge. A simple way:"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Take what the business pays the person per month (salary, taxes and benefits).",
+        "Divide by the hours they actually work in a month.",
+        "For yourself, use what you'd have to pay someone to do your job.",
+        "Use one blended number for the whole team if that's simpler. The example below uses $80 an hour."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The Margin Checker sheet"
+    },
+    {
+      "type": "p",
+      "text": "One row per client. Fill in the white columns (B to F). The sheet works out the rest. Here are the columns and the formulas for row 2:"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Column",
+        "What goes in it",
+        "Formula (row 2)"
+      ],
+      "rows": [
+        [
+          "A: Client",
+          "Client name",
+          "type it"
+        ],
+        [
+          "B: Monthly fee",
+          "What they pay per month",
+          "type it"
+        ],
+        [
+          "C: Hours",
+          "Team hours + your hours per month",
+          "type it"
+        ],
+        [
+          "D: Cost per hour",
+          "Your blended cost per hour",
+          "type it"
+        ],
+        [
+          "E: Tools",
+          "Software and tools for this client",
+          "type it"
+        ],
+        [
+          "F: Contractors",
+          "Freelancers and outside help",
+          "type it"
+        ],
+        [
+          "G: Delivery cost",
+          "Total cost to serve",
+          "=PRODUCT(C2,D2)+E2+F2"
+        ],
+        [
+          "H: Margin",
+          "Your margin for this client",
+          "=IF(B2>0,(B2-G2)/B2,\"\")"
+        ],
+        [
+          "I: Flag",
+          "Under 50%?",
+          "=IF(H2=\"\",\"\",IF(H2<0.5,\"FIX OR REPRICE\",\"OK\"))"
+        ],
+        [
+          "J: Fee for 50%",
+          "Fee you'd need at today's cost",
+          "=G2/0.5"
+        ],
+        [
+          "K: Max cost for 50%",
+          "Most you can spend at today's fee",
+          "=B2/2"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Paste it into Google Sheets"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Open a new Google Sheet.",
+        "Click the **Copy** button on the box below.",
+        "Click cell **A1** and paste. The tabs split it into columns.",
+        "Select column H and click **Format > Number > Percent**.",
+        "Replace the example clients with yours. To add a client, copy row 4 down and move the TOTAL row below it."
+      ]
+    },
+    {
+      "type": "prompt",
+      "label": "Margin Checker sheet (paste into cell A1)",
+      "text": "Client\tMonthly fee\tHours (team + yours)\tCost per hour\tTools\tContractors\tDelivery cost\tMargin\tFlag\tFee for 50%\tMax cost for 50%\nClient A\t8000\t60\t80\t300\t500\t=PRODUCT(C2,D2)+E2+F2\t=IF(B2>0,(B2-G2)/B2,\"\")\t=IF(H2=\"\",\"\",IF(H2<0.5,\"FIX OR REPRICE\",\"OK\"))\t=G2/0.5\t=B2/2\nClient B\t5000\t25\t80\t200\t200\t=PRODUCT(C3,D3)+E3+F3\t=IF(B3>0,(B3-G3)/B3,\"\")\t=IF(H3=\"\",\"\",IF(H3<0.5,\"FIX OR REPRICE\",\"OK\"))\t=G3/0.5\t=B3/2\nClient C\t6000\t34\t80\t250\t150\t=PRODUCT(C4,D4)+E4+F4\t=IF(B4>0,(B4-G4)/B4,\"\")\t=IF(H4=\"\",\"\",IF(H4<0.5,\"FIX OR REPRICE\",\"OK\"))\t=G4/0.5\t=B4/2\nTOTAL\t=SUM(B2:B4)\t=SUM(C2:C4)\t\t=SUM(E2:E4)\t=SUM(F2:F4)\t=SUM(G2:G4)\t=IF(B5>0,(B5-G5)/B5,\"\")\t=IF(H5=\"\",\"\",IF(H5<0.5,\"FIX OR REPRICE\",\"OK\"))\t\t"
+    },
+    {
+      "type": "h3",
+      "text": "Make the flag turn red"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Select cells A2 to K4 (all client rows).",
+        "Click **Format > Conditional formatting**.",
+        "Under \"Format cells if\", choose **Custom formula is** and enter: =$H2<0.5",
+        "Pick a red fill and click **Done**. Any client under 50% now shows in red."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example"
+    },
+    {
+      "type": "p",
+      "text": "Here's what the sheet shows for the three example clients (example numbers, at $80 an hour):"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Client",
+        "Fee",
+        "Delivery cost",
+        "Margin",
+        "Flag"
+      ],
+      "rows": [
+        [
+          "A",
+          "$8,000",
+          "60 h × $80 + $300 + $500 = $5,600",
+          "30%",
+          "FIX OR REPRICE"
+        ],
+        [
+          "B",
+          "$5,000",
+          "25 h × $80 + $200 + $200 = $2,400",
+          "52%",
+          "OK"
+        ],
+        [
+          "C",
+          "$6,000",
+          "34 h × $80 + $250 + $150 = $3,120",
+          "48%",
+          "FIX OR REPRICE"
+        ],
+        [
+          "Total",
+          "$19,000",
+          "$11,120",
+          "41%",
+          "FIX OR REPRICE"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Client A is the problem. Two ways to get it to 50%:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Cut the cost to $4,000** (column K: $8,000 ÷ 2). That means about 20 fewer hours a month at $80, since $1,600 ÷ $80 = 20.",
+        "**Raise the fee to $11,200** (column J: $5,600 ÷ 0.5). Check: ($11,200 − $5,600) ÷ $11,200 = 50%."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "And the owner-hours trap: in Client A's 60 hours, say 10 are yours. Leave them out and delivery cost drops to $4,800, so the margin looks like 40%. The real number is 30%."
+    },
+    {
+      "type": "h2",
+      "text": "How to fix a client under 50%"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Problem the sheet shows",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Hours far above what you planned",
+          "Scope creep, extra calls, endless revisions",
+          "Write down what's included, price the extras"
+        ],
+        [
+          "High tool cost for one client",
+          "Tools bought for them alone",
+          "Share tools across clients or bill them through"
+        ],
+        [
+          "High contractor cost",
+          "Work you can't do in-house",
+          "Bring it in-house or raise the fee for that part"
+        ],
+        [
+          "Fee hasn't changed in years",
+          "Old pricing",
+          "Reprice at renewal using column J"
+        ],
+        [
+          "Margin fine but hours too high for the team",
+          "Too many small clients",
+          "Raise your minimum fee for new clients"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Reprice without losing the client"
+    },
+    {
+      "type": "p",
+      "text": "Use column J as your target, then give the client a choice: keep the scope at the new fee, or keep the fee with less scope."
+    },
+    {
+      "type": "prompt",
+      "label": "Repricing email",
+      "text": "Hi [first name],\n\nQuick heads-up before we plan next quarter. The work for [company] has grown since we started: we now spend about [hours] hours a month on it, up from [old hours].\n\nTo keep the quality where it is, here are two options:\n1) Keep everything as it is at [new fee] a month, from [date].\n2) Keep the current fee and focus on [the 2-3 things that matter most], dropping [the rest].\n\nHappy to talk it through. Which works better for you?\n\n[your name]"
+    },
+    {
+      "type": "h2",
+      "text": "Narrow what you sell"
+    },
+    {
+      "type": "p",
+      "text": "Doing fewer things, more often, usually makes delivery faster and cheaper. In the [2026 State of Digital Services report](https://prometheanresearch.com/2026-state-of-digital-services-digital-agency-industry-research/) by Promethean Research (119 agencies, 2025 data), **average net margin was 13%**, while **agencies that reduced their services grew the fastest and averaged 30% net margins**. The picture isn't simple, though: Promethean [also noted](https://prometheanresearch.kit.com/posts/new-research-2026-state-of-digital-services-report) that service generalists beat service specialists on profit that year. So narrowing isn't magic. Use your sheet to see which service you deliver at the best margin, and sell more of that."
+    },
+    {
+      "type": "p",
+      "text": "Promethean also found [only 59% of agencies tracked individual project margins](https://prometheanresearch.com/how-profitable-are-digital-agencies/). Just using this sheet every month puts you ahead of many agencies."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Leaving out your own hours",
+          "Count every hour you spend on the client"
+        ],
+        [
+          "Guessing hours",
+          "Track time for 2 weeks, then fill in the sheet"
+        ],
+        [
+          "Checking only the total margin",
+          "Check every client. One bad client hides behind good ones"
+        ],
+        [
+          "Using your billing rate as cost per hour",
+          "Use what the hour costs you, not what you charge"
+        ],
+        [
+          "Fixing it once",
+          "Update the sheet every month"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Check your clients with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Margin check prompt",
+      "text": "Here are my clients for last month (one per line):\n[client name, monthly fee, hours (team + mine), tools cost, contractor cost]\nMy cost per hour: $[number]\n\n1) Work out delivery cost and margin for each client: (fee - delivery cost) / fee. Show the math.\n2) Flag every client under 50%.\n3) For each flagged client, show the fee needed for 50% (delivery cost / 0.5) and the most I can spend at today's fee (fee / 2).\n4) Suggest one practical fix for each: cut hours, cut tools, change scope, or reprice.\n5) Write a short, friendly repricing email for the worst one, offering two options: same scope at the new fee, or same fee with less scope.\nSimple English, no jargon."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "It won't work unless you count your own hours as delivery cost."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Productive.io: BenchPress 2025 key findings",
+      "url": "https://productive.io/bold/blog/benchpress-2025-key-findings",
+      "note": "£1M+ agency gross margins fell to 39% in 2024; target at least 50%"
+    },
+    {
+      "name": "Promethean Research: 2026 State of Digital Services",
+      "url": "https://prometheanresearch.com/2026-state-of-digital-services-digital-agency-industry-research/",
+      "note": "13% average net margin; agencies that reduced services averaged 30%"
+    },
+    {
+      "name": "Promethean Research: How profitable are digital agencies?",
+      "url": "https://prometheanresearch.com/how-profitable-are-digital-agencies/",
+      "note": "59% of agencies track project margins"
+    },
+    {
+      "name": "Promethean Research: 2026 report summary",
+      "url": "https://prometheanresearch.kit.com/posts/new-research-2026-state-of-digital-services-report",
+      "note": "Generalists beat specialists on profit in 2025"
+    },
+    {
+      "name": "Google Sheets: conditional formatting",
+      "url": "https://support.google.com/docs/answer/78413",
+      "note": "How to turn the flag red"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the margin check prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is 50% gross margin realistic for a small agency?",
+      "a": "It's the target BenchPress gives. Many agencies are below it, which is exactly why checking each client helps. Start by getting your worst client to 50%."
+    },
+    {
+      "q": "Gross margin or net margin, what's the difference?",
+      "a": "This sheet shows gross margin: fee minus the cost of doing the work. Net margin also takes off rent, sales, admin and other overhead, so it's always lower."
+    },
+    {
+      "q": "What if a low-margin client is my biggest one?",
+      "a": "Don't drop them overnight. Reprice at renewal, cut the hours that don't matter, and win new clients at healthier margins so you depend on them less."
+    },
+    {
+      "q": "How often should I check?",
+      "a": "Every month. Hours drift up slowly, and a client at 55% can be at 40% six months later without anyone noticing."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

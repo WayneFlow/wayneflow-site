@@ -1,0 +1,246 @@
+{
+  "slug": "starter",
+  "keyword": "STARTER",
+  "case": "case-01",
+  "title": "The Cold Email Starter Pack Swap Sheet: 4 Beginner Habits and What to Use Instead",
+  "description": "Swap \"quick question\", the calendar link, the 400-word email and \"just bumping this\" for what works. Before/after email and a 3-email sequence.",
+  "lead": "This is the full starter pack swap sheet from the reel. \"Quick question\", a calendar link, 400 words and \"just bumping this\" are four small mistakes, not one big one. This guide shows what to swap each one for, why, and gives you a rewritten email and follow-up sequence to copy.",
+  "insider": "We write every client campaign this way: short emails, one clear ask, and follow-ups that each add something new. For one agency client that brought in **2,146 interested replies out of 2,429 replies** in four and a half months. Fixing four habits once is easy. Writing, testing and improving them every day is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why it's four small mistakes"
+    },
+    {
+      "type": "p",
+      "text": "Most beginner cold emails don't fail because of one terrible line. They fail because of four habits that each cost a few replies: a lazy subject, a big ask, too many words and empty follow-ups. Fix all four and the gains add up."
+    },
+    {
+      "type": "h2",
+      "text": "The swap sheet"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Starter pack habit",
+        "Why it hurts",
+        "Swap it for"
+      ],
+      "rows": [
+        [
+          "Subject: \"quick question\"",
+          "Everyone uses it, so it looks like every other cold email",
+          "Their first name, or a short subject about their problem"
+        ],
+        [
+          "A calendar link",
+          "Asks a stranger to do work and give you 30 minutes",
+          "One specific time: \"Thursday at 10am?\""
+        ],
+        [
+          "400 words",
+          "Nobody reads a wall of text from a stranger on a phone",
+          "Under 75 words, one idea, one ask"
+        ],
+        [
+          "\"Just bumping this\"",
+          "Adds nothing, so there's nothing new to reply to",
+          "Each follow-up adds something new"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Swap 1: the subject line"
+    },
+    {
+      "type": "p",
+      "text": "In [Hunter's State of Cold Email report](https://hunter.io/the-state-of-cold-email), based on **31 million emails** sent by Hunter users in 2025, subject lines with \"quick question\" got a **2.5% reply rate and 28.7% open rate**, vs **2.9% and 32.9%** for other subject lines. Hunter adds that this depends a lot on your industry, so treat it as a sign, not a law."
+    },
+    {
+      "type": "p",
+      "text": "**What to use instead:** test the person's first name (\"Sarah\") against a short subject about their world (\"new reps at Acme\"). Hunter's data found 5 to 6 words was the sweet spot for subject lines."
+    },
+    {
+      "type": "h2",
+      "text": "Swap 2: the calendar link"
+    },
+    {
+      "type": "p",
+      "text": "A calendar link says \"go find 30 minutes for me\". That's a lot to ask from someone who has never heard of you. It also adds a link to your first email, and many senders keep the first email plain for deliverability. This is a common rule, not a study."
+    },
+    {
+      "type": "p",
+      "text": "**What to use instead:** offer one time. \"Thursday at 10am your time?\" can be answered with one word. If the time doesn't work, they'll usually suggest another one, and that's still a reply."
+    },
+    {
+      "type": "quote",
+      "text": "Worth a quick chat Thursday at 10am your time?"
+    },
+    {
+      "type": "h2",
+      "text": "Swap 3: the 400-word email"
+    },
+    {
+      "type": "p",
+      "text": "Short is a common rule for a reason: people read cold emails on their phone, between other things. Hunter's data is more mixed than most advice: emails of **61 to 80 words** got relatively high reply rates, but so did emails of **181 to 200 words**. Under 75 words is a safe starting point, not a magic number."
+    },
+    {
+      "type": "p",
+      "text": "**What to use instead:** four short parts. A reason you're writing to them. The problem. One line of proof. One ask."
+    },
+    {
+      "type": "h3",
+      "text": "Before (the starter pack)"
+    },
+    {
+      "type": "quote",
+      "text": "Subject: quick question. \"Hi Sarah, I hope this email finds you well. My name is John and I'm the founder of XYZ Agency. We are a full-service growth agency that has helped companies across many industries...\" (and 350 more words, then a calendar link)"
+    },
+    {
+      "type": "h3",
+      "text": "After (under 75 words)"
+    },
+    {
+      "type": "prompt",
+      "label": "Rewritten email",
+      "text": "Subject: Sarah\n\nHi [first name],\n\nSaw [company] is hiring two new sales reps. Congrats on the growth.\n\nNew reps usually need meetings on day one, not month three. We helped [similar company] book [real result] in [time].\n\nWorth a quick chat Thursday at 10am your time?\n\n[your name]"
+    },
+    {
+      "type": "p",
+      "text": "Fill the brackets with **real** details. Never invent a result. If you have no case study yet, offer something useful instead, like a short teardown of how they get leads today."
+    },
+    {
+      "type": "h2",
+      "text": "Swap 4: \"just bumping this\""
+    },
+    {
+      "type": "p",
+      "text": "Follow-ups matter a lot. In the same [Hunter report](https://hunter.io/the-state-of-cold-email), using **three messages instead of one increased total replies by 106% (6.8% vs 3.3%)**. But Hunter also found that people who followed up three or more times had a lower average reply rate. So: send about 3 emails, and make each one count."
+    },
+    {
+      "type": "p",
+      "text": "\"Just bumping this\" gives the reader nothing new to reply to. Every follow-up should add one new thing: a new angle, a case study, or a soft close."
+    },
+    {
+      "type": "h2",
+      "text": "The 3-email sequence"
+    },
+    {
+      "type": "prompt",
+      "label": "Email 2: a new angle (3 days later)",
+      "text": "Hi [first name],\n\nOne more thought. Most [their role]s we talk to don't have a lead problem, they have a follow-up problem: [the pain in one line].\n\nIf that sounds familiar, happy to share how [similar company] fixed it. Worth a look?\n\n[your name]"
+    },
+    {
+      "type": "prompt",
+      "label": "Email 2 option: a case study",
+      "text": "Hi [first name],\n\nQuick example: [similar company] had the same [problem]. We [what you did, one line]. Result: [real number] in [time].\n\nWant me to send the details?\n\n[your name]"
+    },
+    {
+      "type": "prompt",
+      "label": "Email 3: the soft close (4 to 5 days later)",
+      "text": "Hi [first name],\n\nI'll stop here so I don't crowd your inbox.\n\nIf [problem] becomes a priority later, just reply \"later\" and I'll check back next quarter.\n\n[your name]"
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: what follow-ups add"
+    },
+    {
+      "type": "p",
+      "text": "Using Hunter's averages on a list of **1,000 people**:"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "One email only: 1,000 × 3.3% = **about 33 replies**.",
+        "Three emails: 1,000 × 6.8% = **about 68 replies**.",
+        "Same list, same offer: **about 35 more replies** from two good follow-ups."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "These are averages from Hunter's users. Your numbers depend on your list and your offer."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes when you fix the starter pack"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Cutting words but keeping \"I hope this finds you well\"",
+          "Cut the opener first. Start with them."
+        ],
+        [
+          "Offering one time with no time zone",
+          "Say \"your time\" so there's no confusion"
+        ],
+        [
+          "Follow-ups that repeat email 1",
+          "Add one new thing each time: angle, proof or soft close"
+        ],
+        [
+          "Sending 6 or 7 follow-ups",
+          "Stop around 3 emails, then move on or check back later"
+        ],
+        [
+          "Inventing a case study to fill the bracket",
+          "Use real results only, or offer something free instead"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Run your email through the swap sheet with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Swap sheet prompt",
+      "text": "Here is my cold email and my follow-ups:\n[paste them]\n\nWhat I sell, in one sentence: [your offer]\nWho I'm writing to: [role, industry]\n\nCheck them against these 4 rules and rewrite them:\n1) Subject line: no \"quick question\". Give me 2 options: their first name, and a 3-6 word subject about their problem.\n2) No calendar link. End with one specific time, like \"Thursday at 10am your time?\"\n3) Email 1 under 75 words. Count the words and show the count.\n4) Max 3 emails. Each follow-up adds one new thing: a new angle, a case study, or a soft close. No \"just bumping this\".\nUse plain, simple English. Keep my facts. Don't invent results: leave [brackets] where I need to add real proof."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "Each habit costs a few replies. Swap all four."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: The State of Cold Email",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "31M emails: subject lines, length, follow-ups"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the swap sheet prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is \"quick question\" always bad?",
+      "a": "No. In Hunter's data it did a bit worse on average, and Hunter says it depends on your industry. Test it against a first-name subject on your own list."
+    },
+    {
+      "q": "When can I use a calendar link?",
+      "a": "After they say yes. Once someone replies \"sure, let's talk\", a calendar link saves both of you time."
+    },
+    {
+      "q": "What if my offer needs more than 75 words to explain?",
+      "a": "The first email only needs to start a conversation, not explain everything. Save the details for when they reply."
+    },
+    {
+      "q": "How many days between emails?",
+      "a": "A common rule is 2 to 4 days between emails. The bigger point is that each one adds something new."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

@@ -1,0 +1,307 @@
+{
+  "slug": "reviews",
+  "keyword": "REVIEWS",
+  "case": "case-02",
+  "title": "The Bad-Review Lead Play: Turn Competitor 1-2 Star Reviews Into Campaigns",
+  "description": "Use your competitor's 1-2 star reviews to find who is unhappy and what hurts, then write one campaign per complaint without quoting anyone.",
+  "lead": "This is the full bad-review lead play from the reel. The angriest reviews of your competitor are people telling you, in public, what they wish worked better. This guide shows how to read them, turn them into a list of the right companies, and write one cold email campaign per complaint.",
+  "insider": "We build client campaigns around one real pain sent to one tight list, because the goal is calls with people who actually have the problem. In our construction software campaign that meant **31 sales-qualified demos and 6 signed annual contracts**. Reading reviews takes an afternoon. Turning every complaint into a running campaign, every day, is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why angry reviews are warm leads"
+    },
+    {
+      "type": "p",
+      "text": "Someone who writes a 1-star review of a tool like yours has already done three things for you. They **bought in your category**, so you don't need to explain why it matters. They **named their pain**, in their own words. And they're **unhappy right now**."
+    },
+    {
+      "type": "p",
+      "text": "That doesn't mean you email the reviewer. It means you learn what hurts, who it hurts (role, company size, industry), and then reach the many companies that look just like them."
+    },
+    {
+      "type": "h2",
+      "text": "Where to find the reviews"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Site",
+        "Good for",
+        "What it often shows about the reviewer"
+      ],
+      "rows": [
+        [
+          "[G2](https://www.g2.com)",
+          "B2B software",
+          "Job title, company size, sometimes industry"
+        ],
+        [
+          "[Capterra](https://www.capterra.com)",
+          "Software for small businesses",
+          "Job title, industry, company size"
+        ],
+        [
+          "[Clutch](https://clutch.co)",
+          "Agencies and service firms",
+          "Title, industry, company size"
+        ],
+        [
+          "[Trustpilot](https://www.trustpilot.com)",
+          "Online stores and consumer services",
+          "Name and country"
+        ],
+        [
+          "Google reviews",
+          "Local businesses",
+          "Usually just a name"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Start with the site where your buyers leave reviews. For B2B software, that's usually G2."
+    },
+    {
+      "type": "h2",
+      "text": "The 5-step play"
+    },
+    {
+      "type": "h3",
+      "text": "Step 1: Filter your competitor to 1-2 stars"
+    },
+    {
+      "type": "p",
+      "text": "Open your competitor's reviews page and filter or sort by the lowest star ratings. G2 also lets you [filter reviews by the reviewer's company size, role or industry](https://www.g2.com/products/hubspot-sales-hub/reviews), so you can narrow it to the buyers you sell to."
+    },
+    {
+      "type": "p",
+      "text": "**Why 1-2 stars:** 3-star reviews are mixed. 1-2 star reviews say clearly what went wrong. Read the most recent ones first (last 12 months), because old complaints may already be fixed."
+    },
+    {
+      "type": "h3",
+      "text": "Step 2: Anonymous? Look at the details"
+    },
+    {
+      "type": "p",
+      "text": "Many reviews don't show a full name. That's fine. On G2, reviews often still show the **job title** and a **company size** label, like \"Small-Business (50 or fewer emp.)\" or \"Mid-Market (51-1000 emp.)\". That's all you need. You're targeting a type of buyer, not a person."
+    },
+    {
+      "type": "tip",
+      "label": "Don't hunt the reviewer",
+      "text": "Never try to work out who wrote an anonymous review. It's creepy, and you don't need it. The pattern is what's valuable."
+    },
+    {
+      "type": "h3",
+      "text": "Step 3: Note role, size and industry, then find those companies"
+    },
+    {
+      "type": "p",
+      "text": "Copy 20 to 50 bad reviews into a sheet. For each, write the role, size, industry and the main complaint in a few words. Then group them by complaint."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Complaint theme",
+        "Roles who wrote it",
+        "Size",
+        "Count"
+      ],
+      "rows": [
+        [
+          "Support takes days to reply",
+          "Ops managers",
+          "Small-Business",
+          "12"
+        ],
+        [
+          "Surprise price increase at renewal",
+          "Founders, finance",
+          "Small-Business",
+          "9"
+        ],
+        [
+          "Setup took months",
+          "IT, project managers",
+          "Mid-Market",
+          "7"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "(Example data. Yours will look different.) Now use your lead tool to find companies that match each row: same roles, same size, same industry. If you can see which tools a company uses, filter to companies using the competitor."
+    },
+    {
+      "type": "h3",
+      "text": "Step 4: Name the pain. Never quote their review"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** the person you email probably didn't write the review. And even if they did, quoting it back feels like you were watching them. Instead, describe the problem as something common in their role."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Don't write",
+        "Write instead"
+      ],
+      "rows": [
+        [
+          "\"I saw your review of [competitor] on G2...\"",
+          "\"A lot of ops managers tell us support replies take days.\""
+        ],
+        [
+          "\"You said setup took 4 months.\"",
+          "\"Setup often drags on for months at companies your size.\""
+        ],
+        [
+          "\"[Competitor] is terrible.\"",
+          "\"Here's how we handle setup: live in 2 weeks.\""
+        ]
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 5: One complaint = one campaign"
+    },
+    {
+      "type": "p",
+      "text": "Don't stuff three pains into one email. Each complaint theme gets its own list and its own message. That way every email talks about one problem the reader actually has, and you can see which pain gets the most replies."
+    },
+    {
+      "type": "p",
+      "text": "And **never trash the competitor**. Many of your readers still use them, and some picked them. Show how you do it better, with facts, and let them make the comparison."
+    },
+    {
+      "type": "prompt",
+      "label": "One-complaint email template",
+      "text": "Subject: [the pain in 2-3 words, e.g. slow support replies]\n\nHi [first name],\n\nA lot of [role]s at [company type] tell us [the pain, in plain words].\n\nWe [how you solve that exact pain, one sentence, with a real fact].\n\nWorth a look?\n\n[your name]"
+    },
+    {
+      "type": "h2",
+      "text": "Worked example"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "You sell help desk software. You open a competitor's G2 page and read the 40 most recent 1-2 star reviews.",
+        "You group them: 14 about slow support, 11 about pricing at renewal, 9 about hard setup, 6 other.",
+        "Most \"slow support\" reviews come from support leads at companies with 50 or fewer employees.",
+        "You build a list of support leads at small software companies, and filter to ones that use the competitor if your data shows it.",
+        "Campaign 1 talks only about getting help in minutes. Campaign 2, a week later, talks only about clear pricing. Campaign 3 talks only about fast setup."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "(Example numbers, to show the method.) You now have three campaigns, each built on a pain real buyers wrote down, instead of one generic email."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Why it hurts",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Quoting the review",
+          "Feels like spying, often the wrong person",
+          "Name the pain as common in their role"
+        ],
+        [
+          "Trashing the competitor",
+          "Readers who chose them get defensive",
+          "Show your way, with facts"
+        ],
+        [
+          "Three pains in one email",
+          "Reader can't tell what you fix",
+          "One complaint = one campaign"
+        ],
+        [
+          "Using old reviews",
+          "The problem may be fixed already",
+          "Use the last 12 months"
+        ],
+        [
+          "Claiming you fix it when you don't",
+          "Wins the reply, loses the deal",
+          "Only pick pains you really solve better"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Let Claude sort the complaints"
+    },
+    {
+      "type": "prompt",
+      "label": "Review sorting prompt",
+      "text": "Here are 1-2 star reviews of [competitor], copied from [site]. Each has the reviewer's role, company size and industry where shown:\n[paste reviews]\n\nWhat I sell: [one sentence]. What we do better: [facts].\n\n1. Group the reviews into complaint themes. For each theme give: a short name, how many reviews, the most common roles, company sizes and industries.\n2. Mark which themes I can honestly solve better, based only on the facts I gave you.\n3. For each theme I can solve, write a 4-line cold email: name the pain as common in that role, how we solve it, one easy question. Never quote a review, never mention the review site, never insult the competitor."
+    },
+    {
+      "type": "tip",
+      "label": "Play fair",
+      "text": "Read reviews by hand and follow each site's terms. Reviews are public, but bulk scraping is often against the rules."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "Their complaint is your subject line. Their review is never your opening line."
+    }
+  ],
+  "resources": [
+    {
+      "name": "G2",
+      "url": "https://www.g2.com",
+      "note": "B2B software reviews with role and company size"
+    },
+    {
+      "name": "G2 example: filter reviews by company size, role or industry",
+      "url": "https://www.g2.com/products/hubspot-sales-hub/reviews",
+      "note": "See how the filters and reviewer details look"
+    },
+    {
+      "name": "Capterra",
+      "url": "https://www.capterra.com",
+      "note": "Software reviews from smaller businesses"
+    },
+    {
+      "name": "Clutch",
+      "url": "https://clutch.co",
+      "note": "Reviews of agencies and service firms"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the review sorting prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I email the person who wrote the review?",
+      "a": "Don't. You usually can't tell who it is, and it feels like spying. Target companies that look like the reviewer instead."
+    },
+    {
+      "q": "What if my competitor has very few bad reviews?",
+      "a": "Read 3-star reviews too, and look at the \"what do you dislike\" part of good reviews. Small complaints still point to real pains."
+    },
+    {
+      "q": "Is it OK to mention the competitor by name?",
+      "a": "Usually it's better not to. Talk about the problem. If they bring up the competitor, answer with facts, never insults."
+    },
+    {
+      "q": "How many reviews do I need?",
+      "a": "20 to 50 recent ones is enough to see clear patterns. If one theme shows up again and again, start there."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

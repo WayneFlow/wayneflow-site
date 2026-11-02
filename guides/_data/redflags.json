@@ -1,0 +1,257 @@
+{
+  "slug": "redflags",
+  "keyword": "REDFLAGS",
+  "case": "case-04",
+  "title": "The Cold Email Red Flag Checklist: 5 Mistakes Ranked, With the Fix for Each",
+  "description": "5 red flags that quietly kill cold email replies, ranked by damage, with the exact fix for each, Hunter's data from 31M emails and a 2-minute pre-send check.",
+  "lead": "This is the full red flag checklist from the reel, with the fix for each flag. Most cold emails don't fail because of one big mistake. They fail because of small ones nobody checks. Here are the 5 red flags, ranked from least to most damage, and exactly how to fix each one.",
+  "insider": "These are the first things we check before any client campaign goes live. Fixing them is part of how we kept a **3.69% reply rate across 236,545 emails in one full quarter**. Any one fix takes five minutes. Checking every inbox, every domain and every email before it sends, every day, is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why small things cost so much"
+    },
+    {
+      "type": "p",
+      "text": "A stranger gives your email about two seconds. A spam filter gives it even less. Small signals decide both: the first line, the length, a link, a hidden tracking image, the address it came from."
+    },
+    {
+      "type": "p",
+      "text": "The numbers below come from [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email), which looked at **31 million emails sent by Hunter users in 2025**."
+    },
+    {
+      "type": "h2",
+      "text": "The 5 red flags, ranked"
+    },
+    {
+      "type": "h3",
+      "text": "#5 \"I hope this finds you well.\""
+    },
+    {
+      "type": "p",
+      "text": "**Why it hurts:** the first line shows in the inbox preview. This one tells the reader nothing about them, and it's the same line thousands of sales emails use. It reads as \"template\" before they even open it."
+    },
+    {
+      "type": "p",
+      "text": "**Fix: open with them.** Their company, their role, their market, something they posted or something that changed."
+    },
+    {
+      "type": "quote",
+      "text": "**Before:** \"Hi Sarah, I hope this finds you well. My name is Tom and I work at...\""
+    },
+    {
+      "type": "quote",
+      "text": "**After:** \"Hi Sarah, saw Acme just opened a second location in Austin.\""
+    },
+    {
+      "type": "h3",
+      "text": "#4 The 400-word wall"
+    },
+    {
+      "type": "p",
+      "text": "**Why it hurts:** most people read email on a phone. 400 words is several screens of scrolling for a stranger who didn't ask for it. They skip it, or save it for \"later\", which means never."
+    },
+    {
+      "type": "p",
+      "text": "**Fix: under 75 words.** One problem, one proof, one small ask. Hunter saw comparatively high reply rates for emails of 61 to 80 words (some longer emails did well too), so short is a safe target, not a magic number. The real test: can they read it in one screen without scrolling?"
+    },
+    {
+      "type": "h3",
+      "text": "#3 A link in your first email"
+    },
+    {
+      "type": "p",
+      "text": "**Why it hurts:** spam filters look harder at emails from strangers, and links are one of the things they check. A link also asks for a click, when what you want is a reply."
+    },
+    {
+      "type": "p",
+      "text": "**Fix: plain text, no links in email 1.** No logo, no images, no calendar link. Let them ask for the link. That's a reply, and you can send the link in your answer."
+    },
+    {
+      "type": "h3",
+      "text": "#2 Open tracking turned on"
+    },
+    {
+      "type": "p",
+      "text": "**Why it hurts:** open tracking works by hiding a tiny image in every email. That turns a plain-text email into an HTML one with an image from a tracking server, which filters notice. In [Hunter's data](https://hunter.io/the-state-of-cold-email), campaigns **without open tracking got a 7.4% reply rate vs 4.4% with it on**."
+    },
+    {
+      "type": "p",
+      "text": "**Fix: turn open tracking off** in your sending tool for every campaign. Turn off link tracking too. Measure replies, interested replies and booked calls instead. Those are the numbers that pay you."
+    },
+    {
+      "type": "h3",
+      "text": "#1 Sending from a free Gmail address"
+    },
+    {
+      "type": "p",
+      "text": "**Why it hurts:** a free address looks less like a real business, and you can't set up your own domain's authentication on it. Hunter found emails from a **custom domain got 5.2% replies vs 2.5% from free email addresses**. That's about half the replies from the same work."
+    },
+    {
+      "type": "p",
+      "text": "**Fix: buy a separate domain for cold email, never your main one.** If something goes wrong with cold email, your main domain (the one your clients and invoices use) stays safe."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Buy a domain close to your brand, like **getacme.com** or **tryacme.com** if your main one is acme.com.",
+        "Create Google Workspace or Microsoft 365 inboxes on it, with real names (sarah@getacme.com).",
+        "Set up SPF, DKIM and DMARC records. [Google's sender guidelines](https://support.google.com/mail/answer/81126) require authentication for everyone sending to Gmail, and all three for bulk senders.",
+        "Point the new domain's website to your main site, so curious readers find you.",
+        "Warm the inboxes up for a few weeks before you send a real campaign."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: what each flag costs"
+    },
+    {
+      "type": "p",
+      "text": "Take the same **1,000 contacts** and apply Hunter's averages, one flag at a time:"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Flag",
+        "With the flag",
+        "Fixed",
+        "Difference"
+      ],
+      "rows": [
+        [
+          "Free Gmail vs own domain",
+          "1,000 x 2.5% = 25 replies",
+          "1,000 x 5.2% = 52 replies",
+          "+27 replies"
+        ],
+        [
+          "Open tracking on vs off",
+          "1,000 x 4.4% = 44 replies",
+          "1,000 x 7.4% = 74 replies",
+          "+30 replies"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "These are averages from separate comparisons, so you can't just add them up and expect +57. But it shows the size of the leak: each flag can cost you a few dozen replies per 1,000 emails."
+    },
+    {
+      "type": "h2",
+      "text": "The red flag checklist"
+    },
+    {
+      "type": "table",
+      "head": [
+        "#",
+        "Red flag",
+        "How to spot it",
+        "The fix"
+      ],
+      "rows": [
+        [
+          "5",
+          "\"I hope this finds you well\"",
+          "Your first line could go to anyone",
+          "Open with something about them"
+        ],
+        [
+          "4",
+          "The 400-word wall",
+          "You have to scroll on a phone",
+          "Under 75 words, one ask"
+        ],
+        [
+          "3",
+          "A link in email 1",
+          "Any URL, logo or calendar link",
+          "Plain text, no links. Send it when they ask"
+        ],
+        [
+          "2",
+          "Open tracking on",
+          "Check the campaign settings",
+          "Turn open and link tracking off"
+        ],
+        [
+          "1",
+          "Free Gmail address",
+          "The From address ends in @gmail.com",
+          "A separate domain just for cold email"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Scan your email with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Red flag scanner prompt",
+      "text": "Check this cold email for these 5 red flags:\n1) A generic opener like \"I hope this finds you well\" (first line is not about the reader)\n2) Over 75 words\n3) Any link, image, logo or calendar link\n4) Anything that suggests open tracking or HTML design\n5) A free sender address (I'll tell you mine: [your From address])\n\nMy email:\n[paste email]\n\nFor each flag, say FOUND or CLEAR. Then rewrite the email to fix every flag: plain text, under 75 words, first line about the reader, one simple question at the end. Don't invent facts about the reader: use [brackets] where I need to fill something in."
+    },
+    {
+      "type": "h2",
+      "text": "The 2-minute pre-send check"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Read only the first line. Is it about them? If not, rewrite it.",
+        "Open it on your phone. If you have to scroll, cut it.",
+        "Search the email for \"http\" and \"www\". Remove every link from email 1.",
+        "Open the campaign settings. Open tracking and link tracking: off.",
+        "Look at the From address. It's on a separate domain, never @gmail.com, never your main domain."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "Fix #1 first. A great email from a free Gmail address still loses about half its replies."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "31 million emails: open tracking, custom domain and length data"
+    },
+    {
+      "name": "Google: Email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "SPF, DKIM and DMARC requirements"
+    },
+    {
+      "name": "Google Postmaster Tools",
+      "url": "https://postmaster.google.com",
+      "note": "See how Gmail sees your new domain"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the red flag scanner prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is open tracking always bad?",
+      "a": "For cold email, it's one of the easiest fixes: Hunter saw 7.4% replies with it off vs 4.4% with it on. Open numbers are also unreliable now, so you lose very little by turning it off."
+    },
+    {
+      "q": "Why not just send cold email from my main domain?",
+      "a": "If cold email hurts that domain's reputation, your normal emails to clients, invoices and password resets can start landing in spam too. A separate domain keeps that risk away from your business."
+    },
+    {
+      "q": "When can I send a link?",
+      "a": "When they ask for it, or in a later follow-up once they've replied. A reply asking \"can you send more info?\" is exactly what you want."
+    },
+    {
+      "q": "Is 75 words a hard rule?",
+      "a": "No, it's a safe target. The real rule is one idea, one ask, readable on a phone without scrolling."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

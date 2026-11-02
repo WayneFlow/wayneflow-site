@@ -1,0 +1,279 @@
+{
+  "slug": "stall",
+  "keyword": "STALL",
+  "case": "case-02",
+  "title": "The One-Page Decision Brief: Stop Deals Stalling Without Pushing Harder",
+  "description": "A one-page decision brief your contact can forward to everyone involved: problem, cost of waiting, options, price range and next step. Template inside.",
+  "lead": "This is the full one-page decision brief template from the reel. Most deals don't die because the buyer says no. They stall because the people you never met can't agree. This guide gives you the template, a filled-in example, the math for the cost of waiting and the email to send it with.",
+  "insider": "We see this in our clients' pipelines all the time: the person who replies to the email is rarely the only one who decides. In our construction software campaign, **31 qualified demos turned into 6 annual contracts**, and the deals that closed were the ones where the whole team understood the plan. Booking the meeting is the start. Keeping every deal moving, every day, is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why deals stall"
+    },
+    {
+      "type": "p",
+      "text": "Forrester's [State of Business Buying 2024](https://www.forrester.com/press-newsroom/forrester-the-state-of-business-buying-2024) found that **86% of B2B purchases stall** during the buying process. It also found that, on average, **13 people inside a company are involved in the buying decision**. You usually talk to one of them."
+    },
+    {
+      "type": "p",
+      "text": "Those people don't always agree. In a [Gartner survey of 632 B2B buyers](https://www.gartner.com/en/newsroom/press-releases/2025-05-07-gartner-sales-survey-finds-74-percent-of-b2b-buyer-teams-demonstrate-unhealthy-conflict-during-the-decision-process), **74% of buying teams showed \"unhealthy conflict\"** during the decision. Buying groups that reached agreement were **2.5 times more likely to report a high-quality deal**."
+    },
+    {
+      "type": "p",
+      "text": "So pushing your one contact harder doesn't help much. They're not the problem. The other 12 people are missing information, and your contact doesn't have an easy way to give it to them."
+    },
+    {
+      "type": "h2",
+      "text": "What a decision brief is"
+    },
+    {
+      "type": "p",
+      "text": "A decision brief is one page your contact can forward to everyone involved. It answers the questions those people will ask, in the order they'll ask them. It's not a proposal and not a sales deck. It's a short summary that makes the decision easy to discuss."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**One page.** If it's longer, nobody reads it and nobody forwards it.",
+        "**Written for the group.** Gartner found messages aimed at the whole buying group help them agree. Messages aimed at one person can do the opposite.",
+        "**In their words.** Use what your contact told you on the call, not your marketing copy."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The 5 sections"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Section",
+        "The question it answers",
+        "Length"
+      ],
+      "rows": [
+        [
+          "1. The problem",
+          "What's wrong, and who does it affect?",
+          "2-3 lines"
+        ],
+        [
+          "2. The cost of waiting",
+          "What does it cost us to do nothing for 3 more months?",
+          "2-3 lines with a number"
+        ],
+        [
+          "3. The options",
+          "What can we do, including doing nothing?",
+          "3 options, 1 line each"
+        ],
+        [
+          "4. The price range",
+          "Roughly what does it cost?",
+          "1-2 lines"
+        ],
+        [
+          "5. The next step",
+          "What happens next, who decides, and by when?",
+          "1-2 lines"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Always include \"do nothing\"",
+      "text": "Doing nothing is the option most buying teams pick. Name it, and show what it costs. Then it's a real choice, not a silent default."
+    },
+    {
+      "type": "h2",
+      "text": "The template"
+    },
+    {
+      "type": "prompt",
+      "label": "One-page decision brief (copy it)",
+      "text": "DECISION BRIEF: [what's being decided, in one line]\nPrepared for: [company] team | Date: [date]\n\n1. THE PROBLEM\n[2-3 lines in their words. Who it affects: e.g. sales team, finance, operations.]\n\n2. THE COST OF WAITING\n[The number: hours, money or deals lost per month.]\nWaiting 3 more months costs about: [number].\n\n3. THE OPTIONS\nA) Do nothing: [what happens].\nB) [Option B, e.g. do it in-house]: [cost, time, risk in one line].\nC) [Option C, e.g. work with us]: [cost, time, risk in one line].\n\n4. PRICE RANGE\n[Option C] usually runs [$X to $Y] [per month / per project], depending on [what changes the price].\n\n5. NEXT STEP\n[One clear step, e.g. a 30-minute call with finance and ops.]\nWho needs to agree: [roles].\nTarget decision date: [date]."
+    },
+    {
+      "type": "h2",
+      "text": "How to work out the cost of waiting"
+    },
+    {
+      "type": "p",
+      "text": "This is the section that moves deals. Most teams don't stall because they think the problem is small. They stall because nobody has put a number on it. Use this simple math:"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Find the unit of pain: hours lost, deals missed, money wasted.",
+        "Multiply by the people or volume it affects.",
+        "Turn it into a monthly number, then a 3-month number."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example"
+    },
+    {
+      "type": "p",
+      "text": "Say your contact runs a sales team of **5 reps**. Each rep loses about **3 hours a week** to manual data entry. Their time costs the company about **$50 an hour**. (These are example numbers. Use the ones your contact gives you.)"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "5 reps × 3 hours × $50 = **$750 a week**",
+        "$750 × 52 weeks ÷ 12 months = **$3,250 a month**",
+        "3 more months of waiting = **$9,750**"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Now the brief can say: \"Waiting until next quarter costs about $9,750 in rep time.\" If your option costs less than that, the conversation changes from \"maybe later\" to \"why wait?\""
+    },
+    {
+      "type": "h2",
+      "text": "A filled-in example"
+    },
+    {
+      "type": "prompt",
+      "label": "Example brief",
+      "text": "DECISION BRIEF: Automating CRM data entry for the sales team\nPrepared for: Acme Supply team | Date: [date]\n\n1. THE PROBLEM\nEach of our 5 reps spends about 3 hours a week typing call notes and updates into the CRM. Affects sales and the sales manager's reports.\n\n2. THE COST OF WAITING\nAbout $3,250 a month in rep time (5 reps x 3 h x $50/h, every week).\nWaiting 3 more months costs about $9,750.\n\n3. THE OPTIONS\nA) Do nothing: reps keep losing 15 hours a week combined. Reports stay late.\nB) Build it in-house: needs IT time, about 2-3 months before it works.\nC) Use [vendor]: live in about 2 weeks, team trained in one session.\n\n4. PRICE RANGE\nOption C usually runs $800 to $1,200 a month, depending on the number of users.\n\n5. NEXT STEP\n30-minute call with the sales manager and finance next week.\nWho needs to agree: sales manager, finance lead, IT.\nTarget decision date: end of this month."
+    },
+    {
+      "type": "h2",
+      "text": "How to send it"
+    },
+    {
+      "type": "p",
+      "text": "Send it the same day as the call, while it's fresh. Make it easy to forward."
+    },
+    {
+      "type": "prompt",
+      "label": "Email to send with the brief",
+      "text": "Subject: One-page summary for your team\n\nHi [first name],\n\nThanks for the time today. You mentioned [names or roles] will want a say, so I put everything on one page you can forward as is: the problem, what waiting costs, the options and a price range.\n\nIf anything's off, tell me and I'll fix it before you send it around.\n\n[your name]"
+    },
+    {
+      "type": "h2",
+      "text": "Stall signals and what to send"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Signal",
+        "What it often means",
+        "What to do"
+      ],
+      "rows": [
+        [
+          "\"I need to run it by the team\"",
+          "Other people decide",
+          "Send the brief, offer a short group call"
+        ],
+        [
+          "\"Let's revisit next quarter\"",
+          "No one has priced the delay",
+          "Add or update the cost of waiting"
+        ],
+        [
+          "Silence after a good call",
+          "Your contact can't explain it internally",
+          "Send the brief with \"you can forward this as is\""
+        ],
+        [
+          "\"Finance has questions\"",
+          "Price without context",
+          "Make sure options and price range are clear"
+        ],
+        [
+          "New person joins the thread",
+          "A new stakeholder",
+          "Send them the brief, don't restart the pitch"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "The brief is 4 pages long",
+          "One page. Cut until it fits"
+        ],
+        [
+          "It reads like a sales pitch",
+          "Write it as if your contact wrote it for their boss"
+        ],
+        [
+          "No \"do nothing\" option",
+          "Always show what doing nothing costs"
+        ],
+        [
+          "No price at all",
+          "Give a range. Finance will ask anyway"
+        ],
+        [
+          "A vague next step (\"let's stay in touch\")",
+          "One step, who joins, and a date"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Write your brief with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Decision brief prompt",
+      "text": "Here are my notes from a sales call:\n[paste your notes]\n\nWhat I sell: [one sentence]\nMy usual price range: [$X to $Y]\n\nWrite a one-page decision brief my contact can forward to their team. Sections:\n1) The problem (2-3 lines, in their words)\n2) The cost of waiting (work out a monthly and 3-month number from my notes; show the math; if a number is missing, put [ASK] instead of guessing)\n3) Three options: do nothing, do it in-house, work with us (one line each, fair to all three)\n4) Price range\n5) One next step, who needs to agree, and a target date\nRules: under 300 words, no hype, simple English, written for the whole team, not just my contact."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "It only works if it's short enough to forward."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Forrester: The State of Business Buying, 2024",
+      "url": "https://www.forrester.com/press-newsroom/forrester-the-state-of-business-buying-2024",
+      "note": "86% of purchases stall, 13 people involved on average"
+    },
+    {
+      "name": "Gartner: 74% of B2B buyer teams show unhealthy conflict",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2025-05-07-gartner-sales-survey-finds-74-percent-of-b2b-buyer-teams-demonstrate-unhealthy-conflict-during-the-decision-process",
+      "note": "632 buyers; teams that agree are 2.5x more likely to report a high-quality deal"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the decision brief prompt with your call notes"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Isn't a proposal the same thing?",
+      "a": "No. A proposal is long and about your offer. The brief is one page and about their decision. Send the brief first, the proposal once the group agrees."
+    },
+    {
+      "q": "What if I don't know the cost of waiting?",
+      "a": "Ask on the call: \"Roughly how many hours or deals does this cost you a month?\" If you still don't know, leave a blank for your contact to fill in. Never make it up."
+    },
+    {
+      "q": "Should I include competitors as options?",
+      "a": "You can say \"another vendor\" as an option. Keep it fair. A brief that only makes you look good won't be trusted by the rest of the team."
+    },
+    {
+      "q": "What if my contact won't forward it?",
+      "a": "Ask who else will be part of the decision, and offer a short call with them. If no one else ever appears, the deal may not be real yet."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}

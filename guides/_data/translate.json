@@ -1,0 +1,321 @@
+{
+  "slug": "translate",
+  "keyword": "TRANSLATE",
+  "case": "case-01",
+  "title": "The Come-Back Script: What to Say When a Prospect Says \"Not Now\"",
+  "description": "\"Not now\" usually means later. The 3-step come-back script: ask for a date, log it with a reminder, then return with their words plus something new.",
+  "lead": "This is the full come-back script from the reel. When a prospect says \"let's circle back next quarter\", most people hear a no and give up. This guide shows how to turn \"not now\" into a date, keep that date, and come back with a message that gets picked up.",
+  "insider": "This is how we handle \"later\" replies for clients. In our agency client campaign, **2,146 people said they were interested** over four and a half months, and not all of them were ready that same week. Getting the date is one line. Logging every \"not now\" and coming back on the right day, every day, is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "\"Not now\" is not \"no\""
+    },
+    {
+      "type": "p",
+      "text": "Busy people rarely say a hard no. They say \"not now\", \"maybe next quarter\" or \"send me something\". Most sellers read this as a polite rejection and move on."
+    },
+    {
+      "type": "p",
+      "text": "Often it means exactly what it says: **the timing is wrong, not the offer**. Their budget resets later. Another project comes first. Their contract with someone else ends in six months. If you give up, you lose a buyer who would have said yes later."
+    },
+    {
+      "type": "h2",
+      "text": "The corporate translation table"
+    },
+    {
+      "type": "p",
+      "text": "Here's what common \"not now\" replies usually mean, and what to do with each. These are patterns, not rules. When you're not sure, ask."
+    },
+    {
+      "type": "table",
+      "head": [
+        "They say",
+        "What it often means",
+        "Your move"
+      ],
+      "rows": [
+        [
+          "\"Let's circle back next quarter.\"",
+          "Ask me again in 3 months.",
+          "Ask for a date. Log it."
+        ],
+        [
+          "\"Not a priority right now.\"",
+          "Other fires this month.",
+          "Ask when it might become one."
+        ],
+        [
+          "\"No budget this year.\"",
+          "Budget gets set on a date.",
+          "Ask when planning starts."
+        ],
+        [
+          "\"We just signed with someone.\"",
+          "Locked in for a while.",
+          "Ask when the contract is up for renewal."
+        ],
+        [
+          "\"Send me some info.\"",
+          "Maybe, or a polite exit.",
+          "Send one short thing, then ask one question."
+        ],
+        [
+          "\"Not interested, please stop.\"",
+          "A real no.",
+          "Thank them and remove them. Don't come back."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The 3-step come-back script"
+    },
+    {
+      "type": "h3",
+      "text": "Step 1: Ask for the date"
+    },
+    {
+      "type": "quote",
+      "text": "Makes sense. When's a better time to come back to this?"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** you agree with them first, so there's no pressure. Then you ask a question that's easy to answer. They choose the date, so when you come back, you're not chasing them. You're doing what they asked."
+    },
+    {
+      "type": "p",
+      "text": "If you want a softer or more specific version, use one of these:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "\"Totally fair. Should I check back in 3 months, or is there a better time?\"",
+        "\"No problem. Is there a date when this gets looked at again, like budget planning?\"",
+        "\"Got it. Would early [month] be a good time to pick this up?\""
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Vague answer?",
+      "text": "If they say \"sometime next year\", turn it into a real date for them: \"Would mid-January work?\" A vague answer is easy to forget. A date is not."
+    },
+    {
+      "type": "h3",
+      "text": "Step 2: Write their date in your CRM, with a reminder"
+    },
+    {
+      "type": "p",
+      "text": "**Why it matters:** no date, and you'll both forget. Three months later, they won't remember the email, and you won't remember who said what. The note you write today is what makes the come-back message work."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Log it within 5 minutes of their reply, while it's fresh.",
+        "Copy **their exact words** about timing and the reason. You'll use them later.",
+        "Set the reminder for 2 to 3 days before their date, so you have time to find something new.",
+        "Tag the lead \"come-back\" so you can see all of them in one list.",
+        "Once a week, look at the list and check nothing slipped past its date."
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Field",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Name and company",
+          "Dana, Ridge Logistics"
+        ],
+        [
+          "Their exact words",
+          "\"Let's circle back after Q1 planning.\""
+        ],
+        [
+          "Reason for delay",
+          "Budget set in March"
+        ],
+        [
+          "Come-back date",
+          "March 18"
+        ],
+        [
+          "Reminder",
+          "March 15"
+        ],
+        [
+          "Something new to bring",
+          "New case study in logistics"
+        ],
+        [
+          "Status",
+          "Waiting / Replied / Booked / Closed"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Any CRM can do this. A [free HubSpot CRM](https://www.hubspot.com/products/crm) or even a Google Sheet with a calendar reminder works fine. The tool matters less than doing it every time."
+    },
+    {
+      "type": "h3",
+      "text": "Step 3: Come back on their date with their words + something new"
+    },
+    {
+      "type": "quote",
+      "text": "You said to come back after this date. Since then, a similar company got this result. Worth picking up?"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** their own words remind them that they asked you to come back. That makes it feel like a promise you kept, not a cold email. The new thing gives them a reason to reply now. \"Just checking in\" gives them nothing."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**A real result** from a similar company (only if it's true).",
+        "**Something that changed** on your side: a new service, a lower starting price, a pilot option.",
+        "**Something that changed** on their side: a new hire, a new office, funding, a new product.",
+        "**One useful idea** for the problem they mentioned, even if they never buy."
+      ]
+    },
+    {
+      "type": "prompt",
+      "label": "Come-back email template",
+      "text": "Subject: [their words, e.g. after Q1 planning]\n\nHi [first name],\n\nBack in [month] you said to come back to this [their words, e.g. after Q1 planning]. So here I am.\n\nSince then, [something new: a similar company got this result / we added this / I saw you did this].\n\nWorth picking up?\n\n[your name]"
+    },
+    {
+      "type": "h2",
+      "text": "Worked example"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**October 14:** Dana replies: \"Interesting, but let's circle back next quarter.\"",
+        "**October 14:** You reply: \"Makes sense. When's a better time to come back to this?\" Dana says: \"After our Q1 planning, mid-March.\"",
+        "**October 14:** You log it: come-back date March 18, reminder March 15, her words \"after our Q1 planning\".",
+        "**March 15:** The reminder fires. You find something new: a case study from another logistics company.",
+        "**March 18:** You send: \"Hi Dana, back in October you said to come back after Q1 planning. Since then, we ran a campaign for another logistics firm and they got [real result]. Worth picking up?\""
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Now the example math. Say 40 people tell you \"not now\" this quarter. If you give up, that's 40 lost conversations. If you get dates from 30 of them and even 5 are ready when you come back, that's **5 new conversations from leads you already paid to get**."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Why it hurts",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Saying \"OK, thanks!\" and stopping",
+          "The lead is gone forever",
+          "Always ask for a date"
+        ],
+        [
+          "Arguing with the timing",
+          "Feels pushy, kills trust",
+          "Agree first: \"Makes sense.\""
+        ],
+        [
+          "No CRM note",
+          "You forget who said what",
+          "Log date + their words in 5 minutes"
+        ],
+        [
+          "\"Just checking in\"",
+          "Gives them no reason to reply",
+          "Bring their words + one new thing"
+        ],
+        [
+          "Coming back too early",
+          "Breaks the promise you made",
+          "Wait for their date"
+        ],
+        [
+          "Making up a result",
+          "Destroys trust if they check",
+          "Only use real results, or share an idea instead"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "If they say \"not now\" again"
+    },
+    {
+      "type": "p",
+      "text": "It happens. Ask for a new date once more and log it again. If it's the third \"not now\", ask a direct, friendly question: \"Should I close the file on this for now?\" A clear yes or no is better than a lead that floats forever."
+    },
+    {
+      "type": "p",
+      "text": "There's data behind this too. In the [Gong x 30 Minutes to President's Club cold email report](https://tactics.30mpc.com/hubfs/The%20Ultimate%20Cold%20Email%20Data%20Report-1.pdf) (85M+ cold emails), follow-up emails with **breakup language nearly doubled the reply rate**. People reply when you make it easy to say where things stand."
+    },
+    {
+      "type": "h2",
+      "text": "Write your come-back message with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Come-back prompt",
+      "text": "A prospect told me \"not now\". Here are my notes:\n- Their exact words about timing: [paste]\n- Why they delayed: [reason]\n- What they care about: [their goal, in their words]\n- When they said it: [month]\n- Something new since then: [real result, new offer or change on their side]\n\nWrite my come-back email. Rules:\n- Under 60 words, plain and friendly\n- Start by reminding them of their own words and timing\n- Mention the new thing in one sentence\n- End with one easy question, like \"Worth picking up?\"\n- No \"just checking in\", no pressure, don't invent results"
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "\"Not now\" is a date you haven't asked for yet."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Gong x 30 Minutes to President's Club: The Ultimate Cold Email Data Report",
+      "url": "https://tactics.30mpc.com/hubfs/The%20Ultimate%20Cold%20Email%20Data%20Report-1.pdf",
+      "note": "85M+ cold emails, breakup follow-ups data"
+    },
+    {
+      "name": "HubSpot free CRM",
+      "url": "https://www.hubspot.com/products/crm",
+      "note": "Log come-back dates and reminders for free"
+    },
+    {
+      "name": "Our WHEN guide",
+      "url": "https://wayneflow.com/guides/when.html",
+      "note": "The 4 questions that sort now vs later"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the come-back prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Isn't coming back after a \"not now\" annoying?",
+      "a": "Not if they gave you the date. You're doing what they asked. It only feels annoying when you come back early or with nothing new."
+    },
+    {
+      "q": "What if they won't give me a date?",
+      "a": "Suggest one: \"Should I check back in 3 months?\" Most people say yes. Log it like any other date."
+    },
+    {
+      "q": "How long should I keep coming back?",
+      "a": "Ask for a new date up to two times. On the third \"not now\", ask if you should close the file. Respect a clear no right away."
+    },
+    {
+      "q": "What if I don't have a new result to share?",
+      "a": "Share one useful idea for the problem they mentioned, or something that changed on their side. Never invent a result."
+    }
+  ],
+  "date": "2026-11-02",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram"
+}
