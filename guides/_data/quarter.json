@@ -1,0 +1,117 @@
+{
+  "slug": "quarter",
+  "keyword": "QUARTER",
+  "date": "2026-11-09",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram since 2026-10-27 (reel DfAPZE8jtDV)",
+  "title": "The 4 Boring Rules Behind 1,061 Interested Buyers in One Quarter (With Emails)",
+  "description": "The 4 cold email rules behind 1,061 interested leads in one quarter, the data behind each, and copy-paste emails for every rule.",
+  "lead": "This is the full 4 rules guide from the reel. For each rule you get why it works, exactly how to do it, and copy-paste emails you can use today. These are the same rules behind our January to March 2026 dashboard: 236,545 emails, 4,372 replies and 1,061 interested leads.",
+  "insider": "These 4 rules ran every day on the campaign in the case study below: **236,545 emails from January to March 2026, 4,372 replies and 1,061 interested leads**, with open tracking off. About one in four replies was a buyer who wanted to talk. The rules are the easy part. The work is keeping the domains healthy, the lists clean, the follow-ups going and every reply answered fast, every single day, and that's what we do for clients.",
+  "case": "case-04",
+  "blocks": [
+    {"type": "h2", "text": "Why boring rules beat clever tricks"},
+    {"type": "p", "text": "Most people who say cold email is dead are breaking one of four basic rules. They send from a free Gmail address, they send the same email to everyone, they send one email and give up, or they answer replies a day later. None of these feel like big mistakes. Together, they cut your results by more than half."},
+    {"type": "p", "text": "The numbers in this guide come from [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email), which looked at **31 million emails** sent by Hunter users in 2025. Each rule below has its own number from that report, so you can see what it's worth."},
+    {"type": "table", "head": ["Rule", "What to do", "What the data says"], "rows": [
+      ["1. Your own domain", "Send from a domain you own, not a free address", "Hunter: 5.2% replies vs 2.5% from free addresses"],
+      ["2. Two real details", "Add two true facts about their business", "Hunter: 5.6% replies with two custom details vs 3.6% with none"],
+      ["3. Three emails", "Send a short sequence of 3, not 1", "Hunter: 6.8% replies with 3 emails vs 3.3% with 1"],
+      ["4. Fast answers", "Answer every reply fast, with one specific time", "ColdIQ: meeting bookings from positive replies up 30%+ after cutting reply time to under 15 minutes"]
+    ]},
+
+    {"type": "h2", "text": "Rule 1: Send from your own domain"},
+    {"type": "p", "text": "**Why it works:** a free address (like name@gmail.com) looks like a stranger, not a business. You also can't set up your own sending records (SPF, DKIM, DMARC) on a free address. Hunter found emails from a **custom domain got 5.2% replies vs 2.5% from free addresses**. That's about twice the replies for the same work."},
+    {"type": "steps", "items": [
+      "Buy 1-3 extra domains that look like your brand, for example **getacme.com** or **tryacme.com**. Don't send cold email from your main domain, so your normal email stays safe.",
+      "Create 2-3 inboxes per domain with real names, like **sarah@getacme.com**.",
+      "Set up SPF, DKIM and DMARC for each domain. Your email provider has a step-by-step page for this (links in the resources below).",
+      "Warm up new inboxes for about 2-3 weeks before you start cold sending, and keep each inbox to a small number of cold emails a day.",
+      "Point each extra domain to your real website, so anyone who checks it lands somewhere real."
+    ]},
+    {"type": "prompt", "label": "Rule 1 email: a simple first email from your new domain", "text": "Subject: {{company}} + new customers\n\nHi {{first_name}},\n\nI run {{your_company}}. We help {{type_of_business}} get more {{result}} without {{common_pain}}.\n\nLast quarter we did this for a {{similar_business}}: {{one_real_result}}.\n\nWorth a quick chat to see if it fits {{company}}?\n\n{{your_name}}\n{{your_title}}, {{your_company}}"},
+    {"type": "tip", "label": "Quick check", "text": "Send one email from your new inbox to a Gmail and an Outlook address you own. If it lands in spam, fix your SPF, DKIM and DMARC before you send anything else."},
+
+    {"type": "h2", "text": "Rule 2: Two real details per person, about their business"},
+    {"type": "p", "text": "**Why it works:** a detail shows you looked at them, not at a list. Hunter found emails with **two custom details got 5.6% replies vs 3.6% for emails with none**. Hunter's survey also found that **67% of decision makers** say personalization using public information makes them more likely to reply."},
+    {"type": "p", "text": "The key word is **business**. \"I saw you like golf\" is about the person. \"I saw you opened a second location in Austin\" is about their business, and it gives you a reason to write."},
+    {"type": "list", "items": [
+      "A new location, new product or new service on their website",
+      "A job post (hiring 3 sales reps means they want more sales)",
+      "A recent review, award or news story",
+      "What their website says they sell, and who they sell it to",
+      "The tool they use (shown on their site or in a job post)"
+    ]},
+    {"type": "prompt", "label": "Rule 2 email: two details, one question", "text": "Subject: {{detail_1_short}}\n\nHi {{first_name}},\n\nSaw that {{company}} {{detail_1}}. Congrats.\n\nUsually when a {{type_of_business}} {{detail_2}}, the next problem is {{problem}}. We fixed that for a {{similar_business}} and they got {{one_real_result}}.\n\nIs that on your list this quarter?\n\n{{your_name}}"},
+    {"type": "prompt", "label": "AI prompt: find the two details for you", "text": "Here is a company website and any notes I have: [PASTE WEBSITE TEXT OR URL + NOTES]\n\nFind 2 true, specific facts about this company's business (not about the person). Good examples: a new location, a new service, a job post, a recent review, who they sell to.\n\nFor each fact, write one short line I can use in a cold email, under 15 words, in plain English.\n\nOnly use facts you can see in what I gave you. If you can't find 2, say so. Do not guess."},
+
+    {"type": "h2", "text": "Rule 3: Send three emails, not one"},
+    {"type": "p", "text": "**Why it works:** people are busy. Your first email often arrives at the wrong moment. Hunter found that **3 emails got 6.8% replies vs 3.3% for 1 email**, about twice the replies. Hunter also found the best sequences use **three messages in total**. Most replies still come from the first email, so make that one strong, and make each follow-up add something new."},
+    {"type": "table", "head": ["Email", "When", "What it does"], "rows": [
+      ["1", "Day 1", "The main email: their detail, one result, one small question"],
+      ["2", "Day 3-4", "A new angle: a different problem you solve, or a short proof"],
+      ["3", "Day 7-8", "The easy out: one line, a simple yes-or-no question"]
+    ]},
+    {"type": "prompt", "label": "Rule 3 emails: follow-up 1 (day 3-4)", "text": "Hi {{first_name}},\n\nOne more idea for {{company}}.\n\nMost {{type_of_business}} we talk to also lose time on {{second_problem}}. For one client we {{what_you_did}}, and {{one_real_result}}.\n\nWant me to send the 3 steps we used?\n\n{{your_name}}"},
+    {"type": "prompt", "label": "Rule 3 emails: follow-up 2 (day 7-8)", "text": "Hi {{first_name}},\n\nI don't want to fill your inbox, so this is my last note.\n\nIs getting more {{result}} a priority for {{company}} right now, or should I check back next quarter?\n\n{{your_name}}"},
+    {"type": "tip", "label": "Keep follow-ups in the same thread", "text": "Send follow-ups as replies to your first email, so they can see the whole story in one place. Keep each one shorter than the email before it."},
+
+    {"type": "h2", "text": "Rule 4: Answer every reply fast, with one specific time"},
+    {"type": "p", "text": "**Why it works:** when someone replies, they're thinking about your offer right now. An hour later they're in a meeting. A day later they've forgotten. ColdIQ, an outbound agency, wrote that after they cut their reply time **to under 15 minutes, meeting booking rates from positive replies went up by over 30%** ([ColdIQ](https://coldiq.com/blog/5-cold-email-lessons-from-scaling-to-65m-arr-with-instantly))."},
+    {"type": "p", "text": "The second half of the rule matters just as much: **offer one specific time**. \"When works for you?\" starts a back-and-forth that can take days. \"Does Tuesday at 2pm Eastern work?\" can be answered with one word."},
+    {"type": "steps", "items": [
+      "Turn on phone notifications for replies in your sending tool, or forward replies to one inbox you check often.",
+      "Answer every reply within your working hours, ideally within 5-15 minutes.",
+      "Answer the question they asked first, in one or two lines.",
+      "Offer one specific day and time, with the time zone. Add your booking link as a backup, not as the main ask.",
+      "If they don't answer in 24 hours, send one short nudge in the same thread."
+    ]},
+    {"type": "prompt", "label": "Rule 4 email: reply to \"Interested, tell me more\"", "text": "Thanks {{first_name}}.\n\nShort version: we {{what_you_do_in_one_line}}. For a {{similar_business}}, that meant {{one_real_result}}.\n\nEasiest is a 15-minute call. Does {{day}} at {{time}} {{time_zone}} work? If not, pick any time here: {{booking_link}}\n\n{{your_name}}"},
+    {"type": "prompt", "label": "Rule 4 email: reply to \"What does it cost?\"", "text": "Good question, {{first_name}}.\n\nIt depends on {{the_one_or_two_things_price_depends_on}}. Most {{type_of_business}} like {{company}} land between {{low}} and {{high}} a month.\n\nI can give you an exact number in a 15-minute call. Does {{day}} at {{time}} {{time_zone}} work?\n\n{{your_name}}"},
+    {"type": "prompt", "label": "Rule 4 email: nudge after 24 hours of silence", "text": "Hi {{first_name}}, still want to grab 15 minutes? I can do {{day}} at {{time}} or {{day_2}} at {{time_2}} {{time_zone}}. Either one work?"},
+
+    {"type": "h2", "text": "Worked example: what the 4 rules are worth"},
+    {"type": "p", "text": "Say you email **2,000 people** this quarter. Here is what Hunter's numbers suggest for two of the rules on their own. (Each number comes from a separate comparison in the report, so don't add them together.)"},
+    {"type": "table", "head": ["Choice", "Reply rate (Hunter)", "Replies from 2,000 people"], "rows": [
+      ["Free address", "2.5%", "2,000 x 2.5% = 50"],
+      ["Your own domain", "5.2%", "2,000 x 5.2% = 104"],
+      ["1 email only", "3.3%", "2,000 x 3.3% = 66"],
+      ["3-email sequence", "6.8%", "2,000 x 6.8% = 136"]
+    ]},
+    {"type": "p", "text": "Now say your replies turn into interested buyers at the same rate as our quarter in the case study below: **1,061 interested out of 4,372 replies, about 24%**. Then 136 replies x 24% = about **33 interested buyers**, compared with 66 x 24% = about **16** from one email. Same list, same offer, twice the conversations. Rule 4 is what turns those buyers into booked calls."},
+
+    {"type": "h2", "text": "Problem finder: which rule are you breaking?"},
+    {"type": "table", "head": ["What you see", "Likely broken rule", "What to do"], "rows": [
+      ["Almost no replies, emails land in spam", "Rule 1", "Move to your own sending domains, set up SPF, DKIM and DMARC, warm up the inboxes"],
+      ["Replies like \"Who are you?\" or \"Not relevant\"", "Rule 2", "Add two true business details and tighten who you send to"],
+      ["A few replies, all from the first email, then nothing", "Rule 3", "Add two short follow-ups on day 3-4 and day 7-8"],
+      ["Good replies, but very few booked calls", "Rule 4", "Answer within 15 minutes and offer one specific time"],
+      ["Lots of \"maybe later\" replies", "Rule 4", "Ask for permission to check back, and set a reminder for that date"]
+    ]},
+
+    {"type": "h2", "text": "Your weekly checklist"},
+    {"type": "list", "items": [
+      "All cold email goes out from your own extra domains, never a free address",
+      "Every email has two true details about the person's business",
+      "Every new lead is in a 3-email sequence",
+      "Replies are answered within 15 minutes during working hours",
+      "Every reply that's interested gets one specific time to meet",
+      "You track replies, interested replies and booked calls each week"
+    ]},
+    {"type": "tip", "label": "Bottom line", "text": "Cold email isn't dead. Lazy cold email is. Four boring rules, done every day, beat any clever trick."}
+  ],
+  "resources": [
+    {"name": "Hunter: State of Email Outreach 2026", "url": "https://hunter.io/the-state-of-cold-email", "note": "31M emails: custom domain vs free address, two custom details, 3 emails vs 1"},
+    {"name": "ColdIQ: 5 cold email lessons", "url": "https://coldiq.com/blog/5-cold-email-lessons-from-scaling-to-65m-arr-with-instantly", "note": "Booking rates up 30%+ after cutting reply time to under 15 minutes"},
+    {"name": "Google: Email sender guidelines", "url": "https://support.google.com/a/answer/81126", "note": "SPF, DKIM and DMARC rules for sending to Gmail"},
+    {"name": "Google Workspace: set up DKIM", "url": "https://support.google.com/a/answer/174124", "note": "Step-by-step for Google inboxes"},
+    {"name": "Microsoft: set up DKIM", "url": "https://learn.microsoft.com/en-us/defender-office-365/email-authentication-dkim-configure", "note": "Step-by-step for Microsoft 365 inboxes"}
+  ],
+  "faq": [
+    {"q": "Can I send cold email from my main company domain?", "a": "It's safer not to. Use 1-3 extra domains that look like your brand, so if something goes wrong, your normal business email isn't hurt."},
+    {"q": "Do I really need to personalize every email?", "a": "Two true business details is enough. Hunter found that lifted replies from 3.6% to 5.6%. An AI prompt (above) can find them in under a minute per company."},
+    {"q": "Isn't a 3-email sequence annoying?", "a": "Not if each email is short, adds something new and the last one gives an easy way out. Stop after the third email if they don't reply."},
+    {"q": "What if I can't answer replies within 15 minutes?", "a": "Set phone alerts and keep ready-made replies (like the ones above) so each answer takes a minute. Even answering within the hour beats answering the next day."}
+  ]
+}
