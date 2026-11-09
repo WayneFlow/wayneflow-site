@@ -12,7 +12,7 @@ A list of business directories and B2B agency sites where WayneFlow should have 
 4. **Never write fake reviews** or ask friends to pose as clients. Platforms like Clutch and Trustpilot remove fake reviews and can ban the profile. Only ask real clients.
 5. **Everything here is free unless marked "Paid".** Paid items are optional. Many sites will call or email you to sell a paid upgrade. You can say no.
 6. **Save every login and profile URL** in the tracking table at the end.
-7. **Make sure info@wayneflow.com works** (sends and receives) before you start. Many directories send a verification email to it.
+7. **Make sure founder@wayneflow.com works** (sends and receives) before you start. Many directories send a verification email to it.
 
 ### Link types
 
@@ -42,7 +42,7 @@ WayneFlow
 Business name: WayneFlow
 Brand: WayneFlow by Ali & Asim
 Website: https://wayneflow.com
-Email: info@wayneflow.com
+Email: founder@wayneflow.com
 Country of registration: Pakistan
 Markets served: United States, Canada
 Book a call: https://calendly.com/learnwithasimshah/1-1-meeting-with-one-of-the-top-email-marketers

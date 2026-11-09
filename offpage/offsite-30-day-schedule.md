@@ -17,7 +17,7 @@ About **30 to 45 minutes a day**. The most important work comes first. Tick the 
 
 **Before Day 1 (one-time setup, about 30 minutes):**
 - [ ] Make a Google Sheet with 3 tabs: "Profiles," "Posts and links," "AI checks" (copy the tables from the 3 new files).
-- [ ] Check that info@wayneflow.com can send and receive.
+- [ ] Check that founder@wayneflow.com can send and receive.
 - [ ] Have ready: square logo (PNG), banner image, both founder photos.
 - [ ] Ask the website team: is the playbook landing page live? (Days 8+ need it.)
 

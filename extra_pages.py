@@ -3,7 +3,7 @@ import os as _os
 _cn = _os.path.join(_os.environ.get('WF_OUT', '/home/claude/site8'), 'CNAME')
 # the live domain comes from the CNAME file of the output folder (main branch); default is the main domain
 SITE = 'https://' + (open(_cn).read().strip() if _os.path.exists(_cn) and open(_cn).read().strip() else 'wayneflow.com')
-EMAIL = 'info@wayneflow.com'
+EMAIL = 'founder@wayneflow.com'
 UPDATED = 'October 27, 2026'
 
 def legal_wrap(kicker, h1, intro, sections):

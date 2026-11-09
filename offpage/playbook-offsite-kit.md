@@ -67,7 +67,7 @@ https://wayneflow.com/free-cold-email-playbook.html
 
 WayneFlow by Ali & Asim
 B2B appointment setting and cold email
-info@wayneflow.com
+founder@wayneflow.com
 ```
 
 Make sure the link on the last page and on the cover is **clickable** in the PDF. Name the file:
