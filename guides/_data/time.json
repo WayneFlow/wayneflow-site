@@ -1,0 +1,93 @@
+{
+  "slug": "time",
+  "keyword": "TIME",
+  "date": "2026-11-10",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram (posted 2026-11-10)",
+  "title": "The One-Time Reply: 5 Words That Beat Your Calendar Link",
+  "description": "When a lead says yes, skip the calendar link. Offer one specific time. Templates, the Gong data behind it, a time zone check and a reply-writer prompt.",
+  "lead": "This is the full guide from the reel. When a lead replies \"interested\", don't send a calendar link. Send five words: \"Does Thursday at 10am work?\" Here is why it works, exactly how to do it, and copy-paste replies for every answer you'll get.",
+  "insider": "On our 5-day blitz, **115 interested replies turned into 25 booked calls in the same week**. Speed and a clear next step did that: when a lead says yes, they get a real reply fast, with an easy question to answer. Writing the reply is the easy part. Getting 115 interested people into the inbox in five days is the list, the warm inboxes and the follow-ups, and that's what we do for clients.",
+  "case": "case-03",
+  "blocks": [
+    {"type": "h2", "text": "The 5 words"},
+    {"type": "p", "text": "A lead replies to your cold email: \"Sounds interesting, tell me more.\" Most people answer with a calendar link and \"grab any time that works.\" Then nothing happens. The lead meant to book, opened the link, saw a grid of 40 empty slots, and closed the tab to do it later. Later never came."},
+    {"type": "p", "text": "Instead, offer **one specific time**: \"Does Thursday at 10am work?\" It is a yes-or-no question. They can answer it from their phone in two seconds, without opening their calendar app or your booking page."},
+    {"type": "prompt", "label": "The reply (copy this)", "text": "Hi [First name],\n\nGreat. Does [Thursday] at [10am] [their time zone] work for a 15-minute call?\n\nIf not, send me a time that's better and I'll make it work.\n\n[Your name]"},
+    {"type": "h2", "text": "Why one specific time works (the data)"},
+    {"type": "p", "text": "[Gong Labs analyzed 304,174 sales emails](https://www.gong.io/blog/this-surprising-cold-email-cta-will-help-you-book-a-lot-more-meetings) and counted which ones got a meeting booked within 10 days. They sorted the asks into three types: a **specific** ask (a day and a time), an **open-ended** ask (\"Do you have time next week?\") and an **interest** ask (\"Are you interested in learning more?\")."},
+    {"type": "p", "text": "Once a buyer was already in the sales process, the specific ask won clearly:"},
+    {"type": "table", "head": ["Type of ask (Gong)", "Example", "Success rate once in the sales process"], "rows": [
+      ["Specific day and time", "\"Are you available Tuesday at 4pm?\"", "**37%**"],
+      ["Open-ended", "\"Do you have time next week?\"", "32%"],
+      ["Interest", "\"Are you interested in learning more?\"", "25%"]
+    ]},
+    {"type": "p", "text": "Gong's explanation is simple: the specific time gives the buyer an **anchor**. They either say \"yes, that works\" or \"that doesn't work, but 1pm is open.\" They don't have to scan a busy calendar looking for white space. Less work means a faster decision."},
+    {"type": "tip", "text": "**The catch:** in the same study, Gong found the **interest** ask works best in the very first cold email, because strangers don't want to give away time. So ask for interest first. Offer the specific time only after they say yes."},
+    {"type": "h2", "text": "Which ask to use, and when"},
+    {"type": "table", "head": ["Where you are", "What to ask", "Example"], "rows": [
+      ["First cold email (stranger)", "Interest", "\"Worth a look?\" or \"Open to seeing how?\""],
+      ["They replied \"interested\" or \"tell me more\"", "One specific time", "\"Does Thursday at 10am ET work?\""],
+      ["They said \"that time doesn't work\"", "Their time", "\"No problem. What works better for you?\""],
+      ["They asked for your link", "Your calendar link", "\"Sure, here it is: [link]\""]
+    ]},
+    {"type": "h2", "text": "Step by step"},
+    {"type": "steps", "items": [
+      "**Reply fast.** Interest cools quickly. Aim to answer within the hour during your work day.",
+      "**Find their time zone.** Check their signature, their LinkedIn location or the company's office address. If you can't tell, use the city of the company's head office.",
+      "**Pick one slot 1 to 2 business days out.** Close enough that the interest is still warm, far enough that they likely have it free. Mid-morning or early afternoon in their time zone is a safe default.",
+      "**Write the time in their zone.** \"10am ET\", not just \"10am\". If you're in different zones, convert it before you send (the Meeting Planner in the resources does this).",
+      "**Ask one question, with an easy way out.** \"Does Thursday at 10am ET work? If not, send me a better time.\" One option keeps it a yes-or-no. The way out keeps it polite.",
+      "**When they say yes, send the invite within minutes.** Add a one-line agenda so the call feels real. (Our [no-show guide](https://wayneflow.com/guides/show.html) has the reminder messages.)",
+      "**If they offer another time, take it.** Don't negotiate. Send the invite for their time."
+    ]},
+    {"type": "h2", "text": "Worked example"},
+    {"type": "p", "text": "You're in New York (Eastern Time). The lead runs a company in Chicago (Central Time, 1 hour behind you). They reply on Monday at 3pm your time. You look at your calendar and Wednesday at 11am Eastern is free. In their time, that is **10am Central**."},
+    {"type": "quote", "text": "Hi Dana, great. Does Wednesday at 10am CT work for a 15-minute call? If not, send me a time that's better and I'll make it work."},
+    {"type": "p", "text": "Dana replies from her phone: \"Wed works.\" You send the invite for 10am CT (it shows as 11am on your calendar) with one line: \"15 min: how we'd book you more demos from cold email.\" Done in two messages."},
+    {"type": "h2", "text": "Copy-paste replies for every answer"},
+    {"type": "prompt", "label": "5 reply templates", "text": "1) They said \"interested\" / \"tell me more\":\nGreat. Does [Thursday] at [10am] [zone] work for a 15-minute call? If not, send me a time that's better.\n\n2) They said \"send me more info first\":\nSure, here's the short version: [2 lines on what you do + one result]. Easier to show you live. Does [Thursday] at [10am] [zone] work for 15 minutes?\n\n3) They said \"that time doesn't work\":\nNo problem. What day and time works better for you? I'll send the invite.\n\n4) They said \"send me your calendar link\":\nOf course: [link]. Pick anything that suits you.\n\n5) They said \"maybe next month\":\nMakes sense. Want me to pencil in [Tuesday the 3rd] at [10am] [zone]? Easy to move if things change."},
+    {"type": "tip", "text": "If they ask for your link, send it. The goal is to remove work for the buyer, not to hide the link."},
+    {"type": "h2", "text": "Common mistakes"},
+    {"type": "table", "head": ["Mistake", "Why it hurts", "Fix"], "rows": [
+      ["Sending only a calendar link", "It turns a \"yes\" into homework: open, scan, pick, fill a form", "Offer one time. Keep the link for people who ask"],
+      ["Offering 5 different times", "Now they have to compare and choose", "One time, plus \"if not, send me a better time\""],
+      ["No time zone", "\"10am\" whose time? They may show up an hour off, or not at all", "Write their zone: \"10am CT\""],
+      ["Offering a slot two weeks away", "Interest cools and plans change", "1 to 2 business days out"],
+      ["Asking for a time in the first cold email", "Gong found the interest ask works better with strangers", "Ask for interest first, time second"],
+      ["Waiting hours to send the invite", "They forget they agreed", "Send the invite within minutes of their yes"]
+    ]},
+    {"type": "h2", "text": "Test it on your own replies"},
+    {"type": "p", "text": "Don't take our word or Gong's. Track two weeks of calendar-link replies, then two weeks of one-time replies, and compare the booking rate. Booking rate = calls booked ÷ interested replies."},
+    {"type": "table", "head": ["Period", "Interested replies", "Calls booked", "Booking rate"], "rows": [
+      ["Weeks 1-2 (calendar link)", "[your number]", "[your number]", "booked ÷ interested"],
+      ["Weeks 3-4 (one specific time)", "[your number]", "[your number]", "booked ÷ interested"],
+      ["Example only", "40", "10", "10 ÷ 40 = 25%"]
+    ]},
+    {"type": "h2", "text": "Prompt: let AI write the reply"},
+    {"type": "prompt", "label": "Reply writer prompt (Claude or ChatGPT)", "text": "You write short, friendly replies to sales leads.\n\nThe lead wrote: [paste their reply]\nTheir name: [first name]\nTheir time zone: [e.g. Central Time, CT]\nMy free slots (my time zone [e.g. ET]): [e.g. Wed 11am, Thu 2pm]\n\nWrite one reply that:\n1. Is under 40 words.\n2. Offers exactly ONE specific day and time, converted to THEIR time zone, with the zone written out (e.g. \"10am CT\").\n3. Picks the slot closest to 1-2 business days from now.\n4. Ends with an easy way out: \"If not, send me a time that's better.\"\n5. If they asked for info, adds 2 short lines about what we do before the time.\n6. If they asked for a calendar link, just gives this link: [your link].\nNo exclamation marks. Sound like a person, not a template.\n\nShow the time conversion you used on a separate line so I can check it."},
+    {"type": "h2", "text": "Checklist before you hit send"},
+    {"type": "list", "items": [
+      "They already said yes or showed interest (otherwise ask for interest, not time)",
+      "One specific day and time, not a list",
+      "Written in their time zone, with the zone",
+      "1 to 2 business days out",
+      "An easy way out: \"If not, send me a better time\"",
+      "Under 40 words",
+      "Invite ready to send the moment they say yes"
+    ]}
+  ],
+  "resources": [
+    {"name": "Gong Labs: The cold email CTA study", "url": "https://www.gong.io/blog/this-surprising-cold-email-cta-will-help-you-book-a-lot-more-meetings", "note": "304,174 emails; specific-time ask 37% once in the sales process"},
+    {"name": "timeanddate.com Meeting Planner", "url": "https://www.timeanddate.com/worldclock/meeting.html", "note": "Convert a time across time zones"},
+    {"name": "Google Calendar Help: Create an event", "url": "https://support.google.com/calendar/answer/72143", "note": "Send the invite with guests"},
+    {"name": "Claude", "url": "https://claude.ai", "note": "Paste the reply writer prompt"}
+  ],
+  "faq": [
+    {"q": "Should I put a specific time in my first cold email?", "a": "Usually not. Gong found that asking for interest works best with strangers. Offer a specific time after they reply and show interest."},
+    {"q": "Why only one time and not three?", "a": "One time keeps it a simple yes-or-no question. The line \"If not, send me a better time\" covers the case where it doesn't fit."},
+    {"q": "Is a calendar link ever fine?", "a": "Yes. If the lead asks for it, send it right away. Some people prefer to pick their own slot."},
+    {"q": "What if I don't know their time zone?", "a": "Check their signature, LinkedIn location or company address. If you still can't tell, use the head office city and write the zone so they can correct you."}
+  ]
+}
