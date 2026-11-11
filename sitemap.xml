@@ -20,7 +20,9 @@
   <url><loc>https://wayneflow.com/blog/dns-records-for-cold-email.html</loc><lastmod>2026-10-30</lastmod><priority>0.8</priority></url>
   <url><loc>https://wayneflow.com/privacy.html</loc><lastmod>2026-10-30</lastmod><priority>0.3</priority></url>
   <url><loc>https://wayneflow.com/terms.html</loc><lastmod>2026-10-30</lastmod><priority>0.3</priority></url>
-  <url><loc>https://wayneflow.com/guides/</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wayneflow.com/guides/</loc><lastmod>2026-11-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://wayneflow.com/guides/stale.html</loc><lastmod>2026-11-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://wayneflow.com/guides/fresh.html</loc><lastmod>2026-11-11</lastmod><priority>0.7</priority></url>
   <url><loc>https://wayneflow.com/guides/time.html</loc><lastmod>2026-11-10</lastmod><priority>0.7</priority></url>
   <url><loc>https://wayneflow.com/guides/quarter.html</loc><lastmod>2026-11-09</lastmod><priority>0.7</priority></url>
   <url><loc>https://wayneflow.com/guides/util.html</loc><lastmod>2026-11-02</lastmod><priority>0.7</priority></url>

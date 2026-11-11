@@ -1,0 +1,315 @@
+{
+  "slug": "fresh",
+  "keyword": "FRESH",
+  "date": "2026-11-11",
+  "draft": false,
+  "instantdm": "pending",
+  "title": "Fresh Lead Lists From Free Sources: Stop Emailing the Names Everyone Else Bought",
+  "description": "Build fresh B2B lead lists from free sources: job posts, ad libraries, SEC filings, Google Maps and more. Step-by-step, with a list template and AI prompt.",
+  "lead": "This is the full fresh-list guide from the reel. You get 9 free places to find companies that need you right now, the 6 steps to turn them into a clean list, a spreadsheet template, a first-line prompt and the math on why small fresh lists beat one big bought list.",
+  "insider": "We build client lists the same way: one buying signal per list, the right person at each company, every address verified, and a first line written from that signal. That's how one agency client got **2,146 interested leads with 88% of replies positive**, and only **6 of 76,081** people asked to be removed. Finding the companies is the easy part. Doing it every week, at scale, without bounces, is the work we do for clients.",
+  "case": "case-01",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why the big database stops working"
+    },
+    {
+      "type": "p",
+      "text": "Big lead databases are useful, but everyone uses the same ones. When you filter for \"marketing directors at 50 to 200 person software companies\", thousands of other senders run that same filter. The people on that list get cold emails every day, and they've learned to ignore them."
+    },
+    {
+      "type": "p",
+      "text": "The data also goes old. The [U.S. Bureau of Labor Statistics](https://www.bls.gov/news.release/tenure.nr0.htm) reports the median worker had been with their employer **4.1 years** (January 2026), so many people in any database have already moved on. Cold email operator Christian Plascencia says raw database pulls are only **50 to 60% a real fit** by his count, and that 30 to 50% of contacts move or change details within six months ([Cold Email Daily's summary](https://coldemaildaily.com/stories/christian-info-personal-emails-lead-every-55-contacts)). Those are his numbers, not a study, but they match what most senders see: old, shared data means bounces and silence."
+    },
+    {
+      "type": "h2",
+      "text": "What a \"fresh\" list really means"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Fresh timing:** the company did something recently that shows they need you (hiring, ads, funding, a new location).",
+        "**Fresh people:** you checked that the person is in the role today.",
+        "**Fresh emails:** every address was verified this week.",
+        "**Fresh reason:** your first line is about that recent event, not a guess."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A list like this is small. That's fine. [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email) found that campaigns sent to **21 to 50 people got 6.2% replies vs 2.4% for 500+ people**."
+    },
+    {
+      "type": "h2",
+      "text": "9 free places to find companies that need you now"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Free source",
+        "The signal",
+        "Best for"
+      ],
+      "rows": [
+        [
+          "[LinkedIn Jobs](https://www.linkedin.com/jobs/) and [Indeed](https://www.indeed.com)",
+          "They're hiring for the job you help with",
+          "Almost any B2B service: hiring = budget + pain"
+        ],
+        [
+          "[Meta Ad Library](https://www.facebook.com/ads/library/)",
+          "They're running Facebook or Instagram ads right now",
+          "Agencies, ad tools, creative, e-commerce services"
+        ],
+        [
+          "[Google Ads Transparency Center](https://adstransparency.google.com)",
+          "They're paying for Google ads",
+          "Marketing, landing pages, call tracking"
+        ],
+        [
+          "[SEC EDGAR search](https://www.sec.gov/edgar/search/)",
+          "Form D filings: they just raised money",
+          "Services for funded startups"
+        ],
+        [
+          "[Google Maps](https://www.google.com/maps)",
+          "Local businesses by type and city, with reviews",
+          "Local services, home services, clinics"
+        ],
+        [
+          "State license boards",
+          "Newly licensed contractors and professionals",
+          "Construction, trades, insurance, finance"
+        ],
+        [
+          "Company news and press releases",
+          "New location, new product, big contract, new leader",
+          "Any offer tied to growth"
+        ],
+        [
+          "[G2](https://www.g2.com) reviews of a competitor",
+          "Unhappy customers of the tool you replace",
+          "Software and agencies that replace a vendor"
+        ],
+        [
+          "Event exhibitor and association member lists",
+          "They paid to be in your market this year",
+          "Niche industries and trade shows"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Pick **one** signal per list. A list of \"companies hiring an SDR\" lets you write one sharp email. A list mixing five signals forces a vague one."
+    },
+    {
+      "type": "h2",
+      "text": "The 6 steps to build the list"
+    },
+    {
+      "type": "h3",
+      "text": "1. Pick one buyer and one signal"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** the signal is your reason to write. Without it, you're just another cold email. **How:** finish this sentence: \"I help [job title] at [type of company] who just [signal].\" Example: \"I help founders of 10 to 50 person agencies who just posted a job for a sales rep.\""
+    },
+    {
+      "type": "h3",
+      "text": "2. Collect the companies"
+    },
+    {
+      "type": "p",
+      "text": "Search the source for your signal and copy each company into a sheet: name, website, the signal, and the link that proves it (the job post, the ad, the filing). Aim for 50 companies, not 5,000."
+    },
+    {
+      "type": "h3",
+      "text": "3. Find the right person"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** the person feeling the problem is rarely the generic \"info\" contact. **How:** check the company's team page or LinkedIn for the buyer title. Hunter found that emailing **1 or 2 people per company got 5.1% replies vs 3.5% for 3 or more**, so pick one, maybe two."
+    },
+    {
+      "type": "h3",
+      "text": "4. Find and verify the email"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Use an email finder (most have a small free plan) or the company's own website to get the address.",
+        "Run every address through an email verifier before it goes into a campaign.",
+        "Remove invalid ones. Put catch-all and risky addresses in a separate small batch.",
+        "Keep your bounce rate under 2%. Hunter's average is 3.6%."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "5. Write one first line from the signal"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** the signal is proof you looked. Hunter found that emails with **two custom details got 5.6% replies vs 3.6%** for emails with none. **How:** one short sentence about the signal, then the problem that usually comes with it."
+    },
+    {
+      "type": "h3",
+      "text": "6. Send in small batches, then refill"
+    },
+    {
+      "type": "p",
+      "text": "Send each list of about 50 as its own campaign. Next week, go back to the same source and pull the new companies. A fresh list is a weekly habit, not a one-time export."
+    },
+    {
+      "type": "h2",
+      "text": "Copy this list template"
+    },
+    {
+      "type": "prompt",
+      "label": "Spreadsheet columns",
+      "text": "company | website | signal | proof_link | signal_date | first_name | last_name | job_title | email | email_status | city | state | first_line | campaign | status"
+    },
+    {
+      "type": "p",
+      "text": "**signal_date** matters. Only email signals from the last 30 days. A job post from six months ago isn't fresh anymore."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: 1,000 contacts, two ways"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Approach",
+        "Contacts",
+        "Reply rate (Hunter)",
+        "Replies"
+      ],
+      "rows": [
+        [
+          "One big bought list, one email",
+          "1,000",
+          "2.4% (500+ recipients)",
+          "24"
+        ],
+        [
+          "20 fresh lists of 50, one signal each",
+          "1,000",
+          "6.2% (21 to 50 recipients)",
+          "62"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Math check: 1,000 × 0.024 = 24. 1,000 × 0.062 = 62. Same number of emails, about **2.6 times the replies**, and you can tell which signal works best because each list is its own campaign."
+    },
+    {
+      "type": "h2",
+      "text": "Prompt: turn a signal into a first line"
+    },
+    {
+      "type": "prompt",
+      "label": "Copy into ChatGPT or Claude",
+      "text": "You write first lines for short B2B cold emails.\n\nWhat I sell: [one sentence]\nWho I'm writing to: [job title, company type]\nThe signal: [paste the job post title / ad / news headline / filing]\n\nWrite 3 first lines.\nRules: under 20 words, mention the signal in plain words, no flattery, no \"I noticed\" or \"I came across\", sounds like a real person typed it.\nThen write one second line that names the problem this signal usually brings."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "What happens",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Mixing several signals in one list",
+          "The email gets vague",
+          "One signal per list"
+        ],
+        [
+          "Using old signals",
+          "\"Saw you're hiring\" for a job filled months ago",
+          "Only signals from the last 30 days"
+        ],
+        [
+          "Emailing 4 people at one company",
+          "Looks like spam to them and to filters",
+          "1 or 2 people per company"
+        ],
+        [
+          "Skipping verification",
+          "Bounces over 2% hurt your domain",
+          "Verify every address, every time"
+        ],
+        [
+          "Building 5,000 rows by hand",
+          "You burn out in a week",
+          "50 a week per list is enough"
+        ],
+        [
+          "A first line that says nothing",
+          "\"Love what you're doing at Acme\"",
+          "Name the real signal"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Stay within the rules: follow the [FTC's CAN-SPAM guide](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) in the U.S., and check stricter local rules before emailing people in the UK or EU. Always honor opt-outs fast."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "List size, people per company and personalization data"
+    },
+    {
+      "name": "BLS: Employee Tenure",
+      "url": "https://www.bls.gov/news.release/tenure.nr0.htm",
+      "note": "How long people stay at one employer"
+    },
+    {
+      "name": "Cold Email Daily: Christian Plascencia's tactics",
+      "url": "https://coldemaildaily.com/stories/christian-info-personal-emails-lead-every-55-contacts",
+      "note": "Database fit and data decay claims"
+    },
+    {
+      "name": "Meta Ad Library",
+      "url": "https://www.facebook.com/ads/library/",
+      "note": "Free: who's running ads now"
+    },
+    {
+      "name": "Google Ads Transparency Center",
+      "url": "https://adstransparency.google.com",
+      "note": "Free: who's running Google ads"
+    },
+    {
+      "name": "SEC EDGAR search",
+      "url": "https://www.sec.gov/edgar/search/",
+      "note": "Free: Form D funding filings"
+    },
+    {
+      "name": "FTC: CAN-SPAM compliance guide",
+      "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+      "note": "The U.S. rules for commercial email"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I have to stop using lead databases?",
+      "a": "No. Use them to find people and emails, but start from a fresh signal. The signal decides who goes on the list."
+    },
+    {
+      "q": "How many leads can I build by hand in a week?",
+      "a": "Start with one list of about 50. Once your steps are smooth, add more lists. Quality beats size here."
+    },
+    {
+      "q": "Which signal works best?",
+      "a": "It depends on your offer. Hiring for the role you help with is a strong start for most B2B services. Test a few, one list each, and keep the winner."
+    }
+  ]
+}

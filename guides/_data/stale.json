@@ -1,0 +1,343 @@
+{
+  "slug": "stale",
+  "keyword": "STALE",
+  "date": "2026-11-11",
+  "draft": false,
+  "instantdm": "pending",
+  "title": "The Re-Engagement Script: How to Win Back \"Dead\" Cold Email Leads",
+  "description": "How to re-engage leads who ghosted you: who to email, when, a 3-email script to copy, an AI prompt, a worked example and the mistakes to avoid.",
+  "lead": "This is the full re-engagement script from the reel. You get the rules for picking which old leads to email again, the 3-email script to copy, a prompt that writes your \"what changed\" line, and a table of the mistakes that get re-engagement campaigns marked as spam.",
+  "insider": "We follow the same rules on client campaigns: verify again, give a new reason, keep it short, and stop the moment someone says no. Steady sending like that is what produced our full quarter: **236,545 emails, a 3.69% reply rate and 1,061 interested leads** from January to March 2026. The script is the easy part. Keeping the list clean, the inboxes healthy and the follow-ups on time every week is the work we do for clients.",
+  "case": "case-04",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The number from the reel"
+    },
+    {
+      "type": "p",
+      "text": "One re-engagement campaign sent to **1,532 ghosted prospects got an 11.75% reply rate**. That comes from cold email operator [Christian Plascencia's post](https://x.com/coldemailchris/status/2114688513593766087), summed up by [Cold Email Daily](https://coldemaildaily.com/stories/christian-info-personal-emails-lead-every-55-contacts). 11.75% of 1,532 is about **180 replies** from people most senders had written off."
+    },
+    {
+      "type": "p",
+      "text": "For context, [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email) puts the average cold email reply rate at **4.5%**, and only **3%** for sales emails. So a good re-engagement campaign can beat a brand-new one. The reason is simple: these people already know your name, they fit your target, and most of them didn't say no. They just didn't answer."
+    },
+    {
+      "type": "h2",
+      "text": "Why \"dead\" leads usually aren't dead"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Timing was wrong.** They were busy, mid-project or had no budget that month. Months later, that can be different.",
+        "**Your email got buried.** A no-reply is not a no. Most people never decided anything about you.",
+        "**Their situation changed.** New boss, new funding, new hires, a new problem. People and companies change all the time.",
+        "**Your offer changed.** You may have a new result, a new service or a better price than when you first wrote."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Contact data also goes old fast. The [U.S. Bureau of Labor Statistics](https://www.bls.gov/news.release/tenure.nr0.htm) reports that the median worker had been with their current employer **4.1 years** (January 2026). That's the middle of the range, so plenty of people move much sooner. Christian's advice in the same post is to re-check anything older than six months before you email it again."
+    },
+    {
+      "type": "h2",
+      "text": "Step 1: Pick who to re-engage (and who never to touch)"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** the fastest way to hurt your domain is to email people who already asked you to stop. The fastest way to get replies is to email people who were a good fit but got the timing wrong."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Old lead",
+        "Re-engage?",
+        "How"
+      ],
+      "rows": [
+        [
+          "Never replied to any email",
+          "Yes",
+          "Wait at least 60 to 90 days after your last email, then use the script below"
+        ],
+        [
+          "Replied \"not now\" or \"maybe later\"",
+          "Yes, first",
+          "Write when they said to. Mention their own words: \"You said Q1 might be better.\""
+        ],
+        [
+          "Replied \"not interested\"",
+          "Only if something big changed",
+          "Wait 6 months or more, and only with a truly new reason"
+        ],
+        [
+          "Asked to stop or unsubscribed",
+          "Never",
+          "Keep them on a do-not-email list forever"
+        ],
+        [
+          "Bounced",
+          "Not that address",
+          "Look for the person's new email, or the new person in that role"
+        ],
+        [
+          "Booked a call, then went quiet",
+          "Yes, personally",
+          "A short, human note from the person they met, not a sequence"
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Export every lead from old campaigns with their status: no reply, replied, bounced, unsubscribed.",
+        "Remove everyone who asked to stop, unsubscribed or marked you as spam. Add them to your sending tool's block list.",
+        "Remove anyone who is already in a live campaign, so nobody gets two emails at once.",
+        "Split the rest into the groups in the table above. Each group gets its own campaign."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 2: Clean the list again"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** old lists bounce. Bounces tell inbox providers you're emailing strangers, and that pushes all your emails toward spam. Hunter's average bounce rate is **3.6%**. Keep yours under 2%."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Run the whole list through an email verifier again, even if you verified it the first time.",
+        "Remove invalid addresses. Send \"risky\" and catch-all addresses later, in a small separate batch.",
+        "Check that the person still has the same job. A quick look at their LinkedIn profile or the company's team page is enough for your best leads.",
+        "If they left, find who took their role. That new person is a fresh lead, and you have a good reason to write: \"I used to talk with Sarah about this.\""
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 3: Find one new reason to write"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** \"just checking in\" gives nobody a reason to reply. A re-engagement email works when something is different from last time. That one new thing is the whole email."
+    },
+    {
+      "type": "table",
+      "head": [
+        "What changed",
+        "Example line"
+      ],
+      "rows": [
+        [
+          "Something at their company",
+          "\"Saw you opened a second location in Austin. Congrats.\""
+        ],
+        [
+          "A new result you got",
+          "\"We just helped a company like yours book [your real number] demos.\""
+        ],
+        [
+          "A new offer or lower risk",
+          "\"We now run a small 2-week pilot before any long contract.\""
+        ],
+        [
+          "A new season or deadline",
+          "\"Most teams plan Q1 outreach in December. Is that true for you?\""
+        ],
+        [
+          "A free, useful thing",
+          "\"I made a 1-page checklist for this. Want it?\""
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 4: The 3-email re-engagement script"
+    },
+    {
+      "type": "p",
+      "text": "Start a **new thread with a new subject line**. The old thread is months old and may already be buried. Keep each email under 80 words, plain text, and no links in the first email."
+    },
+    {
+      "type": "prompt",
+      "label": "Email 1 (day 1): the new reason",
+      "text": "Subject: {{first_name}}, quick update\n\nHi {{first_name}},\n\nI wrote to you back in {{last_month}} about {{problem_you_solve}}. Probably bad timing.\n\nOne thing changed since then: {{what_changed}}.\n\nIs {{problem_you_solve}} still on your list at {{company}}, or should I close the file?\n\n{{your_name}}"
+    },
+    {
+      "type": "prompt",
+      "label": "Email 2 (day 4): give something useful",
+      "text": "Subject: Re: {{first_name}}, quick update\n\nHi {{first_name}},\n\nNo need to reply to the last one. I put together {{free_resource}} for {{their_role}}s at companies like {{company}}. It shows {{one_specific_thing}}.\n\nWant me to send it over?\n\n{{your_name}}"
+    },
+    {
+      "type": "prompt",
+      "label": "Email 3 (day 9): the polite close",
+      "text": "Subject: Re: {{first_name}}, quick update\n\nHi {{first_name}},\n\nI'll stop here so I'm not cluttering your inbox.\n\nIf {{problem_you_solve}} comes up later, just reply to this email and I'll pick it up.\n\nAll the best,\n{{your_name}}"
+    },
+    {
+      "type": "tip",
+      "text": "A polite close often gets replies. People answer \"yes, still interested\" or \"no thanks\" because it's easy. Both answers are useful."
+    },
+    {
+      "type": "h2",
+      "text": "Step 5: Send it slowly and watch two numbers"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** re-engaged lists carry more spam-complaint risk than fresh lists, because some people remember you and didn't want the first email either. [Google's sender guidelines](https://support.google.com/mail/answer/81126) ask senders to keep spam reports under 0.3%, and to aim for under 0.1%."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Send re-engagement emails from warmed-up inboxes that are already healthy, never from brand-new ones.",
+        "Start with your best group (\"not now\" replies), then add the no-reply group.",
+        "Watch **bounce rate** (under 2%) and **spam complaints** (as close to zero as you can) every day for the first week.",
+        "If someone replies \"no\", stop and remove them from every campaign right away.",
+        "After the 3 emails, leave the rest alone. Don't put them back into a new re-engagement round for at least 6 months."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example"
+    },
+    {
+      "type": "p",
+      "text": "Say you have **1,500 old leads** who never replied. You re-verify the list and remove 200 bad addresses, so **1,300** are left. You send the 3-email script."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Reply rate",
+        "Replies from 1,300",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "3% (Hunter sales average)",
+          "39",
+          "A normal result"
+        ],
+        [
+          "4.5% (Hunter overall average)",
+          "58",
+          "Good"
+        ],
+        [
+          "11.75% (the reel's example)",
+          "153",
+          "A great result, with a strong new reason"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Math check: 1,300 × 0.03 = 39. 1,300 × 0.045 = 58.5, so about 58. 1,300 × 0.1175 = 152.75, so about 153. Even the low end is 39 conversations from a list you had given up on, and it cost you no new data."
+    },
+    {
+      "type": "h2",
+      "text": "Prompt: write your \"what changed\" line"
+    },
+    {
+      "type": "prompt",
+      "label": "Copy into ChatGPT or Claude",
+      "text": "You write short, plain cold emails for B2B sales.\n\nI'm re-engaging leads who didn't reply to my emails 3+ months ago.\nWhat I sell: [one sentence]\nWho they are: [job title, industry, company size]\nWhat changed since I last wrote: [new result / new offer / their news / new season]\n\nWrite 5 versions of one sentence that tells them what changed.\nRules: under 20 words, no hype words, no exclamation marks, sounds like a real person, no \"just checking in\" or \"circling back\".\nThen pick the one you would most likely reply to and say why in one line."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "What happens",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Re-sending the old email",
+          "Same email, same result: no reply",
+          "Write a new email around one new reason"
+        ],
+        [
+          "\"Just bumping this up\"",
+          "Reads like automation, gets ignored",
+          "Every email needs something new"
+        ],
+        [
+          "Skipping re-verification",
+          "High bounces hurt the whole domain",
+          "Verify again before every re-engagement round"
+        ],
+        [
+          "Emailing people who said stop",
+          "Spam complaints, possible legal trouble",
+          "Keep a permanent do-not-email list"
+        ],
+        [
+          "Re-engaging too soon",
+          "Feels like pressure",
+          "Wait 60 to 90 days after the last email"
+        ],
+        [
+          "Endless rounds",
+          "More complaints each time",
+          "One round of 3 emails, then rest for 6+ months"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Follow the [FTC's CAN-SPAM rules](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) in every email: honest subject line, your real business address, and a clear way to opt out that you honor quickly."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Christian Plascencia's post (1,532 leads, 11.75%)",
+      "url": "https://x.com/coldemailchris/status/2114688513593766087",
+      "note": "Source of the re-engagement result in the reel"
+    },
+    {
+      "name": "Cold Email Daily summary",
+      "url": "https://coldemaildaily.com/stories/christian-info-personal-emails-lead-every-55-contacts",
+      "note": "Write-up of the same post"
+    },
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Average reply and bounce rates"
+    },
+    {
+      "name": "BLS: Employee Tenure",
+      "url": "https://www.bls.gov/news.release/tenure.nr0.htm",
+      "note": "How long people stay at one employer"
+    },
+    {
+      "name": "Google email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "Spam rate limits"
+    },
+    {
+      "name": "FTC: CAN-SPAM compliance guide",
+      "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+      "note": "The U.S. rules for commercial email"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long should I wait before re-engaging?",
+      "a": "At least 60 to 90 days after your last email. For people who said \"not interested\", wait 6 months or more and only write if something real changed."
+    },
+    {
+      "q": "Should I reply in the old thread or start a new one?",
+      "a": "Start a new thread with a new subject line. The old one is months old and buried. Mention the old email in one short line so it doesn't feel like a trick."
+    },
+    {
+      "q": "Can I re-engage people who unsubscribed?",
+      "a": "No. Anyone who asked to stop stays on your do-not-email list forever."
+    },
+    {
+      "q": "What if the person left the company?",
+      "a": "Find who took their role and email them as a new lead. Mentioning the person they replaced is a natural opener."
+    }
+  ]
+}
