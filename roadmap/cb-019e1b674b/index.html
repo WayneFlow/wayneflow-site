@@ -9,7 +9,7 @@
 <style>
 :root{--ink:#14283F;--ink2:#41566E;--navy:#1D3B63;--navy2:#28476F;--blue:#2F6FD0;--sea:#2C8C8A;--sun:#EE8A3A;--gold:#F4B94A;--mist:#D6E0EA;--sand:#E6DFCF;--card:#F6F8FB;--line:#C3D0DD}
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;overflow-x:clip}body{overflow-x:clip}
 body{font-family:Inter,"Helvetica Neue",Arial,sans-serif;background:var(--mist);color:var(--ink);-webkit-font-smoothing:antialiased;overflow-x:hidden;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
 section{position:relative;padding:104px 0}
@@ -25,7 +25,7 @@ p{line-height:1.6}
 .i{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .r{opacity:0;transform:translateY(32px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
 .r.in,.static .r{opacity:1;transform:none}
-#bar{position:fixed;left:0;top:0;height:4px;width:0;background:linear-gradient(90deg,var(--blue),var(--sun));z-index:50}
+#bar{position:fixed;left:0;top:0;height:4px;width:0;background:linear-gradient(90deg,var(--blue),var(--sun));z-index:70}
 #nav{position:fixed;right:18px;top:50%;transform:translateY(-50%);z-index:40;display:flex;flex-direction:column;gap:11px}
 #nav a{display:block;width:10px;height:10px;border-radius:50%;background:rgba(29,59,99,.3);position:relative;transition:all .3s}
 #nav a.on{background:var(--sun);transform:scale(1.5)}
@@ -567,6 +567,22 @@ h2{font-size:clamp(26px,5.2vw,50px)}
 .nqs .q{padding:20px}
 @media(max-width:900px){.qres{grid-template-columns:1fr 1fr 1fr}.qr{grid-column:1/-1}}
 @media(max-width:700px){.qtrack{padding:18px 14px 14px;border-radius:20px;margin-top:28px}.qt{height:54px}.qs b{font-size:12.5px}.qticks{font-size:10.5px}.qkey{font-size:11.5px;gap:4px 12px}.mcard h3{font-size:19px}.qres{padding:18px 14px;gap:8px}.qn b{font-size:26px}.qn{padding:12px 4px}.nqs{grid-template-columns:1fr;gap:10px}.nq{margin-top:26px}}
+
+/* top bar */
+#topbar{position:fixed;top:0;left:0;right:0;z-index:60;height:60px;display:flex;align-items:center;gap:22px;padding:0 28px;background:#14283F;border-bottom:1px solid rgba(255,255,255,.12);color:#fff}
+#topbar .logo{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;white-space:nowrap}
+#topbar .lm{width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,var(--sun),var(--gold));display:inline-block}
+#topbar .logo b{font-size:17px;letter-spacing:-.01em}
+#topbar .logo em{font-style:normal;font-size:12.5px;color:#b9c9dc;padding-left:12px;border-left:1px solid rgba(255,255,255,.25)}
+#topbar nav{display:flex;gap:4px;margin-left:auto}
+#topbar nav a{color:#dbe6f2;text-decoration:none;font-size:14px;font-weight:600;padding:8px 13px;border-radius:20px;white-space:nowrap;transition:background .2s}
+#topbar nav a:hover{background:rgba(255,255,255,.14)}
+#topbar nav a.on{background:rgba(255,255,255,.18);color:#fff}
+#topbar .cta{background:var(--sun);color:#fff;text-decoration:none;font-weight:800;font-size:14px;padding:9px 18px;border-radius:22px;white-space:nowrap}
+section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
+.est{display:inline-block;margin-top:12px;font-size:13px;font-weight:700;color:#8a5413;background:#FFF1D6;border:1px solid #F1D5A0;padding:6px 14px;border-radius:20px}
+@media(max-width:1100px){#topbar .logo em{display:none}}
+@media(max-width:700px){#topbar{height:54px;padding:0 12px;gap:10px}#topbar .logo b{font-size:15px}#topbar nav{overflow-x:auto;scrollbar-width:none;margin-left:0;flex:1;min-width:0}#topbar nav::-webkit-scrollbar{display:none}#topbar nav a{font-size:12.5px;padding:7px 10px}#topbar .cta{display:none}section[id]{scroll-margin-top:54px}.mcard{scroll-margin-top:74px}}
 </style>
 </head>
 <body>
@@ -590,6 +606,9 @@ h2{font-size:clamp(26px,5.2vw,50px)}
 <div id="bar"></div>
 <nav id="nav"></nav>
 
+<header id="topbar"><a class="logo" href="#top"><span class="lm"></span><b>Wayneflow</b><em>Growth plan for CashBack Realty</em></a>
+<nav><a href="#m1">Month 1</a><a href="#setup">First 20 days</a><a href="#m2">Month 2</a><a href="#m3">Month 3</a><a href="#numbers">Numbers</a></nav>
+<a class="cta" href="#next">Next step</a></header>
 <section class="hero" id="top" data-nav="Start">
   <div class="sun"></div>
   <div class="layer l1" data-s=".10"><svg viewBox="0 0 1500 420" width="1500" height="420"><rect x="-20" y="258" width="42" height="162" fill="#4C79A6"/><rect x="26" y="315" width="50" height="105" fill="#4C79A6"/><rect x="86" y="270" width="62" height="150" fill="#4C79A6"/><rect x="157" y="318" width="47" height="102" fill="#4C79A6"/><rect x="214" y="216" width="35" height="204" fill="#4C79A6"/><rect x="258" y="253" width="61" height="167" fill="#4C79A6"/><rect x="322" y="273" width="78" height="147" fill="#4C79A6"/><rect x="407" y="255" width="48" height="165" fill="#4C79A6"/><rect x="459" y="327" width="54" height="93" fill="#4C79A6"/><rect x="516" y="247" width="35" height="173" fill="#4C79A6"/><rect x="554" y="243" width="58" height="177" fill="#4C79A6"/><rect x="618" y="238" width="61" height="182" fill="#4C79A6"/><rect x="682" y="302" width="67" height="118" fill="#4C79A6"/><rect x="759" y="260" width="65" height="160" fill="#4C79A6"/><rect x="830" y="301" width="56" height="119" fill="#4C79A6"/><rect x="892" y="293" width="63" height="127" fill="#4C79A6"/><rect x="958" y="223" width="60" height="197" fill="#4C79A6"/><rect x="1022" y="250" width="45" height="170" fill="#4C79A6"/><rect x="1074" y="235" width="41" height="185" fill="#4C79A6"/><rect x="1123" y="211" width="66" height="209" fill="#4C79A6"/><rect x="1198" y="224" width="66" height="196" fill="#4C79A6"/><rect x="1270" y="294" width="53" height="126" fill="#4C79A6"/><rect x="1333" y="280" width="66" height="140" fill="#4C79A6"/><rect x="1402" y="299" width="64" height="121" fill="#4C79A6"/><rect x="1475" y="245" width="60" height="175" fill="#4C79A6"/></svg></div>
@@ -669,6 +688,7 @@ h2{font-size:clamp(26px,5.2vw,50px)}
     <div class="eyebrow r">Quarterly plan</div>
     <h2 class="r" style="--d:.1s">Quarter 1: three months, month by month.</h2>
     <p class="lead r" style="--d:.2s">A quarter is 3 months. We plan, work and review one quarter at a time.</p>
+    <p class="est r" style="--d:.25s">All numbers on this page are estimates, based on the work we will do.</p>
     <div class="qtrack r" style="--d:.2s" data-watch>
       <div class="qt"><div class="qfill"></div>
         <div class="qs s1"><i class="build"></i><i class="soft"></i><b>Month 1</b></div>
@@ -677,13 +697,13 @@ h2{font-size:clamp(26px,5.2vw,50px)}
       <div class="qticks"><span>Day 1</span><span>Day 30</span><span>Day 60</span><span>Day 90</span></div>
       <div class="qkey"><span><i class="k1"></i>Build (days 1 to 20)</span><span><i class="k2"></i>First careful sends</span><span><i class="k3"></i>Ramp up</span><span><i class="k4"></i>Full pace</span></div>
     </div>
-    <div class="grid3"><div class="card mcard c1 r" style="--d:0.1s" data-watch><span class="tagm">Month 1</span><h3>Build and start slowly</h3>
+    <div class="grid3"><div id="m1" class="card mcard c1 r" style="--d:0.1s" data-watch><span class="tagm">Month 1</span><h3>Build and start slowly</h3>
       <div class="mbarw"><div class="mb2"><i style="--w:7%"></i></div><div class="ml"><b><span data-count="2000">2,000</span></b> emails sent</div></div>
       <div class="m2"><div><b data-count="2">2</b><span>meetings</span></div><div><b data-count="1">1</b><span>new partners</span></div></div>
-      <ul><li>We build the system by hand (days 1 to 20)</li><li>First careful sends (days 21 to 30)</li><li>Daily health checks begin</li></ul><div class="goal">Goal: a clean, healthy start</div></div><div class="card mcard c2 r" style="--d:0.25s" data-watch><span class="tagm">Month 2</span><h3>Ramp up</h3>
+      <ul><li>We build the system by hand (days 1 to 20)</li><li>First careful sends (days 21 to 30)</li><li>Daily health checks begin</li></ul><div class="goal">Goal: a clean, healthy start</div></div><div id="m2" class="card mcard c2 r" style="--d:0.25s" data-watch><span class="tagm">Month 2</span><h3>Ramp up</h3>
       <div class="mbarw"><div class="mb2"><i style="--w:67%"></i></div><div class="ml"><b><span data-count="20000">20,000</span></b> emails sent</div></div>
       <div class="m2"><div><b data-count="17">17</b><span>meetings</span></div><div><b data-count="4">4</b><span>new partners</span></div></div>
-      <ul><li>Sending steps up every week</li><li>We fix what the replies teach us</li><li>The partner pack goes out</li></ul><div class="goal">Goal: prove the message works</div></div><div class="card mcard c3 r" style="--d:0.4s" data-watch><span class="tagm">Month 3</span><h3>Full pace</h3>
+      <ul><li>Sending steps up every week</li><li>We fix what the replies teach us</li><li>The partner pack goes out</li></ul><div class="goal">Goal: prove the message works</div></div><div id="m3" class="card mcard c3 r" style="--d:0.4s" data-watch><span class="tagm">Month 3</span><h3>Full pace</h3>
       <div class="mbarw"><div class="mb2"><i style="--w:93%"></i></div><div class="ml"><b><span data-count="28000">28,000</span></b> emails sent</div></div>
       <div class="m2"><div><b data-count="27">27</b><span>meetings</span></div><div><b data-count="7">7</b><span>new partners</span></div></div>
       <ul><li>Running at full speed</li><li>Developers and advisers join the list</li><li>Quarter review, together</li></ul><div class="goal">Goal: about 30 meetings a month</div></div></div>
@@ -969,6 +989,7 @@ h2{font-size:clamp(26px,5.2vw,50px)}
   var secs=[].slice.call(document.querySelectorAll('section[data-nav]')), nav=document.getElementById('nav');
   secs.forEach(function(s){var a=document.createElement('a');a.href='#'+s.id;a.innerHTML='<span>'+s.dataset.nav+'</span>';nav.appendChild(a)});
   var dots=[].slice.call(nav.children);
+  var bl=[].slice.call(document.querySelectorAll('#topbar nav a'));function barOn(){var y=window.scrollY+120,cur=null;bl.forEach(function(a){var t=document.querySelector(a.getAttribute('href'));if(t&&t.getBoundingClientRect().top+window.scrollY<=y)cur=a});bl.forEach(function(a){a.classList.toggle('on',a===cur)})}addEventListener('scroll',barOn,{passive:true});barOn();
 
   /* ramp chart */
   function buildRamp(){
@@ -1045,7 +1066,7 @@ h2{font-size:clamp(26px,5.2vw,50px)}
   /* counters + reveal */
   var cnt=[].slice.call(document.querySelectorAll('[data-count]'));
   cnt.forEach(function(c){c.textContent='0'+(c.dataset.suffix||'')});
-  function runCount(c){var to=+c.dataset.count,suf=c.dataset.suffix||'',t0=null;(function f(t){if(!t0)t0=t;var k=Math.min(1,(t-t0)/1600);c.textContent=Math.round(to*(1-Math.pow(1-k,3)))+suf;if(k<1)requestAnimationFrame(f)})(performance.now())}
+  function runCount(c){var to=+c.dataset.count,suf=c.dataset.suffix||'',t0=null;(function f(t){if(!t0)t0=t;var k=Math.min(1,(t-t0)/1600);c.textContent=Math.round(to*(1-Math.pow(1-k,3))).toLocaleString('en-AU')+suf;if(k<1)requestAnimationFrame(f)})(performance.now())}
   var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');
     [].forEach.call(e.target.querySelectorAll('[data-count]'),runCount);if(e.target.matches('[data-count]'))runCount(e.target);
     if(e.target.id==='calcgo'&&auto){}
