@@ -488,6 +488,41 @@ h2{font-size:clamp(26px,5.2vw,50px)}
   .hero{min-height:92vh;min-height:92svh}
 }
 @media(max-width:700px){.mf{display:flex;flex-direction:column;align-items:center}.mf-top{order:2;margin-top:16px;width:100%;align-items:center}.mf-top .arr{display:none}.np{border:2px dashed var(--gold);background:var(--navy2)}.np:after{content:"send buyers to CashBack";display:block;font-size:12px;color:var(--gold);margin-top:4px;font-weight:700}}
+
+.st3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}
+.st3>div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 20px;box-shadow:0 8px 24px rgba(29,59,99,.08)}
+.st3 b{display:block;font-size:clamp(26px,3vw,36px);color:var(--sun);letter-spacing:-.03em}
+.st3 span{font-size:13.5px;color:var(--ink2);line-height:1.45;display:block}
+.pills{margin-top:30px;display:flex;flex-wrap:wrap;gap:10px}
+.pills span{display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);border-radius:30px;padding:9px 16px 9px 10px;font-size:14.5px;font-weight:600;color:#fff;opacity:0;transform:translateY(14px);transition:all .5s ease;transition-delay:calc(var(--i)*.12s)}
+.pills.in span,.static .pills span{opacity:1;transform:none}
+.pills i{font-style:normal;width:24px;height:24px;border-radius:50%;background:var(--gold);color:var(--navy);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800}
+.scen{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px;background:var(--navy);border-radius:28px;padding:30px 24px 24px;color:#fff;box-shadow:0 24px 60px rgba(29,59,99,.3)}
+.sc{text-align:center;position:relative;z-index:2}
+.sc .col{height:220px;display:flex;align-items:flex-end;justify-content:center}
+.sc .bar{display:block;width:62%;max-width:150px;height:0;border-radius:16px 16px 6px 6px;background:linear-gradient(180deg,#F4B94A,#EE8A3A);transition:height 1.6s cubic-bezier(.2,.8,.2,1) .2s}
+.sc.mid .bar{background:linear-gradient(180deg,#6AA3F5,#2F6FD0)}
+.sc:first-child .bar{background:linear-gradient(180deg,#5FC4C1,#2C8C8A)}
+.scen.in .bar,.static .scen .bar{height:var(--h)}
+.sc b{display:block;font-size:clamp(24px,3.6vw,40px);letter-spacing:-.03em;margin-top:12px}
+.sc small{display:block;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:800;margin-top:2px}
+.sc>span{display:block;font-size:12.5px;color:#cfdcec;margin-top:4px}
+.sc .col{position:relative}.sc .col:after{content:"";position:absolute;left:0;right:0;bottom:var(--cl);border-top:2px dashed rgba(255,255,255,.75)}
+.lgd{grid-column:1/-1;text-align:center;font-size:12.5px;color:#cfdcec;margin-top:6px}.lgd i{display:inline-block;width:26px;border-top:2px dashed rgba(255,255,255,.75);vertical-align:3px;margin-right:8px}
+.sub3{font-size:20px;color:var(--navy);margin-top:44px;letter-spacing:-.01em}
+@media(max-width:700px){.st3{grid-template-columns:1fr;gap:10px}.st3>div{padding:14px 16px}.pills{gap:8px}.pills span{font-size:13px;padding:7px 12px 7px 8px}.scen{padding:22px 12px 18px;gap:8px;border-radius:22px}.sc .col{height:170px}.sc b{font-size:20px}.sc>span{font-size:11px}.sub3{margin-top:30px;font-size:18px}}
+/* desktop hero tidy (does not affect mobile) */
+@media(min-width:901px){
+  .hero h1{font-size:clamp(44px,4.8vw,70px);max-width:740px;line-height:1.04}
+  .hero .sub{max-width:520px}
+  .sun{left:calc(50% + 180px);bottom:130px}
+  .scroll{bottom:30px;text-shadow:0 1px 8px rgba(0,0,0,.55)}
+}
+@media(min-width:1280px){
+  .float{right:auto}
+  .f1{left:calc(50% + 380px);top:20%}.f2{left:calc(50% + 330px);top:36%}.f3{left:calc(50% + 400px);top:52%}
+}
+@media(min-width:901px) and (max-width:1279px){.float{display:none}}
 </style>
 </head>
 <body>
@@ -552,45 +587,22 @@ h2{font-size:clamp(26px,5.2vw,50px)}
       <div class="bg r" style="--d:.1s"><b>Vetted</b><span>developers only</span></div>
       <div class="bg r" style="--d:.2s"><b>Trust</b><span>is what sells it</span></div>
     </div>
+    <div class="st3 r">
+      <div><b data-count="644">644</b><span>new Gold Coast apartment sales, first half of 2026</span></div>
+      <div><b data-count="14">14</b><span>new projects launched in one quarter. A record.</span></div>
+      <div><b>Investors</b><span>local and interstate are the fast-growing buyers</span></div>
+    </div>
     <p class="feel r">Strangers won't find you. Trusted people will send them.</p>
   </div>
 </section>
 
-<section id="vs" class="sand" data-nav="Today vs then">
-  <div class="wrap">
-    <div class="eyebrow r">The difference</div>
-    <h2 class="r" style="--d:.1s">From hoping, to knowing.</h2>
-    <div class="vs">
-      <div class="vc old r"><h3>Without a partner engine</h3>
-        <ul><li><svg class="i"><use href="#i-search"/></svg>Referrals by luck</li><li><svg class="i"><use href="#i-cal"/></svg>Quiet weeks, then busy ones</li><li><svg class="i"><use href="#i-chart"/></svg>Hard to plan or grow</li></ul></div>
-      <div class="vc new r" style="--d:.15s"><h3>With one</h3>
-        <ul><li><svg class="i"><use href="#i-users"/></svg>Partners send buyers every month</li><li><svg class="i"><use href="#i-cal"/></svg>A calendar that fills itself</li><li><svg class="i"><use href="#i-chart"/></svg>Growth you can see and steer</li></ul></div>
-    </div>
-  </div>
-</section>
-<section id="market" class="band" data-nav="The market">
-  <div class="wrap">
-    <div class="eyebrow r">Your market</div>
-    <h2 class="r" style="--d:.1s">The Gold Coast is moving your way.</h2>
-    <div class="stats">
-      <div class="stat r" style="--d:.1s"><b><span data-count="644">644</span></b><span>new apartment sales in the first half of 2026</span></div>
-      <div class="stat r" style="--d:.2s"><b><span data-count="14">14</span></b><span>new projects launched in one quarter. A record.</span></div>
-      <div class="stat r" style="--d:.3s"><b><span data-count="37" data-suffix="%">37%</span></b><span>of buyers live in it. Once it was over 60%.</span></div>
-      <div class="stat r" style="--d:.4s"><b>Investors</b><span>local and interstate now fill the gap</span></div>
-    </div>
-    <div class="read">
-      <div class="rd r"><svg class="i"><use href="#i-build"/></svg><div><b>More projects.</b> More developers who need buyers.</div></div>
-      <div class="rd r" style="--d:.15s"><svg class="i"><use href="#i-users"/></svg><div><b>More investors.</b> More advisers and brokers to reach.</div></div>
-    </div>
-  </div>
-</section>
 
 <section id="audience" data-nav="Who we reach">
   <div class="wrap">
     <div class="eyebrow r">Your audience</div>
     <h2 class="r" style="--d:.1s">Six groups. One job each.</h2>
     <p class="lead r" style="--d:.2s">We start with the fastest to win, then add the rest.</p>
-    <div class="pers"><div class="pc r" style="--d:0s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-doc"/></svg></div><div><h3>Mortgage brokers</h3><small>Start here</small></div></div><p class="why">Every buyer needs a loan. You help their client.</p><div class="fit"><i style="--w:92%"></i></div><div class="fl"><span>Speed to win</span><span>High</span></div></div><div class="pc r" style="--d:0.1s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><div><h3>Accountants and SMSF</h3><small>Start here</small></div></div><p class="why">Investor clients ask where to put money.</p><div class="fit"><i style="--w:78%"></i></div><div class="fl"><span>Speed to win</span><span>Good</span></div></div><div class="pc r" style="--d:0.2s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-search"/></svg></div><div><h3>Buyers' agents</h3><small>Second wave</small></div></div><p class="why">A trusted source of vetted projects.</p><div class="fit"><i style="--w:60%"></i></div><div class="fl"><span>Speed to win</span><span>Medium</span></div></div><div class="pc r" style="--d:0s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><div><h3>Developers</h3><small>Few, but big</small></div></div><p class="why">They need buyers now.</p><div class="fit"><i style="--w:50%"></i></div><div class="fl"><span>Speed to win</span><span>Slow, high value</span></div></div><div class="pc r" style="--d:0.1s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-globe"/></svg></div><div><h3>Interstate and overseas</h3><small>Phase 2</small></div></div><p class="why">Can't visit. They need someone local they trust.</p><div class="fit"><i style="--w:55%"></i></div><div class="fl"><span>Speed to win</span><span>Medium</span></div></div><div class="pc alt r" style="--d:0.2s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><div><h3>Buyers directly</h3><small>Through partners</small></div></div><p class="why">Not by cold email. Partners send them, and later your own site and content.</p><div class="fit"><i style="--w:70%"></i></div><div class="fl"><span>Speed to win</span><span>Long term</span></div></div></div>
+    <div class="pers"><div class="pc r" style="--d:0s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-doc"/></svg></div><div><h3>Mortgage brokers</h3><small>Start here</small></div></div><p class="why">Every buyer needs a loan. You help their client.</p><div class="fit"><i style="--w:92%"></i></div><div class="fl"><span>Speed to win</span><span>High</span></div></div><div class="pc r" style="--d:0.1s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><div><h3>Accountants and SMSF</h3><small>Start here</small></div></div><p class="why">Investor clients ask where to put money.</p><div class="fit"><i style="--w:78%"></i></div><div class="fl"><span>Speed to win</span><span>Good</span></div></div><div class="pc r" style="--d:0s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><div><h3>Developers</h3><small>Few, but big</small></div></div><p class="why">They need buyers now.</p><div class="fit"><i style="--w:50%"></i></div><div class="fl"><span>Speed to win</span><span>Slow, high value</span></div></div><div class="pc r" style="--d:0.1s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-globe"/></svg></div><div><h3>Interstate and overseas</h3><small>Phase 2</small></div></div><p class="why">Can't visit. They need someone local they trust.</p><div class="fit"><i style="--w:55%"></i></div><div class="fl"><span>Speed to win</span><span>Medium</span></div></div><div class="pc alt r" style="--d:0.2s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><div><h3>Buyers directly</h3><small>Through partners</small></div></div><p class="why">Not by cold email. Partners send them, and later your own site and content.</p><div class="fit"><i style="--w:70%"></i></div><div class="fl"><span>Speed to win</span><span>Long term</span></div></div></div>
   </div>
 </section>
 
@@ -608,27 +620,6 @@ h2{font-size:clamp(26px,5.2vw,50px)}
   </div>
 </section>
 
-<section id="monday" class="band glow" data-nav="Your Monday">
-  <div class="wrap">
-    <div class="mon">
-      <div class="r">
-        <div class="eyebrow">Imagine</div>
-        <h2>A Monday, six months from now.</h2>
-        <p class="lead">You open your phone. Buyers are already waiting. You didn't chase anyone.</p>
-        <div class="tri"><span><b data-count="30" data-suffix="+">30+</b> meetings a month</span><span><b>1</b> shared calendar</span><span><b>0</b> cold calls from you</span></div>
-      </div>
-      <div class="phone r" style="--d:.2s" data-watch>
-        <div class="pn"></div>
-        <div class="ph-h"><small>Monday</small><b>9:02</b></div>
-        <div class="nt" style="--i:0"><div class="ni"><svg class="i"><use href="#i-users"/></svg></div><div><b>New buyer introduced</b><span>from a Gold Coast broker</span></div></div>
-        <div class="nt" style="--i:1"><div class="ni"><svg class="i"><use href="#i-cal"/></svg></div><div><b>Meeting booked</b><span>Tue 10:30, SMSF accountant</span></div></div>
-        <div class="nt" style="--i:2"><div class="ni"><svg class="i"><use href="#i-check"/></svg></div><div><b>Partner signed</b><span>Brisbane buyers' agent</span></div></div>
-        <div class="nt" style="--i:3"><div class="ni"><svg class="i"><use href="#i-tag"/></svg></div><div><b>Cashback paid</b><span>settlement complete</span></div></div>
-        <small class="ex">Example only</small>
-      </div>
-    </div>
-  </div>
-</section>
 <!-- 20 DAYS PINNED -->
 <section id="setup" class="band" data-nav="Days 1 to 20" style="padding-bottom:0">
   <div class="wrap">
@@ -720,14 +711,7 @@ h2{font-size:clamp(26px,5.2vw,50px)}
     </div>
     <div class="eyebrow r" style="margin-top:64px">Every single day</div>
     <h2 class="r" style="font-size:clamp(24px,4vw,38px)">We check it like a hawk.</h2>
-    <div class="checks r" style="--d:.2s" data-watch>
-      <div class="ck" style="--i:0"><div class="tick">&#10003;</div><div><b>Bounces</b><span>Reaching real inboxes?</span></div></div>
-      <div class="ck" style="--i:1"><div class="tick">&#10003;</div><div><b>Sending health</b><span>All mailboxes healthy?</span></div></div>
-      <div class="ck" style="--i:2"><div class="tick">&#10003;</div><div><b>Replies</b><span>Answered fast?</span></div></div>
-      <div class="ck" style="--i:3"><div class="tick">&#10003;</div><div><b>Opt-outs</b><span>Removed same day.</span></div></div>
-      <div class="ck" style="--i:4"><div class="tick">&#10003;</div><div><b>Spam signals</b><span>Inboxes still trust us?</span></div></div>
-      <div class="ck" style="--i:5"><div class="tick">&#10003;</div><div><b>On schedule</b><span>Sending as planned?</span></div></div>
-    </div>
+    <div class="pills r" style="--d:.2s" data-watch><span style="--i:0"><i>&#10003;</i>Bounces</span><span style="--i:1"><i>&#10003;</i>Sending health</span><span style="--i:2"><i>&#10003;</i>Replies answered</span><span style="--i:3"><i>&#10003;</i>Opt-outs removed</span><span style="--i:4"><i>&#10003;</i>Spam signals</span><span style="--i:5"><i>&#10003;</i>On schedule</span></div>
     <div class="pause r"><b>Our rule:</b> if anything slips, we pause and fix it first.</div>
   </div>
 </section>
@@ -755,7 +739,7 @@ h2{font-size:clamp(26px,5.2vw,50px)}
   <div class="wrap">
     <div class="eyebrow r">After the meeting</div>
     <h2 class="r" style="--d:.1s">A meeting isn't a partner. Here's how it becomes one.</h2>
-    <div class="kit"><div class="kt r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-doc"/></svg></div><h4>Partner pack</h4><p>One page. Clear terms.</p></div><div class="kt r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><h4>Project sheets</h4><p>Match a client in a minute.</p></div><div class="kt r" style="--d:0.2s"><div class="ic"><svg class="i"><use href="#i-link"/></svg></div><h4>Easy introductions</h4><p>One link. No forms.</p></div><div class="kt r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-mail"/></svg></div><h4>Monthly market note</h4><p>A reason to open your email.</p></div><div class="kt r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><h4>Simple tracking</h4><p>They see their buyers move.</p></div><div class="kt r" style="--d:0.2s"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><h4>Small events</h4><p>Face time builds trust.</p></div></div>
+    <div class="kit"><div class="kt r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-doc"/></svg></div><h4>Partner pack</h4><p>One page. Clear terms.</p></div><div class="kt r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><h4>Project sheets</h4><p>Match a client in a minute.</p></div><div class="kt r" style="--d:0.2s"><div class="ic"><svg class="i"><use href="#i-link"/></svg></div><h4>Easy introductions</h4><p>One link. No forms.</p></div><div class="kt r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><h4>Simple tracking</h4><p>They see their buyers move.</p></div></div>
     <div class="rhy">
       <div class="rh r"><small>Week 1</small><b>Thank you + pack</b></div>
       <div class="rh r" style="--d:.1s"><small>Month 1</small><b>First introduction</b></div>
@@ -765,13 +749,42 @@ h2{font-size:clamp(26px,5.2vw,50px)}
   </div>
 </section>
 
+<section id="monday" class="band glow" data-nav="Your Monday">
+  <div class="wrap">
+    <div class="mon">
+      <div class="r">
+        <div class="eyebrow">Imagine</div>
+        <h2>A Monday, six months from now.</h2>
+        <p class="lead">You open your phone. Buyers are already waiting. You didn't chase anyone.</p>
+        <div class="tri"><span><b data-count="30" data-suffix="+">30+</b> meetings a month</span><span><b>1</b> shared calendar</span><span><b>0</b> cold calls from you</span></div>
+      </div>
+      <div class="phone r" style="--d:.2s" data-watch>
+        <div class="pn"></div>
+        <div class="ph-h"><small>Monday</small><b>9:02</b></div>
+        <div class="nt" style="--i:0"><div class="ni"><svg class="i"><use href="#i-users"/></svg></div><div><b>New buyer introduced</b><span>from a Gold Coast broker</span></div></div>
+        <div class="nt" style="--i:1"><div class="ni"><svg class="i"><use href="#i-cal"/></svg></div><div><b>Meeting booked</b><span>Tue 10:30, SMSF accountant</span></div></div>
+        <div class="nt" style="--i:2"><div class="ni"><svg class="i"><use href="#i-check"/></svg></div><div><b>Partner signed</b><span>Brisbane buyers' agent</span></div></div>
+        <div class="nt" style="--i:3"><div class="ni"><svg class="i"><use href="#i-tag"/></svg></div><div><b>Cashback paid</b><span>settlement complete</span></div></div>
+        <small class="ex">Example only</small>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- CALCULATOR -->
 <section id="numbers" data-nav="The numbers">
   <div class="wrap">
     <div class="eyebrow r">What it can be worth</div>
-    <h2 class="r" style="--d:.1s">Play with the numbers.</h2>
+    <h2 class="r" style="--d:.1s">What it can bring you in year 1.</h2>
     <p class="lead r" style="--d:.2s">Partners stack up. Results grow faster than cost.</p>
-    <div class="calc">
+    <div class="scen r" data-watch>
+      <div class="sc"><div class="col"><i class="bar" id="b0"></i></div><b id="sc0"></b><small>Careful</small><span id="sc0s"></span></div>
+      <div class="sc mid"><div class="col"><i class="bar" id="b1"></i></div><b id="sc1"></b><small>Expected</small><span id="sc1s"></span></div>
+      <div class="sc"><div class="col"><i class="bar" id="b2"></i></div><b id="sc2"></b><small>Strong</small><span id="sc2s"></span></div>
+      <div class="lgd"><i></i>Dashed line: what you invest in year 1 ($31,500)</div>
+    </div>
+    <p class="note r" style="text-align:center">Kept by CashBack in 12 months, after cashback and partner fees. Estimates, not promises.</p>
+    <h3 class="sub3 r">Now try your own numbers</h3>
+<div class="calc">
       <div class="cin r" style="--d:.1s">
         <div class="pre" id="pre"><button data-p="0">Careful</button><button data-p="1" class="on">Expected</button><button data-p="2">Strong</button></div>
         <div class="sl"><label>Meetings a month at full pace <b id="v0"></b></label><input type="range" id="s0" min="10" max="50" step="1"></div>
@@ -830,7 +843,7 @@ h2{font-size:clamp(26px,5.2vw,50px)}
   <div class="wrap">
     <div class="eyebrow r">Ideas for you</div>
     <h2 class="r" style="--d:.1s">Quick wins we spotted.</h2>
-    <div class="grid3"><div class="card idea r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-cal"/></svg></div><h3>Booking button</h3><p>Next to your free estimate.</p></div><div class="card idea r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><h3>Real buyer stories</h3><p>Photos, with their OK.</p></div><div class="card idea r" style="--d:0.2s"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><h3>Project pages</h3><p>Why you pick each one.</p></div><div class="card idea r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-link"/></svg></div><h3>Partner page</h3><p>Pack, examples, sign-up.</p></div><div class="card idea r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-shield"/></svg></div><h3>Plain FAQ</h3><p>Lender, tax, legal answers.</p></div><div class="card idea r" style="--d:0.2s"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><h3>One scoreboard</h3><p>Partners, buyers, sales.</p></div></div>
+    <div class="grid3"><div class="card idea r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-cal"/></svg></div><h3>Booking button</h3><p>Next to your free estimate.</p></div><div class="card idea r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><h3>Real buyer stories</h3><p>Photos, with their OK.</p></div><div class="card idea r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-link"/></svg></div><h3>Partner page</h3><p>Pack, examples, sign-up.</p></div></div>
   </div>
 </section>
 
@@ -908,8 +921,8 @@ h2{font-size:clamp(26px,5.2vw,50px)}
   var P=[[20,20,0.25,25,4500],[30,25,0.30,25,4500],[40,30,0.40,30,5500]];
   var cur=P[1].slice(), mo=12, sliders=[0,1,2,3,4].map(function(i){return document.getElementById('s'+i)});
   var unit=[function(v){return v},function(v){return v+'%'},function(v){return (+v).toFixed(2)},function(v){return v+'%'},function(v){return money(v)}];
-  function model(){
-    var steady=cur[0],rate=cur[1]/100,bp=cur[2],sale=cur[3]/100,net=cur[4],drop=.05;
+  function model(c){
+    c=c||cur;var steady=c[0],rate=c[1]/100,bp=c[2],sale=c[3]/100,net=c[4],drop=.05;
     var part=[],newp=[],sales=[],cumNet=[],cumCost=[],p=0,cn=0,prevP=0;
     for(var m=1;m<=12;m++){
       var meet=m==1?steady/3:m==2?steady*2/3:steady, np=meet*rate;
@@ -948,6 +961,11 @@ h2{font-size:clamp(26px,5.2vw,50px)}
   sliders.forEach(function(s,i){s.addEventListener('input',function(){cur[i]=+s.value;[].forEach.call(document.querySelectorAll('#pre button'),function(b){b.classList.remove('on')});auto=false;draw()})});
   [].forEach.call(document.querySelectorAll('#pre button'),function(b){b.addEventListener('click',function(){cur=P[+b.dataset.p].slice();[].forEach.call(document.querySelectorAll('#pre button'),function(x){x.classList.remove('on')});b.classList.add('on');draw()})});
   var auto=true;document.getElementById('sm').addEventListener('input',function(e){mo=+e.target.value;auto=false;draw()});
+  (function scen(){
+    var vals=P.map(function(p){return model(p)}),mx=Math.max.apply(null,vals.map(function(r){return r.cumNet[11]})),cost=31500;
+    vals.forEach(function(r,i){var v=r.cumNet[11];document.getElementById('b'+i).style.setProperty('--h',(v/mx*100)+'%');document.getElementById('sc'+i).textContent=money(Math.round(v/1000)*1000);document.getElementById('sc'+i+'s').textContent=r.pb?'paid back in month '+r.pb:'not paid back in year 1'});
+        document.querySelector('.scen').style.setProperty('--cl',(cost/mx*100)+'%');
+  })();
   draw();
 
   if(st){
