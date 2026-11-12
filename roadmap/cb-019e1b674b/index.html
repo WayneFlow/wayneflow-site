@@ -9,7 +9,7 @@
 <style>
 :root{--ink:#14283F;--ink2:#41566E;--navy:#1D3B63;--navy2:#28476F;--blue:#2F6FD0;--sea:#2C8C8A;--sun:#EE8A3A;--gold:#F4B94A;--mist:#D6E0EA;--sand:#E6DFCF;--card:#F6F8FB;--line:#C3D0DD}
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;overflow-x:clip}body{overflow-x:clip}
+html{scroll-behavior:smooth}
 body{font-family:Inter,"Helvetica Neue",Arial,sans-serif;background:var(--mist);color:var(--ink);-webkit-font-smoothing:antialiased;overflow-x:hidden;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
 section{position:relative;padding:104px 0}
@@ -618,6 +618,8 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 .qpay b{display:block;font-size:13px;color:var(--navy);margin-bottom:2px}
 .qpay span:nth-child(2){border-color:var(--sun)}
 @media(max-width:700px){.qpay{grid-template-columns:1fr;gap:8px}.qpay span{padding:9px 12px}.mcard .tagm{font-size:10px;padding:5px 10px}}
+@media(min-width:701px){.mf-top .arr.v{flex:none;height:60px}.mf-top{margin-bottom:6px}.mf-top .arr.v span{left:16px}}
+@media(min-width:1001px){.kit{grid-template-columns:repeat(4,1fr)}}
 </style>
 </head>
 <body>
@@ -699,7 +701,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 <section id="audience" data-nav="Who we reach">
   <div class="wrap">
     <div class="eyebrow r">Your audience</div>
-    <h2 class="r" style="--d:.1s">Six groups. One job each.</h2>
+    <h2 class="r" style="--d:.1s">Five groups. One job each.</h2>
     <p class="lead r" style="--d:.2s">We start with the fastest to win, then add the rest.</p>
     <div class="pers"><div class="pc r" style="--d:0s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-doc"/></svg></div><div><h3>Mortgage brokers</h3><small>Start here</small></div></div><p class="why">Every buyer needs a loan. You help their client.</p><div class="fit"><i style="--w:92%"></i></div><div class="fl"><span>Speed to win</span><span>High</span></div></div><div class="pc r" style="--d:0.1s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><div><h3>Accountants and SMSF</h3><small>Start here</small></div></div><p class="why">Investor clients ask where to put money.</p><div class="fit"><i style="--w:78%"></i></div><div class="fl"><span>Speed to win</span><span>Good</span></div></div><div class="pc r" style="--d:0s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><div><h3>Developers</h3><small>Few, but big</small></div></div><p class="why">They need buyers now.</p><div class="fit"><i style="--w:50%"></i></div><div class="fl"><span>Speed to win</span><span>Slow, high value</span></div></div><div class="pc r" style="--d:0.1s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-globe"/></svg></div><div><h3>Interstate and overseas</h3><small>Phase 2</small></div></div><p class="why">Can't visit. They need someone local they trust.</p><div class="fit"><i style="--w:55%"></i></div><div class="fl"><span>Speed to win</span><span>Medium</span></div></div><div class="pc alt r" style="--d:0.2s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><div><h3>Buyers directly</h3><small>Through partners</small></div></div><p class="why">Not by cold email. Partners send them, and later your own site and content.</p><div class="fit"><i style="--w:70%"></i></div><div class="fl"><span>Speed to win</span><span>Long term</span></div></div></div>
   </div>
@@ -860,7 +862,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 <section id="meet" data-nav="Email to partner">
   <div class="wrap">
     <div class="eyebrow r">From email to partner</div>
-    <h2 class="r" style="--d:.1s">What one careful month can become.</h2>
+    <h2 class="r" style="--d:.1s">What one full month can become.</h2>
     <p class="lead r" style="--d:.2s">Worst case: only 1 in 100 emails gets a yes.</p>
     <div class="fun r" style="--d:.2s" data-watch>
       <div class="fr"><span>Emails<small>one month</small></span><div class="ft"><div class="ff" style="--w:100%;--k:0;background:var(--navy)">30,000</div></div></div>
@@ -1082,7 +1084,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
     if(r.pb)s+='<circle cx="'+sx(r.pb)+'" cy="'+sy(r.cumNet[r.pb-1])+'" r="7" fill="#2C8C8A" stroke="#fff" stroke-width="2"/><text x="'+sx(r.pb)+'" y="'+(sy(r.cumNet[r.pb-1])-14)+'" text-anchor="middle" style="fill:#2C8C8A">paid back, month '+r.pb+'</text>';
     document.getElementById('chart').innerHTML=s;
     // network
-    var n=Math.round(r.part[i]),ns='<circle cx="190" cy="190" r="26" fill="#EE8A3A"/><text x="190" y="195" text-anchor="middle" style="fill:#fff;font-size:11px;font-weight:800;font-family:Inter,sans-serif">CASHBACK</text>';
+    var n=Math.round(r.part[i]),ns='<circle cx="190" cy="190" r="30" fill="#EE8A3A"/><text x="190" y="194" text-anchor="middle" style="fill:#fff;font-size:8.5px;font-weight:800;font-family:Inter,sans-serif">CASHBACK</text>';
     var out='';for(var k=0;k<n;k++){var a=k*2.39996,rr=40+15.5*Math.sqrt(k),x=190+rr*Math.cos(a),y=190+rr*Math.sin(a);
       out+='<line x1="190" y1="190" x2="'+x+'" y2="'+y+'" stroke="#9AAFC4" stroke-opacity=".35"/>';
       ns+='<circle cx="'+x+'" cy="'+y+'" r="'+(k>n-8?6.5:5)+'" fill="'+(k>n-8?'#EE8A3A':'#1D3B63')+'"/>'}
