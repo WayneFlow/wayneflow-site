@@ -604,6 +604,29 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 @media(max-width:700px){.qpay{grid-template-columns:1fr;gap:8px}.qpay span{padding:9px 12px}.mcard .tagm{font-size:10px;padding:5px 10px}}
 @media(min-width:701px){.mf-top .arr.v{flex:none;height:60px}.mf-top{margin-bottom:6px}.mf-top .arr.v span{left:16px}}
 @media(min-width:1001px){.kit{grid-template-columns:repeat(4,1fr)}}
+
+/* BIGGER + VISUAL */
+.eyebrow{display:inline-block;font-size:14px;letter-spacing:.14em;background:rgba(238,138,58,.14);padding:8px 16px;border-radius:30px;margin-bottom:18px}
+.band .eyebrow{background:rgba(244,185,74,.16)}
+h2{font-size:clamp(38px,6.4vw,76px);line-height:1.03;letter-spacing:-.03em;max-width:980px}
+.lead{font-size:clamp(19px,2.2vw,25px);line-height:1.5;max-width:760px;font-weight:500}
+.hero h1{font-size:clamp(46px,9vw,100px)}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}
+.gc{background:#fff;border-radius:26px;padding:30px 24px;text-align:center;position:relative;box-shadow:0 10px 30px rgba(20,40,70,.08);border:2px solid rgba(238,138,58,.25)}
+.gc .gi{position:absolute;top:-16px;left:50%;transform:translateX(-50%);width:36px;height:36px;border-radius:50%;background:var(--sun);color:#fff;font-weight:800;font-size:19px;display:flex;align-items:center;justify-content:center}
+.gc .ge{font-size:64px;line-height:1.1;margin:8px 0 10px}
+.gc h3{font-size:26px;color:var(--navy);line-height:1.15}
+.gc p{font-size:17px;color:var(--ink2);margin-top:8px}
+.sl h4{font-size:21px}.sl p{font-size:16px}.sl .dy{font-size:13px}
+.sl .em{font-size:26px;margin-right:10px;vertical-align:-3px}
+@media(max-width:700px){
+ h2{font-size:clamp(36px,10.5vw,48px)}
+ .lead{font-size:19px}
+ .eyebrow{font-size:12.5px;padding:7px 13px}
+ .g3{grid-template-columns:1fr;gap:26px}
+ .gc{padding:26px 20px}
+ .sl h4{font-size:18px}.sl p{font-size:14.5px}.sl .em{font-size:22px;margin-right:8px}
+}
 </style>
 </head>
 <body>
@@ -641,7 +664,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
   <div class="float f3"><svg class="i"><use href="#i-check"/></svg><div><b>Partner signed</b><span>sends buyers monthly</span></div></div>
   <div class="wrap">
     <span class="tag r in" style="--d:.1s">Made for CashBack Realty</span>
-    <h1 class="r in" style="--d:.25s">Picture your calendar, <em>full.</em></h1>
+    <h1 class="r in" style="--d:.25s">Your calendar, <em>full.</em></h1>
     <p class="sub r in" style="--d:.45s">A plan to bring you partners who send you buyers. Month after month. Year after year.</p>
     <div class="chips r in" style="--d:.65s">
       <div class="chip"><b>20 days</b><span>we build it</span></div>
@@ -652,11 +675,23 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
   <div class="scroll">Scroll<i></i></div>
 </section>
 
+<section id="glance" class="sand" style="padding:64px 0 24px">
+  <div class="wrap">
+    <div class="eyebrow r">The plan in 10 seconds</div>
+    <h2 class="r" style="--d:.1s">3 steps. That is all.</h2>
+    <div class="g3">
+      <div class="gc r" style="--d:.1s"><div class="gi">1</div><div class="ge">🤝</div><h3>You say go</h3><p>You pay the setup fee. Day 1 starts.</p></div>
+      <div class="gc r" style="--d:.2s"><div class="gi">2</div><div class="ge">🛠️</div><h3>We build for 20 days</h3><p>Emails, leads, everything. You just approve.</p></div>
+      <div class="gc r" style="--d:.3s"><div class="gi">3</div><div class="ge">📅</div><h3>Meetings start</h3><p>Month 1 begins. Partners come to your calendar.</p></div>
+    </div>
+  </div>
+</section>
+
 <section id="study" data-nav="Your business">
   <div class="wrap">
     <div class="eyebrow r">Your business</div>
-    <h2 class="r" style="--d:.1s">You give buyers real money back.</h2>
-    <p class="lead r" style="--d:.2s">Developers pay you. You pass up to half to the buyer. Simple.</p>
+    <h2 class="r" style="--d:.1s">You give buyers money back.</h2>
+    <p class="lead r" style="--d:.2s">Developers pay you. You pass half to the buyer. Simple.</p>
     <div class="mf r" style="--d:.2s">
       <div class="mf-top"><div class="nd np"><b>PARTNERS</b><small>brokers, advisers</small></div><div class="arr v"><span>send buyers</span></div></div>
       <div class="mf-row">
@@ -685,7 +720,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 <section id="audience" data-nav="Who we reach">
   <div class="wrap">
     <div class="eyebrow r">Your audience</div>
-    <h2 class="r" style="--d:.1s">Five groups. One job each.</h2>
+    <h2 class="r" style="--d:.1s">5 kinds of people we talk to.</h2>
     <p class="lead r" style="--d:.2s">We start with the fastest to win, then add the rest.</p>
     <div class="pers"><div class="pc r" style="--d:0s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-doc"/></svg></div><div><h3>Mortgage brokers</h3><small>Start here</small></div></div><p class="why">Every buyer needs a loan. You help their client.</p><div class="fit"><i style="--w:92%"></i></div><div class="fl"><span>Speed to win</span><span>High</span></div></div><div class="pc r" style="--d:0.1s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><div><h3>Accountants and SMSF</h3><small>Start here</small></div></div><p class="why">Investor clients ask where to put money.</p><div class="fit"><i style="--w:78%"></i></div><div class="fl"><span>Speed to win</span><span>Good</span></div></div><div class="pc r" style="--d:0s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><div><h3>Developers</h3><small>Few, but big</small></div></div><p class="why">They need buyers now.</p><div class="fit"><i style="--w:50%"></i></div><div class="fl"><span>Speed to win</span><span>Slow, high value</span></div></div><div class="pc r" style="--d:0.1s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-globe"/></svg></div><div><h3>Interstate and overseas</h3><small>Phase 2</small></div></div><p class="why">Can't visit. They need someone local they trust.</p><div class="fit"><i style="--w:55%"></i></div><div class="fl"><span>Speed to win</span><span>Medium</span></div></div><div class="pc alt r" style="--d:0.2s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><div><h3>Buyers directly</h3><small>Through partners</small></div></div><p class="why">Not by cold email. Partners send them, and later your own site and content.</p><div class="fit"><i style="--w:70%"></i></div><div class="fl"><span>Speed to win</span><span>Long term</span></div></div></div>
   </div>
@@ -694,7 +729,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 <section id="engine" class="sand" data-nav="How it works">
   <div class="wrap">
     <div class="eyebrow r">How we work</div>
-    <h2 class="r" style="--d:.1s">Four parts. One engine.</h2>
+    <h2 class="r" style="--d:.1s">4 parts. 1 machine.</h2>
     <div class="engine r" style="--d:.2s">
       <div class="en"><div class="ic"><svg class="i"><use href="#i-mail"/></svg></div><h4>Reach</h4><p>Short, honest emails to the right people.</p></div>
       <div class="en"><div class="ic"><svg class="i"><use href="#i-cal"/></svg></div><h4>Book</h4><p>We answer replies and fill your calendar.</p></div>
@@ -709,16 +744,16 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 <section id="setup" class="band" data-nav="First 20 days">
   <div class="wrap">
     <div class="eyebrow r">Step 1 &middot; Right after you approve</div>
-    <h2 class="r" style="--d:.1s">The first 20 days: we build it.</h2>
+    <h2 class="r" style="--d:.1s">Days 1 to 20: we build it.</h2>
     <p class="lead r" style="--d:.2s">Month 1 starts after these 20 days.</p>
   </div>
-  <div class="wrap"><div class="slist"><div class="sl r" style="--d:0.00s"><span class="dy">Days 1-2</span><div><h4>Kickoff and study</h4><p>One call. We learn your business.</p></div></div><div class="sl r" style="--d:0.05s"><span class="dy">Days 3-4</span><div><h4>Buy sending addresses</h4><p>About 16, separate from your main site.</p></div></div><div class="sl r" style="--d:0.10s"><span class="dy">Days 5-7</span><div><h4>Mailboxes and records</h4><p>About 80 mailboxes, set up one by one.</p></div></div><div class="sl r" style="--d:0.15s"><span class="dy">Day 6 on</span><div><h4>Warm-up begins</h4><p>Safe, slow, and never rushed.</p></div></div><div class="sl r" style="--d:0.20s"><span class="dy">Days 8-12</span><div><h4>Find your people</h4><p>Real people who work with buyers.</p></div></div><div class="sl r" style="--d:0.25s"><span class="dy">Days 11-16</span><div><h4>Double check leads</h4><p>A tool pass, then a person.</p></div></div><div class="sl r" style="--d:0.30s"><span class="dy">Days 13-17</span><div><h4>Write the emails</h4><p>You read and approve each one.</p></div></div><div class="sl r" style="--d:0.35s"><span class="dy">Days 18-19</span><div><h4>Test everything</h4><p>We fix problems before real sending.</p></div></div><div class="sl r" style="--d:0.40s"><span class="dy">Day 20</span><div><h4>Go or no go</h4><p>Setup is done. We launch together. Month 1 starts next day.</p></div></div></div></div>
+  <div class="wrap"><div class="slist"><div class="sl r" style="--d:0.00s"><span class="dy">Days 1-2</span><div><h4><span class="em">📞</span>Kickoff and study</h4><p>One call. We learn your business.</p></div></div><div class="sl r" style="--d:0.05s"><span class="dy">Days 3-4</span><div><h4><span class="em">🌐</span>Buy sending addresses</h4><p>About 16, separate from your main site.</p></div></div><div class="sl r" style="--d:0.10s"><span class="dy">Days 5-7</span><div><h4><span class="em">📬</span>Mailboxes and records</h4><p>About 80 mailboxes, set up one by one.</p></div></div><div class="sl r" style="--d:0.15s"><span class="dy">Day 6 on</span><div><h4><span class="em">🔥</span>Warm-up begins</h4><p>Safe, slow, and never rushed.</p></div></div><div class="sl r" style="--d:0.20s"><span class="dy">Days 8-12</span><div><h4><span class="em">🔎</span>Find your people</h4><p>Real people who work with buyers.</p></div></div><div class="sl r" style="--d:0.25s"><span class="dy">Days 11-16</span><div><h4><span class="em">✅</span>Double check leads</h4><p>A tool pass, then a person.</p></div></div><div class="sl r" style="--d:0.30s"><span class="dy">Days 13-17</span><div><h4><span class="em">✍️</span>Write the emails</h4><p>You read and approve each one.</p></div></div><div class="sl r" style="--d:0.35s"><span class="dy">Days 18-19</span><div><h4><span class="em">🧪</span>Test everything</h4><p>We fix problems before real sending.</p></div></div><div class="sl r" style="--d:0.40s"><span class="dy">Day 20</span><div><h4><span class="em">🚀</span>Go or no go</h4><p>Setup is done. We launch together. Month 1 starts next day.</p></div></div></div></div>
 </section>
 
 <section id="size" class="band" data-nav="What we set up" style="border-top:1px solid rgba(255,255,255,.12)">
   <div class="wrap">
     <div class="eyebrow r">What we set up</div>
-    <h2 class="r" style="--d:.1s">Built for 30,000 emails a month.</h2>
+    <h2 class="r" style="--d:.1s">30,000 emails every month.</h2>
     <p class="lead r" style="--d:.2s">Small, safe sends from many addresses. Never one pushed hard.</p>
     <div class="domains r" style="--d:.2s" data-watch><div class="dm" style="--i:0"><b>Domain</b><span>01</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:1"><b>Domain</b><span>02</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:2"><b>Domain</b><span>03</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:3"><b>Domain</b><span>04</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:4"><b>Domain</b><span>05</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:5"><b>Domain</b><span>06</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:6"><b>Domain</b><span>07</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:7"><b>Domain</b><span>08</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:8"><b>Domain</b><span>09</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:9"><b>Domain</b><span>10</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:10"><b>Domain</b><span>11</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:11"><b>Domain</b><span>12</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:12"><b>Domain</b><span>13</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:13"><b>Domain</b><span>14</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm spare" style="--i:14"><b>Spare</b><span>15</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm spare" style="--i:15"><b>Spare</b><span>16</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div></div>
     <p class="note r">14 working addresses and 2 warm spares. 5 mailboxes each.</p>
@@ -730,7 +765,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 <section id="quarter" data-nav="Quarter 1">
   <div class="wrap">
     <div class="eyebrow r">Step 2 &middot; After the 20 days</div>
-    <h2 class="r" style="--d:.1s">Quarter 1: three months, month by month.</h2>
+    <h2 class="r" style="--d:.1s">Your first 3 months.</h2>
     <p class="lead r" style="--d:.2s">You approve and pay. We build for 20 days. Then Month 1 starts. A quarter is 3 months.</p>
     <p class="est r" style="--d:.25s">All numbers on this page are estimates, based on the work we will do.</p>
     <div class="qtrack r" style="--d:.2s" data-watch>
@@ -772,7 +807,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 <section id="leads" data-nav="Your leads">
   <div class="wrap">
     <div class="eyebrow r">Your leads</div>
-    <h2 class="r" style="--d:.1s">Two checks. Then, and only then, an email.</h2>
+    <h2 class="r" style="--d:.1s">We check every lead twice.</h2>
     <div class="steps r" style="--d:.2s" data-watch>
       <div class="sp" style="--i:0"><i>1</i><h4>Find</h4><p>Real links to buyers</p></div>
       <div class="sp" style="--i:1"><i>2</i><h4>Clean</h4><p>No duplicates or opt-outs</p></div>
@@ -790,7 +825,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 <section id="email" class="sand" data-nav="The emails">
   <div class="wrap">
     <div class="eyebrow r">The emails</div>
-    <h2 class="r" style="--d:.1s">Short. Plain. About them.</h2>
+    <h2 class="r" style="--d:.1s">Short emails. Easy to read.</h2>
     <div class="split">
       <div class="mail r">
         <div class="mbar"><i></i><i></i><i></i><span>Example only</span></div>
@@ -817,14 +852,14 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 <section id="launch" class="band" data-nav="Launch">
   <div class="wrap">
     <div class="eyebrow r">After setup</div>
-    <h2 class="r" style="--d:.1s">Slow first. Full pace when it's safe.</h2>
+    <h2 class="r" style="--d:.1s">We start slow. Then speed up.</h2>
     <div class="ramp r" style="--d:.2s" data-watch>
       <h3>Emails sent each week, after setup</h3>
       <svg id="rampsvg"></svg>
       <div class="lg"><span><i style="background:#1D3B63"></i>Month 1: ~15k</span><span><i style="background:#2C8C8A"></i>Month 2: ~27k</span><span><i style="background:#EE8A3A"></i>Month 3: ~28k</span></div>
     </div>
     <div class="eyebrow r" style="margin-top:64px">Every single day</div>
-    <h2 class="r" style="font-size:clamp(24px,4vw,38px)">We check it like a hawk.</h2>
+    <h2 class="r" style="font-size:clamp(24px,4vw,38px)">We watch it every day.</h2>
     <div class="pills r" style="--d:.2s" data-watch><span style="--i:0"><i>&#10003;</i>Bounces</span><span style="--i:1"><i>&#10003;</i>Sending health</span><span style="--i:2"><i>&#10003;</i>Replies answered</span><span style="--i:3"><i>&#10003;</i>Opt-outs removed</span><span style="--i:4"><i>&#10003;</i>Spam signals</span><span style="--i:5"><i>&#10003;</i>On schedule</span></div>
     <div class="pause r"><b>Our rule:</b> if anything slips, we pause and fix it first.</div>
   </div>
@@ -833,7 +868,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 <section id="meet" data-nav="Email to partner">
   <div class="wrap">
     <div class="eyebrow r">From email to partner</div>
-    <h2 class="r" style="--d:.1s">What one full month can become.</h2>
+    <h2 class="r" style="--d:.1s">From one email to a partner.</h2>
     <p class="lead r" style="--d:.2s">Worst case: only 1 in 100 emails gets a yes.</p>
     <div class="fun r" style="--d:.2s" data-watch>
       <div class="fr"><span>Emails<small>one month</small></span><div class="ft"><div class="ff" style="--w:100%;--k:0;background:var(--navy)">30,000</div></div></div>
@@ -852,7 +887,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 <section id="partners" class="band glow" data-nav="Partner program">
   <div class="wrap">
     <div class="eyebrow r">After the meeting</div>
-    <h2 class="r" style="--d:.1s">A meeting isn't a partner. Here's how it becomes one.</h2>
+    <h2 class="r" style="--d:.1s">A meeting is not a partner yet.</h2>
     <div class="kit"><div class="kt r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-doc"/></svg></div><h4>Partner pack</h4><p>One page. Clear terms.</p></div><div class="kt r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><h4>Project sheets</h4><p>Match a client in a minute.</p></div><div class="kt r" style="--d:0.2s"><div class="ic"><svg class="i"><use href="#i-link"/></svg></div><h4>Easy introductions</h4><p>One link. No forms.</p></div><div class="kt r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><h4>Simple tracking</h4><p>They see their buyers move.</p></div></div>
     <div class="rhy">
       <div class="rh r"><small>Week 1</small><b>Thank you + pack</b></div>
@@ -888,7 +923,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 <section id="numbers" data-nav="The numbers">
   <div class="wrap">
     <div class="eyebrow r">What it can be worth</div>
-    <h2 class="r" style="--d:.1s">What it can bring you in year 1.</h2>
+    <h2 class="r" style="--d:.1s">What you can earn in year 1.</h2>
     <p class="lead r" style="--d:.2s">Partners stack up. Results grow faster than cost.</p>
     <p class="est r" style="--d:.25s">Year 1 = the 20-day setup + 12 months. Month numbers count from Day 21, when Month 1 starts.</p>
     <div class="scen r" data-watch>
@@ -936,7 +971,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 <section id="risks" data-nav="Risks">
   <div class="wrap">
     <div class="eyebrow r">Straight talk</div>
-    <h2 class="r" style="--d:.1s">What could go wrong, and our fix.</h2>
+    <h2 class="r" style="--d:.1s">What can go wrong. And our fix.</h2>
     <div class="grid2"><div class="card rk r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><div><h3>Few replies</h3><p>We change one thing every week.</p></div></div><div class="card rk r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-mail"/></svg></div><div><h3>Spam folder</h3><p>Slow warm-up, spares, daily checks.</p></div></div><div class="card rk r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-shield"/></svg></div><div><h3>Email rules</h3><p>Business contacts only. Easy opt-out.</p></div></div><div class="card rk r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-doc"/></svg></div><div><h3>Cashback wording</h3><p>Your solicitor approves every word.</p></div></div><div class="card rk r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><div><h3>Market cools</h3><p>Many buyer groups, not one.</p></div></div><div class="card rk r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><div><h3>Quiet partners</h3><p>Monthly note. Quarterly check-in.</p></div></div></div>
   </div>
 </section>
@@ -944,7 +979,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 <section id="ideas" class="sand" data-nav="Ideas">
   <div class="wrap">
     <div class="eyebrow r">Ideas for you</div>
-    <h2 class="r" style="--d:.1s">Quick wins we spotted.</h2>
+    <h2 class="r" style="--d:.1s">Quick wins for you.</h2>
     <div class="grid3"><div class="card idea r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-cal"/></svg></div><h3>Booking button</h3><p>Next to your free estimate.</p></div><div class="card idea r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><h3>Real buyer stories</h3><p>Photos, with their OK.</p></div><div class="card idea r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-link"/></svg></div><h3>Partner page</h3><p>Pack, examples, sign-up.</p></div></div>
   </div>
 </section>
@@ -953,7 +988,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 <section id="proof" data-nav="Real campaigns">
   <div class="wrap">
     <div class="eyebrow r">Real campaigns</div>
-    <h2 class="r" style="--d:.1s">Not theory. We've done this.</h2>
+    <h2 class="r" style="--d:.1s">We have done this before.</h2>
     <p class="lead r" style="--d:.2s">Three real campaigns. Yours will have its own numbers.</p>
     <div class="proof">
       <div class="pf r"><small>Marketing agency</small><h3>A steady flow, every week</h3><div class="row">Emails sent<b>82,671</b></div><div class="row">Replies<b>2,429</b></div><div class="row">Interested<b>2,146</b></div><div class="row">Pipeline<b>$175,000</b></div></div>
