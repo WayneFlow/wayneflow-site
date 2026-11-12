@@ -167,7 +167,7 @@ p{line-height:1.6}
 .ramp svg{width:100%;height:auto;display:block;margin-top:10px}
 .ramp .bar{transform-origin:bottom;transform-box:fill-box;transform:scaleY(0);transition:transform 1.2s cubic-bezier(.2,.8,.2,1);transition-delay:calc(var(--k)*.12s)}
 .ramp.in .bar,.static .ramp .bar{transform:scaleY(1)}
-.ramp text{font-family:Inter,sans-serif;font-size:11px;fill:#41566E;font-weight:700}
+.ramp text{font-family:Inter,sans-serif;font-size:11.5px;fill:#41566E;font-weight:700}
 .ramp .lg{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--ink2);margin-top:6px}
 .ramp .lg i{display:inline-block;width:12px;height:12px;border-radius:4px;margin-right:6px;vertical-align:-1px}
 
@@ -265,7 +265,7 @@ p{line-height:1.6}
 .kpi b{display:block;font-size:26px;letter-spacing:-.02em;margin-top:4px}
 .kpi span{font-size:11.5px;color:#cfdcec}
 .cg{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:20px;box-shadow:0 10px 30px rgba(29,59,99,.08)}
-.cg svg{width:100%;height:auto;display:block}
+.cg svg{width:100%;height:auto;display:block}.cg .lg{font-size:12px}
 .cg text{font-family:Inter,sans-serif;font-size:11px;fill:#41566E;font-weight:700}
 .cg .lg{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--ink2);margin-bottom:6px;align-items:center}
 .cg .lg i{display:inline-block;width:14px;height:4px;border-radius:3px;margin-right:6px;vertical-align:3px}
@@ -323,6 +323,171 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
 footer b{color:#fff;font-size:20px;letter-spacing:-.02em}footer b i{font-style:normal;color:#6AA3F5}
 @media(prefers-reduced-motion:reduce){.dash,.win,.sun,.engine:before,.ff:after{animation:none!important}}
 @media print{#bar,#nav,.scroll{display:none}section{padding:64px 0}.hero{min-height:760px}.card:hover{transform:none}}
+
+/* ---- v2 additions ---- */
+h2{font-size:clamp(26px,5.2vw,50px)}
+.lead{font-size:clamp(15px,1.4vw + 10px,19px)}
+.feel{margin-top:30px;font-size:clamp(18px,2.2vw,26px);font-weight:700;color:var(--navy);max-width:640px;line-height:1.35;letter-spacing:-.01em;padding-left:18px;border-left:5px solid var(--sun)}
+.band .feel{color:#fff}
+.glow{overflow:hidden}
+.glow:before{content:"";position:absolute;right:-160px;top:-120px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(238,138,58,.35),rgba(238,138,58,0) 70%);pointer-events:none}
+.glow:after{content:"";position:absolute;left:-180px;bottom:-160px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(47,111,208,.45),rgba(47,111,208,0) 70%);pointer-events:none}
+.glow .wrap{position:relative;z-index:2}
+/* floating chips in hero */
+.float{position:absolute;z-index:6;display:flex;gap:10px;align-items:center;background:rgba(255,255,255,.92);color:var(--navy);border-radius:16px;padding:10px 14px;box-shadow:0 14px 34px rgba(20,40,63,.25);animation:fl 5s ease-in-out infinite}
+.float .i{color:var(--sun);width:26px;height:26px;flex:none}
+.float b{display:block;font-size:13px;line-height:1.2}.float span{font-size:11.5px;color:var(--ink2)}
+.f1{right:7%;top:20%}.f2{right:15%;top:38%;animation-delay:1.2s}.f3{right:4%;top:55%;animation-delay:2.4s}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+.static .float{animation:none}
+@media(max-width:900px){.float{display:none}}
+/* money flow in html */
+.mf{margin-top:40px;background:var(--card);border:1px solid var(--line);border-radius:26px;padding:26px 22px;box-shadow:0 14px 40px rgba(29,59,99,.1)}
+.nd{border-radius:18px;padding:16px 14px;text-align:center;color:#fff;min-width:130px}
+.nd b{display:block;font-size:13px;letter-spacing:.14em}.nd small{display:block;font-size:12.5px;margin-top:3px;opacity:.9}
+.nv{background:var(--navy)}.nc{background:var(--sun)}.nb2{background:var(--sea)}.np{background:var(--navy2)}
+.mf-top{display:flex;flex-direction:column;align-items:center}
+.mf-row{display:flex;align-items:center;justify-content:center}
+.arr{position:relative;flex:1;color:var(--ink2);font-size:12.5px;font-weight:700;text-align:center}
+.arr.h{height:4px;margin:0 8px;min-width:70px;background:repeating-linear-gradient(90deg,#2F6FD0 0 8px,transparent 8px 16px);animation:mh 1s linear infinite;background-size:16px 4px}
+.arr.h.g{background-image:repeating-linear-gradient(90deg,#2C8C8A 0 8px,transparent 8px 16px)}
+.arr.h span{position:absolute;left:50%;transform:translateX(-50%);bottom:12px;white-space:nowrap}
+.arr.h:after{content:"";position:absolute;top:-4px;left:0;width:12px;height:12px;border-radius:50%;background:var(--gold);animation:dotx 2.2s ease-in-out infinite}
+.arr.v{width:4px;height:56px;margin:0 auto;background:repeating-linear-gradient(180deg,#EE8A3A 0 8px,transparent 8px 16px);background-size:4px 16px;animation:mv 1s linear infinite}
+.arr.v span{position:absolute;left:14px;top:50%;transform:translateY(-50%);white-space:nowrap}
+.arr.v:after{content:"";position:absolute;left:-4px;top:0;width:12px;height:12px;border-radius:50%;background:var(--gold);animation:doty 1.8s ease-in-out infinite}
+@keyframes mh{to{background-position:16px 0}}@keyframes mv{to{background-position:0 16px}}
+@keyframes dotx{0%{left:0;opacity:0}15%{opacity:1}85%{opacity:1}100%{left:calc(100% - 12px);opacity:0}}
+@keyframes doty{0%{top:0;opacity:0}15%{opacity:1}85%{opacity:1}100%{top:calc(100% - 12px);opacity:0}}
+.static .arr,.static .arr:after{animation:none!important}
+.big3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+.bg{background:var(--navy);color:#fff;border-radius:20px;padding:22px 20px;text-align:center}
+.bg b{display:block;font-size:clamp(24px,3.4vw,38px);letter-spacing:-.03em;color:var(--gold)}.bg span{font-size:14px;color:#cfdcec}
+/* vs */
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:42px}
+.vc{border-radius:24px;padding:28px 26px}
+.vc h3{font-size:19px;margin-bottom:16px}
+.vc ul{list-style:none;display:grid;gap:14px}
+.vc li{display:flex;gap:12px;align-items:center;font-size:16px;font-weight:600}
+.vc.old{background:#D8D3C4;color:#5b5a52}.vc.old .i{color:#8a8778}
+.vc.new{background:linear-gradient(160deg,var(--navy),#2c5287);color:#fff;box-shadow:0 20px 50px rgba(29,59,99,.3)}
+.vc.new .i{color:var(--gold)}.vc .i{flex:none;width:26px;height:26px}
+/* stats read */
+.rd{display:flex;gap:14px;align-items:center}.rd .i{color:var(--gold);flex:none;width:30px;height:30px}
+.read{margin-top:24px}
+/* persona simple */
+.pc .why{font-size:15px;color:var(--ink);line-height:1.45;font-weight:500;margin-top:2px}
+.pc .top{margin-bottom:10px}
+/* math */
+.math span.b{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:14px;padding:10px 16px}
+.math span.b.hot{background:var(--sun);border-color:var(--sun)}
+/* monday phone */
+.mon{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center}
+.tri{margin-top:26px;display:grid;gap:10px}
+.tri span{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:12px 16px;font-size:15px;color:#e6eef8}
+.tri b{color:var(--gold);font-size:22px;margin-right:6px}
+.phone{width:290px;margin:0 auto;background:#0f2038;border-radius:42px;padding:22px 16px 18px;border:6px solid #3a4f6e;box-shadow:0 30px 70px rgba(0,0,0,.4);position:relative}
+.pn{width:90px;height:22px;background:#0a1626;border-radius:14px;margin:-8px auto 14px}
+.ph-h{text-align:center;color:#fff;margin-bottom:14px}.ph-h small{display:block;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:#9fb6d0}.ph-h b{font-size:42px;letter-spacing:-.03em;font-weight:700}
+.nt{display:flex;gap:12px;align-items:center;background:rgba(255,255,255,.92);border-radius:16px;padding:11px 12px;margin-bottom:10px;opacity:0;transform:translateY(-14px) scale(.96);transition:all .6s cubic-bezier(.3,1.3,.5,1);transition-delay:calc(var(--i)*.6s + .3s)}
+.phone.in .nt,.static .nt{opacity:1;transform:none}
+.nt .ni{width:36px;height:36px;border-radius:11px;background:var(--navy);color:var(--gold);display:flex;align-items:center;justify-content:center;flex:none}
+.nt:nth-of-type(2) .ni{background:var(--sea);color:#fff}.nt:nth-of-type(3) .ni{background:var(--sun);color:#fff}
+.nt .ni .i{width:20px;height:20px}
+.nt b{display:block;font-size:13.5px;color:var(--navy)}.nt span{font-size:12px;color:var(--ink2)}
+.ex{display:block;text-align:center;color:#8aa3c2;font-size:11px;letter-spacing:.14em;text-transform:uppercase;margin-top:6px}
+.honest,.callout{max-width:none}
+/* ================= MOBILE ================= */
+@media(max-width:700px){
+  .wrap{padding:0 20px}
+  section{padding:60px 0}
+  .eyebrow{font-size:11px;margin-bottom:10px}
+  h2{line-height:1.12}
+  .hero .wrap{padding-top:9vh}
+  .hero h1{font-size:clamp(36px,10.5vw,52px);margin-top:20px}
+  .hero .sub{font-size:16px;margin-top:16px}
+  .tag{font-size:10.5px;padding:7px 12px}
+  .chips{gap:8px;margin-top:24px;flex-wrap:nowrap}
+  .chip{padding:10px 12px;border-radius:14px;flex:1}
+  .chip b{font-size:18px}.chip span{font-size:11px}
+  .sun{left:50%;width:240px;height:240px;margin-left:-20px;bottom:120px}
+  .layer{height:300px;transform-origin:bottom;zoom:.75}
+  .scroll{bottom:14px}
+  .grid3,.grid4,.grid2,.pers,.kit,.yr,.need,.checks,.proof,.split,.calc,.vs,.mon,.big3{grid-template-columns:1fr}
+  .grid3,.grid4,.pers,.kit,.checks,.proof,.yr{gap:12px;margin-top:30px}
+  .grid2{gap:12px;margin-top:28px}
+  .card,.pc,.q,.nb,.pf{padding:20px 18px;border-radius:20px}
+  .stats{grid-template-columns:1fr 1fr;gap:10px;margin-top:28px}
+  .stat{padding:16px 14px}.stat b{font-size:30px}.stat>span{font-size:12.5px}
+  .big3{gap:10px;margin-top:20px}.bg{padding:16px}
+  .mf{padding:18px 14px;margin-top:28px}
+  .mf-row{flex-direction:column}
+  .nd{min-width:0;width:100%;max-width:240px;padding:13px}
+  .arr.h{width:4px;height:64px;min-width:0;margin:0 auto;background:repeating-linear-gradient(180deg,#2F6FD0 0 8px,transparent 8px 16px);background-size:4px 16px;animation:mv 1s linear infinite}
+  .arr.h.g{background-image:repeating-linear-gradient(180deg,#2C8C8A 0 8px,transparent 8px 16px)}
+  .arr.h span{left:16px;transform:translateY(-50%);top:50%;bottom:auto}
+  .arr.h:after{left:-4px;top:0;animation:doty 1.8s ease-in-out infinite}
+  .arr.v{height:52px}
+  .vc{padding:22px 20px}.vc li{font-size:15px}
+  .read{grid-template-columns:1fr;gap:10px}
+  .rd{padding:16px}
+  .engine{grid-template-columns:1fr 1fr;gap:22px 8px;margin-top:34px}
+  .en .ic{width:58px;height:58px}.en h4{font-size:16px}.en p{font-size:13px}
+  .mon{gap:30px}
+  .phone{width:270px}
+  .feel{font-size:18px;margin-top:22px}
+  .pin{height:480vh}
+  .pinin{min-height:100vh;min-height:100svh;padding:16px 0;align-items:flex-start}
+  .pgrid{gap:10px;padding-top:6px}
+  .ringbox{display:grid;grid-template-columns:120px 1fr;align-items:center;text-align:left;gap:6px 16px}
+  .ringbox svg{max-width:120px;grid-row:1 / 3}
+  .rtxt{margin:0;font-size:14px}.wu{margin:0;font-size:11px;padding:5px 10px;justify-self:start}
+  .prs{gap:6px}
+  .pr{padding:8px 12px;grid-template-columns:70px 1fr 22px;gap:10px;border-radius:13px}
+  .pr .dy{font-size:10.5px}.pr h4{font-size:14px}.pr p{font-size:12.5px}
+  .pr.on{transform:none}
+  .domains{grid-template-columns:repeat(4,1fr);gap:8px;margin-top:30px}
+  .dm{padding:9px 4px}.dm span{font-size:16px;margin:0 0 6px}.dm b{font-size:8px;letter-spacing:.06em}.mb{gap:2px}.mb i{width:6px;height:6px}
+  .math{gap:6px;font-size:13px}.math span.b{padding:8px 11px;border-radius:12px}
+  .steps{grid-template-columns:1fr 1fr;gap:10px;margin-top:28px}
+  .sp{padding:14px 10px}.sp h4{font-size:14px}.sp p{font-size:12px}
+  .two{font-size:12px;padding:9px 14px}
+  .mbd{padding:10px 18px 20px;font-size:14px}.mh{padding:14px 18px 0;font-size:12px}
+  .split{gap:22px;margin-top:28px}
+  .sq{grid-template-columns:54px 1fr;gap:12px}.sq .d{width:54px;height:54px}.sq .d b{font-size:18px}
+  .ramp{padding:20px 14px 14px;margin-top:28px;border-radius:20px}
+  .fr>span{font-size:14px}.ft{height:46px}.ff{font-size:16px;padding-left:14px}
+  .bf{padding:20px 18px;margin-top:28px}.bf dl{grid-template-columns:78px 1fr;font-size:13.5px}.bf .h b{font-size:15px}
+  .kt{padding:18px}.rhy{grid-template-columns:1fr 1fr}
+  .calc{margin-top:28px;gap:14px}
+  .cin{padding:18px}.pre button{font-size:12px}
+  .kp{grid-template-columns:1fr 1fr;gap:10px}.kpi{padding:14px}.kpi b{font-size:22px}
+  .cg{padding:14px;border-radius:20px}
+  .netw{grid-template-columns:1fr;gap:6px;text-align:center}.netw svg{max-width:240px}
+  .honest,.callout{padding:16px 18px;font-size:14px}
+  .life{flex-direction:column;align-items:flex-start;padding:22px 20px;gap:12px}
+  .pf .row b{font-size:20px}
+  .end{margin-top:46px}.end p{font-size:15px}
+  .src{font-size:11px;margin-top:40px}
+  .card h3,.q h3{font-size:17px}
+  .rk .ic,.idea .ic{width:42px;height:42px}
+  footer .wrap{flex-direction:column;align-items:flex-start}
+  .glow:before,.glow:after{width:320px;height:320px}
+}
+
+@media(max-width:700px){
+  .arr{flex:none}
+  .mf-top{margin-bottom:0}
+  .kt,.card.idea{display:grid;grid-template-columns:44px 1fr;column-gap:14px;align-items:center;padding:14px 16px}
+  .kt .ic,.card.idea .ic{width:44px;height:44px;margin:0;grid-row:1 / 3}
+  .kt h4,.card.idea h3{margin:0;font-size:16px}.kt p,.card.idea p{font-size:13.5px}
+  .kt .ic .i,.card.idea .ic .i{width:22px;height:22px}
+  .card.rk{padding:14px 16px}.card.rk .ic{width:42px;height:42px;margin:0}
+  .math span.o{display:none}
+  .math{gap:8px}
+  .hero{min-height:92vh;min-height:92svh}
+}
+@media(max-width:700px){.mf{display:flex;flex-direction:column;align-items:center}.mf-top{order:2;margin-top:16px;width:100%;align-items:center}.mf-top .arr{display:none}.np{border:2px dashed var(--gold);background:var(--navy2)}.np:after{content:"send buyers to CashBack";display:block;font-size:12px;color:var(--gold);margin-top:4px;font-weight:700}}
 </style>
 </head>
 <body>
@@ -346,148 +511,130 @@ footer b{color:#fff;font-size:20px;letter-spacing:-.02em}footer b i{font-style:n
 <div id="bar"></div>
 <nav id="nav"></nav>
 
-<!-- HERO -->
 <section class="hero" id="top" data-nav="Start">
   <div class="sun"></div>
   <div class="layer l1" data-s=".10"><svg viewBox="0 0 1500 420" width="1500" height="420"><rect x="-20" y="258" width="42" height="162" fill="#4C79A6"/><rect x="26" y="315" width="50" height="105" fill="#4C79A6"/><rect x="86" y="270" width="62" height="150" fill="#4C79A6"/><rect x="157" y="318" width="47" height="102" fill="#4C79A6"/><rect x="214" y="216" width="35" height="204" fill="#4C79A6"/><rect x="258" y="253" width="61" height="167" fill="#4C79A6"/><rect x="322" y="273" width="78" height="147" fill="#4C79A6"/><rect x="407" y="255" width="48" height="165" fill="#4C79A6"/><rect x="459" y="327" width="54" height="93" fill="#4C79A6"/><rect x="516" y="247" width="35" height="173" fill="#4C79A6"/><rect x="554" y="243" width="58" height="177" fill="#4C79A6"/><rect x="618" y="238" width="61" height="182" fill="#4C79A6"/><rect x="682" y="302" width="67" height="118" fill="#4C79A6"/><rect x="759" y="260" width="65" height="160" fill="#4C79A6"/><rect x="830" y="301" width="56" height="119" fill="#4C79A6"/><rect x="892" y="293" width="63" height="127" fill="#4C79A6"/><rect x="958" y="223" width="60" height="197" fill="#4C79A6"/><rect x="1022" y="250" width="45" height="170" fill="#4C79A6"/><rect x="1074" y="235" width="41" height="185" fill="#4C79A6"/><rect x="1123" y="211" width="66" height="209" fill="#4C79A6"/><rect x="1198" y="224" width="66" height="196" fill="#4C79A6"/><rect x="1270" y="294" width="53" height="126" fill="#4C79A6"/><rect x="1333" y="280" width="66" height="140" fill="#4C79A6"/><rect x="1402" y="299" width="64" height="121" fill="#4C79A6"/><rect x="1475" y="245" width="60" height="175" fill="#4C79A6"/></svg></div>
   <div class="layer l2" data-s=".05"><svg viewBox="0 0 1500 420" width="1500" height="420"><rect x="-20" y="277" width="37" height="143" fill="#2E5A8A"/><rect x="21" y="257" width="57" height="163" fill="#2E5A8A"/><rect x="85" y="145" width="50" height="275" fill="#2E5A8A"/><rect x="141" y="291" width="72" height="129" fill="#2E5A8A"/><rect x="218" y="200" width="61" height="220" fill="#2E5A8A"/><rect x="287" y="187" width="68" height="233" fill="#2E5A8A"/><rect x="362" y="293" width="36" height="127" fill="#2E5A8A"/><rect x="406" y="219" width="63" height="201" fill="#2E5A8A"/><rect x="478" y="166" width="61" height="254" fill="#2E5A8A"/><rect x="544" y="255" width="69" height="165" fill="#2E5A8A"/><rect x="619" y="294" width="48" height="126" fill="#2E5A8A"/><rect x="672" y="256" width="54" height="164" fill="#2E5A8A"/><rect x="731" y="170" width="66" height="250" fill="#2E5A8A"/><rect x="805" y="157" width="66" height="263" fill="#2E5A8A"/><rect x="876" y="194" width="62" height="226" fill="#2E5A8A"/><rect x="946" y="210" width="71" height="210" fill="#2E5A8A"/><rect x="1025" y="259" width="62" height="161" fill="#2E5A8A"/><rect x="1096" y="165" width="63" height="255" fill="#2E5A8A"/><rect x="1165" y="229" width="65" height="191" fill="#2E5A8A"/><rect x="1240" y="169" width="66" height="251" fill="#2E5A8A"/><rect x="1314" y="184" width="76" height="236" fill="#2E5A8A"/><rect x="1400" y="155" width="56" height="265" fill="#2E5A8A"/><rect x="1466" y="244" width="65" height="176" fill="#2E5A8A"/><rect class="win" style="animation-delay:4.1s" x="29" y="287" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.0s" x="29" y="303" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.5s" x="29" y="335" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.8s" x="53" y="335" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.6s" x="29" y="351" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.2s" x="41" y="351" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.9s" x="29" y="383" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.7s" x="29" y="399" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.3s" x="105" y="175" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.4s" x="93" y="207" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.9s" x="117" y="207" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.2s" x="117" y="319" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.4s" x="105" y="335" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.5s" x="105" y="399" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.8s" x="117" y="399" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.3s" x="161" y="305" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.0s" x="149" y="337" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.8s" x="173" y="353" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.2s" x="149" y="401" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.1s" x="197" y="401" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.5s" x="262" y="278" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.6s" x="238" y="358" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.9s" x="262" y="358" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.9s" x="262" y="390" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.4s" x="331" y="265" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.1s" x="319" y="297" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.0s" x="295" y="345" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.4s" x="343" y="377" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.0s" x="370" y="307" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.5s" x="438" y="233" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.2s" x="414" y="265" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.2s" x="414" y="361" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.6s" x="414" y="377" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.5s" x="522" y="292" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.6s" x="486" y="324" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.4s" x="510" y="340" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.6s" x="498" y="356" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.9s" x="522" y="404" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.7s" x="576" y="269" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.2s" x="576" y="285" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.8s" x="564" y="317" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.6s" x="564" y="333" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.1s" x="576" y="397" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.7s" x="639" y="324" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.5s" x="651" y="324" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.7s" x="639" y="340" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.1s" x="651" y="340" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.7s" x="639" y="372" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.5s" x="692" y="350" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.7s" x="763" y="184" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.3s" x="775" y="184" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.4s" x="751" y="248" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.5s" x="763" y="280" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.5s" x="739" y="296" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.1s" x="751" y="312" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.8s" x="751" y="392" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.9s" x="813" y="187" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:5.0s" x="825" y="187" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.7s" x="837" y="187" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.4s" x="837" y="203" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.4s" x="825" y="251" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.6s" x="849" y="347" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.9s" x="849" y="363" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.3s" x="849" y="395" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.2s" x="908" y="208" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.7s" x="908" y="224" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.6s" x="908" y="256" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.8s" x="884" y="272" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.8s" x="920" y="272" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.2s" x="896" y="320" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.3s" x="908" y="336" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.8s" x="908" y="368" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.3s" x="908" y="384" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.8s" x="920" y="400" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.3s" x="966" y="240" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.8s" x="978" y="272" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.0s" x="966" y="352" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.6s" x="954" y="368" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.7s" x="1045" y="305" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.0s" x="1045" y="401" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.2s" x="1104" y="179" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.0s" x="1116" y="243" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.4s" x="1104" y="259" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.1s" x="1140" y="291" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.8s" x="1128" y="355" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.7s" x="1128" y="387" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.8s" x="1173" y="259" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.8s" x="1197" y="259" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.3s" x="1173" y="275" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.6s" x="1173" y="339" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.9s" x="1209" y="355" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.1s" x="1209" y="403" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.7s" x="1248" y="231" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.9s" x="1260" y="231" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.4s" x="1272" y="263" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.9s" x="1260" y="343" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.7s" x="1370" y="198" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.5s" x="1334" y="230" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.6s" x="1346" y="230" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.8s" x="1346" y="246" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.5s" x="1346" y="278" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.2s" x="1358" y="278" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.9s" x="1444" y="185" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.0s" x="1408" y="217" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.5s" x="1432" y="281" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.7s" x="1444" y="297" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.3s" x="1408" y="345" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.9s" x="1432" y="361" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.5s" x="1408" y="377" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.7s" x="1420" y="377" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.1s" x="1444" y="377" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.1s" x="1486" y="258" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.7s" x="1498" y="290" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.1s" x="1474" y="322" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.1s" x="1474" y="354" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.2s" x="1498" y="386" width="5" height="7" fill="#F8D27A"/></svg></div>
   <div class="layer l3" data-s=".0"><svg viewBox="0 0 1500 420" width="1500" height="420"><rect x="-20" y="201" width="49" height="219" fill="#1F4270"/><rect x="34" y="219" width="57" height="201" fill="#1F4270"/><rect x="95" y="337" width="72" height="83" fill="#1F4270"/><rect x="177" y="281" width="50" height="139" fill="#1F4270"/><rect x="233" y="202" width="64" height="218" fill="#1F4270"/><rect x="307" y="302" width="59" height="118" fill="#1F4270"/><rect x="372" y="302" width="74" height="118" fill="#1F4270"/><rect x="455" y="324" width="34" height="96" fill="#1F4270"/><rect x="494" y="330" width="71" height="90" fill="#1F4270"/><rect x="572" y="272" width="35" height="148" fill="#1F4270"/><rect x="617" y="241" width="72" height="179" fill="#1F4270"/><rect x="698" y="110" width="58" height="310" fill="#1F4270"/><rect x="725.0" y="64" width="4" height="46" fill="#1F4270"/><rect x="762" y="316" width="57" height="104" fill="#1F4270"/><rect x="822" y="214" width="42" height="206" fill="#1F4270"/><rect x="870" y="229" width="50" height="191" fill="#1F4270"/><rect x="927" y="211" width="60" height="209" fill="#1F4270"/><rect x="996" y="251" width="70" height="169" fill="#1F4270"/><rect x="1075" y="281" width="71" height="139" fill="#1F4270"/><rect x="1154" y="333" width="77" height="87" fill="#1F4270"/><rect x="1238" y="299" width="72" height="121" fill="#1F4270"/><rect x="1318" y="314" width="68" height="106" fill="#1F4270"/><rect x="1392" y="272" width="74" height="148" fill="#1F4270"/><rect x="1473" y="324" width="41" height="96" fill="#1F4270"/><rect class="win" style="animation-delay:4.0s" x="12" y="215" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.5s" x="0" y="231" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.1s" x="0" y="247" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.6s" x="12" y="247" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.0s" x="-12" y="295" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.0s" x="0" y="295" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.2s" x="0" y="311" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.1s" x="54" y="233" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.1s" x="78" y="233" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.1s" x="54" y="249" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.3s" x="78" y="265" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.8s" x="54" y="329" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.2s" x="78" y="345" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.6s" x="54" y="361" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.7s" x="66" y="377" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.6s" x="78" y="393" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.0s" x="42" y="409" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.4s" x="66" y="409" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.5s" x="139" y="351" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.0s" x="115" y="383" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.9s" x="185" y="327" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.5s" x="185" y="343" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.7s" x="185" y="375" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.5s" x="197" y="375" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.7s" x="241" y="232" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.0s" x="265" y="232" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.1s" x="265" y="248" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.4s" x="241" y="264" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.3s" x="265" y="280" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.6s" x="277" y="280" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.9s" x="241" y="296" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.5s" x="265" y="296" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.6s" x="253" y="328" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.8s" x="265" y="328" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.9s" x="253" y="344" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.1s" x="265" y="408" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.1s" x="351" y="332" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.9s" x="339" y="364" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.7s" x="351" y="364" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.5s" x="327" y="380" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.4s" x="339" y="380" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.1s" x="351" y="380" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.2s" x="327" y="396" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.8s" x="416" y="316" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.7s" x="392" y="332" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.6s" x="416" y="332" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.2s" x="404" y="348" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.5s" x="380" y="380" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.5s" x="428" y="380" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.5s" x="475" y="338" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.3s" x="475" y="386" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.9s" x="463" y="402" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.1s" x="550" y="360" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.8s" x="526" y="376" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:5.0s" x="502" y="392" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.3s" x="592" y="366" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.5s" x="580" y="382" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.5s" x="673" y="255" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.7s" x="625" y="287" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.9s" x="661" y="287" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.4s" x="649" y="303" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.4s" x="673" y="303" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.7s" x="637" y="319" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.5s" x="673" y="351" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.2s" x="673" y="367" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.4s" x="637" y="383" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.7s" x="661" y="383" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.7s" x="673" y="383" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.3s" x="718" y="124" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.5s" x="730" y="156" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.4s" x="706" y="204" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.6s" x="718" y="204" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.9s" x="706" y="220" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.0s" x="730" y="236" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.6s" x="742" y="236" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.3s" x="718" y="252" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.0s" x="742" y="252" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.9s" x="718" y="316" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.6s" x="730" y="332" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.5s" x="742" y="332" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.0s" x="718" y="364" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.8s" x="742" y="364" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.7s" x="718" y="380" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.3s" x="730" y="396" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.2s" x="794" y="362" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.0s" x="806" y="362" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.5s" x="770" y="378" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.5s" x="842" y="228" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.0s" x="830" y="292" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.3s" x="830" y="308" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.0s" x="842" y="308" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.0s" x="830" y="324" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.1s" x="842" y="324" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.8s" x="830" y="340" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.1s" x="830" y="356" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.0s" x="830" y="388" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.8s" x="830" y="404" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.5s" x="842" y="404" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.1s" x="890" y="243" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.3s" x="878" y="259" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.4s" x="878" y="323" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.2s" x="878" y="339" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.9s" x="890" y="339" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.3s" x="902" y="339" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.9s" x="902" y="355" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.5s" x="890" y="387" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.5s" x="890" y="403" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.9s" x="935" y="225" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.7s" x="935" y="241" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.6s" x="971" y="273" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.6s" x="935" y="305" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.3s" x="947" y="305" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.2s" x="935" y="321" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.0s" x="959" y="353" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.8s" x="935" y="369" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.4s" x="947" y="369" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.8s" x="935" y="385" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.1s" x="971" y="385" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.9s" x="1052" y="265" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.1s" x="1004" y="281" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.1s" x="1016" y="281" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.5s" x="1040" y="281" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.3s" x="1052" y="281" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.2s" x="1052" y="313" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.7s" x="1028" y="329" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.7s" x="1004" y="345" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.8s" x="1028" y="345" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.8s" x="1028" y="361" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.1s" x="1016" y="377" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.7s" x="1028" y="377" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.5s" x="1083" y="311" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.7s" x="1083" y="327" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.5s" x="1107" y="343" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.8s" x="1131" y="343" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.6s" x="1095" y="375" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.7s" x="1131" y="407" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.3s" x="1186" y="347" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.8s" x="1198" y="347" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.9s" x="1198" y="363" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.2s" x="1210" y="363" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.7s" x="1174" y="379" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.6s" x="1186" y="379" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.1s" x="1186" y="395" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.8s" x="1282" y="313" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.1s" x="1294" y="329" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.9s" x="1246" y="377" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.6s" x="1246" y="409" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:2.9s" x="1350" y="328" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.3s" x="1362" y="344" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.6s" x="1374" y="360" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.9s" x="1326" y="376" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.3s" x="1374" y="392" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.1s" x="1338" y="408" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.4s" x="1350" y="408" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.4s" x="1436" y="286" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.3s" x="1400" y="302" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.2s" x="1448" y="302" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.5s" x="1412" y="318" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:5.0s" x="1424" y="318" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.3s" x="1400" y="334" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.9s" x="1424" y="334" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:4.8s" x="1400" y="350" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.9s" x="1436" y="350" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:0.7s" x="1412" y="366" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.8s" x="1424" y="366" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.0s" x="1448" y="366" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:1.7s" x="1448" y="398" width="5" height="7" fill="#F8D27A"/><rect class="win" style="animation-delay:3.0s" x="1481" y="402" width="5" height="7" fill="#F8D27A"/></svg></div>
+  <div class="float f1"><svg class="i"><use href="#i-users"/></svg><div><b>New buyer introduced</b><span>by a trusted partner</span></div></div>
+  <div class="float f2"><svg class="i"><use href="#i-cal"/></svg><div><b>Meeting booked</b><span>Tuesday, 10:30</span></div></div>
+  <div class="float f3"><svg class="i"><use href="#i-check"/></svg><div><b>Partner signed</b><span>sends buyers monthly</span></div></div>
   <div class="wrap">
-    <span class="tag r in" style="--d:.1s">CashBack Realty &times; Wayneflow</span>
-    <h1 class="r in" style="--d:.25s">Not a campaign. A partner engine that keeps <em>growing.</em></h1>
-    <p class="sub r in" style="--d:.45s">Who we reach, how we reach them, what we build, and what it can be worth to you. Built from your business and your market. A plan for years, with the first 4 months laid out day by day.</p>
+    <span class="tag r in" style="--d:.1s">Made for CashBack Realty</span>
+    <h1 class="r in" style="--d:.25s">Picture your calendar, <em>full.</em></h1>
+    <p class="sub r in" style="--d:.45s">A plan to bring you partners who send you buyers. Month after month. Year after year.</p>
     <div class="chips r in" style="--d:.65s">
-      <div class="chip"><b>20 days</b><span>to build the system</span></div>
-      <div class="chip"><b>3 months</b><span>to launch and scale</span></div>
-      <div class="chip"><b>Year 1+</b><span>partners that keep sending buyers</span></div>
+      <div class="chip"><b>20 days</b><span>we build it</span></div>
+      <div class="chip"><b>3 months</b><span>we launch it</span></div>
+      <div class="chip"><b>Years</b><span>it keeps paying</span></div>
     </div>
   </div>
   <div class="scroll">Scroll<i></i></div>
 </section>
 
-<!-- UNDERSTAND -->
 <section id="study" data-nav="Your business">
   <div class="wrap">
-    <div class="eyebrow r">Your business, in one picture</div>
-    <h2 class="r" style="--d:.1s">You make new-build property cheaper for the buyer, and safer.</h2>
-    <p class="lead r" style="--d:.2s">We read your site and how you work. Developers pay you commission. You pass up to half back to the buyer after settlement. The buyer pays nothing extra, and the contract price doesn't change.</p>
-    <div class="flow r" style="--d:.2s">
-      <svg viewBox="0 0 960 330" role="img" aria-label="Money flow">
-        <defs>
-          <path id="p1" d="M205 150 L385 150"/><path id="p2" d="M575 150 L755 150"/><path id="p3" d="M480 88 L480 112"/><path id="p4" d="M850 200 C850 290 480 300 480 200"/>
-        </defs>
-        <g>
-          <rect x="30" y="105" width="175" height="90" rx="20" fill="#1D3B63"/>
-          <text x="117" y="146" text-anchor="middle" fill="#F4B94A" font-size="13" font-weight="800" letter-spacing="2">DEVELOPER</text>
-          <text x="117" y="170" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">builds the project</text>
-          <rect x="385" y="105" width="190" height="90" rx="20" fill="#EE8A3A"/>
-          <text x="480" y="146" text-anchor="middle" fill="#fff" font-size="13" font-weight="800" letter-spacing="2">CASHBACK</text>
-          <text x="480" y="170" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">licensed agent</text>
-          <rect x="755" y="105" width="175" height="90" rx="20" fill="#2C8C8A"/>
-          <text x="842" y="146" text-anchor="middle" fill="#fff" font-size="13" font-weight="800" letter-spacing="2">BUYER</text>
-          <text x="842" y="170" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">gets cash back</text>
-          <rect x="385" y="14" width="190" height="74" rx="20" fill="#28476F"/>
-          <text x="480" y="47" text-anchor="middle" fill="#F4B94A" font-size="13" font-weight="800" letter-spacing="2">PARTNERS</text>
-          <text x="480" y="69" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">brokers, advisers, agents</text>
-        </g>
-        <use href="#p1" fill="none" stroke="#2F6FD0" stroke-width="3" class="dash"/>
-        <use href="#p2" fill="none" stroke="#2C8C8A" stroke-width="3" class="dash"/>
-        <use href="#p3" fill="none" stroke="#EE8A3A" stroke-width="3" class="dash"/>
-        <use href="#p4" fill="none" stroke="#9AAFC4" stroke-width="2.5" class="dash"/>
-        <text x="295" y="136" text-anchor="middle" fill="#1D3B63" font-size="13" font-weight="700">pays commission</text>
-        <text x="665" y="136" text-anchor="middle" fill="#1D3B63" font-size="13" font-weight="700">shares up to half</text>
-        <text x="665" y="176" text-anchor="middle" fill="#41566E" font-size="12">after settlement</text>
-        <text x="500" y="104" fill="#41566E" font-size="12" font-weight="600">introduce buyers</text>
-        <text x="665" y="296" text-anchor="middle" fill="#41566E" font-size="12" font-weight="600">buyer buys a new build, contract price unchanged</text>
-        <circle r="6" fill="#2F6FD0"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
-        <circle r="6" fill="#2F6FD0"><animateMotion dur="2.6s" begin="1.3s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
-        <circle r="6" fill="#F4B94A"><animateMotion dur="2.6s" begin=".4s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
-        <circle r="6" fill="#F4B94A"><animateMotion dur="2.6s" begin="1.7s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
-        <circle r="5" fill="#EE8A3A"><animateMotion dur="1.6s" repeatCount="indefinite"><mpath href="#p3"/></animateMotion></circle>
-        <circle r="5" fill="#9AAFC4"><animateMotion dur="4s" repeatCount="indefinite"><mpath href="#p4"/></animateMotion></circle>
-      </svg>
+    <div class="eyebrow r">Your business</div>
+    <h2 class="r" style="--d:.1s">You give buyers real money back.</h2>
+    <p class="lead r" style="--d:.2s">Developers pay you. You pass up to half to the buyer. Simple.</p>
+    <div class="mf r" style="--d:.2s">
+      <div class="mf-top"><div class="nd np"><b>PARTNERS</b><small>brokers, advisers</small></div><div class="arr v"><span>send buyers</span></div></div>
+      <div class="mf-row">
+        <div class="nd nv"><b>DEVELOPER</b><small>builds it</small></div>
+        <div class="arr h"><span>pays commission</span></div>
+        <div class="nd nc"><b>CASHBACK</b><small>you</small></div>
+        <div class="arr h g"><span>shares up to half</span></div>
+        <div class="nd nb2"><b>BUYER</b><small>gets cash back</small></div>
+      </div>
     </div>
-    <div class="grid4">
-      <div class="card r" style="--d:.1s"><div class="ic"><svg class="i"><use href="#i-tag"/></svg></div><h3>Your strong point</h3><p>A simple offer that saves a real amount. Your site shows $10,000 to $30,000 as a normal range.</p></div>
-      <div class="card r" style="--d:.2s"><div class="ic"><svg class="i"><use href="#i-shield"/></svg></div><h3>Your real edge</h3><p>You vet developers and builders before you recommend them. In off-the-plan, trust sells more than price.</p></div>
-      <div class="card r" style="--d:.3s"><div class="ic"><svg class="i"><use href="#i-link"/></svg></div><h3>Your growth path</h3><p>Buyers rarely find a rebate agent by chance. They hear about you from people they already trust.</p></div>
-      <div class="card r" style="--d:.4s"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><h3>Your team</h3><p>Founder-led, with a team for client care and marketing. Enough to look after partners well.</p></div>
+    <div class="big3">
+      <div class="bg r"><b>$10k to $30k</b><span>back to a typical buyer</span></div>
+      <div class="bg r" style="--d:.1s"><b>Vetted</b><span>developers only</span></div>
+      <div class="bg r" style="--d:.2s"><b>Trust</b><span>is what sells it</span></div>
     </div>
-    <div class="callout r"><p><b>What this means for the plan:</b> we don't push your offer at strangers. We go to the people who talk to new-build buyers every week, and we make it easy and worth their while to send them to you. Partners are the engine. Email is how we find them.</p></div>
+    <p class="feel r">Strangers won't find you. Trusted people will send them.</p>
   </div>
 </section>
 
-<!-- MARKET -->
+<section id="vs" class="sand" data-nav="Today vs then">
+  <div class="wrap">
+    <div class="eyebrow r">The difference</div>
+    <h2 class="r" style="--d:.1s">From hoping, to knowing.</h2>
+    <div class="vs">
+      <div class="vc old r"><h3>Without a partner engine</h3>
+        <ul><li><svg class="i"><use href="#i-search"/></svg>Referrals by luck</li><li><svg class="i"><use href="#i-cal"/></svg>Quiet weeks, then busy ones</li><li><svg class="i"><use href="#i-chart"/></svg>Hard to plan or grow</li></ul></div>
+      <div class="vc new r" style="--d:.15s"><h3>With one</h3>
+        <ul><li><svg class="i"><use href="#i-users"/></svg>Partners send buyers every month</li><li><svg class="i"><use href="#i-cal"/></svg>A calendar that fills itself</li><li><svg class="i"><use href="#i-chart"/></svg>Growth you can see and steer</li></ul></div>
+    </div>
+  </div>
+</section>
 <section id="market" class="band" data-nav="The market">
   <div class="wrap">
-    <div class="eyebrow r">Your market right now</div>
-    <h2 class="r" style="--d:.1s">The Gold Coast is selling more new apartments, to a wider mix of buyers.</h2>
-    <p class="lead r" style="--d:.2s">Public market data from 2026 (sources at the bottom of the page).</p>
+    <div class="eyebrow r">Your market</div>
+    <h2 class="r" style="--d:.1s">The Gold Coast is moving your way.</h2>
     <div class="stats">
-      <div class="stat r" style="--d:.1s"><b><span data-count="644">644</span></b><span>new apartment sales in the first half of 2026, up from 576 a year earlier</span></div>
-      <div class="stat r" style="--d:.2s"><b><span data-count="14">14</span></b><span>new projects launched in the March quarter, the most Urbis has recorded</span></div>
-      <div class="stat r" style="--d:.3s"><b><span data-count="37" data-suffix="%">37%</span></b><span>of buyers were owner-occupiers, down from over 60% five years ago</span></div>
-      <div class="stat r" style="--d:.4s"><b>Local + interstate</b><span>investors and interstate buyers make up the rest, split about evenly</span></div>
+      <div class="stat r" style="--d:.1s"><b><span data-count="644">644</span></b><span>new apartment sales in the first half of 2026</span></div>
+      <div class="stat r" style="--d:.2s"><b><span data-count="14">14</span></b><span>new projects launched in one quarter. A record.</span></div>
+      <div class="stat r" style="--d:.3s"><b><span data-count="37" data-suffix="%">37%</span></b><span>of buyers live in it. Once it was over 60%.</span></div>
+      <div class="stat r" style="--d:.4s"><b>Investors</b><span>local and interstate now fill the gap</span></div>
     </div>
     <div class="read">
-      <div class="rd r"><b>What it means for you.</b> More projects means more developers who need buyers. More investors and interstate buyers means more people who use brokers, accountants and advisers, and those people are the ones we reach.</div>
-      <div class="rd r" style="--d:.15s"><b>What to watch.</b> Heavy new supply means buyers have more choice, so they compare. Your vetting and your cashback are exactly the reasons to pick one project over another.</div>
+      <div class="rd r"><svg class="i"><use href="#i-build"/></svg><div><b>More projects.</b> More developers who need buyers.</div></div>
+      <div class="rd r" style="--d:.15s"><svg class="i"><use href="#i-users"/></svg><div><b>More investors.</b> More advisers and brokers to reach.</div></div>
     </div>
   </div>
 </section>
 
-<!-- AUDIENCE -->
 <section id="audience" data-nav="Who we reach">
   <div class="wrap">
     <div class="eyebrow r">Your audience</div>
-    <h2 class="r" style="--d:.1s">Six groups. Each one gets a different message and a different job.</h2>
-    <p class="lead r" style="--d:.2s">Not everyone gets the same email. We start with the groups that are the fastest and safest to win, and add the others as results come in.</p>
-    <div class="pers">
-      <div class="pc r" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-doc"/></svg></div><div><h3>Mortgage brokers</h3><small>Start here</small></div></div>
-        <dl><dt>Why they say yes</dt><dd>Every new-build buyer needs a loan. Cashback helps their client, and they look good for bringing it.</dd><dt>Their worry</dt><dd>Is it legit, and will it cause trouble with the lender?</dd><dt>Our answer</dt><dd>Clear written terms, and wording your solicitor has approved.</dd></dl>
-        <div class="fit"><i style="--w:92%"></i></div><div class="fl"><span>Speed to win</span><span>High</span></div></div>
-      <div class="pc r" style="--d:.1s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><div><h3>Accountants, SMSF and planners</h3><small>Start here</small></div></div>
-        <dl><dt>Why they say yes</dt><dd>Their investor clients ask where to put money. A vetted new build with cash back is an easy thing to mention.</dd><dt>Their worry</dt><dd>Their own rules on referrals and advice.</dd><dt>Our answer</dt><dd>An introduction only. We never touch their advice.</dd></dl>
-        <div class="fit"><i style="--w:78%"></i></div><div class="fl"><span>Speed to win</span><span>Good</span></div></div>
-      <div class="pc r" style="--d:.2s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-search"/></svg></div><div><h3>Buyers' agents and property advisers</h3><small>Second wave</small></div></div>
-        <dl><dt>Why they say yes</dt><dd>They search for projects for clients all day. A trusted source of vetted new builds saves them time.</dd><dt>Their worry</dt><dd>Losing control of their client.</dd><dt>Our answer</dt><dd>Work alongside them, never around them.</dd></dl>
-        <div class="fit"><i style="--w:60%"></i></div><div class="fl"><span>Speed to win</span><span>Medium</span></div></div>
-      <div class="pc r" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><div><h3>Developers and project marketers</h3><small>Few, but big</small></div></div>
-        <dl><dt>Why they say yes</dt><dd>They need buyers, now. A partner that brings qualified, vetted-minded buyers is welcome.</dd><dt>Their worry</dt><dd>Another agent adding noise.</dd><dt>Our answer</dt><dd>Fewer, better buyers, and simple reporting.</dd></dl>
-        <div class="fit"><i style="--w:50%"></i></div><div class="fl"><span>Speed to win</span><span>Slow, high value</span></div></div>
-      <div class="pc r" style="--d:.1s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-globe"/></svg></div><div><h3>Interstate and overseas investor channels</h3><small>Phase 2</small></div></div>
-        <dl><dt>Why they say yes</dt><dd>Buyers who can't visit want someone local they can trust. Overseas buyers can generally only buy new builds.</dd><dt>Their worry</dt><dd>Distance and risk.</dd><dt>Our answer</dt><dd>Your vetting, plus a simple remote process. We reach them mostly on LinkedIn.</dd></dl>
-        <div class="fit"><i style="--w:55%"></i></div><div class="fl"><span>Speed to win</span><span>Medium</span></div></div>
-      <div class="pc alt r" style="--d:.2s" data-watch><div class="top"><div class="ic" style="background:var(--sun);color:#fff"><svg class="i"><use href="#i-users"/></svg></div><div><h3>Buyers directly</h3><small>Not by cold email</small></div></div>
-        <dl><dt>Why not email</dt><dd>Cold emailing everyday people is risky under Australian law, and it hurts a brand built on trust.</dd><dt>What we do instead</dt><dd>Partners send them. Later: a better website, content and search, and a few ads, which you own and control.</dd></dl>
-        <div class="fit"><i style="--w:70%"></i></div><div class="fl"><span>Role in the plan</span><span>Long-term growth</span></div></div>
-    </div>
-    <p class="note r">The first 3 months focus on the first four groups. Groups five and six join from month 4.</p>
+    <h2 class="r" style="--d:.1s">Six groups. One job each.</h2>
+    <p class="lead r" style="--d:.2s">We start with the fastest to win, then add the rest.</p>
+    <div class="pers"><div class="pc r" style="--d:0s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-doc"/></svg></div><div><h3>Mortgage brokers</h3><small>Start here</small></div></div><p class="why">Every buyer needs a loan. You help their client.</p><div class="fit"><i style="--w:92%"></i></div><div class="fl"><span>Speed to win</span><span>High</span></div></div><div class="pc r" style="--d:0.1s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><div><h3>Accountants and SMSF</h3><small>Start here</small></div></div><p class="why">Investor clients ask where to put money.</p><div class="fit"><i style="--w:78%"></i></div><div class="fl"><span>Speed to win</span><span>Good</span></div></div><div class="pc r" style="--d:0.2s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-search"/></svg></div><div><h3>Buyers' agents</h3><small>Second wave</small></div></div><p class="why">A trusted source of vetted projects.</p><div class="fit"><i style="--w:60%"></i></div><div class="fl"><span>Speed to win</span><span>Medium</span></div></div><div class="pc r" style="--d:0s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><div><h3>Developers</h3><small>Few, but big</small></div></div><p class="why">They need buyers now.</p><div class="fit"><i style="--w:50%"></i></div><div class="fl"><span>Speed to win</span><span>Slow, high value</span></div></div><div class="pc r" style="--d:0.1s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-globe"/></svg></div><div><h3>Interstate and overseas</h3><small>Phase 2</small></div></div><p class="why">Can't visit. They need someone local they trust.</p><div class="fit"><i style="--w:55%"></i></div><div class="fl"><span>Speed to win</span><span>Medium</span></div></div><div class="pc alt r" style="--d:0.2s" data-watch><div class="top"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><div><h3>Buyers directly</h3><small>Through partners</small></div></div><p class="why">Not by cold email. Partners send them, and later your own site and content.</p><div class="fit"><i style="--w:70%"></i></div><div class="fl"><span>Speed to win</span><span>Long term</span></div></div></div>
   </div>
 </section>
 
-<!-- ENGINE -->
 <section id="engine" class="sand" data-nav="How it works">
   <div class="wrap">
-    <div class="eyebrow r">How we work for you</div>
-    <h2 class="r" style="--d:.1s">Four parts that feed each other.</h2>
-    <p class="lead r" style="--d:.2s">We don't sell you "emails". We run the whole path from a stranger to a partner who sends you buyers, month after month.</p>
+    <div class="eyebrow r">How we work</div>
+    <h2 class="r" style="--d:.1s">Four parts. One engine.</h2>
     <div class="engine r" style="--d:.2s">
-      <div class="en"><div class="ic"><svg class="i"><use href="#i-mail"/></svg></div><h4>1. Outreach</h4><p>The right people get short, honest emails. Done at a safe, steady pace.</p></div>
-      <div class="en"><div class="ic"><svg class="i"><use href="#i-cal"/></svg></div><h4>2. Meeting desk</h4><p>We answer every reply, check the fit, and book it in your calendar with a brief.</p></div>
-      <div class="en"><div class="ic"><svg class="i"><use href="#i-link"/></svg></div><h4>3. Partner program</h4><p>We help you turn a first meeting into a partner who keeps sending buyers.</p></div>
-      <div class="en"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><h4>4. Weekly learning</h4><p>Every week we read the numbers and change what isn't working.</p></div>
+      <div class="en"><div class="ic"><svg class="i"><use href="#i-mail"/></svg></div><h4>Reach</h4><p>Short, honest emails to the right people.</p></div>
+      <div class="en"><div class="ic"><svg class="i"><use href="#i-cal"/></svg></div><h4>Book</h4><p>We answer replies and fill your calendar.</p></div>
+      <div class="en"><div class="ic"><svg class="i"><use href="#i-link"/></svg></div><h4>Partner</h4><p>Meetings become people who send buyers.</p></div>
+      <div class="en"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><h4>Improve</h4><p>Every week we fix what isn't working.</p></div>
     </div>
-    <div class="callout r"><p><b>Where the real money is:</b> one broker who sends you a buyer every two months is worth far more than one lucky reply. The plan is built to collect partners, because partners keep paying you back after we've stopped writing to them.</p></div>
+    <p class="feel r">One partner who sends a buyer every two months beats ten lucky replies.</p>
   </div>
 </section>
 
+<section id="monday" class="band glow" data-nav="Your Monday">
+  <div class="wrap">
+    <div class="mon">
+      <div class="r">
+        <div class="eyebrow">Imagine</div>
+        <h2>A Monday, six months from now.</h2>
+        <p class="lead">You open your phone. Buyers are already waiting. You didn't chase anyone.</p>
+        <div class="tri"><span><b data-count="30" data-suffix="+">30+</b> meetings a month</span><span><b>1</b> shared calendar</span><span><b>0</b> cold calls from you</span></div>
+      </div>
+      <div class="phone r" style="--d:.2s" data-watch>
+        <div class="pn"></div>
+        <div class="ph-h"><small>Monday</small><b>9:02</b></div>
+        <div class="nt" style="--i:0"><div class="ni"><svg class="i"><use href="#i-users"/></svg></div><div><b>New buyer introduced</b><span>from a Gold Coast broker</span></div></div>
+        <div class="nt" style="--i:1"><div class="ni"><svg class="i"><use href="#i-cal"/></svg></div><div><b>Meeting booked</b><span>Tue 10:30, SMSF accountant</span></div></div>
+        <div class="nt" style="--i:2"><div class="ni"><svg class="i"><use href="#i-check"/></svg></div><div><b>Partner signed</b><span>Brisbane buyers' agent</span></div></div>
+        <div class="nt" style="--i:3"><div class="ni"><svg class="i"><use href="#i-tag"/></svg></div><div><b>Cashback paid</b><span>settlement complete</span></div></div>
+        <small class="ex">Example only</small>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- 20 DAYS PINNED -->
 <section id="setup" class="band" data-nav="Days 1 to 20" style="padding-bottom:0">
   <div class="wrap">
     <div class="eyebrow r">Days 1 to 20</div>
-    <h2 class="r" style="--d:.1s">We build the system by hand, one day at a time.</h2>
-    <p class="lead r" style="--d:.2s">We use professional tools to run this at scale. What protects you is how carefully each one is set up and watched. Keep scrolling and watch the days go by.</p>
+    <h2 class="r" style="--d:.1s">We build it by hand. Day by day.</h2>
+    <p class="lead r" style="--d:.2s">Keep scrolling. Watch the days go by.</p>
   </div>
   <div class="pin" id="pin">
     <div class="pinin"><div class="wrap"><div class="pgrid">
@@ -500,156 +647,120 @@ footer b{color:#fff;font-size:20px;letter-spacing:-.02em}footer b i{font-style:n
         <div class="rtxt" id="dtxt">of 20</div>
         <span class="wu" id="wu">Warm-up running in the background</span>
       </div>
-      <div class="prs" id="prs">
-        <div class="pr" data-d="1"><span class="dy">Days 1-2</span><div><h4>Kickoff and study</h4><p>A one hour call. We study your business, write your Business Brief, and agree who we go after first.</p></div><span class="tk">&#10003;</span></div>
-        <div class="pr" data-d="3"><span class="dy">Days 3-4</span><div><h4>We buy your sending addresses</h4><p>About 16 web addresses that point back to CashBack Realty. Your main website and email are never touched.</p></div><span class="tk">&#10003;</span></div>
-        <div class="pr" data-d="5"><span class="dy">Days 5-7</span><div><h4>Mailboxes and technical records</h4><p>About 80 real business mailboxes, set up one by one, with the records that prove your emails are real.</p></div><span class="tk">&#10003;</span></div>
-        <div class="pr" data-d="6"><span class="dy">Day 6 on</span><div><h4>Warm-up starts</h4><p>Each mailbox sends a few safe messages and builds a good name. We never rush this. It runs behind everything else until launch.</p></div><span class="tk">&#10003;</span></div>
-        <div class="pr" data-d="8"><span class="dy">Days 8-12</span><div><h4>We find your people</h4><p>We research brokers, advisers, agents and developers who really work with new-build buyers in your markets.</p></div><span class="tk">&#10003;</span></div>
-        <div class="pr" data-d="11"><span class="dy">Days 11-16</span><div><h4>Double check every lead</h4><p>Pass 1 by tools, pass 2 by a person reading each one. Details in the leads section below.</p></div><span class="tk">&#10003;</span></div>
-        <div class="pr" data-d="13"><span class="dy">Days 13-17</span><div><h4>We write the emails</h4><p>A 2 to 3 email sequence with several versions of each. You read every one and approve it.</p></div><span class="tk">&#10003;</span></div>
-        <div class="pr" data-d="18"><span class="dy">Days 18-19</span><div><h4>Test everything</h4><p>Test sends to our own inboxes. We see where they land and fix anything off before real sending.</p></div><span class="tk">&#10003;</span></div>
-        <div class="pr" data-d="20"><span class="dy">Day 20</span><div><h4>Go or no go</h4><p>We sit down together, show you what's ready, and agree to launch. Real sending starts the next day.</p></div><span class="tk">&#10003;</span></div>
-      </div>
+      <div class="prs" id="prs"><div class="pr" data-d="1"><span class="dy">Days 1-2</span><div><h4>Kickoff and study</h4><p>One call. We learn your business.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="3"><span class="dy">Days 3-4</span><div><h4>Buy sending addresses</h4><p>About 16, separate from your main site.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="5"><span class="dy">Days 5-7</span><div><h4>Mailboxes and records</h4><p>About 80 mailboxes, set up one by one.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="6"><span class="dy">Day 6 on</span><div><h4>Warm-up begins</h4><p>Safe, slow, and never rushed.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="8"><span class="dy">Days 8-12</span><div><h4>Find your people</h4><p>Real people who work with buyers.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="11"><span class="dy">Days 11-16</span><div><h4>Double check leads</h4><p>A tool pass, then a person.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="13"><span class="dy">Days 13-17</span><div><h4>Write the emails</h4><p>You read and approve each one.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="18"><span class="dy">Days 18-19</span><div><h4>Test everything</h4><p>We fix problems before real sending.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="20"><span class="dy">Day 20</span><div><h4>Go or no go</h4><p>We decide to launch together.</p></div><span class="tk">&#10003;</span></div></div>
     </div></div></div>
   </div>
 </section>
 
-<!-- CAPACITY -->
 <section id="size" class="band" data-nav="What we set up" style="border-top:1px solid rgba(255,255,255,.12)">
   <div class="wrap">
     <div class="eyebrow r">What we set up</div>
-    <h2 class="r" style="--d:.1s">Built to carry 30,000 emails a month, safely.</h2>
-    <p class="lead r" style="--d:.2s">Each mailbox sends a small, safe amount a day. To reach your volume we add more addresses. We never push one harder.</p>
+    <h2 class="r" style="--d:.1s">Built for 30,000 emails a month.</h2>
+    <p class="lead r" style="--d:.2s">Small, safe sends from many addresses. Never one pushed hard.</p>
     <div class="domains r" style="--d:.2s" data-watch><div class="dm" style="--i:0"><b>Domain</b><span>01</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:1"><b>Domain</b><span>02</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:2"><b>Domain</b><span>03</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:3"><b>Domain</b><span>04</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:4"><b>Domain</b><span>05</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:5"><b>Domain</b><span>06</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:6"><b>Domain</b><span>07</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:7"><b>Domain</b><span>08</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:8"><b>Domain</b><span>09</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:9"><b>Domain</b><span>10</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:10"><b>Domain</b><span>11</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:11"><b>Domain</b><span>12</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:12"><b>Domain</b><span>13</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm" style="--i:13"><b>Domain</b><span>14</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm spare" style="--i:14"><b>Spare</b><span>15</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div><div class="dm spare" style="--i:15"><b>Spare</b><span>16</span><div class="mb"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i></div></div></div>
-    <p class="note r" style="margin-top:14px">14 working addresses and 2 warm spares, each with 5 mailboxes. When one gets tired, a spare takes over.</p>
-    <div class="math r" style="--d:.2s"><span class="b">5 mailboxes</span><span class="o">&times;</span><span class="b">20 emails a day</span><span class="o">=</span><span class="b">100 a day per address</span><span class="o">&times;</span><span class="b">14 addresses</span><span class="o">=</span><span class="b" style="background:var(--sun);border-color:var(--sun)">1,400 a day</span></div>
-    <p class="note r">Weekdays only, about 21 days a month, which gives roughly 30,000 emails. With 2 to 3 emails per person, that is about 10,000 to 15,000 new people each month.</p>
+    <p class="note r">14 working addresses and 2 warm spares. 5 mailboxes each.</p>
+    <div class="math r" style="--d:.2s"><span class="b">5 mailboxes</span><span class="o">&times;</span><span class="b">20 a day</span><span class="o">&times;</span><span class="b">14 addresses</span><span class="o">=</span><span class="b hot">1,400 a day</span></div>
+    <p class="note r">Weekdays only. About 30,000 a month, reaching 10,000 to 15,000 new people.</p>
   </div>
 </section>
 
-<!-- LEADS -->
 <section id="leads" data-nav="Your leads">
   <div class="wrap">
     <div class="eyebrow r">Your leads</div>
-    <h2 class="r" style="--d:.1s">Two checks before anyone gets an email.</h2>
-    <p class="lead r" style="--d:.2s">A big list isn't the goal. A clean, right list is. Every person goes through the same path.</p>
+    <h2 class="r" style="--d:.1s">Two checks. Then, and only then, an email.</h2>
     <div class="steps r" style="--d:.2s" data-watch>
-      <div class="sp" style="--i:0"><i>1</i><h4>Find</h4><p>People with a real link to new-build buyers in your market</p></div>
-      <div class="sp" style="--i:1"><i>2</i><h4>Clean</h4><p>Remove duplicates, generic inboxes and anyone who opted out</p></div>
-      <div class="sp chk" style="--i:2"><i>3</i><h4>Check the email</h4><p>Every address tested. Bad ones are deleted</p></div>
-      <div class="sp chk" style="--i:3"><i>4</i><h4>Check the business</h4><p>Real, active and still working with buyers</p></div>
-      <div class="sp chk" style="--i:4"><i>5</i><h4>Check the person</h4><p>Right role, still in it, and able to decide</p></div>
-      <div class="sp chk" style="--i:5"><i>6</i><h4>Check the fit</h4><p>Proof they work with, or can bring, buyers who can really invest</p></div>
+      <div class="sp" style="--i:0"><i>1</i><h4>Find</h4><p>Real links to buyers</p></div>
+      <div class="sp" style="--i:1"><i>2</i><h4>Clean</h4><p>No duplicates or opt-outs</p></div>
+      <div class="sp chk" style="--i:2"><i>3</i><h4>Email</h4><p>Every address tested</p></div>
+      <div class="sp chk" style="--i:3"><i>4</i><h4>Business</h4><p>Real and active</p></div>
+      <div class="sp chk" style="--i:4"><i>5</i><h4>Person</h4><p>Right role, can decide</p></div>
+      <div class="sp chk" style="--i:5"><i>6</i><h4>Fit</h4><p>Proof they can bring buyers</p></div>
     </div>
-    <div class="drop r"><b>Even a "yes" can be dropped.</b><p>If someone sounds interested but we can't see proof they fit, they don't go to you. You get fewer people, and they are real.</p></div>
-    <span class="two r">Pass 1: by tools &nbsp;&middot;&nbsp; Pass 2: by a person reading each one</span>
-    <div class="callout r"><p><b>Playing by the rules:</b> Australian law says we can only email business addresses that are published for work, and only about something related to that person's job. We say clearly who we are, and every email has a simple way to opt out. We never cold email everyday buyers.</p></div>
+    <span class="two r">Pass 1: tools &nbsp;&middot;&nbsp; Pass 2: a person reads each one</span>
+    <div class="drop r"><b>Even a "yes" can be dropped.</b><p>No proof of fit, no meeting. Fewer people, all real.</p></div>
+    <div class="callout r"><p><b>Rules we follow:</b> business contacts only, clear sender, easy opt-out. We never cold email everyday buyers.</p></div>
   </div>
 </section>
 
-<!-- EMAILS -->
 <section id="email" class="sand" data-nav="The emails">
   <div class="wrap">
     <div class="eyebrow r">The emails</div>
-    <h2 class="r" style="--d:.1s">Short, plain, and about them.</h2>
-    <p class="lead r" style="--d:.2s">No long pitch. Each email talks about the other person's world first. Here is the kind of first email we'd write. The final words are written with you.</p>
+    <h2 class="r" style="--d:.1s">Short. Plain. About them.</h2>
     <div class="split">
       <div class="mail r">
-        <div class="mbar"><i></i><i></i><i></i><span>Example only, not final</span></div>
-        <div class="mh"><b>To:</b> a mortgage broker on the Gold Coast<br><b>Subject:</b> your clients buying new builds</div>
+        <div class="mbar"><i></i><i></i><i></i><span>Example only</span></div>
+        <div class="mh"><b>To:</b> a Gold Coast mortgage broker<br><b>Subject:</b> your clients buying new builds</div>
         <div class="mbd">
           <p>Hi [First name],</p>
-          <p>Quick one. We're a licensed Gold Coast agency. When someone buys a new or off-the-plan home through us, we share up to half of our commission with them. It's paid after settlement and it costs the buyer nothing.</p>
-          <p>For your clients that can be $10,000 to $30,000 back, and it doesn't touch the price or the loan.</p>
-          <p>Worth a quick chat to see if it fits the people you work with?</p>
+          <p>We're a licensed Gold Coast agency. When your client buys a new build through us, we share up to half our commission with them. After settlement. Free to them.</p>
+          <p>Often $10,000 to $30,000 back. Worth a quick chat?</p>
           <p style="margin:0">Cheers,<br>[Name], CashBack Realty</p>
         </div>
       </div>
       <div class="seqw r" data-watch style="--d:.15s">
         <div class="seq">
-          <div class="sq" style="--i:0"><div class="d">Day<b>1</b></div><div class="t"><h4>Email 1: the offer</h4><p>Short and clear. One question at the end.</p></div></div>
-          <div class="sq" style="--i:1"><div class="d">Day<b>4</b></div><div class="t"><h4>Email 2: something new</h4><p>A real example, like a buyer's cashback on a recent project.</p></div></div>
-          <div class="sq" style="--i:2"><div class="d">Day<b>9</b></div><div class="t"><h4>Email 3: an easy exit</h4><p>A polite last note. If it isn't for them, they can say so.</p></div></div>
+          <div class="sq" style="--i:0"><div class="d">Day<b>1</b></div><div class="t"><h4>The offer</h4><p>Short, with one question.</p></div></div>
+          <div class="sq" style="--i:1"><div class="d">Day<b>4</b></div><div class="t"><h4>Something new</h4><p>A real example.</p></div></div>
+          <div class="sq" style="--i:2"><div class="d">Day<b>9</b></div><div class="t"><h4>An easy exit</h4><p>A polite last note.</p></div></div>
         </div>
-        <div class="vars"><b>Several versions of every email.</b> We write each line more than one way and mix them, so no two inboxes see exactly the same message. A person writes the first line for every business, not a machine. You approve everything before it sends.</div>
+        <div class="vars"><b>Many versions of every line</b>, so no two inboxes match. You approve it all first.</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- RAMP + DAILY -->
-<section id="launch" class="band" data-nav="Launch and daily care">
+<section id="launch" class="band" data-nav="Launch">
   <div class="wrap">
     <div class="eyebrow r">Launch</div>
-    <h2 class="r" style="--d:.1s">Slow and gradual first. Full pace only when it's safe.</h2>
-    <p class="lead r" style="--d:.2s">Sending too much too early is how good systems get damaged. So we start small and step up week by week, only while the health checks stay green.</p>
-    <div class="ramp r" style="--d:.2s;background:var(--card);color:var(--ink)" data-watch>
+    <h2 class="r" style="--d:.1s">Slow first. Full pace when it's safe.</h2>
+    <div class="ramp r" style="--d:.2s" data-watch>
       <h3>Emails sent each week</h3>
-      <svg viewBox="0 0 720 270" id="rampsvg"></svg>
-      <div class="lg"><span><i style="background:#1D3B63"></i>Month 1: about 10,000</span><span><i style="background:#2C8C8A"></i>Month 2: about 22,000</span><span><i style="background:#EE8A3A"></i>Month 3: about 30,000</span></div>
+      <svg id="rampsvg"></svg>
+      <div class="lg"><span><i style="background:#1D3B63"></i>Month 1: ~10k</span><span><i style="background:#2C8C8A"></i>Month 2: ~22k</span><span><i style="background:#EE8A3A"></i>Month 3: ~30k</span></div>
     </div>
-    <p class="note r">Planning numbers, not promises. If anything looks unhealthy, we hold the pace or step back.</p>
-    <div class="eyebrow r" style="margin-top:70px">Every single day</div>
-    <h2 class="r" style="font-size:clamp(26px,3.6vw,40px)">We check it like a hawk.</h2>
+    <div class="eyebrow r" style="margin-top:64px">Every single day</div>
+    <h2 class="r" style="font-size:clamp(24px,4vw,38px)">We check it like a hawk.</h2>
     <div class="checks r" style="--d:.2s" data-watch>
-      <div class="ck" style="--i:0"><div class="tick">&#10003;</div><div><b>Bounces</b><span>Are emails reaching real inboxes?</span></div></div>
-      <div class="ck" style="--i:1"><div class="tick">&#10003;</div><div><b>Sending health</b><span>Are all mailboxes connected and in good shape?</span></div></div>
-      <div class="ck" style="--i:2"><div class="tick">&#10003;</div><div><b>Replies waiting</b><span>Is every reply answered fast?</span></div></div>
-      <div class="ck" style="--i:3"><div class="tick">&#10003;</div><div><b>Opt-outs</b><span>Anyone who says stop is removed the same day.</span></div></div>
-      <div class="ck" style="--i:4"><div class="tick">&#10003;</div><div><b>Spam signals</b><span>Do inboxes still trust us?</span></div></div>
-      <div class="ck" style="--i:5"><div class="tick">&#10003;</div><div><b>On schedule</b><span>Is today's sending going out as planned?</span></div></div>
+      <div class="ck" style="--i:0"><div class="tick">&#10003;</div><div><b>Bounces</b><span>Reaching real inboxes?</span></div></div>
+      <div class="ck" style="--i:1"><div class="tick">&#10003;</div><div><b>Sending health</b><span>All mailboxes healthy?</span></div></div>
+      <div class="ck" style="--i:2"><div class="tick">&#10003;</div><div><b>Replies</b><span>Answered fast?</span></div></div>
+      <div class="ck" style="--i:3"><div class="tick">&#10003;</div><div><b>Opt-outs</b><span>Removed same day.</span></div></div>
+      <div class="ck" style="--i:4"><div class="tick">&#10003;</div><div><b>Spam signals</b><span>Inboxes still trust us?</span></div></div>
+      <div class="ck" style="--i:5"><div class="tick">&#10003;</div><div><b>On schedule</b><span>Sending as planned?</span></div></div>
     </div>
-    <div class="pause r"><b>Our rule:</b> if anything slips, we pause and fix it first. A slow day costs far less than a damaged system.</div>
+    <div class="pause r"><b>Our rule:</b> if anything slips, we pause and fix it first.</div>
   </div>
 </section>
 
-<!-- PIPELINE -->
-<section id="meet" data-nav="Reply to partner">
+<section id="meet" data-nav="Email to partner">
   <div class="wrap">
     <div class="eyebrow r">From email to partner</div>
-    <h2 class="r" style="--d:.1s">What 30,000 emails can turn into, in a careful month.</h2>
-    <p class="lead r" style="--d:.2s">We plan on the low side on purpose. This is a careful case: only 1 in 100 emails gets a positive reply.</p>
+    <h2 class="r" style="--d:.1s">What one careful month can become.</h2>
+    <p class="lead r" style="--d:.2s">Worst case: only 1 in 100 emails gets a yes.</p>
     <div class="fun r" style="--d:.2s" data-watch>
-      <div class="fr"><span>Emails sent<small>one month at full pace</small></span><div class="ft"><div class="ff" style="--w:100%;--k:0;background:var(--navy)">30,000</div></div></div>
-      <div class="fr"><span>New people reached<small>each gets 2 to 3 emails</small></span><div class="ft"><div class="ff" style="--w:76%;--k:1;background:#28476F">about 10,000</div></div></div>
-      <div class="fr"><span>Positive replies<small>careful case: 1 in 100 emails</small></span><div class="ft"><div class="ff" style="--w:56%;--k:2;background:var(--sea)">about 300</div></div></div>
-      <div class="fr"><span>Meetings booked<small>after we check the fit</small></span><div class="ft"><div class="ff" style="--w:38%;--k:3;background:var(--blue)">about 30</div></div></div>
-      <div class="fr"><span>New partners<small>about 1 in 4 meetings</small></span><div class="ft"><div class="ff" style="--w:24%;--k:4;background:var(--sun)">about 7</div></div></div>
+      <div class="fr"><span>Emails<small>one month</small></span><div class="ft"><div class="ff" style="--w:100%;--k:0;background:var(--navy)">30,000</div></div></div>
+      <div class="fr"><span>People reached</span><div class="ft"><div class="ff" style="--w:76%;--k:1;background:#28476F">~10,000</div></div></div>
+      <div class="fr"><span>Positive replies</span><div class="ft"><div class="ff" style="--w:56%;--k:2;background:var(--sea)">~300</div></div></div>
+      <div class="fr"><span>Meetings</span><div class="ft"><div class="ff" style="--w:38%;--k:3;background:var(--blue)">~30</div></div></div>
+      <div class="fr"><span>New partners</span><div class="ft"><div class="ff" style="--w:24%;--k:4;background:var(--sun)">~7</div></div></div>
     </div>
-    <p class="note r">Replies come to us. We answer fast, talk to them, check the fit, and only then put them in your calendar with a brief.</p>
     <div class="bf r">
-      <div class="h"><b>Meeting brief</b><span>Example</span></div>
-      <dl>
-        <dt>Who</dt><dd>[Name], [role] at [company]</dd>
-        <dt>Why a fit</dt><dd>Works with first-home buyers and investors on the Gold Coast</dd>
-        <dt>What they said</dt><dd>Interested in cashback for clients buying off the plan</dd>
-        <dt>Good question</dt><dd>"How many of your clients are looking at new builds right now?"</dd>
-        <dt>Timing</dt><dd>Free Tuesday or Thursday</dd>
-      </dl>
+      <div class="h"><b>Every meeting comes with a brief</b><span>Example</span></div>
+      <dl><dt>Who</dt><dd>[Name], broker at [company]</dd><dt>Fit</dt><dd>Works with Gold Coast investors</dd><dt>They said</dt><dd>Interested in cashback</dd><dt>Ask them</dt><dd>"How many clients want new builds?"</dd></dl>
     </div>
   </div>
 </section>
 
-<!-- PARTNER PROGRAM -->
-<section id="partners" class="band" data-nav="Partner program">
+<section id="partners" class="band glow" data-nav="Partner program">
   <div class="wrap">
     <div class="eyebrow r">After the meeting</div>
-    <h2 class="r" style="--d:.1s">A meeting is not a partner. This is how we make it one.</h2>
-    <p class="lead r" style="--d:.2s">Most agencies stop at the booked call. Your return starts after it. So we help you set up a simple partner program that makes sending buyers to you easy, and keeps you in their mind.</p>
-    <div class="kit">
-      <div class="kt r"><div class="ic"><svg class="i"><use href="#i-doc"/></svg></div><h4>A one-page partner pack</h4><p>What you offer, a worked example, simple terms, and a clear yes/no on how they can introduce a buyer.</p></div>
-      <div class="kt r" style="--d:.1s"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><h4>Project sheets</h4><p>One short sheet for each project you recommend, so partners can match a client in a minute.</p></div>
-      <div class="kt r" style="--d:.2s"><div class="ic"><svg class="i"><use href="#i-link"/></svg></div><h4>An easy introduction</h4><p>One link or one reply. No forms to chase. The buyer gets looked after from the first message.</p></div>
-      <div class="kt r"><div class="ic"><svg class="i"><use href="#i-mail"/></svg></div><h4>A monthly market note</h4><p>A short Gold Coast new-build update. It gives partners a reason to open your email every month.</p></div>
-      <div class="kt r" style="--d:.1s"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><h4>Simple tracking</h4><p>Who introduced whom, and where each buyer is. Partners trust you more when they can see progress.</p></div>
-      <div class="kt r" style="--d:.2s"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><h4>Small events</h4><p>A broker breakfast or a short online session with a developer. Face time builds long relationships.</p></div>
-    </div>
+    <h2 class="r" style="--d:.1s">A meeting isn't a partner. Here's how it becomes one.</h2>
+    <div class="kit"><div class="kt r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-doc"/></svg></div><h4>Partner pack</h4><p>One page. Clear terms.</p></div><div class="kt r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><h4>Project sheets</h4><p>Match a client in a minute.</p></div><div class="kt r" style="--d:0.2s"><div class="ic"><svg class="i"><use href="#i-link"/></svg></div><h4>Easy introductions</h4><p>One link. No forms.</p></div><div class="kt r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-mail"/></svg></div><h4>Monthly market note</h4><p>A reason to open your email.</p></div><div class="kt r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><h4>Simple tracking</h4><p>They see their buyers move.</p></div><div class="kt r" style="--d:0.2s"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><h4>Small events</h4><p>Face time builds trust.</p></div></div>
     <div class="rhy">
-      <div class="rh r"><small>Week 1</small><b>Thank you + pack</b><span>Same day as the meeting</span></div>
-      <div class="rh r" style="--d:.1s"><small>Month 1</small><b>First introduction</b><span>We nudge, you deliver</span></div>
-      <div class="rh r" style="--d:.2s"><small>Every month</small><b>Market note</b><span>One useful email</span></div>
-      <div class="rh r" style="--d:.3s"><small>Every quarter</small><b>Check-in</b><span>What's working for them</span></div>
+      <div class="rh r"><small>Week 1</small><b>Thank you + pack</b></div>
+      <div class="rh r" style="--d:.1s"><small>Month 1</small><b>First introduction</b></div>
+      <div class="rh r" style="--d:.2s"><small>Monthly</small><b>Market note</b></div>
+      <div class="rh r" style="--d:.3s"><small>Quarterly</small><b>Check-in</b></div>
     </div>
   </div>
 </section>
@@ -658,16 +769,16 @@ footer b{color:#fff;font-size:20px;letter-spacing:-.02em}footer b i{font-style:n
 <section id="numbers" data-nav="The numbers">
   <div class="wrap">
     <div class="eyebrow r">What it can be worth</div>
-    <h2 class="r" style="--d:.1s">Try the numbers yourself.</h2>
-    <p class="lead r" style="--d:.2s">Move the sliders. Partners add up month after month, so the result grows faster than the cost. The starting numbers are on the careful side.</p>
+    <h2 class="r" style="--d:.1s">Play with the numbers.</h2>
+    <p class="lead r" style="--d:.2s">Partners stack up. Results grow faster than cost.</p>
     <div class="calc">
       <div class="cin r" style="--d:.1s">
         <div class="pre" id="pre"><button data-p="0">Careful</button><button data-p="1" class="on">Expected</button><button data-p="2">Strong</button></div>
-        <div class="sl"><label>Meetings a month at full pace <b id="v0"></b></label><input type="range" id="s0" min="10" max="50" step="1"><small>Months 1 and 2 start at a third and two thirds of this.</small></div>
+        <div class="sl"><label>Meetings a month at full pace <b id="v0"></b></label><input type="range" id="s0" min="10" max="50" step="1"></div>
         <div class="sl"><label>Meetings that become partners <b id="v1"></b></label><input type="range" id="s1" min="10" max="40" step="1"></div>
-        <div class="sl"><label>Buyers a partner sends each month <b id="v2"></b></label><input type="range" id="s2" min="0.1" max="0.8" step="0.05"><small>0.25 is one buyer every four months.</small></div>
+        <div class="sl"><label>Buyers a partner sends each month <b id="v2"></b></label><input type="range" id="s2" min="0.1" max="0.8" step="0.05"></div>
         <div class="sl"><label>Buyers who go on to buy <b id="v3"></b></label><input type="range" id="s3" min="10" max="50" step="1"></div>
-        <div class="sl"><label>What CashBack keeps per sale <b id="v4"></b></label><input type="range" id="s4" min="2000" max="15000" step="500"><small>After the buyer's cashback and any partner fee. Please confirm your real figure.</small></div>
+        <div class="sl"><label>What CashBack keeps per sale <b id="v4"></b></label><input type="range" id="s4" min="2000" max="15000" step="500"><small>After cashback and partner fees. Please confirm.</small></div>
       </div>
       <div class="cout">
         <div class="kp r" style="--d:.1s">
@@ -683,60 +794,43 @@ footer b{color:#fff;font-size:20px;letter-spacing:-.02em}footer b i{font-style:n
         <div class="cg r" style="--d:.2s">
           <div class="netw">
             <svg viewBox="0 0 380 380" id="net"></svg>
-            <div><b style="color:var(--navy);font-size:17px">Your partner network</b><p class="note" style="margin-top:6px">Each dot is a partner who is still active. Slide the month to watch it grow.</p>
+            <div><b style="color:var(--navy);font-size:17px">Your partner network</b><p class="note" style="margin-top:6px">Each dot is an active partner. Slide to watch it grow.</p>
               <div class="mrow"><input type="range" id="sm" min="1" max="12" step="1" value="12"><b id="vm"></b></div></div>
           </div>
         </div>
       </div>
     </div>
-    <div class="honest r"><b>Please read this part.</b> These are planning numbers, not promises. We control the meetings. How many become partners and sales depends on your follow-up and your projects. Off-the-plan sales often pay out at settlement, months after the sale, so cash arrives later than the chart shows. By month 2 we replace every guess with your real numbers.</div>
+    <div class="honest r"><b>Honest note:</b> these are planning numbers, not promises. Cash from off-the-plan sales often arrives at settlement, months later. By month 2, your real numbers replace every guess.</div>
   </div>
 </section>
 
-<!-- YEAR ROADMAP -->
-<section id="year" class="sand" data-nav="Year 1 and beyond">
+<section id="year" class="sand" data-nav="The year">
   <div class="wrap">
     <div class="eyebrow r">The longer plan</div>
-    <h2 class="r" style="--d:.1s">The first 4 months are the start. Here is the year.</h2>
+    <h2 class="r" style="--d:.1s">Four months is the start.</h2>
     <div class="yr">
-      <div class="q r"><small>Months 1 to 4</small><h3>Build and prove</h3><ul><li>20 day build</li><li>Launch slowly, then step up</li><li>Win the first partners</li><li>Find the message that works</li></ul></div>
-      <div class="q r" style="--d:.1s"><small>Months 5 to 6</small><h3>Add and tune</h3><ul><li>Add developers and advisers</li><li>Start LinkedIn for interstate investors</li><li>Launch the partner pack and market note</li></ul></div>
-      <div class="q r" style="--d:.2s"><small>Months 7 to 9</small><h3>Open the buyer door</h3><ul><li>Rebuild the site for buyers</li><li>Calculator and project pages</li><li>Content and search, plus a few ads you control</li></ul></div>
-      <div class="q r" style="--d:.3s"><small>Months 10 to 12</small><h3>Widen the map</h3><ul><li>Brisbane, Sydney and Melbourne partners</li><li>More developers on your list</li><li>A full year review and the next plan</li></ul></div>
+      <div class="q r"><small>Months 1 to 4</small><h3>Build and prove</h3><ul><li>20 day build</li><li>Slow, then full launch</li><li>First partners</li></ul></div>
+      <div class="q r" style="--d:.1s"><small>Months 5 to 6</small><h3>Add and tune</h3><ul><li>Developers and advisers</li><li>LinkedIn for investors</li><li>Partner pack live</li></ul></div>
+      <div class="q r" style="--d:.2s"><small>Months 7 to 9</small><h3>Open to buyers</h3><ul><li>New buyer-ready site</li><li>Project pages</li><li>Content and a few ads</li></ul></div>
+      <div class="q r" style="--d:.3s"><small>Months 10 to 12</small><h3>Widen the map</h3><ul><li>Brisbane, Sydney, Melbourne</li><li>More developers</li><li>Year review</li></ul></div>
     </div>
-    <div class="life r"><div class="ic"><svg class="i"><use href="#i-link"/></svg></div><div><h3>A relationship, not a project.</h3><p>We only do well if you do. So we keep the work honest, measure what matters, and tell you early when something isn't working. Every quarter we review together and decide what to do next.</p></div></div>
+    <div class="life r"><div class="ic"><svg class="i"><use href="#i-link"/></svg></div><div><h3>A relationship, not a project.</h3><p>We do well only if you do. Every quarter we review together.</p></div></div>
   </div>
 </section>
 
-<!-- RISKS -->
 <section id="risks" data-nav="Risks">
   <div class="wrap">
     <div class="eyebrow r">Straight talk</div>
-    <h2 class="r" style="--d:.1s">What could go wrong, and what we do about it.</h2>
-    <div class="grid2">
-      <div class="card rk r"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><div><h3>Few replies</h3><p>Any new message can start slowly.</p><div class="fx">We change one thing every week, and review the list, message and offer together in months 1 and 2.</div></div></div>
-      <div class="card rk r" style="--d:.1s"><div class="ic"><svg class="i"><use href="#i-mail"/></svg></div><div><h3>Emails landing in spam</h3><p>The most common way outreach fails.</p><div class="fx">Slow warm-up, spare addresses, daily health checks, and a rule to pause first.</div></div></div>
-      <div class="card rk r"><div class="ic"><svg class="i"><use href="#i-shield"/></svg></div><div><h3>Rules on email</h3><p>Australian law is strict on unwanted messages.</p><div class="fx">Business contacts only, always about their work, clear sender, easy opt-out.</div></div></div>
-      <div class="card rk r" style="--d:.1s"><div class="ic"><svg class="i"><use href="#i-doc"/></svg></div><div><h3>How the cashback is worded</h3><p>Law societies have warned about some rebate styles, mainly when lenders aren't told. Your model, paid from your own commission with the contract price unchanged, reads differently.</p><div class="fx">Your solicitor approves the wording before it goes in any email or partner pack.</div></div></div>
-      <div class="card rk r"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><div><h3>The market cools</h3><p>Sales are strong now, with a lot of new supply arriving.</p><div class="fx">We don't depend on one group of buyers. Partners, developers and interstate buyers spread the risk.</div></div></div>
-      <div class="card rk r" style="--d:.1s"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><div><h3>Partners say yes, then go quiet</h3><p>Common. Most people are busy.</p><div class="fx">The partner pack, the monthly note and a quarterly check-in keep you in front of them.</div></div></div>
-    </div>
+    <h2 class="r" style="--d:.1s">What could go wrong, and our fix.</h2>
+    <div class="grid2"><div class="card rk r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><div><h3>Few replies</h3><p>We change one thing every week.</p></div></div><div class="card rk r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-mail"/></svg></div><div><h3>Spam folder</h3><p>Slow warm-up, spares, daily checks.</p></div></div><div class="card rk r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-shield"/></svg></div><div><h3>Email rules</h3><p>Business contacts only. Easy opt-out.</p></div></div><div class="card rk r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-doc"/></svg></div><div><h3>Cashback wording</h3><p>Your solicitor approves every word.</p></div></div><div class="card rk r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><div><h3>Market cools</h3><p>Many buyer groups, not one.</p></div></div><div class="card rk r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><div><h3>Quiet partners</h3><p>Monthly note. Quarterly check-in.</p></div></div></div>
   </div>
 </section>
 
-<!-- IDEAS -->
 <section id="ideas" class="sand" data-nav="Ideas">
   <div class="wrap">
-    <div class="eyebrow r">Ideas to make you stronger</div>
-    <h2 class="r" style="--d:.1s">Things we noticed that will lift results.</h2>
-    <div class="grid3">
-      <div class="card idea r"><div class="ic"><svg class="i"><use href="#i-cal"/></svg></div><h3>A booking button</h3><p>Next to "Get My Free Cashback Estimate", so warm people can book a call straight away.</p></div>
-      <div class="card idea r" style="--d:.1s"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><h3>Real buyer stories</h3><p>Swap the one example for real stories with photos, with the buyer's OK. Proof closes deals.</p></div>
-      <div class="card idea r" style="--d:.2s"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><h3>A page for each project</h3><p>Why you recommend it, the likely cashback, and a clear next step. These also help you show up in search.</p></div>
-      <div class="card idea r"><div class="ic"><svg class="i"><use href="#i-link"/></svg></div><h3>A proper partner page</h3><p>Your "Partner With Us" page can carry the pack, examples and a simple sign-up.</p></div>
-      <div class="card idea r" style="--d:.1s"><div class="ic"><svg class="i"><use href="#i-shield"/></svg></div><h3>A plain-English FAQ</h3><p>Lender, tax and legal questions answered clearly. It turns the biggest worry into a reason to trust you.</p></div>
-      <div class="card idea r" style="--d:.2s"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><h3>One shared scoreboard</h3><p>Partners, buyers and sales in one simple view, so we both see what's working every week.</p></div>
-    </div>
+    <div class="eyebrow r">Ideas for you</div>
+    <h2 class="r" style="--d:.1s">Quick wins we spotted.</h2>
+    <div class="grid3"><div class="card idea r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-cal"/></svg></div><h3>Booking button</h3><p>Next to your free estimate.</p></div><div class="card idea r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-users"/></svg></div><h3>Real buyer stories</h3><p>Photos, with their OK.</p></div><div class="card idea r" style="--d:0.2s"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><h3>Project pages</h3><p>Why you pick each one.</p></div><div class="card idea r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-link"/></svg></div><h3>Partner page</h3><p>Pack, examples, sign-up.</p></div><div class="card idea r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-shield"/></svg></div><h3>Plain FAQ</h3><p>Lender, tax, legal answers.</p></div><div class="card idea r" style="--d:0.2s"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><h3>One scoreboard</h3><p>Partners, buyers, sales.</p></div></div>
   </div>
 </section>
 
@@ -745,41 +839,40 @@ footer b{color:#fff;font-size:20px;letter-spacing:-.02em}footer b i{font-style:n
   <div class="wrap">
     <div class="eyebrow r">Real campaigns</div>
     <h2 class="r" style="--d:.1s">Not theory. We've done this.</h2>
-    <p class="lead r" style="--d:.2s">Three real campaigns we've run for clients. Every business is different, so your numbers will be your own.</p>
+    <p class="lead r" style="--d:.2s">Three real campaigns. Yours will have its own numbers.</p>
     <div class="proof">
       <div class="pf r"><small>Marketing agency</small><h3>A steady flow, every week</h3><div class="row">Emails sent<b>82,671</b></div><div class="row">Replies<b>2,429</b></div><div class="row">Interested<b>2,146</b></div><div class="row">Pipeline<b>$175,000</b></div></div>
       <div class="pf r" style="--d:.15s"><small>5 day push</small><h3>Fast and clean</h3><div class="row">Emails in 5 days<b>96,408</b></div><div class="row">Replies<b>1,095</b></div><div class="row">Interested<b>115</b></div><div class="row">Calls booked<b>25</b></div></div>
       <div class="pf r" style="--d:.3s"><small>Test campaign</small><h3>Small list, sharp offer</h3><div class="row">People contacted<b>10,284</b></div><div class="row">Replies<b>417</b></div><div class="row">Opportunities<b>103</b></div><div class="row">Reply rate<b>4%</b></div></div>
     </div>
-    <p class="note r">Pipeline is counted at our clients' average deal size. It is not closed revenue.</p>
+    <p class="note r">Pipeline uses client average deal size. Not closed revenue.</p>
   </div>
 </section>
 
-<!-- NEXT -->
 <section id="next" class="sand" data-nav="Next step">
   <div class="wrap">
     <div class="eyebrow r">Next step</div>
-    <h2 class="r" style="--d:.1s">Here's what we need from you.</h2>
+    <h2 class="r" style="--d:.1s">What we need from you.</h2>
     <div class="need">
-      <div class="nb r"><h3>What we need</h3><ul>
-        <li>One hour for the kickoff call</li>
-        <li>A yes or changes on the emails within 2 days</li>
-        <li>Access to your booking calendar</li>
-        <li>The projects and developers you want pushed first</li>
-        <li>Your solicitor's OK on the cashback wording</li>
-        <li>A real buyer story, with their OK</li>
-        <li>Quick replies to booked meetings. Warm people go cold fast</li>
+      <div class="nb r"><h3>From you</h3><ul>
+        <li>One hour for kickoff</li>
+        <li>Email approval in 2 days</li>
+        <li>Your booking calendar</li>
+        <li>Projects to push first</li>
+        <li>Solicitor's OK on wording</li>
+        <li>A real buyer story</li>
+        <li>Fast replies to meetings</li>
       </ul></div>
       <div class="nb r" style="--d:.15s"><h3>How we start</h3><ol>
-        <li>You tell us you're ready</li>
-        <li>We send a one page agreement</li>
-        <li>Day 1: kickoff call, and we start studying your business</li>
-        <li>Day 20: go or no go, together</li>
-        <li>Every quarter: review and plan the next one</li>
+        <li>You say go</li>
+        <li>One page agreement</li>
+        <li>Day 1: kickoff</li>
+        <li>Day 20: go or no go</li>
+        <li>Every quarter: review</li>
       </ol></div>
     </div>
-    <div class="end r"><h2>Day 1 starts the day you say <em>go.</em></h2><p>If anything here doesn't sit right, tell us what's missing. We'd rather hear it now.</p></div>
-    <p class="src r"><b>Sources.</b> Market data: Urbis Gold Coast Essentials for Q1 and Q2 2026, as reported by Business News Australia and Apartments.com.au (Sep 2026). Buyer mix and foreign-buyer rules: same reports and Queensland Estate (2026). CashBack offer and examples: cashbackproperty.com.au. Email rules: Spam Act 2003 and ACMA guidance, as summarised by Legal Vision. Rebate warnings: H W L Ebsworth. This page is general information, not legal advice. Planning numbers are estimates based on our experience, not guarantees.</p>
+    <div class="end r"><h2>Day 1 starts when you say <em>go.</em></h2><p>Anything missing? Tell us now.</p></div>
+    <p class="src r"><b>Sources.</b> Urbis Gold Coast Essentials Q1 and Q2 2026, via Business News Australia and Apartments.com.au. Buyer rules: Queensland Estate (2026). Offer details: cashbackproperty.com.au. Email rules: Spam Act 2003, ACMA, Legal Vision. Rebate warnings: H W L Ebsworth. General information, not legal advice. Planning numbers are estimates, not guarantees.</p>
   </div>
 </section>
 <footer><div class="wrap"><b>Wayne<i>Flow</i></b><span>Plan prepared for CashBack Realty</span></div></footer>
@@ -796,14 +889,20 @@ footer b{color:#fff;font-size:20px;letter-spacing:-.02em}footer b i{font-style:n
   var dots=[].slice.call(nav.children);
 
   /* ramp chart */
-  (function(){
+  function buildRamp(){
     var w=[1500,2000,3000,3500,4500,5000,5500,7000,7000,7000,7000,7000,7000], col=['#1D3B63','#2C8C8A','#EE8A3A'];
-    var svg=document.getElementById('rampsvg'),H=270,base=225,max=8000,bw=36,gap=18,x0=34,s='';
-    [0,2000,4000,6000,8000].forEach(function(v){var y=base-v/max*190;s+='<line x1="30" x2="715" y1="'+y+'" y2="'+y+'" stroke="#DDE6EE"/><text x="26" y="'+(y+4)+'" text-anchor="end">'+(v/1000)+'k</text>'});
-    w.forEach(function(v,i){var h=v/max*190,x=x0+i*(bw+gap),c=col[Math.min(2,Math.floor(i/4))];
-      s+='<rect class="bar" style="--k:'+i+'" x="'+x+'" y="'+(base-h)+'" width="'+bw+'" height="'+h+'" rx="7" fill="'+c+'"/><text x="'+(x+bw/2)+'" y="'+(base+16)+'" text-anchor="middle">W'+(i+1)+'</text><text x="'+(x+bw/2)+'" y="'+(base-h-6)+'" text-anchor="middle" style="fill:#14283F">'+(v/1000).toFixed(1)+'k</text>'});
+    var svg=document.getElementById('rampsvg'),W=Math.max(280,Math.round(svg.parentNode.clientWidth-48)),small=W<520,H=small?250:270,base=H-45,top=small?24:30,max=8000,L=small?30:34;
+    var gap=small?4:14,bw=Math.floor((W-L-8-gap*12)/13),s='';
+    svg.setAttribute('viewBox','0 0 '+W+' '+H);svg.style.height='auto';
+    [0,2000,4000,6000,8000].forEach(function(v){var y=base-v/max*(base-top);s+='<line x1="'+(L-4)+'" x2="'+(W-4)+'" y1="'+y+'" y2="'+y+'" stroke="#DDE6EE"/><text x="'+(L-8)+'" y="'+(y+4)+'" text-anchor="end">'+(v/1000)+'k</text>'});
+    w.forEach(function(v,i){var h=v/max*(base-top),x=L+i*(bw+gap),c=col[Math.min(2,Math.floor(i/4))];
+      s+='<rect class="bar" style="--k:'+i+'" x="'+x+'" y="'+(base-h)+'" width="'+bw+'" height="'+h+'" rx="'+(small?3:7)+'" fill="'+c+'"/>';
+      if(!small||i%2==0)s+='<text x="'+(x+bw/2)+'" y="'+(base+17)+'" text-anchor="middle">'+(i+1)+'</text>';
+      if(!small||i==0||i==3||i==7||i==12)s+='<text x="'+(x+bw/2)+'" y="'+(base-h-6)+'" text-anchor="middle" style="fill:#14283F">'+(v/1000).toFixed(1)+'k</text>'});
+    s+='<text x="'+(L+(W-L)/2)+'" y="'+(H-6)+'" text-anchor="middle" style="fill:#41566E">Week</text>';
     svg.innerHTML=s;
-  })();
+  }
+  buildRamp();
 
   /* calculator */
   var P=[[20,20,0.25,25,4500],[30,25,0.30,25,4500],[40,30,0.40,30,5500]];
@@ -830,9 +929,9 @@ footer b{color:#fff;font-size:20px;letter-spacing:-.02em}footer b i{font-style:n
     var tot=r.cumCost[i], net=r.cumNet[i];
     document.getElementById('k3').textContent=net>=tot?(r.pb&&r.pb<=mo?'Month '+r.pb:'Yes'):'Not yet';
     // chart
-    var W=640,H=250,L=52,B=212,T=14,maxv=Math.max(r.cumNet[11],r.cumCost[11])*1.08,sx=function(m){return L+(m-1)/11*(W-L-16)},sy=function(v){return B-v/maxv*(B-T)};
+    var cel=document.getElementById('chart'),W=Math.max(280,Math.round(cel.parentNode.clientWidth-40)),sm=W<460,H=sm?240:250,L=sm?44:52,B=H-38,T=14,maxv=Math.max(r.cumNet[11],r.cumCost[11])*1.08,sx=function(m){return L+(m-1)/11*(W-L-16)},sy=function(v){return B-v/maxv*(B-T)};
     var s='';for(var g=0;g<=4;g++){var v=maxv/4*g,y=sy(v);s+='<line x1="'+L+'" x2="'+(W-10)+'" y1="'+y+'" y2="'+y+'" stroke="#DDE6EE"/><text x="'+(L-6)+'" y="'+(y+4)+'" text-anchor="end">$'+Math.round(v/1000)+'k</text>'}
-    for(var m=1;m<=12;m++)s+='<text x="'+sx(m)+'" y="'+(B+18)+'" text-anchor="middle">M'+m+'</text>';
+    cel.setAttribute('viewBox','0 0 '+W+' '+H);for(var m=1;m<=12;m++)if(!sm||m%2==1||m==12)s+='<text x="'+sx(m)+'" y="'+(B+18)+'" text-anchor="middle">'+(sm?m:'M'+m)+'</text>';
     var pn='',pc='';for(m=1;m<=12;m++){pn+=(m==1?'M':'L')+sx(m)+' '+sy(r.cumNet[m-1]);pc+=(m==1?'M':'L')+sx(m)+' '+sy(r.cumCost[m-1])}
     s+='<path d="'+pn+' L'+sx(12)+' '+B+' L'+sx(1)+' '+B+'Z" fill="rgba(238,138,58,.16)"/><path d="'+pc+'" fill="none" stroke="#1D3B63" stroke-width="3.5" stroke-linecap="round"/><path d="'+pn+'" fill="none" stroke="#EE8A3A" stroke-width="3.5" stroke-linecap="round"/>';
     s+='<line x1="'+sx(mo)+'" x2="'+sx(mo)+'" y1="'+T+'" y2="'+B+'" stroke="#2F6FD0" stroke-dasharray="4 4"/><circle cx="'+sx(mo)+'" cy="'+sy(r.cumNet[mo-1])+'" r="6" fill="#EE8A3A" stroke="#fff" stroke-width="2"/>';
@@ -887,7 +986,7 @@ footer b{color:#fff;font-size:20px;letter-spacing:-.02em}footer b i{font-style:n
     var active=0;rows.forEach(function(row,i){if(+row.dataset.d<=day)active=i});
     rows.forEach(function(row,i){row.classList.toggle('on',i===active);row.classList.toggle('done',i<active||(day>=20&&i===active))});
   }
-  window.addEventListener('scroll',onScroll,{passive:true});window.addEventListener('resize',onScroll);onScroll();
+  window.addEventListener('scroll',onScroll,{passive:true});var rt;window.addEventListener('resize',function(){onScroll();clearTimeout(rt);rt=setTimeout(function(){buildRamp();draw()},150)});onScroll();
 })();
 </script>
 </body>
