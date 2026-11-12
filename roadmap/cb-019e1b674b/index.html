@@ -613,6 +613,11 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
 .est{display:inline-block;margin-top:12px;font-size:13px;font-weight:700;color:#8a5413;background:#FFF1D6;border:1px solid #F1D5A0;padding:6px 14px;border-radius:20px}
 @media(max-width:1100px){#topbar .logo em{display:none}}
 @media(max-width:700px){#topbar{height:54px;padding:0 12px;gap:10px}#topbar .logo b{font-size:15px}#topbar nav{overflow-x:auto;scrollbar-width:none;margin-left:0;flex:1;min-width:0}#topbar nav::-webkit-scrollbar{display:none}#topbar nav a{font-size:12.5px;padding:7px 10px}#topbar .cta{display:none}section[id]{scroll-margin-top:54px}.mcard{scroll-margin-top:74px}}
+.qpay{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px}
+.qpay span{background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 12px;font-size:12.5px;color:var(--ink2);line-height:1.35}
+.qpay b{display:block;font-size:13px;color:var(--navy);margin-bottom:2px}
+.qpay span:nth-child(2){border-color:var(--sun)}
+@media(max-width:700px){.qpay{grid-template-columns:1fr;gap:8px}.qpay span{padding:9px 12px}.mcard .tagm{font-size:10px;padding:5px 10px}}
 </style>
 </head>
 <body>
@@ -732,7 +737,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
         <div class="rtxt" id="dtxt">of 20</div>
         <span class="wu" id="wu">Warm-up running in the background</span>
       </div>
-      <div class="prs" id="prs"><div class="pr" data-d="1"><span class="dy">Days 1-2</span><div><h4>Kickoff and study</h4><p>One call. We learn your business.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="3"><span class="dy">Days 3-4</span><div><h4>Buy sending addresses</h4><p>About 16, separate from your main site.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="5"><span class="dy">Days 5-7</span><div><h4>Mailboxes and records</h4><p>About 80 mailboxes, set up one by one.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="6"><span class="dy">Day 6 on</span><div><h4>Warm-up begins</h4><p>Safe, slow, and never rushed.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="8"><span class="dy">Days 8-12</span><div><h4>Find your people</h4><p>Real people who work with buyers.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="11"><span class="dy">Days 11-16</span><div><h4>Double check leads</h4><p>A tool pass, then a person.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="13"><span class="dy">Days 13-17</span><div><h4>Write the emails</h4><p>You read and approve each one.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="18"><span class="dy">Days 18-19</span><div><h4>Test everything</h4><p>We fix problems before real sending.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="20"><span class="dy">Day 20</span><div><h4>Go or no go</h4><p>We decide to launch together.</p></div><span class="tk">&#10003;</span></div></div>
+      <div class="prs" id="prs"><div class="pr" data-d="1"><span class="dy">Days 1-2</span><div><h4>Kickoff and study</h4><p>One call. We learn your business.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="3"><span class="dy">Days 3-4</span><div><h4>Buy sending addresses</h4><p>About 16, separate from your main site.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="5"><span class="dy">Days 5-7</span><div><h4>Mailboxes and records</h4><p>About 80 mailboxes, set up one by one.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="6"><span class="dy">Day 6 on</span><div><h4>Warm-up begins</h4><p>Safe, slow, and never rushed.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="8"><span class="dy">Days 8-12</span><div><h4>Find your people</h4><p>Real people who work with buyers.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="11"><span class="dy">Days 11-16</span><div><h4>Double check leads</h4><p>A tool pass, then a person.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="13"><span class="dy">Days 13-17</span><div><h4>Write the emails</h4><p>You read and approve each one.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="18"><span class="dy">Days 18-19</span><div><h4>Test everything</h4><p>We fix problems before real sending.</p></div><span class="tk">&#10003;</span></div><div class="pr" data-d="20"><span class="dy">Day 20</span><div><h4>Go or no go</h4><p>Setup is done. We launch together. Month 1 starts next day.</p></div><span class="tk">&#10003;</span></div></div>
     </div></div></div>
   </div>
 </section>
@@ -762,15 +767,16 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
         <div class="qs s2"><b>Month 2</b></div>
         <div class="qs s3"><b>Month 3</b></div></div>
       <div class="qticks"><span style="left:0">Day 1</span><span style="left:18.2%">Day 21</span><span style="left:45.5%">Day 51</span><span style="left:72.7%">Day 81</span><span style="left:100%">Day 111</span></div>
+      <div class="qpay"><span><b>Day 1</b>Setup fee paid. We start building.</span><span><b>Day 20</b>Month 1 fee paid. Setup is done.</span><span><b>Day 21</b>Month 1 starts. First emails go out.</span></div>
       <div class="qkey"><span><i class="k1"></i>Setup, 20 days</span><span><i class="k2"></i>Careful start</span><span><i class="k3"></i>Ramp up</span><span><i class="k4"></i>Full pace</span></div>
     </div>
-    <div class="grid3"><div id="m1" class="card mcard c1 r" style="--d:0.1s" data-watch><span class="tagm">Month 1</span><h3>Careful start</h3>
+    <div class="grid3"><div id="m1" class="card mcard c1 r" style="--d:0.1s" data-watch><span class="tagm">Month 1 &middot; from day 21</span><h3>Careful start</h3>
       <div class="mbarw"><div class="mb2"><i style="--w:50%"></i></div><div class="ml"><b><span data-count="15000">15,000</span></b> emails sent</div></div>
       <div class="m2"><div><b data-count="14">14</b><span>meetings</span></div><div><b data-count="3">3</b><span>new partners</span></div></div>
-      <ul><li>First emails go out, small and careful</li><li>We watch sending health every day</li><li>Sending grows each week</li></ul><div class="goal">Goal: first meetings and first partners</div><div class="nyet"><b>Not yet:</b> sales. Partners need time to send buyers.</div></div><div id="m2" class="card mcard c2 r" style="--d:0.25s" data-watch><span class="tagm">Month 2</span><h3>Ramp up</h3>
+      <ul><li>First emails go out, small and careful</li><li>We watch sending health every day</li><li>Sending grows each week</li></ul><div class="goal">Goal: first meetings and first partners</div><div class="nyet"><b>Not yet:</b> sales. Partners need time to send buyers.</div></div><div id="m2" class="card mcard c2 r" style="--d:0.25s" data-watch><span class="tagm">Month 2 &middot; from day 51</span><h3>Ramp up</h3>
       <div class="mbarw"><div class="mb2"><i style="--w:90%"></i></div><div class="ml"><b><span data-count="27000">27,000</span></b> emails sent</div></div>
       <div class="m2"><div><b data-count="26">26</b><span>meetings</span></div><div><b data-count="7">7</b><span>new partners</span></div></div>
-      <ul><li>Sending reaches full speed</li><li>We fix what the replies teach us</li><li>The partner pack goes out</li></ul><div class="goal">Goal: prove the message works</div><div class="nyet"><b>Not yet:</b> steady buyer sales.</div></div><div id="m3" class="card mcard c3 r" style="--d:0.4s" data-watch><span class="tagm">Month 3</span><h3>Full pace</h3>
+      <ul><li>Sending reaches full speed</li><li>We fix what the replies teach us</li><li>The partner pack goes out</li></ul><div class="goal">Goal: prove the message works</div><div class="nyet"><b>Not yet:</b> steady buyer sales.</div></div><div id="m3" class="card mcard c3 r" style="--d:0.4s" data-watch><span class="tagm">Month 3 &middot; from day 81</span><h3>Full pace</h3>
       <div class="mbarw"><div class="mb2"><i style="--w:93%"></i></div><div class="ml"><b><span data-count="28000">28,000</span></b> emails sent</div></div>
       <div class="m2"><div><b data-count="30">30</b><span>meetings</span></div><div><b data-count="8">8</b><span>new partners</span></div></div>
       <ul><li>Running at full speed</li><li>Developers and advisers join the list</li><li>Quarter review, together</li></ul><div class="goal">Goal: about 30 meetings a month</div><div class="nyet"><b>Not yet:</b> most sales. They grow in Quarter 2.</div></div></div>
@@ -877,7 +883,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
     <div class="kit"><div class="kt r" style="--d:0s"><div class="ic"><svg class="i"><use href="#i-doc"/></svg></div><h4>Partner pack</h4><p>One page. Clear terms.</p></div><div class="kt r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-build"/></svg></div><h4>Project sheets</h4><p>Match a client in a minute.</p></div><div class="kt r" style="--d:0.2s"><div class="ic"><svg class="i"><use href="#i-link"/></svg></div><h4>Easy introductions</h4><p>One link. No forms.</p></div><div class="kt r" style="--d:0.1s"><div class="ic"><svg class="i"><use href="#i-chart"/></svg></div><h4>Simple tracking</h4><p>They see their buyers move.</p></div></div>
     <div class="rhy">
       <div class="rh r"><small>Week 1</small><b>Thank you + pack</b></div>
-      <div class="rh r" style="--d:.1s"><small>Month 1</small><b>First introduction</b></div>
+      <div class="rh r" style="--d:.1s"><small>Week 4</small><b>First introduction</b></div>
       <div class="rh r" style="--d:.2s"><small>Monthly</small><b>Market note</b></div>
       <div class="rh r" style="--d:.3s"><small>Quarterly</small><b>Check-in</b></div>
     </div>
@@ -911,6 +917,7 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
     <div class="eyebrow r">What it can be worth</div>
     <h2 class="r" style="--d:.1s">What it can bring you in year 1.</h2>
     <p class="lead r" style="--d:.2s">Partners stack up. Results grow faster than cost.</p>
+    <p class="est r" style="--d:.25s">Year 1 = the 20-day setup + 12 months. Month numbers count from Day 21, when Month 1 starts.</p>
     <div class="scen r" data-watch>
       <div class="sc"><div class="col"><i class="bar" id="b0"></i></div><b id="sc0"></b><small>Careful</small><span id="sc0s"></span></div>
       <div class="sc mid"><div class="col"><i class="bar" id="b1"></i></div><b id="sc1"></b><small>Expected</small><span id="sc1s"></span></div>
@@ -999,9 +1006,10 @@ section[id]{scroll-margin-top:60px}.mcard{scroll-margin-top:84px}
         <li>Fast replies to meetings</li>
       </ul></div>
       <div class="nb r" style="--d:.15s"><h3>How we start</h3><ol>
-        <li>You say go and pay</li>
+        <li>You say go. Setup fee paid</li>
         <li>One page agreement</li>
         <li>Days 1 to 20: we build</li>
+        <li>Day 20: Month 1 fee paid</li>
         <li>Day 21: Month 1 starts</li>
         <li>Every quarter: review</li>
       </ol></div>
