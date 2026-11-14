@@ -1,0 +1,93 @@
+{
+  "slug": "jobpost",
+  "keyword": "JOBPOST",
+  "date": "2026-11-14",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "posted on Instagram 2026-11-13 (reel DfrHl4JgfwL)",
+  "title": "The Job Post Signal Playbook: Find the One Sentence That Says They're About to Buy",
+  "description": "Companies post their problems in public, in job ads. How to search them, find the one line that matches your offer, and email the right boss first.",
+  "lead": "This is the full job post playbook from the reel. You get the 4 steps (search the problem, find the line, email the boss, fix the gap before the hire starts), search strings to copy, an email template, a prompt and the mistakes to avoid.",
+  "insider": "We build campaigns around signals like this for clients: one real reason to write, matched to one clear offer. Emails that fit the reader are how our agency client got **2,146 interested replies** in four and a half months, with **88% of replies positive**. Finding a few job posts is easy. Doing it every week, finding the right person, verifying their email and sending at scale is the part we run for clients.",
+  "case": "case-01",
+  "blocks": [
+    {"type": "h2", "text": "Why job posts are buying signals"},
+    {"type": "p", "text": "A job post is a company telling the world, in writing, what problem it has and that it's ready to spend money on it. A salary is a budget. The duties list is a description of the pain. And the post is public, so you can read it for free."},
+    {"type": "p", "text": "Most people read the job title and move on. The gold is one sentence inside the post: the line that names the problem. If that problem is what you fix, that company is a warm lead today."},
+    {"type": "table", "head": ["Sentence in the job post", "What it tells you", "Who could sell to them"], "rows": [
+      ["\"Build our outbound motion from scratch\"", "No outbound system yet, pressure to create pipeline", "Lead gen and cold email agencies, sales tools"],
+      ["\"Clean up and migrate our CRM\"", "Messy CRM, a migration project coming", "CRM consultants, data cleanup services"],
+      ["\"Manage our paid ads across Google and Meta\"", "Ad spend is growing, no one owns it yet", "Ad agencies, freelancers"],
+      ["\"Own month-end close and reporting\"", "Finance is behind or growing fast", "Bookkeeping and fractional CFO firms"],
+      ["\"Launch our new website\"", "A website project is planned", "Web design and dev agencies"]
+    ]},
+    {"type": "h2", "text": "Step 1: Search the problem, not the title"},
+    {"type": "p", "text": "**Why:** job titles are messy. The same job can be called \"Growth Manager\", \"SDR Lead\" or \"Head of Outbound\". The problem sentence is much more precise. Search for the words a company would use to describe the problem you solve."},
+    {"type": "steps", "items": [
+      "Write down 3 to 5 phrases a company would put in a job post if it had your problem. Example for a cold email agency: \"build outbound\", \"generate pipeline\", \"book meetings\", \"cold email\".",
+      "Search those phrases on [LinkedIn Jobs](https://www.linkedin.com/jobs/) and [Indeed](https://www.indeed.com). Put each phrase in quotes.",
+      "Filter by **date posted: past 24 hours or past week**. Older posts may already be filled.",
+      "Add your location and company size filters so you only see companies you can serve.",
+      "Save the search so you can run it again every few days."
+    ]},
+    {"type": "prompt", "label": "Google search strings to copy", "text": "site:boards.greenhouse.io \"build our outbound\"\nsite:jobs.lever.co \"generate pipeline\" \"cold email\"\nsite:linkedin.com/jobs \"build outbound from scratch\"\n\nSwap the phrase in quotes for the problem you solve.\nIn Google, click Tools > Any time > Past week to keep results fresh."},
+    {"type": "tip", "text": "Google's own help page explains the search operators used above (quotes and site:). See [Refine Google searches](https://support.google.com/websearch/answer/2466433)."},
+    {"type": "h2", "text": "Step 2: Find the one line"},
+    {"type": "p", "text": "**Why:** your email should be built around their words, not yours. When you quote the exact problem they wrote down, your email is instantly relevant. You're not guessing what they need. They told you."},
+    {"type": "steps", "items": [
+      "Open the post and read the \"About the role\" and \"What you'll do\" parts.",
+      "Highlight the one sentence that matches what you sell. Only one.",
+      "Write down the gap it shows: what isn't working today, or what doesn't exist yet.",
+      "If no sentence matches your offer, skip the company. A hiring company is only a lead if the role is about your problem."
+    ]},
+    {"type": "h2", "text": "Step 3: Email the boss, not HR"},
+    {"type": "p", "text": "**Why:** HR and recruiters fill the seat. They don't own the problem or the budget for fixing it. The person who does is the new hire's future boss. As [lemlist's guide to hiring signals](https://www.lemlist.com/blog/hiring-as-buying-intent-signal) puts it, the job post is the evidence and the manager who owns the problem is the buyer."},
+    {"type": "table", "head": ["Job being hired", "Email this person instead"], "rows": [
+      ["SDR or sales rep", "Head of Sales, VP Sales or the founder"],
+      ["Marketing manager", "CMO or Head of Marketing"],
+      ["Bookkeeper or accountant", "CFO, Controller or the owner"],
+      ["Developer", "CTO or Head of Engineering"]
+    ]},
+    {"type": "p", "text": "Many posts say who the role reports to (\"reports to the VP of Sales\"). If not, look up the company on LinkedIn and find the head of that team. At small companies it's often the founder."},
+    {"type": "h2", "text": "Step 4: Offer to fix the gap before the hire starts"},
+    {"type": "p", "text": "**Why:** hiring takes time. The post goes up, interviews happen, then the new person still needs time to learn the job. During all that time the problem is still there. Your offer is not \"replace the hire\". It's \"get results now, while you hire\"."},
+    {"type": "prompt", "label": "Email template", "text": "Subject: your {{role_title}} post\n\nHi {{first_name}},\n\nSaw your post for a {{role_title}}. This line stood out: \"{{their_exact_sentence}}\".\n\nWhile you hire, we can {{what_you_do}} so {{the_gap}} isn't on hold for months. We did this for a {{similar_company_type}}: {{real_result_with_number}}.\n\nWorth a quick chat, or is the new hire going to own this alone?\n\n{{your_name}}"},
+    {"type": "tip", "label": "Keep it honest", "text": "Never pretend you're applying for the job, and don't say the hire is a bad idea. You're offering help with the problem, now."},
+    {"type": "h2", "text": "Timing: why the post must be fresh"},
+    {"type": "p", "text": "The signal is strongest in the first days after the post goes up, while the problem hurts and no one has been hired yet. A post that is a month old may already be filled, or the manager may have found another fix. Aim to email within **1 to 3 days** of the post going live."},
+    {"type": "h2", "text": "One sentence = one campaign"},
+    {"type": "p", "text": "Group posts by the sentence you found. Every company that wrote \"build outbound from scratch\" gets the same campaign, with their own details filled in. That keeps your message sharp and lets you see which signal gets the most replies."},
+    {"type": "h2", "text": "Worked example"},
+    {"type": "p", "text": "Here's how the steps fit together for a small cold email agency. The numbers are an example to show the math, not a result."},
+    {"type": "steps", "items": [
+      "You search \"build outbound\" and \"generate pipeline\" in job posts from the past week and find **40 posts**.",
+      "You read each one. **25** have a line that matches what you do. The other 15 are about something else, so you skip them.",
+      "For each of the 25 you find the Head of Sales or founder: **25 people**.",
+      "You send the template above, plus 2 short follow-ups, within 3 days of each post going live."
+    ]},
+    {"type": "p", "text": "If that small, targeted campaign gets a 10% reply rate, that's 25 × 0.10 = **2.5, so 2 to 3 replies** from people who just told the world they have your problem. Math check done. Small numbers, but each one is a real buyer, and you can run the search again every week."},
+    {"type": "h2", "text": "Prompt: find the line and write the email"},
+    {"type": "prompt", "label": "Copy into ChatGPT or Claude", "text": "I sell: [one sentence about your offer]\nOne real result I can share: [type of client, result with a number]\n\nHere is a job post:\n[paste the full job post]\n\n1. Quote the ONE sentence in this post that best matches what I sell. If none match, say \"No match\" and stop.\n2. In one line, explain the gap this sentence shows (what isn't working or doesn't exist yet).\n3. Tell me which job title is most likely the hire's boss and the budget owner.\n4. Write a cold email to that person, under 80 words, that quotes their sentence, offers to fix the gap while they hire, mentions my real result, and ends with a yes/no question. No links, no hype, no exclamation marks."},
+    {"type": "h2", "text": "Common mistakes"},
+    {"type": "table", "head": ["Mistake", "What happens", "Fix"], "rows": [
+      ["Searching by job title only", "Lots of posts that have nothing to do with you", "Search the problem sentence in quotes"],
+      ["Emailing HR or the recruiter", "They forward it nowhere, or delete it", "Email the hire's future boss"],
+      ["Using old posts", "The role is filled, the moment has passed", "Filter to the past 24 hours or past week"],
+      ["\"I saw you're hiring\" and nothing else", "Sounds like every other vendor", "Quote their exact sentence and name the gap"],
+      ["Pitching to replace the hire", "Feels like an attack on their plan", "Offer to help now, while they hire"],
+      ["Scraping job sites with bots", "Can break the site's terms", "Search by hand or use a licensed job data tool"]
+    ]}
+  ],
+  "resources": [
+    {"name": "LinkedIn Jobs", "url": "https://www.linkedin.com/jobs/", "note": "Search job posts with a date-posted filter"},
+    {"name": "Indeed", "url": "https://www.indeed.com", "note": "Search job posts by phrase and date"},
+    {"name": "Google: Refine web searches", "url": "https://support.google.com/websearch/answer/2466433", "note": "How quotes and site: search operators work"},
+    {"name": "lemlist: Hiring signals for sales", "url": "https://www.lemlist.com/blog/hiring-as-buying-intent-signal", "note": "Why to contact the manager, not the open seat"}
+  ],
+  "faq": [
+    {"q": "Isn't it weird to email someone about their job post?", "a": "Not if you're helpful. You're not applying, you're offering to fix the problem they wrote about. Keep it short and quote their words."},
+    {"q": "How often should I search?", "a": "Every few days, with your saved searches. Fresh posts are the whole point."},
+    {"q": "What if I can't find the hiring manager?", "a": "At small companies email the founder or CEO. At bigger ones, check who the role reports to in the post, or find the head of that team on LinkedIn."},
+    {"q": "Can I automate this?", "a": "Yes, some data tools track new job posts by keyword. Start by hand to learn which sentences work, then automate the searches that get replies."}
+  ]
+}

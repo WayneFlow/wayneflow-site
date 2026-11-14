@@ -1,0 +1,72 @@
+{
+  "slug": "refresh",
+  "keyword": "REFRESH",
+  "date": "2026-11-14",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "posted on Instagram 2026-11-13 (reel Dfr3CsyDprH)",
+  "title": "The Day 3, 7 and 14 Follow-Up Sequence: Stop Refreshing, Start Following Up",
+  "description": "The follow-up sequence from the reel: a new angle on day 3, a short case study on day 7 and a soft close on day 14. Templates, prompt and data.",
+  "lead": "This is the full follow-up sequence from the reel. You get the data on why one email isn't enough, the three follow-ups to copy (day 3, day 7, day 14), a prompt that writes them for your offer, and the mistakes that make follow-ups get ignored.",
+  "insider": "Every campaign we run has its follow-ups written before the first email goes out, and each one adds something new. That steady sending is how one client got **4,372 replies and 1,061 interested leads in one quarter** (236,545 emails, January to March 2026). Writing three follow-ups is the easy part. Sending them on time, every day, from healthy inboxes to a clean list is the work we do for clients.",
+  "case": "case-04",
+  "blocks": [
+    {"type": "h2", "text": "Why refreshing your inbox doesn't work"},
+    {"type": "p", "text": "Most people send one cold email, wait, and give up when nothing comes back. But your first email often lands at the wrong moment: in a meeting, on a busy Monday, under 50 other emails. A no-reply is usually not a no. It's a \"not right now\"."},
+    {"type": "p", "text": "The numbers back this up. [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email) looked at **31 million cold emails**. Sequences of **3 emails got 6.8% replies, vs 3.3% for a single email**. That's about twice the replies from the same list."},
+    {"type": "p", "text": "[Instantly's 2026 Cold Email Benchmark Report](https://instantly.ai/cold-email-benchmark-report-2026) found the same pattern from the other side: **58% of replies come from the first email and 42% come from follow-ups**. Stop after one email and you leave almost half your replies on the table."},
+    {"type": "h2", "text": "The sequence at a glance"},
+    {"type": "table", "head": ["Day", "Email", "What it does"], "rows": [
+      ["Day 0", "Your first email", "Names one problem and one offer. Ends with a small question."],
+      ["Day 3", "Follow-up 1: a new angle", "Same offer, a different reason to care."],
+      ["Day 7", "Follow-up 2: a short case study", "Proof that it worked for a company like theirs."],
+      ["Day 14", "Follow-up 3: a soft close", "An easy way to say \"not now\", plus a door left open."]
+    ]},
+    {"type": "tip", "label": "The one rule", "text": "Every follow-up must add something new. If you can't say what's new in one sentence, don't send it."},
+    {"type": "h2", "text": "Follow-up 1 (day 3): a new angle"},
+    {"type": "p", "text": "**Why it works:** your first angle may simply not be their problem. A second angle gives a different person, or the same person on a different day, a reason to reply. Instantly's report also says the best step 2 emails feel like a quick reply, not a formal reminder."},
+    {"type": "p", "text": "**How:** reply in the same thread. Keep it under 60 words. Pick a different benefit than email 1: if email 1 was about saving time, make this one about money, risk or a specific result."},
+    {"type": "prompt", "label": "Day 3 template", "text": "Subject: (same thread)\n\nHi {{first_name}},\n\nOther way to look at it: {{new_angle}}.\n\nFor {{their_role}}s at companies like {{company}}, that usually means {{one_concrete_outcome}}.\n\nWorth a quick look?\n\n{{your_name}}"},
+    {"type": "h2", "text": "Follow-up 2 (day 7): a short case study"},
+    {"type": "p", "text": "**Why it works:** by now they've seen your name twice. What's missing is proof. A short story about a similar company answers the question every buyer has: \"Does this work for someone like me?\""},
+    {"type": "p", "text": "**How:** two or three sentences. Who the client was (type of company, not a name unless you have permission), what the problem was, and one real result with a number. Use only real results."},
+    {"type": "prompt", "label": "Day 7 template", "text": "Subject: (same thread)\n\nHi {{first_name}},\n\nQuick example. A {{similar_company_type}} had the same issue: {{their_problem}}.\n\nWe {{what_you_did_in_one_line}}. In {{time_frame}} they got {{real_result_with_number}}.\n\nWant me to send the short breakdown?\n\n{{your_name}}"},
+    {"type": "h2", "text": "Follow-up 3 (day 14): the soft close"},
+    {"type": "p", "text": "**Why it works:** it's the easiest email in the sequence to answer. Saying \"not now\" costs them nothing, and \"yes, next quarter\" is a real lead. Either answer tells you what to do next."},
+    {"type": "p", "text": "**How:** short, polite, no guilt. Offer to come back later and let them choose when."},
+    {"type": "prompt", "label": "Day 14 template", "text": "Subject: (same thread)\n\nHi {{first_name}},\n\nI'll stop here so I'm not filling your inbox.\n\nIf {{problem_you_solve}} isn't a priority right now, should I check back next quarter instead?\n\n{{your_name}}"},
+    {"type": "tip", "text": "Stop the sequence the moment someone replies, even with \"no thanks\". Every sending tool has a setting for this. Turn it on."},
+    {"type": "h2", "text": "Worked example"},
+    {"type": "p", "text": "Say you email **1,000 prospects**. Here is what Hunter's averages say you can expect, one email vs a short sequence:"},
+    {"type": "table", "head": ["What you send", "Reply rate (Hunter)", "Replies from 1,000"], "rows": [
+      ["1 email, then refresh", "3.3%", "33"],
+      ["3 emails (1 + 2 follow-ups)", "6.8%", "68"]
+    ]},
+    {"type": "p", "text": "Math check: 1,000 × 0.033 = 33. 1,000 × 0.068 = 68. Same list, same offer, **35 more conversations**, just from following up."},
+    {"type": "p", "text": "Now use Instantly's split to see where replies come from. If your full sequence gets **50 replies**, about 58% (29) come from email 1 and about 42% (21) come from the follow-ups. Math check: 50 × 0.58 = 29, 50 × 0.42 = 21, and 29 + 21 = 50."},
+    {"type": "h2", "text": "Write all three with AI"},
+    {"type": "prompt", "label": "Copy into ChatGPT or Claude", "text": "You write short, plain B2B cold emails.\n\nHere is my first cold email:\n[paste it]\n\nWho I'm writing to: [job title, industry, company size]\nOne real result I can share: [type of client, problem, result with a number]\n\nWrite 3 follow-ups in the same thread:\n- Day 3: a new angle (a different benefit than email 1), under 60 words.\n- Day 7: a 2-3 sentence case study using only the result I gave you, under 70 words.\n- Day 14: a polite soft close that asks if I should check back next quarter, under 40 words.\n\nRules: no \"just checking in\", \"bumping this\" or \"circling back\". No links. No exclamation marks. End each one with a small yes/no question. Sound like a real person."},
+    {"type": "h2", "text": "Common mistakes"},
+    {"type": "table", "head": ["Mistake", "What happens", "Fix"], "rows": [
+      ["\"Just bumping this\"", "Adds nothing new, so there's nothing new to reply to", "Give each follow-up a new angle, proof or question"],
+      ["Sending one email and waiting", "You miss the replies that come from follow-ups (42% in Instantly's data)", "Write the follow-ups before you send email 1"],
+      ["Follow-ups the next day", "Feels pushy, more people mark you as spam", "Space them out: day 3, day 7, day 14"],
+      ["Too many follow-ups", "Fatigue and complaints", "Hunter's best result was 3 emails in total. Add more only if each adds real value."],
+      ["Fake or vague case studies", "Kills trust when they check", "Use only real results. No result yet? Use a useful insight instead."],
+      ["Not stopping after a reply", "Annoys the people who did answer", "Turn on \"stop on reply\" in your sending tool"]
+    ]},
+    {"type": "h2", "text": "How many follow-ups is right?"},
+    {"type": "p", "text": "The two reports don't fully agree. Hunter found that **3 emails in total** worked best in 2025, and that longer sequences had lower reply rates. Instantly says **4 to 7 touches** is the sweet spot, as long as each one adds real value. The sequence in this guide (1 email + 3 follow-ups = 4) sits in the middle. Start there, then check your own numbers: if follow-up 3 gets almost no replies, cut it."}
+  ],
+  "resources": [
+    {"name": "Hunter: State of Email Outreach 2026", "url": "https://hunter.io/the-state-of-cold-email", "note": "31M emails; 3 emails 6.8% vs 1 email 3.3% replies"},
+    {"name": "Instantly: Cold Email Benchmark Report 2026", "url": "https://instantly.ai/cold-email-benchmark-report-2026", "note": "58% of replies from email 1, 42% from follow-ups; 4-7 touches"},
+    {"name": "Our THREE guide", "url": "https://wayneflow.com/guides/three.html", "note": "A deeper look at the third email"}
+  ],
+  "faq": [
+    {"q": "Should follow-ups go in the same thread?", "a": "Yes. Reply in the same thread so they can see your first email. Put the new idea in the body, not the subject line."},
+    {"q": "What if I don't have a case study yet?", "a": "Use a useful insight instead: a common mistake you see in their industry, or a short tip they can use today. Never invent a result."},
+    {"q": "Can I use these days with LinkedIn or calls too?", "a": "Yes. Many teams add a LinkedIn view or connection between the emails. Keep the same rule: every touch adds something new."},
+    {"q": "When should I give up on a lead?", "a": "After the day 14 email, stop. If they said \"next quarter\", note it and write again then with a new reason."}
+  ]
+}
