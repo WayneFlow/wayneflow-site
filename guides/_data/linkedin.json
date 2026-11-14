@@ -1,0 +1,263 @@
+{
+  "slug": "linkedin",
+  "keyword": "LINKEDIN",
+  "date": "2026-11-14",
+  "draft": false,
+  "instantdm": "pending",
+  "case": "case-06",
+  "title": "173 Blank LinkedIn Requests, 41 Meetings: The Voice Note and Video Playbook",
+  "description": "The blank-request, voice-note and video play behind 173 LinkedIn requests and 41 meetings, with the scripts, the timing and how to copy it.",
+  "lead": "This is the full LinkedIn play from the reel. An Account Executive at Ocean sent 173 connection requests with no note, followed up with a voice note and a short personal video, and booked 41 meetings. This guide breaks down every step, the scripts she used, and how to run the same play yourself.",
+  "insider": "We run LinkedIn next to cold email for clients. In one campaign we sent **1,375 connection invites, 351 were accepted and 154 people replied**. The blank request and the voice note are the easy part. Building the right list every week, keeping the account safe and following up on every reply across LinkedIn and email is the system we handle for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Where the numbers come from"
+    },
+    {
+      "type": "p",
+      "text": "This is not our campaign. It was shared by Viktorija (Vicky) Salunova, an Account Executive at Ocean.io, in a [playbook published by HeyReach](https://www.heyreach.io/outbound-playbooks/lookalike-company-search). She ran it by hand on a small batch of leads to test one idea: very tailored messages, delivered with her own voice and face."
+    },
+    {
+      "type": "table",
+      "head": ["Step", "Number", "What it means"],
+      "rows": [
+        ["Connection requests sent (no note)", "173", "The whole list"],
+        ["Accepted and engaged", "97", "About 56% of requests"],
+        ["Meetings booked", "41", "About 42% of the people who engaged, or about 24% of the whole list"]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Her own summary: \"Less is more: quality over quantity.\" 173 people is a list you can work by hand in two or three weeks. That's the point. You don't need thousands of contacts if every touch is personal."
+    },
+    {
+      "type": "tip",
+      "label": "Be fair to the numbers",
+      "text": "These results came from one rep, selling a product she knew well, to companies that looked like her best customers, after months of posting on LinkedIn. Your numbers will be different. Use hers as a direction, not a promise."
+    },
+    {
+      "type": "h2",
+      "text": "The play in one picture"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Build a lookalike list: companies that look like your 5 best customers, with 2 to 3 contacts each.",
+        "Send a connection request with **no note**.",
+        "When they accept, send a short **voice note** with one observation and one question.",
+        "No reply the next day? Send a **2-minute personal video** made for their company.",
+        "Never accepted? Send the video as the first touch **by email** instead.",
+        "A few days later, a follow-up email with another tailored video.",
+        "Still nothing? A short **phone call**, then one final email."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 1: Build a lookalike list"
+    },
+    {
+      "type": "p",
+      "text": "Why it works: the best predictor of who will buy is who already bought. If 5 customers in one niche love you, companies with the same profile probably have the same problem. And you can mention those customers on the call, which makes you instantly relevant."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Pick your top 5 customers in **one** industry and niche. Best if you have a case study or testimonial from them.",
+        "Write down what they have in common: industry, size, location, tools they use, how they sell.",
+        "Find companies with the same profile. Vicky used Ocean.io's lookalike search. You can also use LinkedIn Sales Navigator filters, or ask an AI tool to suggest similar companies and then check each one by hand.",
+        "In each company, find 2 to 3 people who could care: the decision maker, the person who feels the problem, and their manager."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Why 2 to 3 people",
+      "text": "If the topic isn't relevant to one person, it might be for another. More contacts per company means more chances to start a conversation, without making the list bigger."
+    },
+    {
+      "type": "h2",
+      "text": "Step 2: Send the request with no note"
+    },
+    {
+      "type": "p",
+      "text": "Why it works: a note on a connection request often reads like a pitch, and people decide in a second. A blank request from someone in their industry, with a clear profile, just looks like networking. There's nothing to say no to."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Make sure your profile does the selling: clear photo, a headline that says who you help, and a few recent posts.",
+        "Look at their profile first. You'll need one real observation for the voice note.",
+        "Send requests in small daily batches, not all at once."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "The real secret",
+      "text": "Vicky says social selling was key. She had posted educational content, personal videos and product content for months, so many prospects already knew her face. A blank request from a familiar face gets accepted far more often."
+    },
+    {
+      "type": "h2",
+      "text": "Step 3: The voice note after they accept"
+    },
+    {
+      "type": "p",
+      "text": "Why it works: almost nobody sends voice notes, so it stands out in a full inbox. Your voice carries tone and energy that text loses. It also proves a real person is on the other side, not a bot."
+    },
+    {
+      "type": "p",
+      "text": "How: according to [LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a548233), voice messages can be up to **one minute** long and can only be recorded in the LinkedIn **mobile app**. You can only message people you're connected with, which is why the request comes first. Aim for 20 to 30 seconds."
+    },
+    {
+      "type": "prompt",
+      "label": "Voice note script (Vicky's structure)",
+      "text": "Hi [NAME], I'll be bold as we are both in sales and I'll go straight to the point.\n\n[ONE REAL OBSERVATION ABOUT THEIR COMPANY], and that usually comes with [THE PROBLEM THEY WANT TO AVOID].\n\nWith [MY COMPANY], your team can [DREAM OUTCOME], which means [RESULT THEY CARE ABOUT].\n\nWorth having a chat?"
+    },
+    {
+      "type": "h3",
+      "text": "Example (filled in)"
+    },
+    {
+      "type": "quote",
+      "text": "Hi Mark, I'll be bold and go straight to the point. I saw you're hiring three new sales reps this quarter, and that usually comes with a few months where new reps don't know who to call. We help teams give every new rep a ready list of companies that look like your best customers, so they're booking calls in week one. Worth having a chat?"
+    },
+    {
+      "type": "h2",
+      "text": "Step 4: The 2-minute video the next day"
+    },
+    {
+      "type": "p",
+      "text": "Why it works: a video made for one company is hard to ignore. They see their own website or problem on screen, plus your face. Vicky's goal was a video that takes the same time to watch as a text takes to read."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Open their website, LinkedIn page or the thing you mentioned in the voice note.",
+        "Record your screen and face together (Loom or any screen recorder works).",
+        "First 10 seconds: their name and their company on screen.",
+        "Show one specific way your product or service helps **them**, not a general demo.",
+        "End with one easy question, like \"Worth a 15-minute look?\"",
+        "Keep it under 2 minutes. Send it in the LinkedIn chat with one line of text."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 5: Not accepted? Use email"
+    },
+    {
+      "type": "p",
+      "text": "Some people never accept. Vicky didn't give up on them. She sent the video as the first touch by email, with a short written message close to the voice note script. She ran these emails as a cadence in HubSpot."
+    },
+    {
+      "type": "prompt",
+      "label": "Follow-up email with video (Vicky's structure)",
+      "text": "Hi [NAME],\n\nWhat's the most powerful way to grow?\n\nYou don't want to [BAD SITUATION]. You want to [GOOD SITUATION].\n\nYou can do that with [MY COMPANY]. [ONE FEATURE] lets you [DREAM OUTCOME].\n\nThis makes it easy to [THE STEP THAT GETS THEM THERE]. [VIDEO LINK]\n\nYour team can do the same in a few minutes. [LOW-FRICTION QUESTION]\n\nBest,\n[YOUR NAME]"
+    },
+    {
+      "type": "h2",
+      "text": "Step 6: The call and the last email"
+    },
+    {
+      "type": "p",
+      "text": "By this point most people have replied. If not, Vicky made a short call to check they got the email and to ask what they thought of the video. On the call she mentioned a few current customers in the same niche. That's where the lookalike list pays off again."
+    },
+    {
+      "type": "p",
+      "text": "If the call didn't connect, she sent one final email: a short note that she believes it can help, then 5 simple steps showing how to get the result, and one easy call to action. Then she stopped."
+    },
+    {
+      "type": "h2",
+      "text": "The full timeline"
+    },
+    {
+      "type": "table",
+      "head": ["Day", "Accepted on LinkedIn", "Not accepted"],
+      "rows": [
+        ["Day 0", "Blank connection request", "Blank connection request"],
+        ["When accepted", "Voice note (20 to 30 sec)", "Wait about a week"],
+        ["Next day, no reply", "2-minute personal video in chat", "Email with the video as first touch"],
+        ["A few days later", "Follow-up email with a new video", "Follow-up email with a new video"],
+        ["After that", "Short phone call", "Short phone call"],
+        ["Last step", "Final email, then stop", "Final email, then stop"]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": ["Mistake", "Why it hurts", "Fix"],
+      "rows": [
+        ["Pitching in the connection note", "Looks like spam, people ignore or decline", "Send it blank and let your profile talk"],
+        ["Voice note over a minute", "LinkedIn cuts it at one minute, and long notes feel like a pitch", "Script it, 20 to 30 seconds"],
+        ["Generic \"I help companies like yours\"", "Shows you didn't look at them", "Open with one real observation about their company"],
+        ["A generic product demo as the video", "Nobody watches a 10-minute tour", "Show their site or problem, under 2 minutes"],
+        ["Only one contact per company", "If that person doesn't care, the account is lost", "Reach 2 to 3 people per company"],
+        ["Huge list, no time to personalize", "The whole play depends on it being personal", "Start with 50 to 175 people and work them by hand"]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Let AI do the research, not the talking"
+    },
+    {
+      "type": "p",
+      "text": "The slow part is finding a real observation for each person. Use this prompt to prepare your voice note notes, then record it in your own words."
+    },
+    {
+      "type": "prompt",
+      "label": "Voice note prep prompt",
+      "text": "I sell [WHAT I SELL] to [WHO I SELL TO]. My best customers are [3 TO 5 CUSTOMER EXAMPLES].\n\nHere is information about a prospect:\nName and title: [PASTE]\nCompany website text or LinkedIn About section: [PASTE]\nRecent posts or news: [PASTE]\n\n1. Give me 3 specific observations about this company that I could mention in a voice note. Only use facts from the text above. Don't guess.\n2. For the best observation, name the problem it usually comes with.\n3. Write a 25-second voice note script using this structure: observation, problem, what we help with, \"Worth having a chat?\". Plain, spoken English. No buzzwords."
+    },
+    {
+      "type": "tip",
+      "label": "Want to scale it?",
+      "text": "HeyReach's version of this play automates the LinkedIn steps and turns the voice note into a text message, because voice notes can't be automated. You lose some of the personal touch. Test both on small batches and let the numbers decide."
+    }
+  ],
+  "resources": [
+    {
+      "name": "HeyReach: 41 meetings booked with lookalike company search",
+      "url": "https://www.heyreach.io/outbound-playbooks/lookalike-company-search",
+      "note": "The original playbook with the 173 / 97 / 41 numbers and Vicky's scripts"
+    },
+    {
+      "name": "LinkedIn Help: Send voice messages in LinkedIn Messaging",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a548233",
+      "note": "Voice notes are up to one minute, mobile app only"
+    },
+    {
+      "name": "Ocean.io",
+      "url": "https://www.ocean.io/",
+      "note": "Lookalike company search used in the play"
+    },
+    {
+      "name": "HubSpot",
+      "url": "https://www.hubspot.com/",
+      "note": "Used to run the email cadence"
+    },
+    {
+      "name": "Loom",
+      "url": "https://www.loom.com/",
+      "note": "Record a screen-and-face video in minutes"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I have to send the request with no note?",
+      "a": "No, but that's what this play used. A blank request avoids looking like a pitch. If you add a note, keep it to one friendly line with no offer."
+    },
+    {
+      "q": "Can I send a voice note to someone I'm not connected with?",
+      "a": "No. Voice notes go to your connections, and LinkedIn only lets you record them in the mobile app, up to one minute. That's why the request comes first."
+    },
+    {
+      "q": "I hate being on camera. Will it still work?",
+      "a": "Start with the voice note only. It's the biggest jump from plain text. Add a screen recording with your voice next, and your face when you feel ready."
+    },
+    {
+      "q": "Will I get 41 meetings too?",
+      "a": "Probably not exactly. That result came from one experienced rep, a lookalike list built from her best customers and months of posting. Run it on 50 people, track accepts, replies and meetings, then improve."
+    }
+  ]
+}
