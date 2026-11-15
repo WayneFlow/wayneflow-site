@@ -1,0 +1,300 @@
+{
+  "slug": "domain",
+  "keyword": "DOMAIN",
+  "case": "case-04",
+  "title": "The 10-Minute Domain Fix: Stop Sending Cold Email From @gmail.com",
+  "description": "Free Gmail addresses get about half the cold email replies. Set up a branded sending domain with SPF, DKIM and DMARC in about 10 minutes.",
+  "lead": "This is the full 10-minute fix from the reel. Hunter's data shows cold emails from a free address like @gmail.com get about half the replies of emails from a real business domain. Here's why, and exactly how to set up a proper sending domain, step by step, with the records to copy.",
+  "insider": "Every client campaign we run sends from separate, branded domains with SPF, DKIM and DMARC set up, never from a free address and never from the client's main website domain. That setup sat under the campaign in the case study below: **236,545 emails in one quarter at a 3.69% reply rate, with 1,061 interested leads**. Buying one domain takes ten minutes. Running dozens of healthy domains and inboxes every day is what we do for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "What the data says"
+    },
+    {
+      "type": "p",
+      "text": "[Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email) looked at **31 million emails** sent by its users in 2025. Emails sent from a custom domain got a **5.2% reply rate**. Emails sent from free addresses got **2.5%**. That's a 108% difference, from one setting you choose before you write a single word."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Sender address",
+        "Reply rate (Hunter, 31M emails)"
+      ],
+      "rows": [
+        [
+          "sam@gmail.com (free address)",
+          "**2.5%**"
+        ],
+        [
+          "sam@yourbrand.com (custom domain)",
+          "**5.2%**"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "text": "\"Spending a couple of dollars per month can effectively double your replies.\" ([Hunter, State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email))"
+    },
+    {
+      "type": "h2",
+      "text": "Why a free address costs you half your replies"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**It looks like a stranger, not a business.** A buyer sees \"sam@gmail.com\" and can't tell who you work for. A real company domain answers that question before they open the email.",
+        "**You can't set up your own authentication.** SPF, DKIM and DMARC are records you add to a domain you own. On @gmail.com the domain belongs to Google, so you can't tune it for your sending. [Google's sender guidelines](https://support.google.com/mail/answer/81126) say authenticated messages are less likely to be rejected or marked as spam.",
+        "**Inbox filters are harsher.** Hunter says email providers may apply harsher spam filters to messages from free addresses.",
+        "**The limits are tiny.** A personal Gmail account can hit a limit at [more than 500 emails sent in a day](https://support.google.com/mail/answer/22839). Go over it and you can be blocked from sending for up to 24 hours.",
+        "**Google warns against it for bulk email.** Its guidelines list using an @gmail.com address for bulk email as a deceptive practice to avoid."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: same list, same email"
+    },
+    {
+      "type": "p",
+      "text": "You email **1,000** business owners with the same message. The only change is the sender address."
+    },
+    {
+      "type": "table",
+      "head": [
+        "",
+        "From @gmail.com",
+        "From your own domain"
+      ],
+      "rows": [
+        [
+          "People emailed",
+          "1,000",
+          "1,000"
+        ],
+        [
+          "Reply rate (Hunter)",
+          "2.5%",
+          "5.2%"
+        ],
+        [
+          "Replies",
+          "**25**",
+          "**52**"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "That's **27 extra conversations** from the same list and the same copy. 52 ÷ 25 = 2.08, so about twice the replies. No new leads, no new writing, just a different address."
+    },
+    {
+      "type": "h2",
+      "text": "The 10-minute fix, step by step"
+    },
+    {
+      "type": "p",
+      "text": "This is the setup for one sending domain with one inbox on Google Workspace. The clicks take about 10 minutes. DNS changes can take a little longer to show up everywhere, so do step 8 after a short wait."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Pick a domain that looks like your brand.** If your website is acmeplumbing.com, try getacmeplumbing.com, acmeplumbinghq.com or tryacmeplumbing.com. Stick to .com when you can. **Never send cold email from your main website domain**: if it gets flagged, your normal business email suffers too.",
+        "**Buy it** at a registrar like [Cloudflare](https://www.cloudflare.com/products/registrar/), [Namecheap](https://www.namecheap.com) or [GoDaddy](https://www.godaddy.com). It's a yearly fee, usually a few dollars a month.",
+        "**Create one inbox** with [Google Workspace](https://workspace.google.com) or [Microsoft 365](https://www.microsoft.com/microsoft-365/business). Use a real person's name: sam@getacmeplumbing.com, not sales@ or info@. Hunter found Google Workspace users had the highest average reply rate (**5.9%**), with Microsoft 365 at just over 4%.",
+        "**Add the SPF record** in your registrar's DNS settings. It tells inboxes which servers may send for your domain. Copy it from the box below.",
+        "**Turn on DKIM.** In the Google Admin console go to Apps → Google Workspace → Gmail → Authenticate email, generate a 2048-bit key, add the TXT record it gives you, then click Start authentication. Google's [DKIM setup page](https://support.google.com/a/answer/180504) has screenshots.",
+        "**Add the DMARC record.** It tells inboxes what to do with mail that fails SPF or DKIM. Start with p=none, which Google allows, and get reports by email.",
+        "**Forward the new domain to your real website.** Prospects often check the domain before they reply. They should land on your actual site, not an empty page.",
+        "**Check your work.** Paste your domain into [Google Admin Toolbox Check MX](https://toolbox.googleapps.com/apps/checkmx/). Fix anything it flags. Then send a test email to a personal Gmail account, open it, click \"Show original\" and look for SPF: PASS, DKIM: PASS and DMARC: PASS."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The records to copy"
+    },
+    {
+      "type": "p",
+      "text": "Replace **yourdomain.com** with your new domain. These are for Google Workspace. If you use Microsoft 365, the SPF include is different (shown below)."
+    },
+    {
+      "type": "prompt",
+      "label": "DNS records for Google Workspace",
+      "text": "SPF\nType: TXT\nHost/Name: @\nValue: v=spf1 include:_spf.google.com ~all\n\nDKIM\nType: TXT\nHost/Name: google._domainkey\nValue: (copy the long key from Google Admin > Gmail > Authenticate email)\n\nDMARC\nType: TXT\nHost/Name: _dmarc\nValue: v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com\n\nMicrosoft 365 SPF instead:\nValue: v=spf1 include:spf.protection.outlook.com -all"
+    },
+    {
+      "type": "tip",
+      "label": "Only one SPF record",
+      "text": "A domain can have only **one** SPF record. If your sending tool also needs to be in SPF, add its include to the same line instead of creating a second record."
+    },
+    {
+      "type": "h2",
+      "text": "After the 10 minutes: don't send 500 emails on day one"
+    },
+    {
+      "type": "p",
+      "text": "A brand-new domain has no history. [Google's guidelines](https://support.google.com/mail/answer/81126) say to start with a low volume and increase slowly, and to avoid sudden spikes like doubling what you sent before. Most cold email tools have a warm-up feature that does this for you. Use it, and be patient."
+    },
+    {
+      "type": "p",
+      "text": "Once you're live, keep each inbox modest. Hunter found accounts sending **20 to 49 emails a day** got a **5.7% reply rate**, above the overall average of 4.5%. Need more volume? Add more inboxes and domains, don't push one inbox harder. Our [MATH guide](https://wayneflow.com/guides/math.html) shows how many you need for your goal."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "What happens",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Sending cold from your main domain",
+          "A spam problem hits your invoices, support and team email too",
+          "Buy separate look-alike domains just for outreach"
+        ],
+        [
+          "A domain that looks nothing like your brand",
+          "Prospects don't trust it, and it can look like spoofing",
+          "Your brand name plus a short word: get, try, hq"
+        ],
+        [
+          "Two SPF records",
+          "SPF fails, so emails look unauthenticated",
+          "Merge everything into one SPF line"
+        ],
+        [
+          "Skipping DMARC",
+          "Bulk senders (5,000+ a day to Gmail) are required to have it",
+          "Add the p=none record from above"
+        ],
+        [
+          "The domain shows an empty page",
+          "Curious prospects see nothing and don't reply",
+          "Forward it to your real website"
+        ],
+        [
+          "Full volume on day one",
+          "Rate limits and spam folder placement",
+          "Warm up and grow slowly"
+        ],
+        [
+          "sales@ or info@ as the sender",
+          "Looks like a mass blast, not a person",
+          "Use a real first name"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Copy-paste prompt: find your sending domain"
+    },
+    {
+      "type": "prompt",
+      "label": "Paste into ChatGPT or Claude",
+      "text": "My company website is [yourcompany.com]. I need domain names for cold email that look like my brand but are separate from my main domain.\n\nGive me 15 options using my brand name plus a short word (like get, try, hq, team, with). Rules:\n- .com only\n- under 20 characters before .com\n- no hyphens, no numbers\n- easy to read out loud\n- nothing that looks like a misspelling or a fake version of another company\n\nRank them from most to least trustworthy-looking and say why in one short line each."
+    },
+    {
+      "type": "p",
+      "text": "Check each name is free at your registrar, then buy one or two."
+    },
+    {
+      "type": "h2",
+      "text": "The 10-minute checklist"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Domain bought, looks like my brand, not my main domain",
+        "One inbox with a real person's name",
+        "One SPF record",
+        "DKIM turned on and \"Start authentication\" clicked",
+        "DMARC record with p=none",
+        "Domain forwards to my real website",
+        "Check MX shows no errors, and a test email shows SPF, DKIM and DMARC: PASS",
+        "Warm-up turned on before any real sending"
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Want the full deliverability setup",
+      "text": "Read our [SPF, DKIM and DMARC setup guide](https://wayneflow.com/blog/dns-records-for-cold-email.html) and the [cold email deliverability guide](https://wayneflow.com/blog/cold-email-deliverability.html) for more detail on each record."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "31M emails: custom domain 5.2% vs free address 2.5%, Google Workspace vs Microsoft 365, daily volume"
+    },
+    {
+      "name": "Google: Email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "SPF, DKIM, DMARC, slow volume growth, @gmail.com for bulk email"
+    },
+    {
+      "name": "Google: Gmail sending limits",
+      "url": "https://support.google.com/mail/answer/22839",
+      "note": "Personal Gmail limit of about 500 emails a day"
+    },
+    {
+      "name": "Google: Set up DKIM",
+      "url": "https://support.google.com/a/answer/180504",
+      "note": "Turn on DKIM in Google Workspace"
+    },
+    {
+      "name": "Google: Set up DMARC",
+      "url": "https://support.google.com/a/answer/2466580",
+      "note": "How DMARC works and how to add it"
+    },
+    {
+      "name": "Google Admin Toolbox: Check MX",
+      "url": "https://toolbox.googleapps.com/apps/checkmx/",
+      "note": "Free check of your domain's email setup"
+    },
+    {
+      "name": "Google Workspace",
+      "url": "https://workspace.google.com",
+      "note": "Business inboxes on your own domain"
+    },
+    {
+      "name": "Microsoft 365 for business",
+      "url": "https://www.microsoft.com/microsoft-365/business",
+      "note": "Business inboxes on your own domain"
+    },
+    {
+      "name": "Our MATH guide",
+      "url": "https://wayneflow.com/guides/math.html",
+      "note": "How many domains and inboxes you need"
+    },
+    {
+      "name": "Our REDFLAGS guide",
+      "url": "https://wayneflow.com/guides/redflags.html",
+      "note": "Other setup mistakes that cost replies"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I just use my main company email?",
+      "a": "For a few personal emails, yes. For cold outreach at any volume, no. Use separate look-alike domains so a problem never touches your main business email."
+    },
+    {
+      "q": "How long until I can send real emails?",
+      "a": "The setup takes about 10 minutes. Then warm the inbox up and grow volume slowly, as Google recommends. Don't send a full campaign from a brand-new domain on day one."
+    },
+    {
+      "q": "Google Workspace or Microsoft 365?",
+      "a": "Both work. In Hunter's data Google Workspace users had the highest average reply rate (5.9%), with Microsoft 365 just over 4%. Many senders use a mix."
+    },
+    {
+      "q": "How many domains do I need?",
+      "a": "It depends on how many emails you want to send each day. Keep each inbox around 20-49 emails a day and add inboxes to grow. Our MATH guide walks through the numbers."
+    }
+  ],
+  "date": "2026-11-15",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "posted on Instagram 2026-11-15 (reel DfwRWorCiSw); guide added by hourly checker 2026-11-15"
+}
