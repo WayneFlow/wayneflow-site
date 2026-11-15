@@ -1,0 +1,307 @@
+{
+  "slug": "lowercase",
+  "keyword": "LOWERCASE",
+  "case": "case-01",
+  "title": "The Lowercase Subject Line Kit: Subject Lines That Look Sent by Mistake",
+  "description": "How to write 1-3 word, lowercase subject lines that look like a coworker sent them. 40 examples, a test plan, mistakes to avoid and a copy-paste prompt.",
+  "lead": "This is the full lowercase subject line kit from the reel. The best cold email subject lines look like they were sent by mistake: short, plain, lowercase, like a note from a coworker. Here's why that works, how to write them, 40 examples to start from and how to test them.",
+  "insider": "Every campaign we run starts with plain, coworker-style copy and a subject line test on a small list before anything scales. For one agency client, that approach got a **3.19% reply rate, with 88% of replies positive**, every week for four and a half months. Writing the subject line takes a minute. The list, the inboxes and the follow-ups behind it are the system we run for clients.",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why \"sent by mistake\" works"
+    },
+    {
+      "type": "p",
+      "text": "Your buyer scans their inbox in a second or two. Their brain sorts every line into two piles: **people I know** and **companies selling to me**. Marketing emails have long, polished, Title Case subject lines with numbers and hype. Coworkers write things like \"quick question\" or \"budget\"."
+    },
+    {
+      "type": "p",
+      "text": "A short lowercase subject line lands in the first pile. It looks like a forwarded note, a reply or something a colleague typed fast. That's the \"sent by mistake\" feeling, and it's what earns the open."
+    },
+    {
+      "type": "tip",
+      "label": "The honest part",
+      "text": "Lowercase alone is not magic. In [Belkins' study of 5.5 million emails](https://belkins.io/blog/b2b-cold-email-subject-line-statistics), lowercase and Title Case did about the same. What changed results was **length and tone**: short, plain and not salesy. Lowercase is just the easiest way to make a line look human."
+    },
+    {
+      "type": "h2",
+      "text": "What the data says"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Finding",
+        "Source"
+      ],
+      "rows": [
+        [
+          "Subject lines of **2-4 words** got the highest open rate (46%). 10-word lines got 34%.",
+          "Belkins, 5.5M emails"
+        ],
+        [
+          "Single-word subject lines got 38%. They can look automated or lack context.",
+          "Belkins, 5.5M emails"
+        ],
+        [
+          "Hype, urgency (\"ASAP\") and generic greetings pushed open rates below 36%.",
+          "Belkins, 5.5M emails"
+        ],
+        [
+          "Don't sell in the subject line. Avoid marketing language, buzzwords, numbers and questions.",
+          "Gong, 28M+ cold emails"
+        ],
+        [
+          "Buzzwords and numbers reduce open rates by up to 17.9%.",
+          "Gong, 28M+ cold emails"
+        ],
+        [
+          "Subject lines with two personal details got a 40.2% open rate vs 35.4% with one.",
+          "Hunter, 31M emails"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "So the target is clear: **1-3 plain words, lowercase, about them, no pitch.** The reel says 1-3 words. Belkins' sweet spot is 2-4. Treat 2-3 words as home base, and one word only when it's very specific (their company name, a project, a city)."
+    },
+    {
+      "type": "h2",
+      "text": "The 5 rules"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**1-3 words.** Phones cut subject lines after about 35 to 50 characters ([Belkins](https://belkins.io/blog/b2b-cold-email-subject-line-statistics)). Short lines show in full and look like a quick note.",
+        "**All lowercase.** No capital at the start, no Title Case. People typing fast to a colleague don't format. Keep real names normal if lowercase looks odd (\"Acme\" is fine).",
+        "**Boring on purpose.** Pick a word a coworker would use: \"hiring\", \"next quarter\", \"your site\". Boring looks internal. Clever looks like marketing.",
+        "**About them, not you.** Their company, their team, their project. Never your product name, never your offer.",
+        "**Match the first line.** The subject line opens the door. The first line has to explain it right away, or the open turns into a delete."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "40 subject lines to start from"
+    },
+    {
+      "type": "p",
+      "text": "Replace the brackets with real details. Each line works only if the email's first sentence makes it make sense."
+    },
+    {
+      "type": "h3",
+      "text": "About their company"
+    },
+    {
+      "type": "prompt",
+      "label": "Company lines",
+      "text": "[company]\n[company] team\n[company] + [your company]\n[company] hiring\nnew [city] office\nyour [product] launch\n[company] website\nthe [project] page\n[company] growth\nnext quarter at [company]"
+    },
+    {
+      "type": "h3",
+      "text": "About the person"
+    },
+    {
+      "type": "prompt",
+      "label": "Person lines",
+      "text": "[first name]\n[first name], quick one\nyour post\nyour talk\nyour podcast episode\nthe new role\nyour team\n[first name] / [your name]\nsaw your comment\nyour [city] event"
+    },
+    {
+      "type": "h3",
+      "text": "About a problem"
+    },
+    {
+      "type": "prompt",
+      "label": "Problem lines",
+      "text": "slow replies\nempty calendar\nhiring sdrs\nlead flow\nno-shows\nreferrals drying up\nquiet pipeline\nfollow ups\nsales team\nnew leads"
+    },
+    {
+      "type": "h3",
+      "text": "Plain and internal-sounding"
+    },
+    {
+      "type": "prompt",
+      "label": "Internal-sounding lines",
+      "text": "quick question\nthought\nidea\nhelp?\nfor you\nworth a look\nnotes\nfollowing up\nsmall idea\none thing"
+    },
+    {
+      "type": "tip",
+      "label": "Use the generic ones less",
+      "text": "\"quick question\" and \"thought\" are now used by thousands of senders. They still look human, but lines with a real detail about the person do better. Hunter found subject lines with two personal details got a **40.2% open rate vs 35.4%** with one."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: before and after"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Before (looks like marketing)",
+        "After (looks sent by mistake)"
+      ],
+      "rows": [
+        [
+          "Boost Your Q4 Sales By 30% With AI-Powered Outreach!",
+          "q4 pipeline"
+        ],
+        [
+          "Partnership Opportunity For Summit Dental",
+          "summit dental"
+        ],
+        [
+          "Are You Struggling To Book Meetings?",
+          "empty calendar"
+        ],
+        [
+          "🚀 Exclusive Offer: Free Lead Audit",
+          "your lead flow"
+        ],
+        [
+          "Following Up On My Previous Email Regarding Our Services",
+          "following up"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Here's a full email using the \"after\" style for a dental group that just opened a second location:"
+    },
+    {
+      "type": "prompt",
+      "label": "Example email",
+      "text": "Subject: new austin office\n\nHi Maria,\n\nSaw Summit Dental opened the second office in Austin last month. Congrats.\n\nNew locations usually take a few months to fill the chair schedule. We help dental groups book new patient consults with simple email outreach to local employers.\n\nWorth a quick look?\n\nSam"
+    },
+    {
+      "type": "p",
+      "text": "Notice the subject line makes no sense alone, and that's the point. It makes total sense the moment she reads the first line."
+    },
+    {
+      "type": "h2",
+      "text": "How to test it (without fooling yourself)"
+    },
+    {
+      "type": "p",
+      "text": "Judge subject lines by **replies, not opens**. Open tracking adds a hidden image to your email, and [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email) found campaigns without open tracking got **7.4% replies vs 4.4%** with it. Many inboxes also load images on their own, so open numbers are unreliable anyway."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Write two subject lines for the same email: your current one (A) and a lowercase one (B). Change nothing else.",
+        "Split one list in two random halves of at least 200 people each.",
+        "Turn open tracking off. Send both on the same days, from the same inboxes.",
+        "Wait until the sequence finishes, then compare reply rates.",
+        "Keep the winner. Next round, test the winner against a new lowercase line."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "**Example:** A goes to 200 people and gets 6 replies, a **3% reply rate**. B goes to the other 200 and gets 12 replies, a **6% reply rate**. B doubled the replies, so B becomes your new default. If the gap is only 1 or 2 replies, it's noise: test again on a bigger list before you decide."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Why it hurts",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Fake \"re:\" or \"fwd:\"",
+          "Pretends you talked before. People feel tricked and report spam.",
+          "Never fake a reply thread. Plain words do the same job honestly."
+        ],
+        [
+          "Subject has nothing to do with the email",
+          "Gets the open, then the delete. Feels like clickbait.",
+          "The first line must explain the subject right away."
+        ],
+        [
+          "Using the same line for everyone",
+          "Spam filters and tired buyers spot repeats.",
+          "Put one real detail in: company, city, project."
+        ],
+        [
+          "Sneaking the pitch back in",
+          "\"free audit\", \"save 30%\" look like marketing even in lowercase.",
+          "No offer, no numbers, no product name."
+        ],
+        [
+          "One word with no context",
+          "\"hey\" or \"hi\" looks automated. Belkins saw single words at 38% vs 46% for 2-4 words.",
+          "Use 2-3 words, or one very specific word."
+        ],
+        [
+          "Judging by open rate",
+          "Open tracking is unreliable and can lower replies.",
+          "Turn it off and judge by replies."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Write them with Claude or ChatGPT"
+    },
+    {
+      "type": "prompt",
+      "label": "Prompt",
+      "text": "You write cold email subject lines that look like a coworker sent them.\n\nProspect: [name], [job title] at [company].\nWhat I know about them: [recent news, hiring, launch, post, location].\nMy email's first line: [paste it].\n\nWrite 10 subject lines.\nRules:\n- 1 to 3 words, all lowercase\n- plain, boring words a colleague would use\n- about them, never about my product or offer\n- no numbers, no emojis, no questions, no hype words, no fake \"re:\" or \"fwd:\"\n- each one must make sense once the first line is read\n\nThen pick the best 2 to A/B test and say why in one sentence each."
+    },
+    {
+      "type": "tip",
+      "label": "Quick check before you send",
+      "text": "Read your subject line out loud and ask: would a coworker send this to me? If it sounds like an ad, cut words until it doesn't."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Belkins: B2B cold email subject line study",
+      "url": "https://belkins.io/blog/b2b-cold-email-subject-line-statistics",
+      "note": "Word count, capitalization and tone data from 5.5M emails"
+    },
+    {
+      "name": "Gong: Does cold email even work any more?",
+      "url": "https://www.gong.io/blog/does-cold-email-even-work-any-more-heres-what-the-data-says",
+      "note": "Subject line rules from 28M+ cold emails"
+    },
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Personalization and open tracking data"
+    },
+    {
+      "name": "Our SLASH guide",
+      "url": "https://wayneflow.com/guides/slash.html",
+      "note": "Another short subject line that looks internal"
+    },
+    {
+      "name": "How to write a cold email",
+      "url": "https://wayneflow.com/blog/how-to-write-a-cold-email.html",
+      "note": "The email body that goes with the subject line"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Won't lowercase look lazy or unprofessional?",
+      "a": "Not in a subject line. It reads as a quick note, which is the goal. Keep the email body clean, with normal spelling and punctuation."
+    },
+    {
+      "q": "Should the follow-ups use the same subject line?",
+      "a": "Most tools send follow-ups as replies in the same thread, so they keep the first subject line. That's fine. You don't need a new one for each step."
+    },
+    {
+      "q": "Can I use their first name as the whole subject line?",
+      "a": "Yes, it's one of the most human-looking options. Just make sure the first line gives a clear reason for writing."
+    },
+    {
+      "q": "How long should I test before picking a winner?",
+      "a": "Until each version has gone to at least 200 people and the sequence has finished. Small gaps of 1 or 2 replies are noise."
+    }
+  ],
+  "date": "2026-11-15",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "posted on Instagram 2026-11-14 (reel DftsWIek0YC); guide added by hourly checker 2026-11-15"
+}
