@@ -1,48 +1,63 @@
 # WayneFlow: open to search engines and AI assistants (ChatGPT, Claude, Perplexity, Gemini, Copilot)
 User-agent: *
 Allow: /
+Disallow: /portal/
 Disallow: /_artifact_index.html
 
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /portal/
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /portal/
 
 User-agent: GPTBot
 Allow: /
+Disallow: /portal/
 
 User-agent: Claude-SearchBot
 Allow: /
+Disallow: /portal/
 
 User-agent: Claude-User
 Allow: /
+Disallow: /portal/
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /portal/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /portal/
 
 User-agent: Perplexity-User
 Allow: /
+Disallow: /portal/
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /portal/
 
 User-agent: Googlebot
 Allow: /
+Disallow: /portal/
 
 User-agent: Bingbot
 Allow: /
+Disallow: /portal/
 
 User-agent: Applebot
 Allow: /
+Disallow: /portal/
 
 User-agent: Applebot-Extended
 Allow: /
+Disallow: /portal/
 
 User-agent: DuckDuckBot
 Allow: /
+Disallow: /portal/
 
 Sitemap: https://wayneflow.com/sitemap.xml
