@@ -3,7 +3,7 @@
   "keyword": "LINKEDIN",
   "date": "2026-11-14",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "case": "case-06",
   "title": "173 Blank LinkedIn Requests, 41 Meetings: The Voice Note and Video Playbook",
   "description": "The blank-request, voice-note and video play behind 173 LinkedIn requests and 41 meetings, with the scripts, the timing and how to copy it.",
@@ -20,11 +20,27 @@
     },
     {
       "type": "table",
-      "head": ["Step", "Number", "What it means"],
+      "head": [
+        "Step",
+        "Number",
+        "What it means"
+      ],
       "rows": [
-        ["Connection requests sent (no note)", "173", "The whole list"],
-        ["Accepted and engaged", "97", "About 56% of requests"],
-        ["Meetings booked", "41", "About 42% of the people who engaged, or about 24% of the whole list"]
+        [
+          "Connection requests sent (no note)",
+          "173",
+          "The whole list"
+        ],
+        [
+          "Accepted and engaged",
+          "97",
+          "About 56% of requests"
+        ],
+        [
+          "Meetings booked",
+          "41",
+          "About 42% of the people who engaged, or about 24% of the whole list"
+        ]
       ]
     },
     {
@@ -170,14 +186,42 @@
     },
     {
       "type": "table",
-      "head": ["Day", "Accepted on LinkedIn", "Not accepted"],
+      "head": [
+        "Day",
+        "Accepted on LinkedIn",
+        "Not accepted"
+      ],
       "rows": [
-        ["Day 0", "Blank connection request", "Blank connection request"],
-        ["When accepted", "Voice note (20 to 30 sec)", "Wait about a week"],
-        ["Next day, no reply", "2-minute personal video in chat", "Email with the video as first touch"],
-        ["A few days later", "Follow-up email with a new video", "Follow-up email with a new video"],
-        ["After that", "Short phone call", "Short phone call"],
-        ["Last step", "Final email, then stop", "Final email, then stop"]
+        [
+          "Day 0",
+          "Blank connection request",
+          "Blank connection request"
+        ],
+        [
+          "When accepted",
+          "Voice note (20 to 30 sec)",
+          "Wait about a week"
+        ],
+        [
+          "Next day, no reply",
+          "2-minute personal video in chat",
+          "Email with the video as first touch"
+        ],
+        [
+          "A few days later",
+          "Follow-up email with a new video",
+          "Follow-up email with a new video"
+        ],
+        [
+          "After that",
+          "Short phone call",
+          "Short phone call"
+        ],
+        [
+          "Last step",
+          "Final email, then stop",
+          "Final email, then stop"
+        ]
       ]
     },
     {
@@ -186,14 +230,42 @@
     },
     {
       "type": "table",
-      "head": ["Mistake", "Why it hurts", "Fix"],
+      "head": [
+        "Mistake",
+        "Why it hurts",
+        "Fix"
+      ],
       "rows": [
-        ["Pitching in the connection note", "Looks like spam, people ignore or decline", "Send it blank and let your profile talk"],
-        ["Voice note over a minute", "LinkedIn cuts it at one minute, and long notes feel like a pitch", "Script it, 20 to 30 seconds"],
-        ["Generic \"I help companies like yours\"", "Shows you didn't look at them", "Open with one real observation about their company"],
-        ["A generic product demo as the video", "Nobody watches a 10-minute tour", "Show their site or problem, under 2 minutes"],
-        ["Only one contact per company", "If that person doesn't care, the account is lost", "Reach 2 to 3 people per company"],
-        ["Huge list, no time to personalize", "The whole play depends on it being personal", "Start with 50 to 175 people and work them by hand"]
+        [
+          "Pitching in the connection note",
+          "Looks like spam, people ignore or decline",
+          "Send it blank and let your profile talk"
+        ],
+        [
+          "Voice note over a minute",
+          "LinkedIn cuts it at one minute, and long notes feel like a pitch",
+          "Script it, 20 to 30 seconds"
+        ],
+        [
+          "Generic \"I help companies like yours\"",
+          "Shows you didn't look at them",
+          "Open with one real observation about their company"
+        ],
+        [
+          "A generic product demo as the video",
+          "Nobody watches a 10-minute tour",
+          "Show their site or problem, under 2 minutes"
+        ],
+        [
+          "Only one contact per company",
+          "If that person doesn't care, the account is lost",
+          "Reach 2 to 3 people per company"
+        ],
+        [
+          "Huge list, no time to personalize",
+          "The whole play depends on it being personal",
+          "Start with 50 to 175 people and work them by hand"
+        ]
       ]
     },
     {
@@ -259,5 +331,6 @@
       "q": "Will I get 41 meetings too?",
       "a": "Probably not exactly. That result came from one experienced rep, a lookalike list built from her best customers and months of posting. Run it on 50 people, track accepts, replies and meetings, then improve."
     }
-  ]
+  ],
+  "instantdm_flow": "LINKEDIN - Voice note and video playbook"
 }
