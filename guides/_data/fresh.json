@@ -3,7 +3,7 @@
   "keyword": "FRESH",
   "date": "2026-11-11",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "title": "Fresh Lead Lists From Free Sources: Stop Emailing the Names Everyone Else Bought",
   "description": "Build fresh B2B lead lists from free sources: job posts, ad libraries, SEC filings, Google Maps and more. Step-by-step, with a list template and AI prompt.",
   "lead": "This is the full fresh-list guide from the reel. You get 9 free places to find companies that need you right now, the 6 steps to turn them into a clean list, a spreadsheet template, a first-line prompt and the math on why small fresh lists beat one big bought list.",
@@ -311,5 +311,6 @@
       "q": "Which signal works best?",
       "a": "It depends on your offer. Hiring for the role you help with is a strong start for most B2B services. Test a few, one list each, and keep the winner."
     }
-  ]
+  ],
+  "instantdm_flow": "FRESH - Fresh lead lists from free sources"
 }
