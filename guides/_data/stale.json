@@ -3,7 +3,7 @@
   "keyword": "STALE",
   "date": "2026-11-11",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "title": "The Re-Engagement Script: How to Win Back \"Dead\" Cold Email Leads",
   "description": "How to re-engage leads who ghosted you: who to email, when, a 3-email script to copy, an AI prompt, a worked example and the mistakes to avoid.",
   "lead": "This is the full re-engagement script from the reel. You get the rules for picking which old leads to email again, the 3-email script to copy, a prompt that writes your \"what changed\" line, and a table of the mistakes that get re-engagement campaigns marked as spam.",
@@ -339,5 +339,6 @@
       "q": "What if the person left the company?",
       "a": "Find who took their role and email them as a new lead. Mentioning the person they replaced is a natural opener."
     }
-  ]
+  ],
+  "instantdm_flow": "STALE - Re-engagement script"
 }
