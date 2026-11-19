@@ -1,0 +1,282 @@
+{
+  "slug": "unexpected",
+  "keyword": "UNEXPECTED",
+  "date": "2026-11-19",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "posted 2026-11-18",
+  "title": "The Unexpected Buyer Finder: Use AI to Find Markets Nobody Else Emails",
+  "description": "The AI prompt that lists the unexpected businesses that use your product the most, plus how to turn them into a lead list with Google Maps.",
+  "lead": "This is the full unexpected buyer method from the reel. You get the copy-paste AI prompt that finds the businesses that burn through your product, a way to score them, and the exact steps to turn the best ones into a list of owners you can email.",
+  "insider": "When we test a new market for a client, we start with a small, tight list like this before we scale. Our small pilot reached **10,284 people and turned 103 of them into sales opportunities**, about 1 in every 100. The prompt is the easy part. Building the list, warming up the inboxes and running the follow-ups is the full system we do for clients.",
+  "case": "case-05",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The idea in one minute"
+    },
+    {
+      "type": "p",
+      "text": "If you sell coffee, you probably email cafes. So does every other coffee seller. But some of the biggest coffee buyers aren't cafes at all. Think of a large church that serves coffee to thousands of people every weekend. Nobody calls it a coffee business, so nobody sells to it."
+    },
+    {
+      "type": "p",
+      "text": "That's the whole trick. **Find the businesses that use a lot of your product but don't look like your normal customer.** They have real demand and very little competition for their attention. The reel shows it in 3 steps: ask AI, search Google Maps, turn it into a list."
+    },
+    {
+      "type": "h2",
+      "text": "Why the unexpected buyer works"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Less competition in the inbox.** The obvious buyers get the same pitch from 20 sellers a week. The unexpected buyer may get none.",
+        "**Real volume.** You're not chasing odd buyers for fun. You only keep the ones that use a lot of what you sell.",
+        "**Your email feels relevant.** When you talk about their world (Sunday services, member check-ins, test drives), it reads like you understand them, not like a mass email.",
+        "**Smaller lists reply better.** In [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email), sequences sent to **21 to 50 recipients got a 6.2% reply rate**, compared with 2.4% for sequences sent to 500 or more. A niche market is a small, tight segment by nature."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Relevance matters to buyers too. In the same Hunter report, **61% of decision makers said cold emails fail because they aren't relevant**. An email built for one unusual market is relevant almost by default."
+    },
+    {
+      "type": "h2",
+      "text": "How big can an unexpected market be?"
+    },
+    {
+      "type": "p",
+      "text": "Take the reel's example. The [Hartford Institute for Religion Research](https://hirr.hartfordinternational.edu/megachurch-resurgence-2026-press-release/) counts **about 1,850 megachurches in the US** (churches with weekend attendance around 2,000 or more) in its 2026 report, Megachurch Resurgence. That's a market of nearly two thousand organizations that feed, seat, clean, light and park thousands of people every week. Most sellers never think of them."
+    },
+    {
+      "type": "tip",
+      "label": "The test",
+      "text": "An unexpected buyer is only gold if two things are true: **big use** of your product, and **few sellers** going after them. Big use with lots of competition is just another crowded market."
+    },
+    {
+      "type": "h2",
+      "text": "Step 1: Ask AI for the unexpected buyers"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** you know your normal customers too well. That makes it hard to see anyone else. AI has no habits. Ask it the right way and it will list business types that use your product for reasons you never thought about."
+    },
+    {
+      "type": "p",
+      "text": "**How to do it:** paste the prompt below into ChatGPT, Claude or any AI tool. Fill in the brackets. The key part is telling it to **leave out the obvious buyers**, or it will just list them back to you."
+    },
+    {
+      "type": "prompt",
+      "label": "Unexpected buyer prompt",
+      "text": "I sell [your product or service] to [your usual customers].\nMy usual buyers are obvious and every competitor emails them. I want buyers nobody else is selling to.\n\nList 20 types of businesses or organizations that use a LOT of [product] but are NOT [usual customers]. Do not include the obvious ones.\n\nFor each one, give me:\n1) the business type,\n2) why they use so much of it (what happens in their day that burns through it),\n3) who usually makes the buying decision there (job title),\n4) the exact words I'd type into Google Maps to find them (for example \"megachurch in Dallas TX\"),\n5) a score from 1 to 5 for how much they use, and 1 to 5 for how few sellers probably target them.\n\nSort the list by the two scores added together, highest first. Then tell me which 4 types you would test first and why."
+    },
+    {
+      "type": "p",
+      "text": "For a coffee seller, the answer usually includes types like **churches, gyms, car dealers and schools**, the same four the reel shows. Car dealers serve coffee to people waiting for service. Gyms sell drinks and snacks to members. Your list will look different for your product. That's the point."
+    },
+    {
+      "type": "h3",
+      "text": "Check the AI's answers before you trust them"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Cut anything you can't explain in one sentence.** If you can't say why a gym needs your product, the gym will not get it either.",
+        "**Check the volume yourself.** Visit 3 websites or Google Maps listings of each type. Look for signs of real use: a cafe area, a waiting room, events, big crowds, many locations.",
+        "**Search for competitors.** Type \"[your product] for [business type]\" into Google. If page one is full of sellers built for that market, lower the competition score.",
+        "**Keep 4 types.** That's enough to test, small enough to do well."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 2: Search Google Maps for each type"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** Google Maps lists almost every local business and organization with a name, address, website and phone. Lead databases often miss local organizations like churches, schools and dealers. Maps has them."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Open [Google Maps](https://www.google.com/maps) and type the search words from your prompt, one type and one city at a time: \"megachurch in Houston TX\", \"car dealership in Phoenix AZ\".",
+        "Scroll the results. Open each listing and copy the **name, website, city and number of reviews** into a sheet.",
+        "Use the review count as a rough size signal. A place with thousands of reviews usually has far more visitors than one with 12.",
+        "Repeat for 3 to 5 cities per type. Start with cities you can serve well.",
+        "If you need more volume, Google's [Places API Text Search](https://developers.google.com/maps/documentation/places/web-service/text-search) takes the same kind of search (\"pizza in New York\") and returns the places as data, **up to 20 results per page**, with a token to get the next page. It's a paid API, so check Google's pricing first."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 3: Turn it into a list and find the owner"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** a business name is not a lead. A person who can say yes is a lead. At unexpected buyers, that person often has a title you wouldn't guess, like an operations pastor or a dealership general manager. Step 1 already asked AI for the title, so you know who to look for."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Go to each website and check the **About, Team, Staff or Leadership** page. Small organizations often list the decision maker's name right there.",
+        "If the site has no names, search LinkedIn for \"[organization name] [job title]\".",
+        "Find the email with a finder tool like [Hunter's Domain Search](https://hunter.io/domain-search) (type the website, see the emails it knows).",
+        "**Verify every email before you send.** A bounce rate over 2% hurts your domain. Use a verifier such as [Hunter's Email Verifier](https://hunter.io/email-verifier).",
+        "Contact **one or two people per organization**, not five. Hunter found that emailing 1 or 2 people per company got a **5.1% reply rate vs 3.5%** for 3 or more.",
+        "Add one column with a fact about each place (their big event, number of locations, a new building). You'll use it in the first line."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: a coffee supplier"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "The prompt returns 20 types. After checking, you keep 4: **megachurches, gyms, car dealers, private schools**.",
+        "You pick 3 cities: Dallas, Houston and Atlanta. That's 4 types × 3 cities = **12 Google Maps searches**.",
+        "Each search gives you about 20 good places after you remove closed or tiny ones: 12 × 20 = **240 organizations**.",
+        "You find a decision maker at 3 out of 4 of them: 240 × 0.75 = **180 people**.",
+        "You verify the emails and drop the bad ones. Say 160 are left.",
+        "You split them into 4 campaigns, one per type, about **40 people each**. That keeps every campaign inside Hunter's best range of 21 to 50 recipients.",
+        "Each campaign gets its own email about their world. The church email talks about Sunday services. The dealer email talks about the service waiting room."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The numbers in steps 3 to 5 are planning guesses, not promises. Your counts will depend on the city and the business type. Write down your real numbers as you go."
+    },
+    {
+      "type": "h2",
+      "text": "The better way: write about their world"
+    },
+    {
+      "type": "p",
+      "text": "Finding the market is half the work. The other half is the email. Don't send the same email you send cafes. **Talk about their day, not your product.** Use the words they use."
+    },
+    {
+      "type": "quote",
+      "text": "Quick question about Sunday mornings. When 2,000 people come through between services, who handles the coffee, and is it a headache?"
+    },
+    {
+      "type": "quote",
+      "text": "Most dealers I talk to say the service waiting room is where customers judge them. Is the coffee there something you've thought about changing?"
+    },
+    {
+      "type": "p",
+      "text": "Keep it short and ask one easy question. Our [Claude cold email guide](/guides/claude.html) has a prompt that writes these under 80 words."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "The AI list is all obvious buyers",
+          "You didn't tell it to leave them out",
+          "Name your usual buyers in the prompt and say \"do not include these\"."
+        ],
+        [
+          "Replies say \"we don't buy that\"",
+          "The market doesn't really use much of your product",
+          "Go back to Step 1 and check volume on 3 real websites before you build the list."
+        ],
+        [
+          "You can't find any decision makers",
+          "Wrong job title for that type of organization",
+          "Ask AI \"who buys [product] at a [business type]?\" and check their staff pages."
+        ],
+        [
+          "Bounce rate over 2%",
+          "Emails guessed or not verified",
+          "Verify every email. Stop sending to that list until you do."
+        ],
+        [
+          "Low replies from one type, fine from others",
+          "That email doesn't speak their language",
+          "Rewrite only that campaign around one problem from their day."
+        ],
+        [
+          "Good replies, but tiny orders",
+          "You picked small places",
+          "Filter by size signals: review count, number of locations, events."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Picking a market because it's unusual, not because it uses a lot of your product.",
+        "Testing 15 types at once. Pick 4, learn, then add more.",
+        "Mixing all types into one campaign with one email.",
+        "Emailing the generic info@ address instead of a named person.",
+        "Pitching the product in the first line instead of talking about their world.",
+        "Quitting after one email. In Hunter's data, three messages got **6.8% replies vs 3.3%** for one."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Want even more lists?",
+      "text": "Once one unexpected market works, combine it with other free sources. Our [fresh lead lists guide](/guides/fresh.html) covers more of them, and the [lookalike guide](/guides/lookalike.html) shows how to find more companies like your best customer."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "List size, relevance, contacts per company and follow-up data"
+    },
+    {
+      "name": "Hartford Institute: Megachurch Resurgence 2026",
+      "url": "https://hirr.hartfordinternational.edu/megachurch-resurgence-2026-press-release/",
+      "note": "Source of the US megachurch count"
+    },
+    {
+      "name": "Google Places API: Text Search",
+      "url": "https://developers.google.com/maps/documentation/places/web-service/text-search",
+      "note": "Official docs for pulling Maps results as data"
+    },
+    {
+      "name": "Google Maps",
+      "url": "https://www.google.com/maps",
+      "note": "Free manual search by business type and city"
+    },
+    {
+      "name": "Hunter Domain Search",
+      "url": "https://hunter.io/domain-search",
+      "note": "Find emails from a company website"
+    },
+    {
+      "name": "Hunter Email Verifier",
+      "url": "https://hunter.io/email-verifier",
+      "note": "Check emails before you send"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does this only work for physical products like coffee?",
+      "a": "No. Software, services and supplies all have unexpected buyers. Ask the prompt who uses a lot of what you sell, then check the answers the same way."
+    },
+    {
+      "q": "How many unexpected markets should I test?",
+      "a": "Start with 4, one campaign each, around 20 to 50 people per campaign. Keep the ones that reply and drop the rest."
+    },
+    {
+      "q": "Is it fine to email churches and schools?",
+      "a": "Yes, if you email a person whose job fits your offer, keep it relevant and make it easy to say no. Follow the cold email laws where they are, and stop right away if someone asks."
+    },
+    {
+      "q": "What if the AI makes up a business type that doesn't fit?",
+      "a": "It will sometimes. That's why you check 3 real websites per type before you build a list. Never send to a market you haven't checked yourself."
+    }
+  ]
+}

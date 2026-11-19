@@ -1,0 +1,351 @@
+{
+  "slug": "ogilvy",
+  "keyword": "OGILVY",
+  "date": "2026-11-19",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "posted 2026-11-18",
+  "title": "The Ogilvy Subject Line Rules: Your Subject Line Is the Headline",
+  "description": "David Ogilvy's headline rule applied to cold email: 4 subject line rules, bad vs better examples, the write-10-keep-2 test and a copy-paste prompt.",
+  "lead": "This is the full Ogilvy subject line playbook from the reel. You get the headline rule behind it, the four subject line rules, bad vs better examples, the write-10-keep-2 testing method and a prompt that writes your first 10 lines for you.",
+  "insider": "On every client campaign we write a batch of subject lines, cut them down to the best two, and test them on a small list before anything scales. For one agency client, that habit was part of a campaign that got a **3.19% reply rate, with 88% of replies positive**, for four and a half months. The subject line is the easy part. The list, the inboxes and the follow-ups behind it are the full system we run for clients.",
+  "case": "case-01",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The short answer"
+    },
+    {
+      "type": "p",
+      "text": "David Ogilvy ran one of the most famous ad agencies in the world. He died in 1999, but his main rule about headlines fits cold email better than almost any advice written this year. Most people read the headline and stop. In cold email, the headline is your **subject line**. If the subject line doesn't earn the open, the body, the offer and the call to action never get read."
+    },
+    {
+      "type": "p",
+      "text": "So a good subject line follows four rules: **short, about them, plain, and honest about what the email gives.** Then you don't guess which one works. You write 10, keep the best 2 and test them."
+    },
+    {
+      "type": "h2",
+      "text": "Where the rule comes from"
+    },
+    {
+      "type": "p",
+      "text": "In [Confessions of an Advertising Man](https://en.wikipedia.org/wiki/Confessions_of_an_Advertising_Man) (1963), Ogilvy wrote that on average:"
+    },
+    {
+      "type": "quote",
+      "text": "Five times as many people read the headline as read the body copy."
+    },
+    {
+      "type": "p",
+      "text": "His point was simple. If most readers only see the headline, the headline has to do most of the selling. Print ads have changed. People haven't. Your prospect scans an inbox full of names and subject lines and decides in a second what to open. Same reader, new inbox."
+    },
+    {
+      "type": "tip",
+      "label": "What this means for you",
+      "text": "Spend real time on the subject line. Many people write the email for an hour and the subject line in ten seconds. Ogilvy would flip that."
+    },
+    {
+      "type": "h2",
+      "text": "Rule 1: Short (1 to 3 words)"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works.** A short subject line shows in full on a phone and looks like a quick note from a real person, not a campaign. [Belkins studied 5.5 million cold emails](https://belkins.io/blog/b2b-cold-email-subject-line-statistics) sent in 2024 and found subject lines of **2 to 4 words got the highest open rate (46%)**. Lines over 9 words dropped to about 35%. They also note phones cut subject lines off after about 35 to 50 characters."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Write your subject line the way you normally would.",
+        "Cut every word that doesn't carry meaning: \"quick\", \"just\", \"regarding\", \"opportunity\", \"for you\".",
+        "Stop when you have 1 to 3 words. If it still makes sense, it's done.",
+        "Check it on your phone. If any of it is cut off, it's too long."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Don't overthink the exact number",
+      "text": "[Hunter's 2026 report](https://hunter.io/the-state-of-cold-email) (31 million emails) found 5 to 6 words did best for reply rate, while Belkins found 2 to 4 words did best for opens. Both agree on the main point: short beats long. Start at 1 to 3 words and test from there."
+    },
+    {
+      "type": "h2",
+      "text": "Rule 2: About them, not you"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works.** People notice their own name, their company and their own problems first. A subject line about your product looks like an ad. A subject line about them looks like it might matter. In the [Belkins study](https://belkins.io/blog/b2b-cold-email-subject-line-statistics), personalized subject lines got a **46% open rate vs 35%** without personalization. [Hunter](https://hunter.io/the-state-of-cold-email) found subject lines with two personal details (for example, first name and company) got a **40.2% open rate vs 35.4%** with just one."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Pick one thing that belongs to them: their first name, their company, their city, a job they're hiring for, a recent launch or post.",
+        "Put that thing in the subject line. Leave your company and product out.",
+        "If you can, add a second detail: \"[first name] / [company]\" or \"[company] hiring\".",
+        "Make sure the first line of the email explains why you used it."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Rule 3: No ad. Plain words, no selling"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works.** The subject line's only job is to get the email opened. Hype words, urgency and discounts make it look like marketing, and people skip marketing. Belkins found that marketing hype, urgency words like \"now\" or \"ASAP\" and generic greetings pulled open rates **below 36%** ([source](https://belkins.io/blog/b2b-cold-email-subject-line-statistics))."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Read the line out loud and ask: would a coworker send me this?",
+        "Remove words like \"free\", \"exclusive\", \"limited\", \"guaranteed\", \"act now\" and any price or percent off.",
+        "Remove exclamation marks, emojis and ALL CAPS words.",
+        "Never fake a reply or forward with \"Re:\" or \"Fwd:\". It gets the open and loses the trust."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Rule 4: Promise what the email gives"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works.** Ogilvy's headlines worked because the ad delivered what the headline promised. In cold email, the subject line and the first line of the body are one unit. If the subject says \"your hiring plans\" and the email opens with a pitch about software, the reader feels tricked and deletes it, or marks it as spam. A matching subject line makes the first sentence feel like the answer to a question they already had."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Write the first line of your email before the subject line.",
+        "Pull the subject line out of that first line. If the first line is about their new Austin office, the subject line is \"new austin office\".",
+        "Read them together. The first line should feel like the next sentence after the subject.",
+        "If the subject line promises something the email doesn't talk about, change one of them."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: bad vs better"
+    },
+    {
+      "type": "p",
+      "text": "Here is the same email idea, written to an operations director at a regional HVAC company that just posted two dispatcher jobs."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Bad subject line",
+        "What's wrong",
+        "Better subject line"
+      ],
+      "rows": [
+        [
+          "Boost Your Scheduling Efficiency by 40% With Our AI Platform!",
+          "11 words, about you, hype, a number with no proof",
+          "dispatcher hiring"
+        ],
+        [
+          "Quick question about your business",
+          "Generic. Could be sent to anyone",
+          "[company] dispatch"
+        ],
+        [
+          "Re: our call",
+          "Fake reply. There was no call",
+          "[first name] / [company]"
+        ],
+        [
+          "FREE demo this week only",
+          "Selling, urgency, caps",
+          "missed service calls"
+        ],
+        [
+          "Partnership opportunity",
+          "About you. Says nothing",
+          "2 dispatcher roles"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "And here is how the subject line and first line work together:"
+    },
+    {
+      "type": "prompt",
+      "label": "Example email",
+      "text": "Subject: dispatcher hiring\n\nHi Dana,\n\nSaw Northside Air posted two dispatcher roles this month. That usually means calls are coming in faster than the team can book them.\n\nWe help HVAC companies answer and book every after-hours call without adding headcount.\n\nWorth a look before you fill both roles?\n\nSam"
+    },
+    {
+      "type": "h2",
+      "text": "The better way: write 10, keep the best 2, test"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works.** Ogilvy didn't trust one headline. He wrote many and tested them. Your first idea is rarely your best one, and your opinion is not data. Writing 10 forces you past the obvious lines. Testing 2 tells you which one real buyers answer."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Write 10 subject lines** for the same email, using the four rules. Mix types: name, company, trigger, problem.",
+        "**Cut to the best 2.** Drop any line that is over 4 words, about you, salesy, or doesn't match the first line.",
+        "**Split one list in two random halves**, at least 200 people each. Same email body, same inboxes, same days. Only the subject line changes.",
+        "**Turn open tracking off and judge on replies.** Hunter found campaigns without open tracking got a **7.4% reply rate vs 4.4%** with it ([source](https://hunter.io/the-state-of-cold-email)), and open counts are unreliable anyway.",
+        "**Wait until the sequence finishes**, then compare reply rates. Keep the winner.",
+        "**Next round**, test the winner against a new line from your list of 10. Repeat every few weeks."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Example test with real math"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Version",
+        "Subject line",
+        "Sent to",
+        "Replies",
+        "Reply rate"
+      ],
+      "rows": [
+        [
+          "A",
+          "quick question",
+          "200",
+          "6",
+          "3.0%"
+        ],
+        [
+          "B",
+          "dispatcher hiring",
+          "200",
+          "11",
+          "5.5%"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "B wins: 11 ÷ 200 = 5.5%, vs 6 ÷ 200 = 3.0%. Keep B and test it against a new line next. If the gap had been only 1 or 2 replies, call it a tie and test again. Small gaps on small lists are just noise."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder: common subject line mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Few replies, and nobody mentions the subject",
+          "Subject line is generic (\"quick question\", \"hello\")",
+          "Add one detail about them: name, company, trigger"
+        ],
+        [
+          "Replies say \"what is this about?\"",
+          "Subject and first line don't match",
+          "Pull the subject line out of the first sentence"
+        ],
+        [
+          "Spam complaints or angry replies",
+          "Fake \"Re:\" or a promise the email doesn't keep",
+          "Use an honest line that matches the body"
+        ],
+        [
+          "Subject line cut off on phones",
+          "Too long",
+          "Cut to 1 to 3 words"
+        ],
+        [
+          "Every test is a tie",
+          "Lists too small, or both lines too similar",
+          "Test at least 200 per version and make the 2 lines truly different"
+        ],
+        [
+          "Good test results, then replies drop",
+          "Everyone in your market now uses the same line",
+          "Run a new round of write 10, keep 2"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Copy-paste prompt: write your 10"
+    },
+    {
+      "type": "p",
+      "text": "Paste this into ChatGPT or Claude, fill in the brackets, and you get 10 lines to cut down to 2."
+    },
+    {
+      "type": "prompt",
+      "label": "Prompt",
+      "text": "You write cold email subject lines using David Ogilvy's rule: the subject line is the headline, and most people read only the headline.\n\nProspect: [first name], [job title] at [company].\nWhat I know about them: [hiring, launch, new location, recent post, problem].\nThe first line of my email: [paste it].\n\nWrite 10 subject lines.\nRules:\n- 1 to 3 words\n- about them, never about my product or company\n- plain words a coworker would use; no hype, no urgency, no emojis, no exclamation marks, no fake \"Re:\" or \"Fwd:\"\n- must match the first line of my email\n- mix types: 3 with their name or company, 3 about the trigger, 2 about the problem, 2 short and internal-sounding\n\nThen pick the best 2 to A/B test and explain in one sentence why each could win."
+    },
+    {
+      "type": "h2",
+      "text": "Your checklist before you hit send"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Short:** 1 to 3 words, fully visible on a phone.",
+        "**About them:** their name, company, trigger or problem. Not your product.",
+        "**Plain:** no hype, no urgency, no caps, no fake \"Re:\".",
+        "**Honest:** the first line of the email delivers what the subject line promises.",
+        "**Tested:** you wrote 10, kept 2, and are measuring replies, not opens."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Want more subject line ideas? See the [lowercase subject line kit](/guides/lowercase.html) for 40 examples and the [slash subject line](/guides/slash.html) for one format that looks internal."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Confessions of an Advertising Man (David Ogilvy, 1963)",
+      "url": "https://en.wikipedia.org/wiki/Confessions_of_an_Advertising_Man",
+      "note": "The book behind the headline rule"
+    },
+    {
+      "name": "The Art of the Headline: Some Tips from the Old Masters",
+      "url": "https://scimark.substack.com/p/the-art-of-the-headline-some-tips",
+      "note": "Cites the five-times quote from Confessions of an Advertising Man"
+    },
+    {
+      "name": "Belkins: B2B cold email subject line study",
+      "url": "https://belkins.io/blog/b2b-cold-email-subject-line-statistics",
+      "note": "Word count, personalization and tone data from 5.5M emails"
+    },
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Personalization, subject line length and open tracking data from 31M emails"
+    },
+    {
+      "name": "Our LOWERCASE guide",
+      "url": "https://wayneflow.com/guides/lowercase.html",
+      "note": "40 short subject line examples"
+    },
+    {
+      "name": "Our SLASH guide",
+      "url": "https://wayneflow.com/guides/slash.html",
+      "note": "One short subject line format that looks internal"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Did Ogilvy really say five times more people read the headline?",
+      "a": "Yes. He wrote it in Confessions of an Advertising Man (1963), about print ads. The exact ratio was about newspapers and magazines, but the idea carries over: far more people see your subject line than read your email."
+    },
+    {
+      "q": "Should I put my company name in the subject line?",
+      "a": "Usually no. Your name already shows in the sender field. Use the space for something about them, like their company or a trigger."
+    },
+    {
+      "q": "Do follow-ups need new subject lines?",
+      "a": "No. Most tools send follow-ups as replies in the same thread, so they keep the first subject line. That's fine and keeps the conversation together."
+    },
+    {
+      "q": "How many people do I need for a fair A/B test?",
+      "a": "At least 200 per version, and wait until the full sequence ends. If the winner is ahead by only 1 or 2 replies, treat it as a tie and test again."
+    }
+  ]
+}

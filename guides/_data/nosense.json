@@ -1,0 +1,404 @@
+{
+  "slug": "nosense",
+  "keyword": "NOSENSE",
+  "date": "2026-11-19",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "posted 2026-11-19",
+  "title": "The Buying Signal List: Stop Paying for the Same Leads 1,000 Others Bought",
+  "description": "Build small, fresh lead lists from 3 buying signals: hiring, growing and unhappy with a competitor. Where to find each one, how to date it, and what to write.",
+  "lead": "This is the full buying signal list from the reel. You get the 3 signals that show a company is about to buy (hiring, growing, unhappy with what they use now), where to find each one, how to date it, and how to turn it into a small list that nobody else is emailing.",
+  "insider": "We test every new list small before we scale it. One pilot reached **10,284 people and turned 417 replies into 103 sales opportunities**, about 1 in every 100 people contacted. Finding the signals is the easy part. Building the list every week, sending from healthy inboxes and running the follow-ups is the full system we run for clients.",
+  "case": "case-05",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why buying the same list makes no sense"
+    },
+    {
+      "type": "p",
+      "text": "Big lead databases are easy. You pick a job title, an industry and a company size, and you get 10,000 names. The problem is that thousands of other senders run the exact same filter. So the same person gets the same kind of email again and again. At some point they stop ignoring it and hit **Mark as spam**."
+    },
+    {
+      "type": "p",
+      "text": "That button costs you more than one lead. [Google's email sender guidelines](https://support.google.com/mail/answer/81126) say to keep your spam rate **below 0.10%** and never reach **0.30%**. On 10,000 emails, 0.30% is only **30 spam reports**. A big list nobody wanted can get there fast."
+    },
+    {
+      "type": "p",
+      "text": "Bought lists also go old. [Instantly's guide to list decay](https://instantly.ai/blog/b2b-email-list-decay-freshness/) tells senders to plan for **22.5% to 30% of B2B emails going bad each year**, and to treat any list older than **six months** as suspect until it is verified again. People change jobs all the time: the [U.S. Bureau of Labor Statistics](https://www.bls.gov/news.release/tenure.nr0.htm) puts the median time with one employer at **4.1 years** (January 2026). The reel's 30% to 50% figure is an estimate for lists that sat around a long time. The exact number varies, but the direction doesn't."
+    },
+    {
+      "type": "tip",
+      "label": "The rule from the reel",
+      "text": "Not a bigger list. Not a cheaper list. A **fresher** one."
+    },
+    {
+      "type": "h2",
+      "text": "What a buying signal is"
+    },
+    {
+      "type": "p",
+      "text": "A buying signal is **something a company does right before it buys**. It's public, it has a date, and it tells you why they might need you now. When you write about it, your email has a real reason to exist. [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email) found that **67% of decision makers** say personalization based on public information makes them more likely to reply."
+    },
+    {
+      "type": "p",
+      "text": "The reel names three signals. Each one answers a different question."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Signal",
+        "What it tells you",
+        "Where to find it"
+      ],
+      "rows": [
+        [
+          "01 Hiring",
+          "They have a problem and a budget for it, right now",
+          "[LinkedIn Jobs](https://www.linkedin.com/jobs/), [Indeed](https://www.indeed.com), their careers page"
+        ],
+        [
+          "02 Growing",
+          "A team is getting bigger, so new tools and help get bought",
+          "Their LinkedIn company page, [Crunchbase](https://www.crunchbase.com) funding news, [Google Alerts](https://support.google.com/websearch/answer/4815696)"
+        ],
+        [
+          "03 Unhappy with",
+          "They already buy in your category and something hurts",
+          "1-2 star reviews on [G2](https://www.g2.com) or [Capterra](https://www.capterra.com)"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Signal 01: Hiring (the post is 2 days old)"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** a job post is a company saying, in writing, that it has a problem and money set aside to fix it. The duties list describes the pain. And while they interview, the problem is still there. That's your window."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Search job boards for the **problem you solve**, not just a title. Example for a bookkeeping firm: \"clean up our books\", \"month-end close\".",
+        "Filter to posts from the **last few days**. On LinkedIn Jobs and Indeed, use the date posted filter.",
+        "Open each post and copy the **one sentence** that matches what you sell. No match? Skip the company.",
+        "Write down the date the post went up. That date goes in your sheet.",
+        "Email the person the new hire will report to, not HR or the recruiter."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The full method, with search strings and an email template, is in our [job post signal guide](/guides/jobpost.html)."
+    },
+    {
+      "type": "h2",
+      "text": "Signal 02: Growing (a team is getting bigger)"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** when a team grows, old ways of working break. More people means more tools, more process and more outside help. Growth also usually comes with money, from new funding or more sales."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Several open roles in one team.** Three sales roles open at once means the sales team is growing, even if no single post names your problem.",
+        "**New funding.** Crunchbase lets you filter companies by the date of their last funding round (its [search docs](https://data.crunchbase.com/docs/build-market-landscapes-and-streamline-workflows) list a \"last funding date\" filter). Keep only rounds from the last 90 days.",
+        "**News.** Set a [Google Alert](https://support.google.com/websearch/answer/4815696) for phrases like \"opens new office\" or \"expands to\" plus your industry. New locations need new people and new systems.",
+        "**Headcount.** Check the company's LinkedIn page. If the employee count or the team you sell to has clearly gone up, note it and the date you checked.",
+        "Pick the **one** growth fact that connects to what you sell, and write it in plain words."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Signal 03: Unhappy with what they use now"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** someone who leaves a 1-star review has already bought in your category, named the pain in their own words, and is unhappy today. You don't need to explain why the problem matters. They already said it."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Open your competitor's page on G2 or Capterra and sort by the lowest ratings.",
+        "Read the recent ones first. Old complaints may already be fixed.",
+        "Write down the role, company size and industry shown, plus the complaint in a few words.",
+        "Group the complaints. Each common complaint becomes one list and one email.",
+        "Find companies that match those roles and sizes. Never quote the review back to anyone."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Step by step, with a ready email, in our [bad-review lead guide](/guides/reviews.html)."
+    },
+    {
+      "type": "h2",
+      "text": "Date every signal"
+    },
+    {
+      "type": "p",
+      "text": "The reel ends with three words: **Fresh. Dated. Nobody else.** A signal without a date is just a guess. Put the signal date in its own column, and drop rows that get too old. These are working rules of thumb, not hard limits:"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Signal",
+        "Best window",
+        "Drop it after"
+      ],
+      "rows": [
+        [
+          "Hiring post",
+          "1 to 3 days after it goes up",
+          "About 30 days (the job may be filled)"
+        ],
+        [
+          "New funding",
+          "First few weeks",
+          "About 90 days"
+        ],
+        [
+          "Team growth or new office",
+          "The month you spot it",
+          "About 90 days"
+        ],
+        [
+          "Bad review",
+          "Last few months",
+          "About 12 months"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Build the list in 6 steps"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Pick one buyer and one signal.** Finish this line: \"I help [job title] at [type of company] who just [signal].\"",
+        "**Collect 40 to 50 companies** that show that signal, with the link that proves it and the date.",
+        "**Find one or two people per company.** Hunter found emailing **1 or 2 people per company got 5.1% replies vs 3.5%** for 3 or more.",
+        "**Verify every email this week.** Hunter's average bounce rate was **3.6%**, and Instantly's guide uses **2%** as the line to stay under. Remove bad addresses before you send.",
+        "**Write one first line from the signal.** Plain words, one sentence, then the problem that usually comes with it.",
+        "**Send it as its own small campaign, then refill next week** from the same source. Fresh is a weekly habit, not a one-time export."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "40 with a reason beats 10,000 without"
+    },
+    {
+      "type": "p",
+      "text": "Small, targeted lists win on reply rate. In [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email), sequences sent to **21 to 50 people got 6.2% replies vs 2.4% for 500+ people**. Emails with **two custom details got 5.6% replies vs 3.6%** with none. A signal gives you those details for free: the role they posted, the date, the growth, the pain."
+    },
+    {
+      "type": "quote",
+      "text": "40 with a reason > 10,000 without. (From the NOSENSE reel)"
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: the 10,000 list vs the 40 list"
+    },
+    {
+      "type": "p",
+      "text": "Here is the math on both, using the sourced numbers above. These are example numbers to show the method, not a result."
+    },
+    {
+      "type": "table",
+      "head": [
+        "",
+        "Bought list, 6 months old",
+        "Signal list, verified this week"
+      ],
+      "rows": [
+        [
+          "Contacts",
+          "10,000",
+          "40"
+        ],
+        [
+          "Gone bad since it was built",
+          "About 1,196 (2.1% a month for 6 months)",
+          "Removed by verifying"
+        ],
+        [
+          "Bounce rate if sent without checking",
+          "About 12%",
+          "Under 2%"
+        ],
+        [
+          "Spam reports that hit Google's 0.30% line",
+          "30",
+          "Not a risk at this size if the email fits"
+        ],
+        [
+          "Expected reply rate (Hunter)",
+          "2.4% (500+ recipients)",
+          "6.2% (21 to 50 recipients)"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Math check: 10,000 × 0.979 six times = about 8,804 still good, so about **1,196 bad (12%)**. That's six times the 2% bounce line, which hurts your domain before the replies arrive. 10,000 × 0.003 = **30** spam reports. On the fresh side, 40 × 0.062 = **2.5 replies** a week. Four weekly lists of 40 = 160 contacts and about **10 replies a month** (160 × 0.062 = 9.9), with a clean domain and a reason in every email. The monthly decay rate is the one Instantly's guide uses; real lists vary."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Bounces over 2%",
+          "Old list or skipped verification",
+          "Verify every address the week you send"
+        ],
+        [
+          "Replies like \"we already hired\"",
+          "The signal was too old",
+          "Add a signal date column and drop old rows"
+        ],
+        [
+          "Opens but no replies",
+          "The email doesn't mention the signal",
+          "Open with the signal in one plain sentence"
+        ],
+        [
+          "\"Wrong person\" replies",
+          "Emailed HR or a generic contact",
+          "Email the person who owns the problem"
+        ],
+        [
+          "Vague emails",
+          "Several signals mixed in one list",
+          "One signal per list, one email per signal"
+        ],
+        [
+          "Spam reports climbing",
+          "Big list with no reason to write",
+          "Smaller lists, real signal, easy opt-out"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Prompt: turn a signal into an email"
+    },
+    {
+      "type": "prompt",
+      "label": "Signal to email prompt",
+      "text": "You write short, plain B2B cold emails.\n\nWhat I sell: [one sentence]\nWho I'm writing to: [job title, company type, company size]\nThe signal: [hiring / growing / unhappy with a competitor]\nThe proof: [paste the job post line, funding news, headcount change or review complaint]\nThe signal date: [date]\n\n1. If the signal is older than 30 days (hiring) or 90 days (funding or growth), say \"Too old\" and stop.\n2. In one line, name the problem this signal usually comes with.\n3. Write 3 first lines under 20 words that mention the signal in plain words. No flattery. Never quote a review.\n4. Write one email under 80 words: first line, the problem, one sentence on how I help, and a small question at the end."
+    },
+    {
+      "type": "h2",
+      "text": "Your weekly routine"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Monday:** pull new signals from one source (job posts, funding, news or reviews). Only this week's.",
+        "**Tuesday:** find one or two people per company and verify every email.",
+        "**Wednesday:** write first lines from the signal and load a campaign of 40 to 50.",
+        "**Every week:** check bounces (under 2%) and spam rate in [Google Postmaster Tools](https://postmaster.google.com) (under 0.10%).",
+        "**Refill:** next Monday, do it again. Older lists go to re-verification or get dropped. See our [re-engagement guide](/guides/stale.html) for old leads."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "More free sources",
+      "text": "Want more places to find signals, like ad libraries and public filings? Our [fresh lead list guide](/guides/fresh.html) lists nine free ones."
+    },
+    {
+      "type": "tip",
+      "label": "Stay within the rules",
+      "text": "Follow the [FTC's CAN-SPAM guide](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) in the U.S., check stricter local rules before emailing people in the UK or EU, and honor every opt-out fast."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "List size, personalization, contacts per company and bounce data"
+    },
+    {
+      "name": "Instantly: B2B email list decay",
+      "url": "https://instantly.ai/blog/b2b-email-list-decay-freshness/",
+      "note": "Yearly decay range and the 6-month re-verify rule"
+    },
+    {
+      "name": "Google email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "The 0.10% and 0.30% spam rate lines"
+    },
+    {
+      "name": "BLS: Employee Tenure",
+      "url": "https://www.bls.gov/news.release/tenure.nr0.htm",
+      "note": "Median time with one employer"
+    },
+    {
+      "name": "LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/",
+      "note": "Hiring signals"
+    },
+    {
+      "name": "Indeed",
+      "url": "https://www.indeed.com",
+      "note": "Hiring signals"
+    },
+    {
+      "name": "Crunchbase search docs",
+      "url": "https://data.crunchbase.com/docs/build-market-landscapes-and-streamline-workflows",
+      "note": "Filter companies by last funding date"
+    },
+    {
+      "name": "Google Alerts: Create an alert",
+      "url": "https://support.google.com/websearch/answer/4815696",
+      "note": "Free news alerts for growth signals"
+    },
+    {
+      "name": "G2",
+      "url": "https://www.g2.com",
+      "note": "Competitor reviews"
+    },
+    {
+      "name": "Capterra",
+      "url": "https://www.capterra.com",
+      "note": "Competitor reviews"
+    },
+    {
+      "name": "Google Postmaster Tools",
+      "url": "https://postmaster.google.com",
+      "note": "Free spam rate dashboard"
+    },
+    {
+      "name": "FTC: CAN-SPAM compliance guide",
+      "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+      "note": "U.S. commercial email rules"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are big lead databases useless?",
+      "a": "No. They're good for finding the right person and email once you know which company to target. The problem is using them as the reason to write. Start from the signal, then use the database to find the contact."
+    },
+    {
+      "q": "Isn't 40 contacts a week too small?",
+      "a": "It's a starting size, not a limit. Run several signals, each as its own list of 40 to 50. Hunter's data shows lists of 21 to 50 people got far higher reply rates than lists of 500+, and you'll see which signal works best."
+    },
+    {
+      "q": "Which signal should I start with?",
+      "a": "Hiring. Job posts are free to search, have a clear date and name the problem in the company's own words. Add growth and review signals once your first list is running."
+    },
+    {
+      "q": "How often should I re-verify a list?",
+      "a": "Verify every list the week you send it. Instantly's list decay guide says to treat any list older than six months as suspect until it's checked again."
+    }
+  ]
+}

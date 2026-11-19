@@ -1,0 +1,400 @@
+{
+  "slug": "proof",
+  "keyword": "PROOF",
+  "title": "Proof From Their World: Match Your Case Study to Each Industry",
+  "description": "Why wrong-industry case studies get skipped, and the 4-step fix: split by industry, one proof line each, use their metric, give something free.",
+  "lead": "This is the full proof-matching kit from the reel. You get the 4 steps, the metric each industry counts, ready proof lines for five industries, free offers for when you have no case study, and a prompt to write your own.",
+  "insider": "We split every client campaign by who's reading and write the proof and offer for that reader. On our agency client campaign that fit paid off: **2,146 interested replies in four and a half months, and only 6 of 76,081 people asked to be removed**. Matching proof is the easy part. Building the list, running the inboxes and sending the follow-ups is the full system we run for clients.",
+  "case": "case-01",
+  "blocks": [
+    {
+      "text": "The short answer",
+      "type": "h2"
+    },
+    {
+      "text": "A case study only works if the reader sees themselves in it. \"We helped a SaaS startup\" means nothing to a roofer. He skips it. Worse, it tells him you don't know who he is. So don't add **more** proof. Add proof from **their world**.",
+      "type": "p"
+    },
+    {
+      "text": "The fix has four steps: split your list by industry, write one proof line for each industry, use the number that industry counts, and if you have no case study yet, give something free instead.",
+      "type": "p"
+    },
+    {
+      "text": "Why the wrong proof hurts",
+      "type": "h2"
+    },
+    {
+      "text": "Proof is meant to answer one question: \"Has this worked for someone like me?\" A result from another industry answers a different question. The reader has to do the work of translating it, and in a cold email nobody does that work. They just delete.",
+      "type": "p"
+    },
+    {
+      "text": "It can also make things worse than no proof at all. A plain email with no proof is just short. An email with the wrong proof shows the reader you sent the same message to everyone. That's the exact thing people hate about cold email. In [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email), **61% of decision makers** named irrelevance as a reason cold emails fail.",
+      "type": "p"
+    },
+    {
+      "text": "The closer the match, the stronger the proof",
+      "type": "h3"
+    },
+    {
+      "text": "This isn't only a cold email idea. In a well-known hotel study, [Goldstein, Cialdini and Griskevicius (2008)](https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/goldstein_et_al._2008_-_a_room_with_a_viewpoint.pdf) tested towel-reuse cards. The card that said most guests **who stayed in this same room** reused their towels got **49.3%** reuse. The other \"most guests do it\" cards got 42.8% combined, and the standard environmental card got 37.2% (figures as summarized in a [2014 follow-up paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC4118982/)). Same message, closer group, better result.",
+      "type": "p"
+    },
+    {
+      "text": "A fair note: that 2014 follow-up ran the test again in other hotels and did not find the same effect everywhere. So treat it as a strong hint, not a law. Your own reply data is the real test, and step 5 below shows how to run it.",
+      "type": "p"
+    },
+    {
+      "text": "The cold email numbers point the same way. Hunter found sequences sent to **21 to 50 people got a 6.2% reply rate**, compared with **2.4% for sequences sent to 500+ people**. [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) puts the average reply rate at **3.43%**, and says its top 10% of senders (10.7%+ replies) use micro-segmentation. Small, matched groups beat one big list.",
+      "type": "p"
+    },
+    {
+      "label": "The rule",
+      "text": "Not any proof. Not more proof. Proof from their world.",
+      "type": "tip"
+    },
+    {
+      "text": "Step 1: Split the list by industry",
+      "type": "h2"
+    },
+    {
+      "text": "**Why it works:** you can't match proof to a reader if all your readers sit in one big list. Once the list is split, every email in a group can speak to the same world.",
+      "type": "p"
+    },
+    {
+      "items": [
+        "Export your list with the industry column (Apollo, Clay, LinkedIn Sales Navigator and most data tools give you one).",
+        "Clean the labels. \"Roofing\", \"Roofing contractor\" and \"Roofers\" are one group. Put each lead in one folder only.",
+        "Keep groups that have **at least a few hundred people**. Merge tiny groups into the closest real neighbor, or park them for later.",
+        "Name each campaign by industry, like \"Roofers - Texas\" or \"Dentists - multi-location\", so results are easy to compare.",
+        "If you sell to big markets, split again by size or role. A 3-chair dental office and a 40-location group are not the same reader."
+      ],
+      "type": "steps"
+    },
+    {
+      "text": "Step 2: Write one proof line for each industry",
+      "type": "h2"
+    },
+    {
+      "text": "**Why it works:** one sentence is all the space proof gets in a cold email. If that sentence names their industry, the reader keeps reading. If it doesn't, you lost them on line two.",
+      "type": "p"
+    },
+    {
+      "text": "**How:** one line per industry, with three parts: **who** (a company like theirs), **what** (the result), and **how fast**. Keep it under 25 words. Put it right after your opening line.",
+      "type": "p"
+    },
+    {
+      "head": [
+        "Part",
+        "Weak",
+        "Strong"
+      ],
+      "rows": [
+        [
+          "Who",
+          "\"a client\"",
+          "\"a 6-truck HVAC company in Phoenix\""
+        ],
+        [
+          "What",
+          "\"great results\"",
+          "\"[number] booked service calls\""
+        ],
+        [
+          "How fast",
+          "(missing)",
+          "\"in the first 30 days\""
+        ]
+      ],
+      "type": "table"
+    },
+    {
+      "text": "You don't need a client's name. \"A roofing company in Dallas\" is close enough, and it's safer if you don't have permission to use the name.",
+      "type": "p"
+    },
+    {
+      "text": "Step 3: Use their metric",
+      "type": "h2"
+    },
+    {
+      "text": "**Why it works:** every industry keeps score with its own number. A dentist doesn't care about \"leads\". She cares about booked appointments. If your proof uses the wrong number, it's still the wrong world, even with the right industry name on it.",
+      "type": "p"
+    },
+    {
+      "text": "**How:** before you write the line, ask \"What number does this owner check every week?\" Then rewrite your result in that unit. Here are five industries to start with.",
+      "type": "p"
+    },
+    {
+      "head": [
+        "Industry",
+        "The number they count",
+        "Words to avoid"
+      ],
+      "rows": [
+        [
+          "Dentists",
+          "Booked appointments, new patients a month",
+          "Leads, MQLs, pipeline"
+        ],
+        [
+          "HVAC companies",
+          "Booked service calls, jobs on the schedule, maintenance plans sold",
+          "Engagement, traffic"
+        ],
+        [
+          "Roofers",
+          "Inspections booked, jobs signed",
+          "Impressions, awareness"
+        ],
+        [
+          "Accounting firms",
+          "New clients signed, hours saved per client, clients kept after tax season",
+          "Growth hacking, viral"
+        ],
+        [
+          "B2B software (SaaS)",
+          "Demos booked, pipeline, deals closed",
+          "Foot traffic, calls on the schedule"
+        ]
+      ],
+      "type": "table"
+    },
+    {
+      "text": "Proof lines for five industries (fill in your real numbers)",
+      "type": "h3"
+    },
+    {
+      "items": [
+        "**Dentists:** \"We helped a [city] dental office add [X] booked new-patient appointments in [time].\"",
+        "**HVAC:** \"A [size]-truck HVAC company in [city] used this to book [X] service calls in [time].\"",
+        "**Roofers:** \"We helped a roofer in [city] book [X] inspections in [time], [Y] of them turned into signed jobs.\"",
+        "**Accounting firms:** \"A [size]-person accounting firm in [state] signed [X] new clients in [time] with this.\"",
+        "**SaaS:** \"We helped a [type] software company book [X] demos in [time].\""
+      ],
+      "type": "list"
+    },
+    {
+      "label": "Only real numbers",
+      "text": "Use a result you can back up. Never round up, never borrow another company's number, and never invent a client. One wrong number found out later costs more than having no proof.",
+      "type": "tip"
+    },
+    {
+      "text": "Step 4: No case study yet? Give something free",
+      "type": "h2"
+    },
+    {
+      "text": "**Why it works:** proof exists to lower risk. If you don't have a result in their industry yet, you can lower the risk a different way: let them see your work before they pay anything.",
+      "type": "p"
+    },
+    {
+      "text": "**How:** offer one small, specific thing you can make in under an hour. Make it about their business, not yours.",
+      "type": "p"
+    },
+    {
+      "head": [
+        "Industry",
+        "Free audit",
+        "Free sample"
+      ],
+      "rows": [
+        [
+          "Dentists",
+          "A 5-point check of their booking page and Google profile",
+          "3 recall emails written for their patients"
+        ],
+        [
+          "HVAC",
+          "A check of how fast they answer a web quote request",
+          "A ready-to-send maintenance-plan email for this season"
+        ],
+        [
+          "Roofers",
+          "A look at their storm-season ad or landing page",
+          "A door-hanger or follow-up text script after an inspection"
+        ],
+        [
+          "Accounting firms",
+          "A review of their \"book a call\" flow",
+          "A tax-season reminder email for their clients"
+        ],
+        [
+          "SaaS",
+          "A review of their demo booking page",
+          "3 cold email first lines for their top customer type"
+        ]
+      ],
+      "type": "table"
+    },
+    {
+      "text": "I don't have a roofer to show you yet, so here's something better: I looked at your quote page and found 3 things that may be costing you jobs. Want me to send them over?",
+      "type": "quote"
+    },
+    {
+      "text": "Worked example: same proof, their world",
+      "type": "h2"
+    },
+    {
+      "text": "Say your only result so far is this: **a SaaS startup booked 40 demos in 60 days** with your help. You want to email roofers, HVAC owners and dentists. Your list has 3,000 people.",
+      "type": "p"
+    },
+    {
+      "items": [
+        "**Split the list:** 1,200 roofers, 1,000 HVAC companies, 800 dental offices. That's 3,000 people in three campaigns.",
+        "**Check what you can honestly claim:** you have a SaaS result, not a roofing one. So for the three new industries, the SaaS line can't be your lead proof.",
+        "**Translate the skill, not the number:** the real skill is booking meetings from cold outreach. For roofers that means inspections, for HVAC service calls, for dentists appointments.",
+        "**Use step 4 for now:** each campaign offers a free audit in their own terms. Roofers get a quote-page check. HVAC gets a speed-to-quote test. Dentists get a booking-page check.",
+        "**Keep the SaaS proof for SaaS readers:** \"We helped a SaaS startup book 40 demos in 60 days\" goes only to the SaaS list, where it's a perfect match.",
+        "**Swap in real proof as you earn it:** the first roofer who gets a result becomes the proof line for the roofer campaign."
+      ],
+      "type": "steps"
+    },
+    {
+      "head": [
+        "",
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "Line 2 to a roofer",
+          "\"We helped a SaaS startup book 40 demos in 60 days.\"",
+          "\"Most roofers I talk to lose quotes because nobody calls back within an hour. I checked your quote page and found 3 fixes. Want them?\""
+        ],
+        [
+          "What the roofer thinks",
+          "\"Not my world. Delete.\"",
+          "\"That's about my business.\""
+        ]
+      ],
+      "type": "table"
+    },
+    {
+      "text": "Step 5: Check it with your own numbers",
+      "type": "h2"
+    },
+    {
+      "text": "Run each industry as its own campaign so you can see the result per group. Test one change at a time: matched proof against no proof, or proof line A against proof line B. Give each version a few hundred sends before you decide. Keep the winner, then test the next idea.",
+      "type": "p"
+    },
+    {
+      "text": "Problem finder",
+      "type": "h2"
+    },
+    {
+      "head": [
+        "What you see",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Opens are fine, replies are low",
+          "Proof is from the wrong industry, or uses the wrong number",
+          "Rewrite the proof line with their industry and their metric"
+        ],
+        [
+          "Replies like \"we're not a tech company\"",
+          "You sent SaaS proof to a non-SaaS list",
+          "Split the list and keep SaaS proof for SaaS readers"
+        ],
+        [
+          "One industry replies, the others don't",
+          "Only that industry has matched proof",
+          "Use the free audit or sample for the others until you have results there"
+        ],
+        [
+          "Proof line is getting long",
+          "You're stacking several results",
+          "Pick one result. One line. Under 25 words."
+        ],
+        [
+          "\"Sounds too good to be true\"",
+          "Number is vague, rounded or has no timeframe",
+          "Use the exact real number and add how fast"
+        ],
+        [
+          "Mixed results inside one industry",
+          "Group is too broad (small shops mixed with big chains)",
+          "Split again by size or role"
+        ]
+      ],
+      "type": "table"
+    },
+    {
+      "text": "Common mistakes",
+      "type": "h2"
+    },
+    {
+      "items": [
+        "Using one case study for every industry because it's your best one.",
+        "Listing five logos instead of one matched result.",
+        "Using your number (leads, MQLs) instead of theirs (appointments, jobs, demos).",
+        "Naming a client without permission.",
+        "Offering a free audit that's really a sales call. Give the actual thing.",
+        "Leaving tiny industry groups in one mixed \"other\" campaign with generic proof."
+      ],
+      "type": "list"
+    },
+    {
+      "text": "Want to turn one strong result into many campaigns for lookalike companies? That's covered in our [case study to campaign guide](/guides/casestudy.html).",
+      "type": "p"
+    },
+    {
+      "text": "The proof-matching prompt",
+      "type": "h2"
+    },
+    {
+      "label": "Proof lines for five industries (copy it)",
+      "text": "I sell: [what you sell, one line]\nMy real results (only use these, never invent numbers):\n- [result 1: type of client, result, timeframe]\n- [result 2, if any]\n\nWrite proof lines for these five industries: dentists, HVAC companies, roofers, accounting firms, B2B software (SaaS).\n\nFor each industry:\n1) The number that owner tracks every week (their metric).\n2) If one of my real results matches this industry, write one proof line under 25 words: who, what result in their metric, how fast. Use placeholders like [X] if a number is missing. Never make up a result.\n3) If none of my results match, say \"no match\" and instead write one free audit offer and one free sample offer, each in one sentence, about their business.\n4) Words to avoid for this industry.\n\nPlain English, short sentences, no hype. Output as a table.",
+      "type": "prompt"
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Irrelevance data and reply rates by sequence size"
+    },
+    {
+      "name": "Instantly 2026 benchmark report",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Average and top-performer reply rates, micro-segmentation"
+    },
+    {
+      "name": "Goldstein, Cialdini & Griskevicius (2008): A Room with a Viewpoint",
+      "url": "https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/goldstein_et_al._2008_-_a_room_with_a_viewpoint.pdf",
+      "note": "Original hotel towel study on similar-group social proof"
+    },
+    {
+      "name": "A Room with a Viewpoint Revisited (2014, PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4118982/",
+      "note": "Summary of the original figures and a replication"
+    },
+    {
+      "name": "Our CASESTUDY guide",
+      "url": "https://wayneflow.com/guides/casestudy.html",
+      "note": "Turn one result into ten campaigns"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it really worse to use proof from another industry than none?",
+      "a": "It often is, because it shows the reader you didn't think about who they are. Don't take anyone's word for it, though. Test matched proof against no proof in your own campaigns and keep what gets more replies."
+    },
+    {
+      "q": "What if I only have one case study?",
+      "a": "Use it only for readers in that industry. For everyone else, offer a free audit or sample (step 4) until you earn a result in their world."
+    },
+    {
+      "q": "How close does the match need to be?",
+      "a": "Same industry is the minimum. Same industry plus similar size or city is better. Their metric in the line matters as much as their industry name."
+    },
+    {
+      "q": "Can I name the client in the proof line?",
+      "a": "Only with their permission. Otherwise describe them, like \"a 6-truck HVAC company in Phoenix\". That's specific enough to feel real."
+    }
+  ],
+  "date": "2026-11-19",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "posted 2026-11-18"
+}

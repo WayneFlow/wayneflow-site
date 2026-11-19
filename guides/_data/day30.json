@@ -1,0 +1,436 @@
+{
+  "slug": "day30",
+  "keyword": "DAY30",
+  "date": "2026-11-19",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "posted 2026-11-18",
+  "title": "Day 1 vs Day 30: The 30-Day Cold Email Warm-Up Calendar That Saves Your Domain",
+  "description": "The full 30-day warm-up calendar: extra domains, 14 days of warm-up, the 10-20-30 ramp and the Monday check that keeps you out of spam.",
+  "lead": "This is the full 30-day warm-up calendar from the reel. You get the day-by-day plan (extra domains, 14 days of warm-up, the 10-20-30 ramp), why each step works, a worked example, and the Monday check that keeps your inboxes healthy.",
+  "insider": "Every client campaign we run starts on inboxes that went through this slow start first. It's why our 5-day blitz could send **96,408 emails in five days with a 0.45% bounce rate** and book 25 calls that same week. The calendar is the easy part. The full system around it, the list, the inboxes and the follow-ups, is what we run for clients.",
+  "case": "case-03",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Day 1 vs day 30"
+    },
+    {
+      "type": "p",
+      "text": "On day 1, most people buy a domain, set up an inbox and send 100 cold emails. It feels fast. Then replies stop, because the emails are landing in spam. On day 30 of a slow start, the inboxes look calm and normal to Gmail and Outlook, and real replies come in."
+    },
+    {
+      "type": "p",
+      "text": "The difference is not the copy and not the list. It's the slow start. This guide gives you the full 30-day calendar: what to do each week, why each step works, and the numbers to check every Monday. If you want the volume math (how many inboxes for 500 or 1,000 emails a day), use our [sending calculator](/guides/math.html). This page is the calendar view of the same plan."
+    },
+    {
+      "type": "h2",
+      "text": "The plan on one card"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Rule",
+        "The number"
+      ],
+      "rows": [
+        [
+          "Extra domains",
+          "Never your main domain. 1 or 2 spares."
+        ],
+        [
+          "Inboxes per domain",
+          "3"
+        ],
+        [
+          "Warm-up before any cold email",
+          "14 days"
+        ],
+        [
+          "Ramp (emails per inbox per day)",
+          "10, then 20, then 30"
+        ],
+        [
+          "Daily cap per inbox",
+          "30. Never 100."
+        ],
+        [
+          "Weekly check",
+          "Every Monday"
+        ],
+        [
+          "Bounce rate",
+          "Under 2%"
+        ],
+        [
+          "Warm-up health score",
+          "95 or higher"
+        ],
+        [
+          "Warm-up",
+          "On forever"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The 30-day calendar"
+    },
+    {
+      "type": "p",
+      "text": "This calendar assumes day 1 is a Monday and you send cold email on working days only."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Days",
+        "What you do",
+        "Cold emails per inbox per day"
+      ],
+      "rows": [
+        [
+          "Day 1",
+          "Buy extra domains. Create 3 inboxes on each. Add SPF, DKIM and DMARC. Turn warm-up on.",
+          "0"
+        ],
+        [
+          "Days 2–14",
+          "Warm-up only. Verify your lead list. Write your emails. Set up Google Postmaster Tools.",
+          "0"
+        ],
+        [
+          "Day 8 (Monday)",
+          "First health check. Is warm-up running on every inbox?",
+          "0"
+        ],
+        [
+          "Day 15 (Monday)",
+          "Health check. If healthy, start your first campaign.",
+          "10"
+        ],
+        [
+          "Days 15–21",
+          "Send the first small batches. Watch bounces daily.",
+          "10"
+        ],
+        [
+          "Day 22 (Monday)",
+          "Health check. If healthy, step up.",
+          "20"
+        ],
+        [
+          "Days 22–28",
+          "Keep sending at 20. Reply to every answer fast.",
+          "20"
+        ],
+        [
+          "Day 29 (Monday)",
+          "Health check. If healthy, go to full volume.",
+          "30"
+        ],
+        [
+          "Day 30 and on",
+          "Full volume. Warm-up stays on. Check every Monday.",
+          "30"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 1: Extra domains (days 1–2)"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** cold email always carries some risk. If you send it from your main domain and something goes wrong, your normal emails to clients, invoices and password resets can start going to spam too. With extra domains, one domain stays safe: your real business email."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Buy domains that look like your brand. For acme.com: getacme.com, tryacme.com, acmehq.com.",
+        "Use **.com** where you can.",
+        "Point each new domain to your real website, so anyone who checks it lands somewhere real.",
+        "Create **3 inboxes per domain**, with real names (anna@getacme.com), a photo and a signature.",
+        "Add **SPF, DKIM and DMARC** to every domain before it sends a single email.",
+        "Buy **1 or 2 spare domains** and warm them up too, so you can swap one in without starting over."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Authentication is not optional anymore. [Yahoo's sender rules](https://senders.yahooinc.com/best-practices) say every sender needs SPF or DKIM at minimum, and bulk senders need both plus a DMARC policy. [Microsoft's Outlook rules](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/strengthening-email-ecosystem-outlook%e2%80%99s-new-requirements-for-high%e2%80%90volume-senders/4399730) require SPF, DKIM and DMARC for domains sending more than **5,000 emails a day** to Outlook, Hotmail and Live addresses. Since May 5, 2025, mail that fails goes to Junk, and Microsoft says it may later be rejected."
+    },
+    {
+      "type": "tip",
+      "label": "Why 3 per domain",
+      "text": "3 inboxes × 30 emails = about 90 a day per domain. That looks like a small team, not a blast. And if one domain gets in trouble, you lose 3 inboxes, not everything."
+    },
+    {
+      "type": "h2",
+      "text": "Step 2: Warm up for 14 days (days 1–14)"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** a brand-new inbox has no history. If it suddenly sends to strangers, it looks exactly like a spammer. Warm-up gives it history first. Your inboxes swap normal emails with other real inboxes in a warm-up network. Those emails get opened, replied to and moved out of spam. Gmail and Outlook learn you're a real sender."
+    },
+    {
+      "type": "p",
+      "text": "[Instantly's warm-up guide](https://help.instantly.ai/articles/5975329-how-warm-up-works-and-why-it-s-important) says an account should be warmed up for **at least 2 weeks** before campaigns, and new accounts should stick to **10 warm-up emails a day**. It also says never to turn on \"disable slow warmup\" for new accounts."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Connect every inbox to your sending tool (Instantly, Smartlead or similar) and turn warm-up on, on day 1.",
+        "Keep the tool's slow warm-up setting. Don't speed it up.",
+        "Send **zero cold emails** for 14 days. Not even \"just a few\".",
+        "Use the 14 days well: verify your lead list, write your emails, and set up [Google Postmaster Tools](https://postmaster.google.com) for each domain.",
+        "On day 14, check the warm-up health score of every inbox before you move on."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "How to read the health score"
+    },
+    {
+      "type": "p",
+      "text": "In Instantly, the health score is the share of warm-up emails that land in the inbox instead of spam, over the last 7 days. Instantly's own example: **70 warm-up emails, 3 in spam, gives about 95.7%** (67 ÷ 70). Instantly says the score should be above 90% before you start. We use a stricter line: **95 or higher**. Note that it only measures warm-up emails, not your real campaign, so it's an early warning, not a guarantee."
+    },
+    {
+      "type": "h2",
+      "text": "Step 3: Ramp slowly, 10 → 20 → 30 (days 15–30)"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** providers watch for sudden changes. A jump from 0 to 100 cold emails looks like a hacked account or a spammer. Small steps give providers time to see that people open, reply and don't complain. [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) says new domains should start slow and build up over **4 to 6 weeks** before full volume. This calendar reaches 30 a day in week 5."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Days 15–21:** 10 cold emails per inbox per day.",
+        "**Days 22–28:** 20 per inbox per day, only if Monday's check is green.",
+        "**Day 29 on:** 30 per inbox per day, again only if Monday's check is green.",
+        "If any check is red, stay at the current step for another week. Don't step up."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Why stop at 30? In [Hunter's State of Cold Email report](https://hunter.io/the-state-of-cold-email) (31 million emails sent in 2025), inboxes sending **20 to 49 emails a day got a 5.7% reply rate**, against a 4.5% average. 30 sits safely in that range. Need more volume? Add inboxes. Never push one inbox to 100."
+    },
+    {
+      "type": "tip",
+      "label": "Send steady, not in bursts",
+      "text": "Send about the same amount every working day. Instantly's benchmark report says teams that keep domain health stable and send consistently see 15 to 20% more replies, and that erratic volume kills deliverability."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: 2 domains, 6 inboxes"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Day 1: buy 2 domains, create 3 inboxes on each = **6 inboxes**. Turn warm-up on.",
+        "Days 1–14: 0 cold emails.",
+        "Days 15–21 (5 working days): 6 × 10 = **60 a day**, so 300 emails that week.",
+        "Days 22–28 (5 working days): 6 × 20 = **120 a day**, so 600 emails that week.",
+        "Days 29–30 (Mon and Tue): 6 × 30 = **180 a day**, so 360 emails.",
+        "Total by day 30: 300 + 600 + 360 = **1,260 cold emails**, from inboxes that are still healthy.",
+        "From then on: 180 a day × about 22 working days = about **3,960 a month**, and each domain sends only 90 a day."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Compare that with the day-1 rush: 6 inboxes × 100 = 600 emails on the first day. It looks faster. But if those emails land in spam, the domains are burned, and you start over with new domains and another 2 weeks of warm-up."
+    },
+    {
+      "type": "h2",
+      "text": "Step 4: Check every Monday"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** domains rarely die overnight. The numbers slip a little each week first. A 10-minute Monday check catches the slip while it's still easy to fix."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Check",
+        "Green",
+        "If it's red"
+      ],
+      "rows": [
+        [
+          "Bounce rate",
+          "Under 2%",
+          "Stop sending to that list. Verify it again before you continue."
+        ],
+        [
+          "Warm-up health score",
+          "95 or higher",
+          "Pause cold emails on that inbox. Keep warm-up on. Check again next Monday."
+        ],
+        [
+          "Spam rate (Google Postmaster Tools)",
+          "Under 0.1%",
+          "Cut that domain to half volume. Check your list and your email."
+        ],
+        [
+          "Replies per inbox",
+          "Similar across inboxes",
+          "If one inbox is far lower, it's probably in spam. Rest it."
+        ],
+        [
+          "Warm-up switch",
+          "On, on every inbox",
+          "Turn it back on."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Where the lines come from: [Instantly's benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) says keep bounces below 2%. [Hunter's report](https://hunter.io/the-state-of-cold-email) found the average bounce rate is 3.6%, which is why you verify every list first. [Google's sender FAQ](https://support.google.com/a/answer/14229414) says keep the spam rate **below 0.1%** and never let it reach **0.3%**. [Yahoo](https://senders.yahooinc.com/best-practices) also asks bulk senders to stay below 0.3%. 0.1% means 1 spam report per 1,000 emails."
+    },
+    {
+      "type": "tip",
+      "label": "Quick bounce math",
+      "text": "At 180 emails a day, 2% is 3.6 bounces. So 4 or more bounces in one day from 6 inboxes means stop and check the list."
+    },
+    {
+      "type": "h2",
+      "text": "Never turn warm-up off"
+    },
+    {
+      "type": "p",
+      "text": "Warm-up is not a step you finish. It keeps a steady stream of good activity on each inbox, even after cold sending starts. [Instantly's warm-up FAQ](https://help.instantly.ai/en/articles/7887512-warmup-faqs) recommends keeping warm-up on for as long as you use the accounts. And don't switch warm-up tools or reset warm-up for no reason: the history you built is the point."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Replies stop in week 1 or 2 of sending",
+          "Cold emails started before 14 days of warm-up",
+          "Pause cold emails. Keep warm-up on for 1 to 2 more weeks. Restart at 10 a day."
+        ],
+        [
+          "Bounces over 2%",
+          "List not verified",
+          "Stop that list. Verify it. Remove invalid and risky addresses."
+        ],
+        [
+          "Health score drops below 95",
+          "Ramped too fast, or too many cold emails per inbox",
+          "Pause cold emails on that inbox for a week. Go back one ramp step."
+        ],
+        [
+          "One inbox gets far fewer replies",
+          "That inbox is landing in spam",
+          "Rest it. Move its share to a spare inbox."
+        ],
+        [
+          "Main business email going to spam",
+          "Cold email sent from the main domain",
+          "Stop cold email on the main domain. Move it to extra domains."
+        ],
+        [
+          "Results swing up and down",
+          "Big bursts on some days, nothing on others",
+          "Send a similar amount every working day."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Sending cold email from your main domain.",
+        "Skipping warm-up because \"the domain is new, so it's clean\". New is exactly the problem.",
+        "Going from 0 to 100 per inbox on day 1.",
+        "Turning warm-up off once campaigns start.",
+        "Stepping up the ramp when Monday's check is red.",
+        "Using a list nobody verified."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Build your own 30-day calendar with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "30-day warm-up calendar prompt",
+      "text": "I'm starting cold email. Day 1 is [date]. I will buy [number] extra domains with 3 inboxes on each.\nRules: never send from my main domain. Warm-up on from day 1 and never off. 14 days of warm-up with zero cold emails. Then 10 cold emails per inbox per day in week 3, 20 in week 4, and 30 from week 5. Cold emails on working days only. Every Monday: bounce rate under 2%, warm-up health score 95+, spam rate under 0.1%. If a check is red, stay at the same step for another week.\n\nGive me:\n1) a day-by-day calendar with real dates for days 1 to 30,\n2) total cold emails per day and per week,\n3) the total sent by day 30,\n4) a Monday checklist I can copy into my calendar.\nShow the math."
+    },
+    {
+      "type": "tip",
+      "label": "Day 30 checklist",
+      "text": "Extra domains. 14 days. 10-20-30. Mondays. Day 30 should look like a village, not a crime scene."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Instantly: How warm-up works and why it's important",
+      "url": "https://help.instantly.ai/articles/5975329-how-warm-up-works-and-why-it-s-important",
+      "note": "2-week minimum, 10 warm-up emails a day for new accounts, health score"
+    },
+    {
+      "name": "Instantly: Warmup FAQs",
+      "url": "https://help.instantly.ai/en/articles/7887512-warmup-faqs",
+      "note": "Keep warm-up on as long as you use the accounts"
+    },
+    {
+      "name": "Instantly 2026 benchmark report",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "4 to 6 week ramp, bounce rate under 2%, steady sending"
+    },
+    {
+      "name": "Hunter: The State of Cold Email",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Reply rate by daily volume per inbox, average bounce rate"
+    },
+    {
+      "name": "Google: Email sender guidelines FAQ",
+      "url": "https://support.google.com/a/answer/14229414",
+      "note": "Bulk sender definition and spam rate limits"
+    },
+    {
+      "name": "Microsoft: Outlook's new requirements for high-volume senders",
+      "url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/strengthening-email-ecosystem-outlook%e2%80%99s-new-requirements-for-high%e2%80%90volume-senders/4399730",
+      "note": "SPF, DKIM and DMARC for domains over 5,000 emails a day"
+    },
+    {
+      "name": "Yahoo Sender Hub: Best practices",
+      "url": "https://senders.yahooinc.com/best-practices",
+      "note": "Authentication rules and 0.3% spam rate limit"
+    },
+    {
+      "name": "Google Postmaster Tools",
+      "url": "https://postmaster.google.com",
+      "note": "Free spam rate dashboard for your domains"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I skip warm-up if I buy pre-warmed inboxes?",
+      "a": "Instantly says inboxes bought pre-warmed from them can be used in campaigns from day 1. Still keep warm-up on, ramp in steps, and run the Monday check. Pre-warmed doesn't mean you can send 100 a day."
+    },
+    {
+      "q": "Is 14 days always enough?",
+      "a": "It's the minimum. Instantly suggests 2 to 4 weeks for new domains. If health scores are under 95 on day 14, keep warming up for another week."
+    },
+    {
+      "q": "What if a Monday check is red halfway through?",
+      "a": "Don't step up. Stay at the current volume, or go back one step, keep warm-up on and fix the cause first (usually the list). Step up again only after a green Monday."
+    },
+    {
+      "q": "How do I get to more than 30 a day per inbox?",
+      "a": "Don't push one inbox harder. Add more domains and inboxes and run them through the same 30-day calendar. Our [sending calculator](/guides/math.html) shows how many you need."
+    }
+  ]
+}

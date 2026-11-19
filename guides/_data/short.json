@@ -1,0 +1,345 @@
+{
+  "slug": "short",
+  "keyword": "SHORT",
+  "title": "The Short-Email Kit: The 4-Step Cut That Gets Cold Emails Under 75 Words",
+  "description": "The 4-step cut from the reel: cut the opener, one idea, make it about them, a tiny ask. Plus a full before-and-after, a problem finder and a copy-paste prompt.",
+  "lead": "This is the full short-email kit from the reel. You get the 4-step cut, the under-75-words rule, the \"every line has one job\" check, a real email cut from 92 words to 31, and a prompt that does the cut for you.",
+  "insider": "Every first email we write for clients goes through this cut before it sends: one idea, written about the reader, ending in a small question. It's a big part of why one agency client of ours got **2,146 interested replies** in four and a half months. The short email is the easy part. The full system around it (the list, the inboxes and the follow-ups) is what we run for clients.",
+  "case": "case-01",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why short emails get more replies"
+    },
+    {
+      "type": "p",
+      "text": "A cold email is read by a stranger who didn't ask for it, usually on a phone, usually in a few seconds. A long email asks them to do work before they even know why they should care. A short one asks for almost nothing."
+    },
+    {
+      "type": "p",
+      "text": "The data agrees. [Hunter analyzed 34 million cold emails](https://hunter.io/blog/cold-email-word-count) and found that emails of **20 to 39 words had the highest average reply rate (4.5%)**. Emails under 100 words averaged **3.9%** vs **3.7%** for longer ones. [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) found that elite senders average **fewer than 80 words** per first email, with a single call to action."
+    },
+    {
+      "type": "p",
+      "text": "Short also feels less like a sales pitch, which matters. In [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email), **65% of decision makers** said cold emails fail because they feel too sales-focused, and **61%** said they fail because they aren't relevant."
+    },
+    {
+      "type": "h2",
+      "text": "The rule: under 75 words, always"
+    },
+    {
+      "type": "p",
+      "text": "Count every word from \"Hi\" to the question mark. If the first email is over 75 words, it's not done yet. Most good first emails land between 25 and 60. Follow-ups should be even shorter."
+    },
+    {
+      "type": "tip",
+      "label": "Not too short either",
+      "text": "Short doesn't mean empty. In Hunter's data, emails under 20 words did worse (3.7%) than 20 to 39 words (4.5%). A 10-word email that doesn't say who it's for or why gets ignored too. You still need all 4 jobs below."
+    },
+    {
+      "type": "h2",
+      "text": "The 4-step cut"
+    },
+    {
+      "type": "p",
+      "text": "Write your email the normal way first. Then run these 4 cuts in order. Each one removes a different kind of extra."
+    },
+    {
+      "type": "h3",
+      "text": "01. Cut the opener"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** the first line shows in the inbox preview before anyone opens the email. \"I hope this email finds you well\" and \"My name is Sam and I work at...\" waste that space and tell the reader this is a mass email. Your name is already in the From line."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Delete every sentence before the first one that's about **them**.",
+        "Delete \"I hope\", \"I wanted to reach out\", \"I came across\" and \"My name is\".",
+        "Start with something true about their business: a new location, a hire, a post they wrote. Our WELL guide has 5 opener formulas."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "02. One idea only"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** a list of everything you do makes the reader do the matching. They won't. One service, tied to one problem they probably have, is easy to say yes or no to. This is usually the biggest cut, because feature lists and \"about us\" lines are where long emails get long."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Pick the **one** thing you sell that fits this list best. Save the rest for the call.",
+        "Delete the feature list, the awards, the \"data-driven approach\" and the company history.",
+        "Keep one proof only: one result for a company like theirs. Use a real one you can back up."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "03. Make it about THEM (we → you)"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** people read what's about them and skim what's about you. Sentences that start with \"We\" or \"Our\" sound like an ad. The same fact, turned around to be about their problem or result, sounds like help."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Highlight every \"I\", \"we\", \"our\" and \"us\".",
+        "Rewrite each one so the subject is them, their business or a company like theirs. \"We help clinics get patients\" becomes \"New clinics often take months to fill.\"",
+        "Aim for more \"you\" and \"your\" than \"we\" and \"our\". Your company name can appear once, or not at all."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "04. A tiny ask"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** \"Can we book 30 minutes next week?\" asks a stranger for half an hour. \"Worth a look?\" asks for one word. Instantly found top performers use yes-or-no questions like \"Does this make sense?\" or \"Worth a quick call?\". Hunter found decision makers prefer low-pressure asks like \"Open to learning more?\" over booking a meeting up front."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "End with **one** question that can be answered in 1 to 3 words.",
+        "Remove the calendar link and the meeting length from the first email.",
+        "Good options: \"Worth a look?\", \"Open to seeing how?\", \"Is this on your list this quarter?\", \"Should I send the details?\""
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Every line has one job"
+    },
+    {
+      "type": "p",
+      "text": "After the 4 cuts, check what's left. A short cold email needs only 4 lines, and each line does exactly one job. If a line doesn't do one of these jobs, delete it. If two lines do the same job, keep the better one."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Line",
+        "Its one job",
+        "Example"
+      ],
+      "rows": [
+        [
+          "1",
+          "**Them:** something true about their business",
+          "Congrats on the second Tampa clinic."
+        ],
+        [
+          "2",
+          "**Their problem:** what usually comes with it",
+          "New locations often take months to fill."
+        ],
+        [
+          "3",
+          "**Proof:** one result for someone like them",
+          "A dental group in Orlando filled theirs in 8 weeks with paid ads."
+        ],
+        [
+          "4",
+          "**The ask:** one tiny question",
+          "Worth a look?"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: 92 words to 31"
+    },
+    {
+      "type": "p",
+      "text": "Here is a typical first email from a made-up marketing agency to a clinic owner. Word counts include the greeting."
+    },
+    {
+      "type": "prompt",
+      "label": "Before: 92 words",
+      "text": "Hi Mark, I hope this email finds you well. My name is Sam and I run growth at Brightline, a marketing agency that has worked with over 40 healthcare brands. We offer SEO, paid ads, social media, email marketing and website design, all under one roof. Our data-driven approach and award-winning team help companies grow faster. I noticed you recently opened a second clinic in Tampa, which is exciting. Would you be available for a 30-minute call next week so I can walk you through our services and share some case studies?"
+    },
+    {
+      "type": "p",
+      "text": "**Cut 01 (opener), 92 → 77 words:** delete \"I hope this email finds you well\" and \"My name is Sam\". Move the Tampa line to the top, because it's the only line about Mark."
+    },
+    {
+      "type": "prompt",
+      "label": "After cut 01: 77 words",
+      "text": "Hi Mark, I noticed you recently opened a second clinic in Tampa, which is exciting. Brightline is a marketing agency that has worked with over 40 healthcare brands. We offer SEO, paid ads, social media, email marketing and website design, all under one roof. Our data-driven approach and award-winning team help companies grow faster. Would you be available for a 30-minute call next week so I can walk you through our services and share some case studies?"
+    },
+    {
+      "type": "p",
+      "text": "**Cut 02 (one idea), 77 → 62 words:** keep only paid ads, the service that fits a new location best. Swap the \"40 brands\" and \"award-winning team\" lines for one specific result."
+    },
+    {
+      "type": "prompt",
+      "label": "After cut 02: 62 words",
+      "text": "Hi Mark, I noticed you recently opened a second clinic in Tampa, which is exciting. We run paid ads for healthcare clinics. We helped a dental group in Orlando fill the calendar at its new location in 8 weeks. Would you be available for a 30-minute call next week so I can walk you through our services and share some case studies?"
+    },
+    {
+      "type": "p",
+      "text": "**Cut 03 (about them), 62 → 51 words:** \"We run paid ads\" and \"We helped\" become his problem and a result for someone like him."
+    },
+    {
+      "type": "prompt",
+      "label": "After cut 03: 51 words",
+      "text": "Hi Mark, congrats on the second Tampa clinic. New locations often take months to fill. A dental group in Orlando filled theirs in 8 weeks with paid ads. Would you be available for a 30-minute call next week so I can walk you through our services and share some case studies?"
+    },
+    {
+      "type": "p",
+      "text": "**Cut 04 (tiny ask), 51 → 31 words:** a 23-word request for a meeting becomes a 3-word question."
+    },
+    {
+      "type": "prompt",
+      "label": "After cut 04: 31 words",
+      "text": "Hi Mark, congrats on the second Tampa clinic. New locations often take months to fill. A dental group in Orlando filled theirs in 8 weeks with paid ads. Worth a look?"
+    },
+    {
+      "type": "p",
+      "text": "The final email has 4 lines, and each one does one job: them, their problem, proof, the ask. The body after \"Hi Mark,\" is 29 words. Nothing important was lost. The services list, the team and the case studies all still exist. They just wait for the reply."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder: why your short email still doesn't work"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "It's short but feels cold and robotic",
+          "Cut too much: no line about them",
+          "Put back line 1. One true detail about their business."
+        ],
+        [
+          "Replies ask \"what is this?\"",
+          "No clear problem or proof",
+          "Check lines 2 and 3. Name the problem and one real result."
+        ],
+        [
+          "Still over 75 words",
+          "Two ideas, or a feature list crept back",
+          "Redo cut 02. One service, one proof."
+        ],
+        [
+          "Lots of \"not interested\" replies",
+          "The idea doesn't fit this list",
+          "Change the idea or tighten the list, not the length."
+        ],
+        [
+          "Replies, but nobody books",
+          "The ask is too big, or too vague",
+          "One yes-or-no question. Then answer interested replies fast."
+        ],
+        [
+          "Sounds like everyone else",
+          "Generic opener or AI-style praise",
+          "Swap \"impressed by your growth\" for a specific fact."
+        ],
+        [
+          "Every sentence starts with \"We\"",
+          "Cut 03 was skipped",
+          "Rewrite each \"we\" line around their problem or result."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes when cutting"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Cutting the only personal line.** It's often the line people delete first. Keep it, it's line 1.",
+        "**Keeping the proof vague.** \"We've helped many companies\" is a wasted line. One specific result beats three general claims.",
+        "**Swapping the meeting ask for a link.** A calendar link in the first email is still a big ask, and links can hurt deliverability.",
+        "**Writing in shorthand to hit the count.** Drop extra ideas, not grammar. It should still read like a normal person wrote it.",
+        "**Adding everything back in the follow-ups.** Each follow-up is its own short email with one new angle."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Cut your email with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "The 4-step cut prompt",
+      "text": "You are editing a cold email. Cut it to under 75 words (counting the greeting) using these 4 steps, in order:\n\n1. Cut the opener: delete \"I hope\", \"My name is\", \"I wanted to reach out\", \"I came across\" and any line before the first line about the reader.\n2. One idea only: keep the one service that fits this reader best and one proof. Delete feature lists, awards and company history.\n3. Make it about them: rewrite every \"we/our/I\" sentence so it is about the reader's business, problem or a company like theirs.\n4. A tiny ask: end with one yes-or-no question of 1 to 4 words, like \"Worth a look?\". No meeting length, no calendar link.\n\nThe final email must have 4 lines, each with one job: (1) something true about them, (2) their likely problem, (3) one proof, (4) the ask.\n\nRules: plain text, short sentences, no buzzwords, no exclamation marks. Only use facts that are in my email. Don't invent results, names or numbers.\n\nShow the result after each step with its word count, then the final version and its word count.\n\nMy email:\n[paste your email]"
+    },
+    {
+      "type": "tip",
+      "label": "Check the count yourself",
+      "text": "AI tools often miscount words. Paste the final version into any word counter (Google Docs: Tools > Word count) before you send."
+    },
+    {
+      "type": "h2",
+      "text": "Your pre-send checklist"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Under 75 words, counted from \"Hi\" to the question mark.",
+        "The first line is about them, not you.",
+        "One idea and one proof. No feature list.",
+        "More \"you/your\" than \"we/our\".",
+        "Ends with one small yes-or-no question.",
+        "Plain text, no images, no calendar link.",
+        "Every line does exactly one job: them, their problem, proof, the ask."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Bottom line",
+      "text": "Less to read, more people actually read it. Cut until every line has one job, then stop."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: Best word count for cold emails",
+      "url": "https://hunter.io/blog/cold-email-word-count",
+      "note": "34 million cold emails: 20 to 39 words got the highest reply rate"
+    },
+    {
+      "name": "Instantly 2026 benchmark report",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Elite senders keep first emails under 80 words with one call to action"
+    },
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Why decision makers ignore cold emails, and which asks they prefer"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the 4-step cut prompt with your email"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I count the greeting and signature?",
+      "a": "Count everything the reader has to read in the body, from \"Hi\" to the question. Leave out a standard signature. If you're close to 75, the greeting is not the problem. A second idea usually is."
+    },
+    {
+      "q": "Isn't a 30-word email too short to explain what I do?",
+      "a": "The first email doesn't have to explain what you do. It only has to earn a reply. Hunter's data on 34 million cold emails found that 20 to 39 words got the highest reply rate. Save the details for the reply or the call."
+    },
+    {
+      "q": "Does the under-75 rule apply to follow-ups too?",
+      "a": "Yes, and follow-ups can be even shorter. Each one should bring one new angle, like a different problem or a different proof, not a repeat of email 1."
+    },
+    {
+      "q": "What if my product is complex or technical?",
+      "a": "Then the one-idea step matters even more. Pick the single problem your buyer feels most, name it in their words and give one result. Technical buyers skim too."
+    }
+  ],
+  "date": "2026-11-19",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "posted 2026-11-19"
+}
