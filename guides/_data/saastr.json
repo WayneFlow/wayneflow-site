@@ -1,0 +1,437 @@
+{
+  "slug": "saastr",
+  "keyword": "SAASTR",
+  "date": "2026-11-20",
+  "draft": false,
+  "instantdm": "pending",
+  "title": "SaaStr's AI SDR Setup: AI Sends the Volume, You Handle the Replies",
+  "description": "SaaStr says its AI SDR sends 3,221 emails a month vs 75-285 per human rep. The 4-step setup, the guardrails, the math and a copy-paste prompt.",
+  "lead": "This is the full SaaStr breakdown from the reel. You get what SaaStr actually reported (and what it didn't), the 4-step setup where AI does the volume and you handle the replies, the guardrails that keep it out of spam, a worked example for a two-person team, a problem finder, and a prompt that writes and follows up in your voice.",
+  "insider": "On client campaigns we let software do the sending and the follow-ups, and people handle every reply. That's how our 5-day blitz worked: **96,408 emails, 1,095 replies, 115 interested buyers and 25 calls booked in five days**, and we answered every reply. The tactic is the easy part. The full system (the list, the inboxes and the follow-ups) is what we run for clients.",
+  "case": "case-03",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "What SaaStr actually said"
+    },
+    {
+      "type": "p",
+      "text": "SaaStr is Jason Lemkin's company. It runs big SaaS events and a popular blog. In late November 2025, Lemkin shared numbers from SaaStr's own AI sales tools. These are **SaaStr's self-reported numbers**. Nobody outside the company checked them, so read them as one company's experience, not a promise."
+    },
+    {
+      "type": "table",
+      "head": [
+        "What SaaStr reported",
+        "The number",
+        "Source"
+      ],
+      "rows": [
+        [
+          "Emails sent by one AI SDR, from one of their 3 AI SDR platforms",
+          "3,221 a month",
+          "[SaaStr, Nov 28 2025](https://www.saastr.com/our-ai-sdrs-are-sending-10x-more-emails-than-our-human-sdrs-with-same-or-better-results/)"
+        ],
+        [
+          "Emails sent by each human SDR, six months earlier",
+          "75 to 285 a month",
+          "[SaaStr, Nov 28 2025](https://www.saastr.com/our-ai-sdrs-are-sending-10x-more-emails-than-our-human-sdrs-with-same-or-better-results/)"
+        ],
+        [
+          "AI SDR positive response rate",
+          "5.54% to 12.13%, depending on how warm the list was",
+          "[SaaStr, Nov 28 2025](https://www.saastr.com/our-ai-sdrs-are-sending-10x-more-emails-than-our-human-sdrs-with-same-or-better-results/)"
+        ],
+        [
+          "Responses: top human vs the AI",
+          "28 a month vs 320 to 385 a month (\"11-13x more\")",
+          "[SaaStr, Nov 28 2025](https://www.saastr.com/our-ai-sdrs-are-sending-10x-more-emails-than-our-human-sdrs-with-same-or-better-results/)"
+        ],
+        [
+          "AI agent on their website (inbound, since August 2025)",
+          "91 meetings booked, $1,010,000 closed-won revenue, $2,500,000 in pipeline",
+          "[SaaStr, Nov 23 2025](https://www.saastr.com/ai-inbound-how-we-went-from-30-to-71-of-revenue-from-inbound-by-letting-ai-qualify-24-7/)"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Two details the reel skips",
+      "text": "First, the $1,010,000 is **closed revenue** from an AI agent on SaaStr's **website** (it chats with visitors), with another $2.5M still in pipeline. It is not from cold email. Second, the 5.5% to 12% response rates came from **warm lists**: past SaaStr event attendees and known website visitors. A list of strangers will usually do worse."
+    },
+    {
+      "type": "p",
+      "text": "Here is SaaStr's own math. A top human SDR sent **285 emails a month** at about **10%** response on warm leads, which is about **28 responses**. The AI sent **3,221 emails a month** at about **10% to 12%**, which SaaStr puts at **320 to 385 responses**. So the reply **rate** stayed about the same. The **volume** went up more than 10 times, so the number of replies went up with it."
+    },
+    {
+      "type": "quote",
+      "text": "\"...response rates were always a function of lead quality, not who was doing the outreach.\" ([SaaStr](https://www.saastr.com/our-ai-sdrs-are-sending-10x-more-emails-than-our-human-sdrs-with-same-or-better-results/))"
+    },
+    {
+      "type": "h2",
+      "text": "\"More emails = more spam?\" Not if the rate holds"
+    },
+    {
+      "type": "p",
+      "text": "Sending 10 times more only works if each email is still a good email to a good person. SaaStr's point is that the AI did not lower the quality bar. It sent the same kind of message, to the same kind of list, just much more of it. If your rate drops when your volume goes up, you have not scaled. You have just found people faster who don't want to hear from you."
+    },
+    {
+      "type": "p",
+      "text": "Lemkin says it plainly in a [later SaaStr post](https://www.saastr.com/the-1-most-important-thing-to-understand-about-ai-sdrs/): **\"10x times zero is still zero.\"** AI multiplies a playbook that already works. If your list or offer is weak, the AI just gets you ignored faster, and it burns through your market and your domains on the way."
+    },
+    {
+      "type": "h2",
+      "text": "The 4-step setup: AI does the volume, you close"
+    },
+    {
+      "type": "p",
+      "text": "This is the split SaaStr describes. The machine handles the repeat work. People handle the conversations. You can copy it with any cold email tool and any AI writing tool."
+    },
+    {
+      "type": "h3",
+      "text": "01. AI writes"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** writing one good email for each person takes a human 5 to 10 minutes. AI can do it in seconds, if you give it what a good email looks like. SaaStr trained its AI SDR on its best seller and fed it a huge amount of its own content. You don't need that much. You need your best emails and clear rules."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Collect 3 to 5 cold emails that already got replies, written by you or your best rep. These teach the AI your voice.",
+        "Write down your offer in one sentence and your best proof (one real result).",
+        "Use the prompt at the bottom of this guide to write the first email and the follow-ups.",
+        "**Read the first batch yourself.** SaaStr says it read and scored the first 1,000 emails by hand on a 5-point scale. Start with at least 50."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "02. AI sends"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** sending is where most humans slow down. A person gets busy and sends 20 emails one day and none the next. Software sends a steady amount every working day, from many inboxes, at safe limits."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Load your verified list into a sending tool (Instantly, Smartlead or similar).",
+        "Send from separate sending domains, never your main company domain.",
+        "Keep each inbox low. We use about 30 cold emails a day per inbox. Our [MATH guide](/guides/math.html) shows how many inboxes you need.",
+        "Send the same amount every working day instead of big bursts."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "03. AI follows up (every working day)"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** follow-ups are where humans quit first. In [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026), **58% of replies came from the first email and 42% came from the follow-ups**. Skip follow-ups and you lose a big part of your replies."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Plan 2 or 3 follow-ups per person, spaced 3 to 4 days apart. The tool sends whatever is due each day, so follow-ups go out daily, but each person hears from you only every few days.",
+        "Make each follow-up shorter than the last, with a new angle. Never \"just bumping this\".",
+        "Stop the sequence the moment someone replies. Every tool has this setting. Turn it on."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "04. YOU handle the replies"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** a reply is a real person, and it's where the money is. SaaStr's own list of what humans should do includes \"responding to high-intent conversations AI surfaces\" and \"building relationships with responded leads.\" An AI can sort replies. A human should answer the ones that matter."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Check replies at least twice every working day. Fast answers win meetings.",
+        "Sort every reply into one of four groups: **Interested**, **Not now**, **Wrong person**, **No / remove me**.",
+        "Answer every Interested reply yourself, in your own words, and offer two times to talk.",
+        "Remove every \"No\" right away, and never email them again."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The guardrails (skip these and it backfires)"
+    },
+    {
+      "type": "h3",
+      "text": "Guardrail 1: a good list"
+    },
+    {
+      "type": "p",
+      "text": "SaaStr's best results came from people who already knew SaaStr. Its colder list (older event attendees) got about half the response rate. Your list decides your ceiling more than the AI does."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Only people who match your best customers: same industry, size and job title.",
+        "Verify every email address before it goes in the tool.",
+        "Start with your warmest people first: past leads, past customers, people who visited your site or came to your events."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Guardrail 2: an offer that already works"
+    },
+    {
+      "type": "p",
+      "text": "Lemkin's test: if you hired 100 junior reps tomorrow and gave them a perfect script, could they sell? If yes, AI can run it. If no, you have a \"figuring it out\" problem, and AI won't fix it. Before you scale, get replies from a small batch (a few hundred people) with a human reading every one."
+    },
+    {
+      "type": "h3",
+      "text": "Guardrail 3: the Google and Microsoft sender rules"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Rule",
+        "Who sets it",
+        "What to do"
+      ],
+      "rows": [
+        [
+          "Set up SPF or DKIM (all senders)",
+          "[Google](https://support.google.com/mail/answer/81126)",
+          "Add SPF, DKIM and DMARC on every sending domain before you send anything."
+        ],
+        [
+          "SPF, DKIM and DMARC for senders of 5,000+ emails a day to Gmail",
+          "[Google](https://support.google.com/mail/answer/81126)",
+          "Even if you're under 5,000, set all three. It costs nothing and protects you."
+        ],
+        [
+          "Keep spam rate in Postmaster Tools below 0.3%",
+          "[Google](https://support.google.com/mail/answer/81126)",
+          "Check [Google Postmaster Tools](https://postmaster.google.com) every week. At 3,000 emails a month, 0.3% is only 9 spam reports."
+        ],
+        [
+          "SPF, DKIM and DMARC for domains sending 5,000+ emails a day to Outlook.com, Hotmail and Live addresses",
+          "[Microsoft](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730)",
+          "Same three records. DMARC can start at p=none."
+        ],
+        [
+          "Easy way to unsubscribe",
+          "[Google](https://support.google.com/mail/answer/81126)",
+          "Make it easy to say no. Honor every \"remove me\" right away."
+        ]
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Guardrail 4: a human in the loop"
+    },
+    {
+      "type": "p",
+      "text": "Even after training, SaaStr says it still spends **30 to 45 minutes a day** auditing and reviewing what its AI SDR does ([source](https://www.saastr.com/the-1-most-important-thing-to-understand-about-ai-sdrs/)). Plan for that time. Read a sample of sent emails each day, and read every reply yourself."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: a two-person team"
+    },
+    {
+      "type": "p",
+      "text": "A founder and one assistant sell a B2B service. They want to send about 3,000 cold emails a month, close to SaaStr's 3,221. Here is the math, step by step."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Daily volume:** 3,000 emails ÷ 20 working days = **150 emails a day**.",
+        "**Inboxes:** 150 ÷ 30 per inbox = **5 inboxes**. Add 1 spare = **6 inboxes**.",
+        "**Domains:** 6 inboxes ÷ 3 per domain = **2 sending domains**. That's 75 emails a day per domain, far below the 5,000-a-day line in the Google and Microsoft rules.",
+        "**People reached:** each person gets up to 3 emails (1 first email + 2 follow-ups). 3,000 ÷ 3 = **about 1,000 new people a month**. (SaaStr's campaigns averaged close to 3 too: 2,175 messages to 800 people is 2.7 each.)",
+        "**Spam limit:** 0.3% of 3,000 = **9 spam reports a month, max**. If you get close to that, slow down and fix the list."
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Reply rate (replies ÷ people reached)",
+        "Replies a month (of 1,000 people)",
+        "Replies per working day",
+        "Reply-handling time at 5 min each"
+      ],
+      "rows": [
+        [
+          "3.43% (Instantly's 2026 average)",
+          "34",
+          "1.7",
+          "2 hr 50 min a month"
+        ],
+        [
+          "5.5% (Instantly's top quarter, and SaaStr's cooler list)",
+          "55",
+          "2.75",
+          "4 hr 35 min a month"
+        ],
+        [
+          "10% (SaaStr's warm-list rate)",
+          "100",
+          "5",
+          "8 hr 20 min a month"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Check the math: 1,000 × 3.43% = 34.3, so 34 replies. 1,000 × 5.5% = 55. 1,000 × 10% = 100. Divide each by 20 working days for replies per day. At 5 minutes per reply, 34 replies = 170 minutes, 55 = 275 minutes, 100 = 500 minutes."
+    },
+    {
+      "type": "p",
+      "text": "Two lessons. First, replying is **not** the hard part on time. Even 100 replies is about 8 hours a month. What hurts is replying slowly. Second, the list matters more than the tool: moving from a cold list to a warm one about triples the replies at the same volume. If **1 in 5** of the 55 replies becomes a call (use your own rate here), that's **11 calls a month** for the founder."
+    },
+    {
+      "type": "tip",
+      "label": "Compare it to hiring",
+      "text": "3,000 emails a month is about 10.5 times the 285 a month SaaStr's best human SDR sent (3,000 ÷ 285 = 10.5). The software does that sending. The founder keeps the part a person is best at: the conversations."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Likely cause",
+        "What to do"
+      ],
+      "rows": [
+        [
+          "Lots of emails, almost no replies",
+          "Weak list or weak offer (\"10x times zero\")",
+          "Pause. Send 200 emails written by hand to your best-fit people. If those don't get replies, fix the offer before you scale."
+        ],
+        [
+          "Replies dropped after you raised volume",
+          "Inboxes landing in spam",
+          "Check Google Postmaster Tools. Cut volume per inbox, keep warm-up on, and remove bad addresses."
+        ],
+        [
+          "Bounces climbing",
+          "List not verified, or old data",
+          "Stop that list. Verify it again. Our rule: pause if bounces go over 2%."
+        ],
+        [
+          "Replies say \"is this a bot?\"",
+          "AI copy sounds generic",
+          "Feed the AI more of your real emails. Ban buzzwords. Read 20 emails out loud before each new batch."
+        ],
+        [
+          "Interested replies, but few meetings",
+          "Slow or pushy human replies",
+          "Answer within a few hours. Offer two specific times. Don't send a long pitch back."
+        ],
+        [
+          "Same person got emails from two inboxes",
+          "List duplicates across campaigns",
+          "Dedupe by email and by company before you load the tool."
+        ],
+        [
+          "Spam reports near 0.3%",
+          "Wrong people, or no easy way to say no",
+          "Tighten the list to your best-fit buyers. Add a plain line that makes it easy to opt out."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The 6 mistakes that make AI outreach fail"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**\"Just turn it on.\"** Lemkin says this is how most AI SDR rollouts fail.",
+        "Scaling before a small human-run test has proven the offer.",
+        "Letting the AI answer interested replies with no human checking.",
+        "Sending from your main domain.",
+        "Raising volume by pushing each inbox harder instead of adding inboxes.",
+        "Never reading what the AI sends. SaaStr read its first 1,000 emails."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Copy-paste prompt: write and follow up in your voice"
+    },
+    {
+      "type": "p",
+      "text": "Use this in Claude, ChatGPT or any AI tool. Paste your real emails where it asks. The more of your real writing you give it, the more it sounds like you."
+    },
+    {
+      "type": "prompt",
+      "label": "Write + follow up in my voice",
+      "text": "You are my cold email writer. Write in MY voice, not a sales voice.\n\nHere are 3 to 5 cold emails I wrote that got replies (study my tone, sentence length and words):\n[paste your emails]\n\nWhat I sell (one sentence): [your offer]\nWho I'm emailing: [job title, industry, company size]\nMy proof (one real result): [your result]\nProspect info: [name, company, one true detail from their website or LinkedIn]\n\nWrite a 3-email sequence for this one prospect:\nEmail 1: under 75 words. First line is about them, using the true detail. One problem they likely have. One sentence with my proof. End with a yes-or-no question, no calendar link.\nEmail 2 (send 3 days later): under 50 words. A new angle or a useful idea. Do not say \"just following up\" or \"bumping this\".\nEmail 3 (send 4 days after email 2): under 40 words. Polite close-out. Make it easy to say \"not interested\".\n\nRules: no buzzwords, no exclamation marks, no made-up facts or numbers. If you don't know something, leave a [blank] for me to fill in. Give me 2 subject lines (3 words max, lowercase)."
+    },
+    {
+      "type": "prompt",
+      "label": "Bonus: sort my replies (I still answer them)",
+      "text": "Here are today's replies to my cold emails:\n[paste replies]\n\nSort each one into: Interested, Not now, Wrong person (note who they pointed to), or No / remove me.\nFor each Interested reply, draft a short answer in my voice (under 50 words) that offers two times to talk: [time 1] and [time 2].\nDo not send anything. I will read and edit every draft myself."
+    },
+    {
+      "type": "h2",
+      "text": "The bottom line"
+    },
+    {
+      "type": "p",
+      "text": "It's not AI **or** you. Let the AI do the volume: the writing, the sending and the follow-ups. You do the part that closes deals: the real conversations. But only after your list and your offer are good, because the AI will multiply whatever you give it."
+    }
+  ],
+  "resources": [
+    {
+      "name": "SaaStr: Our AI SDRs Are Sending 10x More Outbound Emails",
+      "url": "https://www.saastr.com/our-ai-sdrs-are-sending-10x-more-emails-than-our-human-sdrs-with-same-or-better-results/",
+      "note": "Source of 3,221 vs 75-285 emails and the 5.54-12.13% response rates (self-reported)"
+    },
+    {
+      "name": "SaaStr: How Our AI BDR Drove Inbound From 30% to 71% of Revenue",
+      "url": "https://www.saastr.com/ai-inbound-how-we-went-from-30-to-71-of-revenue-from-inbound-by-letting-ai-qualify-24-7/",
+      "note": "Source of the 91 meetings, $1,010,000 closed-won and $2.5M pipeline (self-reported)"
+    },
+    {
+      "name": "SaaStr: The #1 Most Important Thing to Understand About AI SDRs",
+      "url": "https://www.saastr.com/the-1-most-important-thing-to-understand-about-ai-sdrs/",
+      "note": "\"10x times zero\", the first 1,000 emails reviewed, 30-45 minutes a day of QA"
+    },
+    {
+      "name": "Instantly 2026 cold email benchmark report",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "3.43% average reply rate, 5.5% top quarter, 58% / 42% first email vs follow-ups"
+    },
+    {
+      "name": "Google email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "Official Gmail rules: authentication, 0.3% spam rate, 5,000-a-day bulk senders"
+    },
+    {
+      "name": "Microsoft: Outlook requirements for high-volume senders",
+      "url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730",
+      "note": "Official Outlook.com rules for domains sending 5,000+ emails a day"
+    },
+    {
+      "name": "Google Postmaster Tools",
+      "url": "https://postmaster.google.com",
+      "note": "Free spam rate and domain reputation dashboard"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are SaaStr's numbers proven?",
+      "a": "They are SaaStr's own, self-reported numbers from posts in November 2025. No outside group checked them. They also came mostly from warm lists (people who already knew SaaStr), so a cold list will usually reply less."
+    },
+    {
+      "q": "Was the $1,010,000 from cold email?",
+      "a": "No. SaaStr says it came from an AI agent on its website that chatted with visitors and booked 91 meetings. It was closed-won revenue, with another $2.5M in pipeline. The 3,221 emails a month is the outbound part."
+    },
+    {
+      "q": "Should the AI answer my replies too?",
+      "a": "Let it sort replies and draft answers, but have a person read and send the important ones. SaaStr keeps humans on high-intent conversations, and it still spends 30 to 45 minutes a day reviewing its AI's work."
+    },
+    {
+      "q": "Can I send 3,000 emails a month from one inbox?",
+      "a": "Don't. Spread the volume over several inboxes on separate sending domains, about 30 a day each. That's 6 inboxes on 2 domains for 3,000 a month in our worked example."
+    }
+  ]
+}

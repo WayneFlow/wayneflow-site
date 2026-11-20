@@ -1,0 +1,557 @@
+{
+  "slug": "rating",
+  "keyword": "RATING",
+  "date": "2026-11-20",
+  "draft": false,
+  "instantdm": "pending",
+  "title": "The Cold Email Scorecard: Rate Any Cold Email From 1 to 10 and Fix It",
+  "description": "The 1-10 scorecard from the reel: each bad cold email scored and fixed, the 10/10 template, a worked example and a prompt that rates your email.",
+  "lead": "This is the full cold email scorecard from the reel. You get the 5-check, 10-point rubric, every bad email from the reel scored with the reason why, before-and-after rewrites, the 4-part 10/10 template, a worked example taken from 2/10 to 10/10, and a prompt that rates and rewrites your email.",
+  "insider": "Every first email we write for clients has to pass this kind of check before it sends: their business, one proof, one small ask. It's a big part of why **88% of the replies** one agency client of ours got were positive, over four and a half months. The scorecard is the easy part. The full system around it (the list, the inboxes and the follow-ups) is what we run for clients.",
+  "case": "case-01",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why rate your own cold emails"
+    },
+    {
+      "type": "p",
+      "text": "Most people judge their cold email by one question: is it polite? That's the wrong test. The reader is a stranger. They give your email a few seconds, often on a phone. They don't care if it's polite. They care if it's about them and if it's easy to answer."
+    },
+    {
+      "type": "p",
+      "text": "The people who get these emails say the same thing. In [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email), **65% of decision makers** said cold emails fail because they feel too sales-focused. **61%** said they fail because they aren't relevant. A score from 1 to 10 makes those two problems easy to see before you hit send."
+    },
+    {
+      "type": "p",
+      "text": "This guide gives you the exact scorecard from the reel, the score (and the reason) for each bad email in it, the 10/10 structure, and a prompt that rates and rewrites any email for you. All companies in the examples are made up."
+    },
+    {
+      "type": "h2",
+      "text": "The scorecard: 5 checks, 10 points"
+    },
+    {
+      "type": "p",
+      "text": "Score every first email on these 5 checks. Add up the points. The weights are not equal on purpose: the line about **them** is worth the most, because it decides if the rest gets read."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Check",
+        "0 points",
+        "Middle points",
+        "Full points"
+      ],
+      "rows": [
+        [
+          "**1. Them** (0-3): their name and their business",
+          "About you, a pleasantry or \"Hi there\"",
+          "**1:** only a merge tag, a compliment or a personal fact (a post, a college). **2:** a real fact about their business that doesn't lead anywhere",
+          "**3:** a specific, recent fact about their business that leads to why you're writing"
+        ],
+        [
+          "**2. Their problem** (0-2): why they'd care",
+          "No reason given",
+          "**1:** a general industry problem",
+          "**2:** a problem that clearly follows from the first line"
+        ],
+        [
+          "**3. Proof** (0-2): a result for people like them",
+          "None, or hype like \"leading\" or \"best\"",
+          "**1:** a general claim like \"40+ clients\"",
+          "**2:** one specific result for a company like theirs"
+        ],
+        [
+          "**4. The ask** (0-2): what you want them to do",
+          "Asks for time (a call, 30 minutes, a calendar link) or no question at all",
+          "**1:** vague, or two asks (\"Any thoughts?\")",
+          "**2:** one small question they can answer in one word, or a free, useful offer"
+        ],
+        [
+          "**5. Short** (0-1)",
+          "Over 75 words",
+          "-",
+          "**1:** 75 words or less, from \"Hi\" to the sign-off"
+        ]
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Red flags: the score can't go above 2"
+    },
+    {
+      "type": "p",
+      "text": "Some mistakes sink an email no matter how good the rest is. If you see any of these, score the email as normal, then cap it at 2."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**No subject line.** It looks like a mistake or a trick.",
+        "**Hype:** ALL CAPS, \"FREE\", \"!!!\", \"Act now\".",
+        "**A follow-up that adds nothing new**, like \"Just bumping this\".",
+        "**A fake \"Re:\" or \"Fwd:\"** on a first email.",
+        "**Any fact you can't back up.** A made-up result is worse than no result."
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Score",
+        "What it means",
+        "What to do"
+      ],
+      "rows": [
+        [
+          "9-10",
+          "Ready",
+          "Send it."
+        ],
+        [
+          "7-8",
+          "One weak part",
+          "Fix the lowest check, then send."
+        ],
+        [
+          "4-6",
+          "Good bones, wrong ask or no proof",
+          "Rewrite the weak lines. Keep the first line if it scored 2 or 3."
+        ],
+        [
+          "0-3",
+          "A sales pitch to a stranger",
+          "Start over with the 10/10 template below."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The emails from the reel, scored"
+    },
+    {
+      "type": "p",
+      "text": "Here is each email type from the reel, written out in full, scored with the card above."
+    },
+    {
+      "type": "h3",
+      "text": "\"I hope this finds you well\": 1/10"
+    },
+    {
+      "type": "prompt",
+      "label": "1/10 (39 words)",
+      "text": "Hi John,\n\nI hope this email finds you well. My name is Dan and I'm with Apex Growth. We are a leading full-service marketing agency that helps businesses grow.\n\nWould you be open to a quick call this week?"
+    },
+    {
+      "type": "p",
+      "text": "**Score: Them 0, Problem 0, Proof 0, Ask 0, Short 1 = 1/10.** It's polite, and that's all it is. Three lines in a row are about the sender: the greeting, the name and \"a leading agency\". In the inbox preview, the reader sees \"I hope this email finds you well\" and knows it's a pitch before opening it. Our [WELL guide](/guides/well.html) has 5 openers to use instead."
+    },
+    {
+      "type": "h3",
+      "text": "The 180-word email: 2/10"
+    },
+    {
+      "type": "prompt",
+      "label": "2/10 (180 words)",
+      "text": "Hi Sarah,\n\nI hope you're having a great week. My name is Dan, and I'm the founder of Apex Growth, a full-service marketing agency based in Chicago. Over the past eight years, we have partnered with more than 40 companies across many industries, helping them grow their brand, reach new customers and increase revenue.\n\nOur team offers a wide range of services, including SEO, paid ads, social media management, email marketing, content writing, website design and conversion rate optimization. We take a data-driven approach to everything we do, and every client gets a dedicated account manager and monthly reports.\n\nI came across your company and was impressed by what you've built. I believe there could be a great fit between our two companies, and I would love the chance to learn more about your goals for next year and share some ideas on how we could help you reach them faster.\n\nWould you be open to a 30-minute call next week? Here is my calendar link so you can pick a time that works best for you.\n\nBest regards,\nDan"
+    },
+    {
+      "type": "p",
+      "text": "**Score: Them 1, Problem 0, Proof 1, Ask 0, Short 0 = 2/10.** Nobody reads this on a phone. It lists 7 services, says \"we\" over and over, and only mentions the reader in one vague line. Then it asks a stranger for 30 minutes."
+    },
+    {
+      "type": "p",
+      "text": "The data backs this up. In [The Ultimate Cold Email Data Report](https://tactics.30mpc.com/hubfs/The%20Ultimate%20Cold%20Email%20Data%20Report-1.pdf) by 30 Minutes to President's Club and Gong (85M+ cold emails), emails of **51 to 100 words** got a **2.6%** reply rate. Emails of **151 to 200 words** got **1.6%**. [Hunter's study of 34 million cold emails](https://hunter.io/blog/cold-email-word-count) found **20 to 39 words** had the highest average reply rate, at **4.5%**. Aim for 75 words or less. Our [SHORT guide](/guides/short.html) shows how to cut."
+    },
+    {
+      "type": "h3",
+      "text": "\"Opportunity\" + \"30-minute call?\": 4/10"
+    },
+    {
+      "type": "prompt",
+      "label": "4/10 (41 words)",
+      "text": "Subject: Opportunity\n\nHi Lisa,\n\nSaw Brightway is hiring two sales reps. I have an exciting opportunity to share with you. Our platform helps teams grow revenue faster, and over 200 companies use it.\n\nDo you have 30 minutes next Tuesday for a call?"
+    },
+    {
+      "type": "p",
+      "text": "**Score: Them 2, Problem 0, Proof 1, Ask 0, Short 1 = 4/10.** This one has a real fact (the hiring) and it's short. But the fact doesn't lead anywhere, \"opportunity\" is a word every pitch uses, and the ask is 30 minutes of a stranger's week."
+    },
+    {
+      "type": "p",
+      "text": "The ask matters a lot. The same [85M-email report](https://tactics.30mpc.com/hubfs/The%20Ultimate%20Cold%20Email%20Data%20Report-1.pdf) found that **asking for a meeting cut reply rates by 44%**, while **making an offer lifted them by 28%**. Their advice: ask for interest, or offer something useful they get even if they never buy, like an audit or a short report. Hunter's survey points the same way: decision makers prefer \"Can I send more info?\" and \"Open to learning more?\" over booking a meeting up front."
+    },
+    {
+      "type": "h3",
+      "text": "\"Loved your post! Same college!\": 3/10"
+    },
+    {
+      "type": "prompt",
+      "label": "3/10 (34 words)",
+      "text": "Hi Mike,\n\nLoved your post on LinkedIn! Also saw we both went to Ohio State. Go Bucks!\n\nWe help software companies with outbound. We've worked with 50+ SaaS teams.\n\nFree for a call Thursday?"
+    },
+    {
+      "type": "p",
+      "text": "**Score: Them 1, Problem 0, Proof 1, Ask 0, Short 1 = 3/10.** It feels personal, but it isn't **relevant**. Which post? What about it? And the college has nothing to do with outbound. Personal is not the goal. Relevant is."
+    },
+    {
+      "type": "p",
+      "text": "The [30MPC and Gong report](https://tactics.30mpc.com/hubfs/The%20Ultimate%20Cold%20Email%20Data%20Report-1.pdf) says it directly: \"Executives don't care if you reference their alma mater.\" In its ranking of 5 kinds of personalization, **activity-based** details (what their company is doing) scored highest at **24%**. Details about the person scored **6%**, and no personalization scored **2%**."
+    },
+    {
+      "type": "h3",
+      "text": "\"Just bumping this\": 2/10"
+    },
+    {
+      "type": "prompt",
+      "label": "2/10 (13 words)",
+      "text": "Hi Mike,\n\nJust bumping this to the top of your inbox. Any thoughts?"
+    },
+    {
+      "type": "p",
+      "text": "**Score: Them 0, Problem 0, Proof 0, Ask 1, Short 1 = 2/10, and it's a red flag.** Short follow-ups are good. The [30MPC report](https://tactics.30mpc.com/hubfs/The%20Ultimate%20Cold%20Email%20Data%20Report-1.pdf) found bump emails of **1 to 2 sentences** got about **2x the replies** of longer ones. The problem here is that it adds nothing. It's about your email, not their business. Keep it short, but bring one new thing: a new angle, a new proof, or the same ask said a new way."
+    },
+    {
+      "type": "quote",
+      "text": "Hi Mike, one more idea: most teams we talk to lose deals in the week after a demo. Want the 3-email follow-up we use?"
+    },
+    {
+      "type": "h3",
+      "text": "\"FREE OPPORTUNITY\": 1/10"
+    },
+    {
+      "type": "prompt",
+      "label": "1/10 (18 words)",
+      "text": "Subject: FREE OPPORTUNITY!!!\n\nHi there,\n\nWe're giving away a FREE marketing audit to the first 10 businesses that reply. Act now!"
+    },
+    {
+      "type": "p",
+      "text": "**Score: Them 0, Problem 0, Proof 0, Ask 0, Short 1 = 1/10, with a red flag.** The funny part: a free audit is a good offer. Offers lift replies, as the data above shows. But ALL CAPS, \"!!!\" and \"Act now\" make it read like spam, and \"Hi there\" tells the reader nobody looked at their business. Say the same offer calmly, to one person, about one problem."
+    },
+    {
+      "type": "h3",
+      "text": "No subject line: 1/10"
+    },
+    {
+      "type": "prompt",
+      "label": "1/10 (15 words)",
+      "text": "Subject: (blank)\n\nHi,\n\nWe help companies get more leads. Let me know when you're free to talk."
+    },
+    {
+      "type": "p",
+      "text": "**Score: Them 0, Problem 0, Proof 0, Ask 0, Short 1 = 1/10, with a red flag.** A blank subject gets curiosity opens, not replies. In the [30MPC report](https://tactics.30mpc.com/hubfs/The%20Ultimate%20Cold%20Email%20Data%20Report-1.pdf), empty subject lines raised opens by **30%** but cut replies by **12%**. Their verdict: it's clickbait. Use 2 to 4 plain words about their business, like \"the Denver office\"."
+    },
+    {
+      "type": "h3",
+      "text": "Quick before-and-after for each"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Bad line",
+        "Score",
+        "Rewrite"
+      ],
+      "rows": [
+        [
+          "I hope this email finds you well.",
+          "1/10",
+          "Congrats on the second office in Denver."
+        ],
+        [
+          "We offer SEO, paid ads, social, email, content, web design and CRO.",
+          "2/10",
+          "Pick the one service that fits this reader. Save the rest for the call."
+        ],
+        [
+          "I have an exciting opportunity to share with you.",
+          "4/10",
+          "Two new reps usually means the pipeline has to grow fast too."
+        ],
+        [
+          "Do you have 30 minutes next Tuesday for a call?",
+          "4/10",
+          "Worth a look?"
+        ],
+        [
+          "Loved your post! Also saw we both went to Ohio State.",
+          "3/10",
+          "Your post on losing deals after the demo was spot on."
+        ],
+        [
+          "Just bumping this to the top of your inbox.",
+          "2/10",
+          "One more idea: want the 3-email follow-up we use?"
+        ],
+        [
+          "FREE OPPORTUNITY!!! Act now!",
+          "1/10",
+          "Want a free 1-page audit of your Google Ads?"
+        ],
+        [
+          "(no subject)",
+          "1/10",
+          "the Denver office"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The 10/10 email: 4 parts"
+    },
+    {
+      "type": "p",
+      "text": "A 10/10 email doesn't need to be clever. It needs 4 parts, in this order, and nothing else."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**01 Name:** use their name, then go straight to them. No \"I hope\" line.",
+        "**02 Business:** one true, recent fact about their business, and the problem that usually comes with it. This is where \"personal\" becomes \"relevant\".",
+        "**03 Proof:** one specific result for a company like theirs. Only results you can back up.",
+        "**04 One-word ask:** one small question they can answer with \"yes\". \"Worth a look?\" is the classic."
+      ]
+    },
+    {
+      "type": "prompt",
+      "label": "10/10 example (38 words)",
+      "text": "Subject: the Denver office\n\nHi Lisa,\n\nCongrats on the second office in Denver. A new office usually needs a full sales calendar fast.\n\nA staffing firm in Austin booked 25 sales calls in its first month with cold email.\n\nWorth a look?"
+    },
+    {
+      "type": "p",
+      "text": "**Score: Them 3, Problem 2, Proof 2, Ask 2, Short 1 = 10/10.** The first line is a real fact about Lisa's business. The second line is the problem that comes with it. The third is a result for a company like hers. The ask takes one word to answer. It's also written about her: count the \"you\" and \"your\" versus the \"we\" and \"our\". The [30MPC report](https://tactics.30mpc.com/hubfs/The%20Ultimate%20Cold%20Email%20Data%20Report-1.pdf) found top reps use \"you\", \"your\" and \"your team\" **29% more often** than average reps."
+    },
+    {
+      "type": "prompt",
+      "label": "Copy-paste 10/10 template",
+      "text": "Subject: [2-4 plain words about their business]\n\nHi [First name],\n\n[One true, recent fact about their business: a new office, a hire, a launch, a post they wrote.] [The problem that usually comes with it, in one sentence.]\n\n[A company like theirs] got [specific result] in [time frame].\n\n[Worth a look? / Want me to send it over? / Open to seeing how?]\n\n[Your name]"
+    },
+    {
+      "type": "tip",
+      "label": "Ask ideas that score 2",
+      "text": "\"Worth a look?\" \"Want me to send the details?\" \"Open to seeing how?\" \"Want the free 1-page audit?\" Our [ASK guide](/guides/ask.html) has 10 more."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: from 2/10 to 10/10"
+    },
+    {
+      "type": "p",
+      "text": "Here is a typical first email from a made-up IT company to the owner of a law firm. Word counts are for the body, from \"Hi\" to the end."
+    },
+    {
+      "type": "prompt",
+      "label": "Before: 87 words",
+      "text": "Subject: Quick question about IT\n\nHi Tom,\n\nI hope you're doing well. I came across Miller Law on LinkedIn and wanted to reach out. We are Northside IT, a managed IT provider with over 15 years of experience. We offer help desk support, cloud backups, cybersecurity, Microsoft 365 setup and phone systems. Many professional firms trust us to keep their technology running smoothly. I'd love to set up a 30-minute call to learn about your current setup and show you how we can help. Are you free next Wednesday or Thursday afternoon?"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Check",
+        "Before",
+        "Why",
+        "After"
+      ],
+      "rows": [
+        [
+          "Them (0-3)",
+          "1",
+          "\"I came across Miller Law on LinkedIn\" is just the company name. It could go to any firm.",
+          "3"
+        ],
+        [
+          "Problem (0-2)",
+          "0",
+          "No reason Tom would care right now.",
+          "2"
+        ],
+        [
+          "Proof (0-2)",
+          "1",
+          "\"15 years\" and \"many firms trust us\" are general claims.",
+          "2"
+        ],
+        [
+          "Ask (0-2)",
+          "0",
+          "A 30-minute call, plus two days to pick from.",
+          "2"
+        ],
+        [
+          "Short (0-1)",
+          "0",
+          "87 words, 12 over the limit.",
+          "1"
+        ],
+        [
+          "**Total**",
+          "**2/10**",
+          "Red flag check: none.",
+          "**10/10**"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Check the math: before is 1 + 0 + 1 + 0 + 0 = **2**. After is 3 + 2 + 2 + 2 + 1 = **10**. Now fix it one check at a time, lowest score first."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Fix the ask (0 → 2).** Delete the 30-minute call and the two days. Write \"Worth a look?\"",
+        "**Fix Them (1 → 3).** Spend 2 minutes on their website. Tom's firm just opened a Tampa office. Lead with that.",
+        "**Fix the problem (0 → 2).** What comes with a second office? Two sets of laptops, logins and backups to keep safe. That's one sentence.",
+        "**Fix the proof (1 → 2).** Swap \"15 years\" and \"many firms trust us\" for one result: a 20-person law firm moved both offices to one secure setup in 3 weeks.",
+        "**Fix the length (0 → 1).** Delete the service list and \"I hope you're doing well\". The service list is the biggest cut.",
+        "**Fix the subject.** \"Quick question about IT\" becomes \"the Tampa office\". In [Hunter's 2026 data](https://hunter.io/the-state-of-cold-email), subject lines like \"Quick question\" got a **2.5%** reply rate vs **2.9%** for other subject lines."
+      ]
+    },
+    {
+      "type": "prompt",
+      "label": "After: 50 words",
+      "text": "Subject: the Tampa office\n\nHi Tom,\n\nSaw Miller Law just opened a Tampa office. Two offices usually means two sets of laptops, logins and backups to keep safe.\n\nWe helped a 20-person law firm in Orlando move both of its offices to one secure setup in 3 weeks, with no downtime.\n\nWorth a look?"
+    },
+    {
+      "type": "p",
+      "text": "The new email is 37 words shorter (87 − 50 = 37). Nothing important was lost. The help desk, the backups and the phone systems still exist. They just wait for the reply."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder: what your score is telling you"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Lowest check",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Opens are fine, nobody replies",
+          "Ask or Proof",
+          "Swap the meeting ask for \"Worth a look?\" and add one specific result."
+        ],
+        [
+          "Replies say \"who is this?\" or \"not relevant\"",
+          "Them or Problem",
+          "Lead with a fact about their business, not a compliment. Tighten the list so the problem fits."
+        ],
+        [
+          "Replies say \"take me off your list\"",
+          "Them",
+          "Your list or your first line doesn't fit the reader. Check both before sending more."
+        ],
+        [
+          "People reply \"send more info\" and then go quiet",
+          "Proof",
+          "Your proof is too general. Send one result for a company like theirs."
+        ],
+        [
+          "Every email scores 6 or 7 and stalls",
+          "Usually the ask",
+          "One question only. Remove the calendar link and the meeting length."
+        ],
+        [
+          "Follow-ups get no replies",
+          "Red flag: nothing new",
+          "Each follow-up brings one new angle, proof or offer, in 1 to 2 sentences."
+        ],
+        [
+          "Low opens",
+          "Subject (red flag check)",
+          "2 to 4 plain words about their business. No blank, no caps, no fake \"Re:\"."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes when scoring"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Grading your own email too kindly.** Read it as the stranger would, on a phone, in 5 seconds. If you have to explain a line, it scores lower.",
+        "**Counting a compliment as \"Them\".** \"Loved your post\" is a 1. A fact about their business that leads to your reason is a 3.",
+        "**Thinking a short email is automatically good.** Short is only 1 point out of 10. A 15-word email with no reason to care still scores 1.",
+        "**Adding proof you can't back up.** If you don't have a real result yet, score Proof 0 and use a free offer as your ask instead.",
+        "**Scoring one email and copying it to 1,000 people.** The \"Them\" line has to be true for every person who gets it. Group people who share the same fact (like everyone hiring sales reps this month)."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Rate and rewrite with Claude"
+    },
+    {
+      "type": "p",
+      "text": "Paste this prompt into Claude or ChatGPT with your email and anything you know about the prospect. It scores the email with the same card and rewrites it."
+    },
+    {
+      "type": "prompt",
+      "label": "The 1-10 rating prompt",
+      "text": "You are a strict cold email reviewer. Rate my cold email from 1 to 10 using this scorecard:\n\n1. Them (0-3): 0 = about me, a pleasantry or \"Hi there\". 1 = only their name or company, a compliment, or a personal fact (a post, a college). 2 = a real fact about their business that doesn't lead anywhere. 3 = a specific, recent fact about their business that leads to why I'm writing.\n2. Their problem (0-2): 0 = no reason to care. 1 = a general industry problem. 2 = a problem that follows from the first line.\n3. Proof (0-2): 0 = none or hype. 1 = a general claim (\"40+ clients\"). 2 = one specific result for a company like theirs.\n4. Ask (0-2): 0 = asks for time (a call, minutes, a calendar link) or no question. 1 = vague or two asks. 2 = one small question they can answer in one word, or a free useful offer.\n5. Short (0-1): 1 = 75 words or less from \"Hi\" to the sign-off.\n\nRed flags (cap the score at 2): no subject line, ALL CAPS or hype words like FREE, \"!!!\" or \"Act now\", a follow-up that adds nothing new, a fake \"Re:\" or \"Fwd:\", any claim that can't be backed up.\n\nGive me:\n1) A table with each check, its score and one sentence on why.\n2) The total, the word count, and any red flags.\n3) A rewrite that scores 10/10: 4 parts only (their name and business fact, the problem, one proof, a one-word ask), under 75 words, plus a 2-4 word subject line.\n\nRules for the rewrite: use only facts I give you. Do not invent results, numbers or details. If a fact or proof is missing, write [ADD REAL PROOF] or [ADD FACT ABOUT THEIR BUSINESS] instead. No buzzwords, no exclamation marks, write like a person.\n\nWhat I know about the prospect: [paste website text, news, job posts or a post they wrote]\nMy best real result: [one result for a company like theirs]\nMy email:\n[paste your email]"
+    },
+    {
+      "type": "tip",
+      "label": "Check the AI's math",
+      "text": "AI tools often miscount words and add up scores wrong. Count the words yourself (Google Docs: Tools > Word count) and add the 5 numbers before you trust the total."
+    },
+    {
+      "type": "h2",
+      "text": "Your pre-send checklist"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Score it on the 5 checks. Send only at 9 or 10.",
+        "No red flags: a real subject, no caps or hype, nothing made up.",
+        "The first line is a fact about their business, not a compliment.",
+        "One proof, for a company like theirs.",
+        "One small question at the end. No meeting length, no calendar link.",
+        "75 words or less."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Bottom line",
+      "text": "Polite isn't the same as good. Their name, their business, one proof, one small ask. That's a 10."
+    }
+  ],
+  "resources": [
+    {
+      "name": "The Ultimate Cold Email Data Report (30 Minutes to President's Club and Gong)",
+      "url": "https://tactics.30mpc.com/hubfs/The%20Ultimate%20Cold%20Email%20Data%20Report-1.pdf",
+      "note": "85M+ cold emails: meeting asks -44%, offers +28%, word count, personalization, subject lines and bumps"
+    },
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Why decision makers say cold emails fail, preferred asks, \"Quick question\" subject data"
+    },
+    {
+      "name": "Hunter: Best word count for cold emails",
+      "url": "https://hunter.io/blog/cold-email-word-count",
+      "note": "34 million cold emails: 20 to 39 words got the highest reply rate"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the rating prompt with your email"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is \"I hope this finds you well\" really that bad?",
+      "a": "It's not rude. It's wasted. It takes the spot in the inbox preview where a fact about their business could go, and it tells the reader the email is a pitch. Keep \"Hi Sarah,\" and go straight to them."
+    },
+    {
+      "q": "What score should I send at?",
+      "a": "9 or 10. A 7 or 8 usually has one weak check, most often the ask or the proof, and fixing it takes a minute."
+    },
+    {
+      "q": "Can I ever ask for a meeting in a cold email?",
+      "a": "Not in the first email. The [30MPC and Gong report](https://tactics.30mpc.com/hubfs/The%20Ultimate%20Cold%20Email%20Data%20Report-1.pdf) found meeting asks cut replies by 44%. Ask for interest first. When they say yes, then book the call."
+    },
+    {
+      "q": "Do follow-ups use the same scorecard?",
+      "a": "Yes, but the bar for length is lower: 1 to 2 sentences. Each follow-up must add something new, or it's a red flag and can't score above 2."
+    }
+  ]
+}

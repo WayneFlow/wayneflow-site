@@ -1,0 +1,494 @@
+{
+  "slug": "vercel",
+  "keyword": "VERCEL",
+  "date": "2026-11-20",
+  "draft": false,
+  "instantdm": "pending",
+  "title": "Vercel's AI Lead Agent: How 1 Person Did the Inbound Work of 10",
+  "description": "How Vercel moved 9 of 10 inbound reps to outbound with an AI lead agent, plus a no-code build plan, the hours math and a lead scoring prompt.",
+  "lead": "This is the full inbound lead agent playbook from the reel. You get what Vercel really did (with sources), a 6-step plan to build your own lead-triage agent with no-code tools, the fit rules and routing table, a worked example of hours saved and moved to outbound, a problem finder, and a copy-paste prompt that researches and scores a lead.",
+  "insider": "We use the same split on client campaigns: AI sorts every reply into interested, not now or not a fit, and a person checks it before anyone answers, so our team's hours go into finding new buyers. In one small pilot that outbound work turned **10,284 people contacted into 103 real sales opportunities**. The tactic is the easy part. The full system (the list, the inboxes and the follow-ups) is what we run for clients.",
+  "case": "case-05",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "What Vercel actually did"
+    },
+    {
+      "type": "p",
+      "text": "Vercel's COO, Jeanne DeWitt Grosser, told the story on [Lenny's Podcast](https://www.youtube.com/watch?v=RmnWHz8HD74) (episode page on [Lenny's Newsletter](https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differently)). Vercel had **10 SDRs** (sales development reps) working inbound leads: the people who fill in the \"contact sales\" form. Today **one person** checks the work of an AI agent. **The other 9 moved to outbound.** Nobody was let go."
+    },
+    {
+      "type": "quote",
+      "text": "\"For us, we had 10 SDRs doing this inbound workflow, and now we just have one that is effectively QAing the agent. The other nine we deployed on outbound.\" (Jeanne DeWitt Grosser, [Lenny's Podcast](https://www.youtube.com/watch?v=RmnWHz8HD74))"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Fact",
+        "What she said"
+      ],
+      "rows": [
+        [
+          "Team before",
+          "10 SDRs on the inbound workflow"
+        ],
+        [
+          "Team after",
+          "1 person who reviews (\"QAs\") the agent"
+        ],
+        [
+          "The other 9",
+          "Moved to outbound, \"up the value chain\""
+        ],
+        [
+          "Who built it",
+          "A single GTM (go-to-market) engineer, using maybe **25 to 30%** of his time"
+        ],
+        [
+          "How long",
+          "**6 weeks** before they felt confident going from 10 to 1"
+        ],
+        [
+          "Results",
+          "Lead-to-opportunity conversion rate held **flat**, so \"the agent is as good as our humans were\""
+        ],
+        [
+          "Bonus",
+          "Fewer touches to convert, because the agent answers fast, even at night"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A later [SaaStr write-up](https://www.saastr.com/vercel-took-a-10-person-sdr-team-down-to-1-the-whole-thing-costs-5000-a-year-with-vercels-coo-jeanne-dewitt-grosser/) with the same COO adds that the agent costs **about $5,000 a year** in infrastructure and AI tokens, and that it launched in **August 2025**. [Tomasz Tunguz](https://tomtunguz.com/vercel-ai-sales-agents-jeanne-grosser/) also summarized the podcast and pulled the same quotes."
+    },
+    {
+      "type": "h2",
+      "text": "How the agent works, step by step"
+    },
+    {
+      "type": "p",
+      "text": "This is the part most people miss. The agent does not \"replace sales\". It does one narrow job that was already written down, and a human still presses send. In the podcast, Grosser describes it like this:"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**A lead comes in.** Someone fills in the contact sales form.",
+        "**The agent makes two calls.** Is this lead likely to be qualified? And what should we say back?",
+        "**It researches.** It does deep research on the person and company and pulls data from Vercel's own databases.",
+        "**It drafts the reply.** It writes a response for that specific lead.",
+        "**A human reviews every one and hits send.** Rejects and edits are fed back so the agent keeps learning."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Vercel also published an open-source version: the [Lead Agent template](https://vercel.com/templates/ai/lead-processing-agent) ([code on GitHub](https://github.com/vercel-labs/lead-agent)). It captures a form, runs a research agent, sorts the lead into a category such as **QUALIFIED, FOLLOW_UP or SUPPORT**, writes an email, and posts it in Slack with approve and reject buttons. The email only sends if a person approves it."
+    },
+    {
+      "type": "h2",
+      "text": "Why inbound was the right place to start"
+    },
+    {
+      "type": "p",
+      "text": "Grosser said they started with inbound because the work is **\"legible\"**: you can write it down, it repeats, and it's mostly the same steps every time. That makes it easy for AI to copy. Outbound to big companies needs more judgment, so humans stay on it."
+    },
+    {
+      "type": "p",
+      "text": "Speed is the second reason. A form that sits in a queue overnight goes cold. Harvard Business Review's study [\"The Short Life of Online Sales Leads\"](https://hbr.org/2011/03/the-short-life-of-online-sales-leads) found that most companies are not answering web leads nearly fast enough. Vercel saw the same thing: the agent cut the number of touches it takes to convert because it answers right away."
+    },
+    {
+      "type": "tip",
+      "label": "The rule from the reel",
+      "text": "**AI on the boring part, humans on the hard part.** Sorting who came to you is the boring part. Starting new conversations with people who don't know you yet is the hard part."
+    },
+    {
+      "type": "h2",
+      "text": "Build your own lead-triage agent"
+    },
+    {
+      "type": "p",
+      "text": "You don't need an engineer to build a simple version. Here is the same flow, made small enough to set up in a week with no-code tools."
+    },
+    {
+      "type": "h3",
+      "text": "Step 1: Shadow your best person"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** Vercel started by having the engineer watch their best SDR. He saw seven browser tabs: LinkedIn, the company website, an AI chat, an internal database. The agent copies that exact routine. If you skip this step, you automate a guess."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Sit with whoever handles your inbound leads today. Watch 10 leads.",
+        "Write down every place they look and every question they ask themselves.",
+        "Write down how they decide: reply now, reply later, send to support, or ignore.",
+        "Time it. You need this number for the math below."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 2: Pick the fields to research"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Field",
+        "Where it comes from",
+        "Why it matters"
+      ],
+      "rows": [
+        [
+          "Company name and website",
+          "Form + email domain",
+          "A free Gmail address with no company is a weaker signal"
+        ],
+        [
+          "Industry",
+          "Company website",
+          "Tells you if you serve them at all"
+        ],
+        [
+          "Company size (employees)",
+          "Website, LinkedIn",
+          "Too small often can't pay; too big may need a different team"
+        ],
+        [
+          "Person's job title",
+          "Form, LinkedIn",
+          "Decision maker, user, or student?"
+        ],
+        [
+          "Country / region",
+          "Form, website",
+          "Some regions you can't serve or need a different rep"
+        ],
+        [
+          "What they asked for",
+          "Form message",
+          "Sales question vs. support question vs. job application"
+        ],
+        [
+          "Timing words",
+          "Form message",
+          "\"This quarter\", \"migrating\", \"contract ends\" mean urgency"
+        ],
+        [
+          "Existing customer?",
+          "Your CRM",
+          "Existing customers go to their account owner, not a new reply"
+        ]
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 3: Write your fit criteria"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** the AI can only score against rules you give it. Vague rules (\"good companies\") give random scores. Write them as plain yes/no checks. Keep it to 4 to 6."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Must have:** we sell in their country, and they are a business (not a student or job seeker).",
+        "**Strong fit:** [your best industries], [your best size range], a title that can buy.",
+        "**Urgency:** the message names a project, a date or a problem.",
+        "**Not a fit:** competitors, vendors pitching you, spam, and support questions from current customers."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 4: Set the routing rules"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Score",
+        "Label",
+        "What happens"
+      ],
+      "rows": [
+        [
+          "80–100",
+          "Good fit, now",
+          "Draft a personal reply and a meeting offer. Human reviews within 1 hour."
+        ],
+        [
+          "50–79",
+          "Good fit, not now",
+          "Draft a helpful reply with one resource. Add to a nurture list."
+        ],
+        [
+          "Any",
+          "Support",
+          "Send to the support inbox. No sales reply."
+        ],
+        [
+          "0–49",
+          "Not a fit",
+          "Polite short reply or none. Log the reason."
+        ]
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 5: Add the human review step"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** this is what kept Vercel's conversion rate flat. Every draft goes to one person who approves, edits or rejects it. Each edit is a lesson. Feed the common edits back into the prompt every week."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Post each scored lead and draft into one Slack channel or one email folder.",
+        "The reviewer picks: send as is, edit then send, or reject (with a one-line reason).",
+        "Once a week, read the rejects and add the pattern to your fit criteria."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 6: Choose your tools"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Option",
+        "Good for",
+        "Tools"
+      ],
+      "rows": [
+        [
+          "No-code",
+          "Small teams, under a few hundred leads a month",
+          "[Zapier](https://zapier.com) or [Make](https://www.make.com) + [Claude](https://claude.ai) + Slack or email"
+        ],
+        [
+          "Low-code",
+          "More control, self-hosting",
+          "[n8n](https://n8n.io) + an AI model + your CRM"
+        ],
+        [
+          "Enrichment",
+          "Filling company and title fields automatically",
+          "[Clay](https://www.clay.com)"
+        ],
+        [
+          "Code",
+          "Teams with a developer",
+          "Vercel's [Lead Agent template](https://vercel.com/templates/ai/lead-processing-agent)"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The no-code flow is always the same: **form submitted → AI step researches and scores → message to the reviewer → reviewer approves → email sends → lead is logged in your CRM.**"
+    },
+    {
+      "type": "h2",
+      "text": "The copy-paste prompt"
+    },
+    {
+      "type": "prompt",
+      "label": "Inbound lead research and scoring prompt",
+      "text": "You are an inbound lead researcher for [your company]. We sell [one sentence about your offer] to [your ideal customer].\n\nFit rules:\n- Must have: [country/region we serve], a real business.\n- Strong fit: industry is [list], company size is [range] employees, title is [buyer titles].\n- Urgency signals: the message mentions a project, a date, a switch from another tool, or a problem.\n- Not a fit: students, job seekers, vendors selling to us, competitors.\n- Support: current customers asking for help.\n\nLead:\nName: [name]\nEmail: [email]\nCompany: [company]\nTitle: [title]\nMessage: [form message]\n\nDo this:\n1. Research the company from its website and public info. List industry, size estimate, country and what they do in one line. Say \"unknown\" if you can't find it. Do not guess.\n2. Score the lead 0-100 against the fit rules. Show which rules it met and missed.\n3. Pick one label: GOOD FIT NOW, GOOD FIT NOT NOW, SUPPORT, NOT A FIT.\n4. If GOOD FIT, write a reply under 90 words that answers their question, mentions one specific fact about their company, and offers two meeting times.\n5. List anything a human should double-check before sending.\nReturn the answer as: Research / Score / Label / Reasons / Draft reply / Check before sending."
+    },
+    {
+      "type": "tip",
+      "label": "Test before you trust",
+      "text": "Run the prompt on 20 old leads where you already know the outcome. If the label matches what really happened at least most of the time, put it live with a human review. If not, fix the fit rules first."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: the hours you get back"
+    },
+    {
+      "type": "p",
+      "text": "These are example numbers for a made-up company. Swap in your own from Step 1."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Leads per month: **400**.",
+        "Time per lead today: 10 min research + 3 min deciding + 7 min writing = **20 minutes**.",
+        "Total today: 400 × 20 = 8,000 minutes = **133.3 hours a month**.",
+        "With the agent, a human only reviews: **3 minutes per lead**. 400 × 3 = 1,200 minutes = **20 hours a month**.",
+        "Hours saved: 133.3 − 20 = **113.3 hours a month**. That's about 2.8 work weeks of 40 hours."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Where those 113 hours go: outbound"
+    },
+    {
+      "type": "p",
+      "text": "Vercel moved the freed people to outbound. Here is what 113.3 hours can buy, if one well-researched outbound email takes 10 minutes:"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "113.3 hours × 60 = **6,800 minutes**.",
+        "6,800 ÷ 10 minutes = **680 new accounts contacted a month**.",
+        "If 3% reply (your rate may differ): 680 × 0.03 = **about 20 replies**.",
+        "If 1 in 4 replies becomes a real opportunity: 20.4 ÷ 4 = **about 5 new opportunities a month** that did not exist before."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The reply and opportunity rates above are assumptions to show the math. Track your own for a month and redo the numbers."
+    },
+    {
+      "type": "h3",
+      "text": "The safety check: keep conversion flat"
+    },
+    {
+      "type": "p",
+      "text": "Vercel watched one number the whole time: **lead-to-opportunity conversion**. Do the same. Say 48 of your 400 leads become opportunities today: 48 ÷ 400 = **12%**. If it drops to 9% after launch, that's 400 × 0.09 = 36 opportunities, so the agent cost you **12 opportunities** that month. Stop and fix the rules before you move anyone to outbound."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Good leads marked NOT A FIT",
+          "Fit rules too strict, or research came back \"unknown\"",
+          "Loosen size range; treat \"unknown\" as a human check, not a no"
+        ],
+        [
+          "Every lead scores 80+",
+          "Rules too vague",
+          "Make each rule a yes/no check with real numbers"
+        ],
+        [
+          "Drafts sound like a robot",
+          "No example of a good reply in the prompt",
+          "Paste 2 of your best past replies into the prompt as examples"
+        ],
+        [
+          "Agent makes up company facts",
+          "Prompt allows guessing",
+          "Keep the \"say unknown, do not guess\" line; reviewer checks facts"
+        ],
+        [
+          "Conversion rate drops",
+          "Removed the human review too early",
+          "Bring back review on every lead until it's flat for a full month"
+        ],
+        [
+          "Reviewer is overloaded",
+          "Reviewing NOT A FIT leads one by one",
+          "Review those in one batch a day; review GOOD FIT NOW within the hour"
+        ],
+        [
+          "Saved hours disappear",
+          "Nobody owns outbound",
+          "Give the freed people a weekly outbound target before you launch"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Firing the team first.** Vercel kept everyone and moved them to outbound. The saved hours only pay off if they go somewhere.",
+        "**Skipping the shadowing step.** The agent should copy your best person, not an average guess.",
+        "**Letting the AI send on its own on day one.** Vercel still has a human hit send.",
+        "**Not tracking the before number.** If you don't know today's conversion rate, you can't tell if the agent is as good as your people.",
+        "**Starting with the hardest job.** Start with the work that's easy to write down. Inbound triage is a good first job."
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Lenny's Podcast: Jeanne DeWitt Grosser (YouTube)",
+      "url": "https://www.youtube.com/watch?v=RmnWHz8HD74",
+      "note": "The original interview with Vercel's COO"
+    },
+    {
+      "name": "Lenny's Newsletter episode page",
+      "url": "https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differently",
+      "note": "Episode page and show notes"
+    },
+    {
+      "name": "Tomasz Tunguz: Vercel's AI Sales Agent",
+      "url": "https://tomtunguz.com/vercel-ai-sales-agents-jeanne-grosser/",
+      "note": "Summary with direct quotes from the episode"
+    },
+    {
+      "name": "SaaStr: Vercel took a 10-person SDR team down to 1",
+      "url": "https://www.saastr.com/vercel-took-a-10-person-sdr-team-down-to-1-the-whole-thing-costs-5000-a-year-with-vercels-coo-jeanne-dewitt-grosser/",
+      "note": "Cost (about $5,000 a year) and launch date"
+    },
+    {
+      "name": "Vercel Lead Agent template",
+      "url": "https://vercel.com/templates/ai/lead-processing-agent",
+      "note": "Vercel's open-source inbound lead agent"
+    },
+    {
+      "name": "vercel-labs/lead-agent on GitHub",
+      "url": "https://github.com/vercel-labs/lead-agent",
+      "note": "The code and step-by-step workflow"
+    },
+    {
+      "name": "HBR: The Short Life of Online Sales Leads",
+      "url": "https://hbr.org/2011/03/the-short-life-of-online-sales-leads",
+      "note": "Research on slow responses to web leads"
+    },
+    {
+      "name": "Zapier",
+      "url": "https://zapier.com",
+      "note": "No-code automation"
+    },
+    {
+      "name": "Make",
+      "url": "https://www.make.com",
+      "note": "No-code automation"
+    },
+    {
+      "name": "n8n",
+      "url": "https://n8n.io",
+      "note": "Low-code automation you can self-host"
+    },
+    {
+      "name": "Clay",
+      "url": "https://www.clay.com",
+      "note": "Company and contact enrichment"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Where you can test the scoring prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Did Vercel fire 9 salespeople?",
+      "a": "No. On [Lenny's Podcast](https://www.youtube.com/watch?v=RmnWHz8HD74), the COO said one SDR now reviews the agent's work and the other nine were moved to outbound."
+    },
+    {
+      "q": "Do I need an engineer to build this?",
+      "a": "Not for a simple version. Zapier, Make or n8n plus an AI step and a Slack or email review step covers it. Vercel used one engineer part time because they built a custom version."
+    },
+    {
+      "q": "When can I let the agent send emails on its own?",
+      "a": "Vercel still has a human hit send. Wait until your reviewer approves almost every draft without edits and your lead-to-opportunity rate has stayed flat for a while."
+    },
+    {
+      "q": "How many leads do I need for this to be worth it?",
+      "a": "Do the math from the worked example with your own numbers. If triage takes your team more than a few hours a week, the setup usually pays back fast."
+    }
+  ]
+}

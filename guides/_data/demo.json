@@ -1,0 +1,470 @@
+{
+  "slug": "demo",
+  "keyword": "DEMO",
+  "date": "2026-11-20",
+  "draft": false,
+  "instantdm": "pending",
+  "title": "The Demo Email: Use Your Product on the Prospect, Then Send Their Result",
+  "description": "Don't describe your product. Run it on the prospect's company and put their result in the email. 5 steps, template, Clay setup, prompt and problem finder.",
+  "lead": "This is the full demo email kit from the reel. You get the 5 steps, quick-result ideas for 8 industries, the copy-paste email template, how to automate it in Clay, the fact check that keeps it from backfiring, a worked example with real time math and a prompt that writes the email from each lead's data.",
+  "insider": "On client campaigns we open with something we actually checked on the prospect's own company, not a list of what our client does. That kind of relevance is behind our small pilot: **103 sales opportunities from 10,284 people contacted**, with a 4% reply rate. The tactic is the easy part. The full system around it (the list, the inboxes and the follow-ups) is what we run for clients.",
+  "case": "case-05",
+  "blocks": [
+    {
+      "text": "Why using your product beats describing it",
+      "type": "h2"
+    },
+    {
+      "text": "Most cold emails describe the product: the features, the platform, the team. The reader has seen that line a hundred times, so they skim it. A feature list is about you. A result is about them.",
+      "type": "p"
+    },
+    {
+      "text": "This email does the opposite. You run your product (or a one-minute version of it) on the prospect's own company first. Then you put **their** result in the email: \"3 found.\" Not a feature. Not a case study about someone else. Their own result, from their own website or ads. That's news to them, and people read news.",
+      "type": "p"
+    },
+    {
+      "text": "The data backs this up. In [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email), **61% of decision makers** said cold emails fail because they aren't relevant, **48%** called out generic, impersonal messages, and **65%** said they fail because they feel too sales-focused. On the other side, **67%** said personalization using public information makes them more likely to reply. Even light personalization helps: emails with two custom details averaged a **5.6% reply rate vs 3.6%** for emails with none.",
+      "type": "p"
+    },
+    {
+      "text": "[Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) found the average reply rate is **3.43%**, while the top 10% of campaigns get **10.7% or more**. What the top senders do: problem-first messages (\"lead with the problem, not your solution\"), first emails under 80 words, and one simple call to action. A result-first email is all three at once.",
+      "type": "p"
+    },
+    {
+      "head": [
+        "The approach",
+        "What the line says",
+        "What the reader thinks"
+      ],
+      "rows": [
+        [
+          "Features",
+          "\"Our platform scans 200+ SEO factors with AI-powered insights.\"",
+          "Zzz. So does everyone."
+        ],
+        [
+          "Case study",
+          "\"We helped a dental group grow organic traffic.\"",
+          "Good for them. Is that true? Does it apply to me?"
+        ],
+        [
+          "**Their result**",
+          "\"I ran harbordental.com through our checker. 3 pages are broken.\"",
+          "Wait, which 3? I need to see this."
+        ]
+      ],
+      "type": "table"
+    },
+    {
+      "label": "Proof beats claims",
+      "text": "A claim asks the reader to trust you. Their own result doesn't need trust. They can check it in 10 seconds. Show, don't tell.",
+      "type": "tip"
+    },
+    {
+      "text": "The 5 steps",
+      "type": "h2"
+    },
+    {
+      "text": "01. Pick one quick result",
+      "type": "h3"
+    },
+    {
+      "text": "**Why:** you need a result you can produce for every lead, fast, without a meeting. If it takes an hour, you'll do it for 5 leads and stop. If it takes about 1 minute (or less, once it's automated), you can do it for your whole list.",
+      "type": "p"
+    },
+    {
+      "text": "A good quick result is a small slice of what you actually sell. It should be **countable** (\"3 found\"), **public** (you got it from their site, ads or listings, not anything private), **tied to money or customers**, and something **you can fix**. Here are examples across industries:",
+      "type": "p"
+    },
+    {
+      "head": [
+        "What you sell",
+        "Quick result (about 1 minute)",
+        "Where to get it",
+        "The line in the email"
+      ],
+      "rows": [
+        [
+          "SEO agency",
+          "Broken pages on their site",
+          "Any site crawler",
+          "\"3 pages on your site show a 'page not found' error.\""
+        ],
+        [
+          "Web design / speed",
+          "Their mobile speed score",
+          "[PageSpeed Insights](https://pagespeed.web.dev/), free from Google",
+          "\"Your homepage scored 38 out of 100 on mobile in Google's speed test.\""
+        ],
+        [
+          "Facebook / Instagram ads agency",
+          "What their active ads look like",
+          "[Meta Ad Library](https://www.facebook.com/ads/library/), free and public",
+          "\"All 6 of your active ads send people to the homepage, not a landing page.\""
+        ],
+        [
+          "Google Ads agency",
+          "Which ads they run on Google",
+          "[Google Ads Transparency Center](https://adstransparency.google.com/)",
+          "\"Your 3 Google ads all use the same headline.\""
+        ],
+        [
+          "Review / reputation software",
+          "Unanswered Google reviews",
+          "Their Google Business Profile",
+          "\"4 of your last 10 Google reviews have no reply.\""
+        ],
+        [
+          "Email deliverability",
+          "Missing DMARC record",
+          "A free DNS lookup",
+          "\"Your domain has no DMARC record, so Gmail can't confirm your emails are really from you.\""
+        ],
+        [
+          "Accessibility tool",
+          "Images with no alt text",
+          "A free accessibility checker",
+          "\"12 images on your homepage have no alt text.\""
+        ],
+        [
+          "Recruiting firm",
+          "Job posts that have been open a long time",
+          "Their careers page",
+          "\"Your senior engineer role has been posted since August.\""
+        ]
+      ],
+      "type": "table"
+    },
+    {
+      "text": "The numbers in the last column only show the format. They are not real findings. Yours come from the actual check.",
+      "type": "p"
+    },
+    {
+      "text": "02. Run it on THEIR company",
+      "type": "h3"
+    },
+    {
+      "text": "**Why:** the whole email rests on one fact. It has to be about their company, today, and it has to be right.",
+      "type": "p"
+    },
+    {
+      "items": [
+        "Use their **real** domain. Take it from their email address (dana@harbordental.com → harbordental.com), not from a guess based on the company name.",
+        "Run the check on the page that matters most: the homepage, the main service page, or their live ads.",
+        "Save the raw result for every lead: the count, one specific example (a URL, an ad, a review) and the date you ran it.",
+        "If the check finds **nothing**, don't fake it. That lead gets a different email (see the FAQ)."
+      ],
+      "type": "steps"
+    },
+    {
+      "text": "03. Put the result IN the email",
+      "type": "h3"
+    },
+    {
+      "text": "**Why:** the result is the hook. It goes in the subject line and the first line, with one specific example so they know it's real. Everything about you is cut down to one short line, or left out.",
+      "type": "p"
+    },
+    {
+      "label": "Result-first email template",
+      "text": "Subject: {{count}} {{issue}} on {{domain}}\n\nHi {{first_name}},\n\nI ran {{domain}} through {{your tool or check}} this morning. {{count}} found. One of them: {{one specific example}}.\n\n{{One line on what it costs them, in plain words.}}\n\nWant the full list with the fix for each? It's free. I'll just send it over.\n\n{{your name}}",
+      "type": "prompt"
+    },
+    {
+      "text": "Line by line: the subject tells them there's a result about them (Hunter found **5 to 6 words** is the sweet spot for subject lines). The first line shows you actually did the work. The example proves it's real. The cost line says why it matters. The ask is small: \"want it?\", not \"book 30 minutes\". Hunter also found decision makers prefer open asks like **\"Can I send more info?\"** over booking a meeting up front.",
+      "type": "p"
+    },
+    {
+      "text": "04. Offer the full version free",
+      "type": "h3"
+    },
+    {
+      "text": "**Why:** the email showed a slice. The free offer gives them a reason to reply right now, and the reply is what starts the conversation. Make the free thing something you can deliver fast, with no call needed.",
+      "type": "p"
+    },
+    {
+      "items": [
+        "**SEO tool or agency:** the full list of broken pages, with where each one should redirect.",
+        "**Ads agency:** a short teardown of their 3 active ads, with one rewrite.",
+        "**Web or speed:** the top 3 fixes from the speed report, in plain English.",
+        "**Software with a free trial:** the full report, already run on their site, waiting in an account.",
+        "**Reviews tool:** drafted replies to their unanswered reviews, ready to paste."
+      ],
+      "type": "list"
+    },
+    {
+      "label": "Free, but useful",
+      "text": "Don't offer \"a free consultation\". That's a meeting, not a gift. Offer the full version of the thing you just showed them.",
+      "type": "tip"
+    },
+    {
+      "text": "05. Automate it for every lead",
+      "type": "h3"
+    },
+    {
+      "text": "**Why:** doing this by hand works for 10 leads. For hundreds a week, you need the check and the first draft to run on their own, so your time goes into checking facts, not copying and pasting.",
+      "type": "p"
+    },
+    {
+      "text": "[Clay](https://www.clay.com) is a common tool for this. You put your leads in a Clay table, one row per lead, and add columns that run for every row. Two column types matter here:",
+      "type": "p"
+    },
+    {
+      "items": [
+        "**HTTP API column** ([Clay docs](https://university.clay.com/docs/http-api-integration-overview)): calls any API for each row and puts the answer in your table. Use it to run your own product's API, or a public one like the [PageSpeed Insights API](https://developers.google.com/speed/docs/insights/v5/get-started), with the lead's domain inserted from the row. You pick which fields from the response to keep, and you can set a rate limit.",
+        "**Use AI column** ([Clay docs](https://university.clay.com/docs/use-ai-integration-overview)): has a **Web research (Claygent)** option that reads and analyzes websites, and a **Create or modify content** option that writes text from the data already in your row. Use web research to find the result when there's no API, and content to write the email line."
+      ],
+      "type": "list"
+    },
+    {
+      "items": [
+        "Import your leads into a Clay table with first name, company and domain.",
+        "Add an **HTTP API** column (or a **Use AI → Web research** column) that runs your quick check on the domain. Save the count and one example as separate fields.",
+        "Add a run condition so the email step only runs when the count is 1 or more. Clay's docs call these conditional runs. They also stop you wasting credits on empty rows.",
+        "Add a **Use AI → Create or modify content** column with the prompt at the bottom of this guide. Feed it only the check's output, not the whole website.",
+        "Test on **one row** first, as Clay's docs recommend. Then 10 rows. Read every one.",
+        "Run the quality check below, then send the approved rows to your sending tool."
+      ],
+      "type": "steps"
+    },
+    {
+      "label": "No Clay?",
+      "text": "Any setup that runs a check per row works: a spreadsheet with a script, Make or Zapier, or your own product's bulk export. For a small list, just do it by hand. The tool doesn't matter. The right result in the email does.",
+      "type": "tip"
+    },
+    {
+      "text": "The quality check: one wrong fact kills it",
+      "type": "h2"
+    },
+    {
+      "text": "This tactic won't work unless the result is **right**. If you say they have 3 broken pages and they have 0, you're not just ignored. You look careless, and the reader trusts nothing else you say. A wrong fact is worse than no fact.",
+      "type": "p"
+    },
+    {
+      "text": "Hunter's data supports a human pass: emails that were **manually edited** before sending averaged a **5.2% reply rate vs 4.4%** for fully automated ones. Hunter also found **69%** of decision makers are bothered when AI was used to write an email, unless it feels genuinely human. Checking each line by hand helps with both.",
+      "type": "p"
+    },
+    {
+      "items": [
+        "**Right company:** the domain in the result matches the domain in their email address.",
+        "**Right count:** the number in the email matches the raw check output exactly.",
+        "**Real example:** click the one example (the URL, the ad). It shows what the email says it shows.",
+        "**Fresh:** the check ran close to the send date. Sites change. Re-run anything that's more than a few days old.",
+        "**Fair:** the line describes the problem, it doesn't insult them. \"3 pages show an error\" is fine. \"Your site is a mess\" is not.",
+        "**No guesses:** nothing in the email that isn't in the check output. No made-up revenue loss, no \"you're losing customers every day\"."
+      ],
+      "type": "steps"
+    },
+    {
+      "text": "Worked example: 200 leads a week for an SEO agency",
+      "type": "h2"
+    },
+    {
+      "text": "A made-up SEO agency emails dental clinics. Their quick result: broken pages on the clinic's website. They start with a list of 260 clinics. The check finds at least one broken page on 200 of them. Those 200 get the result-first email. The other 60 get the agency's normal email.",
+      "type": "p"
+    },
+    {
+      "head": [
+        "Task",
+        "By hand",
+        "Automated (Clay)"
+      ],
+      "rows": [
+        [
+          "Run the check",
+          "1 minute × 200 = 200 min",
+          "Runs on its own: 0 min of your time"
+        ],
+        [
+          "Check the fact",
+          "2 minutes × 200 = 400 min",
+          "30 seconds × 200 = 100 min"
+        ],
+        [
+          "Write the email",
+          "1 minute × 200 = 200 min",
+          "AI draft from the check output: 0 min"
+        ],
+        [
+          "**Total per week**",
+          "**800 min = 13 h 20 min**",
+          "**100 min = 1 h 40 min**"
+        ]
+      ],
+      "type": "table"
+    },
+    {
+      "text": "Automation saves 700 minutes, or **11 hours 40 minutes a week**, and you still read every result line before it sends. The per-lead times are our example assumptions. Time your own first 10 leads and use your real numbers.",
+      "type": "p"
+    },
+    {
+      "text": "What could that list return? These are benchmarks, not promises. At Hunter's average sequence reply rate of **4.5%**, 200 emails get 200 × 0.045 = **9 replies**. At the **5.6%** Hunter saw for emails with two custom details, it's 200 × 0.056 = 11.2, so about **11 replies**. Reaching Instantly's top-10% level of **10.7%** would mean 200 × 0.107 = 21.4, about **21 replies**. Use your own results after the first few hundred sends.",
+      "type": "p"
+    },
+    {
+      "label": "Before: describes the product",
+      "text": "Subject: Grow your clinic with SEO\n\nHi Dana, our agency uses an AI-powered platform that audits over 200 ranking factors. We specialize in dental SEO and have helped many practices grow their organic traffic. Do you have 30 minutes next week for a call?",
+      "type": "prompt"
+    },
+    {
+      "label": "After: uses the product on them",
+      "text": "Subject: 3 broken pages on harbordental.com\n\nHi Dana,\n\nI ran harbordental.com through our site checker this morning. 3 found. One of them: /invisalign, which your homepage links to, shows a \"page not found\" error.\n\nPeople who click that link from your homepage hit a dead end.\n\nWant the full list with the fix for each? It's free. I'll just send it over.",
+      "type": "prompt"
+    },
+    {
+      "text": "The before email asks Dana to trust a claim. The after email gives her something she can check in 10 seconds: click the link, see the error. The subject is 5 words. The ask needs a one-word reply.",
+      "type": "p"
+    },
+    {
+      "text": "Problem finder: why your result-first emails aren't working",
+      "type": "h2"
+    },
+    {
+      "head": [
+        "What you see",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "\"That's not our website\"",
+          "Wrong domain matched to the lead",
+          "Take the domain from their email address. Check that it doesn't redirect somewhere else."
+        ],
+        [
+          "\"We fixed that months ago\"",
+          "Old check data",
+          "Re-run the check close to the send date."
+        ],
+        [
+          "\"This is wrong\" replies",
+          "AI guessed instead of using the check output",
+          "Feed the AI only the raw output. Use the SKIP rule in the prompt below."
+        ],
+        [
+          "Few replies, no complaints",
+          "The result is real but doesn't matter to them",
+          "Pick a result tied to money or customers, not a technical detail they don't care about."
+        ],
+        [
+          "\"How did you get this?\" in a bad tone",
+          "The data felt private",
+          "Use only public data: their site, public ads, public reviews."
+        ],
+        [
+          "Lots of rows with 0 found",
+          "The check is too strict, or the wrong list",
+          "Change the check, or target companies more likely to have the problem."
+        ],
+        [
+          "Replies, but nobody takes the free offer",
+          "The offer needs a call or is too vague",
+          "Offer the full version of the result, sent by email, no call needed."
+        ],
+        [
+          "It sounds like a robot",
+          "Template filled in with no edit",
+          "Read each email out loud. Rewrite any line you wouldn't say to a person."
+        ]
+      ],
+      "type": "table"
+    },
+    {
+      "text": "Common mistakes",
+      "type": "h2"
+    },
+    {
+      "items": [
+        "**Describing the check instead of showing the result.** \"Our tool scans your whole site\" is still a feature. \"3 found\" is a result.",
+        "**Using a result that takes an hour.** You won't do it for every lead. Pick a one-minute slice.",
+        "**Leaving out the example.** \"We found some issues\" sounds like spam. One specific URL, ad or review proves it's real.",
+        "**Overselling the problem.** Don't turn 3 broken pages into \"you're losing thousands of patients\". Say what you found and stop.",
+        "**Sending without checking.** One wrong fact kills the email, and it can hurt your name with the rest of their team.",
+        "**Putting the full report in the first email.** Give a slice, offer the rest. The reply is the point."
+      ],
+      "type": "list"
+    },
+    {
+      "text": "The copy-paste prompt",
+      "type": "h2"
+    },
+    {
+      "text": "Paste this into Claude (or a Clay **Use AI** column) for each lead. It turns the lead's data and the raw check output into a result-first email, and it refuses to write one when the data isn't good enough.",
+      "type": "p"
+    },
+    {
+      "label": "Result-first email prompt",
+      "text": "You write short, result-first cold emails. You never describe the product. You show the prospect a result from their own company.\n\nWhat I sell: [one sentence]\nThe free thing I offer: [e.g. the full list of broken pages with a fix for each]\n\nLead data:\n- First name: [first name]\n- Company: [company]\n- Domain: [domain]\n\nRaw check output (the ONLY facts you may use):\n[paste the result: count, examples, date run]\n\nRules:\n1. Use only facts from the raw check output. Never guess, round up or add numbers.\n2. If the output is empty, shows 0 found, is unclear, or the domain in the output doesn't match the lead's domain, write only: SKIP, and the reason.\n3. Subject line: 4 to 6 words, with the count and the domain, e.g. \"3 broken pages on [domain]\".\n4. First line: say you ran [domain] through the check, then the count (\"3 found.\").\n5. Give exactly one specific example from the output (a URL, an ad, a review).\n6. One plain line on why it matters to them. No made-up costs or revenue.\n7. End by offering the free thing, as a small question. No meeting request, no calendar link.\n8. Under 75 words in the body. Plain text. No buzzwords, no exclamation marks. Write like a person, not a marketer.\n\nReturn:\nSUBJECT:\nBODY:\nFACT USED: (copy the exact fact from the output)\nCHECK: (what a human should click to confirm it)",
+      "type": "prompt"
+    },
+    {
+      "label": "Bottom line",
+      "text": "Don't tell them what your product does. Do it to their company, put the result in the email, and offer the rest for free. Then make sure the result is right.",
+      "type": "tip"
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Relevance, personalization, manual edits and what decision makers prefer"
+    },
+    {
+      "name": "Instantly 2026 benchmark report",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Average and top-10% reply rates, and what elite senders do"
+    },
+    {
+      "name": "Clay docs: Use AI",
+      "url": "https://university.clay.com/docs/use-ai-integration-overview",
+      "note": "Web research (Claygent) and content columns"
+    },
+    {
+      "name": "Clay docs: HTTP API",
+      "url": "https://university.clay.com/docs/http-api-integration-overview",
+      "note": "Call any API for each row in your table"
+    },
+    {
+      "name": "PageSpeed Insights",
+      "url": "https://pagespeed.web.dev/",
+      "note": "Free Google speed test for any page"
+    },
+    {
+      "name": "PageSpeed Insights API",
+      "url": "https://developers.google.com/speed/docs/insights/v5/get-started",
+      "note": "Run the speed test for every lead automatically"
+    },
+    {
+      "name": "Meta Ad Library",
+      "url": "https://www.facebook.com/ads/library/",
+      "note": "See any company's active Facebook and Instagram ads"
+    },
+    {
+      "name": "Google Ads Transparency Center",
+      "url": "https://adstransparency.google.com/",
+      "note": "See the ads a company runs on Google"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the result-first email prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What if my product can't produce a result in a minute?",
+      "a": "Pick the first step of what you do and run only that. A full audit takes days, but one check (broken pages, a speed score, their live ads) takes a minute. The email shows the slice. The free offer and the call cover the rest."
+    },
+    {
+      "q": "Won't prospects find this creepy?",
+      "a": "Not if you use public information. In [Hunter's 2026 survey](https://hunter.io/the-state-of-cold-email), 67% of decision makers said personalization using publicly available information makes them more likely to reply. Stick to their website, public ads and public reviews."
+    },
+    {
+      "q": "What if the check finds nothing?",
+      "a": "Don't send the result-first email, and never invent a problem. Send that lead your normal email, or run a different check. A clean result can also be a short, honest compliment, but don't expect it to pull as many replies."
+    },
+    {
+      "q": "Do I need Clay to do this?",
+      "a": "No. Clay makes it easy to run a check and write a draft for every row, but a spreadsheet, a script or doing it by hand for a small list all work. What matters is that every result is right before it sends."
+    }
+  ]
+}
