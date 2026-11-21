@@ -1,0 +1,250 @@
+{
+  "slug": "fight",
+  "keyword": "FIGHT",
+  "title": "Cold Email vs the Spam Filter: The 3 Settings That Win the Fight",
+  "description": "Own domain with SPF, DKIM and DMARC, open tracking off, and plain text at 30 a day. The 3 settings that keep cold email out of spam.",
+  "lead": "This is the full guide from the reel. You get the 3 settings that win the fight with the spam filter, why each one works and exactly how to set it up.",
+  "insider": "These 3 settings are the first thing we check on every client account. With them in place, one client sent **96,408 emails in five days with a 0.45% bounce rate** and booked 25 calls that week. The settings take an afternoon. Keeping dozens of inboxes healthy every week is the part we do for clients.",
+  "case": "case-03",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why most cold emails lose"
+    },
+    {
+      "type": "p",
+      "text": "Gmail and Outlook decide in a split second if your email is real mail or spam. Usually the problem is not your copy or your list. It's your settings. Get these 3 right and you win most rounds before the reader even opens the email."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Round",
+        "Setting",
+        "Why it wins"
+      ],
+      "rows": [
+        [
+          "1",
+          "Your own domain + SPF, DKIM, DMARC",
+          "Proves who you are"
+        ],
+        [
+          "2",
+          "Open tracking off",
+          "Removes a hidden image filters don't trust"
+        ],
+        [
+          "3",
+          "Plain text, no links, about 30 a day per inbox",
+          "Looks like a normal person writing"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Round 1: Your own domain, with ID"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** a free address like @gmail.com looks like anyone could have sent it. In [Hunter's study of 31 million emails](https://hunter.io/the-state-of-cold-email), emails from a company domain got **5.2% replies vs 2.5% from free addresses**. That's about twice as many."
+    },
+    {
+      "type": "p",
+      "text": "Your domain also needs 3 DNS records. Think of them as your ID card. [Google's sender guidelines](https://support.google.com/a/answer/81126) ask senders to set them up."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Record",
+        "What it says",
+        "Where to set it"
+      ],
+      "rows": [
+        [
+          "SPF",
+          "\"These servers may send mail for my domain.\"",
+          "DNS (TXT record)"
+        ],
+        [
+          "DKIM",
+          "\"This email was signed by me and not changed.\"",
+          "Your email provider, then DNS"
+        ],
+        [
+          "DMARC",
+          "\"Here's what to do if an email fails SPF or DKIM.\"",
+          "DNS (TXT record at _dmarc)"
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Buy a separate sending domain that looks like your brand (for acme.com, try getacme.com). Don't use your main domain for cold email.",
+        "Add the SPF record your email provider gives you.",
+        "Turn on DKIM in your provider's admin panel, then add the record to DNS ([Google steps](https://support.google.com/a/answer/180504), [Microsoft steps](https://learn.microsoft.com/en-us/defender-office-365/email-authentication-dkim-configure)).",
+        "Add a DMARC record. A simple start: v=DMARC1; p=none; rua=mailto:you@yourdomain.com ([Google's DMARC help](https://support.google.com/a/answer/2466580)).",
+        "Check your setup with [Google's free Check MX tool](https://toolbox.googleapps.com/apps/checkmx/)."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Watch your spam rate",
+      "text": "[Google's sender FAQ](https://support.google.com/a/answer/14229414) says keep your spam complaint rate **below 0.1%** and never let it reach **0.3%**. Track it for free in [Google Postmaster Tools](https://postmaster.google.com)."
+    },
+    {
+      "type": "h2",
+      "text": "Round 2: Turn open tracking off"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** open tracking adds a tiny hidden image to every email. Filters see that on thousands of emails and get suspicious. In [Hunter's data](https://hunter.io/the-state-of-cold-email), emails with open tracking off got **7.4% replies vs 4.4% with it on**."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Open your campaign settings in your sending tool.",
+        "Find \"Open tracking\" (sometimes called \"Track opens\") and switch it off.",
+        "Also switch off link tracking. It rewrites your links through the tool's own domain.",
+        "Judge your campaign by replies, not opens. Replies are the number that pays."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Round 3: Plain text, no links, about 30 a day"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** real people write short, plain emails to each other. No logos, no buttons, no links. And a real person doesn't send 500 emails a day from one inbox."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Plain text only.** No images, no HTML design, no signature logo.",
+        "**No links in the first email.** Not even your website. Add it later, after they reply.",
+        "**About 30 cold emails a day per inbox.** Need more? Add inboxes, don't push one inbox harder.",
+        "**Warm up new inboxes first.** [Instantly recommends](https://help.instantly.ai/articles/5975329-how-warm-up-works-and-why-it-s-important) at least 2 weeks of warm-up before cold sending."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example"
+    },
+    {
+      "type": "p",
+      "text": "You want to send 300 cold emails a day. 300 ÷ 30 = **10 inboxes**. With 3 inboxes per domain, that's 10 ÷ 3 = 3.3, so **4 domains**. Each domain gets SPF, DKIM and DMARC. Tracking is off. The first email is plain text with no links."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Emails go to spam right away",
+          "Missing SPF, DKIM or DMARC",
+          "Add all 3 records and recheck"
+        ],
+        [
+          "Fine for a week, then spam",
+          "Too many emails per inbox",
+          "Drop to about 30 a day, add inboxes"
+        ],
+        [
+          "Lots of \"opens\", no replies",
+          "Tracking pixel or bots opening",
+          "Turn tracking off and judge by replies"
+        ],
+        [
+          "Spam complaints climbing",
+          "Wrong list or no easy way to opt out",
+          "Tighten the list and offer a simple opt-out line"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Copy-paste prompt: check your setup"
+    },
+    {
+      "type": "prompt",
+      "label": "Deliverability check prompt",
+      "text": "Act as an email deliverability expert. Here is my setup:\n- Sending domain: [domain]\n- Email provider: [Google Workspace / Microsoft 365]\n- SPF record: [paste]\n- DKIM: [on / off]\n- DMARC record: [paste]\n- Open tracking: [on / off]\n- Links in email 1: [yes / no]\n- Cold emails per inbox per day: [number]\n- Inbox age and warm-up: [details]\n\nTell me which of the 3 rounds I'm losing (domain + records, tracking, plain text + volume), in order of how much each hurts, and give me the exact fix for each."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "31M emails: domain vs free address, and tracking on vs off"
+    },
+    {
+      "name": "Google: Email sender guidelines",
+      "url": "https://support.google.com/a/answer/81126",
+      "note": "SPF, DKIM and DMARC rules for sending to Gmail"
+    },
+    {
+      "name": "Google: Sender guidelines FAQ",
+      "url": "https://support.google.com/a/answer/14229414",
+      "note": "Spam rate below 0.1%, never 0.3%"
+    },
+    {
+      "name": "Google: Set up DKIM",
+      "url": "https://support.google.com/a/answer/180504",
+      "note": "Turn on DKIM in Google Workspace"
+    },
+    {
+      "name": "Google: Set up DMARC",
+      "url": "https://support.google.com/a/answer/2466580",
+      "note": "How DMARC works and how to add it"
+    },
+    {
+      "name": "Microsoft: set up DKIM",
+      "url": "https://learn.microsoft.com/en-us/defender-office-365/email-authentication-dkim-configure",
+      "note": "Step-by-step for Microsoft 365 inboxes"
+    },
+    {
+      "name": "Google Admin Toolbox: Check MX",
+      "url": "https://toolbox.googleapps.com/apps/checkmx/",
+      "note": "Free check of your domain's email setup"
+    },
+    {
+      "name": "Google Postmaster Tools",
+      "url": "https://postmaster.google.com",
+      "note": "Free spam rate dashboard for your domains"
+    },
+    {
+      "name": "Instantly: How warm-up works",
+      "url": "https://help.instantly.ai/articles/5975329-how-warm-up-works-and-why-it-s-important",
+      "note": "2-week minimum warm-up for new accounts"
+    },
+    {
+      "name": "Microsoft: Outlook requirements for high-volume senders",
+      "url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730",
+      "note": "SPF, DKIM and DMARC for domains over 5,000 emails a day"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I skip DMARC?",
+      "a": "No. Gmail and Outlook expect SPF, DKIM and DMARC from bulk senders. Start with p=none so nothing gets blocked while you check your reports."
+    },
+    {
+      "q": "How will I know if people read my email without tracking?",
+      "a": "You won't, and that's fine. Replies tell you what's working. Opens were never reliable anyway, because many inboxes load images on their own."
+    },
+    {
+      "q": "Can I add my website link in the signature?",
+      "a": "Leave it out of the first email. Add it in a follow-up or after they reply."
+    }
+  ],
+  "date": "2026-11-21",
+  "draft": false,
+  "instantdm": "pending"
+}

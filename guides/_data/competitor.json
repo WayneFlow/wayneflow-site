@@ -1,0 +1,221 @@
+{
+  "slug": "competitor",
+  "keyword": "COMPETITOR",
+  "title": "The Competitor Play: Email Companies That Look Like Your Rivals' Customers",
+  "description": "How one agency built $4-5M in pipeline for a single client by emailing companies like his competitors' customers. The 5 steps and templates.",
+  "lead": "This is the full Competitor Play from the reel. You get the 5 steps: pick the rivals, build the lookalike list, use signals first, add one real detail per person, then warm up slowly.",
+  "insider": "We use competitor and lookalike lists on client campaigns because the buyer already understands the problem. Good targeting is a big part of how one client got **4,372 replies and 1,061 interested leads in one quarter**. Finding the companies is the easy part. Cleaning the list, writing a real line for each person and keeping the inboxes healthy is the part we handle for clients.",
+  "case": "case-04",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The result behind the reel"
+    },
+    {
+      "type": "p",
+      "text": "The Kiln, a Clay-focused agency, built **four to five million dollars in new pipeline for a single client** with this play, according to [Smartlead's case study](https://www.smartlead.ai/case-study/case-study-patrick-spychalski-the-kiln). They took signals from the client's competitors, built a list of lookalike companies, and wrote a personal line for each person in Clay before sending through Smartlead."
+    },
+    {
+      "type": "h2",
+      "text": "Why this works"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**They already buy this kind of product.** You don't have to explain the problem. They know it.",
+        "**You have an easy reason to write.** \"Companies like yours use [type of tool]\" is a natural opener.",
+        "**Most senders ignore them.** Everyone else emails random lists. Your competitors' customers, and companies just like them, get fewer relevant emails than you think."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The 5 steps"
+    },
+    {
+      "type": "h3",
+      "text": "Step 1: Pick the rivals"
+    },
+    {
+      "type": "p",
+      "text": "Write down 3 competitors your buyers compare you with. Use the names your prospects mention on calls, not the biggest names in your market."
+    },
+    {
+      "type": "h3",
+      "text": "Step 2: Find their customers, then build a lookalike list"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** a competitor's public customers show you exactly what a buyer looks like. Then you find more companies just like them."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Where to look",
+        "What you find"
+      ],
+      "rows": [
+        [
+          "Competitor's website: case studies, logos, testimonials",
+          "Named customers"
+        ],
+        [
+          "Review sites like [G2](https://www.g2.com)",
+          "Reviewers' company size and industry"
+        ],
+        [
+          "Tech lookup tools like [BuiltWith](https://builtwith.com) (for web tools)",
+          "Sites that use a competitor's product"
+        ],
+        [
+          "Job posts that mention the competitor's product",
+          "Companies that use it today"
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Collect 10 to 20 named customers from the sources above.",
+        "Write down what they share: industry, size, country, how they sell.",
+        "Use those filters in your lead tool to find companies that look the same (the reel's example: 8 known customers turned into 16 lookalikes, a small, tight list).",
+        "Cut anything that doesn't fit, even if the list gets smaller."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Stay fair",
+      "text": "Never trash the competitor, and never claim to know private details about their contract. Talk about the result you give, not about what's wrong with them."
+    },
+    {
+      "type": "h3",
+      "text": "Step 3: Signals first"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** a company that is changing is more likely to buy now. Email those first. In the reel, 3 of the companies on the list were \"hot\"."
+    },
+    {
+      "type": "list",
+      "items": [
+        "New funding round",
+        "Hiring for the team that uses your product",
+        "New leader in that department",
+        "Complaints about the competitor in public reviews",
+        "Contract renewal season (if you know when they signed)"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 4: One real detail per person"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** one true line shows you looked at their company. The Kiln used Clay to pull a unique data point for each person and turn it into the first line. Use [Clay's AI research columns](https://university.clay.com/docs/use-ai-integration-overview) or do it by hand for small lists."
+    },
+    {
+      "type": "prompt",
+      "label": "First-line prompt (for Clay or ChatGPT)",
+      "text": "Company: [company name]\nWebsite: [url]\nRecent news or signal: [funding / hiring / new leader / review]\n\nWrite one first line for a cold email to the [job title] at this company. Use only the facts above. Under 20 words. Plain, friendly English. No compliments, no \"I hope this finds you well\". If there's no real fact to use, reply NONE."
+    },
+    {
+      "type": "h3",
+      "text": "Step 5: Slow warm-up, weekly fixes"
+    },
+    {
+      "type": "p",
+      "text": "Warm up new inboxes for about 14 days before sending, start slow, and check your numbers every week. Pause anything with bounces over 2% or falling replies."
+    },
+    {
+      "type": "h2",
+      "text": "Copy-paste email template"
+    },
+    {
+      "type": "prompt",
+      "label": "Competitor play email",
+      "text": "Subject: {{company}} + [your company]\n\nHi {{first_name}},\n\n{{first_line}}\n\nWe help [type of company] like [similar customer] get [result] without [pain the competitor's customers often have].\n\nWorth a 15-minute look to see if it fits {{company}}?\n\n[Your name]"
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Why it hurts",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Bashing the competitor",
+          "Feels petty and puts people on the defensive",
+          "Talk about your result only"
+        ],
+        [
+          "Fake personal lines",
+          "People spot them and stop trusting the email",
+          "One real fact, or no personal line at all"
+        ],
+        [
+          "A huge, loose list",
+          "Lots of wrong-fit people, more complaints",
+          "Keep it tight: same industry, size and need"
+        ],
+        [
+          "Blasting from new inboxes",
+          "Spam folder within days",
+          "Warm up about 14 days, start slow"
+        ]
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Smartlead: The Kiln case study",
+      "url": "https://www.smartlead.ai/case-study/case-study-patrick-spychalski-the-kiln",
+      "note": "$4-5M new pipeline for one client from lookalike accounts based on competitors"
+    },
+    {
+      "name": "Clay docs: Use AI",
+      "url": "https://university.clay.com/docs/use-ai-integration-overview",
+      "note": "Web research and first-line columns"
+    },
+    {
+      "name": "Clay",
+      "url": "https://www.clay.com",
+      "note": "Company and contact enrichment"
+    },
+    {
+      "name": "G2",
+      "url": "https://www.g2.com",
+      "note": "Software reviews with reviewer company details"
+    },
+    {
+      "name": "BuiltWith",
+      "url": "https://builtwith.com",
+      "note": "See which websites use a given web tool"
+    },
+    {
+      "name": "Smartlead",
+      "url": "https://www.smartlead.ai",
+      "note": "Sending tool used in the case study"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it legal to email my competitor's customers?",
+      "a": "Contacting a business about your product is normal B2B outreach. Follow the cold email rules for your country, include an easy opt-out, and don't make claims about the competitor."
+    },
+    {
+      "q": "What if my competitors don't list their customers?",
+      "a": "Use review sites, job posts and tech lookup tools. Or skip straight to lookalikes of your own best customers."
+    },
+    {
+      "q": "How big should the list be?",
+      "a": "Small and tight beats big and loose. Start with a few hundred well-matched people, test, then grow."
+    }
+  ],
+  "date": "2026-11-21",
+  "draft": false,
+  "instantdm": "pending"
+}

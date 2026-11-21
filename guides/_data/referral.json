@@ -1,0 +1,200 @@
+{
+  "slug": "referral",
+  "keyword": "REFERRAL",
+  "title": "The Referral Reply: Turn \"Wrong Person\" Into a Warm Introduction",
+  "description": "One question turns a \"wrong person\" reply into a warm intro. The 4 steps, the exact reply and the follow-up templates.",
+  "lead": "This is the full guide from the reel. You get the one question to ask, the email to send to the right person, the follow-up and how to tag these leads so none get lost.",
+  "insider": "On client campaigns we treat every \"wrong person\" reply as a lead, not a dead end. Handling every reply fast and properly is part of how one agency client got **2,146 positive, interested replies in four and a half months**. The reply itself is easy. Answering every one quickly, across thousands of emails, is the part we do for clients.",
+  "case": "case-01",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why \"wrong person\" is good news"
+    },
+    {
+      "type": "p",
+      "text": "Most people get \"I'm not the right person\" and move on. But that person just told you the company is real, the email works and someone else owns the problem. They know who it is. You only have to ask."
+    },
+    {
+      "type": "h2",
+      "text": "The 4 steps"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Step",
+        "What you do",
+        "Why it works"
+      ],
+      "rows": [
+        [
+          "1. Ask",
+          "Reply with one short question",
+          "Easy to answer in 5 seconds"
+        ],
+        [
+          "2. Say who sent you",
+          "Email the new person and name who pointed you there",
+          "A name they know makes it warm"
+        ],
+        [
+          "3. Put it in a follow-up",
+          "Ask in every sequence, not only when they reply",
+          "Every \"no\" can become a pointer"
+        ],
+        [
+          "4. Tag it",
+          "Mark these leads as \"pointed to someone\"",
+          "So you always follow up"
+        ]
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 1: Ask one question"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** a short, polite question is easier to answer than to ignore. Keep it to one line and thank them."
+    },
+    {
+      "type": "prompt",
+      "label": "Reply to \"wrong person\"",
+      "text": "Thanks for letting me know, {{first_name}}.\n\nWho's the right person for this at {{company}}?\n\n[Your name]"
+    },
+    {
+      "type": "tip",
+      "label": "Keep it short",
+      "text": "Don't re-pitch. Don't ask for a meeting. One question only."
+    },
+    {
+      "type": "h3",
+      "text": "Step 2: Email the new person and say who sent you"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** your email is no longer from a stranger. It mentions a colleague's name, so it gets read."
+    },
+    {
+      "type": "prompt",
+      "label": "Email to the right person",
+      "text": "Subject: {{referrer_first_name}} suggested I reach out\n\nHi {{first_name}},\n\n{{referrer_first_name}} mentioned you're the right person for [topic] at {{company}}.\n\nWe help [type of company] get [result]. [One line of proof.]\n\nWorth a quick 15-minute call to see if it fits?\n\n[Your name]"
+    },
+    {
+      "type": "tip",
+      "label": "Be honest",
+      "text": "Only say \"{{name}} suggested I reach out\" if they really pointed you there. If they only said \"not me\", write \"I asked {{name}} who handles this.\""
+    },
+    {
+      "type": "h3",
+      "text": "Step 3: Put the question in a follow-up"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** many people never reply to say \"wrong person\". A follow-up that asks the question gives them an easy way to help."
+    },
+    {
+      "type": "prompt",
+      "label": "Follow-up with the referral question",
+      "text": "Hi {{first_name}},\n\nIf this isn't on your plate, who at {{company}} handles [topic]?\n\nHappy to reach out to them instead.\n\n[Your name]"
+    },
+    {
+      "type": "h3",
+      "text": "Step 4: Tag it so you follow up"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** referrals get lost in a busy inbox. A tag turns them into a list you can work every week. In Instantly you can [change a lead's status from Unibox](https://help.instantly.ai/en/articles/6814978-change-the-status-of-the-lead-from-unibox); most tools have something similar."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Create a tag or status called \"Pointed to someone\".",
+        "Add the new person as a new lead with a note: who pointed you there and when.",
+        "Send the step 2 email within one business day.",
+        "If the new person doesn't answer in 3 to 4 days, send one short follow-up.",
+        "If it works, thank the person who pointed you there. It builds goodwill."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What to do with each kind of reply"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Reply",
+        "What it means",
+        "Your move"
+      ],
+      "rows": [
+        [
+          "\"Not me, talk to Sarah\"",
+          "Warm intro",
+          "Email Sarah today, mention who sent you"
+        ],
+        [
+          "\"Wrong person\"",
+          "They know who it is",
+          "Ask: \"Who's the right person for this?\""
+        ],
+        [
+          "\"We don't need this\"",
+          "Not a referral",
+          "Thank them, close it out"
+        ],
+        [
+          "\"Please stop emailing me\"",
+          "Opt-out",
+          "Remove them right away. Don't ask for a referral"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example"
+    },
+    {
+      "type": "p",
+      "text": "Your campaign gets 20 \"wrong person\" replies in a month. You send the one-line question to all 20. If even 5 of them name someone, you get 5 new conversations that start with a colleague's name instead of a cold intro. That's 5 warm leads you would have lost."
+    },
+    {
+      "type": "h2",
+      "text": "Copy-paste prompt: sort your replies"
+    },
+    {
+      "type": "prompt",
+      "label": "Reply sorting prompt",
+      "text": "Here are cold email replies I got this week:\n[paste replies]\n\nSort each one into: (A) named a new person, (B) said wrong person but no name, (C) not interested, (D) asked to stop. For A, write my email to the new person. For B, write the one-line \"who's the right person?\" reply. For C and D, write nothing."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Instantly: change a lead's status in Unibox",
+      "url": "https://help.instantly.ai/en/articles/6814978-change-the-status-of-the-lead-from-unibox",
+      "note": "Tag replies so referrals don't get lost"
+    },
+    {
+      "name": "WayneFlow: The 2-Line Gatekeeper Email",
+      "url": "https://wayneflow.com/guides/ea.html",
+      "note": "Ask an assistant who owns the problem"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Isn't it pushy to ask for a name?",
+      "a": "Not if it's one polite line. Most people are happy to point you to the right person so they stop getting the email."
+    },
+    {
+      "q": "What if they give me a name but no email?",
+      "a": "Find the person's work email with a lookup tool and verify it before you send."
+    },
+    {
+      "q": "Should I copy the person who referred me?",
+      "a": "Only if they offer. Otherwise just mention their name in the email."
+    }
+  ],
+  "date": "2026-11-21",
+  "draft": false,
+  "instantdm": "pending"
+}

@@ -1,0 +1,256 @@
+{
+  "slug": "tools",
+  "keyword": "TOOLS",
+  "title": "The $357 Cold Email Stack: Offer, List, Copy, Then Tools",
+  "description": "What a 1,000-a-day cold email setup really costs each month, line by line, and the 4-step order that matters more than any tool.",
+  "lead": "This is the full guide from the reel. You get the line-by-line math behind the $357 a month, and the order to fix things in: offer, list, copy, then tools.",
+  "insider": "When a new client comes to us, the tools are the last thing we talk about. A clear offer, a clean list and short emails are how one client got **4,372 replies and 1,061 interested leads in one quarter**. Buying the stack takes an afternoon. Running it every week, with fresh lists and fast replies, is the part we do for clients.",
+  "case": "case-04",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The short answer"
+    },
+    {
+      "type": "p",
+      "text": "A setup that sends **about 1,000 cold emails a day** costs about **$357 a month** in tools. That money buys inboxes, domains and a sending tool. It does not buy replies. Replies come from the offer, the list and the copy. Fix those first."
+    },
+    {
+      "type": "h2",
+      "text": "Where the $357 comes from"
+    },
+    {
+      "type": "p",
+      "text": "We used the numbers from our sending calculator: about 30 emails a day per inbox and 3 inboxes per domain. For 1,000 a day that is **34 inboxes on 12 domains**. Prices below are from the official pricing pages, checked on November 21, 2026. Prices: [Google Workspace](https://workspace.google.com/pricing) Business Starter is $7 per user a month on the annual plan. [Instantly](https://instantly.ai/pricing) Hypergrowth is $107 a month billed monthly. Domain prices vary by registrar, so check yours."
+    },
+    {
+      "type": "table",
+      "head": [
+        "What",
+        "Math",
+        "Per month"
+      ],
+      "rows": [
+        [
+          "Google Workspace inboxes",
+          "34 × $7",
+          "$238"
+        ],
+        [
+          "Instantly Hypergrowth (sending + warm-up)",
+          "1 × $107",
+          "$107"
+        ],
+        [
+          "Sending domains (example: $12 a year each)",
+          "12 × $1",
+          "$12"
+        ],
+        [
+          "**Total**",
+          "",
+          "**$357**"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Check the math",
+      "text": "34 × $7 = $238. $238 + $107 = $345. 12 domains × $12 a year = $144 a year, or $12 a month. $345 + $12 = **$357**."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Why Hypergrowth, not Growth?** 1,000 a day is about 22,000 emails in a month of weekdays. Instantly's Growth plan allows 5,000 emails a month. Hypergrowth allows 125,000.",
+        "**Paying yearly is cheaper.** Instantly lists Hypergrowth at $85.58 a month on annual billing.",
+        "**Lists are not in the $357.** You can start with free sources and your own research. Paid data tools add to the bill."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why more tools rarely fix zero replies"
+    },
+    {
+      "type": "p",
+      "text": "Every tool on that list does one job: get the email into the inbox. If the email lands and nobody answers, a new tool changes nothing. The reader still sees the same offer, sent to the same people, in the same words."
+    },
+    {
+      "type": "quote",
+      "text": "A tool can't write what you offer."
+    },
+    {
+      "type": "h2",
+      "text": "The 4-step order"
+    },
+    {
+      "type": "h3",
+      "text": "Step 1: The offer"
+    },
+    {
+      "type": "p",
+      "text": "**Why it matters:** the offer is the reason to say yes. If a stranger can't see what they get and why it's low risk, nothing else saves the email."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Write what you do in one line: \"We help [who] get [result] in [time].\"",
+        "Add one piece of proof: a number, a client type or a short result.",
+        "Make the ask small: a 15-minute call, a free audit or a short sample.",
+        "Test it: read it out loud. If a friend in that job wouldn't say \"yes, send it\", rewrite it."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 2: The list"
+    },
+    {
+      "type": "p",
+      "text": "**Why it matters:** the best email fails if it goes to people who can't buy. In the reel, 10 names became 4 after we removed people with no budget, no need or the wrong job title."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Write down who signs the check: job title, company size, industry, country.",
+        "Remove anyone who doesn't match, even if it makes the list smaller.",
+        "Verify every email before you send.",
+        "Keep your best 2 or 3 reasons why this company needs you now (hiring, new funding, new location)."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 3: The copy"
+    },
+    {
+      "type": "p",
+      "text": "**Why it matters:** busy people decide in a few seconds. Short, plain emails with one ask are easy to answer."
+    },
+    {
+      "type": "list",
+      "items": [
+        "3 to 5 short lines.",
+        "Plain words. No \"leverage\" or \"synergy\".",
+        "One simple ask at the end.",
+        "No images, no attachments, no links in the first email."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 4: The tools"
+    },
+    {
+      "type": "p",
+      "text": "**Why last:** tools make a working campaign bigger. They can't make a broken one work. Once steps 1 to 3 get replies on a small test, buy the inboxes you need to scale."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder: what to fix first"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Most likely problem",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Emails land, almost no replies",
+          "Offer",
+          "Rewrite the offer and the ask (step 1)"
+        ],
+        [
+          "Replies are \"not me\" or \"we don't need this\"",
+          "List",
+          "Tighten who you email (step 2)"
+        ],
+        [
+          "A few replies, but readers seem confused",
+          "Copy",
+          "Shorten it to 3 to 5 lines with one ask (step 3)"
+        ],
+        [
+          "Bounces over 2% or emails go to spam",
+          "Tools and setup",
+          "Verify the list, check warm-up and DNS records (step 4)"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Copy-paste prompt: test your offer before you buy anything"
+    },
+    {
+      "type": "prompt",
+      "label": "Offer test prompt",
+      "text": "I sell [what you sell] to [who you sell to]. My current cold email offer is:\n[paste your offer]\n\nAct as a busy [job title] who gets 50 cold emails a week.\n1) In one sentence, tell me what you think I'm offering.\n2) Give me 3 reasons you would ignore it.\n3) Rewrite the offer in under 25 words with one proof point and one small ask.\n4) Give me 2 more versions with a different small ask (audit, sample, 15-minute call)."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Why it hurts",
+        "Do this instead"
+      ],
+      "rows": [
+        [
+          "Switching tools when replies drop",
+          "Same offer, same list, same result",
+          "Change one thing in steps 1 to 3 and test again"
+        ],
+        [
+          "Buying 30 inboxes before the first test",
+          "You pay for volume you can't use yet",
+          "Test with a few inboxes first, then scale"
+        ],
+        [
+          "Sending from your main domain to save money",
+          "A spam problem can hit your normal email too",
+          "Use separate sending domains"
+        ]
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Instantly pricing",
+      "url": "https://instantly.ai/pricing",
+      "note": "Growth, Hypergrowth and Light Speed plan prices and email limits"
+    },
+    {
+      "name": "Google Workspace pricing",
+      "url": "https://workspace.google.com/pricing",
+      "note": "Business Starter price per user"
+    },
+    {
+      "name": "Google Workspace sending limits",
+      "url": "https://support.google.com/a/answer/166852",
+      "note": "Official daily limits per inbox"
+    },
+    {
+      "name": "WayneFlow: the sending calculator",
+      "url": "https://wayneflow.com/guides/math.html",
+      "note": "How we got 34 inboxes and 12 domains"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I start for less than $357?",
+      "a": "Yes. That number is for about 1,000 emails a day. A small test with a few inboxes on one or two domains costs much less. Start small, prove the offer, then grow."
+    },
+    {
+      "q": "Which tool is the best?",
+      "a": "Any well-known sending tool with warm-up works. The tool matters far less than your offer, list and copy."
+    },
+    {
+      "q": "How do I know if my problem is the offer or the list?",
+      "a": "Read your replies. \"Not interested\" from the right people points to the offer. \"Wrong person\" or \"we don't do that\" points to the list."
+    }
+  ],
+  "date": "2026-11-21",
+  "draft": false,
+  "instantdm": "pending"
+}
