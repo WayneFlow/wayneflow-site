@@ -1,0 +1,178 @@
+{
+  "slug": "juggle",
+  "keyword": "JUGGLE",
+  "date": "2026-11-23",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "posted 2026-11-23",
+  "title": "The Juggle Setup Checklist: Hand Off the Part of Sales That Eats Your Week",
+  "description": "Sales, delivery and admin is too much for one person. The setup checklist to hand off list building, inboxes, sending and replies, and keep closing.",
+  "lead": "This is the full setup checklist from the reel. You get the 5 parts of sales to hand off, the 2 you keep, an 8-step checklist with why each step matters and exactly how to do it, a worked example with real numbers, a problem finder and two copy-paste templates.",
+  "insider": "This is exactly how our clients work with us: we run the list, the inboxes, the sending and the replies, and they show up to close. Over one quarter of steady sending (January to March 2026) that produced **1,061 interested leads** for one client, without them writing a single cold email. The checklist is the easy part; running the full system (list, inboxes, follow-ups) every week is what we do for clients.",
+  "case": "case-04",
+  "blocks": [
+    { "type": "h2", "text": "Why the juggle always breaks" },
+    { "type": "p", "text": "Most founders of small agencies and service businesses do three jobs: **sales, delivery and admin**. Each one is fine alone. Together, something always slips. Usually it's sales, because delivery has a deadline and admin has a bill. Sales only has a \"later\"." },
+    { "type": "p", "text": "This is not just a founder problem. [Salesforce's State of Sales research](https://www.salesforce.com/news/stories/sales-research-2023/) found that sales reps spend **just 28% of their week actually selling**. The rest goes to other tasks. If full-time sales people lose most of their week to busywork, a founder who also delivers the work has even less time left." },
+    { "type": "p", "text": "The fix from the reel: **drop sales. Not forever. Just the part that eats your week.** The part that needs you (talking to buyers and closing) stays with you. The part that doesn't (lists, inboxes, sending, sorting replies) goes to someone else." },
+    { "type": "table", "head": ["Job", "Does it need you?", "Best move"], "rows": [
+      ["Delivery", "Yes: it's what clients pay you for", "Keep"],
+      ["Closing sales calls", "Yes: buyers want to meet the person who does the work", "Keep"],
+      ["Building lists, inboxes, sending, sorting replies", "No: it's a repeatable process", "Hand off"],
+      ["Admin (invoices, scheduling)", "Mostly no", "Hand off or use tools (not covered here)"]
+    ] },
+
+    { "type": "h2", "text": "The 5 parts of sales that eat your week" },
+    { "type": "p", "text": "These are the 5 parts from the reel. Each one is real work, and each one repeats every week. That's why they're the right ones to hand off: once written down, someone else can do them the same way every time." },
+    { "type": "table", "head": ["Part", "What it really involves", "What you give the other person"], "rows": [
+      ["1. Building the prospect list", "Finding companies that fit, finding the right person, verifying emails", "Your ideal client description (Step 1)"],
+      ["2. Setting up domains and inboxes", "Buying lookalike domains, creating inboxes, adding SPF, DKIM and DMARC", "Your brand name and approval of domain names"],
+      ["3. Warming up the inboxes", "About 2 weeks of slow, automatic sending before any campaign", "Patience. Nothing else."],
+      ["4. Writing and sending campaigns", "Writing a short sequence, loading the list, sending daily, testing", "Your offer, one proof, and one approval of the copy"],
+      ["5. Handling replies and booking calls", "Sorting replies, answering questions, sending the booking link", "Reply rules and your calendar (Steps 6 and 7)"]
+    ] },
+    { "type": "tip", "label": "What you keep", "text": "Two things: **delivering great work** and **closing the calls that land on your calendar**. Two balls are easy to keep in the air." },
+
+    { "type": "h2", "text": "The hand-off checklist at a glance" },
+    { "type": "table", "head": ["Step", "What you do", "Your time"], "rows": [
+      ["1", "Write your ideal client on one page", "About 1 hour, once"],
+      ["2", "Write your offer and one proof", "About 1 hour, once"],
+      ["3", "Approve separate sending domains and inboxes", "15 minutes, once"],
+      ["4", "Let inboxes warm up 2 weeks while the list is built", "None"],
+      ["5", "Approve the email sequence once", "30 minutes, once"],
+      ["6", "Write reply rules: what gets answered, what comes to you", "30 minutes, once"],
+      ["7", "Block closing time on your calendar", "10 minutes, once"],
+      ["8", "Review a 15-minute scorecard every Monday", "15 minutes a week"]
+    ] },
+
+    { "type": "h3", "text": "Step 1: Write your ideal client on one page" },
+    { "type": "p", "text": "**Why it works:** the person building your list can't read your mind. If you say \"small businesses\", you get a random list and bad replies. If you say \"dental groups with 3 to 10 locations where the owner signs\", you get a list that looks like your best clients. One clear page saves weeks of wrong emails." },
+    { "type": "steps", "items": [
+      "List your last 10 clients. Mark your 3 favorites (paid well, easy to work with, got great results).",
+      "For each favorite write: industry, company size, location, the job title of the person who signed, and what was happening when they hired you.",
+      "Write down who you **don't** want (too small, wrong country, bad fit). This list matters as much as the first one.",
+      "Use the hand-off brief prompt below to turn it into one clean page."
+    ] },
+
+    { "type": "h3", "text": "Step 2: Write your offer and one proof" },
+    { "type": "p", "text": "**Why it works:** you know your business best. The person sending the emails can write well, but the offer and the proof must come from you. A cold email with no proof asks a stranger to trust you for no reason." },
+    { "type": "steps", "items": [
+      "Write what you do in one sentence a 10-year-old would understand.",
+      "Add one real result from a real client, with a number. Ask the client first if you name them.",
+      "Pick a small ask, like \"Worth a look?\" instead of \"Can we book 30 minutes?\"."
+    ] },
+
+    { "type": "h3", "text": "Step 3: Approve separate sending domains and inboxes" },
+    { "type": "p", "text": "**Why it works:** your main domain is where clients, invoices and referrals reach you. Never risk it with cold email. Sending happens from separate domains that look like your brand (for acme.com: getacme.com or acmehq.com). [Google's sender guidelines](https://support.google.com/mail/answer/81126) require SPF or DKIM for every sender, and SPF, DKIM and DMARC for bulk senders, so ask for all three from day one." },
+    { "type": "steps", "items": [
+      "Approve the domain names before they're bought. They should look like your brand, not spam.",
+      "Ask for up to 3 inboxes per domain, under real names from your team.",
+      "Ask for proof that SPF, DKIM and DMARC are set up on every domain. Our [deliverability checklist](/guides/inbox.html) shows the checks.",
+      "Make sure the domains and inboxes are **in your name and on your account**, so you keep them if you ever switch who runs the outbound."
+    ] },
+    { "type": "tip", "label": "Why about 30 emails a day per inbox", "text": "Google Workspace allows up to 2,000 emails a day per user ([Google's limits](https://support.google.com/a/answer/166852)), but that's a system limit, not a target. [Hunter's State of Email Outreach](https://hunter.io/the-state-of-cold-email) found accounts sending **20 to 49 emails a day got 5.7% replies vs 4.5%** overall. Need more volume? Add inboxes, not emails per inbox." },
+
+    { "type": "h3", "text": "Step 4: Let the inboxes warm up while the list is built" },
+    { "type": "p", "text": "**Why it works:** new inboxes have no history, so email providers don't trust them yet. [Instantly's warm-up guide](https://help.instantly.ai/articles/5975329-how-warm-up-works-and-why-it-s-important) says accounts should be warmed up **for at least 2 weeks**. Those 2 weeks are not wasted: that's when the list gets built and checked." },
+    { "type": "steps", "items": [
+      "Week 1 to 2: inboxes warm up automatically. Nobody sends campaigns yet.",
+      "Same 2 weeks: the list is built from your Step 1 page, and every email is verified.",
+      "Ask for 1 or 2 people per company, not 5. [Hunter found](https://hunter.io/the-state-of-cold-email) that contacting one or two people per company got **5.1% replies vs 3.5%** for 3 or more.",
+      "Look at a sample of 20 rows before sending starts. If 5 of them aren't companies you'd want, fix the Step 1 page."
+    ] },
+
+    { "type": "h3", "text": "Step 5: Approve the email sequence once" },
+    { "type": "p", "text": "**Why it works:** if you have to approve every email, you're still juggling. Approve the first sequence once, set a few rules, then let it run. Change it only when the weekly numbers say so." },
+    { "type": "steps", "items": [
+      "Ask for a short sequence: 3 emails, each under about 100 words, plain text, no images.",
+      "Check 3 things only: is the offer right, is the proof true, does it sound like you?",
+      "Agree on one rule for changes: new copy gets tested on a small part of the list first."
+    ] },
+
+    { "type": "h3", "text": "Step 6: Write reply rules" },
+    { "type": "p", "text": "**Why it works:** replies are where most of the hidden time goes. Most replies are not buyers: out-of-office notes, \"not now\", \"remove me\", wrong person. Someone else can handle all of those. You only want the people who want to talk. And they should hear back fast: [research published in Harvard Business Review](https://hbr.org/2011/03/the-short-life-of-online-sales-leads) found most companies respond to leads far too slowly." },
+    { "type": "table", "head": ["Reply type", "Who handles it", "What happens"], "rows": [
+      ["Interested, wants a call", "The person running outbound", "Answers the same working day with your booking link; you get a heads-up"],
+      ["Question about price or process", "The person running outbound, using your FAQ", "Answers with your approved text, then offers a call"],
+      ["Question only you can answer", "You", "Gets forwarded to you within the day"],
+      ["Wrong person, try someone else", "The person running outbound", "Asks politely who handles it, adds them to the list"],
+      ["Not now / not interested", "The person running outbound", "Thanks them and stops"],
+      ["Remove me", "The person running outbound", "Removes them right away, no reply needed"],
+      ["Out of office", "The person running outbound", "Nothing; the sequence continues"]
+    ] },
+
+    { "type": "h3", "text": "Step 7: Block closing time on your calendar" },
+    { "type": "p", "text": "**Why it works:** if anyone can book any slot, sales calls land in the middle of delivery work and the juggle starts again. Fixed closing blocks protect both." },
+    { "type": "steps", "items": [
+      "Pick 2 or 3 fixed blocks a week for sales calls (for example Tuesday and Thursday afternoons).",
+      "Make your booking link show only those blocks.",
+      "Ask for a short note before each call: who they are, what they replied, what they asked. Read it in 2 minutes before the call."
+    ] },
+
+    { "type": "h3", "text": "Step 8: Review a 15-minute scorecard every Monday" },
+    { "type": "p", "text": "**Why it works:** handing off doesn't mean looking away. A few numbers, once a week, tell you if it's working. If they're fine, you're done for the week. If one drops, you know exactly where to look." },
+    { "type": "table", "head": ["Number", "Where it comes from", "What it tells you"], "rows": [
+      ["People contacted this week", "Sending tool", "Is the volume on plan?"],
+      ["Bounce rate", "Sending tool", "Is the list clean? (Case 03 ran at 0.45%)"],
+      ["Reply rate", "Sending tool", "Is the list and message right?"],
+      ["Interested replies", "Reply log", "Are the right people saying yes?"],
+      ["Calls booked and held", "Your calendar", "Is the hand-off from reply to call working?"]
+    ] },
+
+    { "type": "h2", "text": "Worked example: what lands on your plate" },
+    { "type": "p", "text": "Here are real numbers from a small pilot we ran (case 05 on our results page): **10,284 people contacted, 417 replies, 103 sales opportunities.**" },
+    { "type": "list", "items": [
+      "Reply rate: 417 ÷ 10,284 = about **4%**.",
+      "Opportunities per reply: 103 ÷ 417 = about **1 in 4** replies (24.7%).",
+      "Opportunities per person contacted: 103 ÷ 10,284 = about **1 in 100**.",
+      "Without a hand-off, you read and sort all **417 replies** yourself. With one, you only see the **103** that want to talk. About 314 replies (75%) never reach you."
+    ] },
+    { "type": "p", "text": "Now the setup side. Say you want to reach the same 10,284 people over 4 weeks (20 working days) with first emails:" },
+    { "type": "list", "items": [
+      "First emails a day: 10,284 ÷ 20 = about **514**.",
+      "Inboxes at about 30 a day: 514 ÷ 30 = 17.1, so **18 inboxes**.",
+      "Domains at 3 inboxes each: 18 ÷ 3 = **6 domains**.",
+      "Follow-up emails go out on top of the first emails, so plan for the follow-ups too, or spread the list over more weeks."
+    ] },
+    { "type": "tip", "label": "Your numbers will be different", "text": "These are real results from one campaign. Use them to plan, then switch to your own numbers after 2 to 4 weeks of sending." },
+
+    { "type": "h2", "text": "Problem finder" },
+    { "type": "table", "head": ["What you see", "Likely cause", "Fix"], "rows": [
+      ["You still spend hours on sales every week", "You approve every email or answer every reply", "Approve the sequence once (Step 5) and use reply rules (Step 6)"],
+      ["Lots of replies, few want to talk", "The list doesn't match your best clients", "Tighten the Step 1 page, especially the \"don't want\" list"],
+      ["Bounce rate going up", "Emails not verified", "Verify every email before it's loaded"],
+      ["Almost no replies", "Inboxes not warmed up, or the offer is unclear", "Check warm-up and authentication, then rewrite the offer in one sentence"],
+      ["Calls booked, but many no-shows", "Too much time between reply and call", "Answer interested replies the same day and offer slots in the next few days"],
+      ["Calls land in the middle of delivery days", "Booking link shows every slot", "Fixed closing blocks (Step 7)"],
+      ["You can't tell if it's working", "No shared numbers", "The Monday scorecard (Step 8)"]
+    ] },
+
+    { "type": "h2", "text": "Copy-paste: the hand-off brief prompt" },
+    { "type": "p", "text": "Paste this into ChatGPT or Claude with your client details. It turns your notes into the one-page brief that whoever runs your outbound needs." },
+    { "type": "prompt", "label": "Hand-off brief prompt", "text": "I run a [type of business]. I want to hand off my cold email outbound (list building, inbox setup, sending and reply handling) to someone else, and only do the sales calls myself.\n\nHere are my 3 best clients and why: [paste]\nHere are clients I don't want: [paste]\nWhat I sell, in one sentence: [paste]\nOne real result with a number: [paste]\nMy booking link and the days I take sales calls: [paste]\n\nWrite a one-page hand-off brief with these sections:\n1. Ideal client: industry, company size, location, job title, and a trigger (what is happening in their business)\n2. Do not contact: who to leave out\n3. Offer and proof, in plain words\n4. Reply rules: which replies the outbound person answers, and which ones go to me\n5. Weekly scorecard: the 5 numbers I want every Monday\n\nUse short, simple sentences. Don't invent results or numbers. If something is missing, list it as a question at the end." },
+    { "type": "prompt", "label": "Reply rules message (send to whoever runs outbound)", "text": "Hi [name], here's how I'd like replies handled:\n\n- Interested: answer the same working day with my booking link: [link]. Send me a short note with who they are and what they said.\n- Price or process questions: use the answers in our FAQ doc, then offer a call.\n- Anything you're unsure about: forward it to me the same day.\n- Not interested or not now: thank them and stop.\n- Remove me: remove them right away.\n- Out of office: no action.\n\nEvery Monday, please send: people contacted, bounce rate, reply rate, interested replies, calls booked and calls held.\n\nThanks!" },
+
+    { "type": "h2", "text": "Who can run the part you hand off" },
+    { "type": "table", "head": ["Option", "Good when", "Watch out for"], "rows": [
+      ["Assistant or freelancer", "You want low cost and can manage the setup", "They need the full system from you: tools, inboxes, copy, rules"],
+      ["In-house sales hire", "You have steady volume and time to train someone", "Hiring and training take months before results"],
+      ["Outbound agency", "You want the whole system run for you, fast", "Make sure domains, inboxes and data stay in your name"],
+      ["Tools only", "You enjoy the work and have spare hours", "That's still you juggling"]
+    ] },
+    { "type": "quote", "text": "You don't have to get better at juggling. You need fewer balls." }
+  ],
+  "resources": [
+    { "name": "Salesforce: State of Sales research", "url": "https://www.salesforce.com/news/stories/sales-research-2023/", "note": "Reps spend 28% of their week actually selling" },
+    { "name": "Hunter: The State of Email Outreach", "url": "https://hunter.io/the-state-of-cold-email", "note": "Reply rates by emails per day and people per company" },
+    { "name": "Google: Email sender guidelines", "url": "https://support.google.com/mail/answer/81126", "note": "SPF, DKIM and DMARC rules for senders" },
+    { "name": "Google Workspace sending limits", "url": "https://support.google.com/a/answer/166852", "note": "Official daily limits per inbox" },
+    { "name": "Instantly: How warm-up works", "url": "https://help.instantly.ai/articles/5975329-how-warm-up-works-and-why-it-s-important", "note": "Warm up new accounts for at least 2 weeks" },
+    { "name": "Harvard Business Review: The Short Life of Online Sales Leads", "url": "https://hbr.org/2011/03/the-short-life-of-online-sales-leads", "note": "Why fast replies to leads matter" }
+  ],
+  "faq": [
+    { "q": "Will I lose control of what goes out under my name?", "a": "Not if you approve the offer, proof and first sequence once, keep the domains and inboxes in your name, and check the Monday scorecard. Changes get tested small first." },
+    { "q": "Do I still need to be on the sales calls?", "a": "Yes. Closing stays with you. Buyers of a service want to meet the person who will do the work. You hand off everything before the call." },
+    { "q": "How long until the first calls?", "a": "Plan for about 2 weeks of warm-up before campaigns start. The list gets built during that time, so sending can begin as soon as warm-up is done." },
+    { "q": "What if I only have a few hours a week for sales?", "a": "That's the point of the checklist. After the one-time setup (a few hours), your weekly part is the 15-minute scorecard plus the calls themselves." }
+  ]
+}
