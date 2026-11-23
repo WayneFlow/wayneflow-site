@@ -1,0 +1,286 @@
+{
+  "slug": "keys",
+  "keyword": "KEYS",
+  "date": "2026-11-23",
+  "draft": false,
+  "instantdm": "pending",
+  "title": "Never Send Cold Email From Your Main Domain: The Safe Setup, Step by Step",
+  "description": "Why cold email should never come from your main domain, and how to set up separate sending domains, inboxes, warm-up and a safe ramp.",
+  "lead": "This is the full guide from the reel. It shows why your main domain must stay out of cold email, how to set up separate sending domains that protect it, and how to ramp up slowly so your normal emails to clients keep landing in the inbox.",
+  "insider": "Every client campaign we run sends from separate sending domains, never from the client's main website domain. That is why a hard week on one cold email domain never touches a client's real inbox. Buying a domain is the easy part. Keeping dozens of domains and inboxes warm and healthy every day is what we do for clients.",
+  "case": "case-04",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The short answer"
+    },
+    {
+      "type": "p",
+      "text": "Send cold email only from separate domains that you buy just for outreach. Keep your main domain for the emails that matter: clients, partners, invoices and your team. If a cold email domain gets a bad reputation, you replace it. If your main domain gets a bad reputation, you have a real business problem."
+    },
+    {
+      "type": "tip",
+      "label": "One rule",
+      "text": "Your main domain is your home address. Cold email domains are rented rooms. Never test risky things at home."
+    },
+    {
+      "type": "h2",
+      "text": "Why your main domain is at risk"
+    },
+    {
+      "type": "p",
+      "text": "Inbox providers judge reputation at the domain level, not only the single address. [Hunter's cold email guide](https://hunter.io/cold-email-guide/dedicated-cold-email-domain) says a separate email address under your main domain is not enough, because the reputation of the entire domain is what receiving servers analyze. Hunter also warns that sending cold email without precautions can quickly destroy that reputation."
+    },
+    {
+      "type": "p",
+      "text": "[Apollo's help center](https://knowledge.apollo.io/hc/en-us/articles/25265069912717-Set-Up-Lookalike-Domains-to-Protect-Your-Primary-Domain) says the same thing in plain words: it takes very little time to burn a sending reputation, and rebuilding it is slow and difficult."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Your client emails go to spam.** Proposals, invoices and replies start landing in the junk folder.",
+        "**You may not notice for days.** Nobody tells you your email went to spam. Clients just go quiet.",
+        "**It is hard to undo.** A bad reputation can take weeks to repair, and you still have to run your business meanwhile.",
+        "**One bad list can cause it.** Bounces and spam complaints from a single campaign are enough."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What a safe setup looks like"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mail type",
+        "Where it should come from",
+        "Main risk if mixed up"
+      ],
+      "rows": [
+        [
+          "Team and client email",
+          "Your main domain",
+          "Clients stop getting your emails"
+        ],
+        [
+          "Invoices and system emails",
+          "Main domain or a service subdomain",
+          "Missed payments"
+        ],
+        [
+          "Newsletters",
+          "A marketing subdomain",
+          "Complaints from people who forgot they signed up"
+        ],
+        [
+          "Cold outreach",
+          "Separate sending domains",
+          "Burned domain you can replace"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "[Suped's deliverability guide](https://www.suped.com/learn/email-deliverability/how-can-i-prevent-cold-emails-from-harming-my-domain-reputation) uses this same split: cold outreach gets its own separate domain, while employee mail stays on the root domain."
+    },
+    {
+      "type": "h2",
+      "text": "Step 1: Pick your sending domains"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Start from your brand name.** If your site is acme.com, think of names close to it that still look real.",
+        "**Use a clean pattern.** [Lemlist](https://www.lemlist.com/blog/how-to-set-up-your-sending-infrastructure-for-cold-email-without-burning-your-domain-) lists patterns that work, such as adding a prefix or suffix with no separator (tryacme.com, acmehq.com) or a clean TLD swap (acme.io).",
+        "**Avoid weird names.** No random letters, no long names, no hyphens or numbers.",
+        "**Buy more than one.** Spread your sending over several domains so one problem never stops everything.",
+        "**Check the name is free** at your registrar, then buy."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 2: Make each domain look real"
+    },
+    {
+      "type": "p",
+      "text": "Apollo's guide says filters do automated checks on a domain, including looking for a website, so a simple landing page is enough. Lemlist adds that a sending domain should point to your main website, because a domain that goes nowhere is a red flag for providers."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Point the domain to your main site** with a simple redirect or a one page site.",
+        "**Set up SPF, DKIM and DMARC** on every domain. Follow our [DNS records guide](https://wayneflow.com/blog/dns-records-for-cold-email.html) and the [10 minute domain fix](https://wayneflow.com/guides/domain.html).",
+        "**Use a custom tracking link** on the sending domain if your tool offers one, so links do not point back to your main domain.",
+        "**Keep links in your emails on the sending domain**, never your main domain."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 3: Set up inboxes and warm them up"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Create a few inboxes per domain.** Keep the number small. Our [sending calculator guide](https://wayneflow.com/guides/math.html) shows the math.",
+        "**Use real looking names.** First name at the domain works well.",
+        "**Turn on warm-up** in your sending tool for about 2 weeks before real campaigns.",
+        "**Check the inboxes yourself.** Send a test to a Gmail and an Outlook address and see where it lands."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 4: Ramp slowly"
+    },
+    {
+      "type": "p",
+      "text": "A new domain has no history. Start with a small number of emails a day per inbox and increase a little each week. Do not jump from zero to a big number on day one. Slow growth looks like a normal business. A sudden spike looks like a spammer."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Week",
+        "What to do"
+      ],
+      "rows": [
+        [
+          "1 to 2",
+          "Warm-up only. No cold emails yet."
+        ],
+        [
+          "3",
+          "Start with a small batch to your best verified leads."
+        ],
+        [
+          "4",
+          "Increase a little if bounces and replies look healthy."
+        ],
+        [
+          "5 and after",
+          "Reach your normal daily volume per inbox and hold it."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "A worked example"
+    },
+    {
+      "type": "p",
+      "text": "Say your main domain is **acme.com** and you want to start cold email. You buy **tryacme.com** and **acmehq.com**, point both at acme.com, set up SPF, DKIM and DMARC, create 2 inboxes on each (4 in total) and warm them up for 2 weeks. If tryacme.com has a bad week and lands in spam, you pause it and keep sending from acmehq.com. Your clients keep reading your emails from acme.com the whole time."
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Why it hurts",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Sending from your main domain",
+          "Spam problems hit client email",
+          "Use separate sending domains"
+        ],
+        [
+          "Using a subdomain of your main domain",
+          "Reputation can spill over to the main domain",
+          "Use a fully separate domain"
+        ],
+        [
+          "No website on the sending domain",
+          "Filters see a domain that goes nowhere",
+          "Redirect it to your main site"
+        ],
+        [
+          "Skipping SPF, DKIM and DMARC",
+          "Your emails fail checks",
+          "Set all three on every domain"
+        ],
+        [
+          "Sending full volume on day one",
+          "New domains look like spammers",
+          "Warm up, then ramp slowly"
+        ],
+        [
+          "Buying a huge unverified list",
+          "Bounces damage reputation fast",
+          "Verify every address first"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Honest note",
+      "text": "A separate domain is not a magic shield. Suped notes that modern filters can sometimes connect related domains, and a consistently poor cold email strategy can still hurt your brand. Good targeting and clean lists matter just as much as the setup."
+    },
+    {
+      "type": "h2",
+      "text": "Copy-paste prompt: find your sending domains"
+    },
+    {
+      "type": "prompt",
+      "text": "My company website is [yourcompany.com] and we sell [what you sell] to [who you sell to]. Give me 15 domain names for cold email that look close to my brand but are separate. Use only simple patterns like a prefix or suffix with no hyphens or numbers, or a different ending like .io or .co. Keep every name short and easy to read out loud."
+    },
+    {
+      "type": "p",
+      "text": "Check each name is free at your registrar, then buy two or three."
+    },
+    {
+      "type": "h2",
+      "text": "The safe setup checklist"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Main domain used only for real business email",
+        "2 or more separate sending domains bought",
+        "Each domain redirects to your main website",
+        "SPF, DKIM and DMARC set on every domain",
+        "A few inboxes per domain, not many",
+        "2 weeks of warm-up before any campaign",
+        "Slow ramp over the first 4 to 5 weeks",
+        "Lists verified before sending",
+        "Test emails checked in Gmail and Outlook"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: Set up a dedicated cold email domain",
+      "url": "https://hunter.io/cold-email-guide/dedicated-cold-email-domain"
+    },
+    {
+      "name": "Apollo: Set up lookalike domains to protect your primary domain",
+      "url": "https://knowledge.apollo.io/hc/en-us/articles/25265069912717-Set-Up-Lookalike-Domains-to-Protect-Your-Primary-Domain"
+    },
+    {
+      "name": "Lemlist: Set up your sending infrastructure without burning your domain",
+      "url": "https://www.lemlist.com/blog/how-to-set-up-your-sending-infrastructure-for-cold-email-without-burning-your-domain-"
+    },
+    {
+      "name": "Suped: How to prevent cold emails from harming your domain reputation",
+      "url": "https://www.suped.com/learn/email-deliverability/how-can-i-prevent-cold-emails-from-harming-my-domain-reputation"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is a subdomain enough instead of a new domain?",
+      "a": "A fully separate domain gives the safest isolation. Subdomains can share reputation with the main domain, so for cold email a separate domain is the safer choice."
+    },
+    {
+      "q": "How many domains do I need?",
+      "a": "Start with two or three so one problem never stops everything, and add more as your daily volume grows."
+    },
+    {
+      "q": "How long before I can send real campaigns?",
+      "a": "Plan for about 2 weeks of warm-up, then a slow ramp over a few weeks."
+    },
+    {
+      "q": "Will a separate domain fix bad targeting?",
+      "a": "No. It protects your main domain, but bad lists and bad copy will still burn the sending domain, so keep your lists clean."
+    }
+  ]
+}
