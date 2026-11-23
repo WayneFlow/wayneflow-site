@@ -1,0 +1,530 @@
+{
+  "slug": "inbox",
+  "keyword": "INBOX",
+  "date": "2026-11-23",
+  "draft": false,
+  "instantdm": "pending",
+  "title": "The Deliverability Checklist: 4 Checks Before You Send a Single Cold Email",
+  "description": "Not a copy problem, a deliverability problem. The 4 pre-send checks (domain, records, warm-up, inboxes) plus Gmail, Yahoo and Outlook rules in one table.",
+  "lead": "This is the full deliverability checklist from the reel. You get a quick test to see if your problem is copy or deliverability, the 4 checks to pass before a single send (domain, records, warm-up, inboxes), how to test each one in minutes, and the Gmail, Yahoo and Outlook sender rules side by side, straight from their official pages.",
+  "insider": "We run these 4 checks on every domain and inbox before a client campaign sends its first email. That's how our 5-day blitz sent **96,408 emails in five days with a 0.45% bounce rate** and booked 25 calls that same week: the inboxes were warmed up and checked before day one. The tactic is the easy part; the full system (list, inboxes, follow-ups) is what we do for clients.",
+  "case": "case-03",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Copy problem or deliverability problem?"
+    },
+    {
+      "type": "p",
+      "text": "If your best email and your follow-up both land in spam, nobody reads them. Rewriting the copy changes nothing, because the problem happens before anyone sees a single word. So before you touch the copy, find out which problem you have."
+    },
+    {
+      "type": "p",
+      "text": "Don't use open rates to decide. [Google's sender guidelines](https://support.google.com/mail/answer/81126) say Google doesn't track open rates and that **low open rates aren't necessarily an accurate sign** of a spam problem. Use the signs below instead."
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Most likely",
+        "Check first"
+      ],
+      "rows": [
+        [
+          "0 replies of any kind. Not even out-of-office or \"remove me\" replies.",
+          "Deliverability",
+          "Send a test to your own Gmail and Outlook (Check 2 below)"
+        ],
+        [
+          "Replies come in, but they're all \"no thanks\" or \"not interested\"",
+          "Copy or offer",
+          "Your offer and who you email, not your setup"
+        ],
+        [
+          "Out-of-office replies suddenly drop",
+          "Deliverability",
+          "Pause and test that inbox before you send more"
+        ],
+        [
+          "Bounce rate above 2%",
+          "List quality",
+          "Verify the list before you send again"
+        ],
+        [
+          "Results were fine, then dropped after you sent more per day",
+          "Too much volume per inbox",
+          "Check 4: spread volume over more inboxes"
+        ],
+        [
+          "Your test email lands in Promotions or Spam",
+          "Deliverability",
+          "Checks 2 and 3: records and warm-up"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "text": "\"If you want to know whether you're actually inboxing, watch your out-of-office replies. When those drop, you're going to spam, usually 48 to 72 hours before it fully tanks.\" (Quoted in [Hunter, State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email))"
+    },
+    {
+      "type": "p",
+      "text": "[Hunter's report](https://hunter.io/the-state-of-cold-email) also found a **3.6% average bounce rate** and warns that above **2%** you're damaging your domain. A bad list is a deliverability problem too, so verify every list before it goes in."
+    },
+    {
+      "type": "h2",
+      "text": "The 4 checks on one card"
+    },
+    {
+      "type": "p",
+      "text": "Run these in order. If any check fails, don't send. One failed check can send every email to spam, no matter how good the copy is."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Check",
+        "Pass when",
+        "If it fails"
+      ],
+      "rows": [
+        [
+          "1. Domain",
+          "You send from a separate domain that looks like your brand, never your main domain or @gmail.com",
+          "Buy a sending domain first"
+        ],
+        [
+          "2. Records",
+          "SPF, DKIM and DMARC all show PASS on a test email",
+          "Fix the missing record, test again"
+        ],
+        [
+          "3. Warm-up",
+          "Every inbox has at least 14 days of warm-up with zero cold emails",
+          "Keep warming up. No shortcuts"
+        ],
+        [
+          "4. Inboxes",
+          "Your daily goal ÷ 30 = the number of inboxes you have (or more)",
+          "Add inboxes, don't push one inbox harder"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Check 1: Domain"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** your domain is your name tag. A free address looks like anyone could have sent it, and you can't set up your own records on it. In [Hunter's study of 31 million emails](https://hunter.io/the-state-of-cold-email), emails from a custom domain got **5.2% replies vs 2.5% from free addresses**. A separate sending domain also protects your main domain. If the sending domain gets a bad reputation, your client emails and invoices still arrive."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Buy a domain close to your brand. For acme.com, try getacme.com or acmehq.com. Stick to .com where you can.",
+        "Point the new domain to your real website, so anyone who types it in lands somewhere real.",
+        "Create your inboxes with a real email provider (Google Workspace or Microsoft 365), using real names like jane@getacme.com.",
+        "Never send cold email from your main domain. Keep that one for clients, invoices and normal mail."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Full domain setup, step by step: our [domain guide](/guides/domain.html)."
+    },
+    {
+      "type": "h2",
+      "text": "Check 2: Records (SPF, DKIM, DMARC)"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** these three DNS records prove the email really came from you. [Google requires](https://support.google.com/mail/answer/81126) **SPF or DKIM from every sender**, and **SPF, DKIM and DMARC** from anyone sending more than 5,000 emails a day to Gmail. Google also recommends that you **always set up all three**, and says unauthenticated messages might be marked as spam or rejected. So treat it like the reel says: **one missing record means guilty until proven innocent.**"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Record",
+        "Pass test",
+        "Detail that trips people up"
+      ],
+      "rows": [
+        [
+          "SPF",
+          "Test email shows spf=pass",
+          "Only one SPF record per domain. It must list every service that sends for you."
+        ],
+        [
+          "DKIM",
+          "Test email shows dkim=pass",
+          "Gmail needs a key of at least 1024 bits. Google recommends 2048 bits if your provider supports it ([Google DKIM help](https://support.google.com/a/answer/180504))."
+        ],
+        [
+          "DMARC",
+          "Test email shows dmarc=pass",
+          "Lives at _dmarc.yourdomain.com. Start with p=none, as [Google recommends](https://support.google.com/a/answer/2466580), and add rua= so you get reports."
+        ],
+        [
+          "Alignment",
+          "The From: domain matches the SPF or DKIM domain",
+          "Required by Gmail and Yahoo for DMARC to pass. Sending through a tool on a different domain breaks it."
+        ]
+      ]
+    },
+    {
+      "type": "prompt",
+      "label": "Starter DMARC record (TXT)",
+      "text": "Host / Name:  _dmarc\nType:         TXT\nValue:        v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com\n\n(Replace yourdomain.com with your sending domain. Make sure the dmarc@ inbox exists, or use any inbox you check.)"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Run each sending domain through Google's free [Check MX tool](https://toolbox.googleapps.com/apps/checkmx/). Fix anything it flags.",
+        "Send a plain test email from each new inbox to a Gmail address you own.",
+        "In Gmail, open the email, click the three dots, then **Show original**. Look for **SPF: PASS**, **DKIM: PASS** and **DMARC: PASS**.",
+        "Do the same with an Outlook.com address. Microsoft explains how to [view message headers](https://support.microsoft.com/en-us/office/view-internet-message-headers-in-outlook-cd039382-dc6e-4264-ac74-c048563d212c). Look for spf=pass, dkim=pass and dmarc=pass under Authentication-Results.",
+        "Any line that isn't PASS? Fix that record, wait for DNS to update, and test again. Exact values to paste are in our [DNS records guide](/blog/dns-records-for-cold-email.html)."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "One test per inbox",
+      "text": "Test every inbox, not just one per domain. A typo in one inbox's setup only shows up when that inbox sends."
+    },
+    {
+      "type": "h2",
+      "text": "Check 3: Warm-up (14 days, no shortcuts)"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** a brand-new inbox has no history. If its first act is 50 emails to strangers, it looks exactly like a spammer. Warm-up sends and receives normal-looking emails with other inboxes so providers learn you're real. [Instantly's warm-up guide](https://help.instantly.ai/articles/5975329-how-warm-up-works-and-why-it-s-important) says to **wait at least 2 weeks before using accounts for campaigns**, and [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) says new domains need **4 to 6 weeks** of gradual increase to reach full volume."
+    },
+    {
+      "type": "p",
+      "text": "Google says the same in its own words: [increase volume slowly](https://support.google.com/mail/answer/81126), send at a steady rate, and avoid sudden spikes. Google warns that suddenly doubling your volume could cause rate limiting or a reputation drop."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Days",
+        "Cold emails per inbox per day",
+        "Warm-up"
+      ],
+      "rows": [
+        [
+          "1 to 14",
+          "0",
+          "On"
+        ],
+        [
+          "15 to 21",
+          "10",
+          "On"
+        ],
+        [
+          "22 to 28",
+          "20",
+          "On"
+        ],
+        [
+          "29 onward",
+          "30",
+          "On, always"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Want it day by day? Our [30-day warm-up calendar](/guides/day30.html) lays it out."
+    },
+    {
+      "type": "h2",
+      "text": "Check 4: Inboxes (many, not one)"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** each inbox and each domain builds its own reputation, and [Google tracks volume per domain and IP](https://support.google.com/mail/answer/81126). Google Workspace allows up to **2,000 emails a day** per user ([Google's limits page](https://support.google.com/a/answer/166852)), but that's a system limit, not a safe cold email number. In [Hunter's data](https://hunter.io/the-state-of-cold-email), accounts sending **20 to 49 emails a day got 5.7% replies vs 4.5% overall**. So keep each inbox at about 30 cold emails a day and add inboxes to grow."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Cold emails a day",
+        "Inboxes (÷ 30, round up)",
+        "Domains (÷ 3, round up)"
+      ],
+      "rows": [
+        [
+          "150",
+          "5",
+          "2"
+        ],
+        [
+          "300",
+          "10",
+          "4"
+        ],
+        [
+          "600",
+          "20",
+          "7"
+        ],
+        [
+          "1,000",
+          "34",
+          "12"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Spreading out also limits the damage. If one domain gets a bad reputation, you pause 3 inboxes, not your whole operation. More detail in our [sending calculator](/guides/math.html)."
+    },
+    {
+      "type": "h2",
+      "text": "Gmail, Yahoo and Outlook rules side by side"
+    },
+    {
+      "type": "p",
+      "text": "All three big inbox providers publish their sender rules. Here they are in one place, taken from each official page. The strictest rules are for big senders, but the same rules are what keep smaller senders out of spam, so follow them at any size."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Rule",
+        "Gmail",
+        "Yahoo",
+        "Outlook.com"
+      ],
+      "rows": [
+        [
+          "Stricter rules start at",
+          "More than 5,000 emails a day to Gmail accounts",
+          "\"Bulk senders\"",
+          "Domains sending more than 5,000 emails a day"
+        ],
+        [
+          "Records, all senders",
+          "SPF or DKIM",
+          "SPF or DKIM",
+          "Not stated for small senders"
+        ],
+        [
+          "Records, big senders",
+          "SPF and DKIM, plus DMARC (p=none is fine), From: domain aligned",
+          "SPF and DKIM, plus DMARC of at least p=none that must pass, From: domain aligned",
+          "SPF must pass, DKIM must pass, DMARC at least p=none, aligned with SPF or DKIM"
+        ],
+        [
+          "Spam complaint rate",
+          "Below 0.3%. Aim for below 0.1%",
+          "Below 0.3%",
+          "No number given. Keep lists clean"
+        ],
+        [
+          "Unsubscribe",
+          "One-click unsubscribe for marketing messages, plus a visible link. Remove within 48 hours (recommended)",
+          "One-click unsubscribe for marketing messages, plus a visible link. Honor within 2 days",
+          "Easy, clearly visible way to opt out (recommended)"
+        ],
+        [
+          "Forward and reverse DNS",
+          "Required",
+          "Required",
+          "Not listed"
+        ],
+        [
+          "If you fail",
+          "Spam folder or rejection. Since November 2025, Gmail is ramping up enforcement with temporary and permanent rejections",
+          "Negative impact on delivery",
+          "Rejected with error 550 5.7.515 (since May 5, 2025)"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Sources: [Google sender guidelines](https://support.google.com/mail/answer/81126), [Google sender FAQ](https://support.google.com/a/answer/14229414), [Yahoo Sender Hub](https://senders.yahooinc.com/best-practices/), [Microsoft's Outlook announcement](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730). Rules change, so check these pages every few months."
+    },
+    {
+      "type": "tip",
+      "label": "What your email provider handles",
+      "text": "Forward and reverse DNS (PTR) and secure TLS connections are handled by Google Workspace and Microsoft 365. You mostly need to set up SPF, DKIM and DMARC yourself."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: 300 cold emails a day"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Inboxes:** 300 ÷ 30 = **10 inboxes**.",
+        "**Domains:** 10 ÷ 3 = 3.3, so round up to **4 domains** (3, 3, 2 and 2 inboxes).",
+        "**Records:** 4 domains × 3 records (SPF, DKIM, DMARC) = **12 records** to add, then 10 test emails to Gmail and 10 to Outlook, one from each inbox.",
+        "**Warm-up:** days 1 to 14, zero cold emails. Use this time to build and verify your list.",
+        "**Ramp:** days 15 to 21: 10 inboxes × 10 = **100 a day**. Days 22 to 28: 10 × 20 = **200 a day**. Day 29 onward: 10 × 30 = **300 a day**.",
+        "**Spam rate check:** Google measures spam rate on mail that reaches Gmail inboxes. If 2,000 of your emails reach Gmail inboxes in a month, 0.1% is just **2 spam reports** and 0.3% is **6**. That's why the list and an easy opt-out matter so much."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Mistake",
+        "Why it hurts",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Rewriting copy when nothing gets delivered",
+          "The copy is never seen, so you can't learn anything from it",
+          "Run the 4 checks first, then test copy"
+        ],
+        [
+          "Two SPF records on one domain",
+          "SPF breaks, so it fails",
+          "Merge them into one record"
+        ],
+        [
+          "DMARC added but never tested",
+          "A typo means it isn't there at all",
+          "Check Show original for dmarc=pass"
+        ],
+        [
+          "Skipping warm-up because the domain is \"clean\"",
+          "New is exactly the problem: no history",
+          "14 days minimum, no cold emails"
+        ],
+        [
+          "One inbox sending 200 a day",
+          "Looks like a spammer and burns the inbox",
+          "About 30 a day per inbox, add inboxes"
+        ],
+        [
+          "Sending to an unverified list",
+          "Bounces over 2% hurt the domain",
+          "Verify every list before it goes in"
+        ],
+        [
+          "Judging by open rate",
+          "Opens are unreliable, Google doesn't track them",
+          "Judge by replies, including out-of-office replies"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Copy-paste prompt: run the pre-send check"
+    },
+    {
+      "type": "prompt",
+      "label": "Pre-send deliverability check",
+      "text": "Act as a cold email deliverability expert. Before I send a single email, check my setup against these 4 checks: domain, records, warm-up, inboxes.\n\nMy setup:\n- Main business domain: [domain]\n- Sending domains: [list]\n- Email provider: [Google Workspace / Microsoft 365]\n- Inboxes per domain: [number]\n- For each domain, paste the SPF, DKIM and DMARC lines from a test email's headers (Gmail: Show original): [paste]\n- Days of warm-up on each inbox so far: [number]\n- Cold emails I plan to send per day in total: [number]\n- Is my list verified? Bounce rate on last send: [yes/no, %]\n\nFor each check, say PASS or FAIL and why. For every FAIL, give the exact fix and tell me if I can send yet. Then tell me how many inboxes and domains I need at 30 cold emails per inbox per day and 3 inboxes per domain, rounding up. Be strict: if any check fails, the answer is \"don't send yet\"."
+    },
+    {
+      "type": "h2",
+      "text": "The pre-send checklist"
+    },
+    {
+      "type": "list",
+      "items": [
+        "☐ Sending from a separate domain, not my main domain and not @gmail.com",
+        "☐ Every inbox shows SPF: PASS, DKIM: PASS and DMARC: PASS on a test email",
+        "☐ DMARC record at _dmarc with p=none and a rua= address",
+        "☐ Every inbox has at least 14 days of warm-up and warm-up stays on",
+        "☐ Inboxes = daily goal ÷ 30, with no more than 3 inboxes per domain",
+        "☐ List verified, so bounces stay under 2%",
+        "☐ A plain opt-out line in every email, and opt-outs removed within 2 days",
+        "☐ [Google Postmaster Tools](https://postmaster.google.com) set up for each sending domain",
+        "☐ Ramp plan written down: 10, then 20, then 30 a day per inbox"
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "All boxes ticked? Send. One box empty? Fix it first. Skip these and your best email goes straight to spam."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Google: Email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "The official Gmail rules for all senders and big senders"
+    },
+    {
+      "name": "Google: Email sender guidelines FAQ",
+      "url": "https://support.google.com/a/answer/14229414",
+      "note": "Spam rate limits and the November 2025 enforcement update"
+    },
+    {
+      "name": "Yahoo Sender Hub: Sender requirements",
+      "url": "https://senders.yahooinc.com/best-practices/",
+      "note": "Yahoo's official rules for all senders and bulk senders"
+    },
+    {
+      "name": "Microsoft: Outlook requirements for high-volume senders",
+      "url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730",
+      "note": "SPF, DKIM and DMARC rules for Outlook.com"
+    },
+    {
+      "name": "Google: Set up DMARC",
+      "url": "https://support.google.com/a/answer/2466580",
+      "note": "Start with p=none, then tighten over time"
+    },
+    {
+      "name": "Google: Set up DKIM",
+      "url": "https://support.google.com/a/answer/180504",
+      "note": "Turn on DKIM in Google Workspace"
+    },
+    {
+      "name": "Google Workspace sending limits",
+      "url": "https://support.google.com/a/answer/166852",
+      "note": "Official daily limits per inbox"
+    },
+    {
+      "name": "Google Admin Toolbox: Check MX",
+      "url": "https://toolbox.googleapps.com/apps/checkmx/",
+      "note": "Free check of your domain's email setup"
+    },
+    {
+      "name": "Google Postmaster Tools",
+      "url": "https://postmaster.google.com",
+      "note": "Free spam rate dashboard for your domains"
+    },
+    {
+      "name": "Microsoft: View message headers in Outlook",
+      "url": "https://support.microsoft.com/en-us/office/view-internet-message-headers-in-outlook-cd039382-dc6e-4264-ac74-c048563d212c",
+      "note": "How to see if SPF, DKIM and DMARC passed"
+    },
+    {
+      "name": "Instantly: How warm-up works",
+      "url": "https://help.instantly.ai/articles/5975329-how-warm-up-works-and-why-it-s-important",
+      "note": "Wait at least 2 weeks before campaigns"
+    },
+    {
+      "name": "Instantly 2026 benchmark report",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "4 to 6 weeks to full volume on new domains"
+    },
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "31M emails: custom domain vs free, sends per inbox, bounce rates"
+    }
+  ],
+  "faq": [
+    {
+      "q": "I send fewer than 5,000 emails a day. Do I still need DMARC?",
+      "a": "Gmail only requires SPF or DKIM below that number, but Google recommends always setting up SPF, DKIM and DMARC. It takes 5 minutes and removes one reason to land in spam. Set it up."
+    },
+    {
+      "q": "Can I skip warm-up if my domain is a few years old?",
+      "a": "Don't send cold email from your main domain at all. A new inbox has no sending history even on an older domain, so give every new inbox at least 14 days of warm-up."
+    },
+    {
+      "q": "How do I know if I'm in spam right now?",
+      "a": "Send a test from each inbox to your own Gmail and Outlook addresses, check [Google Postmaster Tools](https://postmaster.google.com), and watch your out-of-office replies. If those suddenly drop, pause and test before you send more."
+    },
+    {
+      "q": "Do cold emails need an unsubscribe link?",
+      "a": "Google's and Yahoo's one-click rules are written for marketing and subscribed messages from big senders. For cold email, at minimum give a plain way to opt out, like \"Not the right person? Just reply and I won't email again,\" and remove people within 2 days."
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "slug": "tank",
+  "keyword": "TANK",
+  "date": "2026-11-23",
+  "draft": false,
+  "instantdm": "pending",
+  "title": "The Pipeline Setup Checklist: Fill the Top Every Day So Deals Keep Coming",
+  "description": "Your pipeline isn't slow, it's empty. The 3-step setup checklist to fill the top every day: a list that fits, inboxes that land, daily volume you track.",
+  "lead": "This is the full setup checklist from the reel. You get the 3-step checklist (a list of people who fit, a setup that lands in the inbox, volume every day), the math for your daily number, a tank tracker you can paste into Google Sheets, a worked example, a problem finder and a prompt that plans it all for you.",
+  "insider": "On every client campaign we watch the top of the tank daily: new people in, emails out, bounces, replies. In one full quarter of steady sending from January to March, **236,545 emails brought 4,372 replies and 1,061 interested leads**, because the top never ran dry. The checklist is the easy part; the full system (list, inboxes, follow-ups) is what we do for clients.",
+  "case": "case-04",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The short answer"
+    },
+    {
+      "type": "p",
+      "text": "A slow pipeline has deals in it that move slowly. An **empty** pipeline has nothing in it, because nothing went in. If 0 goes in the top, 0 comes out the bottom. No sales trick fixes that."
+    },
+    {
+      "type": "p",
+      "text": "Here's what a full tank looked like in the campaign in the reel: one client, one real month."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Stage",
+        "Number",
+        "What it means"
+      ],
+      "rows": [
+        ["Emails into the top", "**84,643**", "About 2,800 a day if you spread it over 30 days"],
+        ["Replies", "**2,399**", "About 1 reply for every 35 emails"],
+        ["Deals closed", "**37**", "About **2,288 emails** and about 65 replies per deal"]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Read it backwards. Every one of those 37 deals needed about 2,288 emails to go in first. Stop filling the top and the deals stop too, just a few weeks later. That's the whole idea: **fill the top, and the bottom takes care of itself.**"
+    },
+    {
+      "type": "h2",
+      "text": "Slow or empty: which one do you have?"
+    },
+    {
+      "type": "p",
+      "text": "These two problems need opposite fixes, so check first."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Check this week",
+        "Slow pipeline",
+        "Empty pipeline"
+      ],
+      "rows": [
+        ["New people contacted", "Hundreds or thousands", "A handful, or zero"],
+        ["Replies", "Coming in", "None, or only from old threads"],
+        ["Calls on the calendar", "Booked, buyers decide slowly", "None booked"],
+        ["Where the work goes", "Follow-up, proposals, decisions", "Waiting for referrals or ads"],
+        ["The fix", "Improve the sales process", "**This checklist: fill the top**"]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why the top decides everything"
+    },
+    {
+      "type": "p",
+      "text": "**There's a delay.** What you put in today turns into replies over the next days and weeks. [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) found **58% of replies come from the first email and 42% from follow-ups**, and it suggests spacing follow-ups **3 to 4 days apart**. So a 3-email sequence takes about a week to finish for each person. If you skip a week of filling the top, you don't feel it that week. You feel it later, when the calendar is suddenly empty."
+    },
+    {
+      "type": "p",
+      "text": "**Steady beats bursts.** Instantly found teams that keep sending consistently see **15 to 20% more replies**, and warns that sending 500 on Monday, nothing for three days, then 1,000 on Friday looks suspicious to email providers. [Google's sender guidelines](https://support.google.com/mail/answer/81126) say the same thing: send at a consistent rate and avoid bursts."
+    },
+    {
+      "type": "h2",
+      "text": "The setup checklist"
+    },
+    {
+      "type": "p",
+      "text": "Three steps, the same three from the reel. Each has the why, then exactly how."
+    },
+    {
+      "type": "h3",
+      "text": "Step 1: A list of people who fit"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** volume only helps if it reaches buyers. [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email) found **61% of decision makers** say cold emails fail because they aren't relevant. A full tank of the wrong people is still empty where it counts."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Write your fit rules: industry, company size, location, buyer job title, and one sign they need you now.",
+        "Contact **1 or 2 people per company**. Hunter found that got a **5.1% reply rate vs 3.5%** for 3 or more.",
+        "Verify every email before it goes in. Instantly says to keep bounces **under 2%**.",
+        "Build next month's list before this one runs out (our [lead fuel calculator](/guides/fuel.html) gives you the date).",
+        "Split the list into small segments with their own first line. Hunter found groups of 21 to 50 people got **6.2% replies vs 2.4%** for 500+."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 2: A setup that lands in the inbox"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** an email in spam is an email that never went in. Gmail and Outlook both have hard rules now. Google requires anyone sending **5,000+ emails a day to Gmail** to use SPF, DKIM and DMARC and to keep the spam rate in Postmaster Tools **below 0.3%**. Since May 5, 2025, [Microsoft requires the same three records](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730) for domains sending over 5,000 emails a day to Outlook.com, and mail that fails can be rejected."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Send from **separate domains** that look like your brand, never your main domain. Hunter found a custom domain got **5.2% replies vs 2.5%** for free Gmail-style addresses.",
+        "Add **SPF, DKIM and DMARC** to every sending domain, even if you're far below 5,000 a day.",
+        "**Warm up** new inboxes. Instantly suggests starting at 5 to 10 emails a day and building up over **4 to 6 weeks**.",
+        "Keep each inbox to about **30 cold emails a day**. Hunter found 20 to 49 a day per inbox got a **5.7% reply rate**, above the 4.5% average.",
+        "Connect [Google Postmaster Tools](https://postmaster.google.com) and keep the spam rate under 0.1%, as Google recommends."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 3: Volume, every day"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** a tank fills a little every day, not once a month. Steady daily sending gets more replies (Instantly) and builds trust with email providers (Google). It also means replies, calls and deals arrive steadily instead of in feast-or-famine waves."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Set your **daily number**: new people in and emails out per day (see the math below).",
+        "Set the same sending window in your tool every working day, and cap each inbox at its daily limit.",
+        "Load enough verified people for at least **2 weeks** ahead, so a late list never stops the flow.",
+        "Fill in the tank tracker every day. It takes 2 minutes.",
+        "Answer every reply the same day. A full tank with slow replies leaks at the bottom."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Work out your daily number"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Deals you want per month.**",
+        "**Emails per deal.** Use your own if you have it. If not, use a careful guess and replace it after your first full month (our [funnel math sheet](/guides/funnel.html) shows how to build one).",
+        "**Emails per month** = deals × emails per deal.",
+        "**Emails per day** = emails per month ÷ 22 working days.",
+        "**New people per day** = emails per day ÷ emails in your sequence.",
+        "**Inboxes** = emails per day ÷ 30. Our [sending calculator](/guides/math.html) covers the domains and warm-up."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example"
+    },
+    {
+      "type": "p",
+      "text": "Say you want **5 deals a month** and you borrow the ratio from the campaign in the reel, about 2,288 emails per deal. Your sequence has 3 emails."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Step",
+        "Math",
+        "Result"
+      ],
+      "rows": [
+        ["Emails per month", "5 × 2,288", "**11,440**"],
+        ["Emails per working day", "11,440 ÷ 22", "**520**"],
+        ["New people per day", "520 ÷ 3", "**about 174**"],
+        ["New people per month", "11,440 ÷ 3", "**about 3,814**"],
+        ["Inboxes at 30 a day", "520 ÷ 30 = 17.3, round up", "**18 inboxes**"]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Now see what one missed week costs. Five working days without new people is about **870 people** (174 × 5) who never enter, and about **2,610 emails** (870 × 3) never sent. At about 2,288 emails per deal, that's **about 1 deal** that never happens. You'd notice it weeks later, not that week."
+    },
+    {
+      "type": "tip",
+      "label": "Your ratio will be different",
+      "text": "2,288 emails per deal came from one client in one month. In our construction software case, 162,073 emails led to 6 annual contracts, about 27,000 emails per contract. Bigger, slower deals need a much bigger tank. Use your own number as soon as you have it."
+    },
+    {
+      "type": "h2",
+      "text": "The tank tracker"
+    },
+    {
+      "type": "p",
+      "text": "One row per working day. Open a blank Google Sheet, click cell A1 and paste this. Then copy row 2 down for each new day and fill in the numbers."
+    },
+    {
+      "type": "prompt",
+      "label": "Copy, then paste into cell A1",
+      "text": "Date\tNew people in\tEmails sent\tBounces\tBounce rate\tReplies\tInterested\tCalls booked\tPeople left in list\tDays of list left\n2026-11-23\t174\t520\t\t=IFERROR(D2/C2,0)\t\t\t\t2000\t=IFERROR(I2/B2,0)"
+    },
+    {
+      "type": "p",
+      "text": "Format column E as a percent. Column J tells you how many working days of new people you have left. In the example row, 2,000 people ÷ 174 a day = about 11.5 days. When it drops under 10, build the next list today."
+    },
+    {
+      "type": "h2",
+      "text": "Daily and weekly checks"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Check",
+        "How often",
+        "Healthy",
+        "If it's not"
+      ],
+      "rows": [
+        ["New people in", "Daily", "At or above your daily number", "Load more verified people today"],
+        ["Emails sent", "Daily", "Matches the plan", "Check paused inboxes and sending limits"],
+        ["Bounce rate", "Daily", "Under 2% (Instantly)", "Pause that list and verify it again"],
+        ["Spam rate in Postmaster Tools", "Weekly", "Under 0.1%, never 0.3% (Google)", "Slow down, check copy and targeting"],
+        ["Days of list left", "Daily", "10 or more", "Build and verify the next list now"],
+        ["Replies answered", "Daily", "All, same day", "Block time for replies first thing"]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder: why is my tank empty?"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        ["Great month, then a dead month", "Sending in bursts, then stopping", "Set a daily number and keep it every working day"],
+        ["Sending stops for days between lists", "Next list built too late", "Track days of list left, rebuild at 10"],
+        ["Lots of emails, almost no replies", "Landing in spam, or wrong people", "Check SPF, DKIM, DMARC and spam rate, then the fit rules"],
+        ["Bounces over 2%", "List not verified", "Verify every list before it goes in"],
+        ["Replies come in, but few calls", "Not a tank problem", "Answer faster and make the ask smaller"],
+        ["Can't send more without spam issues", "Not enough warmed inboxes", "Add inboxes and warm them 4 to 6 weeks before you need them"]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Calling an empty pipeline \"slow\".** If nothing went in this month, waiting won't help.",
+        "**Filling the top only when sales are down.** By then you're weeks behind.",
+        "**More volume from the same few inboxes.** Push past about 30 a day each and you trade the tank for the spam folder.",
+        "**Counting emails, not people.** Follow-ups don't fill the tank. New people do.",
+        "**No tracker.** If you don't write down what goes in, you won't see the gap until the calendar is empty."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Plan your daily number with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Tank planner prompt",
+      "text": "Act as my cold email pipeline planner.\n\nDeals I want per month: [number]\nEmails per deal: [my number, or \"unknown\"]\nEmails in my sequence: [number]\nWorking days per month: 22\nInboxes I have now (warmed up): [number]\nVerified people left in my list: [number]\n\nDo this:\n1) If emails per deal is unknown, ask me for my reply rate, interested rate, call rate and close rate, and calculate it.\n2) Calculate emails per month, emails per working day, new people per day and new people per month.\n3) Calculate inboxes needed at 30 emails per inbox per day, and how many more I need to add and warm up (4 to 6 weeks).\n4) Calculate how many working days my list lasts and the date I must start building the next one.\n5) Show what one missed week of new people costs me in deals.\nShow everything in tables. Round people and inboxes up."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "Fill the top every day. The bottom takes care of itself."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Instantly Cold Email Benchmark Report 2026",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Follow-up share, steady sending, warm-up and bounce limits"
+    },
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Reply rates by daily volume, domain type, segment size"
+    },
+    {
+      "name": "Google email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "Gmail rules: authentication, spam rate, steady sending"
+    },
+    {
+      "name": "Microsoft: Outlook requirements for high-volume senders",
+      "url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730",
+      "note": "SPF, DKIM and DMARC for 5,000+ emails a day"
+    },
+    {
+      "name": "Google Postmaster Tools",
+      "url": "https://postmaster.google.com",
+      "note": "Check your spam rate and domain reputation"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long until a full tank turns into calls?",
+      "a": "If your inboxes are already warmed up, replies start in the first days and keep coming as follow-ups go out. If you're starting from zero, add 4 to 6 weeks of warm-up first, as Instantly suggests. That's why you fill the top before you need the calls."
+    },
+    {
+      "q": "Do I really need to send every single day?",
+      "a": "Every working day is what matters for most B2B sellers. Hunter found the day of the week didn't move reply rates in its data. What hurts is stopping and starting, so pick a daily number you can keep."
+    },
+    {
+      "q": "I don't know my emails per deal. What do I use?",
+      "a": "Start with a careful guess from our [funnel math sheet](/guides/funnel.html), send for a full month, then replace the guess with your real number. Don't copy the reel's 2,288 blindly; it came from one client."
+    },
+    {
+      "q": "Is more volume always better?",
+      "a": "No. More right-fit people is better. More of the wrong people, or more emails from the same few inboxes, only adds bounces and spam risk. Grow the tank by adding verified people and warmed inboxes together."
+    }
+  ]
+}

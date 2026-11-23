@@ -1,0 +1,364 @@
+{
+  "slug": "pills",
+  "keyword": "PILLS",
+  "date": "2026-11-23",
+  "draft": false,
+  "instantdm": "pending",
+  "title": "The Pace Sheet: Turn 29 Calls a Month Into 7 a Week and 1 a Day",
+  "description": "Break any monthly sales call goal into a weekly and daily target, then work backwards to how many cold emails you send each day. Worked example included.",
+  "lead": "This is the full pace sheet from the reel. You get the simple math that turns a monthly call goal into a weekly and daily number, a worked example that works backwards to daily sending volume, a weekly pace tracker, a problem finder for when you fall behind, and a Claude prompt that builds your own plan.",
+  "insider": "We plan every client campaign as a weekly pace, not a monthly hope. That steady pace is how our agency client got **about 100 interested replies a week, every week, for four and a half months**. The tactic is the easy part; the full system (list, inboxes, follow-ups) is what we do for clients.",
+  "case": "case-01",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The short answer"
+    },
+    {
+      "type": "p",
+      "text": "A month has about **4.33 weeks** (52 weeks ÷ 12 months). So **29 calls a month ÷ 4.33 = 6.7, about 7 calls a week**. Spread over the whole calendar, that's **about 1 call a day** (29 ÷ 30 days)."
+    },
+    {
+      "type": "p",
+      "text": "That's the real pace of the home services company in the reel: **about 29 booked sales calls a month, every month, for 3 months**, and **$165,000 in sales**, after they had relied on Facebook ads. It wasn't a miracle. It was a habit: a steady amount of work every single day."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Monthly goal",
+        "Per week (÷ 4.33)",
+        "Per working day (÷ 21.65)",
+        "Per calendar day (÷ 30)"
+      ],
+      "rows": [
+        [
+          "29 calls",
+          "6.7 (about 7)",
+          "1.34",
+          "0.97 (about 1)"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Working days vs calendar days",
+      "text": "The reel counts all 7 days, so 29 calls is about 1 a day. Most B2B calls happen Monday to Friday, so plan on working days: 4.33 weeks × 5 days = **21.65 working days**, which makes 29 calls about **1.3 to 1.4 a working day**."
+    },
+    {
+      "type": "h2",
+      "text": "Why a weekly number beats a monthly goal"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**You find problems in days, not months.** If you only check \"29 this month?\" on the 30th, it's too late to fix anything. A weekly check gives you 4 chances a month to fix it.",
+        "**It's small enough to feel doable.** 29 feels big. 7 a week, or about 1 a day, feels like a normal Tuesday.",
+        "**It forces steady sending.** Calls come from replies, and replies come from emails sent every day. A weekly target stops the \"big push at the end of the month\" habit.",
+        "**Steady sending gets more replies.** [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) found that teams that keep domain health stable and send consistently see **15 to 20% more replies**, and it says erratic volume kills deliverability."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 1: Break your monthly goal into a weekly and daily number"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** you can't act on a monthly number. You can act on today's number. **How:** do these three divisions for your own goal."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Calls per week** = monthly goal ÷ 4.33.",
+        "**Calls per working day** = monthly goal ÷ 21.65 (or calls per week ÷ 5).",
+        "**Round the weekly number up** and use it as your target. Rounding up gives you a small buffer for no-shows and short weeks."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 2: Find your emails per booked call"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** calls don't come from nowhere. Each booked call costs a certain number of cold emails. Once you know that number, your daily call target turns into a daily sending target you control."
+    },
+    {
+      "type": "p",
+      "text": "**How:** multiply your three funnel rates together, then divide 1 by the result. Use your own numbers if you have 2 to 4 weeks of data. If you don't yet, start with careful guesses like these:"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Rate",
+        "Example starting number",
+        "Where it comes from"
+      ],
+      "rows": [
+        [
+          "Reply rate (replies ÷ emails)",
+          "3%",
+          "A little under the 3.43% average in [Instantly's 2026 report](https://instantly.ai/cold-email-benchmark-report-2026). [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email) puts the average sequence at 4.5%."
+        ],
+        [
+          "Interested rate (interested ÷ replies)",
+          "24%",
+          "Our full-quarter campaign: 1,061 interested out of 4,372 replies"
+        ],
+        [
+          "Booked rate (calls ÷ interested)",
+          "22%",
+          "Our 5-day blitz: 25 calls from 115 interested"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "3% × 24% × 22% = 0.001584. Then 1 ÷ 0.001584 = **about 631 emails per booked call**. That's an example, not a promise. Swap in your own rates as soon as you have them."
+    },
+    {
+      "type": "h2",
+      "text": "Step 3: Work backwards to daily sending volume"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** this is the number you can do something about every morning. **How:** multiply calls by emails per call, then divide down to a working day."
+    },
+    {
+      "type": "h3",
+      "text": "Worked example: 29 calls a month"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Goal:** 29 booked calls a month.",
+        "**Per week:** 29 ÷ 4.33 = 6.7, so aim for **7 calls a week**.",
+        "**Emails per month:** 29 × 631 = **18,299 emails**.",
+        "**Emails per week:** 18,299 ÷ 4.33 = **about 4,226**.",
+        "**Emails per working day:** 4,226 ÷ 5 = **about 845**.",
+        "**Inboxes needed** at 30 cold emails per inbox per day: 845 ÷ 30 = 28.2, so round up to **29 inboxes**. (Our [MATH guide](/guides/math.html) shows how to set those up and warm them.)"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Here is the same math for other goals, all at the example rate of 631 emails per call:"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Calls a month",
+        "Calls a week",
+        "Calls a working day",
+        "Emails a working day",
+        "Inboxes (÷ 30, round up)"
+      ],
+      "rows": [
+        [
+          "10",
+          "2.3",
+          "0.46",
+          "292",
+          "10"
+        ],
+        [
+          "20",
+          "4.6",
+          "0.92",
+          "583",
+          "20"
+        ],
+        [
+          "29",
+          "6.7",
+          "1.34",
+          "845",
+          "29"
+        ],
+        [
+          "40",
+          "9.2",
+          "1.85",
+          "1,166",
+          "39"
+        ],
+        [
+          "60",
+          "13.9",
+          "2.77",
+          "1,749",
+          "59"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "The number that matters most",
+      "text": "If your emails per call drops from 631 to 400 (better list or better offer), 29 calls a month needs only 29 × 400 ÷ 21.65 = **about 536 emails a working day**. Improving the rate is cheaper than adding inboxes."
+    },
+    {
+      "type": "h2",
+      "text": "Step 4: Track your pace every week"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** a pace line tells you on day 10 if you're on track for day 30. **How:** write the target for the end of each week and compare it with real booked calls every Friday."
+    },
+    {
+      "type": "table",
+      "head": [
+        "End of",
+        "Calls booked so far (target)",
+        "Emails sent so far (target)"
+      ],
+      "rows": [
+        [
+          "Week 1",
+          "7",
+          "4,226"
+        ],
+        [
+          "Week 2",
+          "14",
+          "8,452"
+        ],
+        [
+          "Week 3",
+          "21",
+          "12,678"
+        ],
+        [
+          "Week 4",
+          "28",
+          "16,904"
+        ],
+        [
+          "End of month",
+          "29",
+          "18,299"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Expect a slow start on a brand-new campaign. Many replies come from follow-ups, not the first email: Instantly found **58% of replies come from step 1 and 42% from the follow-ups**, and Hunter found that following up twice nearly doubles the average reply rate. So the calls from this week's emails keep arriving over the next one to two weeks. Judge your pace from week 3 on, once follow-ups are running."
+    },
+    {
+      "type": "h2",
+      "text": "Step 5: Make it a daily habit"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** the reel's point is that 29 calls a month is a habit, not a miracle. The habit is a short list of things done every working day, not a big effort once a month. **How:**"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Send your daily number, every working day.** Same volume Monday to Friday. No catching up with a giant batch on Friday.",
+        "**Answer every reply the same day.** An interested reply that waits two days often goes cold.",
+        "**Offer a specific time in your answer** so booking takes one step, not five emails back and forth.",
+        "**Log each booked call** in one place, with the date it was booked.",
+        "**On Friday, check the pace table.** On track? Change nothing. Behind? Use the problem finder below."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder: behind pace"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Likely cause",
+        "What to do"
+      ],
+      "rows": [
+        [
+          "You sent less than the weekly email target",
+          "Not enough inboxes, paused inboxes, or the list ran out",
+          "Fix sending first. Nothing else matters until the daily number goes out."
+        ],
+        [
+          "Emails went out, but the reply rate is far below your plan",
+          "Wrong list, weak offer, or emails landing in spam",
+          "Check bounce rate and inbox health, then test a new offer on a small batch."
+        ],
+        [
+          "Plenty of replies, few interested",
+          "The offer or the audience doesn't fit",
+          "Re-read the \"no\" replies. They usually tell you what's wrong."
+        ],
+        [
+          "Interested replies, but few calls booked",
+          "Slow answers or a hard booking step",
+          "Reply the same day and offer one specific time."
+        ],
+        [
+          "Calls booked, but people don't show up",
+          "No reminders",
+          "Send a short reminder the day before and the morning of. See our [no-show guide](/guides/show.html)."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Using 4 weeks instead of 4.33 to get your monthly volume.** 4,226 emails a week × 4 = 16,904, but the month really needs 18,299. That's a gap of about 1,400 emails, or roughly 2 calls, every month.",
+        "**Planning with somebody else's emails per call.** Use benchmarks only for the first plan, then switch to your own numbers.",
+        "**Sending in bursts.** Volume that jumps up and down hurts deliverability and replies.",
+        "**Panicking in week 1.** Follow-ups haven't gone out yet. Check pace from week 3.",
+        "**Counting replies, not calls.** The goal is booked calls on the calendar. Track that number."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Build your plan with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Pace plan prompt",
+      "text": "I want [number] booked sales calls a month from cold email.\nMy rates (or best guesses): reply rate [x]%, interested rate [y]% of replies, booked rate [z]% of interested.\nRules: 1 month = 4.33 weeks, 5 working days a week, 30 cold emails per inbox per day.\n\nGive me:\n1) calls per week and per working day,\n2) emails per booked call (1 ÷ reply × interested × booked),\n3) emails per month, per week and per working day,\n4) inboxes needed (round up),\n5) a week-by-week pace table with target calls and target emails at the end of each week,\n6) which one rate I should improve first to send fewer emails.\nShow every step of the math."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Instantly Cold Email Benchmark Report 2026",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Average reply rate, follow-up share and consistent sending data"
+    },
+    {
+      "name": "Hunter: The State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Average sequence reply rate and the follow-up effect"
+    },
+    {
+      "name": "The Sending Calculator (MATH guide)",
+      "url": "https://wayneflow.com/guides/math.html",
+      "note": "How to set up and warm the inboxes your daily number needs"
+    },
+    {
+      "name": "Free cold email playbook",
+      "url": "https://wayneflow.com/free-cold-email-playbook.html",
+      "note": "35 pages, the full system we use"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Why 4.33 weeks and not 4?",
+      "a": "A year has 52 weeks and 12 months, and 52 ÷ 12 = 4.33. If you divide by 4, your weekly target looks a little higher than you need, and your monthly plan stops matching your calendar."
+    },
+    {
+      "q": "Should I count weekends?",
+      "a": "For B2B, plan on working days (21.65 a month). The reel's \"1 call a day\" counts all 7 days, which is the same 29 calls, just spread differently."
+    },
+    {
+      "q": "I'm behind by mid-month. Should I double my sending?",
+      "a": "No. A sudden jump in volume can hurt deliverability. Find which step is leaking with the problem finder, fix that, and keep the daily volume steady."
+    },
+    {
+      "q": "How long until I hit the pace?",
+      "a": "If your inboxes are already warmed up, expect the pace from about week 3, once follow-ups are running. If they're new, add the warm-up and ramp time first (about 5 weeks in our MATH guide)."
+    }
+  ]
+}

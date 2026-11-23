@@ -1,0 +1,479 @@
+{
+  "slug": "seesaw",
+  "keyword": "SEESAW",
+  "date": "2026-11-23",
+  "draft": false,
+  "instantdm": "pending",
+  "title": "The Seesaw Setup Checklist: Add Cold Email on Top of Your Referrals",
+  "description": "Referrals only means one in, one out. The setup checklist to add a cold email channel next to referrals, with a 5-week plan and real numbers.",
+  "lead": "This is the full setup checklist from the reel. You get the 8 steps to add an outbound channel on top of your referrals, why each one matters and exactly how to do it, a 5-week calendar, a worked example with real numbers, a problem finder and two copy-paste prompts.",
+  "insider": "We test every new campaign small before we scale it, exactly like the launch step in this checklist. Our small pilot contacted 10,284 people, got 417 replies and turned them into **103 sales opportunities**, about 1 in every 100 people. The tactic is the easy part; the full system (list, inboxes, follow-ups) is what we do for clients.",
+  "case": "case-05",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Why referrals alone keep you flat"
+    },
+    {
+      "type": "p",
+      "text": "Referrals are great clients. They trust you before the first call. The problem is the timing. A referral shows up when **someone else** decides to mention you. You can't turn it up when a client leaves. So the seesaw stays level: one client in, one client out, zero growth."
+    },
+    {
+      "type": "p",
+      "text": "Waiting for the next referral feels like a strategy. It isn't. It's hoping. The fix is not to stop referrals. It's to add a second channel you control, so you can tip the seesaw on purpose."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Question",
+        "Referrals only",
+        "Referrals + outbound"
+      ],
+      "rows": [
+        [
+          "Who decides when the next lead comes?",
+          "Someone else",
+          "You"
+        ],
+        [
+          "Can you turn it up when a client leaves?",
+          "No",
+          "Yes: more leads, more inboxes"
+        ],
+        [
+          "Can you predict next month?",
+          "Hard",
+          "Yes, from your own numbers after a few weeks"
+        ],
+        [
+          "Who do you work with?",
+          "Whoever gets referred",
+          "The kind of clients you pick"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What one outbound channel can do"
+    },
+    {
+      "type": "p",
+      "text": "The campaign in the reel: one client, one real month. **84,643 emails sent, 2,399 replies, 37 deals closed.** That's about **1 deal for every 2,288 emails** (84,643 ÷ 37), and about 1 reply for every 35 emails sent (84,643 ÷ 2,399)."
+    },
+    {
+      "type": "p",
+      "text": "Another client, a home services company, relied on Facebook ads before. Over 3 months of cold email they got **about 29 booked sales calls a month, every month**, and **$165,000 in sales**. Same lesson: one channel you don't control is a risk. Two channels is a business."
+    },
+    {
+      "type": "tip",
+      "label": "Your numbers will be different",
+      "text": "Those are real results from one campaign each. Use them to plan your first month, then replace them with your own numbers after 2 to 4 weeks of sending."
+    },
+    {
+      "type": "h2",
+      "text": "The setup checklist at a glance"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Step",
+        "What you do",
+        "When"
+      ],
+      "rows": [
+        [
+          "1",
+          "Set one goal and work out the volume",
+          "Day 1"
+        ],
+        [
+          "2",
+          "Turn your referral clients into a target list",
+          "Days 1 to 3"
+        ],
+        [
+          "3",
+          "Write one offer with one proof",
+          "Days 2 to 4"
+        ],
+        [
+          "4",
+          "Set up domains, records and inboxes",
+          "Days 1 to 3"
+        ],
+        [
+          "5",
+          "Warm up for 14 days and build the list meanwhile",
+          "Days 1 to 14"
+        ],
+        [
+          "6",
+          "Write a 3-email sequence",
+          "Days 5 to 12"
+        ],
+        [
+          "7",
+          "Plan who answers replies, and how fast",
+          "Days 10 to 14"
+        ],
+        [
+          "8",
+          "Launch small, ramp up, review every Monday",
+          "Day 15 onward"
+        ]
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 1: Set one goal and work out the volume"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** \"get more clients\" can't be planned. \"2 extra clients a month\" can. One number tells you how many emails, inboxes and domains you need, so you don't buy too little or too much."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Write the goal: how many **extra** clients a month, on top of referrals.",
+        "Pick an emails-per-deal number to plan with. If you have none, borrow the reel campaign's: about 2,288 emails per deal. It will move once you have your own data.",
+        "Emails a month = goal × emails per deal.",
+        "Emails a day = emails a month ÷ 22 working days.",
+        "Inboxes = emails a day ÷ 30, rounded up. Domains = inboxes ÷ 3, rounded up."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Want the full funnel version with reply, interested and close rates? Use our [funnel math sheet](/guides/funnel.html)."
+    },
+    {
+      "type": "h3",
+      "text": "Step 2: Turn your referral clients into a target list"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** your referrals already show you who buys from you and trusts you fast. That's the best map you have for strangers. Cold email works when the reader looks like your best clients, so copy the pattern instead of guessing."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "List your last 10 clients. Mark which ones came from referrals.",
+        "For each one, write down: industry, company size, location, the job title of the person who signed, and what was happening when they hired you.",
+        "Circle what shows up 3 or more times. That's your target: for example, \"dental groups with 3 to 10 locations, owner signs, just opened a new location\".",
+        "Build your first list only from companies that match. Keep it to 1 or 2 people per company. [Hunter found](https://hunter.io/the-state-of-cold-email) emailing one or two people per company got **5.1% replies vs 3.5%** for 3 or more."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 3: Write one offer with one proof"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** a referral comes with a friend saying \"they're good.\" A cold email has no friend. Your proof has to do that job instead, in one line."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Write what you do in one sentence a 10-year-old would get.",
+        "Add one real result from a real client, with a number. Ask the client first if you name them.",
+        "Pick a small ask, like \"Worth a look?\" instead of \"Can we book 30 minutes?\""
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 4: Set up domains, records and inboxes"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** your main domain is where referrals, clients and invoices reach you. Never risk it. Send cold email from a separate domain that looks like your brand. [Google's sender guidelines](https://support.google.com/mail/answer/81126) require SPF or DKIM for every sender, and SPF, DKIM and DMARC for senders over 5,000 emails a day to Gmail, so set up all three from day one."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Buy the number of domains from Step 1 (for acme.com, try getacme.com or acmehq.com).",
+        "Create up to 3 inboxes per domain with Google Workspace or Microsoft 365, using real names.",
+        "Add SPF, DKIM and DMARC to every domain and test each inbox. Our [deliverability checklist](/guides/inbox.html) walks you through the 4 checks.",
+        "Connect all inboxes to one sending tool so you can send, rotate inboxes and see replies in one place."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Why 30 a day per inbox",
+      "text": "Google Workspace allows up to 2,000 emails a day per user ([Google's limits](https://support.google.com/a/answer/166852)), but that's a system limit. [Hunter found](https://hunter.io/the-state-of-cold-email) accounts sending **20 to 49 a day got 5.7% replies vs 4.5% overall**. Need more volume? Add inboxes."
+    },
+    {
+      "type": "h3",
+      "text": "Step 5: Warm up for 14 days and build the list meanwhile"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** new inboxes have no history, and providers don't trust them yet. [Instantly's warm-up guide](https://help.instantly.ai/articles/5975329-how-warm-up-works-and-why-it-s-important) says to wait **at least 2 weeks** before using new accounts for campaigns. Don't waste those 2 weeks: they're exactly the time you need to build and check your list and write your emails."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Turn warm-up on for every inbox on day 1. Leave it on for good.",
+        "Build the list from Step 2 while you wait. Aim for at least one month of leads before you launch.",
+        "Verify every email address. [Hunter](https://hunter.io/the-state-of-cold-email) warns that a bounce rate **above 2%** damages your domain."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 6: Write a 3-email sequence"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** your first email often arrives on the wrong day. [Hunter found](https://hunter.io/the-state-of-cold-email) the first email gets most replies, following up twice nearly doubles the reply rate, and **three emails in total** is the best balance. [Instantly's 2026 report](https://instantly.ai/cold-email-benchmark-report-2026) found **42% of replies** come from follow-ups, not the first email."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Email",
+        "When",
+        "What it does"
+      ],
+      "rows": [
+        [
+          "1",
+          "Day 1",
+          "One line about them, your one-line offer, your proof, a small question"
+        ],
+        [
+          "2",
+          "Day 3 or 4",
+          "A new angle or a second result. Shorter than email 1"
+        ],
+        [
+          "3",
+          "Day 7 or 8",
+          "Polite last note: \"Is this a priority, or should I check back next quarter?\""
+        ]
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 7: Plan who answers replies, and how fast"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** a reply is a person thinking about you right now. A day later they've moved on. Referrals often call you directly. Cold replies won't wait the same way, so decide before launch who answers and when."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Pick one person who checks replies at least twice a day.",
+        "Write 3 short answers ahead of time: \"tell me more\", \"what does it cost?\" and \"not now\".",
+        "Offer one specific time in your answer (\"Does Tuesday at 2pm Eastern work?\") instead of only a calendar link.",
+        "Tag every reply in your tool (interested, not now, wrong person) so nothing gets lost."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 8: Launch small, ramp up, review every Monday"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** [Google says](https://support.google.com/mail/answer/81126) to increase sending volume slowly, send at a steady rate and avoid sudden spikes. [Instantly's report](https://instantly.ai/cold-email-benchmark-report-2026) found teams that send consistently see **15 to 20% more replies**. Starting small also lets you fix the email before you spend your whole list."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Every Monday, check",
+        "Healthy",
+        "If not"
+      ],
+      "rows": [
+        [
+          "Bounce rate",
+          "Under 2%",
+          "Stop and verify the list again"
+        ],
+        [
+          "Spam rate in [Postmaster Tools](https://postmaster.google.com)",
+          "Under 0.1%",
+          "Slow down and check list and email"
+        ],
+        [
+          "Reply rate",
+          "Steady or rising",
+          "Test a new first line or offer"
+        ],
+        [
+          "Interested replies and booked calls",
+          "Going up week by week",
+          "Check reply speed and your ask"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The 5-week calendar"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Week",
+        "Sending",
+        "Also do"
+      ],
+      "rows": [
+        [
+          "1",
+          "Warm-up only, 0 cold emails",
+          "Set goal, buy domains, records, inboxes, find your target from referral clients"
+        ],
+        [
+          "2",
+          "Warm-up only, 0 cold emails",
+          "Build and verify the list, write 3 emails, write reply answers"
+        ],
+        [
+          "3",
+          "10 cold emails per inbox per day",
+          "Answer every reply the same day"
+        ],
+        [
+          "4",
+          "20 per inbox per day",
+          "First Monday review. Fix before you step up"
+        ],
+        [
+          "5+",
+          "30 per inbox per day",
+          "Full volume. Monday review, keep warm-up on"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: 2 extra clients a month"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Goal:** 2 extra clients a month on top of referrals.",
+        "**Planning number:** the reel campaign's 2,288 emails per deal. 2 × 2,288 = **4,576 emails a month**.",
+        "**Per day:** 4,576 ÷ 22 working days = **208 a day**.",
+        "**Inboxes:** 208 ÷ 30 = 6.9, so **7 inboxes**. **Domains:** 7 ÷ 3 = 2.3, so **3 domains**.",
+        "**Ramp:** week 3: 7 × 10 = **70 a day**. Week 4: 7 × 20 = **140 a day**. Week 5: 7 × 30 = **210 a day**.",
+        "**Check:** 210 × 22 = **4,620 emails a month**, just above the 4,576 you need.",
+        "**After 2 to 4 weeks:** replace 2,288 with your own emails-per-deal number and redo the math."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Notice what didn't change: your referrals still come in. Outbound adds on top. That's what tips the seesaw."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "No replies at all after a week",
+          "Emails landing in spam",
+          "Run the 4 checks in our [deliverability checklist](/guides/inbox.html)"
+        ],
+        [
+          "Replies, but nobody is interested",
+          "Wrong people or weak offer",
+          "Go back to Step 2 and Step 3: match your best referral clients, sharpen the proof"
+        ],
+        [
+          "Interested replies, few calls",
+          "Slow answers or a big ask",
+          "Answer the same day and offer one specific time"
+        ],
+        [
+          "Bounces over 2%",
+          "Old or unverified list",
+          "Verify every address before it goes in"
+        ],
+        [
+          "Good start, then results drop",
+          "Volume went up too fast",
+          "Go back one ramp step, keep warm-up on"
+        ],
+        [
+          "You stop sending when referrals pick up",
+          "Treating outbound as a backup",
+          "Keep sending every working day. Steady wins"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Copy-paste prompt 1: find your target from your referral clients"
+    },
+    {
+      "type": "prompt",
+      "label": "Referral pattern prompt",
+      "text": "Here are my last 10 clients. For each: industry, company size, location, job title of the person who signed, how they found me (referral or other), and what was happening in their business when they hired me.\n\n[paste your 10 clients]\n\n1) Find the traits that show up in 3 or more clients.\n2) Write my ideal customer in one sentence.\n3) Give me 5 search filters I can use to find more companies like this (industry, size, location, job title, trigger).\n4) Give me 3 public signs that a company is in the same situation my clients were in when they hired me.\nOnly use what I gave you. Don't guess."
+    },
+    {
+      "type": "h2",
+      "text": "Copy-paste prompt 2: build your setup plan"
+    },
+    {
+      "type": "prompt",
+      "label": "Outbound setup plan prompt",
+      "text": "I get most of my clients from referrals. I want to add cold email on top.\n\nGoal: [number] extra clients per month.\nEmails per deal to plan with: [my number, or 2,288 if I don't have one].\nStart date: [date].\n\nRules: 30 cold emails per inbox per day, max 3 inboxes per domain, 22 working days a month, 14 days of warm-up with 0 cold emails, then 10 / 20 / 30 emails per inbox per day in weeks 3, 4 and 5.\n\nGive me:\n1) emails per month and per day, inboxes and domains needed (round up), with the math shown,\n2) a 5-week calendar with dates, including what to do each week while inboxes warm up,\n3) a Monday checklist (bounce under 2%, spam rate under 0.1%, replies, interested replies, calls),\n4) the date I reach full volume."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Google: Email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "Authentication rules and how to increase volume slowly"
+    },
+    {
+      "name": "Google Workspace sending limits",
+      "url": "https://support.google.com/a/answer/166852",
+      "note": "Official daily limits per inbox"
+    },
+    {
+      "name": "Google Postmaster Tools",
+      "url": "https://postmaster.google.com",
+      "note": "Free spam rate dashboard for your domains"
+    },
+    {
+      "name": "Instantly: How warm-up works",
+      "url": "https://help.instantly.ai/articles/5975329-how-warm-up-works-and-why-it-s-important",
+      "note": "Wait at least 2 weeks before campaigns"
+    },
+    {
+      "name": "Instantly 2026 benchmark report",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Share of replies from follow-ups, consistent sending"
+    },
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Sends per inbox, people per company, follow-ups, bounces"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Will cold email hurt the reputation I built with referrals?",
+      "a": "Not if you set it up right. Send from a separate domain so your main domain stays safe, email only companies that look like your best clients, and make it easy to opt out."
+    },
+    {
+      "q": "Should I stop asking for referrals?",
+      "a": "No. Keep every referral habit you have. Outbound is the second channel that keeps growing when referrals go quiet."
+    },
+    {
+      "q": "How long until the first booked calls?",
+      "a": "Inboxes need about 2 weeks of warm-up, and you reach full volume around week 5. Replies can start in week 3. When calls turn into deals depends on your sales cycle."
+    },
+    {
+      "q": "Is 2,288 emails per deal normal?",
+      "a": "It's what the campaign in the reel took for that one client in one real month. Your number depends on your offer, price and list. Use it to plan month one, then switch to your own number."
+    }
+  ]
+}

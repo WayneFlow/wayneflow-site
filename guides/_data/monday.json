@@ -1,0 +1,448 @@
+{
+  "slug": "monday",
+  "keyword": "MONDAY",
+  "date": "2026-11-23",
+  "draft": false,
+  "instantdm": "pending",
+  "title": "The Setup Checklist: From 0 Calls on Monday to a Steady Calendar in 6 Weeks",
+  "description": "A week-by-week checklist to go from zero booked calls to a steady calendar with cold email: the list, the inbox setup, and daily volume.",
+  "lead": "This is the full setup checklist from the reel. You get the 3 steps (a list of people who fit, a setup that lands in the inbox, volume every day) as a week-by-week checklist from week 0 to week 6, a worked example, a 20-minute Monday routine, a problem finder and a prompt that plans your weeks for you.",
+  "insider": "This checklist is how we run steady campaigns for clients. In our full-quarter case study, sending the same way every week from January to March brought in **1,061 interested leads from 236,545 emails**, with no big pushes and no empty weeks. The tactic is the easy part; the full system (list, inboxes, follow-ups) is what we do for clients.",
+  "case": "case-04",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The short answer"
+    },
+    {
+      "type": "p",
+      "text": "Your Monday has 0 calls. The company in the reel, a home services business that used to rely on Facebook ads, booked **about 29 calls a month** with cold email. That's about 7 a week. The gap isn't luck. It's three things done in order:"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**A list of people who fit.** The right companies and the right person at each one.",
+        "**A setup that lands in the inbox.** Separate domains, authenticated, warmed up.",
+        "**Volume, every day.** The same amount of new people reached every working day, with follow-ups."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Done in order, this takes **about 6 weeks** from zero to full volume: 2 weeks of building and warm-up, a 3-week ramp, then steady sending. The checklist below covers each week."
+    },
+    {
+      "type": "h2",
+      "text": "Where are you now?"
+    },
+    {
+      "type": "p",
+      "text": "Answer these 6 questions. Every \"no\" is where you start."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Question",
+        "If no, start at"
+      ],
+      "rows": [
+        [
+          "Can you describe your best buyer in one sentence (industry, size, title, place)?",
+          "Week 0"
+        ],
+        [
+          "Do you have at least 2,000 verified people who match it?",
+          "Week 0"
+        ],
+        [
+          "Do you send from separate domains, not your main one?",
+          "Week 1"
+        ],
+        [
+          "Do those domains have SPF, DKIM and DMARC?",
+          "Week 1"
+        ],
+        [
+          "Have the inboxes been warming up for 2+ weeks?",
+          "Week 1-2"
+        ],
+        [
+          "Do you reach new people every working day, with 2 follow-ups?",
+          "Week 3"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 1: A list of people who fit"
+    },
+    {
+      "type": "p",
+      "text": "**Why it matters:** nobody outside your list can ever book a call. And a list of people who don't fit gets replies like \"not interested\" or no replies at all, which also hurts your sending reputation. Fit beats size."
+    },
+    {
+      "type": "p",
+      "text": "**Exactly how:** write the one-sentence buyer description, pull companies that match, find 1 or 2 decision makers per company, verify every email, and note 2 real details about each company. Details matter: in [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email), emails with two custom details got **5.6% replies vs 3.6%** without."
+    },
+    {
+      "type": "h2",
+      "text": "Step 2: A setup that lands in the inbox"
+    },
+    {
+      "type": "p",
+      "text": "**Why it matters:** an email in spam is an email nobody reads. The big providers now check every sender. [Google](https://support.google.com/mail/answer/81126) requires SPF or DKIM from everyone, all three (SPF, DKIM and DMARC) from bulk senders, and a spam rate below **0.3%** (it recommends under 0.1%). [Microsoft](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730) requires SPF, DKIM and DMARC for domains sending over 5,000 emails a day to Outlook.com."
+    },
+    {
+      "type": "p",
+      "text": "**Exactly how:** separate sending domains, up to 3 inboxes per domain, the three DNS records on each, and warm-up turned on before any cold email goes out. [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) says to start at 5 to 10 emails a day and build up over **4 to 6 weeks**."
+    },
+    {
+      "type": "h2",
+      "text": "Step 3: Volume, every day"
+    },
+    {
+      "type": "p",
+      "text": "**Why it matters:** one big send fills one week. Steady sending fills every week. Instantly found that teams who send consistently get **15 to 20% more replies**, and that bursty sending (500 one day, nothing for three days, then 1,000) looks suspicious to providers. Follow-ups matter too: **42% of replies** in Instantly's data came after the first email."
+    },
+    {
+      "type": "p",
+      "text": "**Exactly how:** the same daily limit on every inbox, Monday to Friday. New people added every day. Every person gets 3 emails, 3 to 4 days apart."
+    },
+    {
+      "type": "h2",
+      "text": "The week-by-week checklist"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Week",
+        "Focus",
+        "Done when"
+      ],
+      "rows": [
+        [
+          "Week 0",
+          "List",
+          "Buyer sentence written, first 2,000+ people pulled and verified"
+        ],
+        [
+          "Week 1",
+          "Setup",
+          "Domains bought, inboxes made, SPF/DKIM/DMARC pass, warm-up on"
+        ],
+        [
+          "Week 2",
+          "Warm-up + emails",
+          "3-email sequence written and tested, still no cold sends"
+        ],
+        [
+          "Week 3",
+          "Ramp: 10 a day per inbox",
+          "First cold emails out, bounces under 2%"
+        ],
+        [
+          "Week 4",
+          "Ramp: 20 a day per inbox",
+          "First replies answered within hours"
+        ],
+        [
+          "Week 5",
+          "Full: 30 a day per inbox",
+          "Same volume every weekday, next list ordered"
+        ],
+        [
+          "Week 6+",
+          "Steady",
+          "Monday routine every week, calls on the calendar"
+        ]
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Week 0: The list"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Write your buyer sentence: \"[Job title] at [type of company] with [size] in [place].\"",
+        "List 3 problems this buyer has that you solve. Pick the biggest one for email 1.",
+        "Pull matching companies from a lead database, Google Maps or industry directories.",
+        "Find 1 or 2 decision makers per company with work emails.",
+        "Verify every email. Remove anything that's invalid or risky.",
+        "Add 2 real details per company in your sheet (what they do, a recent change, where they work).",
+        "Check the count against your goal (see the worked example below)."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Week 1: The setup"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Buy separate sending domains that look like your brand. Never use your main domain.",
+        "Buy 1 or 2 spare domains as backups.",
+        "Create up to 3 inboxes per domain, each with a real name and photo.",
+        "Add SPF, DKIM and DMARC to every domain. Our [DNS guide](/blog/dns-records-for-cold-email.html) has the records.",
+        "Point each sending domain to your real website.",
+        "Connect every inbox to your sending tool and turn warm-up on.",
+        "Add each domain to [Google Postmaster Tools](https://postmaster.google.com) so you can see spam rates later."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Week 2: Warm-up and the emails"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Leave warm-up running. Send zero cold emails this week.",
+        "Write the 3-email sequence (use the prompt below). Email 1 under 80 words.",
+        "Add a plain way to say no to each email, like \"Not for you? Reply no and I won't email again.\"",
+        "Remove links and images from email 1.",
+        "Send the sequence to yourself on Gmail and Outlook. Read it on your phone.",
+        "Set the schedule: Monday to Friday, during your buyers' work hours, 3 to 4 days between emails."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Week 3 and 4: The ramp"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Week 3: 10 cold emails per inbox per day. Week 4: 20 per inbox per day.",
+        "Launch new people on Monday. Instantly's data shows Monday is a good day to start sequences and Wednesday gets the most replies.",
+        "Check bounces every day. Over 2%? Stop that list and verify it again.",
+        "Answer every interested reply within a few hours. Offer one specific time.",
+        "Log every reply: interested, not now, wrong person, no."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Week 5 and after: Full volume"
+    },
+    {
+      "type": "list",
+      "items": [
+        "30 cold emails per inbox per day, every weekday. Keep warm-up on.",
+        "Add new people every day so first emails never stop.",
+        "Order the next list when the current one is 75% used.",
+        "Run the Monday routine below, every week."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: from 0 to 5 calls a week"
+    },
+    {
+      "type": "p",
+      "text": "Say your goal is **5 booked calls a week** (about 22 a month: 5 × 4.33 = 21.7). Use a starting guess of **2 calls per 1,000 people**. Here's where it comes from: Hunter's average is 45 replies per 1,000 people (4.5%). In our [full-quarter case study](/results.html#case-04) about 1 in 4 replies was interested, so about 11. In our [5-day blitz](/results.html#case-03) about 1 in 5 interested people booked (25 of 115), so about 2."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "New people needed each week: 5 calls ÷ 2 per 1,000 = **2,500 people a week**.",
+        "Each gets 3 emails: 2,500 × 3 = **7,500 emails a week** once you're at full volume.",
+        "Per working day: 7,500 ÷ 5 = **1,500 emails a day**.",
+        "Inboxes at 30 a day each: 1,500 ÷ 30 = **50 inboxes**.",
+        "Domains at 3 inboxes each: 50 ÷ 3 = 16.7, so **17 domains**, plus 2 spares = 19.",
+        "List for the first month: 2,500 × 4 weeks = **10,000 verified people**, so build at least 2,000 to 3,000 in week 0 and keep adding."
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Week",
+        "Per inbox per day",
+        "Total per day (50 inboxes)",
+        "What to expect"
+      ],
+      "rows": [
+        [
+          "1-2",
+          "0 (warm-up only)",
+          "0",
+          "No calls yet. This is normal."
+        ],
+        [
+          "3",
+          "10",
+          "500",
+          "First replies. Maybe a first call."
+        ],
+        [
+          "4",
+          "20",
+          "1,000",
+          "Calls start to show up."
+        ],
+        [
+          "5+",
+          "30",
+          "1,500",
+          "Toward 5 calls a week as follow-ups catch up."
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Replace the guess with your numbers",
+      "text": "After your first 1,000 people, divide calls booked by people reached. That's your real number. Rerun the math with it."
+    },
+    {
+      "type": "h2",
+      "text": "The 20-minute Monday routine"
+    },
+    {
+      "type": "p",
+      "text": "Do this every Monday, before you launch the week's new people. It keeps the calendar full and catches problems before they cost you a domain."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Check",
+        "Healthy",
+        "If not"
+      ],
+      "rows": [
+        [
+          "Bounce rate (last 7 days)",
+          "Under 2%",
+          "Stop the list that's bouncing and verify it again"
+        ],
+        [
+          "Spam rate in Postmaster Tools",
+          "Under 0.1%",
+          "Cut that domain to half volume. Check list and email"
+        ],
+        [
+          "Reply rate by inbox",
+          "Similar across inboxes",
+          "If one is far lower, it may be in spam. Rest it a week"
+        ],
+        [
+          "Interested replies answered",
+          "All within hours",
+          "Set two reply checks a day on your calendar"
+        ],
+        [
+          "People left in your list",
+          "More than 2 weeks' worth",
+          "Order and verify the next batch today"
+        ],
+        [
+          "Calls booked last week",
+          "On target",
+          "Use the problem finder below"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Your Monday looks like",
+        "Most likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Still 0 calls after week 5",
+          "Spam, wrong list, or too little volume",
+          "Check bounces and spam rate first, then list fit, then count people reached per week"
+        ],
+        [
+          "Replies, but no interest",
+          "List doesn't fit, or the problem is wrong",
+          "Narrow the buyer sentence. Test a different problem in email 1"
+        ],
+        [
+          "Interest, but no calls",
+          "Slow or vague replies",
+          "Answer within hours with one specific time"
+        ],
+        [
+          "Busy weeks, then empty weeks",
+          "Bursty sending or the list ran out",
+          "Same daily volume every weekday. Refill the list at 75%"
+        ],
+        [
+          "Calls, but the wrong people",
+          "Titles or company size too wide",
+          "Tighten the list. Add a qualifying line to email 1"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Skipping week 0.** Buying inboxes before you know who you're emailing.",
+        "**Sending in week 1.** New domains need warm-up first. Rushing burns them.",
+        "**Stopping after email 1.** You lose the 42% of replies that come from follow-ups.",
+        "**Sending only when you have time.** Steady beats bursts, in replies and in deliverability.",
+        "**Judging it in week 3.** The ramp is not full volume. Judge results from week 6 on."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Let Claude plan your 6 weeks"
+    },
+    {
+      "type": "prompt",
+      "label": "6-week plan prompt (copy it)",
+      "text": "Help me plan a cold email setup from zero to a steady calendar.\n\nMy buyer: [job title] at [type of company] with [size] in [place]\nWhat I sell: [one sentence]\nCalls I want per week: [number]\nStart date (a Monday): [date]\nMy starting guess: [2] calls per 1,000 people reached (change it if you have real numbers)\n\nRules: every person gets 3 emails, 3-4 days apart. Max 30 cold emails per inbox per day, max 3 inboxes per domain, plus 2 spare domains. Weeks 1-2 warm-up only (no cold emails), then 10 / 20 / 30 emails per inbox per day in weeks 3, 4 and 5. Send Monday to Friday only.\n\nGive me:\n1) people needed per week, emails per day, inboxes and domains (round up, show the math),\n2) a week-by-week checklist with dates for weeks 0 to 6,\n3) how many verified people I need before week 3,\n4) a Monday checklist with these limits: bounce rate under 2%, spam rate under 0.1%."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Reply rate per recipient, 3 emails vs 1, personalization and bounce data"
+    },
+    {
+      "name": "Instantly 2026 cold email benchmark report",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Follow-up share of replies, spacing, warm-up time, steady sending and bounce limit"
+    },
+    {
+      "name": "Google email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "The official Gmail rules: authentication and spam rate"
+    },
+    {
+      "name": "Microsoft Outlook high-volume sender requirements",
+      "url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730",
+      "note": "SPF, DKIM and DMARC rules for Outlook.com"
+    },
+    {
+      "name": "Google Postmaster Tools",
+      "url": "https://postmaster.google.com",
+      "note": "Free spam rate and domain reputation dashboard"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I skip the warm-up if I'm in a hurry?",
+      "a": "Don't. New domains that send lots of cold email right away look like spammers. Instantly says to build up over 4 to 6 weeks. Skipping it can cost you the domains and the weeks anyway."
+    },
+    {
+      "q": "How many people do I need on my list to start?",
+      "a": "Enough for the ramp plus a buffer. In the worked example, that's 2,500 new people a week at full volume. Start with at least 2,000 to 3,000 verified people and keep adding every week."
+    },
+    {
+      "q": "Why Monday?",
+      "a": "It's a natural start for the week. Instantly's data shows Monday is a good day to launch new sequences and Wednesday gets the most replies. Use Monday for your routine and new batches."
+    },
+    {
+      "q": "What if I only want 1 or 2 calls a week?",
+      "a": "Use the same steps with smaller numbers. At 2 calls per 1,000 people, 2 calls a week is about 1,000 new people a week, 3,000 emails a week, 600 a day and 20 inboxes."
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "slug": "slot",
+  "keyword": "SLOT",
+  "date": "2026-11-23",
+  "draft": false,
+  "instantdm": "pending",
+  "title": "The Math Sheet: Find Your Emails-per-Deal Number (Ours Was 2,288)",
+  "description": "Work out how many cold emails it takes you to close one deal, what each email is worth, and how much you must send to get paid every month.",
+  "lead": "This is the full math sheet from the reel. You get the one formula behind \"your number\" (emails per deal), how to find it from your own results or estimate it before your first deal, a table that shows how often you get paid at different volumes, spreadsheet formulas, a problem finder and a Claude prompt.",
+  "insider": "We work out the emails-per-deal number with every client before we pick a sending volume. On our construction software campaign it was high, about 27,000 emails per annual contract, and the plan still worked because the volume matched it: **162,073 emails, 31 demos and 6 signed annual contracts**. The tactic is the easy part; the full system (list, inboxes, follow-ups) is what we do for clients.",
+  "case": "case-02",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The short answer"
+    },
+    {
+      "type": "p",
+      "text": "**Your number = emails sent ÷ deals closed.** It's how many cold emails it takes you to win one deal. In the campaign in the reel, one client sent **84,643 emails** in one real month and closed **37 deals**. 84,643 ÷ 37 = 2,287.6, so their number was **about 2,288 emails per deal**."
+    },
+    {
+      "type": "p",
+      "text": "Think of it like a machine. Every 2,288 emails that go in, one deal comes out. Send fewer than your number in a month, and **zero deals is the expected result**, not bad luck."
+    },
+    {
+      "type": "table",
+      "head": [
+        "From the reel",
+        "Number",
+        "Math"
+      ],
+      "rows": [
+        [
+          "Emails sent (one month)",
+          "84,643",
+          "-"
+        ],
+        [
+          "Replies",
+          "2,399",
+          "about 1 reply per 35 emails (84,643 ÷ 2,399)"
+        ],
+        [
+          "Deals closed",
+          "37",
+          "about 1 deal per 65 replies (2,399 ÷ 37)"
+        ],
+        [
+          "Emails per deal",
+          "2,288",
+          "84,643 ÷ 37"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why one number beats five percentages"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**It connects effort to money.** Reply rates and open rates don't pay you. Deals do. Emails per deal tells you how much sending one deal really takes.",
+        "**It makes planning simple.** Want 5 deals a month? You need about 5 × your number in emails. No guessing.",
+        "**It tells you what each email is worth.** Your deal value ÷ your number = the value of one email sent. That shows you what you can afford to spend.",
+        "**It explains a bad month.** If you sent 3,000 emails and your number is 2,288, you should expect about 1 deal. Zero isn't a mystery, it's a volume problem."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 1: Find your number from your own results"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** your number depends on your offer, your price and your buyers. Another company's number can be 10 times different from yours. **How:**"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Pick a time window with steady sending, at least one full month.",
+        "From your sending tool, write down **total emails sent** in that window (every step, follow-ups included).",
+        "From your CRM or notes, count the **deals closed** that came from those emails.",
+        "Divide: emails ÷ deals = **your number**.",
+        "Also write down replies, so you can see replies per deal (replies ÷ deals) for the problem finder below."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Count every email",
+      "text": "Use total emails sent, not people contacted. Follow-ups cost the same inbox capacity as first emails, so they belong in the number."
+    },
+    {
+      "type": "h2",
+      "text": "Step 2: No deals yet? Estimate it"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** you need a first plan before you have data. **How:** multiply your funnel rates, then divide 1 by the result."
+    },
+    {
+      "type": "p",
+      "text": "**Emails per deal = 1 ÷ (reply rate × interested rate × booked rate × close rate)**"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Rate",
+        "Example",
+        "Where it comes from"
+      ],
+      "rows": [
+        [
+          "Reply rate",
+          "3%",
+          "A little under the 3.43% average in [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026)"
+        ],
+        [
+          "Interested rate (of replies)",
+          "24%",
+          "Our full-quarter campaign: 1,061 interested out of 4,372 replies"
+        ],
+        [
+          "Booked rate (of interested)",
+          "22%",
+          "Our 5-day blitz: 25 calls from 115 interested"
+        ],
+        [
+          "Close rate (of calls)",
+          "20%",
+          "1 in 5, as in the reel and our construction software campaign (6 of 31 demos)"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "3% × 24% × 22% × 20% = 0.0003168. Then 1 ÷ 0.0003168 = **about 3,157 emails per deal**. Use it for your first plan, then switch to your real number once you've closed a few deals. One deal is too few to trust; 3 to 5 gives you a much steadier number. For the full stage-by-stage version, see our [funnel math guide](/guides/funnel.html)."
+    },
+    {
+      "type": "h2",
+      "text": "Step 3: See how often you get paid"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** your number doesn't change much week to week. Your volume does. Volume decides how often the machine pays out. **How:** divide your number by your weekly volume to get weeks per deal."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Emails a week",
+        "Weeks per deal (2,288 ÷ volume)",
+        "Deals a month (volume × 4.33 ÷ 2,288)"
+      ],
+      "rows": [
+        [
+          "200",
+          "11.4",
+          "0.4"
+        ],
+        [
+          "500",
+          "4.6",
+          "0.9"
+        ],
+        [
+          "1,000",
+          "2.3",
+          "1.9"
+        ],
+        [
+          "2,500",
+          "0.9",
+          "4.7"
+        ],
+        [
+          "5,000",
+          "0.5",
+          "9.5"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "At **200 emails a week**, the same machine pays out about **once every 11 weeks** (2,288 ÷ 200 = 11.4). At **12,000 emails a month**, the same rate gives about **5 deals a month** (12,000 ÷ 2,288 = 5.2). Same emails, same offer. Only the volume changed."
+    },
+    {
+      "type": "h2",
+      "text": "Step 4: Work out what one email is worth"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** this tells you if cold email makes sense for your price, and how much you can spend on lists, inboxes and tools. **How:** deal value ÷ your number."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Take your average deal value. Example: **$2,500** (the average deal across our clients).",
+        "Divide by your number: $2,500 ÷ 2,288 = **about $1.09 per email sent**.",
+        "Compare that with what one email costs you (list, verification, inboxes, sending tool, your time). If an email is worth more than it costs, more volume makes more money.",
+        "If your deal is small, your number has to be small too. Fix the funnel (Step 6) before you add volume."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 5: Plan your monthly volume"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** now you can turn a deal goal into a sending goal. **How:** deals wanted × your number = emails a month."
+    },
+    {
+      "type": "h3",
+      "text": "Worked example"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Goal: **4 deals a month**. Your number: **2,288**.",
+        "Emails a month: 4 × 2,288 = **9,152**.",
+        "Emails a week: 9,152 ÷ 4.33 = **about 2,114**.",
+        "Emails a working day: 2,114 ÷ 5 = **about 423**.",
+        "Inboxes at 30 cold emails each per day: 423 ÷ 30 = 14.1, so **15 inboxes**. Our [MATH guide](/guides/math.html) covers the setup and warm-up."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Spreadsheet version"
+    },
+    {
+      "type": "p",
+      "text": "Put your numbers in B1 to B5 of a Google Sheet and paste the formulas below them. The examples use the reel's numbers."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Cell",
+        "What goes there",
+        "Formula or value",
+        "Example result"
+      ],
+      "rows": [
+        [
+          "B1",
+          "Emails sent",
+          "84643",
+          "-"
+        ],
+        [
+          "B2",
+          "Replies",
+          "2399",
+          "-"
+        ],
+        [
+          "B3",
+          "Deals closed",
+          "37",
+          "-"
+        ],
+        [
+          "B4",
+          "Average deal value ($)",
+          "2500",
+          "-"
+        ],
+        [
+          "B5",
+          "Planned emails a week",
+          "200",
+          "-"
+        ],
+        [
+          "B6",
+          "Your number (emails per deal)",
+          "=B1/B3",
+          "2,288"
+        ],
+        [
+          "B7",
+          "Emails per reply",
+          "=B1/B2",
+          "35"
+        ],
+        [
+          "B8",
+          "Replies per deal",
+          "=B2/B3",
+          "65"
+        ],
+        [
+          "B9",
+          "Value of one email ($)",
+          "=B4/B6",
+          "1.09"
+        ],
+        [
+          "B10",
+          "Weeks per deal at planned volume",
+          "=B6/B5",
+          "11.4"
+        ],
+        [
+          "B11",
+          "Deals a month at planned volume",
+          "=B5*4.33/B6",
+          "0.4"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Step 6: Lower your number (problem finder)"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** a lower number means more deals from the same sending. **How:** split your number into emails per reply and replies per deal, and see which half is weak."
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Likely cause",
+        "What to try"
+      ],
+      "rows": [
+        [
+          "Emails per reply is high (few replies)",
+          "Wrong list, weak offer, or landing in spam",
+          "Check bounce rate and inbox health first. Then test a new offer on a small batch."
+        ],
+        [
+          "Single emails, no follow-ups",
+          "Leaving replies on the table",
+          "Add follow-ups. Instantly found 42% of replies come after step 1, and [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email) found following up twice nearly doubles the reply rate."
+        ],
+        [
+          "Many replies, few interested",
+          "Offer or audience doesn't fit",
+          "Read the \"no\" replies and tighten who you email."
+        ],
+        [
+          "Interested, but few calls",
+          "Slow answers or a hard booking step",
+          "Reply the same day and offer one specific time."
+        ],
+        [
+          "Calls, but few deals",
+          "Wrong decision makers or a weak sales call",
+          "Email the people who sign, not just the people who reply."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Counting people instead of emails.** Your number should include follow-ups, or your volume plan will come up short.",
+        "**Trusting a number from one deal.** Wait for a few deals before you plan big volume on it.",
+        "**Mixing campaigns.** An offer to dentists and an offer to software companies have different numbers. Work them out separately.",
+        "**Blaming the email after a low-volume month.** If you sent less than your number, zero deals was the math, not the copy.",
+        "**Pushing volume without warm inboxes.** More volume only helps if the emails land in the inbox."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Let Claude work out your number"
+    },
+    {
+      "type": "prompt",
+      "label": "Math sheet prompt",
+      "text": "Here are my cold email results for [time period]:\nEmails sent (all steps): [number]\nReplies: [number]\nInterested replies: [number]\nCalls booked: [number]\nDeals closed: [number]\nAverage deal value: $[amount]\nEmails I can send per week: [number]\n\nWork out, showing every step:\n1) my emails per deal,\n2) emails per reply and replies per deal,\n3) the value of one email sent,\n4) weeks per deal and deals per month at my weekly volume (1 month = 4.33 weeks),\n5) the emails per month I need for [goal] deals a month,\n6) which stage is my weakest, compared with a 3.43% average reply rate and a 1 in 5 close rate, and one fix to test first.\nIf I have no deals yet, estimate my number as 1 ÷ (reply rate × interested rate × booked rate × close rate)."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Instantly Cold Email Benchmark Report 2026",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Average reply rate and the share of replies from follow-ups"
+    },
+    {
+      "name": "Hunter: The State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "The follow-up effect on reply rate"
+    },
+    {
+      "name": "The Funnel Math Sheet",
+      "url": "https://wayneflow.com/guides/funnel.html",
+      "note": "Stage-by-stage funnel benchmarks and formulas"
+    },
+    {
+      "name": "The Sending Calculator (MATH guide)",
+      "url": "https://wayneflow.com/guides/math.html",
+      "note": "Inboxes, domains and warm-up for your planned volume"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is 2,288 a good number to aim for?",
+      "a": "It's one real campaign's number, not a target. Your number depends on your offer, price and buyers. Our construction software campaign needed about 27,000 emails per annual contract and still paid off, because each contract was a full year of revenue."
+    },
+    {
+      "q": "The reel says 1 in 28 people replied. Why does this say 1 reply per 35 emails?",
+      "a": "The reel counts people. This sheet counts emails, and each person can get several emails in a sequence. Both are right; they measure different things."
+    },
+    {
+      "q": "How long until I know my real number?",
+      "a": "Use the estimate from Step 2 for your first month. Once you've closed a few deals from steady sending, switch to your real number and update it every month."
+    },
+    {
+      "q": "Should I just send more if my number is high?",
+      "a": "Only if one email is worth more than it costs you (Step 4) and your inboxes are healthy. Otherwise, lower the number first with the problem finder."
+    }
+  ]
+}

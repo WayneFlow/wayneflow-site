@@ -1,0 +1,343 @@
+{
+  "slug": "crowd",
+  "keyword": "CROWD",
+  "date": "2026-11-23",
+  "draft": false,
+  "instantdm": "pending",
+  "title": "The Outreach Checklist: How Many Right-Fit People You Need for the Replies You Want",
+  "description": "Reply rate isn't your problem. Your crowd is too small. Size your market, split it into segments, verify it and work out how many people you need.",
+  "lead": "This is the full outreach checklist from the reel. You get the crowd-size math, a 6-step checklist for building an audience that is big enough and the right fit, a fill-in sheet you can paste into Google Sheets, a worked example, a problem finder and a prompt that sizes your market for you.",
+  "insider": "Before we scale any client campaign, we size the crowd first: how many right-fit people exist, how many segments they split into, and how many we must reach for the replies the client wants. In one small pilot, **10,284 people contacted turned into 417 replies and 103 sales opportunities**, about 1 in every 100 people. The checklist is the easy part; the full system (list, inboxes, follow-ups) is what we do for clients.",
+  "case": "case-05",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The short answer"
+    },
+    {
+      "type": "p",
+      "text": "In the campaign in the reel, one client sent **84,643 emails** in one real month and got **2,399 replies**. About **1 in 28 people** replied. That sounds great until you flip it: if you only email 28 people, you should expect **one reply**. Maybe zero."
+    },
+    {
+      "type": "p",
+      "text": "So when a small campaign gets no replies, the reply rate usually isn't the problem. **Your crowd is too small.** The fix is simple math: decide how many replies you want, then work out how many right-fit people you need to reach to get them."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Replies you want",
+        "People to reach at 1 in 28",
+        "At 3% (Hunter's sales average)",
+        "At 1.5% (a weak start)"
+      ],
+      "rows": [
+        ["10", "280", "334", "667"],
+        ["25", "700", "834", "1,667"],
+        ["50", "1,400", "1,667", "3,334"],
+        ["100", "2,800", "3,334", "6,667"]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The 3% column comes from [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email), which found sales outreach sequences get a **3% average reply rate**, counted per recipient. All numbers are rounded up, because you can't email part of a person."
+    },
+    {
+      "type": "h2",
+      "text": "Why 28 people tell you nothing"
+    },
+    {
+      "type": "p",
+      "text": "Each person has a small chance of replying. With small groups, luck decides the result, not your email. Even if your campaign truly gets 1 reply per 28 people, here's what chance alone does:"
+    },
+    {
+      "type": "table",
+      "head": [
+        "People emailed",
+        "Replies you'd expect (1 in 28)",
+        "Chance of getting zero replies"
+      ],
+      "rows": [
+        ["28", "1", "about 36%"],
+        ["50", "about 1.8", "about 16%"],
+        ["100", "about 3.6", "about 3%"],
+        ["150", "about 5.4", "under 0.5%"],
+        ["280", "10", "under 0.01%"]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Read the first row again. **More than 1 time in 3, a campaign that works will show zero replies from 28 people.** Most people quit right there and rewrite a good email. With a few hundred people, zero replies almost never happens by luck. If you see it at that size, something is really wrong, and now you know it."
+    },
+    {
+      "type": "tip",
+      "label": "The math behind it",
+      "text": "Chance of zero replies = (27 ÷ 28) to the power of the number of people. For 28 people: (27 ÷ 28)^28 ≈ 0.36, so about 36%."
+    },
+    {
+      "type": "h2",
+      "text": "Big crowd, small rooms"
+    },
+    {
+      "type": "p",
+      "text": "Wait, isn't smaller better? Hunter found that sequences sent to **21 to 50 people got a 6.2% reply rate, vs 2.4% for 500 or more**. But read Hunter's own takeaway: they are not telling you to stop at 50. They say to **cut your audience into smaller segments** and write copy that fits each one, then scale that."
+    },
+    {
+      "type": "p",
+      "text": "So you need both. A **big total crowd**, so you have enough people to get real replies and real data. And **small rooms inside it**, so every email feels like it was written for that reader. A crowd of 5,000 is not one giant blast. It's 100 rooms of 50."
+    },
+    {
+      "type": "h2",
+      "text": "The outreach checklist"
+    },
+    {
+      "type": "p",
+      "text": "Six steps. Do them in order. Each one has the why and the how."
+    },
+    {
+      "type": "h3",
+      "text": "1. Write down who fits (and who doesn't)"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** a big list of the wrong people is still the wrong people. Hunter's survey found **61% of decision makers** say cold emails fail because they aren't relevant. Fit rules keep your crowd big *and* right."
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Industry:** the 1 to 3 industries where your best customers come from.",
+        "**Company size:** a range of employees or revenue, not \"any\".",
+        "**Location:** the states, regions or countries you can actually serve.",
+        "**Role:** the job titles of the person who says yes (the buyer, not the user).",
+        "**A sign they need you now:** hiring, new location, new funding, bad reviews, running ads, and so on.",
+        "**The no list:** current clients, past clients who left, competitors, partners and anyone who asked you to stop."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "2. Count your whole crowd"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** the total number of right-fit people tells you two things before you send a single email: whether your goal is possible, and how many months you can run before you email the same people again."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Put your fit rules into your lead database, LinkedIn search or Google Maps search. Write down the number of **companies** that match.",
+        "Pick how many people you'll contact per company. Hunter found that emailing **1 or 2 people per company** got a **5.1% reply rate, vs 3.5% for 3 or more**. Start with 1 or 2.",
+        "Total crowd = companies × people per company.",
+        "Expect to lose some to verification (step 5). Write down the crowd you can really reach."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "3. Work out how many people you need"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** \"send more emails\" is not a plan. A number is. Working backwards from replies tells you exactly how big your crowd has to be each month."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**People to reach** = replies you want × people per reply. (At 1 in 28: 40 replies × 28 = 1,120 people)",
+        "**Raw contacts to pull** = people to reach ÷ the share that passes verification. (1,120 ÷ 0.8 = 1,400)",
+        "**Companies to find** = raw contacts ÷ people per company. (1,400 ÷ 2 = 700 companies)",
+        "**Months of runway** = reachable crowd ÷ people to reach per month."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Which reply rate to use",
+      "text": "If you have your own numbers from at least a few hundred people, use them. If not, start with Hunter's 3% for sales and replace it after your first full month."
+    },
+    {
+      "type": "h3",
+      "text": "4. Split the crowd into small rooms"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** Hunter's data says tight segments win, and [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) names **micro-segmentation** as one of the biggest reasons top senders reach 10%+ reply rates while the average is **3.43%**."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Split by one thing at a time: industry first, then role or company size, then location or signal.",
+        "Give each segment its own first line and its own proof (a result from their world).",
+        "Aim for sending groups of about 50 people who have a lot in common. You can run many of them.",
+        "Name every segment clearly (for example: \"Dental - owners - Texas - hiring\") so you can compare results later."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "5. Verify before you send"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** a crowd you can't reach doesn't count. Hunter found the **average bounce rate is 3.6%**, and Instantly says to keep bounces **under 2%**, because every bounce hurts your sender reputation. [Google's sender guidelines](https://support.google.com/mail/answer/81126) also tell senders to stop emailing addresses that bounce again and again."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Run every list through an email verifier before it goes into your sending tool.",
+        "Remove invalid emails. Be careful with **catch-all** addresses: Instantly warns they carry a higher bounce risk.",
+        "Remove duplicates and everyone on your no list.",
+        "Write down how many contacts survived. That's your real keep rate for the math in step 3."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "6. Let the whole sequence finish, then judge"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** a person isn't done until they get every email in the sequence. Instantly found **58% of replies come from the first email and 42% from follow-ups**, and Hunter found **3 emails got 6.8% vs 3.3% for 1 email**. Judge too early and you miss almost half your replies."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Judge an angle (offer, first line, proof) only after **a few hundred people** finished the full sequence. Add up all the small rooms that used it.",
+        "Compare segments to each other, not to your hopes.",
+        "Keep what works, rewrite what doesn't, and send it to the next few hundred."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The fill-in sheet"
+    },
+    {
+      "type": "p",
+      "text": "Open a blank Google Sheet, click cell A1 and paste this. Labels land in column A, numbers and formulas in column B. Change the numbers in B1 to B5 to yours."
+    },
+    {
+      "type": "prompt",
+      "label": "Copy, then paste into cell A1",
+      "text": "Replies you want per month\t40\nPeople per reply (1 in ...)\t28\nShare that passes verification\t80%\nPeople per company\t2\nCompanies that fit (total)\t6000\n\t\nPeople to reach per month\t=B1*B2\nRaw contacts to pull per month\t=ROUNDUP(B7/B3,0)\nCompanies to find per month\t=ROUNDUP(B8/B4,0)\nReachable people in your whole market\t=B5*B4*B3\nMonths before you run out\t=ROUND(B10/B7,1)"
+    },
+    {
+      "type": "h2",
+      "text": "Worked example"
+    },
+    {
+      "type": "p",
+      "text": "An IT services company wants **40 replies a month** from office managers and owners at small firms. These are example numbers to show the math, so swap in your own."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Step",
+        "Math",
+        "Result"
+      ],
+      "rows": [
+        ["People to reach", "40 replies × 28", "**1,120 people a month**"],
+        ["Raw contacts (80% pass verification)", "1,120 ÷ 0.8", "**1,400 contacts**"],
+        ["Companies (2 people each)", "1,400 ÷ 2", "**700 companies a month**"],
+        ["Whole market", "6,000 companies × 2 × 0.8", "**9,600 reachable people**"],
+        ["Runway", "9,600 ÷ 1,120", "**about 8.6 months**"]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Now the rooms. The 6,000 companies split into 3 industries × 2 size bands = **6 segments of about 1,000 companies**. Each month the company pulls about **117 companies from each segment** (700 ÷ 6 ≈ 117) and sends them in groups of about 50 with copy written for that group."
+    },
+    {
+      "type": "p",
+      "text": "Compare that with the room of 28. Email 28 people and you expect 1 reply, with a 36% chance of none. Email 1,120 people with the same email and you expect about 40, and a bad week can't fool you."
+    },
+    {
+      "type": "tip",
+      "label": "If your runway is short",
+      "text": "Under 3 months of runway means your fit rules are too tight for the goal. Add a nearby industry, a second buyer role or a new region, and size it again before you send."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder: is it the crowd or the message?"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        ["0 replies from under 100 people", "Crowd too small to judge", "Keep going until a few hundred people finish the sequence"],
+        ["0 replies from 300+ people", "Wrong fit, wrong offer, or emails landing in spam", "Check the fit rules first, then test inbox placement, then rewrite"],
+        ["Replies, but mostly \"not interested\" or \"wrong person\"", "Crowd is big but not the right fit", "Tighten the role and the \"need you now\" sign"],
+        ["One segment replies, another is silent", "The silent segment needs different copy or isn't a fit", "Give it its own first line and proof, or drop it"],
+        ["Bounce rate over 2%", "List not verified, or too old", "Pause, verify again, remove catch-alls"],
+        ["Ran out of people in 3 weeks", "Total market smaller than your monthly need", "Widen the fit rules or lower the monthly goal"]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Judging a campaign on 20 to 50 people.** Luck runs the result at that size.",
+        "**Fixing the small crowd with a bad list.** More of the wrong people only adds noise and spam complaints.",
+        "**One giant blast.** A big crowd needs many small rooms, each with its own copy.",
+        "**Emailing 4 people at every company.** Hunter's data favors 1 or 2.",
+        "**Skipping verification to save time.** Bounces burn the inboxes you need for the whole crowd.",
+        "**Calling it after email 1.** About 4 in 10 replies come from follow-ups."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Size your crowd with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Crowd size prompt",
+      "text": "Act as my cold email list planner.\n\nWhat I sell: [one sentence]\nMy best customers: [industry, company size, location, buyer job title]\nReplies I want per month: [number]\nMy reply rate per person: [use 3% if I don't know]\nPeople I'll contact per company: [1 or 2]\nShare of contacts that pass verification: [use 80% if I don't know]\nCompanies that fit, if I know it: [number or \"unknown\"]\n\nDo this:\n1) Write my fit rules and a no list in a short table.\n2) Calculate people to reach, raw contacts and companies needed per month. Round up.\n3) If I gave a company count, calculate my runway in months. If it is under 3 months, suggest 3 ways to widen the crowd without losing fit.\n4) Split the crowd into 4 to 8 segments and give each one a name, a likely problem and one first-line idea.\n5) Tell me how many people must finish the sequence before I judge each angle.\nShow everything in tables. No hype."
+    },
+    {
+      "type": "tip",
+      "label": "Remember",
+      "text": "28 people, 1 reply. If you want more replies, you mostly need more right-fit people, not a cleverer email."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Reply rates by segment size, people per company and follow-ups"
+    },
+    {
+      "name": "Instantly Cold Email Benchmark Report 2026",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Average and top reply rates, follow-up share, bounce limit"
+    },
+    {
+      "name": "Google email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "Gmail's rules for senders, including bounces and spam rate"
+    },
+    {
+      "name": "Google Sheets",
+      "url": "https://sheets.google.com",
+      "note": "Paste the fill-in sheet"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Isn't \"1 in 28\" just a reply rate?",
+      "a": "It is, but counted per person, not per email. Many sending tools count replies per email sent, and a sequence sends several emails to each person. When you size your crowd, plan in people, because people are what you run out of."
+    },
+    {
+      "q": "What if my whole market is only a few hundred companies?",
+      "a": "Then go deep, not wide. Make every email very personal, add a second buyer role at each company only if the first one doesn't answer, and use other channels too. Hunter found **50.5% of decision makers** now prefer LinkedIn for outreach."
+    },
+    {
+      "q": "How big should each segment be?",
+      "a": "Send in groups of about 50 people who share an industry, role and problem, like Hunter's best-performing range. But judge each angle on the total across its groups, a few hundred people, not on one group of 50."
+    },
+    {
+      "q": "Can I just buy a bigger list?",
+      "a": "Only if it fits your rules and passes verification. A bigger list of the wrong people adds bounces and \"not interested\" replies, not sales. Count right-fit people, not rows in a spreadsheet."
+    }
+  ]
+}

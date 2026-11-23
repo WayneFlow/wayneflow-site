@@ -1,0 +1,385 @@
+{
+  "slug": "booked",
+  "keyword": "BOOKED",
+  "date": "2026-11-23",
+  "draft": false,
+  "instantdm": "pending",
+  "title": "The Exact Setup: 29 Booked Sales Calls a Month With Cold Email, No Ads",
+  "description": "How a home services company swapped Facebook ads for cold email and booked about 29 sales calls a month. The calendar math and the 5-part setup.",
+  "lead": "This is the full setup from the reel. You get the calendar math behind 29 booked calls a month, how to work backwards from calls to people and inboxes, and the 5-part setup (list, inboxes, emails, daily volume, reply handling) step by step, with a copy-paste prompt and a problem finder.",
+  "insider": "This is the system behind the reel: a home services company that had relied on Facebook ads booked **about 29 sales calls a month for 3 months**, and $165,000 in sales. On our 5-day blitz the same setup booked **25 calls in one week** from 96,408 emails, because the inboxes were warm and the list was verified on day one. The tactic is the easy part; the full system (list, inboxes, follow-ups) is what we do for clients.",
+  "case": "case-03",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The short answer"
+    },
+    {
+      "type": "p",
+      "text": "Facebook ads work like a tap. You pay today, people show up today. You stop paying, and they're gone tomorrow. A cold email system works more like a pipe you build once: a list of the right people, inboxes that land in the inbox, three short emails, and steady volume every working day."
+    },
+    {
+      "type": "p",
+      "text": "That's the switch the company in the reel made. It's a home services company whose clients used to come from Facebook ads. Then they tried cold email. Over **3 months** they booked **about 29 sales calls a month, every month**, and made **$165,000 in sales**. This guide is the setup, piece by piece, so you can build the same kind of system."
+    },
+    {
+      "type": "table",
+      "head": [
+        "",
+        "Ads (boost post, paid traffic)",
+        "Cold email system"
+      ],
+      "rows": [
+        [
+          "Who sees it",
+          "Whoever the platform shows it to",
+          "The exact companies and people you choose, by name"
+        ],
+        [
+          "What you pay for",
+          "Attention, every day",
+          "List, inboxes and a sending tool (setup you keep)"
+        ],
+        [
+          "When you stop",
+          "Leads stop the same day",
+          "Leads slow down, but the list, inboxes and emails are still yours"
+        ],
+        [
+          "What you control",
+          "Budget and creative",
+          "Who, how many, what you say, and when"
+        ],
+        [
+          "Main problem it fixes",
+          "Getting noticed by strangers",
+          "Reach: getting in front of enough of the right buyers every week"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why it's a reach problem, not an ads problem"
+    },
+    {
+      "type": "p",
+      "text": "An empty calendar usually means **not enough of the right people heard from you this week**. Ads reach people who happen to be scrolling and happen to click. You can't pick the company. With cold email, you pick every company and every person on your list, and you decide how many you reach each day."
+    },
+    {
+      "type": "p",
+      "text": "So the question changes from \"How much should I spend on ads?\" to **\"How many of the right people do I need to reach each week to fill my calendar?\"** That's the calendar math."
+    },
+    {
+      "type": "h2",
+      "text": "The calendar math"
+    },
+    {
+      "type": "p",
+      "text": "29 calls a month sounds like a lot. Broken down, it's **about 7 calls a week**, or **1 to 2 calls each working day**. And if you close **1 in 5** calls, 29 calls is about **6 new customers a month** (29 ÷ 5 = 5.8)."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Calls a month",
+        "Per week (÷ 4.33)",
+        "Per working day (÷ 22)",
+        "New customers if you close 1 in 5"
+      ],
+      "rows": [
+        [
+          "10",
+          "2.3",
+          "0.5",
+          "2"
+        ],
+        [
+          "20",
+          "4.6",
+          "0.9",
+          "4"
+        ],
+        [
+          "29",
+          "6.7",
+          "1.3",
+          "5.8 (about 6)"
+        ],
+        [
+          "40",
+          "9.2",
+          "1.8",
+          "8"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Start from the customers you want",
+      "text": "Want 6 new customers a month and you close 1 in 5? You need 30 calls. Your close rate sets the call goal. The call goal sets everything else."
+    },
+    {
+      "type": "h2",
+      "text": "Work backwards: from calls to people"
+    },
+    {
+      "type": "p",
+      "text": "You need a starting guess for how many people it takes to get one call. Here's a fair one, built from outside data plus our own case studies:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Replies:** in [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email), the average cold email sequence got a **4.5% reply rate**: for every 1,000 people who got a cold email in 2025, **45 replied**.",
+        "**Interested:** in our [full-quarter case study](/results.html#case-04), 1,061 of 4,372 replies were interested leads, about **1 in 4**.",
+        "**Booked:** in our [5-day blitz](/results.html#case-03), 25 of 115 interested people booked a call, about **1 in 5**."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Worked example: 29 calls a month"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Start with 1,000 people. 4.5% reply = **45 replies**.",
+        "About 1 in 4 replies is interested: 45 ÷ 4 = 11.25, so **about 11 interested people**.",
+        "About 1 in 5 of those books a call: 11 ÷ 5 = 2.2, so plan on **2 calls per 1,000 people** (round down to stay safe).",
+        "Calls you want: 29. People needed: 29 ÷ 2 × 1,000 = **14,500 new people a month**.",
+        "Each person gets 3 emails: 14,500 × 3 = **43,500 emails a month**.",
+        "Spread over about 22 working days: 43,500 ÷ 22 = 1,977, so **about 2,000 emails a day**.",
+        "At 30 emails per inbox per day: 2,000 ÷ 30 = 66.7, so **67 inboxes**. At 3 inboxes per domain: 67 ÷ 3 = 22.3, so **23 domains**, plus 2 spares.",
+        "Close 1 in 5 of the 29 calls: **about 6 new customers a month**."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "Swap in your own numbers fast",
+      "text": "These are starting guesses. After your first 1,000 people, use your real reply, interested and booked rates. If your list and offer are strong, you'll need fewer people. If not, more."
+    },
+    {
+      "type": "h2",
+      "text": "The exact setup, step by step"
+    },
+    {
+      "type": "h3",
+      "text": "Step 1: Build the list (who you reach)"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** the list decides who can ever say yes. A great email to the wrong person still gets zero calls. A list you choose by hand also beats ads on reach, because you pick every company instead of hoping the right one scrolls past."
+    },
+    {
+      "type": "p",
+      "text": "Small details help too. Hunter found that emails with **two custom details** about the person got a **5.6% reply rate vs 3.6%** for emails with none."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Write one sentence about your best buyer: industry, size, location, job title. Example: \"Owners and operations managers at [type of company] with 10 to 100 staff in [state].\"",
+        "Pull companies that match from a lead database, Google Maps or industry directories.",
+        "Find 1 or 2 decision makers per company, with a work email.",
+        "Verify every email before you send. Instantly's report says to keep bounces **under 2%**, and Hunter's average was 3.6%, so most unverified lists are too dirty.",
+        "Add **2 real details** per company (what they do, where they work, something recent) so the first line is about them.",
+        "Build enough for the math: 14,500 new people a month for the example above. Order the next batch when you're 75% through. Our [lead fuel calculator](/guides/fuel.html) shows the timing."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 2: Set up inboxes that land in the inbox"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** if emails go to spam, nobody sees them, and the rest of the setup is wasted. Inbox providers now enforce rules. [Google's sender guidelines](https://support.google.com/mail/answer/81126) require SPF or DKIM for all senders, all three (SPF, DKIM and DMARC) for bulk senders, and a spam rate below **0.3%** (aim for under 0.1%). [Microsoft's Outlook.com rules](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730) require SPF, DKIM and DMARC for domains sending over 5,000 emails a day."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Never send cold email from your main business domain. Buy separate domains that look like your brand (for acme.com: getacme.com, tryacme.com).",
+        "Create up to 3 inboxes per domain, each with a real person's name.",
+        "Add SPF, DKIM and DMARC to every domain before anything is sent. Our [DNS guide](/blog/dns-records-for-cold-email.html) has the exact records.",
+        "Turn on warm-up in your sending tool. Instantly says to start at **5 to 10 emails a day** and build up over **4 to 6 weeks** before full volume.",
+        "Keep each inbox around **30 cold emails a day**. Need more volume? Add inboxes. The full numbers are in our [sending calculator](/guides/math.html)."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 3: Write three short emails"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** most people don't reply to the first email, even when they're interested. Instantly found **58% of replies come from the first email and 42% from follow-ups**. Hunter found that three emails got **6.8% replies vs 3.3%** for one email, more than double. Instantly suggests spacing them **3 to 4 days apart**."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Email",
+        "Day",
+        "Job",
+        "Length"
+      ],
+      "rows": [
+        [
+          "1",
+          "Day 1",
+          "Two details about them, the problem, one result, a small question",
+          "Under 80 words"
+        ],
+        [
+          "2",
+          "Day 4",
+          "Feels like a reply to email 1. One new angle or proof point",
+          "2-3 lines"
+        ],
+        [
+          "3",
+          "Day 8",
+          "A short, polite last note. Easy yes or easy no",
+          "2-3 lines"
+        ]
+      ]
+    },
+    {
+      "type": "prompt",
+      "label": "3-email sequence prompt (copy it)",
+      "text": "You are writing a 3-email cold email sequence for a business owner.\n\nWhat I sell: [one sentence]\nWho I'm emailing: [industry, company size, job title, location]\nThe main problem they have: [one sentence]\nA real result I can mention: [one true result with a number, or leave blank]\nTwo details about this prospect: [detail 1], [detail 2]\n\nRules:\n1. Email 1: under 80 words. First line uses the two details. One line on the problem, one on the result, end with a small yes/no question (not a meeting request).\n2. Email 2 (sent 3-4 days later): 2-3 lines, reads like a reply to email 1, adds one new angle. No \"just checking in\".\n3. Email 3 (sent 3-4 days after that): 2-3 lines, polite last note, easy to say yes or no.\n4. Add one plain line to each email so they can say no, like \"Not for you? Just reply no and I won't email again.\"\n5. No links, no images, no buzzwords, no exclamation marks. Write like a human texting a colleague.\nGive me 2 versions of each email."
+    },
+    {
+      "type": "h3",
+      "text": "Step 4: Send volume every working day"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** this is the part ads trained you to forget. Calls come from steady reach, not one big push. Instantly found teams that send consistently get **15 to 20% more replies**, and warns that sending 500 emails on Monday, nothing for three days, then 1,000 on Friday looks suspicious to providers."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Set the same daily limit for every inbox, Monday to Friday.",
+        "Add new people every day so the first email is always going out, not only follow-ups.",
+        "Launch new batches on Monday. Instantly's data shows Wednesday gets the most replies, so follow-ups that land midweek do well.",
+        "Don't pause because one week is quiet. Replies trail sends by days."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 5: Turn replies into booked calls"
+    },
+    {
+      "type": "p",
+      "text": "**Why it works:** a reply is not a call. Interested people cool off fast, and every slow answer leaks calls out of the math above. This is where the 1 in 5 \"interested to booked\" number is won or lost."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Check replies at least twice every working day. Answer interested people within a few hours.",
+        "Offer **one specific time**, plus a backup: \"Does Thursday at 2pm work? If not, Friday at 10am?\" Our [one-time reply guide](/guides/time.html) has the exact wording.",
+        "Send the invite right away, with a one-line agenda.",
+        "Send a reminder the day before and one an hour before. The [no-show guide](/guides/show.html) has the messages.",
+        "Answer \"not now\" and \"wrong person\" replies too. Ask for the right person or a better month.",
+        "Track four numbers each week: people reached, replies, interested, booked. These are your real numbers for the math."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Most likely cause",
+        "What to fix"
+      ],
+      "rows": [
+        [
+          "Very few opens or replies from day one",
+          "Emails going to spam",
+          "Check SPF, DKIM, DMARC, bounce rate (under 2%) and spam rate in [Postmaster Tools](https://postmaster.google.com). Slow down and warm up longer."
+        ],
+        [
+          "Replies, but mostly \"not interested\"",
+          "Wrong list or weak offer",
+          "Tighten who you email. Test a different problem or result in email 1."
+        ],
+        [
+          "Interested replies, but few calls",
+          "Slow or vague reply handling",
+          "Answer within hours. Offer one specific time, not a link and a paragraph."
+        ],
+        [
+          "Good weeks, then empty weeks",
+          "On-and-off sending or list ran out",
+          "Same volume every weekday. Order the next list at 75% used."
+        ],
+        [
+          "Calls booked, few customers",
+          "Calls with the wrong people, or sales process",
+          "Check who is booking. Tighten the list. Work on the call itself."
+        ],
+        [
+          "Bounces over 2%",
+          "Unverified or old list",
+          "Stop sending to that list. Verify it again first."
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes when switching from ads"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Expecting next-day results.** Ads switch on the same day. New inboxes need weeks of warm-up before full volume.",
+        "**Sending from the main domain** to save time. If it gets flagged, your normal emails to customers go to spam too.",
+        "**Writing an ad, not an email.** Big claims, links and images look like marketing. Short and plain looks like a person.",
+        "**Sending one email and stopping.** That gives up the 42% of replies that come from follow-ups.",
+        "**Low volume, then giving up.** 200 people won't fill a calendar. Use the math to see how many you really need."
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Reply rate per recipient, 3 emails vs 1, personalization and bounce data"
+    },
+    {
+      "name": "Instantly 2026 cold email benchmark report",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Follow-up share of replies, spacing, warm-up time, steady sending and bounce limit"
+    },
+    {
+      "name": "Google email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "The official Gmail rules: authentication and spam rate"
+    },
+    {
+      "name": "Microsoft Outlook high-volume sender requirements",
+      "url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730",
+      "note": "SPF, DKIM and DMARC rules for Outlook.com"
+    },
+    {
+      "name": "Google Postmaster Tools",
+      "url": "https://postmaster.google.com",
+      "note": "Free spam rate and domain reputation dashboard"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Should I turn off my ads completely?",
+      "a": "Not on day one. A new cold email setup takes weeks to reach full volume. Many companies keep ads running until the booked calls from email are steady, then decide."
+    },
+    {
+      "q": "How long until the first calls come in?",
+      "a": "Plan on about 2 weeks of warm-up and a slow ramp after that. Instantly says new domains need 4 to 6 weeks to reach full volume. First calls can come during the ramp, but a full calendar comes at full volume."
+    },
+    {
+      "q": "Is 2 calls per 1,000 people a promise?",
+      "a": "No. It's a starting guess from Hunter's average reply rate and our own case studies. Your list, offer and reply speed change it a lot. Measure your own after the first 1,000 people."
+    },
+    {
+      "q": "Does this only work for home services?",
+      "a": "No. The setup is the same for any company that sells to businesses. What changes is the list (who you email) and the problem and result you write about."
+    }
+  ]
+}
