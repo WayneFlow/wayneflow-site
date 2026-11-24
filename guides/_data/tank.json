@@ -3,7 +3,7 @@
   "keyword": "TANK",
   "date": "2026-11-23",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "title": "The Pipeline Setup Checklist: Fill the Top Every Day So Deals Keep Coming",
   "description": "Your pipeline isn't slow, it's empty. The 3-step setup checklist to fill the top every day: a list that fits, inboxes that land, daily volume you track.",
   "lead": "This is the full setup checklist from the reel. You get the 3-step checklist (a list of people who fit, a setup that lands in the inbox, volume every day), the math for your daily number, a tank tracker you can paste into Google Sheets, a worked example, a problem finder and a prompt that plans it all for you.",
@@ -30,9 +30,21 @@
         "What it means"
       ],
       "rows": [
-        ["Emails into the top", "**84,643**", "About 2,800 a day if you spread it over 30 days"],
-        ["Replies", "**2,399**", "About 1 reply for every 35 emails"],
-        ["Deals closed", "**37**", "About **2,288 emails** and about 65 replies per deal"]
+        [
+          "Emails into the top",
+          "**84,643**",
+          "About 2,800 a day if you spread it over 30 days"
+        ],
+        [
+          "Replies",
+          "**2,399**",
+          "About 1 reply for every 35 emails"
+        ],
+        [
+          "Deals closed",
+          "**37**",
+          "About **2,288 emails** and about 65 replies per deal"
+        ]
       ]
     },
     {
@@ -55,11 +67,31 @@
         "Empty pipeline"
       ],
       "rows": [
-        ["New people contacted", "Hundreds or thousands", "A handful, or zero"],
-        ["Replies", "Coming in", "None, or only from old threads"],
-        ["Calls on the calendar", "Booked, buyers decide slowly", "None booked"],
-        ["Where the work goes", "Follow-up, proposals, decisions", "Waiting for referrals or ads"],
-        ["The fix", "Improve the sales process", "**This checklist: fill the top**"]
+        [
+          "New people contacted",
+          "Hundreds or thousands",
+          "A handful, or zero"
+        ],
+        [
+          "Replies",
+          "Coming in",
+          "None, or only from old threads"
+        ],
+        [
+          "Calls on the calendar",
+          "Booked, buyers decide slowly",
+          "None booked"
+        ],
+        [
+          "Where the work goes",
+          "Follow-up, proposals, decisions",
+          "Waiting for referrals or ads"
+        ],
+        [
+          "The fix",
+          "Improve the sales process",
+          "**This checklist: fill the top**"
+        ]
       ]
     },
     {
@@ -167,11 +199,31 @@
         "Result"
       ],
       "rows": [
-        ["Emails per month", "5 × 2,288", "**11,440**"],
-        ["Emails per working day", "11,440 ÷ 22", "**520**"],
-        ["New people per day", "520 ÷ 3", "**about 174**"],
-        ["New people per month", "11,440 ÷ 3", "**about 3,814**"],
-        ["Inboxes at 30 a day", "520 ÷ 30 = 17.3, round up", "**18 inboxes**"]
+        [
+          "Emails per month",
+          "5 × 2,288",
+          "**11,440**"
+        ],
+        [
+          "Emails per working day",
+          "11,440 ÷ 22",
+          "**520**"
+        ],
+        [
+          "New people per day",
+          "520 ÷ 3",
+          "**about 174**"
+        ],
+        [
+          "New people per month",
+          "11,440 ÷ 3",
+          "**about 3,814**"
+        ],
+        [
+          "Inboxes at 30 a day",
+          "520 ÷ 30 = 17.3, round up",
+          "**18 inboxes**"
+        ]
       ]
     },
     {
@@ -213,12 +265,42 @@
         "If it's not"
       ],
       "rows": [
-        ["New people in", "Daily", "At or above your daily number", "Load more verified people today"],
-        ["Emails sent", "Daily", "Matches the plan", "Check paused inboxes and sending limits"],
-        ["Bounce rate", "Daily", "Under 2% (Instantly)", "Pause that list and verify it again"],
-        ["Spam rate in Postmaster Tools", "Weekly", "Under 0.1%, never 0.3% (Google)", "Slow down, check copy and targeting"],
-        ["Days of list left", "Daily", "10 or more", "Build and verify the next list now"],
-        ["Replies answered", "Daily", "All, same day", "Block time for replies first thing"]
+        [
+          "New people in",
+          "Daily",
+          "At or above your daily number",
+          "Load more verified people today"
+        ],
+        [
+          "Emails sent",
+          "Daily",
+          "Matches the plan",
+          "Check paused inboxes and sending limits"
+        ],
+        [
+          "Bounce rate",
+          "Daily",
+          "Under 2% (Instantly)",
+          "Pause that list and verify it again"
+        ],
+        [
+          "Spam rate in Postmaster Tools",
+          "Weekly",
+          "Under 0.1%, never 0.3% (Google)",
+          "Slow down, check copy and targeting"
+        ],
+        [
+          "Days of list left",
+          "Daily",
+          "10 or more",
+          "Build and verify the next list now"
+        ],
+        [
+          "Replies answered",
+          "Daily",
+          "All, same day",
+          "Block time for replies first thing"
+        ]
       ]
     },
     {
@@ -233,12 +315,36 @@
         "Fix"
       ],
       "rows": [
-        ["Great month, then a dead month", "Sending in bursts, then stopping", "Set a daily number and keep it every working day"],
-        ["Sending stops for days between lists", "Next list built too late", "Track days of list left, rebuild at 10"],
-        ["Lots of emails, almost no replies", "Landing in spam, or wrong people", "Check SPF, DKIM, DMARC and spam rate, then the fit rules"],
-        ["Bounces over 2%", "List not verified", "Verify every list before it goes in"],
-        ["Replies come in, but few calls", "Not a tank problem", "Answer faster and make the ask smaller"],
-        ["Can't send more without spam issues", "Not enough warmed inboxes", "Add inboxes and warm them 4 to 6 weeks before you need them"]
+        [
+          "Great month, then a dead month",
+          "Sending in bursts, then stopping",
+          "Set a daily number and keep it every working day"
+        ],
+        [
+          "Sending stops for days between lists",
+          "Next list built too late",
+          "Track days of list left, rebuild at 10"
+        ],
+        [
+          "Lots of emails, almost no replies",
+          "Landing in spam, or wrong people",
+          "Check SPF, DKIM, DMARC and spam rate, then the fit rules"
+        ],
+        [
+          "Bounces over 2%",
+          "List not verified",
+          "Verify every list before it goes in"
+        ],
+        [
+          "Replies come in, but few calls",
+          "Not a tank problem",
+          "Answer faster and make the ask smaller"
+        ],
+        [
+          "Can't send more without spam issues",
+          "Not enough warmed inboxes",
+          "Add inboxes and warm them 4 to 6 weeks before you need them"
+        ]
       ]
     },
     {
@@ -314,5 +420,6 @@
       "q": "Is more volume always better?",
       "a": "No. More right-fit people is better. More of the wrong people, or more emails from the same few inboxes, only adds bounces and spam risk. Grow the tank by adding verified people and warmed inboxes together."
     }
-  ]
+  ],
+  "instantdm_flow": "TANK - Pipeline setup checklist"
 }

@@ -3,7 +3,7 @@
   "keyword": "RUNWAY",
   "date": "2026-11-24",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "reel_status": "posted 2026-11-23",
   "title": "The Runway Checklist: How Many New Clients You Need Each Month to Stay Level",
   "description": "Losing 2 clients at $2,500 each costs $5,000 a month. The checklist and math to know your runway, your replace number and the pipeline to back it up.",
@@ -357,5 +357,6 @@
       "q": "When should I start cold email?",
       "a": "Before you need it. Warm-up alone takes about 4 to 6 weeks, so the best time to start is while your client list is still full."
     }
-  ]
+  ],
+  "instantdm_flow": "RUNWAY - Runway checklist"
 }

@@ -3,7 +3,7 @@
   "keyword": "LAMP",
   "date": "2026-11-24",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "reel_status": "posted 2026-11-23",
   "title": "The Clear Offer Checklist: The 10-Second Stranger Test for Your Cold Email",
   "description": "Can a stranger repeat your offer in one sentence? The 10-second test, a one-sentence offer formula and a checklist to make cold email offers clear.",
@@ -319,5 +319,6 @@
       "q": "My offer passes, but nobody replies. Now what?",
       "a": "Then the offer probably isn't the problem. Check that you're emailing the right people and that your emails reach the inbox. Our [deliverability checklist](/guides/inbox.html) covers the checks."
     }
-  ]
+  ],
+  "instantdm_flow": "LAMP - Clear offer checklist"
 }

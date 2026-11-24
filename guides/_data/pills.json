@@ -3,7 +3,7 @@
   "keyword": "PILLS",
   "date": "2026-11-23",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "title": "The Pace Sheet: Turn 29 Calls a Month Into 7 a Week and 1 a Day",
   "description": "Break any monthly sales call goal into a weekly and daily target, then work backwards to how many cold emails you send each day. Worked example included.",
   "lead": "This is the full pace sheet from the reel. You get the simple math that turns a monthly call goal into a weekly and daily number, a worked example that works backwards to daily sending volume, a weekly pace tracker, a problem finder for when you fall behind, and a Claude prompt that builds your own plan.",
@@ -360,5 +360,6 @@
       "q": "How long until I hit the pace?",
       "a": "If your inboxes are already warmed up, expect the pace from about week 3, once follow-ups are running. If they're new, add the warm-up and ramp time first (about 5 weeks in our MATH guide)."
     }
-  ]
+  ],
+  "instantdm_flow": "PILLS - Pace sheet"
 }

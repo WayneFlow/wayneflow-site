@@ -3,7 +3,7 @@
   "keyword": "MONDAY",
   "date": "2026-11-23",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "title": "The Setup Checklist: From 0 Calls on Monday to a Steady Calendar in 6 Weeks",
   "description": "A week-by-week checklist to go from zero booked calls to a steady calendar with cold email: the list, the inbox setup, and daily volume.",
   "lead": "This is the full setup checklist from the reel. You get the 3 steps (a list of people who fit, a setup that lands in the inbox, volume every day) as a week-by-week checklist from week 0 to week 6, a worked example, a 20-minute Monday routine, a problem finder and a prompt that plans your weeks for you.",
@@ -444,5 +444,6 @@
       "q": "What if I only want 1 or 2 calls a week?",
       "a": "Use the same steps with smaller numbers. At 2 calls per 1,000 people, 2 calls a week is about 1,000 new people a week, 3,000 emails a week, 600 a day and 20 inboxes."
     }
-  ]
+  ],
+  "instantdm_flow": "MONDAY - Steady calendar checklist"
 }

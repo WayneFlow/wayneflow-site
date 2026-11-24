@@ -3,7 +3,7 @@
   "keyword": "SEESAW",
   "date": "2026-11-23",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "title": "The Seesaw Setup Checklist: Add Cold Email on Top of Your Referrals",
   "description": "Referrals only means one in, one out. The setup checklist to add a cold email channel next to referrals, with a 5-week plan and real numbers.",
   "lead": "This is the full setup checklist from the reel. You get the 8 steps to add an outbound channel on top of your referrals, why each one matters and exactly how to do it, a 5-week calendar, a worked example with real numbers, a problem finder and two copy-paste prompts.",
@@ -475,5 +475,6 @@
       "q": "Is 2,288 emails per deal normal?",
       "a": "It's what the campaign in the reel took for that one client in one real month. Your number depends on your offer, price and list. Use it to plan month one, then switch to your own number."
     }
-  ]
+  ],
+  "instantdm_flow": "SEESAW - Seesaw setup checklist"
 }

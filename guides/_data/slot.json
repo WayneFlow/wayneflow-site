@@ -3,7 +3,7 @@
   "keyword": "SLOT",
   "date": "2026-11-23",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "title": "The Math Sheet: Find Your Emails-per-Deal Number (Ours Was 2,288)",
   "description": "Work out how many cold emails it takes you to close one deal, what each email is worth, and how much you must send to get paid every month.",
   "lead": "This is the full math sheet from the reel. You get the one formula behind \"your number\" (emails per deal), how to find it from your own results or estimate it before your first deal, a table that shows how often you get paid at different volumes, spreadsheet formulas, a problem finder and a Claude prompt.",
@@ -411,5 +411,6 @@
       "q": "Should I just send more if my number is high?",
       "a": "Only if one email is worth more than it costs you (Step 4) and your inboxes are healthy. Otherwise, lower the number first with the problem finder."
     }
-  ]
+  ],
+  "instantdm_flow": "SLOT - Emails-per-deal math sheet"
 }

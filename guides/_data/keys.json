@@ -3,7 +3,7 @@
   "keyword": "KEYS",
   "date": "2026-11-23",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "title": "Never Send Cold Email From Your Main Domain: The Safe Setup, Step by Step",
   "description": "Why cold email should never come from your main domain, and how to set up separate sending domains, inboxes, warm-up and a safe ramp.",
   "lead": "This is the full guide from the reel. It shows why your main domain must stay out of cold email, how to set up separate sending domains that protect it, and how to ramp up slowly so your normal emails to clients keep landing in the inbox.",
@@ -282,5 +282,6 @@
       "q": "Will a separate domain fix bad targeting?",
       "a": "No. It protects your main domain, but bad lists and bad copy will still burn the sending domain, so keep your lists clean."
     }
-  ]
+  ],
+  "instantdm_flow": "KEYS - Safe domain setup"
 }

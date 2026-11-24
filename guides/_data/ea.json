@@ -62,6 +62,7 @@
   ],
   "date": "2026-10-30",
   "draft": false,
-  "instantdm": "pending",
-  "reel_status": "reposted 2026-11-20; flow needed"
+  "instantdm": "live",
+  "reel_status": "reposted 2026-11-20; flow needed",
+  "instantdm_flow": "EA - 2-line gatekeeper email"
 }
