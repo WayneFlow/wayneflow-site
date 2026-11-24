@@ -3,7 +3,7 @@
   "keyword": "CROWD",
   "date": "2026-11-23",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "title": "The Outreach Checklist: How Many Right-Fit People You Need for the Replies You Want",
   "description": "Reply rate isn't your problem. Your crowd is too small. Size your market, split it into segments, verify it and work out how many people you need.",
   "lead": "This is the full outreach checklist from the reel. You get the crowd-size math, a 6-step checklist for building an audience that is big enough and the right fit, a fill-in sheet you can paste into Google Sheets, a worked example, a problem finder and a prompt that sizes your market for you.",
@@ -31,10 +31,30 @@
         "At 1.5% (a weak start)"
       ],
       "rows": [
-        ["10", "280", "334", "667"],
-        ["25", "700", "834", "1,667"],
-        ["50", "1,400", "1,667", "3,334"],
-        ["100", "2,800", "3,334", "6,667"]
+        [
+          "10",
+          "280",
+          "334",
+          "667"
+        ],
+        [
+          "25",
+          "700",
+          "834",
+          "1,667"
+        ],
+        [
+          "50",
+          "1,400",
+          "1,667",
+          "3,334"
+        ],
+        [
+          "100",
+          "2,800",
+          "3,334",
+          "6,667"
+        ]
       ]
     },
     {
@@ -57,11 +77,31 @@
         "Chance of getting zero replies"
       ],
       "rows": [
-        ["28", "1", "about 36%"],
-        ["50", "about 1.8", "about 16%"],
-        ["100", "about 3.6", "about 3%"],
-        ["150", "about 5.4", "under 0.5%"],
-        ["280", "10", "under 0.01%"]
+        [
+          "28",
+          "1",
+          "about 36%"
+        ],
+        [
+          "50",
+          "about 1.8",
+          "about 16%"
+        ],
+        [
+          "100",
+          "about 3.6",
+          "about 3%"
+        ],
+        [
+          "150",
+          "about 5.4",
+          "under 0.5%"
+        ],
+        [
+          "280",
+          "10",
+          "under 0.01%"
+        ]
       ]
     },
     {
@@ -230,11 +270,31 @@
         "Result"
       ],
       "rows": [
-        ["People to reach", "40 replies × 28", "**1,120 people a month**"],
-        ["Raw contacts (80% pass verification)", "1,120 ÷ 0.8", "**1,400 contacts**"],
-        ["Companies (2 people each)", "1,400 ÷ 2", "**700 companies a month**"],
-        ["Whole market", "6,000 companies × 2 × 0.8", "**9,600 reachable people**"],
-        ["Runway", "9,600 ÷ 1,120", "**about 8.6 months**"]
+        [
+          "People to reach",
+          "40 replies × 28",
+          "**1,120 people a month**"
+        ],
+        [
+          "Raw contacts (80% pass verification)",
+          "1,120 ÷ 0.8",
+          "**1,400 contacts**"
+        ],
+        [
+          "Companies (2 people each)",
+          "1,400 ÷ 2",
+          "**700 companies a month**"
+        ],
+        [
+          "Whole market",
+          "6,000 companies × 2 × 0.8",
+          "**9,600 reachable people**"
+        ],
+        [
+          "Runway",
+          "9,600 ÷ 1,120",
+          "**about 8.6 months**"
+        ]
       ]
     },
     {
@@ -262,12 +322,36 @@
         "Fix"
       ],
       "rows": [
-        ["0 replies from under 100 people", "Crowd too small to judge", "Keep going until a few hundred people finish the sequence"],
-        ["0 replies from 300+ people", "Wrong fit, wrong offer, or emails landing in spam", "Check the fit rules first, then test inbox placement, then rewrite"],
-        ["Replies, but mostly \"not interested\" or \"wrong person\"", "Crowd is big but not the right fit", "Tighten the role and the \"need you now\" sign"],
-        ["One segment replies, another is silent", "The silent segment needs different copy or isn't a fit", "Give it its own first line and proof, or drop it"],
-        ["Bounce rate over 2%", "List not verified, or too old", "Pause, verify again, remove catch-alls"],
-        ["Ran out of people in 3 weeks", "Total market smaller than your monthly need", "Widen the fit rules or lower the monthly goal"]
+        [
+          "0 replies from under 100 people",
+          "Crowd too small to judge",
+          "Keep going until a few hundred people finish the sequence"
+        ],
+        [
+          "0 replies from 300+ people",
+          "Wrong fit, wrong offer, or emails landing in spam",
+          "Check the fit rules first, then test inbox placement, then rewrite"
+        ],
+        [
+          "Replies, but mostly \"not interested\" or \"wrong person\"",
+          "Crowd is big but not the right fit",
+          "Tighten the role and the \"need you now\" sign"
+        ],
+        [
+          "One segment replies, another is silent",
+          "The silent segment needs different copy or isn't a fit",
+          "Give it its own first line and proof, or drop it"
+        ],
+        [
+          "Bounce rate over 2%",
+          "List not verified, or too old",
+          "Pause, verify again, remove catch-alls"
+        ],
+        [
+          "Ran out of people in 3 weeks",
+          "Total market smaller than your monthly need",
+          "Widen the fit rules or lower the monthly goal"
+        ]
       ]
     },
     {
@@ -339,5 +423,6 @@
       "q": "Can I just buy a bigger list?",
       "a": "Only if it fits your rules and passes verification. A bigger list of the wrong people adds bounces and \"not interested\" replies, not sales. Count right-fit people, not rows in a spreadsheet."
     }
-  ]
+  ],
+  "instantdm_flow": "CROWD - Outreach checklist"
 }

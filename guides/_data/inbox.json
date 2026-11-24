@@ -3,7 +3,7 @@
   "keyword": "INBOX",
   "date": "2026-11-23",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "title": "The Deliverability Checklist: 4 Checks Before You Send a Single Cold Email",
   "description": "Not a copy problem, a deliverability problem. The 4 pre-send checks (domain, records, warm-up, inboxes) plus Gmail, Yahoo and Outlook rules in one table.",
   "lead": "This is the full deliverability checklist from the reel. You get a quick test to see if your problem is copy or deliverability, the 4 checks to pass before a single send (domain, records, warm-up, inboxes), how to test each one in minutes, and the Gmail, Yahoo and Outlook sender rules side by side, straight from their official pages.",
@@ -526,5 +526,6 @@
       "q": "Do cold emails need an unsubscribe link?",
       "a": "Google's and Yahoo's one-click rules are written for marketing and subscribed messages from big senders. For cold email, at minimum give a plain way to opt out, like \"Not the right person? Just reply and I won't email again,\" and remove people within 2 days."
     }
-  ]
+  ],
+  "instantdm_flow": "INBOX - Deliverability checklist"
 }

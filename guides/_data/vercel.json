@@ -3,7 +3,7 @@
   "keyword": "VERCEL",
   "date": "2026-11-20",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "title": "Vercel's AI Lead Agent: How 1 Person Did the Inbound Work of 10",
   "description": "How Vercel moved 9 of 10 inbound reps to outbound with an AI lead agent, plus a no-code build plan, the hours math and a lead scoring prompt.",
   "lead": "This is the full inbound lead agent playbook from the reel. You get what Vercel really did (with sources), a 6-step plan to build your own lead-triage agent with no-code tools, the fit rules and routing table, a worked example of hours saved and moved to outbound, a problem finder, and a copy-paste prompt that researches and scores a lead.",
@@ -490,5 +490,6 @@
       "q": "How many leads do I need for this to be worth it?",
       "a": "Do the math from the worked example with your own numbers. If triage takes your team more than a few hours a week, the setup usually pays back fast."
     }
-  ]
+  ],
+  "instantdm_flow": "VERCEL - AI lead agent breakdown"
 }

@@ -3,7 +3,7 @@
   "keyword": "BOOKED",
   "date": "2026-11-23",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "title": "The Exact Setup: 29 Booked Sales Calls a Month With Cold Email, No Ads",
   "description": "How a home services company swapped Facebook ads for cold email and booked about 29 sales calls a month. The calendar math and the 5-part setup.",
   "lead": "This is the full setup from the reel. You get the calendar math behind 29 booked calls a month, how to work backwards from calls to people and inboxes, and the 5-part setup (list, inboxes, emails, daily volume, reply handling) step by step, with a copy-paste prompt and a problem finder.",
@@ -381,5 +381,6 @@
       "q": "Does this only work for home services?",
       "a": "No. The setup is the same for any company that sells to businesses. What changes is the list (who you email) and the problem and result you write about."
     }
-  ]
+  ],
+  "instantdm_flow": "BOOKED - 29 booked calls setup"
 }

@@ -3,7 +3,7 @@
   "keyword": "SAASTR",
   "date": "2026-11-20",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "title": "SaaStr's AI SDR Setup: AI Sends the Volume, You Handle the Replies",
   "description": "SaaStr says its AI SDR sends 3,221 emails a month vs 75-285 per human rep. The 4-step setup, the guardrails, the math and a copy-paste prompt.",
   "lead": "This is the full SaaStr breakdown from the reel. You get what SaaStr actually reported (and what it didn't), the 4-step setup where AI does the volume and you handle the replies, the guardrails that keep it out of spam, a worked example for a two-person team, a problem finder, and a prompt that writes and follows up in your voice.",
@@ -433,5 +433,6 @@
       "q": "Can I send 3,000 emails a month from one inbox?",
       "a": "Don't. Spread the volume over several inboxes on separate sending domains, about 30 a day each. That's 6 inboxes on 2 domains for 3,000 a month in our worked example."
     }
-  ]
+  ],
+  "instantdm_flow": "SAASTR - AI SDR setup"
 }
