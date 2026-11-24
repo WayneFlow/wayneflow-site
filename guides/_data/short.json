@@ -340,6 +340,7 @@
   ],
   "date": "2026-11-19",
   "draft": false,
-  "instantdm": "pending",
-  "reel_status": "posted 2026-11-19"
+  "instantdm": "live",
+  "reel_status": "posted 2026-11-19",
+  "instantdm_flow": "SHORT - Short-email kit"
 }

@@ -3,7 +3,7 @@
   "keyword": "DEMO",
   "date": "2026-11-20",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "title": "The Demo Email: Use Your Product on the Prospect, Then Send Their Result",
   "description": "Don't describe your product. Run it on the prospect's company and put their result in the email. 5 steps, template, Clay setup, prompt and problem finder.",
   "lead": "This is the full demo email kit from the reel. You get the 5 steps, quick-result ideas for 8 industries, the copy-paste email template, how to automate it in Clay, the fact check that keeps it from backfiring, a worked example with real time math and a prompt that writes the email from each lead's data.",
@@ -466,5 +466,6 @@
       "q": "Do I need Clay to do this?",
       "a": "No. Clay makes it easy to run a check and write a draft for every row, but a spreadsheet, a script or doing it by hand for a small list all work. What matters is that every result is right before it sends."
     }
-  ]
+  ],
+  "instantdm_flow": "DEMO - Demo email playbook"
 }

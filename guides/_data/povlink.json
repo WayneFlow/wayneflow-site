@@ -3,7 +3,7 @@
   "keyword": "POVLINK",
   "date": "2026-11-20",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "title": "The One-Time Reply: Turn \"Interested\" Into a Booked Call Without a Calendar Link",
   "description": "What to send when a cold email prospect says \"interested\": the one-time reply, the one-owner rule, speed targets and the handover brief, with templates.",
   "lead": "This is the full one-time reply playbook from the reel. You get the copy-paste replies for every \"interested\" message, what to send if they say no to your time, the one-owner routing rule, the speed targets, the handover brief for whoever runs the call, and a worked example that shows how many meetings slow replies cost you.",
@@ -370,5 +370,6 @@
       "q": "Should I call if they only replied by email?",
       "a": "If you have their number, a quick call works well: \"Saw your reply, wanted to grab a time while you're around.\" If they don't pick up, send the one-time reply by email anyway, so they can answer in two seconds."
     }
-  ]
+  ],
+  "instantdm_flow": "POVLINK - One-time reply guide"
 }

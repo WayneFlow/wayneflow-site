@@ -3,7 +3,7 @@
   "keyword": "RATING",
   "date": "2026-11-20",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "title": "The Cold Email Scorecard: Rate Any Cold Email From 1 to 10 and Fix It",
   "description": "The 1-10 scorecard from the reel: each bad cold email scored and fixed, the 10/10 template, a worked example and a prompt that rates your email.",
   "lead": "This is the full cold email scorecard from the reel. You get the 5-check, 10-point rubric, every bad email from the reel scored with the reason why, before-and-after rewrites, the 4-part 10/10 template, a worked example taken from 2/10 to 10/10, and a prompt that rates and rewrites your email.",
@@ -553,5 +553,6 @@
       "q": "Do follow-ups use the same scorecard?",
       "a": "Yes, but the bar for length is lower: 1 to 2 sentences. Each follow-up must add something new, or it's a red flag and can't score above 2."
     }
-  ]
+  ],
+  "instantdm_flow": "RATING - Cold email scorecard"
 }
