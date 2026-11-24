@@ -1,0 +1,361 @@
+{
+  "slug": "runway",
+  "keyword": "RUNWAY",
+  "date": "2026-11-24",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "posted 2026-11-23",
+  "title": "The Runway Checklist: How Many New Clients You Need Each Month to Stay Level",
+  "description": "Losing 2 clients at $2,500 each costs $5,000 a month. The checklist and math to know your runway, your replace number and the pipeline to back it up.",
+  "lead": "This is the full setup checklist from the reel. You get the client-loss math, the stay-level number (how many new clients you need each month just to stand still), a runway sheet you can paste into Google Sheets, a worked example, a problem finder and a prompt that runs the numbers for you.",
+  "insider": "We start every new client with a small test before scaling, so the pipeline is proven before anyone depends on it. Our small pilot contacted 10,284 people, got 417 replies and turned them into **103 sales opportunities**, about 1 in every 100 people contacted. The checklist is the easy part; the full system (list, inboxes, follow-ups) is what we do for clients.",
+  "case": "case-05",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The short answer"
+    },
+    {
+      "type": "p",
+      "text": "Lose 2 clients at $2,500 each and **$5,000 a month** is gone. That's what a thin client list really costs. Your runway is only as long as your pipeline is full."
+    },
+    {
+      "type": "p",
+      "text": "This checklist gives you three numbers: how much one lost client costs you, how many new clients you need each month just to stay level, and how many people your outreach has to reach to replace them before the money runs out."
+    },
+    {
+      "type": "h2",
+      "text": "Why a thin client list is risky"
+    },
+    {
+      "type": "p",
+      "text": "**Clients always leave.** Projects end, budgets get cut, a new boss brings their own agency. You can't stop every exit. You can only make sure each exit isn't a crisis."
+    },
+    {
+      "type": "p",
+      "text": "**Replacing a client takes time.** If you start looking only after a client leaves, the gap is already open. A new cold email setup needs new inboxes warmed up first: [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) suggests starting at 5 to 10 emails a day and building up over **4 to 6 weeks**. Then the replies, calls and proposals take more weeks. Those weeks come out of your runway."
+    },
+    {
+      "type": "p",
+      "text": "**Referrals don't come on schedule.** They're great clients, but you can't turn them up when two clients leave in the same month. A steady outbound channel is the part you control."
+    },
+    {
+      "type": "h2",
+      "text": "The setup checklist"
+    },
+    {
+      "type": "p",
+      "text": "The three steps from the reel. Each has the why, then exactly how."
+    },
+    {
+      "type": "h3",
+      "text": "Step 1: Know what each client is worth and how long you can last"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** you can't plan for a loss you haven't measured. Most owners know their revenue, but not what share each client carries or how many months of cash they have."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "List every client with their monthly fee.",
+        "**Share of revenue** = client fee ÷ total monthly revenue. Mark any client that's a big share; losing them is the biggest hit.",
+        "**Monthly costs:** payroll, tools, rent, your own pay. Everything that leaves each month.",
+        "**Gap after a loss** = monthly costs − revenue left after the loss.",
+        "**Runway** = cash in the bank ÷ gap after a loss. That's how many months you have to replace the client."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 2: Know how many clients you need each month to stay level"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** if clients leave at a steady pace, you need new ones at the same pace just to stand still. Growth only starts after that number."
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Average client stay** in months. Look at your past clients. If you're new, use a careful guess and update it later.",
+        "**Stay-level number** = clients you have now ÷ average stay in months. That's how many clients you lose, and must replace, in a normal month.",
+        "**Growth number** = stay-level number + the extra clients you want each month.",
+        "Round up. You can't sign half a client."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 3: Build a pipeline that books calls every week"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** your stay-level number only works if the calls behind it show up every week, not when you remember to look for them."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Work backwards from your growth number to calls, people and emails (the math is below).",
+        "**Don't rely on referrals alone.** Keep them, and add one outbound channel you control.",
+        "Send from separate domains, never your main one. Hunter found custom domains got **5.2% replies vs 2.5%** for free Gmail-style addresses ([State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email)).",
+        "Email **1 or 2 people per company**. Hunter found that got **5.1% replies vs 3.5%** for 3 or more.",
+        "Keep bounces **under 2%** (Instantly) by verifying every list.",
+        "Send every working day. Google's [sender guidelines](https://support.google.com/mail/answer/81126) say to send at a consistent rate and avoid bursts.",
+        "Start **before** you need the clients. With 4 to 6 weeks of warm-up, the best time to build is while things are fine."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Work out the people you need to reach"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "**Clients to sign** per month (your growth number).",
+        "**Close rate:** out of every sales opportunity, how many sign? Use your own number.",
+        "**Opportunities needed** = clients to sign ÷ close rate.",
+        "**People per opportunity:** your own number if you have it. If not, start with a careful guess and replace it after your first month.",
+        "**People to reach** = opportunities × people per opportunity.",
+        "**Emails** = people × emails in your sequence. **Per working day** = emails ÷ 22.",
+        "**Inboxes** = emails per day ÷ 30. Our [sending calculator](/guides/math.html) covers domains and warm-up."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Worked example"
+    },
+    {
+      "type": "p",
+      "text": "An agency has **6 clients at $2,500 a month** = $15,000 a month. Monthly costs are $12,000. There's $10,000 in the bank. Clients stay **12 months** on average. These are example numbers; swap in your own."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Question",
+        "Math",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "Share of revenue per client",
+          "$2,500 ÷ $15,000",
+          "**about 17%** each"
+        ],
+        [
+          "Lose 2 clients",
+          "2 × $2,500",
+          "**$5,000 a month gone**"
+        ],
+        [
+          "Revenue left",
+          "$15,000 − $5,000",
+          "$10,000 a month"
+        ],
+        [
+          "Gap after the loss",
+          "$12,000 − $10,000",
+          "**$2,000 a month short**"
+        ],
+        [
+          "Runway",
+          "$10,000 ÷ $2,000",
+          "**5 months** to replace them"
+        ],
+        [
+          "Stay-level number",
+          "6 clients ÷ 12 months",
+          "**0.5 clients a month** (1 every 2 months)"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Now the pipeline. The owner wants to replace both lost clients in the next 2 months, so they need **1 new client a month**, plus 0.5 a month to stay level. That's 1.5, rounded up to **2 clients a month**."
+    },
+    {
+      "type": "p",
+      "text": "Say 1 in 5 sales opportunities signs (use your own rate). For people per opportunity, they borrow the ratio from our small pilot: 10,284 people for 103 opportunities, about **100 people per opportunity**. Their sequence has 3 emails."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Step",
+        "Math",
+        "Result"
+      ],
+      "rows": [
+        [
+          "Opportunities needed",
+          "2 ÷ (1 in 5)",
+          "**10 a month**"
+        ],
+        [
+          "People to reach",
+          "10 × 100",
+          "**1,000 a month**"
+        ],
+        [
+          "New people per working day",
+          "1,000 ÷ 22",
+          "**about 46**"
+        ],
+        [
+          "Emails per month",
+          "1,000 × 3",
+          "**3,000**"
+        ],
+        [
+          "Emails per working day",
+          "3,000 ÷ 22",
+          "**about 136**"
+        ],
+        [
+          "Inboxes at 30 a day",
+          "136 ÷ 30 = 4.5, round up",
+          "**5 inboxes**"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Check the timing. With 4 to 6 weeks of warm-up before the first real email, starting **after** the loss uses up 1 to 1.5 of the 5 months of runway before a single new person is contacted. Starting **before** the loss means the replacement calls are already coming in."
+    },
+    {
+      "type": "tip",
+      "label": "Your ratio will be different",
+      "text": "About 100 people per opportunity came from one small pilot. Your list, offer and market will change it. Use your own number after your first full month of sending."
+    },
+    {
+      "type": "h2",
+      "text": "The runway sheet"
+    },
+    {
+      "type": "p",
+      "text": "Open a blank Google Sheet, click cell A1 and paste this. Change the numbers in column B. Column C does the math."
+    },
+    {
+      "type": "prompt",
+      "label": "Copy, then paste into cell A1",
+      "text": "Input\tValue\tResult\nClients now\t6\t\nAverage fee per client ($/month)\t2500\t\nMonthly costs ($)\t12000\t\nCash in the bank ($)\t10000\t\nClients you could lose at once\t2\t\nAverage client stay (months)\t12\t\nRevenue now ($/month)\t\t=B2*B3\nRevenue after the loss ($/month)\t\t=(B2-B6)*B3\nGap after the loss ($/month)\t\t=MAX(B4-C9,0)\nRunway (months)\t\t=IF(C10=0,\"No gap\",B5/C10)\nStay-level clients per month\t\t=B2/B7"
+    },
+    {
+      "type": "p",
+      "text": "If runway shows \"No gap\", you can absorb that loss. If it shows a small number, start the pipeline now."
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What you see",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "One lost client feels like a crisis",
+          "Too few clients, or one client is a big share",
+          "Grow the client count with a steady outbound channel"
+        ],
+        [
+          "Runway under 3 months",
+          "Costs close to revenue, little cash",
+          "Build the pipeline now; don't wait for the loss"
+        ],
+        [
+          "New clients only come in waves",
+          "Relying on referrals alone",
+          "Add one outbound channel you send from every working day"
+        ],
+        [
+          "Pipeline started, but no calls for weeks",
+          "Inboxes still warming up, or list too small",
+          "Start 4 to 6 weeks before you need calls; reach your daily people number"
+        ],
+        [
+          "Lots of emails, almost no replies",
+          "Landing in spam, wrong people or unclear offer",
+          "Check SPF, DKIM, DMARC, list fit and the offer (our [clear offer checklist](/guides/lamp.html))"
+        ],
+        [
+          "Calls booked, few signed",
+          "Not a pipeline problem",
+          "Work on the sales call and the proposal"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Not knowing the runway number.** If you don't know how many months you have, every loss feels like an emergency.",
+        "**Building the pipeline only after a client leaves.** Warm-up alone takes weeks.",
+        "**Counting on referrals to fill the gap.** They come when they come, not when you need them.",
+        "**Planning only to replace, never to grow.** The stay-level number keeps you flat. Growth starts above it.",
+        "**Using someone else's ratios forever.** Borrow a ratio to start, then use your own."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Run your numbers with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Runway planner prompt",
+      "text": "Act as my agency runway and pipeline planner.\n\nMy clients and monthly fees: [list each client and fee]\nMonthly costs: [$]\nCash in the bank: [$]\nAverage client stay in months: [number or \"unknown\"]\nMy close rate from sales opportunity to client: [rate or \"unknown\"]\nPeople contacted per opportunity: [number or \"unknown\"]\nEmails in my sequence: [number]\n\nDo this:\n1) Show each client's share of revenue and flag the biggest ones.\n2) Show what losing my 1 and 2 biggest clients does to revenue, the monthly gap, and my runway in months.\n3) Calculate my stay-level number (clients I must sign each month to stay flat) and the number I need to grow by 1 client a month.\n4) If any rate is unknown, ask me questions to estimate it. Do not invent numbers.\n5) Work backwards to opportunities, people per month, people per working day (22 days), emails per day and inboxes at 30 emails per inbox per day.\n6) Tell me the latest date I must start sending, allowing 4 to 6 weeks of warm-up.\nShow everything in tables. Round clients, people and inboxes up."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "Fill the pipeline while things are fine, so a lost client is a bad week, not a crisis."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Instantly Cold Email Benchmark Report 2026",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Warm-up time (4 to 6 weeks) and bounce limit"
+    },
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Custom domains and people per company"
+    },
+    {
+      "name": "Google email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "Send at a steady rate, avoid bursts"
+    },
+    {
+      "name": "Google Sheets",
+      "url": "https://sheets.google.com",
+      "note": "Paste the runway sheet"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the runway planner prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many months of runway is safe?",
+      "a": "There's no single right number. What matters is that your runway is longer than the time it takes you to replace a client, including warm-up, booking calls and closing. If replacing a client takes you 3 months, a 2-month runway is a problem."
+    },
+    {
+      "q": "I don't know my average client stay. What do I use?",
+      "a": "Look at your past clients and average how many months each stayed. If you're new, make a careful guess, then update it every quarter as clients start and end."
+    },
+    {
+      "q": "Should I stop taking referrals?",
+      "a": "No. Keep every referral. Just don't make them your only source of new clients, because you can't turn them up when you need them."
+    },
+    {
+      "q": "When should I start cold email?",
+      "a": "Before you need it. Warm-up alone takes about 4 to 6 weeks, so the best time to start is while your client list is still full."
+    }
+  ]
+}

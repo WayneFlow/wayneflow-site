@@ -1,0 +1,323 @@
+{
+  "slug": "lamp",
+  "keyword": "LAMP",
+  "date": "2026-11-24",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "posted 2026-11-23",
+  "title": "The Clear Offer Checklist: The 10-Second Stranger Test for Your Cold Email",
+  "description": "Can a stranger repeat your offer in one sentence? The 10-second test, a one-sentence offer formula and a checklist to make cold email offers clear.",
+  "lead": "This is the full setup checklist from the reel. You get the 10-second stranger test, a one-sentence offer formula, before-and-after examples, a word-cutting table, a problem finder and a prompt that rewrites your offer for you.",
+  "insider": "Before any client campaign goes out, we cut the offer down until a stranger can say it back in one sentence. For one agency client, that clear offer was sent to the right people from June 1 to October 19, 2026: **82,671 emails brought 2,429 replies, and 88% of them were positive**, 2,146 people saying \"yes, tell me more.\" The clear sentence is the easy part; the full system (list, inboxes, follow-ups) is what we do for clients.",
+  "case": "case-01",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "The short answer"
+    },
+    {
+      "type": "p",
+      "text": "Ask a stranger to repeat what you do in one sentence. If they can say it back, your offer works. If they can't, rewrite it. That's the whole test. It takes 10 seconds and it catches the most common reason good cold emails get ignored."
+    },
+    {
+      "type": "p",
+      "text": "Your email can reach the inbox and still fail. If the reader can't tell in a few seconds **who it's for** and **what they get**, they won't reply. They won't ask you to explain either. They just move on."
+    },
+    {
+      "type": "h2",
+      "text": "Why a clear offer gets more replies"
+    },
+    {
+      "type": "p",
+      "text": "**Readers decide fast.** [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) found the top senders, with reply rates 2 to 4 times the average, write first emails **under 80 words** with **one clear call to action** and lead with the reader's problem. There's no room in 80 words for an offer that takes three sentences to explain."
+    },
+    {
+      "type": "p",
+      "text": "**Unclear reads as irrelevant or salesy.** In [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email), **65% of decision makers** said cold emails fail because they feel too sales-focused, and **61%** said they fail because they aren't relevant. A vague offer full of big words hits both: the reader can't see that it's for them, and it sounds like a pitch."
+    },
+    {
+      "type": "p",
+      "text": "**One clear ask wins.** Instantly says multiple calls to action dilute focus, and top performers use simple questions like \"Worth a quick call?\" Hunter found decision makers prefer soft asks like \"Open to learning more?\" over booking a meeting upfront. A clear offer makes a small ask easy to say yes to."
+    },
+    {
+      "type": "h2",
+      "text": "The 10-second stranger test"
+    },
+    {
+      "type": "steps",
+      "items": [
+        "Write your offer as **one sentence**. No commas doing the work of three sentences.",
+        "Find someone who doesn't know your business: a friend, a family member, a person in another industry.",
+        "Read the sentence to them **once**. Don't explain it.",
+        "Ask: \"Can you tell me in your own words what I do and who it's for?\"",
+        "**Pass:** they name the right buyer and the right result. **Fail:** they guess, hesitate, or ask \"so what do you actually do?\"",
+        "If it fails, rewrite with the formula below and test again with a new person (the first one now knows the answer)."
+      ]
+    },
+    {
+      "type": "tip",
+      "label": "No stranger nearby?",
+      "text": "Use the prompt at the end of this page. It's not as good as a real person, but it catches jargon and missing parts fast."
+    },
+    {
+      "type": "h2",
+      "text": "The setup checklist"
+    },
+    {
+      "type": "p",
+      "text": "The four steps from the reel. Each has the why, then exactly how."
+    },
+    {
+      "type": "h3",
+      "text": "Step 1: Say who it's for"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** a reader only replies if they see themselves in the email. \"Businesses\" is nobody. \"Roofing companies in Texas\" is someone."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Name the buyer by **industry or type**: dental clinics, B2B SaaS founders, IT agencies.",
+        "Add **one detail** that narrows it: size, location or situation (\"with 5 to 20 staff\", \"that just raised a seed round\").",
+        "Use the words your buyer uses for themselves, not the words you use about them."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 2: Say the one result they get"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** buyers pay for results, not for your process. If you list five results, the reader remembers none."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Pick the **one** result your best clients care about most.",
+        "Make it something they can see or count: more booked calls, fewer no-shows, faster invoices.",
+        "Only add a number if you can prove it. A made-up number destroys trust the moment they check."
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 3: Use plain words a stranger would repeat"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** people can only repeat words they understand. If your sentence needs a glossary, it fails the test."
+    },
+    {
+      "type": "table",
+      "head": [
+        "Cut this",
+        "Say this instead"
+      ],
+      "rows": [
+        [
+          "Leverage",
+          "Use"
+        ],
+        [
+          "End-to-end solutions",
+          "We do it for you"
+        ],
+        [
+          "Drive growth / scale your business",
+          "Get more [booked calls / clients / orders]"
+        ],
+        [
+          "Optimize your revenue operations",
+          "Fix how you [follow up / send invoices]"
+        ],
+        [
+          "Best-in-class, cutting-edge, innovative",
+          "Delete it. Show proof instead."
+        ],
+        [
+          "Synergy, holistic, ecosystem",
+          "Delete it."
+        ]
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Step 4: Cut everything else"
+    },
+    {
+      "type": "p",
+      "text": "**Why:** every extra word is one more thing the reader has to skip to find the point. Keep the offer, cut the rest."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cut your company history, awards and founding story from the first email.",
+        "Cut the full service list. Pick the one thing this list of buyers needs.",
+        "Cut \"I hope this finds you well\" and other filler before the offer (our [opener swap sheet](/guides/well.html) has replacements).",
+        "Keep **one** ask at the end."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "The one-sentence offer formula"
+    },
+    {
+      "type": "prompt",
+      "label": "Fill in the blanks",
+      "text": "We help [who it's for] get [one result] without [the pain they hate]."
+    },
+    {
+      "type": "p",
+      "text": "The last part is optional. Use it only if it's short and real. If your sentence is longer than about 20 words, you're explaining, not offering."
+    },
+    {
+      "type": "h2",
+      "text": "Worked example: before and after"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Version",
+        "Offer",
+        "Stranger test"
+      ],
+      "rows": [
+        [
+          "Before (40 words)",
+          "We are a full-service growth partner that leverages data-driven, end-to-end outbound solutions, including list building, copywriting, deliverability optimization and CRM integration, to help ambitious B2B organizations across multiple verticals unlock scalable, predictable revenue growth and maximize their sales pipeline potential.",
+          "**Fail.** \"So... you do marketing?\""
+        ],
+        [
+          "After (16 words)",
+          "We help B2B agencies with 5 to 50 staff get booked sales calls without running ads.",
+          "**Pass.** \"You get agencies sales calls.\""
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Count it: the before version is **40 words** in one sentence. The after version is **16 words**. The after version also passes Steps 1 to 4: it names the buyer (B2B agencies with 5 to 50 staff), one result (booked sales calls), the pain they hate (running ads), and nothing else."
+    },
+    {
+      "type": "p",
+      "text": "Here's the after version inside a full first email, still well under 80 words:"
+    },
+    {
+      "type": "prompt",
+      "label": "Example first email (64 words)",
+      "text": "Hi [first name],\n\nWe help B2B agencies with 5 to 50 staff get booked sales calls without running ads.\n\nMost agencies we talk to get new clients from referrals, which is great until a few months go quiet.\n\nWe set up cold email that books calls every week, and we do the work.\n\nOpen to seeing how it would work for [company]?\n\n[Your name]"
+    },
+    {
+      "type": "h2",
+      "text": "Problem finder: why does my offer fail the test?"
+    },
+    {
+      "type": "table",
+      "head": [
+        "What the stranger says",
+        "Likely cause",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "\"So what do you actually do?\"",
+          "Jargon or abstract words",
+          "Swap every big word for a plain one (table above)"
+        ],
+        [
+          "They get the result but not who it's for",
+          "No buyer named",
+          "Add the industry and one narrowing detail"
+        ],
+        [
+          "They name three different things",
+          "Too many services in one sentence",
+          "Pick one result for this list"
+        ],
+        [
+          "\"Sounds like every agency\"",
+          "No specific result",
+          "Name the one thing they can see or count"
+        ],
+        [
+          "They need you to explain",
+          "Sentence too long",
+          "Cut to about 20 words or fewer"
+        ],
+        [
+          "They pass, but replies are still low",
+          "Offer is clear but wrong people, or landing in spam",
+          "Check your list fit and deliverability ([Google's sender guidelines](https://support.google.com/mail/answer/81126))"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Common mistakes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Testing on a colleague.** They already know what you do. Use a real stranger.",
+        "**Explaining after you read it.** If you have to add \"what I mean is...\", it failed.",
+        "**One offer for every buyer.** Different lists need different \"who\" and \"result\" lines.",
+        "**Clever over clear.** A smart-sounding line nobody can repeat loses to a plain one everybody can.",
+        "**Adding numbers you can't prove.** Clear and true beats big and made up."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Rewrite your offer with Claude"
+    },
+    {
+      "type": "prompt",
+      "label": "Clear offer prompt",
+      "text": "Act as a stranger who knows nothing about my business, then as a cold email editor.\n\nMy current offer: [paste your offer or first email]\nWho I sell to: [industry, size, location]\nThe one result my best clients get: [result]\nProof I can actually show: [real numbers or results, or \"none yet\"]\n\nDo this:\n1) As the stranger, repeat what I do in one sentence, in your own words. Say honestly if you can't.\n2) List every word a stranger might not understand or would not repeat.\n3) Write 5 versions using: \"We help [who] get [one result] without [pain].\" Each under 20 words, plain words only.\n4) Do not invent numbers or results. Only use the proof I gave you.\n5) Pick the clearest version and write a first cold email under 80 words with one soft question at the end."
+    },
+    {
+      "type": "tip",
+      "label": "The rule",
+      "text": "If a stranger can't say it back, your buyer won't either. Rewrite until they can."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Instantly Cold Email Benchmark Report 2026",
+      "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+      "note": "Under 80 words, one clear call to action, problem-first"
+    },
+    {
+      "name": "Hunter: State of Email Outreach 2026",
+      "url": "https://hunter.io/the-state-of-cold-email",
+      "note": "Why decision makers say cold emails fail; preferred soft asks"
+    },
+    {
+      "name": "Google email sender guidelines",
+      "url": "https://support.google.com/mail/answer/81126",
+      "note": "Check deliverability if a clear offer still gets no replies"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "note": "Paste the clear offer prompt"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Who counts as a stranger for the test?",
+      "a": "Anyone who doesn't know your business and isn't in your industry. A friend, a neighbor or a family member works. Don't use a teammate or a client; they already know the answer."
+    },
+    {
+      "q": "Should my offer include a number?",
+      "a": "Only if you can prove it with a real result. A clear offer without a number beats a big number the reader doesn't believe."
+    },
+    {
+      "q": "Can I have different offers for different buyers?",
+      "a": "Yes, and you should. Write one sentence per list. A dental clinic and a SaaS founder want different results, so they need different \"who\" and \"result\" lines."
+    },
+    {
+      "q": "My offer passes, but nobody replies. Now what?",
+      "a": "Then the offer probably isn't the problem. Check that you're emailing the right people and that your emails reach the inbox. Our [deliverability checklist](/guides/inbox.html) covers the checks."
+    }
+  ]
+}
