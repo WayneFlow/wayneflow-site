@@ -3,7 +3,7 @@
   "keyword": "OGILVY",
   "date": "2026-11-19",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "reel_status": "posted 2026-11-18",
   "title": "The Ogilvy Subject Line Rules: Your Subject Line Is the Headline",
   "description": "David Ogilvy's headline rule applied to cold email: 4 subject line rules, bad vs better examples, the write-10-keep-2 test and a copy-paste prompt.",
@@ -347,5 +347,6 @@
       "q": "How many people do I need for a fair A/B test?",
       "a": "At least 200 per version, and wait until the full sequence ends. If the winner is ahead by only 1 or 2 replies, treat it as a tie and test again."
     }
-  ]
+  ],
+  "instantdm_flow": "OGILVY - Ogilvy subject line rules"
 }

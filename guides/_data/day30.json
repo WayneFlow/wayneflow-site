@@ -3,7 +3,7 @@
   "keyword": "DAY30",
   "date": "2026-11-19",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "reel_status": "posted 2026-11-18",
   "title": "Day 1 vs Day 30: The 30-Day Cold Email Warm-Up Calendar That Saves Your Domain",
   "description": "The full 30-day warm-up calendar: extra domains, 14 days of warm-up, the 10-20-30 ramp and the Monday check that keeps you out of spam.",
@@ -432,5 +432,6 @@
       "q": "How do I get to more than 30 a day per inbox?",
       "a": "Don't push one inbox harder. Add more domains and inboxes and run them through the same 30-day calendar. Our [sending calculator](/guides/math.html) shows how many you need."
     }
-  ]
+  ],
+  "instantdm_flow": "DAY30 - 30-day warm-up calendar"
 }

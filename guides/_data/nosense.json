@@ -3,7 +3,7 @@
   "keyword": "NOSENSE",
   "date": "2026-11-19",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "reel_status": "posted 2026-11-19",
   "title": "The Buying Signal List: Stop Paying for the Same Leads 1,000 Others Bought",
   "description": "Build small, fresh lead lists from 3 buying signals: hiring, growing and unhappy with a competitor. Where to find each one, how to date it, and what to write.",
@@ -400,5 +400,6 @@
       "q": "How often should I re-verify a list?",
       "a": "Verify every list the week you send it. Instantly's list decay guide says to treat any list older than six months as suspect until it's checked again."
     }
-  ]
+  ],
+  "instantdm_flow": "NOSENSE - Buying signal list"
 }

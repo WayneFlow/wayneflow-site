@@ -3,7 +3,7 @@
   "keyword": "UNEXPECTED",
   "date": "2026-11-19",
   "draft": false,
-  "instantdm": "pending",
+  "instantdm": "live",
   "reel_status": "posted 2026-11-18",
   "title": "The Unexpected Buyer Finder: Use AI to Find Markets Nobody Else Emails",
   "description": "The AI prompt that lists the unexpected businesses that use your product the most, plus how to turn them into a lead list with Google Maps.",
@@ -278,5 +278,6 @@
       "q": "What if the AI makes up a business type that doesn't fit?",
       "a": "It will sometimes. That's why you check 3 real websites per type before you build a list. Never send to a market you haven't checked yourself."
     }
-  ]
+  ],
+  "instantdm_flow": "UNEXPECTED - Unexpected buyer finder"
 }
