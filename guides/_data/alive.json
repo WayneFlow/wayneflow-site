@@ -1,0 +1,119 @@
+{
+  "slug": "alive",
+  "keyword": "ALIVE",
+  "date": "2026-11-26",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram (posted without a guide file, added by the hourly checker)",
+  "title": "Cold Email Isn't Dead, Your Setup Is: The Setup Checklist",
+  "description": "The setup checklist from the reel: separate domains, SPF, DKIM and DMARC, warm-up and a one-sentence offer. Plus a problem finder table.",
+  "lead": "This is the full setup checklist from the reel. Most failed campaigns die from one of three things: a flagged domain, no warm-up, or an offer a stranger can't repeat. Here's how to fix all three before you send a single email.",
+  "insider": "We run this exact checklist before every client campaign. It's how one client sent **236,545 emails in one quarter with a 3.69% reply rate and 1,061 interested leads**. The checklist is the easy part. Buying the domains, building the list and watching inbox health every day is the work we do for clients.",
+  "case": "case-04",
+  "blocks": [
+    {"type": "h2", "text": "Why the setup matters more than the idea"},
+    {"type": "p", "text": "Cold email still works. [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) puts the average reply rate at **3.43%**, and the top quarter of senders get **5.5% or more**. [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email), based on 31 million emails, found a **4.5%** average."},
+    {"type": "p", "text": "So when a campaign gets almost nothing back, the channel is rarely the problem. The problem is usually one of three things, and each one quietly kills replies before anyone reads your email."},
+    {"type": "table", "head": ["Killer", "What happens", "Fix in this guide"], "rows": [
+      ["A flagged domain", "Your emails go to spam, so nobody sees them", "Part 1 and Part 2"],
+      ["No warm-up", "A brand-new inbox sends a lot to strangers and looks like a spammer", "Part 3"],
+      ["A fuzzy offer", "People read it, don't get it, and delete it", "Part 4"]
+    ]},
+    {"type": "h2", "text": "Part 1: Separate sending domains"},
+    {"type": "p", "text": "**Why:** if your main domain gets flagged, your normal emails to clients, invoices and proposals start landing in spam too. Separate domains protect the business. They also look more trustworthy than free addresses: Hunter found custom domains got **5.2% replies vs 2.5%** for free addresses like Gmail."},
+    {"type": "steps", "items": [
+      "Never send cold email from your main domain.",
+      "Buy 2 or more domains that look like your brand. For acme.com, try getacme.com, acmehq.com or tryacme.com.",
+      "Pick **.com** where you can. Strange endings look less trustworthy to people and to filters.",
+      "Point each sending domain to your real website, so anyone who checks it lands somewhere real.",
+      "Put **no more than 3 inboxes on each domain**, and buy 1 spare domain you can swap in later."
+    ]},
+    {"type": "h2", "text": "Part 2: The three DNS records"},
+    {"type": "p", "text": "**Why:** these records prove the email really comes from you. [Google's sender guidelines](https://support.google.com/mail/answer/81126) require SPF or DKIM for everyone, and SPF, DKIM **and** DMARC for anyone sending 5,000 or more messages a day to Gmail. Set all three on every sending domain and you never have to worry about which group you're in."},
+    {"type": "table", "head": ["Record", "What it does in plain English"], "rows": [
+      ["SPF", "A list of servers allowed to send email for your domain."],
+      ["DKIM", "A signature that proves the email wasn't changed on the way."],
+      ["DMARC", "Tells inboxes what to do with emails that fail SPF or DKIM. A policy of \"none\" is fine to start."]
+    ]},
+    {"type": "steps", "items": [
+      "Add SPF, DKIM and DMARC on every sending domain on day 1, before warm-up starts. Our [DNS records guide](/blog/dns-records-for-cold-email.html) shows the exact values.",
+      "Check them with a free DNS checker before you move on.",
+      "Set up [Google Postmaster Tools](https://postmaster.google.com) for each sending domain, so you can see your spam rate later."
+    ]},
+    {"type": "h2", "text": "Part 3: Warm up before the first send"},
+    {"type": "p", "text": "**Why:** a new inbox has no history. If it starts sending dozens of emails to strangers on day one, inbox providers treat it like a spammer. Warm-up means the inbox sends and receives normal-looking emails with other inboxes for a while, so providers learn it's real. Most sending tools, like [Instantly](https://instantly.ai) and [Smartlead](https://www.smartlead.ai), do this automatically."},
+    {"type": "table", "head": ["Week", "Cold emails per inbox per day", "Warm-up"], "rows": [
+      ["1", "0", "On"],
+      ["2", "0", "On"],
+      ["3", "10", "Keep it on"],
+      ["4", "20", "Keep it on"],
+      ["5+", "30", "Keep it on, always"]
+    ]},
+    {"type": "p", "text": "This plan reaches full volume in week 5. That matches Instantly's 2026 report, which recommends **4 to 6 weeks** before new domains send at full volume. Our THERMO guide has the full 14-day warm-up checklist."},
+    {"type": "tip", "label": "Don't skip this", "text": "Never turn warm-up off, even after you reach full volume. It keeps steady, healthy activity on every inbox."},
+    {"type": "h2", "text": "Part 4: The one-sentence offer test"},
+    {"type": "p", "text": "**Why:** a cold reader gives you a few seconds. If they can't repeat what you do in one sentence, they won't reply, even if the email reaches the inbox. A clear offer also keeps emails short. Instantly found the best first emails are **under 80 words**."},
+    {"type": "prompt", "label": "Offer sentence template", "text": "We help [type of company] get [one result they want] in [time frame], without [the thing they hate doing].\n\nExample: We help dental clinics fill empty appointment slots within 30 days, without running ads."},
+    {"type": "steps", "items": [
+      "Fill in the template above.",
+      "Read it to someone who doesn't know your business.",
+      "Ask them to repeat it back in their own words. If they can't, cut words until they can.",
+      "Use that sentence as the middle line of your first email."
+    ]},
+    {"type": "prompt", "label": "AI prompt: sharpen your offer", "text": "Here is what my business does: [describe it in a few sentences].\nMy best customers are: [type of company and role].\n\nWrite 5 versions of a one-sentence offer using this format: \"We help [who] get [result] in [time], without [pain].\"\nRules: under 25 words, no buzzwords, a 12-year-old should understand it. Then tell me which one is clearest and why."},
+    {"type": "h2", "text": "Part 5: The list and the launch"},
+    {"type": "steps", "items": [
+      "Verify every email address before it goes into a campaign. Hunter's average bounce rate was **3.6%**. Keep yours **under 2%**.",
+      "Keep campaigns small and focused: one type of buyer per campaign.",
+      "Turn open tracking off. Hunter found **7.4% replies with tracking off vs 4.4% with it on**.",
+      "Start at the week 3 volume from the table above, not at full volume.",
+      "Plan 4 to 7 emails in the sequence. Instantly found **42% of replies come from follow-ups**."
+    ]},
+    {"type": "h2", "text": "Worked example: one small setup"},
+    {"type": "p", "text": "Say you want to send **150 cold emails a day**. Here's the math."},
+    {"type": "steps", "items": [
+      "150 ÷ 30 emails per inbox = **5 inboxes**.",
+      "5 ÷ 3 inboxes per domain = 1.7, so round up to **2 domains** (room for 6 inboxes).",
+      "Add **1 spare domain** with 3 inboxes, warmed up and ready.",
+      "Weeks 1 and 2: warm-up only. Week 3: 5 × 10 = 50 a day. Week 4: 5 × 20 = 100 a day. Week 5: 5 × 30 = 150 a day."
+    ]},
+    {"type": "h2", "text": "Problem finder: what's killing your campaign?"},
+    {"type": "table", "head": ["What you see", "Most likely cause", "Fix"], "rows": [
+      ["Almost no replies, not even a \"no\"", "Landing in spam", "Check SPF, DKIM, DMARC, keep warm-up on, turn tracking off, slow down"],
+      ["Replies dropped suddenly", "A domain or inbox got flagged", "Pause that inbox, keep warm-up on, check Google Postmaster Tools"],
+      ["Bounce rate over 2%", "Old or unverified list", "Verify the list again before sending more"],
+      ["Replies are mostly \"what is this?\"", "The offer isn't clear", "Redo Part 4 until a stranger can repeat it"],
+      ["Lots of \"not interested\"", "Wrong people or weak reason to talk", "Tighter list, one buyer type per campaign"],
+      ["Your normal emails go to spam", "You sent cold email from your main domain", "Stop now, move cold email to separate domains"]
+    ]},
+    {"type": "h2", "text": "The full setup checklist"},
+    {"type": "list", "items": [
+      "Cold email never goes out from the main domain",
+      "2+ sending domains bought, each pointing to the real website",
+      "No more than 3 inboxes per domain, plus 1 spare domain",
+      "SPF, DKIM and DMARC set on every sending domain",
+      "Google Postmaster Tools set up for every sending domain",
+      "Warm-up on for at least 2 weeks before the first cold email",
+      "Offer passes the one-sentence test",
+      "List verified, bounce rate target under 2%",
+      "Open tracking off",
+      "First email under 80 words, 4 to 7 emails in the sequence",
+      "Volume ramps up over weeks, never all at once"
+    ]},
+    {"type": "tip", "label": "Bottom line", "text": "Fix the room and the light comes on. Get the setup right first, then worry about the copy."}
+  ],
+  "resources": [
+    {"name": "Instantly 2026 benchmark report", "url": "https://instantly.ai/cold-email-benchmark-report-2026", "note": "Reply benchmarks, warm-up time, email length and follow-up data"},
+    {"name": "Hunter: State of Email Outreach 2026", "url": "https://hunter.io/the-state-of-cold-email", "note": "Domain, bounce and tracking data from 31 million emails"},
+    {"name": "Google email sender guidelines", "url": "https://support.google.com/mail/answer/81126", "note": "The official SPF, DKIM and DMARC rules"},
+    {"name": "Google Postmaster Tools", "url": "https://postmaster.google.com", "note": "Free spam rate and reputation dashboard"},
+    {"name": "DNS records for cold email", "url": "https://wayneflow.com/blog/dns-records-for-cold-email.html", "note": "The exact SPF, DKIM and DMARC values"},
+    {"name": "Free cold email playbook", "url": "https://wayneflow.com/free-cold-email-playbook.html", "note": "35 pages, the full system"}
+  ],
+  "faq": [
+    {"q": "Is cold email really still working?", "a": "Yes. Instantly's 2026 report shows a 3.43% average reply rate and Hunter's shows 4.5%. Campaigns that get almost nothing usually have a setup problem, not a channel problem."},
+    {"q": "How long does the setup take?", "a": "About 5 weeks to full volume: 2 weeks of warm-up, then a 3-week ramp. Instantly recommends 4 to 6 weeks for new domains."},
+    {"q": "Do I really need DMARC?", "a": "Google requires it if you send 5,000 or more messages a day to Gmail, and it takes a few minutes to add. Set it on every sending domain so you're covered either way."},
+    {"q": "Can I use my main domain if I send only a few emails?", "a": "We don't recommend it. If it gets flagged, your everyday emails to clients suffer too. Separate domains are cheap insurance."}
+  ]
+}

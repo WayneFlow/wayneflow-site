@@ -1,0 +1,120 @@
+{
+  "slug": "race",
+  "keyword": "RACE",
+  "date": "2026-11-26",
+  "draft": false,
+  "instantdm": "pending",
+  "reel_status": "live on Instagram (posted without a guide file, added by the hourly checker)",
+  "title": "From 200 Cold Emails a Week by Hand to 2,800 by System: The Setup Checklist",
+  "description": "The setup checklist from the reel: the math, the inboxes, the domains and the 5-week ramp to send about 2,800 cold emails a week without landing in spam.",
+  "lead": "This is the full setup checklist from the reel. It shows the math behind 2,800 emails a week, exactly how many inboxes and domains you need, and the week-by-week plan to get there safely.",
+  "insider": "We used this same kind of setup for our 5-day blitz: **96,408 emails in five days with a 0.45% bounce rate and 25 calls booked**, because the inboxes were already warm and the list was verified on day one. The math is simple. Buying the domains, warming the inboxes and watching their health every day is the work we do for clients.",
+  "case": "case-03",
+  "blocks": [
+    {"type": "h2", "text": "The math from the reel"},
+    {"type": "p", "text": "Sending by hand, most people manage about **200 cold emails a week**, and only in the weeks when client work leaves time. A system sends every day whether you're busy or not."},
+    {"type": "table", "head": ["Step", "Math", "Result"], "rows": [
+      ["Emails a month", "Minimum system volume", "12,000"],
+      ["Emails a day", "12,000 ÷ 30", "400"],
+      ["Emails a week", "400 × 7", "2,800"],
+      ["Compared to by hand", "2,800 ÷ 200", "14 times more"]
+    ]},
+    {"type": "p", "text": "This is plain math, not a promise of results. More emails out means more people who can say yes, but only if the emails land in the inbox. The rest of this guide is the setup that makes that happen."},
+    {"type": "tip", "label": "Weekdays only?", "text": "Many people send Monday to Friday only. The same 2,800 a week then works out to 2,800 ÷ 5 = **560 a day**. The weekly total is the same, you just need a few more inboxes."},
+    {"type": "h2", "text": "Rule 1: Spread the volume over many inboxes"},
+    {"type": "p", "text": "**Why:** one inbox pushing hundreds of emails to strangers looks like a spammer. [Google's limits page](https://support.google.com/a/answer/166852) allows a paid Google Workspace inbox to send up to **2,000 emails a day**, but that's a system limit, not a safe cold email limit. [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email), based on 31 million emails, found inboxes sending **20 to 49 emails a day got a 5.7% reply rate**, above the 4.5% average."},
+    {"type": "p", "text": "So we use **about 30 cold emails a day per inbox** and **no more than 3 inboxes per domain**. Need more volume? Add inboxes. Never push one inbox harder."},
+    {"type": "table", "head": ["Goal", "Emails a day", "Inboxes (÷30, round up)", "Domains (÷3, round up)"], "rows": [
+      ["2,800 a week, 7 days", "400", "14", "5"],
+      ["2,800 a week, weekdays only", "560", "19", "7"],
+      ["1,400 a week, 7 days", "200", "7", "3"]
+    ]},
+    {"type": "h2", "text": "Rule 2: Never use your main domain"},
+    {"type": "p", "text": "**Why:** if a sending domain gets flagged, you want it to be a spare, not the domain your clients and invoices come from. Hunter also found custom domains got **5.2% replies vs 2.5%** for free addresses like Gmail, so don't send from free accounts either."},
+    {"type": "steps", "items": [
+      "Buy domains that look like your brand: for acme.com, try getacme.com, acmehq.com or tryacme.com.",
+      "Pick **.com** where you can.",
+      "Point every sending domain to your real website.",
+      "Buy **1 spare domain** for every 5 or so, and warm it up too."
+    ]},
+    {"type": "h2", "text": "Rule 3: Set the records on day 1"},
+    {"type": "p", "text": "**Why:** at 2,800 emails a week you're sending real volume, so the records matter. [Google's sender guidelines](https://support.google.com/mail/answer/81126) require SPF or DKIM for every sender, SPF, DKIM and DMARC for anyone sending 5,000+ messages a day to Gmail, and a spam rate under **0.3%** for everyone. Google recommends staying under **0.1%**."},
+    {"type": "steps", "items": [
+      "Add SPF, DKIM and DMARC on every sending domain before warm-up. Our [DNS records guide](/blog/dns-records-for-cold-email.html) has the exact values.",
+      "Set up [Google Postmaster Tools](https://postmaster.google.com) for each domain to watch your spam rate."
+    ]},
+    {"type": "h2", "text": "Rule 4: Ramp up, don't jump"},
+    {"type": "p", "text": "**Why:** new inboxes need history before they send at full speed. [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) recommends **4 to 6 weeks** before new domains reach full volume. Warm-up runs inside tools like [Instantly](https://instantly.ai) or [Smartlead](https://www.smartlead.ai) automatically."},
+    {"type": "table", "head": ["Week", "Each inbox sends", "Example: 14 inboxes", "Per week (×7)"], "rows": [
+      ["1", "0 cold emails", "0 a day", "0"],
+      ["2", "0 cold emails", "0 a day", "0"],
+      ["3", "10 a day", "140 a day", "980"],
+      ["4", "20 a day", "280 a day", "1,960"],
+      ["5+", "30 a day", "420 a day", "2,940"]
+    ]},
+    {"type": "p", "text": "From week 5 you're above the 2,800 a week target, with a small buffer for an inbox you need to rest. Keep warm-up on the whole time, even at full volume."},
+    {"type": "h2", "text": "Rule 5: Feed the system enough leads"},
+    {"type": "p", "text": "**Why:** a system that sends 2,800 emails a week needs new people every week. If each person gets a 4-email sequence, about a quarter of the weekly volume goes to new contacts."},
+    {"type": "steps", "items": [
+      "With a 4-email sequence, 2,800 ÷ 4 = **700 new people a week**, or about 2,800 a month.",
+      "Verify every address before it goes in. Hunter's average bounce rate was **3.6%**. Keep yours **under 2%**.",
+      "Keep each campaign to one type of buyer, so the email fits the reader.",
+      "Plan 4 to 7 emails per person. Instantly found **42% of replies come from follow-ups**."
+    ]},
+    {"type": "h2", "text": "Worked example: 400 a day"},
+    {"type": "steps", "items": [
+      "Target: 2,800 a week, sending 7 days. 2,800 ÷ 7 = **400 a day**.",
+      "400 ÷ 30 = 13.3, so round up to **14 inboxes**.",
+      "14 ÷ 3 = 4.7, so round up to **5 domains** (room for 15 inboxes).",
+      "Add **1 spare domain** with 3 inboxes, warmed up and ready.",
+      "Set SPF, DKIM and DMARC on all 6 domains on day 1.",
+      "Weeks 1-2: warm-up only. Week 3: 140 a day. Week 4: 280 a day. Week 5: 420 a day.",
+      "Load about 700 new verified contacts each week for a 4-email sequence."
+    ]},
+    {"type": "h2", "text": "Common mistakes"},
+    {"type": "table", "head": ["Mistake", "What happens", "Fix"], "rows": [
+      ["Sending 400 a day from 2 inboxes", "Inboxes get flagged, emails go to spam", "About 30 a day per inbox, add inboxes"],
+      ["Skipping warm-up", "New inboxes land in spam from day one", "2 weeks warm-up, then a 3-week ramp"],
+      ["Using the main domain", "Client emails and invoices hit spam too", "Separate sending domains only"],
+      ["Sending in bursts", "Volume spikes look suspicious", "Send a similar amount every day"],
+      ["Running out of leads", "The system stops or emails the same people again", "Plan about 700 new contacts a week"],
+      ["Unverified lists", "Bounces over 2% hurt every inbox", "Verify every list before it goes in"]
+    ]},
+    {"type": "h2", "text": "Weekly health check"},
+    {"type": "table", "head": ["Check", "Healthy", "If not"], "rows": [
+      ["Bounce rate", "Under 2%", "Stop that list and verify it again"],
+      ["Spam rate (Postmaster Tools)", "Under 0.1%", "Halve that domain's volume, check list and copy"],
+      ["Reply rate by inbox", "Similar across inboxes", "Rest the low inbox for a week, keep warm-up on"]
+    ]},
+    {"type": "prompt", "label": "AI prompt: plan your own numbers", "text": "I want to send [number] cold emails a week, on [7 days / weekdays only].\nRules: about 30 cold emails per inbox per day, no more than 3 inboxes per domain, 1 spare domain for every 5, 2 weeks of warm-up, then 10, 20 and 30 emails per inbox per day in weeks 3, 4 and 5. Each contact gets a [number]-email sequence.\n\nWork out: emails per day, inboxes needed (round up), domains needed (round up), spare domains, daily volume in weeks 3, 4 and 5, and new contacts needed per week. Show every calculation."},
+    {"type": "h2", "text": "The full setup checklist"},
+    {"type": "list", "items": [
+      "Weekly target and daily volume worked out",
+      "Inboxes = daily volume ÷ 30, rounded up",
+      "Domains = inboxes ÷ 3, rounded up, plus spares",
+      "No cold email from the main domain",
+      "SPF, DKIM and DMARC on every sending domain",
+      "Google Postmaster Tools set up",
+      "2 weeks of warm-up, then a 3-week ramp",
+      "Warm-up stays on forever",
+      "Enough verified leads loaded every week",
+      "4 to 7 emails per sequence",
+      "Weekly health check every Monday"
+    ]},
+    {"type": "tip", "label": "Bottom line", "text": "Same seven days. Build the system once and it keeps sending while you do client work."}
+  ],
+  "resources": [
+    {"name": "Hunter: State of Email Outreach 2026", "url": "https://hunter.io/the-state-of-cold-email", "note": "Per-inbox volume, domain and bounce data from 31 million emails"},
+    {"name": "Instantly 2026 benchmark report", "url": "https://instantly.ai/cold-email-benchmark-report-2026", "note": "Warm-up time and follow-up data"},
+    {"name": "Google Workspace sending limits", "url": "https://support.google.com/a/answer/166852", "note": "Official daily limits per inbox"},
+    {"name": "Google email sender guidelines", "url": "https://support.google.com/mail/answer/81126", "note": "SPF, DKIM, DMARC and spam rate rules"},
+    {"name": "Google Postmaster Tools", "url": "https://postmaster.google.com", "note": "Free spam rate dashboard"},
+    {"name": "DNS records for cold email", "url": "https://wayneflow.com/blog/dns-records-for-cold-email.html", "note": "The exact record values"}
+  ],
+  "faq": [
+    {"q": "Will 14 times more emails get 14 times more replies?", "a": "Not guaranteed. The math only tells you how many people see your offer. Replies depend on the list, the offer and whether emails land in the inbox."},
+    {"q": "How long until I'm sending 2,800 a week?", "a": "About 5 weeks with this plan: 2 weeks of warm-up, then a 3-week ramp. Instantly recommends 4 to 6 weeks for new domains."},
+    {"q": "Why not just send more from one inbox?", "a": "One inbox sending hundreds of cold emails looks like a spammer. Hunter's data shows the best reply rates at 20 to 49 emails a day per inbox."},
+    {"q": "Should I send on weekends?", "a": "You can. If you send weekdays only, the same weekly total needs about 560 a day, so plan for more inboxes."}
+  ]
+}
