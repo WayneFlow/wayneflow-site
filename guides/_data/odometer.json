@@ -1,0 +1,268 @@
+{
+ "slug": "odometer",
+ "keyword": "ODOMETER",
+ "date": "2026-11-27",
+ "draft": false,
+ "instantdm": "pending",
+ "reel_status": "live on Instagram (posted without a guide file, added by the hourly checker)",
+ "title": "The Cold Email Setup Checklist: Domains, DNS Records and a Two-Week Warm-Up",
+ "description": "The setup checklist from the reel: separate sending domains, SPF, DKIM and DMARC with example values, and a two-week warm-up plan.",
+ "lead": "This is the full setup checklist from the reel. Before a single cold email goes out, three things must be in place: separate sending domains, the right DNS records and a two-week warm-up. Here's exactly how to do each one.",
+ "insider": "This setup comes first on every client campaign we run. It's why one client could send **96,408 emails in 5 days with a 0.45% bounce rate and book 25 calls** that same week: the inboxes were warm and the foundation was ready on day one. The checklist is the easy part. Running and watching dozens of inboxes every day is the work we do for clients.",
+ "case": "case-03",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "Why the foundation beats clever copy"
+  },
+  {
+   "type": "p",
+   "text": "The campaigns that win are rarely the ones with the cleverest copy. They're the ones whose emails actually reach the inbox. If your setup is weak, your best email lands in spam and nobody reads it."
+  },
+  {
+   "type": "p",
+   "text": "[Google's sender guidelines](https://support.google.com/mail/answer/81126) require SPF or DKIM for every sender, and SPF, DKIM **and** DMARC for anyone sending 5,000+ messages a day to Gmail. Google also asks senders to keep spam rates under **0.3%** and to increase volume slowly."
+  },
+  {
+   "type": "table",
+   "head": [
+    "Step",
+    "What it protects",
+    "Time it takes"
+   ],
+   "rows": [
+    [
+     "1. Separate domains",
+     "Your main business email",
+     "About 30 minutes"
+    ],
+    [
+     "2. DNS records",
+     "Trust with inbox providers",
+     "About 30 minutes per domain"
+    ],
+    [
+     "3. Two-week warm-up",
+     "Your sending reputation",
+     "14 days, mostly waiting"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Step 1: Separate sending domains"
+  },
+  {
+   "type": "p",
+   "text": "**Why:** if a sending domain gets flagged, you swap it out. If your main domain gets flagged, your invoices, proposals and client emails start landing in spam too. Custom domains also do better than free addresses: [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email) found **5.2% replies from custom domains vs 2.5%** from free addresses like Gmail."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Never send cold email from your main domain.",
+    "Buy lookalike domains. For acme.com: getacme.com, acmehq.com, tryacme.com.",
+    "Choose **.com** when you can.",
+    "Forward each lookalike domain to your real website.",
+    "Put **no more than 3 inboxes on each domain**, and keep 1 spare domain warming in the background."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Step 2: The right records"
+  },
+  {
+   "type": "p",
+   "text": "**Why:** these records prove the email really comes from you and wasn't changed on the way. Set all three on every sending domain, before warm-up starts."
+  },
+  {
+   "type": "table",
+   "head": [
+    "Record",
+    "What it does",
+    "Example (Google Workspace)"
+   ],
+   "rows": [
+    [
+     "SPF",
+     "Lists the servers allowed to send for your domain",
+     "v=spf1 include:_spf.google.com ~all"
+    ],
+    [
+     "DKIM",
+     "A signature that proves the email wasn't changed",
+     "Generate the key in your email admin panel, then add it as a TXT record"
+    ],
+    [
+     "DMARC",
+     "Tells inboxes what to do when SPF or DKIM fails",
+     "v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com"
+    ]
+   ]
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Log in to your domain registrar's DNS settings.",
+    "Add the SPF record as a TXT record. Use only **one** SPF record per domain.",
+    "Generate DKIM in your email provider and add it. Google recommends a **2048-bit** key if your provider supports it.",
+    "Add the DMARC record. A policy of \"none\" is fine to start; Google allows it.",
+    "Check all three with a free DNS checker. Our [DNS records guide](/blog/dns-records-for-cold-email.html) walks through every value."
+   ]
+  },
+  {
+   "type": "tip",
+   "label": "Using Microsoft 365 or another provider?",
+   "text": "The SPF \"include\" part changes by provider. Copy it from your provider's own setup page, not from a random blog."
+  },
+  {
+   "type": "h2",
+   "text": "Step 3: A two-week warm-up"
+  },
+  {
+   "type": "p",
+   "text": "**Why:** a new inbox has no history. Google says to start with low volume and avoid sudden spikes. Warm-up tools like [Instantly](https://instantly.ai/email-warmup) send and receive normal-looking emails with other real inboxes, so providers learn your inbox is real."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Turn warm-up on for every new inbox on day 1.",
+    "Send **zero** cold emails for 14 days.",
+    "From day 15, start at about 10 cold emails per inbox per day.",
+    "Add 10 a week until you reach about 30. [Instantly's 2026 report](https://instantly.ai/cold-email-benchmark-report-2026) recommends building up over 4 to 6 weeks.",
+    "Keep warm-up on forever, even at full volume."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Worked example: setup for 400 emails a day"
+  },
+  {
+   "type": "steps",
+   "items": [
+    "400 ÷ 30 emails per inbox = 13.3, so round up to **14 inboxes**.",
+    "14 ÷ 3 inboxes per domain = 4.7, so round up to **5 domains** (room for 15 inboxes).",
+    "Add **1 spare domain** warming in the background.",
+    "Weeks 1–2: warm-up only. Week 3: 14 × 10 = 140 a day. Week 4: 14 × 20 = 280 a day. Week 5: 14 × 30 = **420 a day**, a little above the goal."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Common setup mistakes"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Mistake",
+    "What happens",
+    "Fix"
+   ],
+   "rows": [
+    [
+     "Sending from the main domain",
+     "Your normal email starts landing in spam",
+     "Move cold email to lookalike domains"
+    ],
+    [
+     "Two SPF records on one domain",
+     "SPF fails",
+     "Merge them into one record"
+    ],
+    [
+     "No DMARC",
+     "Fails Google's bulk sender rule",
+     "Add a DMARC record with p=none"
+    ],
+    [
+     "10+ inboxes on one domain",
+     "One bad day hurts all of them",
+     "Max 3 inboxes per domain"
+    ],
+    [
+     "Sending on day 1",
+     "Spam folder from the start",
+     "Wait 14 days, then ramp"
+    ],
+    [
+     "Turning warm-up off later",
+     "Reputation slowly drops",
+     "Leave it on"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "The full setup checklist"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Main domain never used for cold email",
+    "Lookalike .com domains bought and forwarded to the real website",
+    "Max 3 inboxes per domain, plus 1 spare domain",
+    "One SPF record per domain",
+    "DKIM key generated and added (2048-bit if possible)",
+    "DMARC record added (p=none is fine to start)",
+    "All records checked in a DNS checker",
+    "Google Postmaster Tools set up for each domain",
+    "14 days of warm-up before the first cold email",
+    "Ramp 10 → 20 → 30 per inbox per day, warm-up always on"
+   ]
+  },
+  {
+   "type": "prompt",
+   "label": "AI prompt: plan your setup",
+   "text": "I want to send [number] cold emails a day. My main domain is [domain] and my email provider is [Google Workspace / Microsoft 365 / other].\n\n1. Tell me how many inboxes and domains I need at 30 emails per inbox per day and max 3 inboxes per domain, plus 1 spare domain.\n2. Suggest 8 lookalike .com domain ideas.\n3. List the SPF, DKIM and DMARC records I need for my provider, and where to find the exact values.\n4. Give me a week-by-week warm-up and ramp plan."
+  }
+ ],
+ "resources": [
+  {
+   "name": "Google email sender guidelines",
+   "url": "https://support.google.com/mail/answer/81126",
+   "note": "SPF, DKIM, DMARC rules, spam rate limit and volume advice"
+  },
+  {
+   "name": "Instantly 2026 benchmark report",
+   "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+   "note": "Recommended ramp time and bounce limits"
+  },
+  {
+   "name": "Hunter: State of Email Outreach 2026",
+   "url": "https://hunter.io/the-state-of-cold-email",
+   "note": "Custom domain vs free address reply rates"
+  },
+  {
+   "name": "Instantly email warm-up",
+   "url": "https://instantly.ai/email-warmup",
+   "note": "Automatic warm-up tool"
+  },
+  {
+   "name": "Google Postmaster Tools",
+   "url": "https://postmaster.google.com",
+   "note": "Free spam rate and reputation dashboard"
+  },
+  {
+   "name": "DNS records for cold email",
+   "url": "https://wayneflow.com/blog/dns-records-for-cold-email.html",
+   "note": "The exact SPF, DKIM and DMARC values"
+  },
+  {
+   "name": "Free cold email playbook",
+   "url": "https://wayneflow.com/free-cold-email-playbook.html",
+   "note": "35 pages, the full system"
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many domains do I need?",
+   "a": "Divide your daily goal by 30 to get inboxes, then divide by 3 to get domains. Round up both times and add 1 spare domain."
+  },
+  {
+   "q": "Is DMARC with p=none good enough?",
+   "a": "Yes, to start. Google's guidelines say the DMARC policy can be set to none. What matters is that the record exists and SPF or DKIM passes."
+  },
+  {
+   "q": "Why two weeks of warm-up?",
+   "a": "A new inbox has no history. Two weeks of steady, normal activity gives providers a reason to trust it before cold email starts."
+  }
+ ]
+}

@@ -1,0 +1,266 @@
+{
+ "slug": "puzzle",
+ "keyword": "PUZZLE",
+ "date": "2026-11-27",
+ "draft": false,
+ "instantdm": "pending",
+ "reel_status": "live on Instagram (posted without a guide file, added by the hourly checker)",
+ "title": "The Four-Piece Cold Email Checklist: Offer, List, Setup, Copy",
+ "description": "The four-piece checklist from the reel: offer, list, setup and copy. Check each piece before you send so booked calls follow.",
+ "lead": "This is the full four-piece checklist from the reel. A cold email system books calls only when the offer, the list, the setup and the copy all fit. Here's how to check each piece in the right order, with a test for every one.",
+ "insider": "We check these four pieces before every client campaign, in this order. For one construction software client that meant **31 sales-qualified demos and 6 signed annual contracts** from 162,073 emails. The checklist is the easy part. Building the list, running the inboxes and answering every reply is the work we do for clients.",
+ "case": "case-02",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "Why most campaigns only fix one piece"
+  },
+  {
+   "type": "p",
+   "text": "Most people spend all their time on the email copy. It's the part you can see. But copy is the last piece, not the first. A perfect email sent to the wrong people, from an inbox that lands in spam, about an offer nobody understands, books nothing."
+  },
+  {
+   "type": "p",
+   "text": "Cold email still works when all four pieces fit. [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) puts the average reply rate at **3.43%**, with the top quarter at **5.5% or more**. Instantly notes that the top group shows **better targeting**. That's a list piece, not a copy piece."
+  },
+  {
+   "type": "table",
+   "head": [
+    "Piece",
+    "Question it answers",
+    "If it's missing"
+   ],
+   "rows": [
+    [
+     "1. The offer",
+     "What do they get?",
+     "People read it and don't care"
+    ],
+    [
+     "2. The list",
+     "Who gets it?",
+     "The right email reaches the wrong people"
+    ],
+    [
+     "3. The setup",
+     "Does it reach the inbox?",
+     "Nobody sees it at all"
+    ],
+    [
+     "4. The copy",
+     "Is it clear in a few seconds?",
+     "People don't get it and delete it"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Piece 1: The offer"
+  },
+  {
+   "type": "p",
+   "text": "**Why it comes first:** the offer decides who you target and what you write. If a buyer can't repeat your offer in one sentence, no copy will save it."
+  },
+  {
+   "type": "prompt",
+   "label": "One-sentence offer template",
+   "text": "We help [type of company] get [one result they want] in [time frame], without [the thing they hate doing].\n\nExample: We help IT service firms book 10 sales calls a month, without hiring an SDR."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Fill in the template above.",
+    "Read it to someone outside your business and ask them to repeat it back.",
+    "If they can't, cut words until they can.",
+    "**Pass test:** a stranger repeats it correctly after one read."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Piece 2: The list"
+  },
+  {
+   "type": "p",
+   "text": "**Why:** small, focused lists win. [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email), based on 31 million emails, found sequences with **21 to 50 recipients got a 6.2% reply rate vs 2.4%** for sequences with 500+ recipients. The smaller list let senders write for one type of buyer."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Write down one buyer: industry, company size and job title.",
+    "Build a list of only those people. Split anything different into its own campaign.",
+    "Verify every email address before sending. Hunter's average bounce rate was **3.6%**. Instantly says keep bounces **under 2%**.",
+    "**Pass test:** you can describe everyone on the list in one sentence, and the list is verified."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Piece 3: The setup"
+  },
+  {
+   "type": "p",
+   "text": "**Why:** the setup decides inbox or spam. [Google's sender guidelines](https://support.google.com/mail/answer/81126) require SPF or DKIM for all senders, and SPF, DKIM and DMARC for anyone sending 5,000+ messages a day to Gmail. Google also says to start with low volume and increase slowly."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Send from separate domains, never your main business domain.",
+    "Set SPF, DKIM and DMARC on every sending domain. Our [DNS records guide](/blog/dns-records-for-cold-email.html) has the values.",
+    "Warm up every new inbox for at least 2 weeks before the first cold email.",
+    "Ramp up slowly. Instantly suggests starting at 5 to 10 emails a day and building up over 4 to 6 weeks.",
+    "**Pass test:** all three records check out in a DNS checker and warm-up has run for 2+ weeks."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Piece 4: The copy"
+  },
+  {
+   "type": "p",
+   "text": "**Why it's last:** once the offer, list and setup are right, copy is easy. You're writing to one type of person about one clear result. Instantly found top campaigns keep first emails **under 80 words** with a single call to action."
+  },
+  {
+   "type": "prompt",
+   "label": "First email template (under 80 words)",
+   "text": "Subject: [their company] + [result]\n\nHi [first name],\n\n[One line that shows you know their world, e.g. \"Most IT firms your size win clients through referrals.\"]\n\nWe help [type of company] get [result] in [time frame], without [pain].\n\n[One short proof line, only if it's real.]\n\nWorth a quick chat next week?\n\n[Your name]"
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Count the words. Under 80, or cut.",
+    "One question at the end. No links, no attachments in email 1.",
+    "Plan 4 to 7 emails in the sequence. Instantly found **42% of replies come from follow-ups**.",
+    "**Pass test:** a reader can tell who it's for and what they get within 5 seconds."
+   ]
+  },
+  {
+   "type": "tip",
+   "label": "Order matters",
+   "text": "Fix the pieces in order: offer, list, setup, copy. Each piece depends on the one before it."
+  },
+  {
+   "type": "h2",
+   "text": "Worked example: what a full picture can look like"
+  },
+  {
+   "type": "p",
+   "text": "Say you send to **1,000 verified buyers** and hit Instantly's average reply rate of **3.43%**."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "1,000 × 3.43% = **about 34 replies**.",
+    "In our full-quarter case study, about 1 in 4 replies came from a buyer who wanted to talk (1,061 of 4,372).",
+    "34 × 24% = **about 8 interested buyers** from 1,000 emails.",
+    "Now break one piece. If the setup fails and half your emails land in spam, the same 1,000 emails reach only 500 inboxes, and replies fall to about 17."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Problem finder: which piece is missing?"
+  },
+  {
+   "type": "table",
+   "head": [
+    "What you see",
+    "Missing piece",
+    "First fix"
+   ],
+   "rows": [
+    [
+     "Almost no replies, not even \"no\"",
+     "Setup",
+     "Check SPF, DKIM, DMARC and warm-up; slow down"
+    ],
+    [
+     "Bounce rate over 2%",
+     "List",
+     "Verify the list again before sending more"
+    ],
+    [
+     "Replies like \"what is this?\"",
+     "Offer",
+     "Redo the one-sentence test"
+    ],
+    [
+     "Lots of \"not the right person\"",
+     "List",
+     "Tighter job titles, one buyer per campaign"
+    ],
+    [
+     "Opens look fine but nobody replies",
+     "Copy or offer",
+     "Shorter email, one clear question"
+    ],
+    [
+     "Good replies but no calls booked",
+     "Follow-up",
+     "Answer fast and offer two times to meet"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "The four-piece checklist"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Offer: a stranger can repeat it in one sentence",
+    "List: one buyer type per campaign",
+    "List: every address verified, bounce target under 2%",
+    "Setup: separate sending domains, never the main domain",
+    "Setup: SPF, DKIM and DMARC on every sending domain",
+    "Setup: 2+ weeks of warm-up, then a slow ramp",
+    "Copy: first email under 80 words, one question",
+    "Copy: 4 to 7 emails in the sequence",
+    "Only hit send when all four boxes are checked"
+   ]
+  },
+  {
+   "type": "prompt",
+   "label": "AI prompt: find your weakest piece",
+   "text": "I run cold email for my business. Here's my setup:\nOffer: [your offer sentence]\nList: [who is on it and how many people]\nSetup: [domains, inboxes, SPF/DKIM/DMARC, warm-up time]\nCopy: [paste email 1]\nResults: [emails sent, replies, bounces]\n\nUsing the four pieces (offer, list, setup, copy), tell me which piece is most likely broken, why, and the first 3 things to fix. Keep it simple."
+  }
+ ],
+ "resources": [
+  {
+   "name": "Instantly 2026 benchmark report",
+   "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+   "note": "Reply benchmarks, email length and follow-up data"
+  },
+  {
+   "name": "Hunter: State of Email Outreach 2026",
+   "url": "https://hunter.io/the-state-of-cold-email",
+   "note": "List size, bounce and domain data from 31 million emails"
+  },
+  {
+   "name": "Google email sender guidelines",
+   "url": "https://support.google.com/mail/answer/81126",
+   "note": "The official SPF, DKIM and DMARC rules"
+  },
+  {
+   "name": "DNS records for cold email",
+   "url": "https://wayneflow.com/blog/dns-records-for-cold-email.html",
+   "note": "The exact SPF, DKIM and DMARC values"
+  },
+  {
+   "name": "Free cold email playbook",
+   "url": "https://wayneflow.com/free-cold-email-playbook.html",
+   "note": "35 pages, the full system"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Which piece should I fix first?",
+   "a": "The offer. It decides who goes on the list and what the email says. Then the list, then the setup, then the copy."
+  },
+  {
+   "q": "My copy is good but I get no replies. Why?",
+   "a": "Usually the setup. If emails land in spam, nobody sees them. Check SPF, DKIM, DMARC and warm-up first."
+  },
+  {
+   "q": "How big should my list be?",
+   "a": "Start small and focused. Hunter found sequences with 21 to 50 recipients got 6.2% replies vs 2.4% for 500+. Split big lists into small groups of one buyer type."
+  }
+ ]
+}

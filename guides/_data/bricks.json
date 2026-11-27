@@ -1,0 +1,278 @@
+{
+ "slug": "bricks",
+ "keyword": "BRICKS",
+ "date": "2026-11-27",
+ "draft": false,
+ "instantdm": "pending",
+ "reel_status": "live on Instagram (posted without a guide file, added by the hourly checker)",
+ "title": "The 14-Day Inbox Warm-Up Checklist: One Brick a Day Before You Send",
+ "description": "The warm-up checklist from the reel: what to do on day 1, day 3, day 7 and day 14, and how to ramp up after so new inboxes stay out of spam.",
+ "lead": "This is the full warm-up checklist from the reel. A new inbox needs 14 days of steady warm-up before cold email goes out. Here's what to do each day, how to tell it's working, and how to ramp up after day 14.",
+ "insider": "Every client inbox we run gets its full warm-up before a single cold email goes out, and warm-up never turns off. That steady base is how one client sent **236,545 emails in one quarter with a 3.69% reply rate**. The checklist is the easy part. Buying the domains, watching inbox health daily and swapping tired inboxes is what we do for clients.",
+ "case": "case-04",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "Why a new inbox can't send on day one"
+  },
+  {
+   "type": "p",
+   "text": "A brand-new inbox has no history. Inbox providers don't know if it's a real person or a spammer. If it suddenly sends dozens of emails to strangers, it looks like a spammer, and your emails start going to spam."
+  },
+  {
+   "type": "p",
+   "text": "[Google's sender guidelines](https://support.google.com/mail/answer/81126) say it plainly: start with a low sending volume and increase it slowly over time, and avoid sudden volume spikes if you don't have a history of sending. Warm-up builds that history."
+  },
+  {
+   "type": "p",
+   "text": "**What warm-up is:** a tool sends and receives normal-looking emails between your inbox and a network of other real inboxes. They get opened, replied to and moved out of spam. Over time, providers learn your inbox is real. Tools like [Instantly](https://instantly.ai/email-warmup) and [Smartlead](https://www.smartlead.ai) do it automatically."
+  },
+  {
+   "type": "h2",
+   "text": "Before day 1: lay the foundation"
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Use a separate sending domain, never your main business domain.",
+    "Add SPF, DKIM and DMARC on the domain. Our [DNS records guide](/blog/dns-records-for-cold-email.html) has the values.",
+    "Fill in the inbox profile: real first and last name and a profile photo.",
+    "Point the sending domain to your real website.",
+    "Connect the inbox to your sending tool and turn warm-up on."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "The 14-day brick plan"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Days",
+    "What happens",
+    "Your job"
+   ],
+   "rows": [
+    [
+     "Day 1",
+     "Warm-up starts with a few emails a day",
+     "Check SPF, DKIM and DMARC pass in a DNS checker"
+    ],
+    [
+     "Days 2–3",
+     "Warm-up volume rises slowly",
+     "Send 2–3 normal emails by hand to people you know"
+    ],
+    [
+     "Days 4–7",
+     "The wall is still short. This is normal",
+     "Don't send cold email yet. Check warm-up emails land in the inbox"
+    ],
+    [
+     "Days 8–10",
+     "Steady daily activity builds history",
+     "Set up Google Postmaster Tools for the domain"
+    ],
+    [
+     "Days 11–14",
+     "History looks normal and steady",
+     "Check the warm-up health score in your tool"
+    ],
+    [
+     "Day 15+",
+     "The wall holds",
+     "Start cold email slowly. Keep warm-up on"
+    ]
+   ]
+  },
+  {
+   "type": "tip",
+   "label": "Week one feels slow",
+   "text": "Nothing exciting happens in week one. That's the point. Every steady day is a brick that holds up the next one."
+  },
+  {
+   "type": "h2",
+   "text": "After day 14: ramp up, don't jump"
+  },
+  {
+   "type": "p",
+   "text": "Day 14 is when you can start, not when you go full speed. [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) recommends starting at **5 to 10 emails a day**, then building up over **4 to 6 weeks**."
+  },
+  {
+   "type": "table",
+   "head": [
+    "Week",
+    "Cold emails per inbox per day",
+    "Warm-up"
+   ],
+   "rows": [
+    [
+     "1–2",
+     "0",
+     "On"
+    ],
+    [
+     "3",
+     "10",
+     "On"
+    ],
+    [
+     "4",
+     "20",
+     "On"
+    ],
+    [
+     "5+",
+     "30",
+     "On, always"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Worked example: 10 new inboxes"
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Weeks 1 and 2: warm-up only. **0 cold emails**.",
+    "Week 3: 10 inboxes × 10 = **100 cold emails a day**.",
+    "Week 4: 10 inboxes × 20 = **200 a day**.",
+    "Week 5: 10 inboxes × 30 = **300 a day**.",
+    "At 300 a day for 20 working days, that's **6,000 emails a month**, built on a base that holds."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "How to tell the wall is holding"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Warm-up emails land in the main inbox, not spam or promotions",
+    "Your tool's warm-up health score is high and steady",
+    "Bounce rate stays under 2% once you start (Instantly's guidance)",
+    "Google Postmaster Tools spam rate stays under 0.3% (Google's limit)",
+    "Replies come in, not just silence"
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Common mistakes that make the wall shaky"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Mistake",
+    "What happens",
+    "Fix"
+   ],
+   "rows": [
+    [
+     "Sending cold email on day 1",
+     "Emails go to spam fast",
+     "Wait the full 14 days"
+    ],
+    [
+     "Turning warm-up off after day 14",
+     "Reputation slowly drops",
+     "Keep warm-up on, always"
+    ],
+    [
+     "Going from 0 to 50 a day",
+     "A sudden spike looks like spam",
+     "Ramp up 10 at a time"
+    ],
+    [
+     "No SPF, DKIM or DMARC",
+     "Warm-up can't fix missing records",
+     "Add records before day 1"
+    ],
+    [
+     "Warming the main domain",
+     "Business emails start landing in spam",
+     "Use separate sending domains"
+    ],
+    [
+     "Unverified list at launch",
+     "Bounces undo the warm-up work",
+     "Verify every address first"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Daily 2-minute check during warm-up"
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Open your sending tool and check each inbox's warm-up score.",
+    "Look for any inbox with errors or a disconnect. Fix it the same day.",
+    "After day 8, glance at Google Postmaster Tools.",
+    "Write down the day number. Don't start cold email before day 15."
+   ]
+  },
+  {
+   "type": "prompt",
+   "label": "AI prompt: plan your warm-up calendar",
+   "text": "I'm setting up [number] new sending inboxes on [number] domains, starting on [date].\nMy goal is [number] cold emails a day.\n\nMake me a day-by-day calendar: 14 days of warm-up only, then a ramp of 10, 20 and 30 cold emails per inbox per day by week. Show the total emails per day for each week, and the date I reach my goal. If my inboxes can't reach the goal at 30 per inbox, tell me how many more inboxes I need."
+  },
+  {
+   "type": "tip",
+   "label": "Bottom line",
+   "text": "Fourteen days of patience protects months of sending. Lay one brick a day, then build slowly."
+  }
+ ],
+ "resources": [
+  {
+   "name": "Instantly 2026 benchmark report",
+   "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+   "note": "Recommended ramp: 5–10 a day, build over 4–6 weeks; bounces under 2%"
+  },
+  {
+   "name": "Google email sender guidelines",
+   "url": "https://support.google.com/mail/answer/81126",
+   "note": "Start low, increase slowly; spam rate under 0.3%"
+  },
+  {
+   "name": "Instantly email warm-up",
+   "url": "https://instantly.ai/email-warmup",
+   "note": "Automatic warm-up tool"
+  },
+  {
+   "name": "Smartlead",
+   "url": "https://www.smartlead.ai",
+   "note": "Sending tool with built-in warm-up"
+  },
+  {
+   "name": "Google Postmaster Tools",
+   "url": "https://postmaster.google.com",
+   "note": "Free spam rate and reputation dashboard"
+  },
+  {
+   "name": "DNS records for cold email",
+   "url": "https://wayneflow.com/blog/dns-records-for-cold-email.html",
+   "note": "The exact SPF, DKIM and DMARC values"
+  },
+  {
+   "name": "THERMO: 14-day warm-up setup",
+   "url": "https://wayneflow.com/guides/thermo.html",
+   "note": "Our other warm-up guide"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I send a few cold emails during warm-up?",
+   "a": "We don't recommend it. Give the inbox the full 14 days first, then start at about 10 a day."
+  },
+  {
+   "q": "Do I need to turn warm-up off once I start sending?",
+   "a": "No. Keep it on, always. It keeps steady, healthy activity on the inbox."
+  },
+  {
+   "q": "Is 14 days enough?",
+   "a": "It's enough to start slowly. Instantly recommends building to full volume over 4 to 6 weeks, so keep ramping after day 14."
+  }
+ ]
+}

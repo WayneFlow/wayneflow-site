@@ -1,0 +1,279 @@
+{
+ "slug": "scan",
+ "keyword": "SCAN",
+ "date": "2026-11-27",
+ "draft": false,
+ "instantdm": "pending",
+ "reel_status": "live on Instagram (posted without a guide file, added by the hourly checker)",
+ "title": "The Lead Verification Checklist: Scan Every Lead Before You Send",
+ "description": "The lead verification checklist from the reel: what to check, which results to remove, the tools to use and how to keep bounces under 2%.",
+ "lead": "This is the full lead verification checklist from the reel. Every lead gets scanned before a single email goes out. Here's what to check, what to remove, which tools to use, and the bounce rate to aim for.",
+ "insider": "Every client list we send to gets verified first. That's how one client sent **96,408 emails in 5 days with a 0.45% bounce rate** and booked 25 calls that week. The checklist is the easy part. Building the right list, cleaning it and watching bounces every day is the work we do for clients.",
+ "case": "case-03",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "Why you scan before you send"
+  },
+  {
+   "type": "p",
+   "text": "Some addresses on every list are bad: typos, people who left the company, dead inboxes. When you send to them, the email bounces. Lots of bounces tell inbox providers you don't know who you're emailing, and your sender reputation drops. Then even your good emails start landing in spam."
+  },
+  {
+   "type": "p",
+   "text": "[Hunter's 2026 report](https://hunter.io/the-state-of-cold-email), based on 31 million emails, found an average bounce rate of **3.6%**, usually caused by unverified contact data. [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) says to keep bounces **below 2%, ideally much lower**, and to verify before sending."
+  },
+  {
+   "type": "h2",
+   "text": "What a verification tool tells you"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Result",
+    "What it means",
+    "What to do"
+   ],
+   "rows": [
+    [
+     "Valid",
+     "The inbox exists and accepts email",
+     "Send"
+    ],
+    [
+     "Invalid",
+     "The address doesn't exist",
+     "Remove"
+    ],
+    [
+     "Catch-all (accept-all)",
+     "The company accepts all emails, so the tool can't confirm this one",
+     "Send only in a small, separate batch, or skip"
+    ],
+    [
+     "Unknown",
+     "The server didn't answer",
+     "Re-check later, or skip"
+    ],
+    [
+     "Disposable",
+     "A temporary address",
+     "Remove"
+    ],
+    [
+     "Role-based (info@, sales@)",
+     "A shared inbox, not a person",
+     "Remove for cold email"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Where bad leads come from"
+  },
+  {
+   "type": "p",
+   "text": "Knowing the source tells you how hard to scan. Every source has its own weak spot."
+  },
+  {
+   "type": "table",
+   "head": [
+    "Source",
+    "Common problem",
+    "How hard to scan"
+   ],
+   "rows": [
+    [
+     "Bought or downloaded lists",
+     "Old data, people who left, many catch-alls",
+     "Verify every address, spot-check titles"
+    ],
+    [
+     "Lead databases",
+     "Guessed email patterns",
+     "Verify every address"
+    ],
+    [
+     "Scraped websites",
+     "Role-based addresses like info@",
+     "Remove role-based, then verify"
+    ],
+    [
+     "Your own past contacts",
+     "Job changes over time",
+     "Re-verify if older than a few months"
+    ]
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Hunter notes that bounces usually come from unverified contact data, but they can also come from a low sender reputation or sending too fast. Scanning fixes the first cause; a proper warm-up and slow ramp fix the others."
+  },
+  {
+   "type": "h2",
+   "text": "The scan, step by step"
+  },
+  {
+   "type": "steps",
+   "items": [
+    "**Remove duplicates.** The same person twice means two emails and double the risk.",
+    "**Fix obvious typos** like gmial.com or missing dots.",
+    "**Remove role-based addresses** like info@, admin@ and support@.",
+    "**Run the full list through a verifier** like [Hunter Email Verifier](https://hunter.io/email-verifier), [NeverBounce](https://neverbounce.com), [ZeroBounce](https://www.zerobounce.net) or [Instantly's verification](https://instantly.ai/email-verification).",
+    "**Keep only valid** addresses in your main campaign.",
+    "**Put catch-all addresses aside.** If you use them, send in a small separate batch and watch bounces closely.",
+    "**Check the right person.** A valid email for the wrong job title is still a wasted send. Spot-check 20 leads on LinkedIn or the company website.",
+    "**Re-verify old lists.** If a list is more than a few months old, scan it again. People change jobs."
+   ]
+  },
+  {
+   "type": "tip",
+   "label": "Verify close to send day",
+   "text": "Verify right before a campaign starts, not months before. Lists go stale as people move jobs."
+  },
+  {
+   "type": "h2",
+   "text": "Worked example: 2,000 leads"
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Without scanning, at Hunter's 3.6% average: 2,000 × 3.6% = **72 bounces**.",
+    "Instantly's limit is under 2%: 2,000 × 2% = **40 bounces max**.",
+    "Say the scan removes 150 invalid, role-based and duplicate addresses and sets aside 100 catch-alls. You're left with **1,750 valid leads**.",
+    "Aim for under 1%: 1,750 × 1% = **under 18 bounces**. Our 5-day blitz client ran at 0.45%."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Watch bounces after launch"
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Check the bounce rate every day for the first week.",
+    "If it goes over 2%, **pause** that campaign.",
+    "Find which part of the list is bouncing (one source or one company type is usually the cause).",
+    "Re-verify, remove the bad leads and restart slowly. [Google's sender guidelines](https://support.google.com/mail/answer/81126) also say to lower volume when messages start bouncing, then increase slowly."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Common mistakes"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Mistake",
+    "What happens",
+    "Fix"
+   ],
+   "rows": [
+    [
+     "Sending to a bought list as-is",
+     "Bounces spike in the first days",
+     "Verify every address first"
+    ],
+    [
+     "Mixing catch-alls into the main list",
+     "Hidden bounces you can't predict",
+     "Keep them in a separate small batch"
+    ],
+    [
+     "Verifying once, using for a year",
+     "The list goes stale",
+     "Re-verify before each new campaign"
+    ],
+    [
+     "Keeping info@ and sales@",
+     "Low replies and more complaints",
+     "Remove role-based addresses"
+    ],
+    [
+     "Ignoring bounces after launch",
+     "Reputation keeps dropping",
+     "Pause at 2%, clean, restart"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "The lead verification checklist"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Duplicates removed",
+    "Typos fixed",
+    "Role-based and disposable addresses removed",
+    "Every address run through a verifier",
+    "Only valid addresses in the main campaign",
+    "Catch-alls in a separate small batch, or skipped",
+    "20 leads spot-checked for the right job title",
+    "Lists older than a few months re-verified",
+    "Bounce rate checked daily in week one, pause at 2%"
+   ]
+  },
+  {
+   "type": "prompt",
+   "label": "AI prompt: clean a lead list",
+   "text": "I have a lead list as a CSV with these columns: [list columns].\nMy ideal buyer is: [job title, industry, company size].\n\nGive me step-by-step instructions (Google Sheets formulas are fine) to:\n1. Remove duplicate emails.\n2. Flag role-based addresses (info@, sales@, admin@, support@, hello@).\n3. Flag rows where the job title doesn't match my buyer.\n4. Prepare the cleaned list for upload to an email verification tool.\nKeep it simple."
+  }
+ ],
+ "resources": [
+  {
+   "name": "Hunter: State of Email Outreach 2026",
+   "url": "https://hunter.io/the-state-of-cold-email",
+   "note": "Average bounce rate and causes, from 31 million emails"
+  },
+  {
+   "name": "Instantly 2026 benchmark report",
+   "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+   "note": "Keep bounces under 2%, verify before sending"
+  },
+  {
+   "name": "Google email sender guidelines",
+   "url": "https://support.google.com/mail/answer/81126",
+   "note": "Lower volume when messages bounce"
+  },
+  {
+   "name": "Hunter Email Verifier",
+   "url": "https://hunter.io/email-verifier",
+   "note": "Verification tool"
+  },
+  {
+   "name": "NeverBounce",
+   "url": "https://neverbounce.com",
+   "note": "Verification tool"
+  },
+  {
+   "name": "ZeroBounce",
+   "url": "https://www.zerobounce.net",
+   "note": "Verification tool"
+  },
+  {
+   "name": "Instantly email verification",
+   "url": "https://instantly.ai/email-verification",
+   "note": "Verification inside Instantly"
+  },
+  {
+   "name": "Free cold email playbook",
+   "url": "https://wayneflow.com/free-cold-email-playbook.html",
+   "note": "35 pages, the full system"
+  }
+ ],
+ "faq": [
+  {
+   "q": "What bounce rate is OK?",
+   "a": "Under 2%, as Instantly recommends, and lower is better. Hunter's average was 3.6%, so many unverified lists run too high."
+  },
+  {
+   "q": "Should I email catch-all addresses?",
+   "a": "Only in a small separate batch where you can watch bounces closely. If bounces rise, stop."
+  },
+  {
+   "q": "How often should I verify?",
+   "a": "Before every new campaign, and again if a list is more than a few months old."
+  }
+ ]
+}

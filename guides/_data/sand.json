@@ -1,0 +1,261 @@
+{
+ "slug": "sand",
+ "keyword": "SAND",
+ "date": "2026-11-27",
+ "draft": false,
+ "instantdm": "pending",
+ "reel_status": "live on Instagram (posted without a guide file, added by the hourly checker)",
+ "title": "The Steady Pipeline Setup Checklist: Book Sales Calls Every Week",
+ "description": "The setup checklist from the reel: the list, domains, inboxes and a weekly sending rhythm so booked calls land every week, not in bursts.",
+ "lead": "This is the full setup checklist from the reel. An empty day never comes back, so the goal is a steady flow of sales calls every week, not a panic week of outreach. Here's how to set up the list, the inboxes and the weekly rhythm that keeps calls coming.",
+ "insider": "We run client campaigns as a steady weekly flow, not in bursts. One agency client got **about 100 interested replies a week, every week, for four and a half months**, 2,146 in total. The checklist is the easy part. Building the list, keeping dozens of inboxes healthy and answering every reply is the work we do for clients.",
+ "case": "case-01",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "Why bursts don't work"
+  },
+  {
+   "type": "p",
+   "text": "Many owners notice around day ten that nothing is booked. Then they do a panic week of outreach, get busy with the new work, and stop. The next month starts empty again. That's a burst pattern, and it always leaves empty days."
+  },
+  {
+   "type": "p",
+   "text": "Bursts also hurt deliverability. [Google's sender guidelines](https://support.google.com/mail/answer/81126) warn against sudden volume spikes and say you can increase volume faster when you send **daily instead of weekly**. Steady sending is safer, and it keeps calls coming."
+  },
+  {
+   "type": "table",
+   "head": [
+    "",
+    "Burst outreach",
+    "Steady system"
+   ],
+   "rows": [
+    [
+     "When emails go out",
+     "When you remember",
+     "Every working day"
+    ],
+    [
+     "Calendar",
+     "Full one week, empty the next",
+     "Calls every week"
+    ],
+    [
+     "Inbox health",
+     "Spikes look like spam",
+     "Steady volume builds trust"
+    ],
+    [
+     "Your time",
+     "Chasing leads",
+     "Delivering the work"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Part 1: The list"
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Pick one buyer: industry, company size and job title.",
+    "Build enough leads for a full month, not just a week. (See the math below.)",
+    "Verify every address. Instantly says keep bounces **under 2%**.",
+    "Split the list into small groups of one buyer type. [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email) found sequences with 21–50 recipients got **6.2% replies vs 2.4%** for 500+."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Part 2: Domains and inboxes"
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Send from separate lookalike domains, never your main domain.",
+    "Set SPF, DKIM and DMARC on every sending domain. Our [DNS records guide](/blog/dns-records-for-cold-email.html) has the values.",
+    "Max 3 inboxes per domain, about 30 cold emails per inbox per day at full volume.",
+    "Warm up for 14 days, then ramp slowly. [Instantly's 2026 report](https://instantly.ai/cold-email-benchmark-report-2026) recommends building up over 4 to 6 weeks.",
+    "Keep 1 spare domain warming so a tired inbox never stops the flow."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Part 3: The weekly rhythm"
+  },
+  {
+   "type": "p",
+   "text": "**Why:** a steady flow needs new people entering the sequence every week, and follow-ups going out on schedule. Instantly found **42% of replies come from follow-ups** and recommends 4 to 7 touches, 3 to 4 days apart, in a Mon → Wed → Fri rhythm."
+  },
+  {
+   "type": "table",
+   "head": [
+    "Day",
+    "What happens"
+   ],
+   "rows": [
+    [
+     "Monday",
+     "New leads start email 1. Answer weekend replies first thing"
+    ],
+    [
+     "Wednesday",
+     "Follow-up 1 goes to Monday's leads. Check bounces"
+    ],
+    [
+     "Friday",
+     "Follow-up 2 goes out. Add next week's leads to the queue"
+    ],
+    [
+     "Every day",
+     "Answer every reply within a few hours and offer two meeting times"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Worked example: how many emails for a steady month"
+  },
+  {
+   "type": "p",
+   "text": "Say you send **100 cold emails a day** for 30 days and hit Instantly's average reply rate of **3.43%**."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "100 × 30 = **3,000 emails** a month.",
+    "3,000 × 3.43% = **about 103 replies**.",
+    "In our full-quarter case study, about 1 in 4 replies came from a buyer who wanted to talk (1,061 of 4,372). 103 × 24% = **about 25 interested buyers** a month.",
+    "That's about **6 interested buyers a week**, every week, instead of a burst and a gap.",
+    "Inboxes needed: 100 ÷ 30 = 3.3, round up to **4 inboxes** on **2 domains**, plus 1 spare domain."
+   ]
+  },
+  {
+   "type": "tip",
+   "label": "Use your own numbers",
+   "text": "Your reply rate and interest rate will differ. Track them for 4 weeks, then redo this math with your real numbers."
+  },
+  {
+   "type": "h2",
+   "text": "Part 4: Turning replies into calls"
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Reply fast. A buyer who wrote back today may forget you by next week.",
+    "Offer two specific times, plus a booking link.",
+    "Send a short reminder the day before the call.",
+    "Track every interested reply until it's booked or closed out."
+   ]
+  },
+  {
+   "type": "prompt",
+   "label": "Reply template for interested buyers",
+   "text": "Thanks [first name], glad this is useful.\n\nWould [day] at [time] or [day] at [time] work for a 20-minute call? Or pick any time here: [booking link]\n\n[Your name]"
+  },
+  {
+   "type": "h2",
+   "text": "Problem finder: where does the sand leak?"
+  },
+  {
+   "type": "table",
+   "head": [
+    "What you see",
+    "Leak",
+    "Fix"
+   ],
+   "rows": [
+    [
+     "Calls one week, none the next",
+     "Bursts",
+     "Daily sending with new leads every Monday"
+    ],
+    [
+     "List runs out mid-month",
+     "List too small",
+     "Build a full month of leads up front"
+    ],
+    [
+     "Replies drop after a few weeks",
+     "Inbox health",
+     "Check warm-up, bounces and spam rate; rest tired inboxes"
+    ],
+    [
+     "Replies but few calls",
+     "Slow follow-up",
+     "Answer within hours, offer two times"
+    ],
+    [
+     "Lots of \"not interested\"",
+     "Wrong buyer or weak offer",
+     "Tighter list and a clearer offer"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "The steady pipeline checklist"
+  },
+  {
+   "type": "list",
+   "items": [
+    "One buyer type picked and written down",
+    "A full month of verified leads ready",
+    "Separate sending domains with SPF, DKIM and DMARC",
+    "Inboxes warmed for 14 days, then ramped slowly",
+    "1 spare domain always warming",
+    "New leads added every week",
+    "4 to 7 touches, Mon → Wed → Fri rhythm",
+    "Every reply answered within a few hours",
+    "Weekly check: emails sent, replies, interested, calls booked"
+   ]
+  },
+  {
+   "type": "prompt",
+   "label": "AI prompt: plan your steady month",
+   "text": "I want [number] sales calls a month. My offer is [your offer] and my buyer is [job title, industry, company size].\n\nAssume a 3.43% reply rate and that 1 in 4 replies is interested. Tell me:\n1. How many emails I need to send per month and per day.\n2. How many leads I need for the month.\n3. How many inboxes (30 emails per inbox per day) and domains (3 inboxes per domain) I need, plus 1 spare.\n4. A simple weekly schedule for sending and follow-ups."
+  }
+ ],
+ "resources": [
+  {
+   "name": "Google email sender guidelines",
+   "url": "https://support.google.com/mail/answer/81126",
+   "note": "Avoid volume spikes; daily sending builds trust faster"
+  },
+  {
+   "name": "Instantly 2026 benchmark report",
+   "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+   "note": "Reply rates, follow-up share, sequence rhythm and ramp time"
+  },
+  {
+   "name": "Hunter: State of Email Outreach 2026",
+   "url": "https://hunter.io/the-state-of-cold-email",
+   "note": "List size data from 31 million emails"
+  },
+  {
+   "name": "DNS records for cold email",
+   "url": "https://wayneflow.com/blog/dns-records-for-cold-email.html",
+   "note": "The exact SPF, DKIM and DMARC values"
+  },
+  {
+   "name": "Free cold email playbook",
+   "url": "https://wayneflow.com/free-cold-email-playbook.html",
+   "note": "35 pages, the full system"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Isn't referral business enough?",
+   "a": "Referrals are great, but you can't control when they come. A steady outbound system adds calls you can plan around."
+  },
+  {
+   "q": "How long until calls come in every week?",
+   "a": "Plan for about 5 weeks to full volume: 2 weeks of warm-up, then a ramp. Replies start once sending starts."
+  },
+  {
+   "q": "How many emails do I need?",
+   "a": "Work backward from your goal. At a 3.43% reply rate, 3,000 emails a month is about 103 replies. Track your own numbers and adjust."
+  }
+ ]
+}

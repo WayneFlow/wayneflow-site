@@ -1,0 +1,229 @@
+{
+ "slug": "vault",
+ "keyword": "VAULT",
+ "date": "2026-11-27",
+ "draft": false,
+ "instantdm": "pending",
+ "reel_status": "live on Instagram (posted without a guide file, added by the hourly checker)",
+ "title": "The Offer and Email Checklist: Make the Key Fit Before You Send",
+ "description": "The offer and email checklist from the reel: a one-sentence offer test, a short email template under 80 words and a bent-key problem finder.",
+ "lead": "This is the full offer and email checklist from the reel. Your offer is the vault and your email is the key. Here's how to make the offer clear in one sentence, then write a short email that opens the door.",
+ "insider": "We test the offer on a small list before every client scales up. One small pilot reached **10,284 people with a 4% reply rate and 103 sales opportunities**. The checklist is the easy part. Building the list, testing new versions every week and answering every reply is the work we do for clients.",
+ "case": "case-05",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "Check the key before you blame the lock"
+  },
+  {
+   "type": "p",
+   "text": "When a campaign gets silence, people blame the channel. But buyers do want what's in the vault. A long, vague email just never opens the door. Fix the key first."
+  },
+  {
+   "type": "p",
+   "text": "[Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) found that the best campaigns use first emails **under 80 words**, a **single call to action** and **problem-first** positioning. The average reply rate is **3.43%**; the top quarter gets **5.5%+**."
+  },
+  {
+   "type": "h2",
+   "text": "Part 1: The offer test (the vault)"
+  },
+  {
+   "type": "p",
+   "text": "**Why:** if a stranger can't repeat your offer after one read, your email can't be clear. Every clear email starts with a clear offer."
+  },
+  {
+   "type": "prompt",
+   "label": "One-sentence offer template",
+   "text": "We help [who] get [result] in [time frame], without [the thing they hate].\n\nExample: We help accounting firms add 5 new monthly clients in 90 days, without cold calling."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "**Who:** one type of buyer. Not \"businesses\". Say \"accounting firms with 10–50 staff\".",
+    "**Result:** one thing they want, in their words. Not \"growth\". Say \"5 new monthly clients\".",
+    "**Time:** a real time frame, if you can stand behind it.",
+    "**Without:** the work or pain they want to avoid.",
+    "Read it to a stranger. If they can't repeat it, cut words and try again."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Part 2: The email (the key)"
+  },
+  {
+   "type": "p",
+   "text": "**Why short works:** a cold reader gives you a few seconds. A short key says who it's for, what they get, and asks one easy question. Nothing else."
+  },
+  {
+   "type": "prompt",
+   "label": "Email 1 template (about 60 words)",
+   "text": "Subject: [result] for [their company]\n\nHi [first name],\n\n[One problem line, e.g. \"Most firms your size rely on referrals, so some months are slow.\"]\n\nWe help [who] get [result] in [time frame], without [pain].\n\n[One real proof line, or skip it.]\n\nOpen to a quick chat next week?\n\n[Your name]"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Bent key",
+    "Fitted key"
+   ],
+   "rows": [
+    [
+     "\"I hope this email finds you well.\"",
+     "Start with their problem"
+    ],
+    [
+     "A clever, vague first line",
+     "A plain line about their world"
+    ],
+    [
+     "Three things you can do for them",
+     "One result"
+    ],
+    [
+     "\"Here's a link to our deck\"",
+     "No links or attachments in email 1"
+    ],
+    [
+     "Two or three questions",
+     "One easy question"
+    ],
+    [
+     "150+ words",
+     "Under 80 words"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Part 3: Fit the key to one lock"
+  },
+  {
+   "type": "p",
+   "text": "**Why:** the same email can't fit every buyer. [Hunter's 2026 report](https://hunter.io/the-state-of-cold-email) found sequences with **21 to 50 recipients got 6.2% replies vs 2.4%** for 500+ recipients. Hunter's advice: segment your audience and make an offer for each group."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Split your list by industry or job title.",
+    "Change the problem line and the result for each group.",
+    "Keep the rest of the email the same so you can compare."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Part 4: The follow-ups"
+  },
+  {
+   "type": "p",
+   "text": "Instantly found **58% of replies come from email 1** and **42% from follow-ups**. It recommends 4 to 7 touches, spaced 3 to 4 days apart, and making step 2 feel like a reply."
+  },
+  {
+   "type": "prompt",
+   "label": "Follow-up template (step 2)",
+   "text": "Hi [first name], quick follow-up on this.\n\nIf [result] isn't a priority right now, no problem. If it is, I can show you how we'd do it for [their company] in 15 minutes.\n\nWorth a look?"
+  },
+  {
+   "type": "h2",
+   "text": "Worked example: rewriting a bent key"
+  },
+  {
+   "type": "p",
+   "text": "**Before (bent):** \"Hi John, I hope this email finds you well. I'm reaching out because we're a leading full-service growth partner that leverages innovative strategies to help companies like yours unlock their full potential across marketing, sales and operations. I'd love to share our deck and set up a call.\" That's 48 words with no clear result."
+  },
+  {
+   "type": "p",
+   "text": "**After (fitted, 38 words):** \"Hi John, most accounting firms your size rely on referrals, so some months are slow. We help firms like yours add 5 new monthly clients in 90 days, without cold calling. Open to a quick chat next week?\""
+  },
+  {
+   "type": "h2",
+   "text": "Problem finder"
+  },
+  {
+   "type": "table",
+   "head": [
+    "What you see",
+    "Bent part",
+    "Fix"
+   ],
+   "rows": [
+    [
+     "Replies ask \"what exactly do you do?\"",
+     "Offer",
+     "Redo the one-sentence test"
+    ],
+    [
+     "\"Not interested\" from the right people",
+     "Offer result",
+     "Pick a result they care about more"
+    ],
+    [
+     "\"Wrong person\" replies",
+     "List",
+     "Tighter job titles"
+    ],
+    [
+     "Silence, even with good copy",
+     "Setup",
+     "Check SPF, DKIM, DMARC and warm-up"
+    ],
+    [
+     "Replies only after follow-ups",
+     "Email 1",
+     "Shorter, clearer first email"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "The offer and email checklist"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A stranger can repeat the offer after one read",
+    "One buyer, one result, one time frame",
+    "Email 1 starts with their problem, not with you",
+    "Email 1 is under 80 words",
+    "One question at the end, no links or attachments",
+    "Problem line changed for each group on the list",
+    "4 to 7 touches, 3 to 4 days apart",
+    "Test one change at a time on a small list"
+   ]
+  },
+  {
+   "type": "prompt",
+   "label": "AI prompt: fix your bent key",
+   "text": "Here is my offer: [your offer]\nHere is my first cold email: [paste it]\nMy buyer is: [job title, industry, company size]\n\n1. Rewrite my offer as one sentence: \"We help [who] get [result] in [time], without [pain].\"\n2. Rewrite my email in under 80 words: one problem line, the offer sentence, one easy question. No buzzwords, no links.\n3. Tell me the 3 biggest problems with my original email."
+  }
+ ],
+ "resources": [
+  {
+   "name": "Instantly 2026 benchmark report",
+   "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+   "note": "Email length, single CTA, follow-up and timing data"
+  },
+  {
+   "name": "Hunter: State of Email Outreach 2026",
+   "url": "https://hunter.io/the-state-of-cold-email",
+   "note": "List size and segmentation data from 31 million emails"
+  },
+  {
+   "name": "Free cold email playbook",
+   "url": "https://wayneflow.com/free-cold-email-playbook.html",
+   "note": "35 pages, the full system"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Should I sound clever to stand out?",
+   "a": "No. Clear beats clever. The reader should know who it's for and what they get within a few seconds."
+  },
+  {
+   "q": "Can I add a link to my website?",
+   "a": "Keep email 1 free of links and attachments. Ask one easy question instead. Share links after they reply."
+  },
+  {
+   "q": "How do I know if the offer or the email is the problem?",
+   "a": "If replies ask what you do, it's the email. If the right people understand it and say no, it's the offer."
+  }
+ ]
+}
