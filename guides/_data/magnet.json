@@ -1,0 +1,264 @@
+{
+ "slug": "magnet",
+ "keyword": "MAGNET",
+ "date": "2026-11-27",
+ "draft": false,
+ "instantdm": "pending",
+ "reel_status": "live on Instagram (posted without a guide file, added by the hourly checker)",
+ "title": "The Cold Email Targeting Checklist: Pick Who Your Offer Is For First",
+ "description": "The targeting checklist from the reel: pick the industry, company size and buying role before you write a single cold email.",
+ "lead": "This is the full setup checklist from the reel, starting with targeting. Your offer is the magnet and your list is everything in the room. Here's how to decide who it's for, who it's not for, and how to build a list that only holds good-fit leads.",
+ "insider": "Targeting is the first thing we lock in on every client campaign, before a single email is written. For one agency client, tight targeting meant **88% of replies were positive** and only 6 of 76,081 people asked to be removed. The checklist is the easy part. Building the list, running the inboxes and answering every reply is the work we do for clients.",
+ "case": "case-01",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "Why targeting comes before everything else"
+  },
+  {
+   "type": "p",
+   "text": "Picture your offer as a magnet. Your lead list is everything in the room. Some of it is steel and some of it is plastic. Send to everyone and the plastic just falls off: wrong industry, wrong company size, wrong role. Those emails get ignored, and every one of them uses up sending capacity you could have spent on a real buyer."
+  },
+  {
+   "type": "p",
+   "text": "The data backs this up. [Hunter's State of Email Outreach 2026](https://hunter.io/the-state-of-cold-email), based on 31 million emails, found the best sequences went to **21 to 50 recipients and got a 6.2% reply rate**, while the average was **4.5%**. Small groups win because you can write for one type of buyer."
+  },
+  {
+   "type": "table",
+   "head": [
+    "Targeting choice",
+    "Question it answers",
+    "If you skip it"
+   ],
+   "rows": [
+    [
+     "Industry",
+     "What kind of business is this?",
+     "Your example and your proof don't match their world"
+    ],
+    [
+     "Company size",
+     "Can they afford it and do they need it?",
+     "Too small to pay, or too big to care"
+    ],
+    [
+     "Buying role",
+     "Who signs off on this?",
+     "The email reaches someone who can't say yes"
+    ],
+    [
+     "Who it's NOT for",
+     "Who should never get the email?",
+     "Plastic stays in the list and drags results down"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Step 1: Write down who the offer is for"
+  },
+  {
+   "type": "p",
+   "text": "**Why:** you can't build a good list until you can describe the buyer in one line. If the description is vague, the list will be vague too."
+  },
+  {
+   "type": "prompt",
+   "label": "One-line buyer template",
+   "text": "Our offer is for [job title] at [industry] companies with [company size, e.g. 10-50 employees] who want [one result].\n\nExample: Our offer is for founders of IT service firms with 10-50 employees who want more sales calls without hiring an SDR."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Fill in the template above for your best customer today.",
+    "Look at your last 5 to 10 paying clients. Which industry, size and role keep showing up?",
+    "Use that pattern, not a wish list. Your past buyers are your best guide.",
+    "**Pass test:** someone on your team could build the list from this one line without asking you questions."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Step 2: Write down who it is NOT for"
+  },
+  {
+   "type": "p",
+   "text": "**Why:** this is the step most people skip. Saying no out loud keeps the plastic off the magnet. It also saves sending capacity for people who can actually buy."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "List 3 to 5 types of companies that never buy from you, or buy and churn.",
+    "Add company sizes you can't serve well (too small to pay, too large for your team).",
+    "Add job titles that like your emails but can't approve the spend.",
+    "Turn this into filters you remove from the list before you send."
+   ]
+  },
+  {
+   "type": "tip",
+   "label": "Simple rule",
+   "text": "If you'd hesitate to take them as a client, don't email them. Every email should go to someone you'd be happy to sign."
+  },
+  {
+   "type": "h2",
+   "text": "Step 3: Pick the industry, size and role filters"
+  },
+  {
+   "type": "table",
+   "head": [
+    "Filter",
+    "Good example",
+    "Too loose"
+   ],
+   "rows": [
+    [
+     "Industry",
+     "IT services, managed service providers",
+     "\"B2B companies\""
+    ],
+    [
+     "Company size",
+     "10-50 employees",
+     "\"Small and medium businesses\""
+    ],
+    [
+     "Role",
+     "Founder, CEO, Head of Sales",
+     "\"Decision makers\""
+    ],
+    [
+     "Location",
+     "US and Canada",
+     "\"Worldwide\""
+    ]
+   ]
+  },
+  {
+   "type": "p",
+   "text": "**How:** put these exact filters into your lead source. If the tool can't filter on one of them, check that field by hand on a sample of 20 leads before you trust the list."
+  },
+  {
+   "type": "h2",
+   "text": "Step 4: Build one list per buyer type"
+  },
+  {
+   "type": "p",
+   "text": "**Why:** if a list mixes two kinds of buyers, the email fits neither of them well. Hunter's data shows small, focused sequences beat big mixed ones (6.2% vs the 4.5% average)."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "If you sell to two industries, make two lists and two campaigns.",
+    "Write the first line of each email for that one group only.",
+    "Verify every email address before sending, so bounces don't hurt your inboxes.",
+    "**Pass test:** you can describe everyone on the list in one sentence."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Worked example: steel vs plastic"
+  },
+  {
+   "type": "p",
+   "text": "Say you have **2,000 leads** and you plan to send to all of them. You check a sample of 100 and find **40 are a bad fit** (wrong industry, wrong size or wrong role). That's 40% plastic."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "2,000 × 40% = **800 emails** going to people who can't buy.",
+    "Remove them and you keep **1,200 good-fit leads**.",
+    "At Hunter's 4.5% average reply rate, 1,200 × 4.5% = **54 replies**, and every one of them is from someone who fits.",
+    "The 800 emails you didn't send are capacity you can use on the next 800 good-fit leads instead."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Problem finder: is targeting your problem?"
+  },
+  {
+   "type": "table",
+   "head": [
+    "What you see",
+    "Likely cause",
+    "First fix"
+   ],
+   "rows": [
+    [
+     "Lots of \"not the right person\" replies",
+     "Role filter too loose",
+     "Tighten job titles to the buyer, not the user"
+    ],
+    [
+     "\"We're too small for this\"",
+     "Company size off",
+     "Raise the minimum employee count"
+    ],
+    [
+     "\"We don't do that here\"",
+     "Wrong industry",
+     "Remove that industry or give it its own campaign"
+    ],
+    [
+     "Replies are polite but nobody books",
+     "Buyer can't approve the spend",
+     "Email the person who owns the budget"
+    ],
+    [
+     "Many unsubscribes",
+     "Email doesn't fit the reader",
+     "Smaller list, one buyer type, rewrite line one"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "The targeting checklist"
+  },
+  {
+   "type": "list",
+   "items": [
+    "One line: who the offer is for (role, industry, size, result)",
+    "A written \"not for\" list of industries, sizes and roles",
+    "Exact filters set in your lead source",
+    "20-lead sample checked by hand",
+    "One list and one campaign per buyer type",
+    "Every address verified before sending",
+    "Only then write the email"
+   ]
+  },
+  {
+   "type": "prompt",
+   "label": "AI prompt: sharpen your targeting",
+   "text": "I sell [your offer] for [price range]. My last 5 clients were:\n1. [industry, company size, buyer's job title]\n2. ...\n\nBased on this, write:\n1. A one-line description of who my offer is for.\n2. A list of 5 types of companies or roles it is NOT for.\n3. The exact filters (industry, employee count, job titles, location) I should use to build my lead list.\nKeep it simple and specific."
+  }
+ ],
+ "resources": [
+  {
+   "name": "Hunter: State of Email Outreach 2026",
+   "url": "https://hunter.io/the-state-of-cold-email",
+   "note": "Reply rates by list size, from 31 million emails"
+  },
+  {
+   "name": "Instantly 2026 benchmark report",
+   "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+   "note": "Average reply rate and follow-up data"
+  },
+  {
+   "name": "Free cold email playbook",
+   "url": "https://wayneflow.com/free-cold-email-playbook.html",
+   "note": "35 pages, the full system"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Isn't a bigger list always better?",
+   "a": "No. A bigger list with bad-fit leads just means more ignored emails. Hunter found the best sequences went to 21 to 50 people and got a 6.2% reply rate."
+  },
+  {
+   "q": "What if I sell to many industries?",
+   "a": "Pick the one where you have the best results and start there. Then give each other industry its own list and its own email."
+  },
+  {
+   "q": "Should I target the CEO or the person who uses the product?",
+   "a": "Target the person who owns the budget for the problem you solve. In small companies that's often the founder. In bigger ones it's usually the department head."
+  }
+ ]
+}

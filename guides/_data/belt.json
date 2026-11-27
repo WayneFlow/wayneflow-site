@@ -1,0 +1,275 @@
+{
+ "slug": "belt",
+ "keyword": "BELT",
+ "date": "2026-11-27",
+ "draft": false,
+ "instantdm": "pending",
+ "reel_status": "live on Instagram (posted without a guide file, added by the hourly checker)",
+ "title": "The Always-On Cold Email Setup Checklist: Send Every Day, Not in Bursts",
+ "description": "The setup checklist from the reel: build a cold email system that sends a steady number of emails every day, even when you're busy.",
+ "lead": "This is the full setup checklist from the reel. A cold email system should work like a conveyor belt: a steady number of emails every day, not a big batch once a week. Here's how to build the belt once and keep it moving.",
+ "insider": "We run every client campaign as a steady daily belt, not in bursts. Over one full quarter that steady sending produced **1,061 interested leads from 236,545 emails** at a 3.69% reply rate. The checklist is the easy part. Building the list, running the inboxes and answering every reply is the work we do for clients.",
+ "case": "case-04",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "Why bursts don't work"
+  },
+  {
+   "type": "p",
+   "text": "Most people send cold email in bursts. They write a batch, hit send, then forget about it for a week. That creates two problems. First, your pipeline goes up and down: a busy week of replies, then nothing. Second, sudden spikes in volume look bad to inbox providers. [Google's sender guidelines](https://support.google.com/mail/answer/81126) tell senders to increase volume slowly and avoid sudden jumps."
+  },
+  {
+   "type": "p",
+   "text": "A belt fixes both. A steady number of emails goes out every day, so replies come in every day. You build it once, then it keeps moving while you do your real work."
+  },
+  {
+   "type": "table",
+   "head": [
+    "",
+    "Bursts",
+    "Belt"
+   ],
+   "rows": [
+    [
+     "Sending",
+     "A big batch when you remember",
+     "The same amount every weekday"
+    ],
+    [
+     "Replies",
+     "Spikes, then silence",
+     "A steady flow"
+    ],
+    [
+     "Inbox health",
+     "Sudden volume jumps",
+     "Smooth, predictable volume"
+    ],
+    [
+     "Your time",
+     "Pushing each batch by hand",
+     "Set up once, check daily"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Step 1: Do the daily math"
+  },
+  {
+   "type": "p",
+   "text": "**Why:** you can't build a belt without knowing how much it needs to carry each day. Start from your monthly target and work backward."
+  },
+  {
+   "type": "prompt",
+   "label": "Daily sending formula",
+   "text": "Emails per month ÷ sending days per month = emails per day\nEmails per day ÷ emails per inbox per day = inboxes you need\n\nExample from the reel: 12,000 ÷ 30 = 400 emails a day."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Pick a monthly number you can keep up for months, not weeks.",
+    "Decide if you send every day or weekdays only. 12,000 over 30 days is 400 a day. Over about 22 weekdays it's about 545 a day.",
+    "Pick a low number per inbox and divide. Example: 400 a day ÷ 20 per inbox = **20 inboxes**.",
+    "**Pass test:** you can say your daily number and how many inboxes carry it."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Step 2: Build the belt (the setup)"
+  },
+  {
+   "type": "p",
+   "text": "**Why:** the belt only moves if emails reach the inbox. That depends on the setup, not the copy."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Buy separate sending domains. Never send cold email from your main business domain.",
+    "Set SPF, DKIM and DMARC on every sending domain. Google requires these for bulk senders. Our [DNS records guide](/blog/dns-records-for-cold-email.html) has the values.",
+    "Create the inboxes you calculated in Step 1. Stay well under the provider's daily limits: Google Workspace caps a user at [2,000 messages a day](https://knowledge.workspace.google.com/admin/gmail/gmail-sending-limits-in-google-workspace), and cold email should run far below that.",
+    "Warm up every new inbox for at least 2 weeks before the first cold email, then ramp up slowly.",
+    "**Pass test:** all records check out in a DNS checker and every inbox has finished warm-up."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Step 3: Load the belt (the list)"
+  },
+  {
+   "type": "p",
+   "text": "**Why:** a belt that runs out of leads stops. At 400 a day you need about 12,000 leads a month, counting only first emails."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Build at least one month of verified leads before you start.",
+    "Add new leads every week so the belt never runs empty.",
+    "Keep one buyer type per campaign. [Hunter](https://hunter.io/the-state-of-cold-email) found small, focused sequences got a **6.2% reply rate** vs a **4.5%** average.",
+    "Verify every address so bounces don't damage your inboxes."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Step 4: Set the schedule and the follow-ups"
+  },
+  {
+   "type": "p",
+   "text": "**Why:** follow-ups are a big part of the belt. [Instantly's 2026 benchmark report](https://instantly.ai/cold-email-benchmark-report-2026) found **42% of replies come from follow-up emails**, not the first one."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "Set a sending window in your tool, e.g. weekdays during the buyer's business hours.",
+    "Set a daily limit per inbox so the tool spreads emails out evenly.",
+    "Write a sequence of 4 to 7 emails with a few days between each step.",
+    "Turn on auto-stop when someone replies, so nobody gets a follow-up after answering."
+   ]
+  },
+  {
+   "type": "tip",
+   "label": "Remember",
+   "text": "The belt includes follow-ups. Your daily number covers first emails and follow-ups together, so plan inbox capacity for both."
+  },
+  {
+   "type": "h2",
+   "text": "Step 5: Check the belt daily (10 minutes)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Did today's emails go out? Check the sent count against your daily number.",
+    "Any bounces? Keep the bounce rate low. If it climbs, pause and verify the list.",
+    "Any inbox with errors or disconnected? Fix it the same day.",
+    "Any replies? Answer interested buyers fast.",
+    "Leads left in the campaign: at least 2 weeks' worth?"
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Worked example: what a steady belt carries"
+  },
+  {
+   "type": "p",
+   "text": "Say your belt sends **400 emails a day for 30 days**, which is **12,000 emails** a month."
+  },
+  {
+   "type": "steps",
+   "items": [
+    "At Instantly's average reply rate of **3.43%**: 12,000 × 3.43% = **about 412 replies** a month.",
+    "That's about 412 ÷ 30 = **14 replies a day**, landing while you work.",
+    "In our full-quarter case study, about 1 in 4 replies came from a buyer who wanted to talk (1,061 of 4,372).",
+    "412 × 24% = **about 99 interested buyers** a month, if your results match those averages."
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Problem finder: why the belt stopped"
+  },
+  {
+   "type": "table",
+   "head": [
+    "What you see",
+    "Likely cause",
+    "First fix"
+   ],
+   "rows": [
+    [
+     "Sent count lower than planned",
+     "Inboxes disconnected or limits too low",
+     "Reconnect inboxes, check daily limits"
+    ],
+    [
+     "Campaign stopped sending",
+     "Ran out of leads",
+     "Add a new batch of verified leads"
+    ],
+    [
+     "Replies dropped suddenly",
+     "Emails landing in spam",
+     "Check DNS records, slow down, warm up again"
+    ],
+    [
+     "Bounce rate climbing",
+     "Old or unverified list",
+     "Pause and verify the list"
+    ],
+    [
+     "Replies come in but nobody books",
+     "Slow answers",
+     "Reply within hours and offer two meeting times"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "The always-on setup checklist"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Monthly target and daily number written down",
+    "Inbox count calculated from the daily number",
+    "Separate sending domains, never the main domain",
+    "SPF, DKIM and DMARC on every sending domain",
+    "Every inbox warmed up for 2+ weeks",
+    "One month of verified leads loaded, more added weekly",
+    "Sending window and per-inbox daily limits set",
+    "4 to 7 email sequence with auto-stop on reply",
+    "10-minute daily check on the calendar"
+   ]
+  },
+  {
+   "type": "prompt",
+   "label": "AI prompt: plan your belt",
+   "text": "I want to send [number] cold emails a month to [type of buyer].\nI send on [every day / weekdays only].\nI have [number] sending inboxes right now.\n\nWork out:\n1. How many emails a day I need to send.\n2. How many inboxes I need if each sends a low, safe number per day.\n3. How many new verified leads I need each week to keep the campaign full.\n4. A simple 10-minute daily checklist.\nShow the math step by step."
+  }
+ ],
+ "resources": [
+  {
+   "name": "Hunter: State of Email Outreach 2026",
+   "url": "https://hunter.io/the-state-of-cold-email",
+   "note": "Reply rates by list size, from 31 million emails"
+  },
+  {
+   "name": "Instantly 2026 benchmark report",
+   "url": "https://instantly.ai/cold-email-benchmark-report-2026",
+   "note": "Average reply rate and follow-up data"
+  },
+  {
+   "name": "Google email sender guidelines",
+   "url": "https://support.google.com/mail/answer/81126",
+   "note": "The official SPF, DKIM and DMARC rules"
+  },
+  {
+   "name": "Gmail sending limits in Google Workspace",
+   "url": "https://knowledge.workspace.google.com/admin/gmail/gmail-sending-limits-in-google-workspace",
+   "note": "Daily sending limits per user"
+  },
+  {
+   "name": "DNS records for cold email",
+   "url": "https://wayneflow.com/blog/dns-records-for-cold-email.html",
+   "note": "The exact SPF, DKIM and DMARC values"
+  },
+  {
+   "name": "Free cold email playbook",
+   "url": "https://wayneflow.com/free-cold-email-playbook.html",
+   "note": "35 pages, the full system"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I just send more emails from one inbox?",
+   "a": "No. Spread the volume across several inboxes and keep each one low. Big volume from one inbox is how you end up in spam."
+  },
+  {
+   "q": "Should I send on weekends?",
+   "a": "Most B2B senders stick to weekdays, when buyers read work email. If you do, your daily number goes up, since the same monthly total is spread over fewer days."
+  },
+  {
+   "q": "How long before the belt is ready?",
+   "a": "Plan for about two weeks of warm-up after your domains and inboxes are set up. Use that time to build and verify your first month of leads."
+  }
+ ]
+}
